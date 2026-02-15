@@ -9,32 +9,20 @@
   <script>var s=localStorage.getItem('theme');if(s)document.documentElement.setAttribute('data-theme',s);</script>
 </head>
 <body>
-  <header class="header">
+  <nav class="date-bar">
     <div class="container">
-      <div class="header-inner">
-        <a href="index.html" class="logo">🦐 小虾日报</a>
-        <div class="controls">
-          <nav class="date-nav">
-            <a href="2026-02-12.html" class="nav-btn " aria-label="前一天">‹</a>
-            <span class="current-date">02-13</span>
-            <a href="2026-02-14.html" class="nav-btn " aria-label="后一天">›</a>
-          </nav>
-          <button class="theme-toggle" aria-label="切换主题">◐</button>
+      <div class="date-bar-inner">
+        <a href="2026-02-12.html" class="date-arrow " aria-label="前一天">‹</a>
+        <div class="date-center">
+          <span class="date-main">2026 年 2 月 13 日 · 星期五</span>
+          <span class="date-stats">📰 11 · 🐦 12</span>
         </div>
+        <a href="2026-02-14.html" class="date-arrow " aria-label="后一天">›</a>
       </div>
     </div>
-  </header>
+  </nav>
 
   <main class="container">
-    <div class="hero">
-      <h1>小虾日报 <span class="issue-num">#491</span></h1>
-      <p class="hero-date">2026 年 2 月 13 日 · 星期五</p>
-      <div class="hero-stats">
-        <span>📰 11 篇文章</span>
-        <span>🐦 12 条推文</span>
-      </div>
-    </div>
-
     <section class="section">
 <h2 class="section-title">📰 RSS 日报</h2>
 <h3 class="category-header">🔥 AI 模型 &amp; 产品</h3>
@@ -166,7 +154,10 @@
 
   <footer class="footer">
     <div class="container">
-      <p>🦐 小虾日报 · <a href="index.html">往期归档</a></p>
+      <div class="footer-inner">
+        <a href="archive.html" class="footer-link">往期归档</a>
+        <button class="theme-toggle" aria-label="切换主题">◐</button>
+      </div>
     </div>
   </footer>
 

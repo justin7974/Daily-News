@@ -9,32 +9,20 @@
   <script>var s=localStorage.getItem('theme');if(s)document.documentElement.setAttribute('data-theme',s);</script>
 </head>
 <body>
-  <header class="header">
+  <nav class="date-bar">
     <div class="container">
-      <div class="header-inner">
-        <a href="index.html" class="logo">🦐 小虾日报</a>
-        <div class="controls">
-          <nav class="date-nav">
-            <a href="{{PREV_LINK}}" class="nav-btn {{PREV_DISABLED}}" aria-label="前一天">‹</a>
-            <span class="current-date">{{DATE_SHORT}}</span>
-            <a href="{{NEXT_LINK}}" class="nav-btn {{NEXT_DISABLED}}" aria-label="后一天">›</a>
-          </nav>
-          <button class="theme-toggle" aria-label="切换主题">◐</button>
+      <div class="date-bar-inner">
+        <a href="{{PREV_LINK}}" class="date-arrow {{PREV_DISABLED}}" aria-label="前一天">‹</a>
+        <div class="date-center">
+          <span class="date-main">{{DATE_DISPLAY}}</span>
+          <span class="date-stats">📰 {{RSS_COUNT}} · 🐦 {{TWEET_COUNT}}</span>
         </div>
+        <a href="{{NEXT_LINK}}" class="date-arrow {{NEXT_DISABLED}}" aria-label="后一天">›</a>
       </div>
     </div>
-  </header>
+  </nav>
 
   <main class="container">
-    <div class="hero">
-      <h1>小虾日报 <span class="issue-num">#{{ISSUE_NUMBER}}</span></h1>
-      <p class="hero-date">{{DATE_DISPLAY}}</p>
-      <div class="hero-stats">
-        <span>📰 {{RSS_COUNT}} 篇文章</span>
-        <span>🐦 {{TWEET_COUNT}} 条推文</span>
-      </div>
-    </div>
-
     {{RSS_SECTION}}
 
     {{TWITTER_SECTION}}
@@ -42,7 +30,10 @@
 
   <footer class="footer">
     <div class="container">
-      <p>🦐 小虾日报 · <a href="index.html">往期归档</a></p>
+      <div class="footer-inner">
+        <a href="archive.html" class="footer-link">往期归档</a>
+        <button class="theme-toggle" aria-label="切换主题">◐</button>
+      </div>
     </div>
   </footer>
 

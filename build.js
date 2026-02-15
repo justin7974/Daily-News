@@ -647,6 +647,12 @@ function build() {
     console.log(`  ✓ ${data.date}.html (${data.rssCount} RSS, ${data.tweetCount} tweets)`);
   }
 
+  // index.html = 最新一天的内容（复制最新日期页面）
+  const latest = issues[issues.length - 1];
+  const latestHtml = fs.readFileSync(path.join(DIST_DIR, `${latest.date}.html`), 'utf-8');
+  fs.writeFileSync(path.join(DIST_DIR, 'index.html'), latestHtml);
+  console.log(`  ✓ index.html → ${latest.date}`);
+
   // 生成归档页
   const archiveItems = issues.slice().reverse().map(data => {
     return `<a href="${data.date}.html" class="archive-item">
@@ -657,9 +663,9 @@ function build() {
 </a>`;
   }).join('\n');
 
-  const indexHtml = indexTemplate.replace('{{ARCHIVE_ITEMS}}', archiveItems);
-  fs.writeFileSync(path.join(DIST_DIR, 'index.html'), indexHtml);
-  console.log(`  ✓ index.html (${issues.length} issues)`);
+  const archiveHtml = indexTemplate.replace('{{ARCHIVE_ITEMS}}', archiveItems);
+  fs.writeFileSync(path.join(DIST_DIR, 'archive.html'), archiveHtml);
+  console.log(`  ✓ archive.html (${issues.length} issues)`);
 
   // 复制静态文件
   for (const file of fs.readdirSync(STATIC_DIR)) {

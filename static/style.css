@@ -116,8 +116,8 @@ a:active {
   }
 }
 
-/* ===== 头部 ===== */
-.header {
+/* ===== 日期导航栏 ===== */
+.date-bar {
   position: sticky;
   top: 0;
   z-index: 100;
@@ -127,111 +127,70 @@ a:active {
   border-bottom: 1px solid var(--border);
 }
 
-.header-inner {
+.date-bar-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 52px;
+  padding: 12px 0;
 }
 
-.logo {
-  font-size: 1.067rem;
+.date-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.date-main {
+  font-size: 1.133rem;
   font-weight: 700;
   color: var(--text);
-  text-decoration: none;
-  white-space: nowrap;
 }
 
-.controls {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+.date-stats {
+  font-size: 0.733rem;
+  color: var(--text-muted);
 }
 
-.date-nav {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.nav-btn {
+.date-arrow {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
-  border-radius: 8px;
-  color: var(--text-secondary);
-  font-size: 1.1rem;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  color: var(--text);
+  font-size: 1.6rem;
   text-decoration: none;
-  transition: background 0.15s;
+  font-weight: 300;
 }
 
-.nav-btn:active {
+.date-arrow:active {
   background: var(--bg-section);
 }
 
-.nav-btn.disabled {
-  opacity: 0.25;
+.date-arrow.disabled {
+  opacity: 0.2;
   pointer-events: none;
 }
 
-.current-date {
-  font-size: 0.867rem;
-  font-weight: 600;
-  color: var(--text);
-  padding: 0 4px;
-  min-width: 76px;
-  text-align: center;
-}
-
+/* ===== 主题切换（底部） ===== */
 .theme-toggle {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
-  border: none;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--border);
   border-radius: 8px;
   background: transparent;
-  color: var(--text-secondary);
+  color: var(--text-muted);
   font-size: 1.1rem;
   cursor: pointer;
 }
 
 .theme-toggle:active {
   background: var(--bg-section);
-}
-
-/* ===== Hero ===== */
-.hero {
-  padding: 24px 0 20px;
-}
-
-.hero h1 {
-  font-size: 1.6rem;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-  line-height: 1.2;
-}
-
-.issue-num {
-  color: var(--text-muted);
-  font-weight: 600;
-}
-
-.hero-date {
-  color: var(--text-secondary);
-  font-size: 0.867rem;
-  margin-top: 4px;
-}
-
-.hero-stats {
-  display: flex;
-  gap: 16px;
-  margin-top: 12px;
-  font-size: 0.8rem;
-  color: var(--text-muted);
 }
 
 /* ===== Section ===== */
@@ -374,6 +333,17 @@ a:active {
   padding: 24px 0;
   border-top: 1px solid var(--border);
   margin-top: 16px;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-link {
+  font-size: 0.867rem;
+  color: var(--text-muted);
 }
 
 .footer p {
