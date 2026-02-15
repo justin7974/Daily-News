@@ -5,7 +5,7 @@ const { marked } = require('marked');
 const CONTENT_DIR = path.join(__dirname, 'content');
 const TEMPLATE_DIR = path.join(__dirname, 'templates');
 const STATIC_DIR = path.join(__dirname, 'static');
-const DIST_DIR = path.join(__dirname, 'dist');
+const DIST_DIR = path.join(__dirname, 'docs');
 
 // ===== 工具函数 =====
 
