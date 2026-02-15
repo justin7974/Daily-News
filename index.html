@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Daily | 科技日报</title>
+    <style>
+        /* ===== 设计系统 ===== */
+        :root {
+            /* 配色方案 - 方案一：经典极简 */
+            --bg-primary: #FAFAFA;
+            --bg-secondary: #FFFFFF;
+            --bg-tertiary: #F5F5F5;
+            --text-primary: #1A1A1A;
+            --text-secondary: #666666;
+            --text-tertiary: #999999;
+            --accent: #2563EB;
+            --accent-light: #EFF6FF;
+            --border: #E5E5E5;
+            --border-light: #F0F0F0;
+            --shadow: 0 1px 3px rgba(0,0,0,0.04);
+            --shadow-hover: 0 4px 12px rgba(0,0,0,0.08);
+            
+            /* 字体 */
+            --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            --font-mono: "SF Mono", Monaco, "Cascadia Code", monospace;
+            
+            /* 间距 */
+            --space-xs: 0.25rem;
+            --space-sm: 0.5rem;
+            --space-md: 1rem;
+            --space-lg: 1.5rem;
+            --space-xl: 2rem;
+            --space-2xl: 3rem;
+            
+            /* 圆角 */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 16px;
+        }
+
+        /* 方案二：深色现代 - 通过添加 .theme-dark 类切换 */
+        .theme-dark {
+            --bg-primary: #0A0A0A;
+            --bg-secondary: #141414;
+            --bg-tertiary: #1A1A1A;
+            --text-primary: #FAFAFA;
+            --text-secondary: #A0A0A0;
+            --text-tertiary: #666666;
+            --accent: #3B82F6;
+            --accent-light: rgba(59, 130, 246, 0.15);
+            --border: #2A2A2A;
+            --border-light: #1F1F1F;
+            --shadow: 0 1px 3px rgba(0,0,0,0.3);
+            --shadow-hover: 0 4px 12px rgba(0,0,0,0.4);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* ===== 头部 ===== */
+        .header {
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+
+        .header-content {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: var(--space-md) var(--space-lg);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+
+        .brand-icon {
+            width: 36px;
+            height: 36px;
+            background: var(--accent);
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: white;
+            font-size: 14px;
+        }
+
+        .brand-text {
+            font-weight: 700;
+            font-size: 1.125rem;
+            letter-spacing: -0.02em;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: var(--space-sm);
+        }
+
+        .icon-btn {
+            width: 36px;
+            height: 36px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border);
+            background: transparent;
+            color: var(--text-secondary);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+        }
+
+        .icon-btn:hover {
+            background: var(--bg-tertiary);
+            color: var(--text-primary);
+        }
+
+        /* ===== 日期头部 ===== */
+        .date-header {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: var(--space-xl) var(--space-lg) var(--space-lg);
+            text-align: center;
+        }
+
+        .date-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-tertiary);
+            margin-bottom: var(--space-xs);
+        }
+
+        .date-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            color: var(--text-primary);
+        }
+
+        .date-subtitle {
+            font-size: 0.9375rem;
+            color: var(--text-secondary);
+            margin-top: var(--space-xs);
+        }
+
+        /* ===== 导航标签 ===== */
+        .nav-tabs {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 0 var(--space-lg) var(--space-lg);
+            display: flex;
+            gap: var(--space-sm);
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+        }
+
+        .nav-tabs::-webkit-scrollbar {
+            display: none;
+        }
+
+        .nav-tab {
+            padding: var(--space-sm) var(--space-md);
+            border-radius: 100px;
+            border: 1px solid var(--border);
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            font-weight: 500;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.2s ease;
+        }
+
+        .nav-tab:hover {
+            border-color: var(--text-tertiary);
+            color: var(--text-primary);
+        }
+
+        .nav-tab.active {
+            background: var(--text-primary);
+            border-color: var(--text-primary);
+            color: var(--bg-secondary);
+        }
+
+        /* ===== 主内容区 ===== */
+        .main {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 0 var(--space-lg) var(--space-2xl);
+        }
+
+        /* ===== 板块 ===== */
+        .section {
+            margin-bottom: var(--space-2xl);
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: var(--space-lg);
+            padding-bottom: var(--space-md);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+            font-size: 1.125rem;
+            font-weight: 700;
+        }
+
+        .section-icon {
+            width: 28px;
+            height: 28px;
+            border-radius: var(--radius-sm);
+            background: var(--accent-light);
+            color: var(--accent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+        }
+
+        .section-count {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--text-tertiary);
+            background: var(--bg-tertiary);
+            padding: var(--space-xs) var(--space-sm);
+            border-radius: 100px;
+        }
+
+        /* ===== 文章卡片 ===== */
+        .article-list {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-md);
+        }
+
+        .article-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-lg);
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .article-card:hover {
+            box-shadow: var(--shadow-hover);
+            border-color: var(--text-tertiary);
+            transform: translateY(-1px);
+        }
+
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+            margin-bottom: var(--space-sm);
+            flex-wrap: wrap;
+        }
+
+        .article-source {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .article-tag {
+            font-size: 0.6875rem;
+            font-weight: 500;
+            color: var(--text-tertiary);
+            background: var(--bg-tertiary);
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+
+        .article-time {
+            font-size: 0.75rem;
+            color: var(--text-tertiary);
+            margin-left: auto;
+        }
+
+        .article-title {
+            font-size: 1.0625rem;
+            font-weight: 600;
+            line-height: 1.4;
+            color: var(--text-primary);
+            margin-bottom: var(--space-sm);
+        }
+
+        .article-title a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .article-title a:hover {
+            color: var(--accent);
+        }
+
+        .article-summary {
+            font-size: 0.9375rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .article-footer {
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+            margin-top: var(--space-md);
+            padding-top: var(--space-md);
+            border-top: 1px solid var(--border-light);
+        }
+
+        .article-link {
+            font-size: 0.8125rem;
+            font-weight: 500;
+            color: var(--accent);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .article-link:hover {
+            text-decoration: underline;
+        }
+
+        /* ===== Twitter 卡片特殊样式 ===== */
+        .tweet-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-lg);
+            transition: all 0.2s ease;
+        }
+
+        .tweet-card:hover {
+            box-shadow: var(--shadow-hover);
+        }
+
+        .tweet-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+            margin-bottom: var(--space-md);
+        }
+
+        .tweet-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent), #8B5CF6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+
+        .tweet-author {
+            flex: 1;
+        }
+
+        .tweet-name {
+            font-weight: 600;
+            font-size: 0.9375rem;
+            color: var(--text-primary);
+        }
+
+        .tweet-handle {
+            font-size: 0.8125rem;
+            color: var(--text-tertiary);
+        }
+
+        .tweet-category {
+            font-size: 0.6875rem;
+            font-weight: 600;
+            color: var(--accent);
+            background: var(--accent-light);
+            padding: 4px 10px;
+            border-radius: 100px;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+
+        .tweet-content {
+            font-size: 0.9375rem;
+            line-height: 1.7;
+            color: var(--text-primary);
+            margin-bottom: var(--space-md);
+        }
+
+        .tweet-translate {
+            font-size: 0.9375rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+            padding: var(--space-md);
+            background: var(--bg-tertiary);
+            border-radius: var(--radius-sm);
+            border-left: 3px solid var(--accent);
+        }
+
+        .tweet-footer {
+            display: flex;
+            align-items: center;
+            gap: var(--space-lg);
+            margin-top: var(--space-md);
+            padding-top: var(--space-md);
+            border-top: 1px solid var(--border-light);
+        }
+
+        .tweet-stat {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 0.8125rem;
+            color: var(--text-tertiary);
+        }
+
+        /* ===== 加载更多 ===== */
+        .load-more {
+            text-align: center;
+            padding: var(--space-xl) 0;
+        }
+
+        .load-more-btn {
+            padding: var(--space-md) var(--space-xl);
+            border: 1px solid var(--border);
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            border-radius: 100px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .load-more-btn:hover {
+            border-color: var(--text-primary);
+            color: var(--text-primary);
+        }
+
+        /* ===== 页脚 ===== */
+        .footer {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: var(--space-2xl) var(--space-lg);
+            text-align: center;
+            border-top: 1px solid var(--border);
+        }
+
+        .footer-text {
+            font-size: 0.8125rem;
+            color: var(--text-tertiary);
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: var(--space-md);
+            margin-top: var(--space-md);
+        }
+
+        .footer-link {
+            font-size: 0.8125rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+        }
+
+        .footer-link:hover {
+            color: var(--accent);
+        }
+
+        /* ===== 主题切换器（演示用） ===== */
+        .theme-toggle {
+            position: fixed;
+            bottom: var(--space-lg);
+            right: var(--space-lg);
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow-hover);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            z-index: 1000;
+            transition: all 0.2s ease;
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.05);
+        }
+
+        /* ===== 响应式优化 ===== */
+        @media (max-width: 480px) {
+            html {
+                font-size: 15px;
+            }
+
+            .header-content {
+                padding: var(--space-md);
+            }
+
+            .date-header {
+                padding: var(--space-lg) var(--space-md) var(--space-md);
+            }
+
+            .date-title {
+                font-size: 1.5rem;
+            }
+
+            .nav-tabs {
+                padding: 0 var(--space-md) var(--space-md);
+            }
+
+            .main {
+                padding: 0 var(--space-md) var(--space-xl);
+            }
+
+            .article-card,
+            .tweet-card {
+                padding: var(--space-md);
+            }
+        }
+
+        /* ===== 动画 ===== */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .article-card,
+        .tweet-card {
+            animation: fadeIn 0.4s ease forwards;
+        }
+
+        .article-card:nth-child(1) { animation-delay: 0.05s; }
+        .article-card:nth-child(2) { animation-delay: 0.1s; }
+        .article-card:nth-child(3) { animation-delay: 0.15s; }
+        .article-card:nth-child(4) { animation-delay: 0.2s; }
+        .article-card:nth-child(5) { animation-delay: 0.25s; }
+    </style>
+</head>
+<body>
+    <!-- 头部 -->
+    <header class="header">
+        <div class="header-content">
+            <div class="brand">
+                <div class="brand-icon">JD</div>
+                <span class="brand-text">Justin Daily</span>
+            </div>
+            <div class="header-actions">
+                <button class="icon-btn" title="搜索">🔍</button>
+                <button class="icon-btn" title="分享">↗️</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 日期头部 -->
+    <div class="date-header">
+        <div class="date-label">Daily Digest</div>
+        <h1 class="date-title">2025年2月15日</h1>
+        <p class="date-subtitle">星期六 · 第 128 期</p>
+    </div>
+
+    <!-- 导航标签 -->
+    <nav class="nav-tabs">
+        <button class="nav-tab active">全部</button>
+        <button class="nav-tab">AI研究</button>
+        <button class="nav-tab">Agent系统</button>
+        <button class="nav-tab">提示工程</button>
+        <button class="nav-tab">VC/创业</button>
+        <button class="nav-tab">独立开发</button>
+    </nav>
+
+    <!-- 主内容 -->
+    <main class="main">
+        <!-- RSS 板块 -->
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="section-icon">📰</span>
+                    精选文章
+                </h2>
+                <span class="section-count">12 篇</span>
+            </div>
+            
+            <div class="article-list">
+                <article class="article-card">
+                    <div class="article-meta">
+                        <span class="article-source">TechCrunch</span>
+                        <span class="article-tag">AI</span>
+                        <span class="article-time">3小时前</span>
+                    </div>
+                    <h3 class="article-title">
+                        <a href="#">OpenAI 发布 GPT-5 技术预览，多模态能力大幅提升</a>
+                    </h3>
+                    <p class="article-summary">
+                        OpenAI 今日发布了 GPT-5 的技术预览版本，新模型在图像理解、视频分析和代码生成方面都有显著改进。据官方介绍，GPT-5 采用了新的架构设计，推理能力较前代提升 40%，同时支持更长的上下文窗口，最高可达 200 万 token...
+                    </p>
+                    <div class="article-footer">
+                        <a href="#" class="article-link">阅读原文 →</a>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-meta">
+                        <span class="article-source">The Information</span>
+                        <span class="article-tag">VC</span>
+                        <span class="article-time">5小时前</span>
+                    </div>
+                    <h3 class="article-title">
+                        <a href="#">a16z 新基金募资 72 亿美元，重点布局 AI 基础设施</a>
+                    </h3>
+                    <p class="article-summary">
+                        Andreessen Horowitz 宣布完成最新一轮募资，总规模达 72 亿美元。其中 30 亿美元将专门用于 AI 基础设施投资，包括算力芯片、模型训练平台和开发者工具。这是该机构历史上规模最大的专项基金...
+                    </p>
+                    <div class="article-footer">
+                        <a href="#" class="article-link">阅读原文 →</a>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-meta">
+                        <span class="article-source">ArXiv</span>
+                        <span class="article-tag">研究</span>
+                        <span class="article-time">8小时前</span>
+                    </div>
+                    <h3 class="article-title">
+                        <a href="#">DeepMind 新研究：推理时计算扩展可显著提升模型性能</a>
+                    </h3>
+                    <p class="article-summary">
+                        Google DeepMind 发布最新论文，提出了一种新的推理时计算扩展方法。研究表明，通过在推理阶段增加计算资源，可以让中等规模模型达到大模型的性能水平，这为降低 AI 应用成本提供了新思路...
+                    </p>
+                    <div class="article-footer">
+                        <a href="#" class="article-link">阅读原文 →</a>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-meta">
+                        <span class="article-source">Product Hunt</span>
+                        <span class="article-tag">产品</span>
+                        <span class="article-time">12小时前</span>
+                    </div>
+                    <h3 class="article-title">
+                        <a href="#">本周最热门：AI 代码助手 Cursor 完成 1 亿美元 B 轮融资</a>
+                    </h3>
+                    <p class="article-summary">
+                        AI 编程工具 Cursor 宣布完成 1 亿美元 B 轮融资，估值达 10 亿美元。该产品基于 VS Code 开发，集成了 Claude 和 GPT-4，提供智能代码补全、重构建议和自动 bug 修复功能，月活跃用户已突破 50 万...
+                    </p>
+                    <div class="article-footer">
+                        <a href="#" class="article-link">阅读原文 →</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="load-more">
+                <button class="load-more-btn">加载更多文章</button>
+            </div>
+        </section>
+
+        <!-- Twitter 板块 -->
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="section-icon">🐦</span>
+                    Twitter 精选
+                </h2>
+                <span class="section-count">8 条</span>
+            </div>
+
+            <div class="article-list">
+                <article class="tweet-card">
+                    <div class="tweet-header">
+                        <div class="tweet-avatar">AK</div>
+                        <div class="tweet-author">
+                            <div class="tweet-name">Andrej Karpathy</div>
+                            <div class="tweet-handle">@karpathy</div>
+                        </div>
+                        <span class="tweet-category">AI研究前沿</span>
+                    </div>
+                    <div class="tweet-content">
+                        我认为 2025 年将是 "Agent 元年"。我们不再只是聊天，而是让 AI 真正去完成任务。关键突破在于：1) 更可靠的推理 2) 工具使用能力 3) 长期记忆。非常期待看到各个领域的应用爆发。
+                    </div>
+                    <div class="tweet-translate">
+                        I believe 2025 will be the "Year of Agents". We're moving beyond chat to AI that actually gets things done. Key breakthroughs: 1) More reliable reasoning 2) Tool use capabilities 3) Long-term memory. Excited to see applications explode across domains.
+                    </div>
+                    <div class="tweet-footer">
+                        <span class="tweet-stat">💬 1.2K</span>
+                        <span class="tweet-stat">🔄 3.4K</span>
+                        <span class="tweet-stat">❤️ 12.5K</span>
+                        <span class="tweet-stat" style="margin-left: auto;">2小时前</span>
+                    </div>
+                </article>
+
+                <article class="tweet-card">
+                    <div class="tweet-header">
+                        <div class="tweet-avatar">LP</div>
+                        <div class="tweet-author">
+                            <div class="tweet-name">Lenny Rachitsky</div>
+                            <div class="tweet-handle">@lennysan</div>
+                        </div>
+                        <span class="tweet-category">独立开发创业</span>
+                    </div>
+                    <div class="tweet-content">
+                        刚刚采访了 20 位月入 $10K+ 的独立开发者，发现他们的共同点：
+                        <br><br>
+                        1. 都解决了自己真实遇到的问题<br>
+                        2. 产品上线速度极快（平均 2-4 周）<br>
+                        3. 营销从第一天就开始<br>
+                        4. 都建立了邮件列表<br>
+                        5. 持续迭代，不追求完美
+                        <br><br>
+                        完整访谈整理中，下周发 Newsletter。
+                    </div>
+                    <div class="tweet-translate">
+                        Just interviewed 20 indie developers making $10K+/month. Common patterns: 1) Solved their own real problems 2) Extremely fast shipping (avg 2-4 weeks) 3) Marketing from day one 4) Built email lists 5) Iterated continuously, didn't chase perfection. Full interviews coming next week.
+                    </div>
+                    <div class="tweet-footer">
+                        <span class="tweet-stat">💬 456</span>
+                        <span class="tweet-stat">🔄 2.1K</span>
+                        <span class="tweet-stat">❤️ 8.9K</span>
+                        <span class="tweet-stat" style="margin-left: auto;">4小时前</span>
+                    </div>
+                </article>
+
+                <article class="tweet-card">
+                    <div class="tweet-header">
+                        <div class="tweet-avatar">EW</div>
+                        <div class="tweet-author">
+                            <div class="tweet-name">Ethan Mollick</div>
+                            <div class="tweet-handle">@emollick</div>
+                        </div>
+                        <span class="tweet-category">提示工程</span>
+                    </div>
+                    <div class="tweet-content">
+                        新的研究证实：在提示词中加入 "请逐步思考" 仍然是最有效的提升方法之一，但更好的做法是明确要求模型 "在回答前检查你的推理"。后者在数学和逻辑任务上的准确率提升了 23%。
+                    </div>
+                    <div class="tweet-translate">
+                        New research confirms: Adding "think step by step" to prompts remains one of the most effective improvements, but an even better approach is explicitly asking the model to "check your reasoning before answering". The latter improved accuracy by 23% on math and logic tasks.
+                    </div>
+                    <div class="tweet-footer">
+                        <span class="tweet-stat">💬 234</span>
+                        <span class="tweet-stat">🔄 1.8K</span>
+                        <span class="tweet-stat">❤️ 6.7K</span>
+                        <span class="tweet-stat" style="margin-left: auto;">6小时前</span>
+                    </div>
+                </article>
+
+                <article class="tweet-card">
+                    <div class="tweet-header">
+                        <div class="tweet-avatar">SB</div>
+                        <div class="tweet-author">
+                            <div class="tweet-name">Sahil Bloom</div>
+                            <div class="tweet-handle">@SahilBloom</div>
+                        </div>
+                        <span class="tweet-category">创作营销</span>
+                    </div>
+                    <div class="tweet-content">
+                        内容创作的一个反直觉真理：
+                        <br><br>
+                        质量 ≠ 制作价值<br><br>
+                        真正的高质量是：<br>
+                        • 洞察的独特性<br>
+                        • 观点的清晰度<br>
+                        • 对读者的价值<br><br>
+                        一部 iPhone 和真实的故事，胜过专业设备和空洞的内容。
+                    </div>
+                    <div class="tweet-translate">
+                        A counterintuitive truth about content creation: Quality ≠ production value. Real quality is: uniqueness of insight, clarity of perspective, value to the reader. An iPhone and a real story beats professional equipment and empty content.
+                    </div>
+                    <div class="tweet-footer">
+                        <span class="tweet-stat">💬 189</span>
+                        <span class="tweet-stat">🔄 1.5K</span>
+                        <span class="tweet-stat">❤️ 9.2K</span>
+                        <span class="tweet-stat" style="margin-left: auto;">8小时前</span>
+                    </div>
+                </article>
+            </div>
+
+            <div class="load-more">
+                <button class="load-more-btn">加载更多推文</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <p class="footer-text">Justin Daily · 每日精选 AI/科技资讯</p>
+        <div class="footer-links">
+            <a href="#" class="footer-link">关于</a>
+            <a href="#" class="footer-link">RSS</a>
+            <a href="#" class="footer-link">订阅</a>
+            <a href="#" class="footer-link">GitHub</a>
+        </div>
+    </footer>
+
+    <!-- 主题切换按钮 -->
+    <button class="theme-toggle" onclick="toggleTheme()" title="切换主题">🌙</button>
+
+    <script>
+        // 主题切换
+        function toggleTheme() {
+            document.body.classList.toggle('theme-dark');
+            const btn = document.querySelector('.theme-toggle');
+            btn.textContent = document.body.classList.contains('theme-dark') ? '☀️' : '🌙';
+        }
+
+        // 标签切换
+        document.querySelectorAll('.nav-tab').forEach(tab => {
+            tab.addEventListener('click', function() {
+                document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
