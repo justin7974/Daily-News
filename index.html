@@ -104,44 +104,90 @@
         .brand-icon {
             width: 36px;
             height: 36px;
-            background: var(--accent);
+            background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
             border-radius: var(--radius-sm);
             display: flex;
             align-items: center;
             justify-content: center;
-            font-weight: 700;
-            color: white;
-            font-size: 14px;
+            font-size: 18px;
+            box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
         }
 
         .brand-text {
+            display: flex;
+            flex-direction: column;
+            gap: 1px;
+        }
+
+        .brand-name {
             font-weight: 700;
-            font-size: 1.125rem;
-            letter-spacing: -0.02em;
+            font-size: 1rem;
+            letter-spacing: -0.01em;
+            color: var(--text-primary);
+            line-height: 1.2;
+        }
+
+        .brand-tagline {
+            font-size: 0.6875rem;
+            color: var(--text-tertiary);
+            font-weight: 500;
+            letter-spacing: 0.02em;
         }
 
         .header-actions {
             display: flex;
+            align-items: center;
             gap: var(--space-sm);
         }
 
-        .icon-btn {
-            width: 36px;
-            height: 36px;
-            border-radius: var(--radius-sm);
-            border: 1px solid var(--border);
+        .date-nav {
+            display: flex;
+            align-items: center;
+            gap: var(--space-xs);
+            background: var(--bg-tertiary);
+            border-radius: 100px;
+            padding: 4px;
+        }
+
+        .date-nav-btn {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            border: none;
             background: transparent;
             color: var(--text-secondary);
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
+            font-size: 14px;
             transition: all 0.2s ease;
         }
 
-        .icon-btn:hover {
+        .date-nav-btn:hover {
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+        }
+
+        .share-btn {
+            width: 36px;
+            height: 36px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border);
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            transition: all 0.2s ease;
+        }
+
+        .share-btn:hover {
             background: var(--bg-tertiary);
             color: var(--text-primary);
+            border-color: var(--text-tertiary);
         }
 
         /* ===== 日期头部 ===== */
@@ -548,6 +594,14 @@
                 padding: var(--space-md);
             }
 
+            .brand-name {
+                font-size: 0.9375rem;
+            }
+
+            .brand-tagline {
+                font-size: 0.625rem;
+            }
+
             .date-header {
                 padding: var(--space-lg) var(--space-md) var(--space-md);
             }
@@ -599,12 +653,18 @@
     <header class="header">
         <div class="header-content">
             <div class="brand">
-                <div class="brand-icon">JD</div>
-                <span class="brand-text">Justin Daily</span>
+                <div class="brand-icon">📰</div>
+                <div class="brand-text">
+                    <span class="brand-name">Justin Daily</span>
+                    <span class="brand-tagline">AI & 科技日报</span>
+                </div>
             </div>
             <div class="header-actions">
-                <button class="icon-btn" title="搜索">🔍</button>
-                <button class="icon-btn" title="分享">↗️</button>
+                <div class="date-nav">
+                    <button class="date-nav-btn" title="前一天">‹</button>
+                    <button class="date-nav-btn" title="后一天">›</button>
+                </div>
+                <button class="share-btn" title="分享">↗</button>
             </div>
         </div>
     </header>
@@ -866,6 +926,31 @@
                 document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
                 this.classList.add('active');
             });
+        });
+
+        // 日期导航功能
+        document.querySelectorAll('.date-nav-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const direction = this.title === '前一天' ? -1 : 1;
+                console.log('切换日期:', direction > 0 ? '后一天' : '前一天');
+                // 这里可以添加实际的日期切换逻辑
+            });
+        });
+
+        // 分享功能
+        document.querySelector('.share-btn').addEventListener('click', function() {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Justin Daily | 科技日报',
+                    text: '每日精选 AI/科技资讯',
+                    url: window.location.href
+                });
+            } else {
+                // 复制链接到剪贴板
+                navigator.clipboard.writeText(window.location.href).then(() => {
+                    alert('链接已复制到剪贴板');
+                });
+            }
         });
     </script>
 </body>
