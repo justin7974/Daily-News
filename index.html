@@ -91,7 +91,7 @@
             margin: 0 auto;
             padding: var(--space-md) var(--space-lg);
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
         }
 
@@ -102,92 +102,21 @@
         }
 
         .brand-icon {
-            width: 36px;
-            height: 36px;
+            width: 32px;
+            height: 32px;
             background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
-            border-radius: var(--radius-sm);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 18px;
-            box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
-        }
-
-        .brand-text {
-            display: flex;
-            flex-direction: column;
-            gap: 1px;
-        }
-
-        .brand-name {
-            font-weight: 700;
-            font-size: 1rem;
-            letter-spacing: -0.01em;
-            color: var(--text-primary);
-            line-height: 1.2;
-        }
-
-        .brand-tagline {
-            font-size: 0.6875rem;
-            color: var(--text-tertiary);
-            font-weight: 500;
-            letter-spacing: 0.02em;
-        }
-
-        .header-actions {
-            display: flex;
-            align-items: center;
-            gap: var(--space-sm);
-        }
-
-        .date-nav {
-            display: flex;
-            align-items: center;
-            gap: var(--space-xs);
-            background: var(--bg-tertiary);
-            border-radius: 100px;
-            padding: 4px;
-        }
-
-        .date-nav-btn {
-            width: 28px;
-            height: 28px;
-            border-radius: 50%;
-            border: none;
-            background: transparent;
-            color: var(--text-secondary);
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            transition: all 0.2s ease;
-        }
-
-        .date-nav-btn:hover {
-            background: var(--bg-secondary);
-            color: var(--text-primary);
-        }
-
-        .share-btn {
-            width: 36px;
-            height: 36px;
-            border-radius: var(--radius-sm);
-            border: 1px solid var(--border);
-            background: var(--bg-secondary);
-            color: var(--text-secondary);
-            cursor: pointer;
+            border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 16px;
-            transition: all 0.2s ease;
         }
 
-        .share-btn:hover {
-            background: var(--bg-tertiary);
+        .brand-text {
+            font-size: 1.125rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
             color: var(--text-primary);
-            border-color: var(--text-tertiary);
         }
 
         /* ===== 日期头部 ===== */
@@ -198,26 +127,63 @@
             text-align: center;
         }
 
-        .date-label {
-            font-size: 0.75rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: var(--text-tertiary);
-            margin-bottom: var(--space-xs);
+        .date-nav-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--space-md);
+            margin-bottom: var(--space-sm);
         }
 
-        .date-title {
-            font-size: 1.75rem;
-            font-weight: 700;
-            letter-spacing: -0.03em;
+        .date-arrow {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: 1px solid var(--border);
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            transition: all 0.2s ease;
+        }
+
+        .date-arrow:hover {
+            background: var(--bg-tertiary);
             color: var(--text-primary);
+            border-color: var(--text-tertiary);
+        }
+
+        .date-picker-btn {
+            display: flex;
+            align-items: center;
+            gap: var(--space-xs);
+            padding: var(--space-sm) var(--space-md);
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border);
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            font-size: 1.25rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .date-picker-btn:hover {
+            border-color: var(--text-tertiary);
+            background: var(--bg-tertiary);
+        }
+
+        .date-picker-btn .calendar-icon {
+            font-size: 0.875rem;
+            color: var(--text-tertiary);
         }
 
         .date-subtitle {
-            font-size: 0.9375rem;
-            color: var(--text-secondary);
-            margin-top: var(--space-xs);
+            font-size: 0.875rem;
+            color: var(--text-tertiary);
         }
 
         /* ===== 导航标签 ===== */
@@ -332,6 +298,10 @@
             transform: translateY(-1px);
         }
 
+        .article-card.hidden {
+            display: none;
+        }
+
         .article-meta {
             display: flex;
             align-items: center;
@@ -426,6 +396,10 @@
             box-shadow: var(--shadow-hover);
         }
 
+        .tweet-card.hidden {
+            display: none;
+        }
+
         .tweet-header {
             display: flex;
             align-items: center;
@@ -479,6 +453,15 @@
             margin-bottom: var(--space-md);
         }
 
+        .tweet-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .tweet-content a:hover {
+            text-decoration: underline;
+        }
+
         .tweet-translate {
             font-size: 0.9375rem;
             line-height: 1.7;
@@ -492,18 +475,26 @@
         .tweet-footer {
             display: flex;
             align-items: center;
-            gap: var(--space-lg);
             margin-top: var(--space-md);
             padding-top: var(--space-md);
             border-top: 1px solid var(--border-light);
         }
 
-        .tweet-stat {
-            display: flex;
-            align-items: center;
-            gap: 4px;
+        .tweet-time {
             font-size: 0.8125rem;
             color: var(--text-tertiary);
+        }
+
+        .tweet-link {
+            margin-left: auto;
+            font-size: 0.8125rem;
+            font-weight: 500;
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .tweet-link:hover {
+            text-decoration: underline;
         }
 
         /* ===== 加载更多 ===== */
@@ -584,6 +575,94 @@
             transform: scale(1.05);
         }
 
+        /* ===== 日期选择器弹窗 ===== */
+        .date-picker-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 200;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .date-picker-modal.active {
+            display: flex;
+        }
+
+        .date-picker-content {
+            background: var(--bg-secondary);
+            border-radius: var(--radius-lg);
+            padding: var(--space-lg);
+            min-width: 300px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .date-picker-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: var(--space-md);
+        }
+
+        .date-picker-title {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .date-picker-close {
+            width: 32px;
+            height: 32px;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+        }
+
+        .date-input {
+            width: 100%;
+            padding: var(--space-sm) var(--space-md);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            font-size: 1rem;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+        }
+
+        .date-picker-actions {
+            display: flex;
+            gap: var(--space-sm);
+            margin-top: var(--space-md);
+        }
+
+        .date-picker-btn-primary {
+            flex: 1;
+            padding: var(--space-sm) var(--space-md);
+            border: none;
+            background: var(--text-primary);
+            color: var(--bg-secondary);
+            border-radius: var(--radius-sm);
+            font-size: 0.875rem;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+        .date-picker-btn-secondary {
+            flex: 1;
+            padding: var(--space-sm) var(--space-md);
+            border: 1px solid var(--border);
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            border-radius: var(--radius-sm);
+            font-size: 0.875rem;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
         /* ===== 响应式优化 ===== */
         @media (max-width: 480px) {
             html {
@@ -594,20 +673,8 @@
                 padding: var(--space-md);
             }
 
-            .brand-name {
-                font-size: 0.9375rem;
-            }
-
-            .brand-tagline {
-                font-size: 0.625rem;
-            }
-
             .date-header {
                 padding: var(--space-lg) var(--space-md) var(--space-md);
-            }
-
-            .date-title {
-                font-size: 1.5rem;
             }
 
             .nav-tabs {
@@ -654,36 +721,47 @@
         <div class="header-content">
             <div class="brand">
                 <div class="brand-icon">📰</div>
-                <div class="brand-text">
-                    <span class="brand-name">Justin Daily</span>
-                    <span class="brand-tagline">AI & 科技日报</span>
-                </div>
-            </div>
-            <div class="header-actions">
-                <div class="date-nav">
-                    <button class="date-nav-btn" title="前一天">‹</button>
-                    <button class="date-nav-btn" title="后一天">›</button>
-                </div>
-                <button class="share-btn" title="分享">↗</button>
+                <span class="brand-text">Justin Daily</span>
             </div>
         </div>
     </header>
 
     <!-- 日期头部 -->
     <div class="date-header">
-        <div class="date-label">Daily Digest</div>
-        <h1 class="date-title">2025年2月15日</h1>
+        <div class="date-nav-wrapper">
+            <button class="date-arrow" id="prevDate" title="前一天">‹</button>
+            <button class="date-picker-btn" id="datePickerBtn">
+                <span id="currentDate">2025年2月15日</span>
+                <span class="calendar-icon">📅</span>
+            </button>
+            <button class="date-arrow" id="nextDate" title="后一天">›</button>
+        </div>
         <p class="date-subtitle">星期六 · 第 128 期</p>
+    </div>
+
+    <!-- 日期选择器弹窗 -->
+    <div class="date-picker-modal" id="datePickerModal">
+        <div class="date-picker-content">
+            <div class="date-picker-header">
+                <span class="date-picker-title">选择日期</span>
+                <button class="date-picker-close" id="closeDatePicker">×</button>
+            </div>
+            <input type="date" class="date-input" id="dateInput">
+            <div class="date-picker-actions">
+                <button class="date-picker-btn-secondary" id="cancelDatePicker">取消</button>
+                <button class="date-picker-btn-primary" id="confirmDatePicker">确定</button>
+            </div>
+        </div>
     </div>
 
     <!-- 导航标签 -->
     <nav class="nav-tabs">
-        <button class="nav-tab active">全部</button>
-        <button class="nav-tab">AI研究</button>
-        <button class="nav-tab">Agent系统</button>
-        <button class="nav-tab">提示工程</button>
-        <button class="nav-tab">VC/创业</button>
-        <button class="nav-tab">独立开发</button>
+        <button class="nav-tab active" data-category="all">全部</button>
+        <button class="nav-tab" data-category="ai-research">AI研究</button>
+        <button class="nav-tab" data-category="agent">Agent系统</button>
+        <button class="nav-tab" data-category="prompt">提示工程</button>
+        <button class="nav-tab" data-category="vc">VC/创业</button>
+        <button class="nav-tab" data-category="indie">独立开发</button>
     </nav>
 
     <!-- 主内容 -->
@@ -699,71 +777,71 @@
             </div>
             
             <div class="article-list">
-                <article class="article-card">
+                <article class="article-card" data-categories="ai-research">
                     <div class="article-meta">
                         <span class="article-source">TechCrunch</span>
                         <span class="article-tag">AI</span>
                         <span class="article-time">3小时前</span>
                     </div>
                     <h3 class="article-title">
-                        <a href="#">OpenAI 发布 GPT-5 技术预览，多模态能力大幅提升</a>
+                        <a href="https://techcrunch.com" target="_blank" rel="noopener">OpenAI 发布 GPT-5 技术预览，多模态能力大幅提升</a>
                     </h3>
                     <p class="article-summary">
                         OpenAI 今日发布了 GPT-5 的技术预览版本，新模型在图像理解、视频分析和代码生成方面都有显著改进。据官方介绍，GPT-5 采用了新的架构设计，推理能力较前代提升 40%，同时支持更长的上下文窗口，最高可达 200 万 token...
                     </p>
                     <div class="article-footer">
-                        <a href="#" class="article-link">阅读原文 →</a>
+                        <a href="https://techcrunch.com" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>
                     </div>
                 </article>
 
-                <article class="article-card">
+                <article class="article-card" data-categories="vc">
                     <div class="article-meta">
                         <span class="article-source">The Information</span>
                         <span class="article-tag">VC</span>
                         <span class="article-time">5小时前</span>
                     </div>
                     <h3 class="article-title">
-                        <a href="#">a16z 新基金募资 72 亿美元，重点布局 AI 基础设施</a>
+                        <a href="https://theinformation.com" target="_blank" rel="noopener">a16z 新基金募资 72 亿美元，重点布局 AI 基础设施</a>
                     </h3>
                     <p class="article-summary">
                         Andreessen Horowitz 宣布完成最新一轮募资，总规模达 72 亿美元。其中 30 亿美元将专门用于 AI 基础设施投资，包括算力芯片、模型训练平台和开发者工具。这是该机构历史上规模最大的专项基金...
                     </p>
                     <div class="article-footer">
-                        <a href="#" class="article-link">阅读原文 →</a>
+                        <a href="https://theinformation.com" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>
                     </div>
                 </article>
 
-                <article class="article-card">
+                <article class="article-card" data-categories="ai-research">
                     <div class="article-meta">
                         <span class="article-source">ArXiv</span>
                         <span class="article-tag">研究</span>
                         <span class="article-time">8小时前</span>
                     </div>
                     <h3 class="article-title">
-                        <a href="#">DeepMind 新研究：推理时计算扩展可显著提升模型性能</a>
+                        <a href="https://arxiv.org" target="_blank" rel="noopener">DeepMind 新研究：推理时计算扩展可显著提升模型性能</a>
                     </h3>
                     <p class="article-summary">
                         Google DeepMind 发布最新论文，提出了一种新的推理时计算扩展方法。研究表明，通过在推理阶段增加计算资源，可以让中等规模模型达到大模型的性能水平，这为降低 AI 应用成本提供了新思路...
                     </p>
                     <div class="article-footer">
-                        <a href="#" class="article-link">阅读原文 →</a>
+                        <a href="https://arxiv.org" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>
                     </div>
                 </article>
 
-                <article class="article-card">
+                <article class="article-card" data-categories="indie">
                     <div class="article-meta">
                         <span class="article-source">Product Hunt</span>
                         <span class="article-tag">产品</span>
                         <span class="article-time">12小时前</span>
                     </div>
                     <h3 class="article-title">
-                        <a href="#">本周最热门：AI 代码助手 Cursor 完成 1 亿美元 B 轮融资</a>
+                        <a href="https://producthunt.com" target="_blank" rel="noopener">本周最热门：AI 代码助手 Cursor 完成 1 亿美元 B 轮融资</a>
                     </h3>
                     <p class="article-summary">
                         AI 编程工具 Cursor 宣布完成 1 亿美元 B 轮融资，估值达 10 亿美元。该产品基于 VS Code 开发，集成了 Claude 和 GPT-4，提供智能代码补全、重构建议和自动 bug 修复功能，月活跃用户已突破 50 万...
                     </p>
                     <div class="article-footer">
-                        <a href="#" class="article-link">阅读原文 →</a>
+                        <a href="https://producthunt.com" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>
                     </div>
                 </article>
             </div>
@@ -784,7 +862,7 @@
             </div>
 
             <div class="article-list">
-                <article class="tweet-card">
+                <article class="tweet-card" data-categories="ai-research">
                     <div class="tweet-header">
                         <div class="tweet-avatar">AK</div>
                         <div class="tweet-author">
@@ -800,14 +878,12 @@
                         I believe 2025 will be the "Year of Agents". We're moving beyond chat to AI that actually gets things done. Key breakthroughs: 1) More reliable reasoning 2) Tool use capabilities 3) Long-term memory. Excited to see applications explode across domains.
                     </div>
                     <div class="tweet-footer">
-                        <span class="tweet-stat">💬 1.2K</span>
-                        <span class="tweet-stat">🔄 3.4K</span>
-                        <span class="tweet-stat">❤️ 12.5K</span>
-                        <span class="tweet-stat" style="margin-left: auto;">2小时前</span>
+                        <span class="tweet-time">2小时前</span>
+                        <a href="https://twitter.com/karpathy/status/1234567890" target="_blank" rel="noopener" class="tweet-link">查看原文 →</a>
                     </div>
                 </article>
 
-                <article class="tweet-card">
+                <article class="tweet-card" data-categories="indie vc">
                     <div class="tweet-header">
                         <div class="tweet-avatar">LP</div>
                         <div class="tweet-author">
@@ -831,14 +907,12 @@
                         Just interviewed 20 indie developers making $10K+/month. Common patterns: 1) Solved their own real problems 2) Extremely fast shipping (avg 2-4 weeks) 3) Marketing from day one 4) Built email lists 5) Iterated continuously, didn't chase perfection. Full interviews coming next week.
                     </div>
                     <div class="tweet-footer">
-                        <span class="tweet-stat">💬 456</span>
-                        <span class="tweet-stat">🔄 2.1K</span>
-                        <span class="tweet-stat">❤️ 8.9K</span>
-                        <span class="tweet-stat" style="margin-left: auto;">4小时前</span>
+                        <span class="tweet-time">4小时前</span>
+                        <a href="https://twitter.com/lennysan/status/1234567891" target="_blank" rel="noopener" class="tweet-link">查看原文 →</a>
                     </div>
                 </article>
 
-                <article class="tweet-card">
+                <article class="tweet-card" data-categories="prompt">
                     <div class="tweet-header">
                         <div class="tweet-avatar">EW</div>
                         <div class="tweet-author">
@@ -854,14 +928,12 @@
                         New research confirms: Adding "think step by step" to prompts remains one of the most effective improvements, but an even better approach is explicitly asking the model to "check your reasoning before answering". The latter improved accuracy by 23% on math and logic tasks.
                     </div>
                     <div class="tweet-footer">
-                        <span class="tweet-stat">💬 234</span>
-                        <span class="tweet-stat">🔄 1.8K</span>
-                        <span class="tweet-stat">❤️ 6.7K</span>
-                        <span class="tweet-stat" style="margin-left: auto;">6小时前</span>
+                        <span class="tweet-time">6小时前</span>
+                        <a href="https://twitter.com/emollick/status/1234567892" target="_blank" rel="noopener" class="tweet-link">查看原文 →</a>
                     </div>
                 </article>
 
-                <article class="tweet-card">
+                <article class="tweet-card" data-categories="agent">
                     <div class="tweet-header">
                         <div class="tweet-avatar">SB</div>
                         <div class="tweet-author">
@@ -884,10 +956,8 @@
                         A counterintuitive truth about content creation: Quality ≠ production value. Real quality is: uniqueness of insight, clarity of perspective, value to the reader. An iPhone and a real story beats professional equipment and empty content.
                     </div>
                     <div class="tweet-footer">
-                        <span class="tweet-stat">💬 189</span>
-                        <span class="tweet-stat">🔄 1.5K</span>
-                        <span class="tweet-stat">❤️ 9.2K</span>
-                        <span class="tweet-stat" style="margin-left: auto;">8小时前</span>
+                        <span class="tweet-time">8小时前</span>
+                        <a href="https://twitter.com/SahilBloom/status/1234567893" target="_blank" rel="noopener" class="tweet-link">查看原文 →</a>
                     </div>
                 </article>
             </div>
@@ -920,36 +990,112 @@
             btn.textContent = document.body.classList.contains('theme-dark') ? '☀️' : '🌙';
         }
 
-        // 标签切换
-        document.querySelectorAll('.nav-tab').forEach(tab => {
+        // 分类标签切换功能
+        const navTabs = document.querySelectorAll('.nav-tab');
+        const articleCards = document.querySelectorAll('.article-card');
+        const tweetCards = document.querySelectorAll('.tweet-card');
+
+        navTabs.forEach(tab => {
             tab.addEventListener('click', function() {
-                document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+                // 更新标签状态
+                navTabs.forEach(t => t.classList.remove('active'));
                 this.classList.add('active');
+
+                const category = this.dataset.category;
+
+                // 筛选文章
+                articleCards.forEach(card => {
+                    if (category === 'all' || card.dataset.categories.includes(category)) {
+                        card.classList.remove('hidden');
+                    } else {
+                        card.classList.add('hidden');
+                    }
+                });
+
+                // 筛选推文
+                tweetCards.forEach(card => {
+                    if (category === 'all' || card.dataset.categories.includes(category)) {
+                        card.classList.remove('hidden');
+                    } else {
+                        card.classList.add('hidden');
+                    }
+                });
             });
         });
 
-        // 日期导航功能
-        document.querySelectorAll('.date-nav-btn').forEach(btn => {
-            btn.addEventListener('click', function() {
-                const direction = this.title === '前一天' ? -1 : 1;
-                console.log('切换日期:', direction > 0 ? '后一天' : '前一天');
-                // 这里可以添加实际的日期切换逻辑
-            });
+        // 日期管理
+        let currentDate = new Date(2025, 1, 15); // 2025年2月15日
+
+        function formatDate(date) {
+            const year = date.getFullYear();
+            const month = date.getMonth() + 1;
+            const day = date.getDate();
+            return `${year}年${month}月${day}日`;
+        }
+
+        function getWeekday(date) {
+            const weekdays = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+            return weekdays[date.getDay()];
+        }
+
+        function updateDateDisplay() {
+            document.getElementById('currentDate').textContent = formatDate(currentDate);
+            document.querySelector('.date-subtitle').textContent = `${getWeekday(currentDate)} · 第 ${getDayNumber(currentDate)} 期`;
+        }
+
+        function getDayNumber(date) {
+            // 计算从2024年10月11日（第1期）到当前日期的天数
+            const startDate = new Date(2024, 9, 11);
+            const diffTime = date.getTime() - startDate.getTime();
+            const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+            return Math.max(1, diffDays + 1);
+        }
+
+        // 前一天
+        document.getElementById('prevDate').addEventListener('click', function() {
+            currentDate.setDate(currentDate.getDate() - 1);
+            updateDateDisplay();
         });
 
-        // 分享功能
-        document.querySelector('.share-btn').addEventListener('click', function() {
-            if (navigator.share) {
-                navigator.share({
-                    title: 'Justin Daily | 科技日报',
-                    text: '每日精选 AI/科技资讯',
-                    url: window.location.href
-                });
-            } else {
-                // 复制链接到剪贴板
-                navigator.clipboard.writeText(window.location.href).then(() => {
-                    alert('链接已复制到剪贴板');
-                });
+        // 后一天
+        document.getElementById('nextDate').addEventListener('click', function() {
+            currentDate.setDate(currentDate.getDate() + 1);
+            updateDateDisplay();
+        });
+
+        // 日期选择器
+        const datePickerModal = document.getElementById('datePickerModal');
+        const datePickerBtn = document.getElementById('datePickerBtn');
+        const closeDatePicker = document.getElementById('closeDatePicker');
+        const cancelDatePicker = document.getElementById('cancelDatePicker');
+        const confirmDatePicker = document.getElementById('confirmDatePicker');
+        const dateInput = document.getElementById('dateInput');
+
+        datePickerBtn.addEventListener('click', function() {
+            dateInput.value = currentDate.toISOString().split('T')[0];
+            datePickerModal.classList.add('active');
+        });
+
+        closeDatePicker.addEventListener('click', function() {
+            datePickerModal.classList.remove('active');
+        });
+
+        cancelDatePicker.addEventListener('click', function() {
+            datePickerModal.classList.remove('active');
+        });
+
+        confirmDatePicker.addEventListener('click', function() {
+            if (dateInput.value) {
+                currentDate = new Date(dateInput.value);
+                updateDateDisplay();
+            }
+            datePickerModal.classList.remove('active');
+        });
+
+        // 点击模态框背景关闭
+        datePickerModal.addEventListener('click', function(e) {
+            if (e.target === datePickerModal) {
+                datePickerModal.classList.remove('active');
             }
         });
     </script>
