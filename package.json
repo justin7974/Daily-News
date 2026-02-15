@@ -1,0 +1,12 @@
+{
+  "name": "daily-news",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js && open dist/index.html"
+  },
+  "dependencies": {
+    "marked": "^15.0.0"
+  }
+}
