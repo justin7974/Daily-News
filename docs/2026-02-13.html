@@ -9,20 +9,29 @@
   <script>var s=localStorage.getItem('theme');if(s)document.documentElement.setAttribute('data-theme',s);</script>
 </head>
 <body>
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <span class="logo">🦐 小虾日报</span>
+        <a href="archive.html" class="header-link">归档</a>
+      </div>
+    </div>
+  </header>
+
   <nav class="date-bar">
     <div class="container">
       <div class="date-bar-inner">
-        <a href="2026-02-12.html" class="date-arrow " aria-label="前一天">‹</a>
+        <a href="2026-02-12.html" class="date-arrow ">‹</a>
         <div class="date-center">
           <span class="date-main">2026 年 2 月 13 日 · 星期五</span>
-          <span class="date-stats">📰 11 · 🐦 12</span>
+          <span class="date-sub">📰 11 篇文章 · 🐦 12 条推文</span>
         </div>
-        <a href="2026-02-14.html" class="date-arrow " aria-label="后一天">›</a>
+        <a href="2026-02-14.html" class="date-arrow ">›</a>
       </div>
     </div>
   </nav>
 
-  <main class="container">
+  <main class="container main-content">
     <section class="section">
 <h2 class="section-title">📰 RSS 日报</h2>
 <h3 class="category-header">🔥 AI 模型 &amp; 产品</h3>
@@ -155,8 +164,8 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-inner">
-        <a href="archive.html" class="footer-link">往期归档</a>
-        <button class="theme-toggle" aria-label="切换主题">◐</button>
+        <span class="footer-text">🦐 小虾日报</span>
+        <button class="theme-btn" onclick="toggleTheme()">切换主题</button>
       </div>
     </div>
   </footer>
