@@ -713,6 +713,11 @@
         .article-card:nth-child(3) { animation-delay: 0.15s; }
         .article-card:nth-child(4) { animation-delay: 0.2s; }
         .article-card:nth-child(5) { animation-delay: 0.25s; }
+        .article-card:nth-child(6) { animation-delay: 0.3s; }
+        .article-card:nth-child(7) { animation-delay: 0.35s; }
+        .article-card:nth-child(8) { animation-delay: 0.4s; }
+        .article-card:nth-child(9) { animation-delay: 0.45s; }
+        .article-card:nth-child(10) { animation-delay: 0.5s; }
     </style>
 </head>
 <body>
@@ -731,12 +736,12 @@
         <div class="date-nav-wrapper">
             <button class="date-arrow" id="prevDate" title="前一天">‹</button>
             <button class="date-picker-btn" id="datePickerBtn">
-                <span id="currentDate">2025年2月15日</span>
+                <span id="currentDate">2026年2月15日</span>
                 <span class="calendar-icon">📅</span>
             </button>
             <button class="date-arrow" id="nextDate" title="后一天">›</button>
         </div>
-        <p class="date-subtitle">星期六 · 第 128 期</p>
+        <p class="date-subtitle">星期日 · 第 128 期</p>
     </div>
 
     <!-- 日期选择器弹窗 -->
@@ -759,9 +764,9 @@
         <button class="nav-tab active" data-category="all">全部</button>
         <button class="nav-tab" data-category="ai-research">AI研究</button>
         <button class="nav-tab" data-category="agent">Agent系统</button>
-        <button class="nav-tab" data-category="prompt">提示工程</button>
         <button class="nav-tab" data-category="vc">VC/创业</button>
         <button class="nav-tab" data-category="indie">独立开发</button>
+        <button class="nav-tab" data-category="tech">技术趋势</button>
     </nav>
 
     <!-- 主内容 -->
@@ -773,81 +778,217 @@
                     <span class="section-icon">📰</span>
                     精选文章
                 </h2>
-                <span class="section-count">12 篇</span>
+                <span class="section-count">14 篇</span>
             </div>
             
             <div class="article-list">
+                <!-- AI 前沿动态 -->
                 <article class="article-card" data-categories="ai-research">
                     <div class="article-meta">
-                        <span class="article-source">TechCrunch</span>
+                        <span class="article-source">OpenAI</span>
                         <span class="article-tag">AI</span>
-                        <span class="article-time">3小时前</span>
+                        <span class="article-time">今日</span>
                     </div>
                     <h3 class="article-title">
-                        <a href="https://techcrunch.com" target="_blank" rel="noopener">OpenAI 发布 GPT-5 技术预览，多模态能力大幅提升</a>
+                        <a href="https://openai.com/index/introducing-gpt-5-3-codex-spark" target="_blank" rel="noopener">GPT-5.3-Codex-Spark：首个实时编码模型</a>
                     </h3>
                     <p class="article-summary">
-                        OpenAI 今日发布了 GPT-5 的技术预览版本，新模型在图像理解、视频分析和代码生成方面都有显著改进。据官方介绍，GPT-5 采用了新的架构设计，推理能力较前代提升 40%，同时支持更长的上下文窗口，最高可达 200 万 token...
+                        OpenAI发布首个实时编码模型，速度提升15倍，128K上下文，已向ChatGPT Pro用户开放研究预览。结合前沿编码性能和通用推理能力的Codex原生Agent同步推出。
                     </p>
                     <div class="article-footer">
-                        <a href="https://techcrunch.com" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>
+                        <a href="https://openai.com/index/introducing-gpt-5-3-codex-spark" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>
+                    </div>
+                </article>
+
+                <article class="article-card" data-categories="agent">
+                    <div class="article-meta">
+                        <span class="article-source">OpenAI</span>
+                        <span class="article-tag">Agent</span>
+                        <span class="article-time">今日</span>
+                    </div>
+                    <h3 class="article-title">
+                        <a href="https://openai.com/index/introducing-openai-frontier" target="_blank" rel="noopener">OpenAI Frontier：企业级AI Agent平台</a>
+                    </h3>
+                    <p class="article-summary">
+                        企业级AI Agent平台，支持共享上下文、权限管理和治理。同时OpenAI开始测试广告以支持免费访问，带明确标签和隐私保护。将于2月13日退役GPT-4o、GPT-4.1等旧模型。
+                    </p>
+                    <div class="article-footer">
+                        <a href="https://openai.com/index/introducing-openai-frontier" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>
+                    </div>
+                </article>
+
+                <article class="article-card" data-categories="ai-research">
+                    <div class="article-meta">
+                        <span class="article-source">Hugging Face</span>
+                        <span class="article-tag">技术</span>
+                        <span class="article-time">今日</span>
+                    </div>
+                    <h3 class="article-title">
+                        <a href="https://huggingface.co/blog/custom-cuda-kernels-agent-skills" target="_blank" rel="noopener">Codex和Claude生成自定义CUDA内核技能</a>
+                    </h3>
+                    <p class="article-summary">
+                        Hugging Face发布技术博客，介绍Codex和Claude生成自定义CUDA内核技能。同时推出OpenEnv用于真实环境中评估工具使用Agent，以及Transformers.js v4预览版可在浏览器中运行大模型。
+                    </p>
+                    <div class="article-footer">
+                        <a href="https://huggingface.co/blog/custom-cuda-kernels-agent-skills" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>
+                    </div>
+                </article>
+
+                <article class="article-card" data-categories="ai-research">
+                    <div class="article-meta">
+                        <span class="article-source">Google DeepMind</span>
+                        <span class="article-tag">研究</span>
+                        <span class="article-time">今日</span>
+                    </div>
+                    <h3 class="article-title">
+                        <a href="https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome" target="_blank" rel="noopener">AlphaGenome：统一DNA序列模型</a>
+                    </h3>
+                    <p class="article-summary">
+                        预测11种模态的调控变异效应，单碱基分辨率。处理100万碱基对，在25/26项评估中匹配或超越专业模型。训练仅需4小时(TPUv3)，推理<1秒(H100)，已开源模型和权重。
+                    </p>
+                    <div class="article-footer">
+                        <a href="https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>
+                    </div>
+                </article>
+
+                <!-- 投资与创业 -->
+                <article class="article-card" data-categories="vc">
+                    <div class="article-meta">
+                        <span class="article-source">Stratechery</span>
+                        <span class="article-tag">投资</span>
+                        <span class="article-time">今日</span>
+                    </div>
+                    <h3 class="article-title">
+                        <a href="https://stratechery.com/2026/aggregators-and-ai/" target="_blank" rel="noopener">AI时代的聚合器：Google、Amazon的CapEx爆炸式增长</a>
+                    </h3>
+                    <p class="article-summary">
+                        Ben Thompson分析Google、Amazon的CapEx爆炸式增长(2026年超7000亿美元，接近美国国防部年度预算的2/3)。Spotify与AI结合成为聚合技术的受益者。
+                    </p>
+                    <div class="article-footer">
+                        <a href="https://stratechery.com/2026/aggregators-and-ai/" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>
                     </div>
                 </article>
 
                 <article class="article-card" data-categories="vc">
                     <div class="article-meta">
-                        <span class="article-source">The Information</span>
-                        <span class="article-tag">VC</span>
-                        <span class="article-time">5小时前</span>
+                        <span class="article-source">Stratechery</span>
+                        <span class="article-tag">访谈</span>
+                        <span class="article-time">今日</span>
                     </div>
                     <h3 class="article-title">
-                        <a href="https://theinformation.com" target="_blank" rel="noopener">a16z 新基金募资 72 亿美元，重点布局 AI 基础设施</a>
+                        <a href="https://stratechery.com/2026/an-interview-with-ben-thompson-by-john-collison-on-the-cheeky-pint-podcast/" target="_blank" rel="noopener">John Collison采访Ben Thompson</a>
                     </h3>
                     <p class="article-summary">
-                        Andreessen Horowitz 宣布完成最新一轮募资，总规模达 72 亿美元。其中 30 亿美元将专门用于 AI 基础设施投资，包括算力芯片、模型训练平台和开发者工具。这是该机构历史上规模最大的专项基金...
+                        讨论AI广告、SaaS终结和媒体未来。同时Spotify财报分析：个性化网络与AI结合，成为聚合技术的受益者。
                     </p>
                     <div class="article-footer">
-                        <a href="https://theinformation.com" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>
+                        <a href="https://stratechery.com/2026/an-interview-with-ben-thompson-by-john-collison-on-the-cheeky-pint-podcast/" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>
                     </div>
                 </article>
 
-                <article class="article-card" data-categories="ai-research">
+                <article class="article-card" data-categories="vc">
                     <div class="article-meta">
-                        <span class="article-source">ArXiv</span>
-                        <span class="article-tag">研究</span>
-                        <span class="article-time">8小时前</span>
+                        <span class="article-source">36氪</span>
+                        <span class="article-tag">AI大战</span>
+                        <span class="article-time">今日</span>
                     </div>
                     <h3 class="article-title">
-                        <a href="https://arxiv.org" target="_blank" rel="noopener">DeepMind 新研究：推理时计算扩展可显著提升模型性能</a>
+                        <a href="https://36kr.com/p/3683997437063044" target="_blank" rel="noopener">AI战事正酣，都在等梁文锋</a>
                     </h3>
                     <p class="article-summary">
-                        Google DeepMind 发布最新论文，提出了一种新的推理时计算扩展方法。研究表明，通过在推理阶段增加计算资源，可以让中等规模模型达到大模型的性能水平，这为降低 AI 应用成本提供了新思路...
+                        腾讯、百度、阿里、字节等巨头投入数十亿红包抢用户。字节豆包月活突破2亿，阿里千问通过"点奶茶"场景渗透。DeepSeek梁文锋保持沉默，外界期待V4发布，2月11日悄悄将上下文窗口提升至1M token。
                     </p>
                     <div class="article-footer">
-                        <a href="https://arxiv.org" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>
+                        <a href="https://36kr.com/p/3683997437063044" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>
                     </div>
                 </article>
 
-                <article class="article-card" data-categories="indie">
+                <!-- 技术趋势 -->
+                <article class="article-card" data-categories="tech">
                     <div class="article-meta">
-                        <span class="article-source">Product Hunt</span>
-                        <span class="article-tag">产品</span>
-                        <span class="article-time">12小时前</span>
+                        <span class="article-source">Latent Space</span>
+                        <span class="article-tag">AI新闻</span>
+                        <span class="article-time">今日</span>
                     </div>
                     <h3 class="article-title">
-                        <a href="https://producthunt.com" target="_blank" rel="noopener">本周最热门：AI 代码助手 Cursor 完成 1 亿美元 B 轮融资</a>
+                        <a href="#" target="_blank" rel="noopener">Kimi K2.5登顶Vision Arena排行榜</a>
                     </h3>
                     <p class="article-summary">
-                        AI 编程工具 Cursor 宣布完成 1 亿美元 B 轮融资，估值达 10 亿美元。该产品基于 VS Code 开发，集成了 Claude 和 GPT-4，提供智能代码补全、重构建议和自动 bug 修复功能，月活跃用户已突破 50 万...
+                        Kimi K2.5成为唯一进入前15的开源模型。xAI Grok Imagine API发布，成为SOTA视频生成模型，定价$4.20/分钟。Google Genie 3发布，可从文本/图像生成交互式世界。LingBot-World开源，在动态模拟上超越Genie 3。
                     </p>
                     <div class="article-footer">
-                        <a href="https://producthunt.com" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>
+                        <a href="#" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>
                     </div>
                 </article>
-            </div>
 
-            <div class="load-more">
-                <button class="load-more-btn">加载更多文章</button>
+                <article class="article-card" data-categories="agent tech">
+                    <div class="article-meta">
+                        <span class="article-source">Agent工程</span>
+                        <span class="article-tag">趋势</span>
+                        <span class="article-time">今日</span>
+                    </div>
+                    <h3 class="article-title">
+                        <a href="#" target="_blank" rel="noopener">Agentic Engineering > Vibe Coding 成为新共识</a>
+                    </h3>
+                    <p class="article-summary">
+                        "Agentic Engineering > Vibe Coding"成为新共识，强调可重复工作流而非氛围编码。Cursor推出Agent追踪开放标准(agent-trace.dev)。Agent沙盒和可审计性成为基础设施需求。
+                    </p>
+                    <div class="article-footer">
+                        <a href="#" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>
+                    </div>
+                </article>
+
+                <!-- 其他值得关注的文章 -->
+                <article class="article-card" data-categories="tech">
+                    <div class="article-meta">
+                        <span class="article-source">36氪</span>
+                        <span class="article-tag">AI伦理</span>
+                        <span class="article-time">今日</span>
+                    </div>
+                    <h3 class="article-title">
+                        <a href="https://36kr.com/p/3683968039497353" target="_blank" rel="noopener">人类首遭AI网暴？</a>
+                    </h3>
+                    <p class="article-summary">
+                        OpenClaw智能体MJ Rathbun因PR被拒撰写长文"讨伐"维护者，引发AI伦理讨论。
+                    </p>
+                    <div class="article-footer">
+                        <a href="https://36kr.com/p/3683968039497353" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>
+                    </div>
+                </article>
+
+                <article class="article-card" data-categories="vc">
+                    <div class="article-meta">
+                        <span class="article-source">36氪</span>
+                        <span class="article-tag">出海</span>
+                        <span class="article-time">今日</span>
+                    </div>
+                    <h3 class="article-title">
+                        <a href="https://36kr.com/p/3683270058176135" target="_blank" rel="noopener">追觅割草机器人出海</a>
+                    </h3>
+                    <p class="article-summary">
+                        借春晚+超级碗双IP破圈，北美市场开启预售。
+                    </p>
+                    <div class="article-footer">
+                        <a href="https://36kr.com/p/3683270058176135" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>
+                    </div>
+                </article>
+
+                <article class="article-card" data-categories="vc">
+                    <div class="article-meta">
+                        <span class="article-source">36氪</span>
+                        <span class="article-tag">消费</span>
+                        <span class="article-time">今日</span>
+                    </div>
+                    <h3 class="article-title">
+                        <a href="https://36kr.com/p/3683866994224768" target="_blank" rel="noopener">春节出境游火爆</a>
+                    </h3>
+                    <p class="article-summary">
+                        年轻人重写过年方式，东南亚、土耳其、俄罗斯成热门目的地。
+                    </p>
+                    <div class="article-footer">
+                        <a href="https://36kr.com/p/3683866994224768" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>
+                    </div>
+                </article>
             </div>
         </section>
 
@@ -872,105 +1013,170 @@
                         <span class="tweet-category">AI研究前沿</span>
                     </div>
                     <div class="tweet-content">
-                        我认为 2025 年将是 "Agent 元年"。我们不再只是聊天，而是让 AI 真正去完成任务。关键突破在于：1) 更可靠的推理 2) 工具使用能力 3) 长期记忆。非常期待看到各个领域的应用爆发。
+                        投资Simile AI并担任小股东，该项目探索LLM作为人群模拟引擎的新维度——不模拟单一个性，而是模拟多样化人群的行为分布。
                     </div>
                     <div class="tweet-translate">
-                        I believe 2025 will be the "Year of Agents". We're moving beyond chat to AI that actually gets things done. Key breakthroughs: 1) More reliable reasoning 2) Tool use capabilities 3) Long-term memory. Excited to see applications explode across domains.
+                        Invested in Simile AI as a minor shareholder. The project explores LLM as a crowd simulation engine - not simulating a single personality, but simulating the behavioral distribution of diverse populations.
                     </div>
                     <div class="tweet-footer">
-                        <span class="tweet-time">2小时前</span>
-                        <a href="https://twitter.com/karpathy/status/1234567890" target="_blank" rel="noopener" class="tweet-link">查看原文 →</a>
+                        <span class="tweet-time">今日</span>
+                        <a href="https://x.com/karpathy/status/2022041235188580788" target="_blank" rel="noopener" class="tweet-link">查看原文 →</a>
                     </div>
                 </article>
 
-                <article class="tweet-card" data-categories="indie vc">
+                <article class="tweet-card" data-categories="ai-research">
                     <div class="tweet-header">
-                        <div class="tweet-avatar">LP</div>
+                        <div class="tweet-avatar">AK</div>
                         <div class="tweet-author">
-                            <div class="tweet-name">Lenny Rachitsky</div>
-                            <div class="tweet-handle">@lennysan</div>
+                            <div class="tweet-name">Andrej Karpathy</div>
+                            <div class="tweet-handle">@karpathy</div>
                         </div>
-                        <span class="tweet-category">独立开发创业</span>
+                        <span class="tweet-category">AI研究前沿</span>
                     </div>
                     <div class="tweet-content">
-                        刚刚采访了 20 位月入 $10K+ 的独立开发者，发现他们的共同点：
-                        <br><br>
-                        1. 都解决了自己真实遇到的问题<br>
-                        2. 产品上线速度极快（平均 2-4 周）<br>
-                        3. 营销从第一天就开始<br>
-                        4. 都建立了邮件列表<br>
-                        5. 持续迭代，不追求完美
-                        <br><br>
-                        完整访谈整理中，下周发 Newsletter。
+                        将micrograd代码从243行精简至200行，展示自动求导的核心原理。
                     </div>
                     <div class="tweet-translate">
-                        Just interviewed 20 indie developers making $10K+/month. Common patterns: 1) Solved their own real problems 2) Extremely fast shipping (avg 2-4 weeks) 3) Marketing from day one 4) Built email lists 5) Iterated continuously, didn't chase perfection. Full interviews coming next week.
+                        Reduced micrograd code from 243 lines to 200 lines, demonstrating the core principles of automatic differentiation.
                     </div>
                     <div class="tweet-footer">
-                        <span class="tweet-time">4小时前</span>
-                        <a href="https://twitter.com/lennysan/status/1234567891" target="_blank" rel="noopener" class="tweet-link">查看原文 →</a>
+                        <span class="tweet-time">今日</span>
+                        <a href="https://x.com/karpathy/status/2021864021008560464" target="_blank" rel="noopener" class="tweet-link">查看原文 →</a>
                     </div>
                 </article>
 
-                <article class="tweet-card" data-categories="prompt">
+                <article class="tweet-card" data-categories="ai-research">
                     <div class="tweet-header">
-                        <div class="tweet-avatar">EW</div>
+                        <div class="tweet-avatar">EM</div>
                         <div class="tweet-author">
                             <div class="tweet-name">Ethan Mollick</div>
                             <div class="tweet-handle">@emollick</div>
                         </div>
-                        <span class="tweet-category">提示工程</span>
+                        <span class="tweet-category">AI研究前沿</span>
                     </div>
                     <div class="tweet-content">
-                        新的研究证实：在提示词中加入 "请逐步思考" 仍然是最有效的提升方法之一，但更好的做法是明确要求模型 "在回答前检查你的推理"。后者在数学和逻辑任务上的准确率提升了 23%。
+                        AI从"不能做新科学"到"当然能做新科学"的过渡将如其他AI转变一样：先是过度热情的声称，然后聪明人用AI辅助，接着AI承担更多工作，然后是小发现...
                     </div>
                     <div class="tweet-translate">
-                        New research confirms: Adding "think step by step" to prompts remains one of the most effective improvements, but an even better approach is explicitly asking the model to "check your reasoning before answering". The latter improved accuracy by 23% on math and logic tasks.
+                        The transition from "AI can't do new science" to "of course AI can do new science" will follow the same pattern as other AI transitions: first overenthusiastic claims, then smart people using AI assistance, then AI taking on more work, then small discoveries...
                     </div>
                     <div class="tweet-footer">
-                        <span class="tweet-time">6小时前</span>
-                        <a href="https://twitter.com/emollick/status/1234567892" target="_blank" rel="noopener" class="tweet-link">查看原文 →</a>
+                        <span class="tweet-time">今日</span>
+                        <a href="https://x.com/emollick/status/2022676591596515728" target="_blank" rel="noopener" class="tweet-link">查看原文 →</a>
                     </div>
                 </article>
 
-                <article class="tweet-card" data-categories="agent">
+                <article class="tweet-card" data-categories="ai-research">
                     <div class="tweet-header">
-                        <div class="tweet-avatar">SB</div>
+                        <div class="tweet-avatar">EM</div>
                         <div class="tweet-author">
-                            <div class="tweet-name">Sahil Bloom</div>
-                            <div class="tweet-handle">@SahilBloom</div>
+                            <div class="tweet-name">Ethan Mollick</div>
+                            <div class="tweet-handle">@emollick</div>
                         </div>
-                        <span class="tweet-category">创作营销</span>
+                        <span class="tweet-category">AI研究前沿</span>
                     </div>
                     <div class="tweet-content">
-                        内容创作的一个反直觉真理：
-                        <br><br>
-                        质量 ≠ 制作价值<br><br>
-                        真正的高质量是：<br>
-                        • 洞察的独特性<br>
-                        • 观点的清晰度<br>
-                        • 对读者的价值<br><br>
-                        一部 iPhone 和真实的故事，胜过专业设备和空洞的内容。
+                        警告随着AI进步，可验证性将成为极少数人能做的事情，需要思考解决方案（多AI协作？）
                     </div>
                     <div class="tweet-translate">
-                        A counterintuitive truth about content creation: Quality ≠ production value. Real quality is: uniqueness of insight, clarity of perspective, value to the reader. An iPhone and a real story beats professional equipment and empty content.
+                        Warning: As AI advances, verifiability will become something only a tiny fraction of people can do. We need to think about solutions (multi-AI collaboration?)
                     </div>
                     <div class="tweet-footer">
-                        <span class="tweet-time">8小时前</span>
-                        <a href="https://twitter.com/SahilBloom/status/1234567893" target="_blank" rel="noopener" class="tweet-link">查看原文 →</a>
+                        <span class="tweet-time">今日</span>
+                        <a href="https://x.com/emollick/status/2022794509977866704" target="_blank" rel="noopener" class="tweet-link">查看原文 →</a>
                     </div>
                 </article>
-            </div>
 
-            <div class="load-more">
-                <button class="load-more-btn">加载更多推文</button>
+                <article class="tweet-card" data-categories="indie">
+                    <div class="tweet-header">
+                        <div class="tweet-avatar">LV</div>
+                        <div class="tweet-author">
+                            <div class="tweet-name">levelsio</div>
+                            <div class="tweet-handle">@levelsio</div>
+                        </div>
+                        <span class="tweet-category">独立开发</span>
+                    </div>
+                    <div class="tweet-content">
+                        支持X平台打击自动化和垃圾信息的新政策："感谢上帝！希望能结束AI回复"
+                    </div>
+                    <div class="tweet-translate">
+                        Supporting X's new policy against automation and spam: "Thank God! Hope this ends AI replies"
+                    </div>
+                    <div class="tweet-footer">
+                        <span class="tweet-time">今日</span>
+                        <a href="https://x.com/levelsio/status/2022754572918456445" target="_blank" rel="noopener" class="tweet-link">查看原文 →</a>
+                    </div>
+                </article>
+
+                <article class="tweet-card" data-categories="indie">
+                    <div class="tweet-header">
+                        <div class="tweet-avatar">LV</div>
+                        <div class="tweet-author">
+                            <div class="tweet-name">levelsio</div>
+                            <div class="tweet-handle">@levelsio</div>
+                        </div>
+                        <span class="tweet-category">独立开发</span>
+                    </div>
+                    <div class="tweet-content">
+                        指出Stripe每笔交易收取近10%费用（含货币转换费）
+                    </div>
+                    <div class="tweet-translate">
+                        Pointing out that Stripe charges nearly 10% per transaction (including currency conversion fees)
+                    </div>
+                    <div class="tweet-footer">
+                        <span class="tweet-time">今日</span>
+                        <a href="https://x.com/levelsio/status/2022882494333489548" target="_blank" rel="noopener" class="tweet-link">查看原文 →</a>
+                    </div>
+                </article>
+
+                <article class="tweet-card" data-categories="indie">
+                    <div class="tweet-header">
+                        <div class="tweet-avatar">ML</div>
+                        <div class="tweet-author">
+                            <div class="tweet-name">Marc Lou</div>
+                            <div class="tweet-handle">@marclou</div>
+                        </div>
+                        <span class="tweet-category">独立开发</span>
+                    </div>
+                    <div class="tweet-content">
+                        讨论离开巴厘岛的原因：远离一切、不再便宜
+                    </div>
+                    <div class="tweet-translate">
+                        Discussing reasons for leaving Bali: getting away from everything, no longer cheap
+                    </div>
+                    <div class="tweet-footer">
+                        <span class="tweet-time">今日</span>
+                        <a href="https://x.com/marclou/status/2007873759206949106" target="_blank" rel="noopener" class="tweet-link">查看原文 →</a>
+                    </div>
+                </article>
+
+                <article class="tweet-card" data-categories="indie">
+                    <div class="tweet-header">
+                        <div class="tweet-avatar">RB</div>
+                        <div class="tweet-author">
+                            <div class="tweet-name">Riley Brown</div>
+                            <div class="tweet-handle">@rileybrown</div>
+                        </div>
+                        <span class="tweet-category">独立开发</span>
+                    </div>
+                    <div class="tweet-content">
+                        紧急寻找动效设计师，薪酬丰厚。分享新Clawdbot技能：YouTube缩略图情绪板。
+                    </div>
+                    <div class="tweet-translate">
+                        Urgently looking for motion designers, generous compensation. Sharing new Clawdbot skill: YouTube thumbnail mood board.
+                    </div>
+                    <div class="tweet-footer">
+                        <span class="tweet-time">今日</span>
+                        <a href="https://x.com/rileybrown/status/2022489527986856360" target="_blank" rel="noopener" class="tweet-link">查看原文 →</a>
+                    </div>
+                </article>
             </div>
         </section>
     </main>
 
     <!-- 页脚 -->
     <footer class="footer">
-        <p class="footer-text">Justin Daily · 每日精选 AI/科技资讯</p>
+        <p class="footer-text">🦐 小虾日报 · 每日精选 AI/科技资讯</p>
         <div class="footer-links">
             <a href="#" class="footer-link">关于</a>
             <a href="#" class="footer-link">RSS</a>
@@ -1024,7 +1230,7 @@
         });
 
         // 日期管理
-        let currentDate = new Date(2025, 1, 15); // 2025年2月15日
+        let currentDate = new Date(2026, 1, 15); // 2026年2月15日
 
         function formatDate(date) {
             const year = date.getFullYear();
