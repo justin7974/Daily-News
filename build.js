@@ -136,7 +136,7 @@ function parseFile(content) {
   const rss = rssRaw ? parseH2Section(rssRaw.lines, 'rss') : [];
   const twitter = twitterRaw ? parseH2Section(twitterRaw.lines, 'twitter') : [];
 
-  const rssCount = rss.reduce((n, s) => n + s.items.length, 0);
+  const rssCount = rss.reduce((n, s) => n + s.items.filter(i => !i.groupTitle).length, 0);
   const tweetCount = twitter.reduce((n, s) => n + s.items.length, 0);
 
   return { date, rss, twitter, rssCount, tweetCount };
