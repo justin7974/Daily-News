@@ -195,11 +195,11 @@ function parseRssItems(lines) {
     if (trimmed === '' || trimmed === '---' || trimmed.startsWith('>')) continue;
     if (trimmed.startsWith('*🦐') || trimmed.startsWith('*(')) continue;
 
-    // 模式1：编号 bold 标题 **N. Title**
-    const numberedBold = trimmed.match(/^\*\*(\d+)\.\s*(.+?)\*\*\s*$/);
+    // 模式1：编号 bold 标题 **N. Title** 或 **N. Title** (Source)
+    const numberedBold = trimmed.match(/^\*\*(\d+)\.\s*(.+?)\*\*\s*(?:\(([^)]+)\))?\s*$/);
     if (numberedBold) {
       pushCurrent();
-      current = { title: numberedBold[2], description: '', url: null, source: '' };
+      current = { title: numberedBold[2], description: '', url: null, source: numberedBold[3] || '' };
       continue;
     }
 
