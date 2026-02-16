@@ -643,8 +643,8 @@ function build() {
     const twitterHtml = renderSection('🐦 Twitter KOL 日报', data.twitter);
 
     const html = issueTemplate
-      .replace(/\{\{TITLE\}\}/g, `小虾日报 #${data.issueNum} | ${data.date}`)
-      .replace(/\{\{DESCRIPTION\}\}/g, `小虾日报 ${data.date} — ${data.rssCount} 篇文章, ${data.tweetCount} 条推文`)
+      .replace(/\{\{TITLE\}\}/g, `小虾AI日报 #${data.issueNum} | ${data.date}`)
+      .replace(/\{\{DESCRIPTION\}\}/g, `小虾AI日报 ${data.date} — ${data.rssCount} 篇文章, ${data.tweetCount} 条推文`)
       .replace(/\{\{DATE_SHORT\}\}/g, formatDateShort(data.date))
       .replace(/\{\{DATE_DISPLAY\}\}/g, formatDateDisplay(data.date))
       .replace(/\{\{ISSUE_NUMBER\}\}/g, String(data.issueNum))
@@ -655,7 +655,9 @@ function build() {
       .replace(/\{\{PREV_LINK\}\}/g, prevDate ? `${prevDate}.html` : '#')
       .replace(/\{\{NEXT_LINK\}\}/g, nextDate ? `${nextDate}.html` : '#')
       .replace(/\{\{PREV_DISABLED\}\}/g, prevDate ? '' : 'disabled')
-      .replace(/\{\{NEXT_DISABLED\}\}/g, nextDate ? '' : 'disabled');
+      .replace(/\{\{NEXT_DISABLED\}\}/g, nextDate ? '' : 'disabled')
+      .replace(/\{\{AVAILABLE_DATES\}\}/g, JSON.stringify(allDates))
+      .replace(/\{\{CURRENT_DATE\}\}/g, data.date);
 
     fs.writeFileSync(path.join(DIST_DIR, `${data.date}.html`), html);
     console.log(`  ✓ ${data.date}.html (${data.rssCount} RSS, ${data.tweetCount} tweets)`);
