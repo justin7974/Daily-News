@@ -182,6 +182,7 @@ function parseRssItems(lines) {
       }
       current.title = stripMarkdown(current.title || '');
       current.description = stripMarkdown(current.description || '');
+      if (current.comment) current.comment = stripMarkdown(current.comment);
       if (!current.source && current.url) current.source = getSource(current.url);
       items.push(current);
     }
@@ -301,6 +302,13 @@ function parseRssItems(lines) {
         current.url = bareUrl[1];
         current.source = getSource(bareUrl[1]);
       }
+      continue;
+    }
+
+    // 🦐点评行 — 单独存储，不合并到 description
+    const commentMatch = trimmed.match(/^(?:🦐点评：|💡\s*(?:🦐点评：|点评：)?)\s*(.+)/);
+    if (commentMatch && current) {
+      current.comment = commentMatch[1];
       continue;
     }
 
@@ -538,6 +546,9 @@ function renderNewsItem(item) {
   html += `  <div class="news-title">${titleHtml}</div>\n`;
   if (item.description) {
     html += `  <div class="news-summary">${escapeHtml(item.description)}</div>\n`;
+  }
+  if (item.comment) {
+    html += `  <div class="news-comment">🦐点评：${escapeHtml(item.comment)}</div>\n`;
   }
   if (item.source) {
     html += `  <div class="news-meta"><span class="news-source">${escapeHtml(item.source)}</span></div>\n`;
