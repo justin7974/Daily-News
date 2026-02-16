@@ -36,7 +36,7 @@ def fetch_feed(url, name):
         import socket
         # 设置超时
         socket.setdefaulttimeout(15)
-        feed = feedparser.parse(url, timeout=15)
+        feed = feedparser.parse(url)
         if feed.bozo:
             print(f"⚠️ {name}: 解析警告", file=sys.stderr)
         return feed
