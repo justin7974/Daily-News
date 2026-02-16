@@ -157,54 +157,93 @@ a:active {
   color: var(--text);
 }
 
-/* ===== 日历下拉面板 ===== */
-.dp-dropdown {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-  border-top: 1px solid transparent;
+/* ===== 日历浮层 ===== */
+.dp-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 200;
+  background: rgba(0, 0, 0, 0);
+  pointer-events: none;
+  transition: background 0.3s;
 }
 
-.dp-dropdown.dp-open {
-  max-height: 400px;
-  border-top-color: var(--border);
+.dp-overlay.dp-open {
+  background: rgba(0, 0, 0, 0.3);
+  pointer-events: auto;
+}
+
+.dp-sheet {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--bg-card);
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+  transform: translateY(-100%);
+  transition: transform 0.3s cubic-bezier(0.32, 0.72, 0, 1);
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+@media (max-width: 480px) {
+  .dp-sheet {
+    max-width: 100%;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+}
+
+.dp-overlay.dp-open .dp-sheet {
+  transform: translateY(0);
 }
 
 .dp-panel {
-  padding: 16px 0 8px;
+  padding: 20px 0 8px;
 }
 
 .dp-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .dp-month {
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 700;
   color: var(--text);
+  letter-spacing: -0.01em;
 }
 
 .dp-nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
-  border-radius: 8px;
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
   border: none;
   background: none;
   color: var(--text-3);
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
   transition: background 0.15s, color 0.15s;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .dp-nav:hover {
   background: var(--tag-bg);
   color: var(--text);
+}
+
+.dp-nav:active {
+  background: var(--border);
 }
 
 .dp-nav-disabled {
@@ -215,27 +254,29 @@ a:active {
 .dp-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 2px;
+  gap: 4px;
 }
 
 .dp-weekday {
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--text-3);
   text-align: center;
-  padding: 6px 0;
+  padding: 4px 0 8px;
+  text-transform: uppercase;
 }
 
 .dp-day {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 36px;
-  font-size: 14px;
-  border-radius: 8px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 20px;
   text-decoration: none;
   transition: background 0.15s, color 0.15s;
   position: relative;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .dp-empty {
@@ -251,12 +292,12 @@ a:active {
 .dp-has-content::after {
   content: '';
   position: absolute;
-  bottom: 3px;
+  bottom: 4px;
   left: 50%;
   transform: translateX(-50%);
-  width: 4px;
-  height: 4px;
-  border-radius: 2px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
   background: var(--accent);
 }
 
@@ -264,42 +305,42 @@ a:active {
   background: var(--tag-bg);
 }
 
+.dp-has-content:active {
+  background: var(--border);
+}
+
 .dp-no-content {
   color: var(--text-3);
-  opacity: 0.3;
+  opacity: 0.25;
 }
 
 .dp-current {
-  background: var(--accent);
+  background: var(--accent) !important;
   color: #fff !important;
   font-weight: 700;
 }
 
 .dp-current::after {
-  background: rgba(255,255,255,0.6);
+  background: rgba(255,255,255,0.7);
 }
 
-.dp-current:hover {
-  background: var(--accent-hover);
-}
-
-.dp-today {
-  outline: 1.5px solid var(--accent);
-  outline-offset: -1.5px;
+.dp-today:not(.dp-current) {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
   color: var(--accent);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .dp-archive-link {
   display: block;
   text-align: center;
-  padding: 12px 0 16px;
+  padding: 16px 0 20px;
   font-size: 14px;
   font-weight: 500;
   color: var(--text-3);
   border-top: 1px solid var(--border);
-  margin-top: 8px;
   transition: color 0.15s;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .dp-archive-link:hover {

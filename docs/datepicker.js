@@ -1,8 +1,8 @@
 (function() {
   var btn = document.getElementById('calendarBtn');
-  var dropdown = document.getElementById('datePicker');
+  var overlay = document.getElementById('dpOverlay');
   var panel = document.getElementById('dpPanel');
-  if (!btn || !dropdown || !panel) return;
+  if (!btn || !overlay || !panel) return;
 
   var isOpen = false;
   var availableSet = {};
@@ -38,18 +38,17 @@
     var first = new Date(viewYear, viewMonth, 1);
     var startDay = (first.getDay() + 6) % 7;
     var daysInMonth = new Date(viewYear, viewMonth + 1, 0).getDate();
+    var todayStr = new Date().toISOString().slice(0, 10);
 
     for (var i = 0; i < startDay; i++) {
       html += '<span class="dp-day dp-empty"></span>';
     }
 
-    var todayStr = new Date().toISOString().slice(0, 10);
-
     for (var d = 1; d <= daysInMonth; d++) {
       var dateStr = toDateStr(viewYear, viewMonth, d);
       var hasContent = availableSet[dateStr];
       var isCurrent = dateStr === CURRENT_DATE;
-      var isToday = dateStr === todayStr && !isCurrent;
+      var isToday = dateStr === todayStr;
 
       var cls = 'dp-day';
       if (isCurrent) cls += ' dp-current dp-has-content';
@@ -59,8 +58,6 @@
 
       if (hasContent && !isCurrent) {
         html += '<a href="' + dateStr + '.html" class="' + cls + '">' + d + '</a>';
-      } else if (isCurrent) {
-        html += '<span class="' + cls + '">' + d + '</span>';
       } else {
         html += '<span class="' + cls + '">' + d + '</span>';
       }
@@ -71,6 +68,7 @@
 
     panel.querySelectorAll('.dp-nav').forEach(function(navBtn) {
       navBtn.addEventListener('click', function(e) {
+        e.preventDefault();
         e.stopPropagation();
         if (this.classList.contains('dp-nav-disabled')) return;
         var dir = parseInt(this.getAttribute('data-dir'));
@@ -82,27 +80,32 @@
     });
   }
 
-  function toggle() {
-    isOpen = !isOpen;
-    dropdown.classList.toggle('dp-open', isOpen);
-    btn.classList.toggle('active', isOpen);
-    if (isOpen) render();
+  function open() {
+    if (isOpen) return;
+    isOpen = true;
+    render();
+    overlay.classList.add('dp-open');
+    btn.classList.add('active');
+    document.body.style.overflow = 'hidden';
   }
 
   function close() {
     if (!isOpen) return;
     isOpen = false;
-    dropdown.classList.remove('dp-open');
+    overlay.classList.remove('dp-open');
     btn.classList.remove('active');
+    document.body.style.overflow = '';
   }
 
   btn.addEventListener('click', function(e) {
+    e.preventDefault();
     e.stopPropagation();
-    toggle();
+    if (isOpen) close(); else open();
   });
 
-  document.addEventListener('click', function(e) {
-    if (!dropdown.contains(e.target) && e.target !== btn) close();
+  // 点遮罩背景关闭
+  overlay.addEventListener('click', function(e) {
+    if (e.target === overlay) close();
   });
 
   document.addEventListener('keydown', function(e) {

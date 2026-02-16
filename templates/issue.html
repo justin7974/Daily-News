@@ -18,13 +18,15 @@
         </button>
       </div>
     </div>
-    <div class="dp-dropdown" id="datePicker">
-      <div class="container">
-        <div class="dp-panel" id="dpPanel"></div>
-        <a href="archive.html" class="dp-archive-link">查看日报列表归档 →</a>
-      </div>
-    </div>
   </header>
+
+  <!-- 日历浮层：独立于 header -->
+  <div class="dp-overlay" id="dpOverlay">
+    <div class="dp-sheet">
+      <div class="dp-panel" id="dpPanel"></div>
+      <a href="archive.html" class="dp-archive-link">查看日报列表归档 →</a>
+    </div>
+  </div>
 
   <nav class="date-bar">
     <div class="container">
