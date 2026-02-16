@@ -125,7 +125,7 @@ function parseFile(content) {
   let twitterRaw = null;
   for (const s of h2Sections) {
     const t = s.title.toLowerCase();
-    if (t.includes('rss') || t.includes('日报') && !t.includes('twitter') && !t.includes('kol')) {
+    if (t.includes('rss') || (t.includes('日报') && !t.includes('twitter') && !t.includes('kol'))) {
       if (!rssRaw) rssRaw = s;
     }
     if (t.includes('twitter') || t.includes('kol')) {
@@ -195,7 +195,7 @@ function parseRssItems(lines) {
     if (trimmed === '' || trimmed === '---' || trimmed.startsWith('>')) continue;
     if (trimmed.startsWith('*🦐') || trimmed.startsWith('*(')) continue;
 
-    // 模式1：编号 bold 标题 **N. Title** 或 **N. Title** (Source)
+    // [PRIMARY] 编号 bold 标题 **N. Title** (Source) — 新规范格式
     const numberedBold = trimmed.match(/^\*\*(\d+)\.\s*(.+?)\*\*\s*(?:\(([^)]+)\))?\s*$/);
     if (numberedBold) {
       pushCurrent();
@@ -203,7 +203,7 @@ function parseRssItems(lines) {
       continue;
     }
 
-    // 模式2：bold 子分组标题（不是条目，是分组标题）
+    // [LEGACY] bold 子分组标题（不是条目，是分组标题）
     // 判断：独立 bold 行，后面跟 bullet list
     const boldOnly = trimmed.match(/^\*\*(.+?)\*\*\s*$/);
     if (boldOnly && !trimmed.match(/^\*\*\d+\./)) {
@@ -223,7 +223,7 @@ function parseRssItems(lines) {
       }
     }
 
-    // 模式3：bullet 带链接 - [Title](url)：description 或 - [Title](url)
+    // [LEGACY] bullet 带链接 - [Title](url)：description 或 - [Title](url)
     const bulletLink = trimmed.match(/^-\s+\[([^\]]+)\]\(([^)]+)\)(?:\s*[：:]\s*(.*))?/);
     if (bulletLink) {
       pushCurrent();
@@ -236,7 +236,7 @@ function parseRssItems(lines) {
       continue;
     }
 
-    // 模式4：bullet 带 bold — - **Title** — [domain](url)
+    // [LEGACY] bullet 带 bold — - **Title** — [domain](url)
     const bulletBold = trimmed.match(/^-\s+\*\*(.+?)\*\*\s*[—–-]+\s*(.*)/);
     if (bulletBold) {
       pushCurrent();
@@ -250,7 +250,7 @@ function parseRssItems(lines) {
       continue;
     }
 
-    // 模式5：bullet 带普通文本 - Title text — [domain](url) 或 - Description
+    // [LEGACY] bullet 带普通文本 - Title text — [domain](url) 或 - Description
     const bulletPlain = trimmed.match(/^-\s+(.+)/);
     if (bulletPlain) {
       const text = bulletPlain[1];
@@ -276,7 +276,7 @@ function parseRssItems(lines) {
       continue;
     }
 
-    // 模式6：独立链接行 [text](url) 或 [url](url)
+    // [LEGACY] 独立链接行 [text](url) 或 [url](url)
     const standaloneLink = trimmed.match(/^\[([^\]]*)\]\(([^)]+)\)\s*$/);
     if (standaloneLink) {
       if (current && !current.url) {
@@ -294,7 +294,7 @@ function parseRssItems(lines) {
       continue;
     }
 
-    // 模式7：裸 URL 行
+    // [PRIMARY] 裸 URL 行 — 新规范格式（URL 独立一行）
     const bareUrl = trimmed.match(/^(https?:\/\/\S+)\s*$/);
     if (bareUrl) {
       if (current && !current.url) {
@@ -344,7 +344,7 @@ function parseTweetItems(lines) {
       continue;
     }
 
-    // 模式1: **Name** (url) 带 x.com 链接（可能是 profile 或 tweet URL）
+    // [PRIMARY] **handle** (tweet_url) — 新规范格式
     const nameProfile = trimmed.match(/^\*\*(.+?)\*\*\s*\(?(https?:\/\/x\.com\/(\w+)\S*)\)?/);
     if (nameProfile) {
       pushCurrent();
@@ -360,7 +360,7 @@ function parseTweetItems(lines) {
       continue;
     }
 
-    // 模式2: **@handle — Title** 或 **@handle** text
+    // [LEGACY] **@handle — Title** 或 **@handle** text
     const boldHandle = trimmed.match(/^\*\*@?(\w+)\s*[—–-]+\s*(.+?)\*\*/);
     if (boldHandle) {
       pushCurrent();
@@ -374,7 +374,7 @@ function parseTweetItems(lines) {
       continue;
     }
 
-    // 模式2b: 🔥 **@handle — Title**
+    // [LEGACY] 🔥 **@handle — Title**
     const fireBoldHandle = trimmed.match(/^🔥?\s*\*\*@?(\w+)\s*[—–-]+\s*(.+?)\*\*/);
     if (fireBoldHandle) {
       pushCurrent();
@@ -388,7 +388,7 @@ function parseTweetItems(lines) {
       continue;
     }
 
-    // 模式3: **Name** text（无 @ 无 profile url）
+    // [LEGACY] **Name** text（无 @ 无 profile url）
     const boldName = trimmed.match(/^\*\*(\w[\w\s]*?)\*\*\s*(.*)/);
     if (boldName && !trimmed.startsWith('- ')) {
       const name = boldName[1].trim();
@@ -407,7 +407,7 @@ function parseTweetItems(lines) {
       }
     }
 
-    // 模式4: - **@handle** text（bullet 带 bold handle）
+    // [LEGACY] - **@handle** text（bullet 带 bold handle）
     const bulletHandle = trimmed.match(/^-\s+\*\*@?(\w+)\*\*\s*(.*)/);
     if (bulletHandle) {
       pushCurrent();
@@ -421,7 +421,7 @@ function parseTweetItems(lines) {
       continue;
     }
 
-    // 模式5: 编号条目 1. **handle** (url) — text
+    // [LEGACY] 编号条目 1. **handle** (url) — text
     const numbered = trimmed.match(/^\d+\.\s+\*\*@?(\w+)\*\*\s*\(?(https?:\/\/\S+)\)?\s*[—–-]?\s*(.*)/);
     if (numbered) {
       pushCurrent();
@@ -571,9 +571,6 @@ function renderSection(title, sections) {
   for (const section of sections) {
     html += `<h3 class="category-header">${section.emoji} ${escapeHtml(section.title)}</h3>\n`;
     for (const item of section.items) {
-      if (section === sections[0] && sections === sections) {
-        // 判断不了类型，根据 item 结构判断
-      }
       if (item.handle !== undefined) {
         html += renderTweetItem(item);
       } else {
