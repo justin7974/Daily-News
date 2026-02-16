@@ -330,18 +330,32 @@ function parseTweetItems(lines) {
     const trimmed = line.trim();
 
     if (trimmed === '' || trimmed === '---') continue;
-    if (trimmed.startsWith('*🦐') || trimmed.startsWith('>')) continue;
+    if (trimmed.startsWith('*🦐')) continue;
 
-    // 模式1: **Name** (profile_url) 带 profile 链接
-    const nameProfile = trimmed.match(/^\*\*(.+?)\*\*\s*\(?(https?:\/\/x\.com\/(\w+))\)?/);
+    // 引用行 > text — 作为当前推文的摘要
+    if (trimmed.startsWith('>')) {
+      if (current) {
+        const quoteText = stripMarkdown(trimmed.replace(/^>\s*/, ''));
+        if (quoteText) {
+          if (current.summary) current.summary += ' ';
+          current.summary += quoteText;
+        }
+      }
+      continue;
+    }
+
+    // 模式1: **Name** (url) 带 x.com 链接（可能是 profile 或 tweet URL）
+    const nameProfile = trimmed.match(/^\*\*(.+?)\*\*\s*\(?(https?:\/\/x\.com\/(\w+)\S*)\)?/);
     if (nameProfile) {
       pushCurrent();
+      const url = nameProfile[2].replace(/\)$/, '');
+      const isTweet = url.includes('/status/');
       current = {
         displayName: nameProfile[1].replace(/^@/, ''),
         handle: nameProfile[3],
         summary: '',
-        tweetUrl: null,
-        profileUrl: nameProfile[2]
+        tweetUrl: isTweet ? url : null,
+        profileUrl: isTweet ? `https://x.com/${nameProfile[3]}` : url
       };
       continue;
     }
