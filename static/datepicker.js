@@ -56,7 +56,9 @@
       else cls += ' dp-no-content';
       if (isToday) cls += ' dp-today';
 
-      if (hasContent && !isCurrent) {
+      if (isCurrent) {
+        html += '<span class="' + cls + '" data-action="close">' + d + '</span>';
+      } else if (hasContent) {
         html += '<a href="' + dateStr + '.html" class="' + cls + '">' + d + '</a>';
       } else {
         html += '<span class="' + cls + '">' + d + '</span>';
@@ -65,6 +67,16 @@
     html += '</div>';
 
     panel.innerHTML = html;
+
+    // 当前日期点击 → 收起
+    panel.querySelectorAll('[data-action="close"]').forEach(function(el) {
+      el.style.cursor = 'pointer';
+      el.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        close();
+      });
+    });
 
     panel.querySelectorAll('.dp-nav').forEach(function(navBtn) {
       navBtn.addEventListener('click', function(e) {
