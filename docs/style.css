@@ -410,6 +410,83 @@ a:active {
   margin-top: 4px;
 }
 
+/* ===== Tab 导航 ===== */
+.tab-bar {
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 56px;
+  z-index: 90;
+}
+
+.tab-nav {
+  display: flex;
+  gap: 4px;
+  padding: 12px 0 0;
+}
+
+.tab-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 12px 8px;
+  border: none;
+  background: none;
+  color: var(--text-3);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.tab-btn:hover {
+  color: var(--text-2);
+}
+
+.tab-btn.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  font-weight: 600;
+}
+
+.tab-emoji {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.tab-label {
+  white-space: nowrap;
+}
+
+.tab-count {
+  font-size: 12px;
+  font-weight: 600;
+  background: var(--tag-bg);
+  color: var(--tag-text);
+  padding: 1px 7px;
+  border-radius: 10px;
+  min-width: 20px;
+  text-align: center;
+}
+
+.tab-btn.active .tab-count {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* Tab 面板 */
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
 /* ===== 主内容 ===== */
 .main-content {
   padding-top: 12px;

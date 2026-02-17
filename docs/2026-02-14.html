@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>小虾AI日报 #492 | 2026-02-14</title>
-  <meta name="description" content="小虾AI日报 2026-02-14 — 15 篇文章, 8 条推文">
+  <meta name="description" content="小虾AI日报 2026-02-14 — 15 篇文章, 8 条推文, 0 篇公众号">
   <link rel="stylesheet" href="style.css">
   <script>var s=localStorage.getItem('theme');if(s)document.documentElement.setAttribute('data-theme',s);</script>
 </head>
@@ -41,8 +41,32 @@
     </div>
   </nav>
 
+  <!-- Tab 导航 -->
+  <div class="tab-bar">
+    <div class="container">
+      <div class="tab-nav">
+        <button class="tab-btn active" data-tab="rss">
+          <span class="tab-emoji">📰</span>
+          <span class="tab-label">RSS</span>
+          <span class="tab-count">15</span>
+        </button>
+        <button class="tab-btn" data-tab="twitter">
+          <span class="tab-emoji">🐦</span>
+          <span class="tab-label">Twitter</span>
+          <span class="tab-count">8</span>
+        </button>
+        <button class="tab-btn" data-tab="wechat">
+          <span class="tab-emoji">📱</span>
+          <span class="tab-label">公众号</span>
+          <span class="tab-count">0</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
   <main class="container main-content">
-    <section class="section">
+    <div class="tab-panel active" id="tab-rss">
+      <section class="section">
 <h2 class="section-title">📰 RSS 日报</h2>
 <h3 class="category-header">🔥 重点推荐</h3>
 <div class="news-item">
@@ -129,8 +153,10 @@
 </div>
 </section>
 
+    </div>
 
-    <section class="section">
+    <div class="tab-panel" id="tab-twitter">
+      <section class="section">
 <h2 class="section-title">🐦 Twitter KOL 日报</h2>
 <h3 class="category-header">🧠 AI 技术前沿</h3>
 <div class="tweet-item">
@@ -177,6 +203,15 @@
 </div>
 </section>
 
+    </div>
+
+    <div class="tab-panel" id="tab-wechat">
+      <section class="section">
+<h2 class="section-title">📱 微信公众号日报</h2>
+<div class="empty-state">暂无内容</div>
+</section>
+
+    </div>
   </main>
 
   <footer class="footer">
@@ -194,5 +229,37 @@
   </script>
   <script src="theme.js"></script>
   <script src="datepicker.js"></script>
+  <script>
+    // Tab 切换逻辑
+    (function() {
+      var btns = document.querySelectorAll('.tab-btn');
+      var panels = document.querySelectorAll('.tab-panel');
+
+      function switchTab(tabId) {
+        btns.forEach(function(b) {
+          b.classList.toggle('active', b.getAttribute('data-tab') === tabId);
+        });
+        panels.forEach(function(p) {
+          p.classList.toggle('active', p.id === 'tab-' + tabId);
+        });
+        // 记住用户选择
+        try { localStorage.setItem('activeTab', tabId); } catch(e) {}
+      }
+
+      btns.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          switchTab(this.getAttribute('data-tab'));
+        });
+      });
+
+      // 恢复上次选择的 tab
+      try {
+        var saved = localStorage.getItem('activeTab');
+        if (saved && document.getElementById('tab-' + saved)) {
+          switchTab(saved);
+        }
+      } catch(e) {}
+    })();
+  </script>
 </body>
 </html>

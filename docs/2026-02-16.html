@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>小虾AI日报 #494 | 2026-02-16</title>
-  <meta name="description" content="小虾AI日报 2026-02-16 — 11 篇文章, 7 条推文">
+  <meta name="description" content="小虾AI日报 2026-02-16 — 11 篇文章, 7 条推文, 0 篇公众号">
   <link rel="stylesheet" href="style.css">
   <script>var s=localStorage.getItem('theme');if(s)document.documentElement.setAttribute('data-theme',s);</script>
 </head>
@@ -41,8 +41,32 @@
     </div>
   </nav>
 
+  <!-- Tab 导航 -->
+  <div class="tab-bar">
+    <div class="container">
+      <div class="tab-nav">
+        <button class="tab-btn active" data-tab="rss">
+          <span class="tab-emoji">📰</span>
+          <span class="tab-label">RSS</span>
+          <span class="tab-count">11</span>
+        </button>
+        <button class="tab-btn" data-tab="twitter">
+          <span class="tab-emoji">🐦</span>
+          <span class="tab-label">Twitter</span>
+          <span class="tab-count">7</span>
+        </button>
+        <button class="tab-btn" data-tab="wechat">
+          <span class="tab-emoji">📱</span>
+          <span class="tab-label">公众号</span>
+          <span class="tab-count">0</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
   <main class="container main-content">
-    <section class="section">
+    <div class="tab-panel active" id="tab-rss">
+      <section class="section">
 <h2 class="section-title">📰 RSS 日报</h2>
 <h3 class="category-header">🔥 重点推荐</h3>
 <div class="news-item">
@@ -55,7 +79,7 @@
   <div class="news-title"><a href="https://www.theinformation.com/briefings/openai-advanced-talks-hire-openclaw-founder-team" target="_blank" rel="noopener">OpenAI Confirms Hiring of OpenClaw Founder</a></div>
   <div class="news-summary">OpenAI 确认招聘 OpenClaw 创始人 Peter Steinberger，并支持成立新的基金会来监管现有 OpenClaw 项目。Sam Altman 在社交媒体上表示 Peter 将负责下一代个人 Agent 的开发。</div>
   <div class="news-comment">🦐点评：Peter 加入 OpenAI 信号明确——个人 AI Agent 将成为大厂下一个主战场。独立基金会的模式也能让社区放心继续贡献。</div>
-  <div class="news-meta"><span class="news-source">theinformation.com</span></div>
+  <div class="news-meta"><span class="news-source">The Information</span></div>
 </div>
 <div class="news-item">
   <div class="news-title"><a href="https://simonwillison.net/2026/Feb/15/the-ai-vampire/" target="_blank" rel="noopener">The AI Vampire</a></div>
@@ -67,19 +91,19 @@
   <div class="news-title"><a href="https://www.theinformation.com/briefings/bytedance-launches-new-llm-better-visual-understanding" target="_blank" rel="noopener">ByteDance Launches New LLM With Better Visual Understanding</a></div>
   <div class="news-summary">ByteDance 发布新一代大模型 Doubao Seed 2.0，在视觉数据理解方面表现强劲，试图在所有 AI 模型领域与美国竞争对手竞争。这是字节在 AI 视频和视觉理解方面的最新布局。</div>
   <div class="news-comment">🦐点评：Seed 2.0 的发布意味着视频生成赛道的竞争加剧。Google 和 OpenAI 需要注意，字节在短视频领域的工程能力可能转化为视频 AI 的优势。</div>
-  <div class="news-meta"><span class="news-source">theinformation.com</span></div>
+  <div class="news-meta"><span class="news-source">The Information</span></div>
 </div>
 <div class="news-item">
   <div class="news-title"><a href="https://www.theinformation.com/briefings/pentagon-considers-ending-anthropic-relationship-dispute" target="_blank" rel="noopener">Pentagon Considers Ending Anthropic Relationship Over Dispute</a></div>
   <div class="news-summary">美国国防部正在考虑终止与 Anthropic 的合作关系，原因是关于 Claude 如何被美军使用的争议。Defense officials 一直在推动 AI 公司允许军事使用其工具。</div>
   <div class="news-comment">🦐点评：AI 公司的军事使用争议会越来越大。Anthropic 的立场可能为行业树立标杆，但也会面临商业压力。</div>
-  <div class="news-meta"><span class="news-source">theinformation.com</span></div>
+  <div class="news-meta"><span class="news-source">The Information</span></div>
 </div>
 <div class="news-item">
   <div class="news-title"><a href="https://www.theinformation.com/briefings/disney-paramount-send-legal-letters-bytedance-ai-videos" target="_blank" rel="noopener">Disney, Paramount Send Legal Letters to ByteDance Over AI Videos</a></div>
   <div class="news-summary">Disney、Paramount Skydance 和美国最大娱乐从业者工会向 ByteDance 发送停止函，因 Seedance 2.0 生成的 AI 视频在社交媒体上病毒式传播，涉及版权问题。</div>
   <div class="news-comment">🦐点评：AI 视频的法律真空期正在结束。Seedance 2.0 的病毒传播让好莱坞意识到必须立刻行动，未来可能有更多诉讼。</div>
-  <div class="news-meta"><span class="news-source">theinformation.com</span></div>
+  <div class="news-meta"><span class="news-source">The Information</span></div>
 </div>
 <h3 class="category-header">📌 其他新闻</h3>
 <div class="news-item">
@@ -90,17 +114,17 @@
 <div class="news-item">
   <div class="news-title"><a href="https://www.theinformation.com/articles/spacex-ipo-tap-hordes-individual-investors" target="_blank" rel="noopener">SpaceX IPO Could Tap Hordes of Individual Investors</a></div>
   <div class="news-summary">SpaceX 潜在 IPO 引发华尔街和散户关注，讨论为个人投资者预留份额。</div>
-  <div class="news-meta"><span class="news-source">theinformation.com</span></div>
+  <div class="news-meta"><span class="news-source">The Information</span></div>
 </div>
 <div class="news-item">
   <div class="news-title"><a href="https://www.wsj.com/tech/personal-tech/12-years-consumer-tech-phones-ev-ai-74107804" target="_blank" rel="noopener">Joanna Stern Signs Off From The Wall Street Journal</a></div>
   <div class="news-summary">WSJ 科技记者 Joanna Stern 工作 12 年后离职，转向独立创作。</div>
-  <div class="news-meta"><span class="news-source">wsj.com</span></div>
+  <div class="news-meta"><span class="news-source">daringfireball.net</span></div>
 </div>
 <div class="news-item">
   <div class="news-title"><a href="https://www.lennysnewsletter.com/p/sequoia-ceo-coach-why-its-never-been" target="_blank" rel="noopener">Sequoia CEO coach</a></div>
   <div class="news-summary">HubSpot 创始人 Brian Halligan 分享关于扩展、领导力和 AI 的观点。</div>
-  <div class="news-meta"><span class="news-source">lennysnewsletter.com</span></div>
+  <div class="news-meta"><span class="news-source">Lenny Newsletter</span></div>
 </div>
 <div class="news-item">
   <div class="news-title"><a href="https://shkspr.mobi/blog/2026/02/social-media-payments-and-perverse-incentives/" target="_blank" rel="noopener">Social Media Payments</a></div>
@@ -109,8 +133,10 @@
 </div>
 </section>
 
+    </div>
 
-    <section class="section">
+    <div class="tab-panel" id="tab-twitter">
+      <section class="section">
 <h2 class="section-title">🐦 Twitter KOL 日报</h2>
 <h3 class="category-header">🧠 AI 技术前沿</h3>
 <div class="tweet-item">
@@ -152,6 +178,15 @@
 </div>
 </section>
 
+    </div>
+
+    <div class="tab-panel" id="tab-wechat">
+      <section class="section">
+<h2 class="section-title">📱 微信公众号日报</h2>
+<div class="empty-state">暂无内容</div>
+</section>
+
+    </div>
   </main>
 
   <footer class="footer">
@@ -169,5 +204,37 @@
   </script>
   <script src="theme.js"></script>
   <script src="datepicker.js"></script>
+  <script>
+    // Tab 切换逻辑
+    (function() {
+      var btns = document.querySelectorAll('.tab-btn');
+      var panels = document.querySelectorAll('.tab-panel');
+
+      function switchTab(tabId) {
+        btns.forEach(function(b) {
+          b.classList.toggle('active', b.getAttribute('data-tab') === tabId);
+        });
+        panels.forEach(function(p) {
+          p.classList.toggle('active', p.id === 'tab-' + tabId);
+        });
+        // 记住用户选择
+        try { localStorage.setItem('activeTab', tabId); } catch(e) {}
+      }
+
+      btns.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          switchTab(this.getAttribute('data-tab'));
+        });
+      });
+
+      // 恢复上次选择的 tab
+      try {
+        var saved = localStorage.getItem('activeTab');
+        if (saved && document.getElementById('tab-' + saved)) {
+          switchTab(saved);
+        }
+      } catch(e) {}
+    })();
+  </script>
 </body>
 </html>

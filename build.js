@@ -120,26 +120,30 @@ function parseFile(content) {
     }
   }
 
-  // 识别 RSS 和 Twitter 段落
+  // 识别 RSS、Twitter、微信公众号段落
   let rssRaw = null;
   let twitterRaw = null;
+  let wxRaw = null;
   for (const s of h2Sections) {
     const t = s.title.toLowerCase();
-    if (t.includes('rss') || (t.includes('日报') && !t.includes('twitter') && !t.includes('kol'))) {
-      if (!rssRaw) rssRaw = s;
-    }
-    if (t.includes('twitter') || t.includes('kol')) {
+    if (t.includes('微信') || t.includes('公众号') || t.includes('wechat')) {
+      if (!wxRaw) wxRaw = s;
+    } else if (t.includes('twitter') || t.includes('kol')) {
       if (!twitterRaw) twitterRaw = s;
+    } else if (t.includes('rss') || t.includes('日报')) {
+      if (!rssRaw) rssRaw = s;
     }
   }
 
   const rss = rssRaw ? parseH2Section(rssRaw.lines, 'rss') : [];
   const twitter = twitterRaw ? parseH2Section(twitterRaw.lines, 'twitter') : [];
+  const wx = wxRaw ? parseH2Section(wxRaw.lines, 'rss') : []; // 微信格式同 RSS
 
   const rssCount = rss.reduce((n, s) => n + s.items.filter(i => !i.groupTitle).length, 0);
   const tweetCount = twitter.reduce((n, s) => n + s.items.length, 0);
+  const wxCount = wx.reduce((n, s) => n + s.items.filter(i => !i.groupTitle).length, 0);
 
-  return { date, rss, twitter, rssCount, tweetCount };
+  return { date, rss, twitter, wx, rssCount, tweetCount, wxCount };
 }
 
 function parseH2Section(lines, type) {
@@ -300,7 +304,7 @@ function parseRssItems(lines) {
     if (bareUrl) {
       if (current && !current.url) {
         current.url = bareUrl[1];
-        current.source = getSource(bareUrl[1]);
+        if (!current.source) current.source = getSource(bareUrl[1]);
       }
       continue;
     }
@@ -649,17 +653,28 @@ function build() {
 
     const rssHtml = renderSection('📰 RSS 日报', data.rss);
     const twitterHtml = renderSection('🐦 Twitter KOL 日报', data.twitter);
+    const wxHtml = renderSection('📱 微信公众号日报', data.wx);
+
+    // 构建统计摘要
+    const statParts = [];
+    if (data.rssCount > 0) statParts.push(`📰 ${data.rssCount} 篇文章`);
+    if (data.tweetCount > 0) statParts.push(`🐦 ${data.tweetCount} 条推文`);
+    if (data.wxCount > 0) statParts.push(`📱 ${data.wxCount} 篇公众号`);
+    const statLine = statParts.join(' · ') || '暂无内容';
 
     const html = issueTemplate
       .replace(/\{\{TITLE\}\}/g, `小虾AI日报 #${data.issueNum} | ${data.date}`)
-      .replace(/\{\{DESCRIPTION\}\}/g, `小虾AI日报 ${data.date} — ${data.rssCount} 篇文章, ${data.tweetCount} 条推文`)
+      .replace(/\{\{DESCRIPTION\}\}/g, `小虾AI日报 ${data.date} — ${data.rssCount} 篇文章, ${data.tweetCount} 条推文, ${data.wxCount} 篇公众号`)
       .replace(/\{\{DATE_SHORT\}\}/g, formatDateShort(data.date))
       .replace(/\{\{DATE_DISPLAY\}\}/g, formatDateDisplay(data.date))
       .replace(/\{\{ISSUE_NUMBER\}\}/g, String(data.issueNum))
       .replace(/\{\{RSS_COUNT\}\}/g, String(data.rssCount))
       .replace(/\{\{TWEET_COUNT\}\}/g, String(data.tweetCount))
+      .replace(/\{\{WX_COUNT\}\}/g, String(data.wxCount))
+      .replace(/\{\{STAT_LINE\}\}/g, statLine)
       .replace(/\{\{RSS_SECTION\}\}/g, rssHtml)
       .replace(/\{\{TWITTER_SECTION\}\}/g, twitterHtml)
+      .replace(/\{\{WX_SECTION\}\}/g, wxHtml)
       .replace(/\{\{PREV_LINK\}\}/g, prevDate ? `${prevDate}.html` : '#')
       .replace(/\{\{NEXT_LINK\}\}/g, nextDate ? `${nextDate}.html` : '#')
       .replace(/\{\{PREV_DISABLED\}\}/g, prevDate ? '' : 'disabled')
@@ -668,7 +683,7 @@ function build() {
       .replace(/\{\{CURRENT_DATE\}\}/g, data.date);
 
     fs.writeFileSync(path.join(DIST_DIR, `${data.date}.html`), html);
-    console.log(`  ✓ ${data.date}.html (${data.rssCount} RSS, ${data.tweetCount} tweets)`);
+    console.log(`  ✓ ${data.date}.html (${data.rssCount} RSS, ${data.tweetCount} tweets, ${data.wxCount} wx)`);
   }
 
   // index.html = 最新一天的内容（复制最新日期页面）
@@ -682,7 +697,7 @@ function build() {
     return `<a href="${data.date}.html" class="archive-item">
   <span class="archive-date">${data.date}</span>
   <span class="archive-num">#${data.issueNum}</span>
-  <span class="archive-stats">${data.rssCount} 文章 · ${data.tweetCount} 推文</span>
+  <span class="archive-stats">${data.rssCount} 文章 · ${data.tweetCount} 推文${data.wxCount > 0 ? ` · ${data.wxCount} 公众号` : ''}</span>
   <span class="archive-arrow">›</span>
 </a>`;
   }).join('\n');
