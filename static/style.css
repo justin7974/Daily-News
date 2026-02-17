@@ -419,32 +419,26 @@ a:active {
   position: sticky;
   top: 56px;
   z-index: 90;
-  overflow: hidden;
 }
 
 .tab-nav {
   display: flex;
-  gap: 0;
-  padding: 0;
 }
 
 .tab-btn {
   flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  padding: 14px 4px;
+  padding: 14px 0;
   border: none;
   background: none;
   color: var(--text-3);
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
+  letter-spacing: 0.01em;
   cursor: pointer;
+  text-align: center;
   border-bottom: 2px solid transparent;
   transition: color 0.2s, border-color 0.2s;
   -webkit-tap-highlight-color: transparent;
-  min-width: 0;
 }
 
 .tab-btn:hover {
@@ -455,35 +449,6 @@ a:active {
   color: var(--accent);
   border-bottom-color: var(--accent);
   font-weight: 600;
-}
-
-.tab-emoji {
-  font-size: 15px;
-  line-height: 1;
-  flex-shrink: 0;
-}
-
-.tab-label {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.tab-count {
-  font-size: 11px;
-  font-weight: 600;
-  background: var(--tag-bg);
-  color: var(--tag-text);
-  padding: 1px 6px;
-  border-radius: 10px;
-  min-width: 18px;
-  text-align: center;
-  flex-shrink: 0;
-}
-
-.tab-btn.active .tab-count {
-  background: var(--accent);
-  color: #fff;
 }
 
 /* Tab 面板 */
