@@ -1,3 +1,18 @@
+# 依赖
 node_modules/
+
+# 系统文件
 .DS_Store
+
+# 构建源码和配置（只公开 docs/ 前端输出）
+build.js
+package.json
+package-lock.json
 config/
+content/
+scripts/
+templates/
+static/
+fetch_log/
+.claude/
+.github/
