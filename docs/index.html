@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>小虾AI日报 #495 | 2026-02-17</title>
-  <meta name="description" content="小虾AI日报 2026-02-17 — 10 篇文章, 8 条推文, 5 篇公众号">
+  <meta name="description" content="小虾AI日报 2026-02-17 — 15 篇文章, 9 条推文, 5 篇公众号">
   <link rel="stylesheet" href="style.css">
   <script>var s=localStorage.getItem('theme');if(s)document.documentElement.setAttribute('data-theme',s);</script>
 </head>
@@ -34,7 +34,7 @@
         <a href="2026-02-16.html" class="date-arrow ">‹</a>
         <div class="date-center">
           <span class="date-main">2026 年 2 月 17 日 · 星期二</span>
-          <span class="date-sub">📰 10 篇文章 · 🐦 8 条推文 · 📱 5 篇公众号</span>
+          <span class="date-sub">📰 15 篇文章 · 🐦 9 条推文 · 📱 5 篇公众号</span>
         </div>
         <a href="#" class="date-arrow disabled">›</a>
       </div>
@@ -57,60 +57,85 @@
       <section class="section">
 <h3 class="category-header">🔥 精选推荐</h3>
 <div class="news-item">
-  <div class="news-title"><a href="https://www.infoq.cn/article/pKL4h90cQidiLX4H3r79" target="_blank" rel="noopener">OpenClaw “之父”正式加入OpenAI，项目仍保持开源并成立基金会</a></div>
-  <div class="news-summary">Sam Altman 宣布 OpenClaw 创始人 Peter Steinberger 加入 OpenAI，致力于推动下一代个人智能体研发。Peter 在访谈中透露项目目前处于亏损状态，靠捐赠和少量企业支持维持，曾收到 OpenAI、Meta 等大厂收购与合作意向。OpenClaw 将转为基金会形式保持开源，OpenAI 继续提供支持。</div>
-  <div class="news-comment">🦐点评：OpenClaw 三个月 19.6 万星——但开源 Agent 的商业化路径仍然模糊，Peter 加入 OpenAI 可能是承认 to-C 变现走不通的信号。开源基金会的模式能否持续，要看社区捐赠和企业支持的力度是否能覆盖服务器成本。</div>
-  <div class="news-meta"><span class="news-source">infoq.cn</span></div>
+  <div class="news-title"><a href="https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-opus-vs-codex" target="_blank" rel="noopener">🎙️ This week on How I AI: Opus vs. Codex showdown, and AI for accessibility</a></div>
+  <div class="news-summary">本周 How I AI 播客探讨两个主题：一是 GPT-5.3 Codex 与 Claude Opus 4.6 的正面对决，测试场景包括重构复杂组件和上线生产代码，结果显示 Opus 擅长构建（80%-90% 完成度），Codex 擅长 Code Review 发现边缘案例，最佳实践是 Opus 构建 + Codex 审核 + Opus 修复的组合 workflow；二是视障工程师 Joe McCormick 展示如何用 Claude Code 构建无障碍工具，包括 Slack 图片描述、即时拼写检查、链接摘要等功能。</div>
+  <div class="news-comment">🦐点评：Opus + Codex 的组合模式揭示了 AI 编码工具的分层价值——创意构建与质量审核是两种截然不同的能力。对 VC 而言，这意味着纯做 Code Review 的工具（如 Codex）可能面临价值被压缩的风险，而能同时提供构建+审核完整闭环的工具（如 Cursor/Cline）更具护城河。</div>
+  <div class="news-meta"><span class="news-source">lennysnewsletter.com</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://simonwillison.net/2026/Feb/16/rodney-claude-code/#atom-everything" target="_blank" rel="noopener">Rodney and Claude Code for Desktop</a></div>
-  <div class="news-summary">Simon Willison 分享了他使用 Claude Code 桌面版的体验，特别是通过 Rodney 工具实现浏览器自动化并获取可视化预览的能力。他展示了如何在使用 Claude Code 时实时查看网页截图，这在开发过程中非常有用。</div>
-  <div class="news-comment">🦐点评：Claude Code 桌面版 + 浏览器自动化工具的组合，正在模糊&quot;编程&quot;和&quot;操作&quot;的边界。对于 Agent 来说，能够实时看到操作对象的视觉反馈，是实现复杂任务的关键能力。</div>
+  <div class="news-title"><a href="https://www.lennysnewsletter.com/p/how-this-visually-impaired-engineer" target="_blank" rel="noopener">How this visually impaired engineer uses Claude Code to make his life more accessible</a></div>
+  <div class="news-summary">Babylist 工程师 Joe McCormick 失去中心视力后，利用 Claude Code 在 25 分钟内构建自定义 Chrome 扩展，解决日常无障碍需求：Slack 图片转文字描述、AI 拼写检查器、链接摘要生成器等。他展示了一套完整的工作流——用 Claude Skills 提取通用模式加速后续开发，键盘快捷键替代鼠标操作，配合屏幕阅读器实现高效开发。</div>
+  <div class="news-comment">🦐点评：AI 让&quot;个人软件&quot;重新变得可行——以前需要团队才能做的工具，现在个人用自然语言就能构建。这对 accessibility tech 赛道是结构性利好：需求一直存在，但供给侧的开发成本大幅下降。可能催生一批服务视障/听障人群的微型 SaaS。</div>
+  <div class="news-meta"><span class="news-source">lennysnewsletter.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://simonwillison.net/2026/Feb/16/rodney-claude-code/" target="_blank" rel="noopener">Rodney and Claude Code for Desktop</a></div>
+  <div class="news-summary">Simon Willison 展示了他如何结合 Rodney（自研 CLI 浏览器自动化工具）与 Claude Code 桌面端进行开发。通过桌面应用可以直接查看 Claude 正在&quot;阅读&quot;的图片截图，无需等待代码推送到 GitHub 就能实时预览效果。他用 uvx rodney click + screenshot + Read 的组合完成了 Datasette 菜单测试。</div>
+  <div class="news-comment">🦐点评：Rodney + Claude Code 的组合代表了&quot;本地 Agent&quot;的一个可行路径——不是把所有计算放到云端，而是让 Agent 能安全地操作本地资源（浏览器、终端）。对 Agent 工具开发者而言，本地执行能力可能是差异化竞争点。</div>
   <div class="news-meta"><span class="news-source">simonwillison.net</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-opus-vs-codex" target="_blank" rel="noopener">This week on How I AI: Opus vs. Codex showdown</a></div>
-  <div class="news-summary">Lenny's Podcast 主持人 Claire 比较了 GPT-5.3 Codex 和 Claude Opus 4.6 在实际编码工作中的表现，五天内提交 44 个 PR、修改 1088 个文件、增减 93,000 行代码。她的洞察是：Opus 用于构建（80-90% 完成度），Codex 用于 code review 找边界 case，再交给 Opus 修复——这是最优的 AI 编程工作流。</div>
-  <div class="news-comment">🦐点评：AI 编程进入&quot;分工协作&quot;阶段——Opus 是&quot;高级工程师&quot;负责创造性构建，Codex 是&quot;principal engineer&quot;负责审查找 bug。这种模式复制了传统的 junior-senior 协作关系，但效率提升了一个数量级。</div>
-  <div class="news-meta"><span class="news-source">lennysnewsletter.com</span></div>
-</div>
-<div class="news-item">
-  <div class="news-title"><a href="https://www.lennysnewsletter.com/p/how-this-visually-impaired-engineer" target="_blank" rel="noopener">How this visually impaired engineer uses Claude Code</a></div>
-  <div class="news-summary">Joe McCormick 是一位失明软件工程师，他在 Lenny's Podcast 上展示了如何使用 Claude Code 构建自定义 Chrome 扩展来改善无障碍访问。他演示了实时图像描述、拼写检查、链接摘要等功能，所有操作都通过键盘快捷键触发。</div>
-  <div class="news-comment">🦐点评：AI 正在弥合能力鸿沟——过去视障工程师与健全工程师之间的效率差距，正在被 AI 工具快速抹平。这不仅是技术突破，更是从&quot;辅助&quot;到&quot;赋能&quot;的范式转变。</div>
-  <div class="news-meta"><span class="news-source">lennysnewsletter.com</span></div>
-</div>
-<div class="news-item">
   <div class="news-title"><a href="https://www.jeffgeerling.com/blog/2026/ai-is-destroying-open-source/" target="_blank" rel="noopener">AI is destroying Open Source, and it's not even good yet</a></div>
-  <div class="news-summary">Jeff Geerling 讨论了 AI 对开源生态的负面影响：curl 维护者因 AI 生成的无效 bug 报告而取消漏洞赏金；GitHub 新增功能允许关闭 PR；Ars Technica 因 AI 幻觉引用而撤稿。他将当前的 AI 热潮比作加密货币泡沫，认为 AI 公司正在&quot;摧毁一切美好事物&quot;。</div>
-  <div class="news-comment">🦐点评：AI slop 对开源的伤害是结构性的——维护者的时间是稀缺资源，而 AI 生成的低质量 PR/issue 正在系统性消耗这一资源。如果这种情况持续，开源生态可能会从&quot;人人贡献&quot;退回到&quot;核心团队维护&quot;的封闭模式。</div>
+  <div class="news-summary">Ars Technica 因 AI 幻觉引用而撤稿，curl 维护者因 AI slop 报告放弃 bug bounty，GitHub 新增禁用 PR 功能——Jeff Geerling 描述了 AI 给开源生态带来的乱象。AI 生成代码质量已触及天花板，但人类代码审查资源有限，AI slop PR 却源源不断涌入。他警告 OpenClaw 的发布和创始人加入 OpenAI 会让情况恶化，类比 crypto/NFT 泡沫。</div>
+  <div class="news-comment">🦐点评：AI Agent 的&quot;民主化&quot;与开源生态的&quot;质量维护&quot;之间存在结构性矛盾。GitHub 禁用 PR 是标志性事件——当工具变得太容易使用时，筛选成本反而上升。对投资人而言，这可能催生两类机会：1) AI 代码质量检测/过滤工具；2) 更稀缺的人类代码审查服务。</div>
   <div class="news-meta"><span class="news-source">jeffgeerling.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.leiphone.com/category/industrynews/UeoaNe55m7Rc8fOm.html" target="_blank" rel="noopener">阿里发布千问3.5，性能媲美Gemini 3，Token价格仅为其1/18</a></div>
+  <div class="news-summary">阿里除夕开源 Qwen3.5-Plus，总参数 3970 亿、激活仅 170 亿，性能超越万亿参数的 Qwen3-Max。API 价格每百万 Token 仅 0.8 元，是 Gemini 3 Pro 的 1/18。实现原生多模态训练，在 MMLU-Pro、GPQA、IFBench 等基准超越 GPT-5.2 和 Claude 4.5。阿里云推理吞吐量最大提升 19 倍。千问 App 的 AI 购物 Agent 春节期间完成 1.2 亿笔订单。</div>
+  <div class="news-comment">🦐点评：阿里把开源大模型的价格打到地板价（0.8 元/百万 token），直接威胁所有中国大模型公司。千问 3.5 的性价比结合阿里电商场景的数据飞轮，可能让阿里在 AI 应用层形成显著壁垒。投资人需要重新评估国内大模型公司的护城河——纯模型层公司可能难以招架。</div>
+  <div class="news-meta"><span class="news-source">leiphone.com</span></div>
 </div>
 <h3 class="category-header">📌 其他新闻</h3>
 <div class="news-item">
-  <div class="news-title"><a href="https://www.leiphone.com/category/industrynews/UeoaNe55m7Rc8fOm.html" target="_blank" rel="noopener">阿里发布千问3.5：Token价格仅为其1/18</a></div>
-  <div class="news-summary">阿里在除夕开源 Qwen3.5-Plus，3970亿参数，激活仅170亿，性能媲美 Gemini 3 Pro。API 价格每百万 Token 仅 0.8 元，是 Gemini 3 Pro 的 1/18。千问3.5 实现原生多模态，视觉理解与代码能力融合，支持 2 小时视频输入。</div>
-  <div class="news-meta"><span class="news-source">leiphone.com</span></div>
+  <div class="news-title"><a href="https://www.theinformation.com/briefings/spacex-joins-pentagon-drone-technology-competition" target="_blank" rel="noopener">SpaceX Joins Pentagon Drone Technology Competition</a></div>
+  <div class="news-summary">SpaceX 与 xAI 加入五角大楼自主无人机技术竞赛，这是国防部推进语音控制无人系统的努力之一。</div>
+  <div class="news-meta"><span class="news-source">theinformation.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.theinformation.com/articles/ai-magnifying-google-metas-edge-ads" target="_blank" rel="noopener">AI Is Magnifying Google and Meta's Edge in Ads</a></div>
+  <div class="news-summary">Meta CEO Zuckerberg 将在一起针对大型科技公司的诉讼中出庭作证，案件涉及社交媒体成瘾问题。</div>
+  <div class="news-meta"><span class="news-source">theinformation.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.theinformation.com/articles/joke-data-center-wars-distract-real-solutions" target="_blank" rel="noopener">No Joke: How Data Center Wars Distract From Real Solutions</a></div>
+  <div class="news-summary">喜剧演员 Charlie Berens 发起阻止数据中心的运动，向超过 1000 万社交媒体粉丝传播不实说法。</div>
+  <div class="news-meta"><span class="news-source">theinformation.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.theinformation.com/articles/spend-10-trillion-ai-improves-real-world-just-ads" target="_blank" rel="noopener">Let's Spend $10 Trillion on AI That Improves the Real World, Not Just Ads</a></div>
+  <div class="news-summary">作者批评 AI 投资过度集中于广告变现，呼吁将资源导向改善现实世界的应用。</div>
+  <div class="news-meta"><span class="news-source">theinformation.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.theinformation.com/briefings/apple-announces-march-5-events" target="_blank" rel="noopener">Apple Announces March 5 Events</a></div>
+  <div class="news-summary">苹果邀请媒体参加 3 月 5 日在纽约、伦敦和上海举办的活动。</div>
+  <div class="news-meta"><span class="news-source">theinformation.com</span></div>
 </div>
 <div class="news-item">
   <div class="news-title"><a href="https://www.infoq.cn/article/hIHSjxraqSi1kJL2a7uQ" target="_blank" rel="noopener">使用 AI 生成了 MVP，这对软件架构来说意味着什么</a></div>
-  <div class="news-summary">文章探讨了 AI 生成代码对软件架构的影响。AI 生成的代码是&quot;黑盒&quot;，团队无法理解其架构决策；AI 本身就像一座生产技术债务的工厂；架构工作的重心将从前期设计转向对 QAR（质量属性需求）的实证评估。</div>
+  <div class="news-summary">InfoQ 中文报道 AI 生成 MVP 对软件架构的影响。</div>
   <div class="news-meta"><span class="news-source">infoq.cn</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://matduggan.com/i-sold-out-for-200-a-month-and-all-i-got-was-this-perfectly-generated-terraform/" target="_blank" rel="noopener">I Sold Out for $20 a Month</a></div>
-  <div class="news-summary">一位工程师分享了他从抵制 AI 编程工具到付费使用 Claude Code 的心路历程。他承认 AI 工具在技术层面确实有效，但同时对 AI 公司的伦理问题感到不安。最终他选择支付每月 20 美元来&quot;避免写 Kubernetes YAML&quot;。</div>
-  <div class="news-meta"><span class="news-source">matduggan.com</span></div>
+  <div class="news-title"><a href="https://www.infoq.cn/article/pKL4h90cQidiLX4H3r79" target="_blank" rel="noopener">刚刚，OpenClaw &quot;之父&quot;正式加入OpenAI，项目仍保持开源并成立基金会</a></div>
+  <div class="news-summary">OpenClaw 创始人 Peter Steinberger 宣布加入 OpenAI，项目保持开源并成立基金会。</div>
+  <div class="news-meta"><span class="news-source">infoq.cn</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://pluralistic.net/2026/02/16/fast-good-cheap/" target="_blank" rel="noopener">Pluralistic: The online community trilemma</a></div>
-  <div class="news-summary">Cory Doctorow 讨论了在线社区的&quot;不可能三角&quot;：Reach（覆盖）、community（社区）、information（信息）三者不可兼得。</div>
-  <div class="news-meta"><span class="news-source">pluralistic.net</span></div>
+  <div class="news-title"><a href="https://www.qbitai.com/2026/02/380742.html" target="_blank" rel="noopener">鲁棒RL赋能AI编程！破局企业数据噪声难题，同等算力训出更好模型</a></div>
+  <div class="news-summary">量子位报道鲁棒 RL 如何解决企业数据噪声问题。</div>
+  <div class="news-meta"><span class="news-source">qbitai.com</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://matklad.github.io/2026/02/16/diagnostics-factory.html" target="_blank" rel="noopener">Diagnostics Factory</a></div>
-  <div class="news-summary">作者分享了他处理错误报告的个人方法论：向用户展示有用的错误消息。</div>
-  <div class="news-meta"><span class="news-source">matklad.github.io</span></div>
+  <div class="news-title"><a href="https://www.qbitai.com/2026/02/380433.html" target="_blank" rel="noopener">最强开源大模型除夕登场！397B参数千问3.5超越Gemini 3，百万Tokens低至8毛</a></div>
+  <div class="news-summary">量子位报道阿里千问 3.5 发布。</div>
+  <div class="news-meta"><span class="news-source">qbitai.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.leiphone.com/category/industrynews/cQPxBzS8tWmTcSkb.html" target="_blank" rel="noopener">追觅全智能生态亮相春晚《智造未来》</a></div>
+  <div class="news-summary">追觅科技以智能科技生态合作伙伴身份登陆央视春晚舞台。</div>
+  <div class="news-meta"><span class="news-source">leiphone.com</span></div>
 </div>
 </section>
 
@@ -121,44 +146,49 @@
 <h3 class="category-header">🧠 AI 技术前沿</h3>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">karpathy</span> <span class="tweet-handle">@karpathy</span></div>
-  <div class="tweet-content">LLMs 特别擅长代码翻译（而非从零生成），因为原始代码库可以作为详细的 prompt，而且有详细规范。这可能是编程语言和形式方法的复兴时机——比如 C 转 Rust、COBOL 遗留代码升级等。</div>
+  <div class="tweet-content">LLMs 对代码翻译特别擅长（比从零生成强），因为原有代码库相当于详细 prompt，且 C→Rust、COBOL 升级等需求正在兴起，编程语言和形式方法领域正迎来变革机会。</div>
   <a href="https://x.com/karpathy/status/2023476423055601903" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
-  <div class="tweet-content">现在用户几周不用访问 LLM 网页应用就能完成一切——可以通过终端和 Telegram 提示 Agent。年底交互方式将面目全非，语音是未来。</div>
-  <a href="https://x.com/EXM7777/status/2023419107392254211" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
+  <div class="tweet-content">各大聊天机器人的&quot;+&quot;按钮入口已变成大杂烩，Canvas、Web Search、Learning 和各种图标混在一起，新用户完全无法理解，建议忽视这些功能。</div>
+  <a href="https://x.com/emollick/status/2023478306960814573" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
-  <div class="tweet-content">各大聊天机器人的界面现在是一团混乱：新功能图标、学习入口、Canvas、Web 搜索等混杂在一起，连从业者都看不懂，更别说普通用户了。</div>
-  <a href="https://x.com/emollick/status/2023478306960814573" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-content">许多系统正首次为 AI 重新设计（如何招聘？科研发表如何运作？），这为小团队创造了定义未来模式的机会。</div>
+  <a href="https://x.com/emollick/status/2023439440811888873" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <h3 class="category-header">🚀 创业动态</h3>
 <div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
+  <div class="tweet-content">现在已有用户连续几周不用 LLM 网页应用，一切可通过终端操作，通过 Telegram 提示 Agent，这只是&quot;慢速版本&quot;，语音交互即将普及，界面将被彻底抛弃。</div>
+  <a href="https://x.com/EXM7777/status/2023419107392254211" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
-  <div class="tweet-content">OpenClaw 团队使用多代理架构：构建 9-12 个窄域代理，共享一个 Notion 笔记本。一个有 Mac Mini 访问权限，其他在云端运行。</div>
+  <div class="tweet-content">VibeCode 团队计划构建 9-12 个窄 Agent 共享一个 Notion 笔记本，一个有 Mac Mini 访问权限，其他在云端运行，计划完整记录整个过程。</div>
   <a href="https://x.com/rileybrown/status/2023517687629181172" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
-  <div class="tweet-content">&quot;不要重复造轮子&quot;本质上是 Gatekeeping。在 AI 时代，构建你自己的版本，添加你的品味，然后发布。</div>
+  <div class="tweet-content">&quot;已有解决方案就不要构建&quot;是伪装的门卫思维——人们不是缺解决方案，而是缺知道方案是否存在，AI 时代尤其如此，应该构建并添加自己的品味。</div>
   <a href="https://x.com/Hesamation/status/2023500268063912336" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">0xROAS</span> <span class="tweet-handle">@0xROAS</span></div>
-  <div class="tweet-content">AI 视频生成工作流：nano banana pro 生成图片 → minimax audio 生成语音 → hedra avatar 做嘴唇同步（$0/4秒）。省了 $10k 的演员费用。</div>
+  <div class="tweet-content">2 分钟完成 AI 视频生成：用 nano banana pro 生图，minimax audio 生成语音，hedra avatar 做唇同步，0.04 美元/秒，省下 1 万美元演员费。</div>
   <a href="https://x.com/0xROAS/status/2023502702106603883" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <h3 class="category-header">💬 观点与洞察</h3>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">corbin_braun</span> <span class="tweet-handle">@corbin_braun</span></div>
-  <div class="tweet-content">事物变化越快，保持专注就越重要。设定一个目标，然后长期投入。</div>
+  <div class="tweet-content">变化越快，越需要专注设定一个目标并长期投入。</div>
   <a href="https://x.com/corbin_braun/status/2023426049955307620" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">eptwts</span> <span class="tweet-handle">@eptwts</span></div>
-  <div class="tweet-content">实现目标最容易被忽视的因素是找到有共同目标的人脉网络。90% 的工作是把目标保持在意识中，最好的方法是每天谈论它、接触新方法、并被他人监督。</div>
+  <div class="tweet-content">实现目标最被忽视的因素是找到有共同目标的人脉，90% 的工作是把目标保持在意识中并被提醒还有这个目标。</div>
   <a href="https://x.com/eptwts/status/2023531019005984894" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 </section>
@@ -169,32 +199,32 @@
       <section class="section">
 <h3 class="category-header">🔥 精选推荐</h3>
 <div class="news-item">
-  <div class="news-title"><a href="https://mp.weixin.qq.com/s/adCsXmf3fMZ12s2Zlb_RLg" target="_blank" rel="noopener">千问 3.5：0.8 元的顶级模型，我找不到它的对手</a></div>
-  <div class="news-summary">阿里除夕发布 Qwen3.5-Plus，3970亿参数激活170亿，性能持平 Gemini 3 Pro，API 价格仅 0.8 元/百万 Token。文章详细分析了千问 3.5 的技术架构创新，包括门控技术、混合专家模型、线性注意力机制等，并指出其原生多模态训练带来的视觉能力飞跃。</div>
-  <div class="news-comment">🦐点评：阿里把价格打到 0.8 元/百万 Token 是 market destruction——这不仅是价格战，更是对 API 商业模式的重塑。当模型能力接近的情况下，成本优势会快速转化为开发者生态优势。</div>
-  <div class="news-meta"><span class="news-source">一泽Eze</span></div>
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/MkI9VoXcRC0hksM3EKeFiw" target="_blank" rel="noopener">SuperClaw</a></div>
+  <div class="news-summary">深度报道 OpenClaw 的 Super Agent 能力。文章分析了 OpenClaw 如何通过多 Agent 协作实现复杂任务执行，以及其在开发者生态中的定位。</div>
+  <div class="news-comment">🦐点评：OpenClaw 作者 Peter 加入 OpenAI 后，Agent 赛道的竞争格局生变。OpenAI 获得 Peter + OpenClaw 的组合，等于同时拥有了 Agent 产品和开发者生态。对 Anthropic 和其他 Agent 厂商构成直接威胁。</div>
+  <div class="news-meta"><span class="news-source">AGENT橘</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://mp.weixin.qq.com/s/qwNEMsxSkPywrJiciW5DoA" target="_blank" rel="noopener">2026马年春晚15个关于AI的看点</a></div>
-  <div class="news-summary">文章盘点春晚中出现的 AI 元素，包括追觅机器人、阿里 AI 购物 Agent、数字人主持人等，标题用了&quot;有一种人类之外的美&quot;来描述 AI 生成内容的独特美学。</div>
-  <div class="news-comment">🦐点评：春晚是 AI 进入大众消费市场的信号灯——当科技公司愿意花大价钱在春晚上展示 AI 能力时，说明 to-C 市场的教育期已经结束，下一步是规模化应用。</div>
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/qwNEMsxSkPywrJiciW5DoA" target="_blank" rel="noopener">2026马年春晚15个关于AI的看点 - 有一种人类之外的美。</a></div>
+  <div class="news-summary">作者盘点春晚中出现的 AI 元素，包括追觅机器人、阿里 AI 购物、宇树科技机器狗等 15 个看点，从技术角度分析国产 AI 的进步。</div>
+  <div class="news-comment">🦐点评：春晚成为国产 AI 的阅兵场——追觅、宇树、阿里同台亮相。值得关注的是硬件公司（追觅、宇树）与软件公司（阿里）的生态协同，这可能是中国 AI 产业区别于硅谷的独特路径。</div>
   <div class="news-meta"><span class="news-source">数字生命卡兹克</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://mp.weixin.qq.com/s/MkI9VoXcRC0hksM3EKeFiw" target="_blank" rel="noopener">SuperClaw</a></div>
-  <div class="news-summary">文章介绍了 SuperClaw 这一新项目，但摘要未提供更多细节。</div>
-  <div class="news-comment">🦐点评：从名字看应该是 OpenClaw 的衍生项目或竞品，需要进一步观察其定位和市场策略。</div>
-  <div class="news-meta"><span class="news-source">AGENT橘</span></div>
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/adCsXmf3fMZ12s2Zlb_RLg" target="_blank" rel="noopener">千问 3.5：0.8 元的顶级模型，我找不到它的对手</a></div>
+  <div class="news-summary">深度评测阿里 Qwen3.5，从性能、价格、生态三个维度分析。价格仅为 Gemini 3 Pro 的 1/18，性能却相当或超越。</div>
+  <div class="news-comment">🦐点评：阿里把大模型价格打到&quot;免费&quot;级别后，国内大模型公司面临要么跟进要么出局的抉择。但价格战的终局可能是阿里垄断模型层，其他玩家被迫转向应用层差异化。</div>
+  <div class="news-meta"><span class="news-source">一泽Eze</span></div>
 </div>
 <h3 class="category-header">📌 其他值得看</h3>
 <div class="news-item">
   <div class="news-title"><a href="https://mp.weixin.qq.com/s/O-bvK51Hgt9eLQsPrKz5ow" target="_blank" rel="noopener">千问 3.5 模型除夕发布，全网最详细解读</a></div>
-  <div class="news-summary">赛博禅心发布的千问 3.5 详细技术解读文章，内容涵盖模型架构、训练方法、性能评测等。</div>
+  <div class="news-summary">技术解读 Qwen3.5 的架构创新，包括门控技术、混合注意力机制、MoE 架构等技术细节。</div>
   <div class="news-meta"><span class="news-source">赛博禅心</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://mp.weixin.qq.com/s/vslXmzyMlepkYj-6EHFpdA" target="_blank" rel="noopener">Lex Fridman 深度访谈：OpenClaw 作者 Peter Steinberger</a></div>
-  <div class="news-summary">Peter Steinberger 接受 Lex Fridman 深度访谈的内容，文章发布于 Peter 宣布加入 OpenAI 当天。</div>
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/vslXmzyMlepkYj-6EHFpdA" target="_blank" rel="noopener">Lex Fridman 深度访谈：🦞 OpenClaw 作者 Peter Steinberger</a></div>
+  <div class="news-summary">Lex Fridman 采访 OpenClaw 创始人 Peter，讨论 Agent 的未来和 OpenAI 的计划。</div>
   <div class="news-meta"><span class="news-source">AGENT橘</span></div>
 </div>
 </section>
