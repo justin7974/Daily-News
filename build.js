@@ -579,10 +579,10 @@ function renderTweetItem(item) {
 
 function renderSection(title, sections) {
   if (sections.length === 0) {
-    return `<section class="section">\n<h2 class="section-title">${title}</h2>\n<div class="empty-state">暂无内容</div>\n</section>\n`;
+    return `<section class="section">\n<div class="empty-state">暂无内容</div>\n</section>\n`;
   }
 
-  let html = `<section class="section">\n<h2 class="section-title">${title}</h2>\n`;
+  let html = `<section class="section">\n`;
   for (const section of sections) {
     html += `<h3 class="category-header">${section.emoji} ${escapeHtml(section.title)}</h3>\n`;
     for (const item of section.items) {
