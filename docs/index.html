@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>小虾AI日报 #496 | 2026-02-18</title>
-  <meta name="description" content="小虾AI日报 2026-02-18 — 12 篇文章, 20 条推文, 5 篇公众号">
+  <meta name="description" content="小虾AI日报 2026-02-18 — 10 篇文章, 16 条推文, 5 篇公众号">
   <link rel="stylesheet" href="style.css">
   <script>var s=localStorage.getItem('theme');if(s)document.documentElement.setAttribute('data-theme',s);</script>
 </head>
@@ -34,7 +34,7 @@
         <a href="2026-02-17.html" class="date-arrow ">‹</a>
         <div class="date-center">
           <span class="date-main">2026 年 2 月 18 日 · 星期三</span>
-          <span class="date-sub">📰 12 篇文章 · 🐦 20 条推文 · 📱 5 篇公众号</span>
+          <span class="date-sub">📰 10 篇文章 · 🐦 16 条推文 · 📱 5 篇公众号</span>
         </div>
         <a href="#" class="date-arrow disabled">›</a>
       </div>
@@ -57,70 +57,60 @@
       <section class="section">
 <h3 class="category-header">🔥 精选推荐</h3>
 <div class="news-item">
+  <div class="news-title"><a href="https://www.anthropic.com/news/claude-sonnet-4-6" target="_blank" rel="noopener">Introducing Claude Sonnet 4.6</a></div>
+  <div class="news-summary">Claude Sonnet 4.6 是 Anthropic 迄今能力最强的 Sonnet 模型，全面升级了编程、Computer Use、长上下文推理、Agent 规划等方向，并支持 100 万 token 上下文窗口（beta）。在代码能力上，用户偏好 Sonnet 4.6 对比 Sonnet 4.5 的比例达 70%，甚至对比上一代旗舰 Opus 4.5 也有 59% 的胜率——用户反馈更少过度工程化、更少&quot;声称完成但未完成&quot;。Computer Use 方面，OSWorld 分数持续大幅提升，早期用户已实现接近人类水平的复杂电子表格操作和多步骤网页任务，同时对 prompt injection 攻击的防御能力也显著改善。在 Vending-Bench Arena（模拟经营 AI 竞赛）中，Sonnet 4.6 展现出战略性思维：前期重投资产能、后期急转盈利，最终领先竞争对手。定价与 Sonnet 4.5 相同，每百万 token 输入 $3、输出 $15。</div>
+  <div class="news-comment">🦐点评：Sonnet 4.6 的核心意义是把此前 Opus 级别的性能压缩到 Sonnet 价格，对 API 调用密集型的 AI Agent 和 Wrapper 创业公司是直接利好——相同效果的推理成本降低约 3-5x。更值得关注的是 Computer Use 的跨越：如果 OSWorld 分数真实对应自动化能力，企业 SaaS 被替代的节奏可能比市场预期快，Agentic 工作流层的初创公司窗口期正在收窄。</div>
+  <div class="news-meta"><span class="news-source">anthropic.com</span></div>
+</div>
+<div class="news-item">
   <div class="news-title"><a href="https://stratechery.com/2026/thin-is-in/" target="_blank" rel="noopener">Thin Is In</a></div>
-  <div class="news-summary">Ben Thompson 提出了一个关于 AI 时代的核心洞察：在 PC 和移动时代占据主导的&quot;胖客户端&quot;（thick client）模式正在被&quot;瘦客户端&quot;（thin client）取代。AI 的交互界面极其简单——只有一个文本框和提交按钮，所有计算都在云端完成。这意味着本地设备只需要联网能力，而不需要强大的本地算力。更激进的趋势是 Agent 的兴起：用户只需提出需求，AI 在云端完成所有中间步骤，最终只返回结果。这种模式下，设备端的计算能力变得无关紧要，真正的价值集中在数据中心的大规模算力和内存上。</div>
-  <div class="news-comment">🦐点评：这对硬件产业链是颠覆性信号。如果瘦客户端成为主流，高端消费级芯片的需求逻辑将被重构——手机、PC 的换机周期可能进一步延长，而数据中心 GPU/内存的需求将持续爆发。NVIDIA 的护城河不在消费端，而在其数据中心生态的锁定效应。同时，这也解释了为什么苹果在 AI 时代显得被动：其商业模式建立在高端硬件销售上，而 AI 正在削弱硬件差异化的价值。</div>
+  <div class="news-summary">Ben Thompson 追溯了从主机终端、PC 到移动互联网的客户端演进史，论证 AI 正在推动一次决定性的&quot;瘦客户端&quot;回归。聊天框这一主流 AI 交互界面本质上与大型机终端如出一辙：输入文字发给服务器，等待响应，所有计算在数据中心发生。Agent 则将&quot;瘦&quot;推至极致——从请求到结果，中间过程对用户完全不可见。Thompson 指出，随着模型体量和上下文窗口持续增长，算力集中化是必然趋势，本地硬件的竞争优势将被进一步削弱。他还引用 Nicolas Bustamante 的观点：自然语言界面让 SaaS 产品多年积累的肌肉记忆与切换成本归零，垂直软件公司面临根本性威胁。</div>
+  <div class="news-comment">🦐点评：垂直 SaaS 公司的护城河一直被高估——它们的真实壁垒是&quot;界面粘性&quot;而非数据资产；当 Agent 抹平界面差异后，数据本身是否可迁移成为关键问题。对早期投资而言，这意味着现阶段 SaaS 的 ARR 倍数需要折扣，而基础设施层（算力、网络、数据中心运营商）的长期受益逻辑则更清晰。</div>
   <div class="news-meta"><span class="news-source">stratechery.com</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://www.a16z.news/p/a-primer-on-factory-economics-for" target="_blank" rel="noopener">A Primer on Factory Economics for Startups</a></div>
-  <div class="news-summary">a16z 系统阐述了&quot;工厂即产品&quot;（Factory-is-the-Product）这一制造业新范式的经济学逻辑。与传统软件公司不同，这类公司的核心 IP 不是最终产品，而是生产该产品的新颖制造流程本身。文章详细拆解了工厂成本的三大类别（可变成本、固定成本、半可变成本）、良品率（yield）对学习曲线的非线性影响，以及产能利用率对盈利能力的杠杆效应。高固定成本结构意味着：满产时利润丰厚，但产能利用率低于 50% 时可能直接亏损。</div>
-  <div class="news-comment">🦐点评：这是理解硬件/制造业投资的必读框架。很多 AI 硬件初创公司（机器人、无人机、电池）都符合这一模式——它们不是在卖设计图，而是在卖&quot;能大规模生产别人生产不了的东西&quot;的能力。对 VC 而言，评估这类公司时，不能只看产品原型，更要深入考察：其制造工艺是否有专利保护？良品率曲线是否足够陡峭？产能扩张的边际成本如何？Tesla 和 SpaceX 的成功，本质是工厂经济学的胜利。</div>
-  <div class="news-meta"><span class="news-source">a16z.news</span></div>
-</div>
-<div class="news-item">
-  <div class="news-title"><a href="https://www.lennysnewsletter.com/p/how-to-do-ai-analysis-you-can-actually" target="_blank" rel="noopener">How to do AI analysis you can actually trust</a></div>
-  <div class="news-summary">用户研究专家 Caitlin Sullivan 分享了四种防止 AI 分析&quot;幻觉&quot;的 prompting 技巧。核心问题是：AI 在分析访谈或调研数据时，会快速归纳出&quot;整洁&quot;的主题，但可能错过矛盾点、语气变化和关键细节。她提出的解决方案包括：强制 AI 保留用户的原话作为证据、要求 AI 标注数据中的矛盾之处、区分&quot;信号&quot;与&quot;可指导决策的洞察&quot;等。文章强调，AI 分析的最大风险不是显而易见的错误，而是&quot;看起来可信但实际上误导&quot;的结论。</div>
-  <div class="news-comment">🦐点评：这是 AI 应用层的一个被低估的痛点。随着企业把越来越多的用户研究、市场调研交给 AI，&quot;幻觉污染&quot;可能成为系统性风险。Caitlin 的方法论——强制溯源、矛盾检测、证据锚定——本质上是在 AI 工作流程中嵌入&quot;质量控制节点&quot;。对投资而言，这意味着两类机会：一是帮助企业验证 AI 输出质量的工具（AI 的 AI 审计员），二是将这类方法论产品化的 SaaS 平台。</div>
-  <div class="news-meta"><span class="news-source">lennysnewsletter.com</span></div>
-</div>
-<div class="news-item">
-  <div class="news-title"><a href="https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work/" target="_blank" rel="noopener">Our 2026 Responsible AI Progress Report</a></div>
-  <div class="news-summary">Google 发布 2026 年度负责任 AI 进展报告，系统阐述了其如何将 AI 原则嵌入产品开发和研究的全生命周期。报告强调，随着模型能力增强、个性化和多模态特性发展，Google 已建立了多层治理体系，涵盖从初始研究到上线后监控的全过程。具体成果包括：为 7 亿人提供洪水预测、解码人类基因组、帮助预防失明等社会价值项目。Google 同时强调与学术界、政府和公民社会的深度合作。</div>
-  <div class="news-comment">🦐点评：这份报告需要放在监管压力加剧的背景下阅读。欧盟 AI Act、美国各州立法、中国算法推荐管理规定——全球监管框架正在成型。Google 此时强调&quot;负责任 AI&quot;，既是品牌公关，也是为即将到来的合规成本做预期管理。对投资者而言，关键问题是：这些安全措施会增加多少边际成本？是否会拖慢模型迭代速度？OpenAI 和 Anthropic 也在做类似投入，这正在成为大模型公司的&quot;合规军备竞赛&quot;。</div>
-  <div class="news-meta"><span class="news-source">blog.google</span></div>
-</div>
-<div class="news-item">
-  <div class="news-title"><a href="https://www.latent.space/p/ainews-qwen35-397b-a17b-the-smallest" target="_blank" rel="noopener">[AINews] Qwen3.5-397B-A17B: the smallest Open-Opus class, very efficient model</a></div>
-  <div class="news-summary">阿里通义千问发布 Qwen 3.5，采用 397B 总参数、17B 激活参数的 MoE 架构，稀疏率约 4.3%。模型在多模态能力和空间智能（Spatial Intelligence）上有显著提升，但在编码基准测试上未 claim SOTA。这是继 Z.ai、Minimax、Kimi 之后，中国大模型厂商的又一次密集更新。文章指出，这可能是 DeepSeek v4 发布前，中国开源模型的最后一次重要迭代。</div>
-  <div class="news-comment">🦐点评：中国大模型正在进入&quot;参数效率竞赛&quot;阶段——不再单纯追求总参数规模，而是在固定性能水平下优化推理成本。Qwen 3.5 的 4.3% 稀疏率比 Kimi 的 3.25% 更保守，可能意味着更好的推理稳定性。对投资者而言，需要关注两个信号：一是中国模型厂商的迭代节奏是否在加快（这次是密集发布），二是开源模型对闭源 API 的替代效应——如果开源模型性能接近 GPT-4 但成本更低，OpenAI 的定价权将受到挤压。</div>
-  <div class="news-meta"><span class="news-source">latent.space</span></div>
-</div>
-<h3 class="category-header">📌 其他新闻</h3>
-<div class="news-item">
-  <div class="news-title"><a href="https://www.a16z.news/p/the-mindset-shift-we-need-to-rebuild" target="_blank" rel="noopener">The mindset shift we need to rebuild American factories</a></div>
-  <div class="news-summary">a16z 合伙人 Katherine Boyle 撰文讨论重建美国工厂所需的心态转变。核心论点是：制造业复兴不仅需要资金和政策，更需要&quot;工厂思维&quot;——找到最好的创意和人才，给他们尝试的机会。</div>
-  <div class="news-meta"><span class="news-source">a16z.news</span></div>
-</div>
-<div class="news-item">
-  <div class="news-title"><a href="https://simonwillison.net/2026/Feb/17/rodney/" target="_blank" rel="noopener">Rodney v0.4.0</a></div>
-  <div class="news-summary">Simon Willison 发布的浏览器自动化 CLI 工具 Rodney 更新至 v0.4.0，新增错误退出码、改进日志输出等功能。该工具设计用于与 Showboat 配合工作，近期收到大量社区 PR。</div>
-  <div class="news-meta"><span class="news-source">simonwillison.net</span></div>
-</div>
-<div class="news-item">
-  <div class="news-title"><a href="https://simonwillison.net/2026/Feb/17/dimitris-papailiopoulos/" target="_blank" rel="noopener">Quoting Dimitris Papailiopoulos</a></div>
-  <div class="news-summary">引用威斯康星大学教授 Dimitris Papailiopoulos 的观点：LLM 创造了一个&quot;魔法盒子&quot;——扔进去一个问题，几乎零人力成本就能得到初步答案。这改变了探索新想法的方式。</div>
-  <div class="news-meta"><span class="news-source">simonwillison.net</span></div>
-</div>
-<div class="news-item">
-  <div class="news-title"><a href="https://simonwillison.net/2026/Feb/17/release-notes-webcomic/" target="_blank" rel="noopener">Nano Banana Pro diff to webcomic</a></div>
-  <div class="news-summary">讨论 AI 加速软件开发带来的&quot;认知债务&quot;问题。Nathan Baschez 提出将发布说明（release notes）转化为网络漫画，以降低认知负担。</div>
-  <div class="news-meta"><span class="news-source">simonwillison.net</span></div>
+  <div class="news-title"><a href="https://martinalderson.com/posts/anthropic-found-500-zero-days/" target="_blank" rel="noopener">Anthropic's 500 vulns are the tip of the iceberg</a></div>
+  <div class="news-summary">Anthropic 红队公布 Claude Opus 4.6 在主流开源项目中发现 500+ 高危漏洞，但作者指出这仅是冰山一角——真正令人担忧的是大量无人维护的遗留软件。作者实测用 Claude Code 对废弃 PHP 应用进行安全审计：克隆仓库启动 Agent，约 5 分钟即找到可远程执行的 RCE 漏洞，Agent 甚至自行发现了绕过原始过滤的编码方式并写出完整 POC。他测算此类自动化漏洞挖掘可在数天内找到数十乃至数百个 RCE，而相关废弃软件仍有数千台服务器在线暴露。更关键的是：AI 安全护栏极易被绕过（声称自己是项目维护者即可），且开源权重模型的存在使监管无从下手。</div>
+  <div class="news-comment">🦐点评：AI 驱动的漏洞挖掘正在将网络安全从&quot;需要时间&quot;的工作变成&quot;需要算力&quot;的工作，这翻转了传统信息安全的经济逻辑。投资角度有两个方向：一是专门针对遗留/废弃软件的大规模自动化漏洞扫描与修复服务（真实需求，无竞争）；二是&quot;AI 安全护栏绕过&quot;将加速对 AI-native 安全验证工具的需求——比 AI 写代码的赛道更有付费意愿和护城河。</div>
+  <div class="news-meta"><span class="news-source">martinalderson.com</span></div>
 </div>
 <div class="news-item">
   <div class="news-title"><a href="https://garymarcus.substack.com/p/rumors-of-agis-arrival-have-been" target="_blank" rel="noopener">Rumors of AGI's arrival have been greatly exaggerated</a></div>
-  <div class="news-summary">Gary Marcus 再次发声：统计近似不等于通用智能。当前 LLM 的局限性被严重低估，AGI 的到来被过度炒作。</div>
+  <div class="news-summary">Gary Marcus 联合两位同事在《Nature》发表反驳文章，回应近期&quot;AGI 已实现&quot;的声索。文章指出相关论证犯了概念性错误：将基准测试表现与真正的通用智能混为一谈——AGI 的原始定义强调跨域灵活性、新颖环境适应性与可靠泛化，而非特定任务分数。作者还指出近年来&quot;AGI&quot;定义被系统性地降低标准：从认知通用性，到经济任务广度，再到基准测试分数；这是叙事重构而非能力提升。文章援引 Hendrycks 等人研究，指出当前模型在系统性失效鲁棒性上仍远未达标，图灵测试等被引用的&quot;AGI 证明&quot;也可被专注&quot;看起来像人&quot;的策略所通过。</div>
+  <div class="news-comment">🦐点评：Marcus 发表在 Nature 的反驳本身即是信号——学术界对&quot;AGI 叙事泡沫&quot;的反弹开始制度化，将影响监管话语和公众预期。对 VC 来说：能力叙事与估值挂钩，当 benchmark 的&quot;可游戏性&quot;被主流媒体报道时，基于&quot;我们快到 AGI 了&quot;逻辑支撑的估值需要打折，而聚焦具体、可验证能力改进的创业公司故事会更受下一轮市场欢迎。</div>
   <div class="news-meta"><span class="news-source">garymarcus.substack.com</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://36kr.com/p/3687105642737545?f=rss" target="_blank" rel="noopener">对话王兴兴：搜遍全世界武术招式，宇树如何超越宇树</a></div>
-  <div class="news-summary">36kr 对宇树科技创始人王兴兴的专访，揭秘春晚机器人节目《武术 BOT》背后的技术细节。王兴兴表示，为了让机器人表演武术，团队搜遍了全世界的武术招式。</div>
-  <div class="news-meta"><span class="news-source">36kr.com</span></div>
+  <div class="news-title"><a href="https://www.lennysnewsletter.com/p/how-to-do-ai-analysis-you-can-actually" target="_blank" rel="noopener">How to do AI analysis you can actually trust</a></div>
+  <div class="news-summary">用户研究专家 Caitlin Sullivan 总结了用 AI 进行客户访谈/问卷分析时的四类核心失误模式：发明证据（引用不存在的数据点）、生成泛化洞察（听起来对但无具体依据）、输出无法指导决策的&quot;信号&quot;、以及忽略数据内部矛盾。她提出的防范方法包括：要求 AI 必须保留用户原话（带时间戳 verbatim quote）而非意译；强制让模型进行反驳测试（主动质疑自己的结论）；针对访谈和结构化问卷的不同混乱特性设计专属 prompt。她对比了同一数据集下两个 AI 输出——一个看起来有说服力但充满幻觉，一个较乱但真实且可验证。</div>
+  <div class="news-comment">🦐点评：AI 分析报告&quot;看起来对&quot;但充满幻觉的问题正在悄悄影响企业决策质量，这是一个被严重低估的风险。做 AI 企业工具的创业公司若能在产品层面内置可验证性（source-grounding、quote tracing、contradiction flagging），相比单纯堆 AI 能力将有真实差异化——尤其在 research ops、GTM intel、用户洞察等付费意愿强的专业场景。</div>
+  <div class="news-meta"><span class="news-source">lennysnewsletter.com</span></div>
+</div>
+<h3 class="category-header">📌 其他新闻</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.seangoedecke.com/generate-skills-afterwards/" target="_blank" rel="noopener">LLM-generated skills work, if you generate them afterwards</a></div>
+  <div class="news-summary">研究发现 LLM 在解决问题后总结生成的 skill 文档效果远优于解题前生成——前者能蒸馏出实际迭代学习的真实知识（包括踩坑经验），后者只是重复训练数据中已有的先验假设；作者通过 SAE 特征钳位实验验证了这一方法的实际效果。</div>
+  <div class="news-meta"><span class="news-source">seangoedecke.com</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://36kr.com/p/3686768807243401?f=rss" target="_blank" rel="noopener">揭秘春晚&quot;两个蔡明&quot;背后，这家机器人公司的百日奋战</a></div>
-  <div class="news-summary">36kr 报道春晚小品中机器人替身背后的创业公司——星尘智能。从接到需求到登台表演，团队经历了百日奋战。</div>
-  <div class="news-meta"><span class="news-source">36kr.com</span></div>
+  <div class="news-title"><a href="https://www.latent.space/p/ainews-qwen35-397b-a17b-the-smallest" target="_blank" rel="noopener">[AINews] Qwen3.5-397B-A17B: the smallest Open-Opus class model</a></div>
+  <div class="news-summary">Alibaba Qwen 系列发布 Qwen3.5-397B-A17B，400B 参数 MoE 架构，主打原生多模态与空间智能，称为&quot;同类最小的 Open-Opus 级&quot;模型；这可能是 DeepSeek v4 发布前中国开源模型实验室的最后一批主力更新。</div>
+  <div class="news-meta"><span class="news-source">latent.space</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work/" target="_blank" rel="noopener">Our 2026 Responsible AI Progress Report</a></div>
+  <div class="news-summary">Google 发布 2026 年责任 AI 进展报告，介绍覆盖研发至发布后监控的全链路治理框架；随着模型更具能力、更个性化、更多模态，Google 在 25 年用户信任数据的基础上叠加了自动化对抗测试，并保留人工专家监督最高风险系统。</div>
+  <div class="news-meta"><span class="news-source">blog.google</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.a16z.news/p/a-primer-on-factory-economics-for" target="_blank" rel="noopener">A Primer on Factory Economics for Startups</a></div>
+  <div class="news-summary">a16z 为&quot;工厂即产品&quot;类硬件创业公司提供制造经济学入门指南，涵盖成本分解、良率学习曲线与资本策略，适用于无人机电机、机器人执行器、PCB、航空航天零件等核心制造工艺即是护城河的深科技赛道。</div>
+  <div class="news-meta"><span class="news-source">a16z.news</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.latent.space/p/jeffdean" target="_blank" rel="noopener">Jeff Dean on Gemini, distillation, and the one-page memo that changed Google AI</a></div>
+  <div class="news-summary">Jeff Dean 与 Latent Space 主持人深度对话，披露蒸馏技术的真实起源（解决 50 个专家模型无法部署的工程难题）、Gemini 诞生于&quot;三路分兵做大模型是愚蠢的&quot;那页备忘录，以及 Flash 模型如何以 50 万亿 token/天的规模驱动 Gmail、YouTube 和 Google 搜索 AI Mode。</div>
+  <div class="news-meta"><span class="news-source">latent.space</span></div>
 </div>
 </section>
 
@@ -131,105 +121,85 @@
 <h3 class="category-header">🧠 AI 技术前沿</h3>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">rryssf_</span> <span class="tweet-handle">@rryssf_</span></div>
-  <div class="tweet-content">微软研究院和 Salesforce 分析了 20 万+ AI 对话，发现一个行业不愿承认的事实：所有主流模型（GPT-4、Claude、Gemini、Llama）在对话时间越长时表现越差。GPT-4.1 准确率从 96.6% 降至 72.6%，Gemini 2.5 Pro 从 97.4% 降至 68.1%。问题根源在于模型在对话早期做出错误假设后会&quot;锚定&quot;于此，拒绝修正。</div>
+  <div class="tweet-content">Microsoft Research 与 Salesforce 分析 20 万+ AI 对话后发现：所有主流大模型（GPT-4、Claude、Gemini、Llama）在长对话中性能都大幅下滑，平均下降 39%——GPT-4.1 从 96.6% 掉到 72.6%，Gemini 2.5 Pro 从 97.4% 掉到 68.1%。</div>
   <a href="https://x.com/rryssf_/status/2023885892335923217" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">rryssf_</span> <span class="tweet-handle">@rryssf_</span></div>
-  <div class="tweet-content">解决&quot;迷失在对话中&quot;问题的唯一有效方法是&quot;concat-and-retry&quot;——通过对话收集所有信息后，清空上下文重新用整合后的干净输入提示模型。这能将准确率恢复到 90%+。说明问题不是模型智商不够，而是对话架构与训练数据分布不匹配。</div>
-  <a href="https://x.com/rryssf_/status/2023885981469061389" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-content">研究揭示&quot;迷失在对话中&quot;的具体机制：模型在第 2-3 轮就做出错误假设并固化，后续把自己的早期输出当作真实依据——结果不是回答你的问题，而是在捍卫自己最初的猜测。唯一有效的修复是&quot;concat-and-retry&quot;：收集完信息后重新用单轮方式提问。</div>
+  <a href="https://x.com/rryssf_/status/2023885904759386477" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">vasuman</span> <span class="tweet-handle">@vasuman</span></div>
-  <div class="tweet-content">LLM 是随机的，Agent 也应该如此。但现实中 Agent 往往被设计得过于确定。当你用 Codex 扫描代码库找 bug 时，它每次都会发现同样的 bug、漏掉同样的 bug 吗？温度参数调低是有原因的。构建 Agent 的核心张力在于：确定性（本质上非 Agent 化，无法完成高价值任务）vs 非确定性（本质上不可预测，无法信任）。</div>
-  <a href="https://x.com/vasuman/status/2023629819649364375" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
+  <div class="tweet-content">GDPval 是目前最好的 Agentic 复杂任务基准之一，但 GDPval-AA 与它不同：只用了公开题库，且评分全部由 Gemini 完成而非人类专家——两者数值不可直接比较，被混淆引用时需特别注意。</div>
+  <a href="https://x.com/emollick/status/2023854803328311722" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">corbin_braun</span> <span class="tweet-handle">@corbin_braun</span></div>
-  <div class="tweet-content">Gemini 3 Pro 的 UI 生成能力极强，但使用前必须先提交——因为这个模型很容易&quot;脱轨&quot;。</div>
-  <a href="https://x.com/corbin_braun/status/2023846137158135848" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">corbin_braun</span> <span class="tweet-handle">@corbin_braun</span></div>
-  <div class="tweet-content">GPT-Codex 擅长解决 bug，但在 UI 方面表现糟糕。</div>
-  <a href="https://x.com/corbin_braun/status/2023844058171576517" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
+  <div class="tweet-content">看清 AI &quot;参差不齐的前沿&quot;并不难：想想你工作中哪些事项即使 Agent 再强 10 倍也绝对不能交给它，那就是当前边界所在。越频繁使用 AI，这个判断就越准确。</div>
+  <a href="https://x.com/emollick/status/2023870680081854744" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">kloss_xyz</span> <span class="tweet-handle">@kloss_xyz</span></div>
-  <div class="tweet-content">研究 OpenClaw 的架构图，你会发现一些可能不知道的东西。</div>
+  <div class="tweet-content">推荐阅读 OpenClaw 架构图——其中有不少你可能不知道的设计细节值得深挖。</div>
   <a href="https://x.com/kloss_xyz/status/2023663090668368258" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
-  <div class="tweet-content">我给 OpenClaw 赋予了 Blender 的能力。</div>
-  <a href="https://x.com/rileybrown/status/2023871323978756378" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <h3 class="category-header">🚀 创业动态</h3>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">gregisenberg</span> <span class="tweet-handle">@gregisenberg</span></div>
-  <div class="tweet-content">欢迎来到互联网的技能时代。过去 15 年，如果你想做一家严肃的软件公司，你会做一个产品并暴露 API。那是正确的做法。你创造功能——支付、消息、邮件、搜索、分析——然后让开发者接入。赢家拥有管道。Stripe 拥有支付，Twilio 拥有消息，SendGrid 拥有邮件。API 是分销层。一旦集成，你就被嵌入了。这个模式正在终结。</div>
+  <div class="tweet-content">互联网正从&quot;API 时代&quot;迈入&quot;Skill 时代&quot;：过去 15 年，Stripe/Twilio/SendGrid 靠开放 API 获得嵌入式分发；现在 AI 正在把功能直接内化为原生能力，原来靠 API 变现的基础设施层商业模式面临根本重构。</div>
   <a href="https://x.com/gregisenberg/status/2023769860690383065" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">levelsio</span> <span class="tweet-handle">@levelsio</span></div>
-  <div class="tweet-content">引用 steipete 关于欧洲为何无法留住人才的观点：&quot;在美国，大多数人充满热情。在欧洲，我遭到侮辱，人们大喊监管和责任。如果我在这里真正建立公司，还要应对投资保护法、员工权利和令人瘫痪的劳动法规。在 OpenAI，大多数人每周工作 6-7 天并获得相应报酬。在欧洲，这是违法的。&quot;</div>
-  <a href="https://x.com/levelsio/status/2023873782050374086" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
+  <div class="tweet-content">给 OpenClaw 赋予了 Blender 控制能力，实现 AI 直接操控 3D 建模工具。</div>
+  <a href="https://x.com/rileybrown/status/2023871323978756378" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
+  <div class="tweet-content">关于 AI 工具的使用建议：避免跟没有大量亲身测试经历的人讨论 AI 观点——这个领域移动太快，只有持续动手使用才能真正理解正在发生什么，理论分析和长篇博客都排在深度实践之后。</div>
+  <a href="https://x.com/rileybrown/status/2023806044699586704" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">jackfriks</span> <span class="tweet-handle">@jackfriks</span></div>
-  <div class="tweet-content">我还是太穷了，花不起用 AI 解决客户支持邮件所需的 token。</div>
+  <div class="tweet-content">有趣的创业者诚实时刻：坦言仍然太穷，负担不起让 AI 以令人满意的方式自动处理所有客服邮件所需的 token 成本，目前仍需人工介入。</div>
   <a href="https://x.com/jackfriks/status/2023888073835376661" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">corbin_braun</span> <span class="tweet-handle">@corbin_braun</span></div>
-  <div class="tweet-content">Thumio 接下来两周将是重大升级的开发冲刺。</div>
-  <a href="https://x.com/corbin_braun/status/2023879951599165816" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-content">模型使用心得：Gemini 3 Pro 出 UI 效果惊艳，但容易&quot;失控&quot;，必须在每次使用前先 commit 代码做好回滚准备。</div>
+  <a href="https://x.com/corbin_braun/status/2023846137158135848" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">corbin_braun</span> <span class="tweet-handle">@corbin_braun</span></div>
-  <div class="tweet-content">已向 Cursor 提交插件。</div>
-  <a href="https://x.com/corbin_braun/status/2023897036865892486" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-content">补充对比：GPT-Codex 解决 bug 很厉害，但在 UI 生成方面表现很差。</div>
+  <a href="https://x.com/corbin_braun/status/2023844058171576517" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">marclou</span> <span class="tweet-handle">@marclou</span></div>
+  <div class="tweet-content">4 小时内完成落地页迭代：新标题、产品演示、社会证明、爆米花定价全部上线，快速出货心态。</div>
+  <a href="https://x.com/marclou/status/2023819092814348388" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <h3 class="category-header">💬 观点与洞察</h3>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
-  <div class="tweet-content">看清 AI 的&quot;锯齿前沿&quot;并不难。想想你工作中至关重要但你绝不会指望 AI 完成的部分——即使 Agent 能力提升 10 倍。那就是前沿。你用 AI 越多，这种判断就越准确。</div>
-  <a href="https://x.com/emollick/status/2023870680081854744" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
-  <div class="tweet-content">深入 AI 的战壕。钻进杂草丛中亲自实验。我避免和那些对 AI 有意见但不持续使用工具的人交谈。不要理论化 AI，不要思考&quot;AI 格局&quot;，不要读长篇博客——直到你深入测试过许多 AI 工具并亲自尝试实施。这个领域变化如此之快，只有持续使用工具才能真正理解。</div>
-  <a href="https://x.com/rileybrown/status/2023806044699586704" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
-  <div class="tweet-content">OpenClaw 不会进入普通人的电脑。我花了两周时间玩这个技术后这么说——它可能是目前最好的 AI 项目。但你们都忘了大多数人不知道终端是什么。他们不想设置 VPS、管理 API 密钥或调试配置文件。他们想说点什么然后看着它被完成。语音到行动……这就是全部产品论点。</div>
-  <a href="https://x.com/EXM7777/status/2023761445952119171" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
-  <div class="tweet-content">&quot;死互联网理论&quot;即将发生在电话上。未来 12 个月内，个人 AI Agent 将通过与来电者的 AI Agent 对话来筛选你的所有电话。</div>
-  <a href="https://x.com/EXM7777/status/2023826069707780518" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
-  <div class="tweet-content">traction 就是你所需要的一切。我花了几年才想明白……当你开始看到某事起作用的第一个迹象时，那不是放松的时候。那是你加倍努力、更用力推动以保持它活力的时候。</div>
-  <a href="https://x.com/EXM7777/status/2023843145147183556" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">0xROAS</span> <span class="tweet-handle">@0xROAS</span></div>
-  <div class="tweet-content">&quot;AI UGC 是垃圾&quot;。你每天都在为此哭泣，而你的竞争对手：测试更多钩子、找到更多赢家、比你更努力地放大。这不再是&quot;锦上添花&quot;的技能。这是扩张与死亡之间的差距。</div>
-  <a href="https://x.com/0xROAS/status/2023855134707716347" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">eptwts</span> <span class="tweet-handle">@eptwts</span></div>
+  <div class="tweet-content">整理了当前应该掌握的核心 AI 工具矩阵：LLM（Claude/Gemini/GPT/Kimi）、编程 Agent（Claude Code/Cursor/OpenCode/Lovable）、Computer Use（Manus/OpenAI/Claude）、图像/视频/音频生成各主力产品，以及 n8n/OpenClaw 自动化工具。</div>
+  <a href="https://x.com/eptwts/status/2023723269732413839" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">eptwts</span> <span class="tweet-handle">@eptwts</span></div>
-  <div class="tweet-content">这是一个来自技术人群回音室的观点……认为普通消费者会宁愿打字输入请求也不愿与美观的 UI 互动，这相当脱离现实。</div>
+  <div class="tweet-content">反驳&quot;CLI 优于 GUI&quot;的技术圈回音室：普通消费者永远不会偏好打字命令而非直觉好用的 UI，认为终端就是未来是脱离现实的判断。</div>
   <a href="https://x.com/eptwts/status/2023744926962348089" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">eptwts</span> <span class="tweet-handle">@eptwts</span></div>
-  <div class="tweet-content">以下是你现在应该掌握的所有 AI 工具……LLM：Claude、Gemini、GPT、Kimi。编码 Agent：Claude Code、Cursor、Opencode、Lovable。计算机使用 Agent：Manus、OpenAI/Claude。AI 图像：Nano Banana Pro、GPT-image、Midjourney。AI 视频：Google Veo、Sora、Kling、Seedream。AI 音频：ElevenLabs、Suno。自动化：Claude Code、n8n、OpenClaw。</div>
-  <a href="https://x.com/eptwts/status/2023723269732413839" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">egeberkina</span> <span class="tweet-handle">@egeberkina</span></div>
+  <div class="tweet-content">Seedance 2.0 正在改变 VFX 行业——分享了视频生成效果展示。</div>
+  <a href="https://x.com/egeberkina/status/2023854570536087663" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">vasuman</span> <span class="tweet-handle">@vasuman</span></div>
+  <div class="tweet-content">梗图调侃：如果 Claude 能知道当前日期和时间，生活会是什么样。（暗指现有模型训练截止日期导致的认知盲区问题）</div>
+  <a href="https://x.com/vasuman/status/2023885292730806381" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 </section>
 
@@ -240,31 +210,31 @@
 <h3 class="category-header">🔥 精选推荐</h3>
 <div class="news-item">
   <div class="news-title"><a href="https://mp.weixin.qq.com/s/4XK4mTtGb_rxpjxm4Lcjlg" target="_blank" rel="noopener">字节跳动在春节点亮自己的 ChatGPT 时刻</a></div>
-  <div class="news-summary">晚点 LatePost 深度报道字节跳动的春节 AI 战役。与往年红包大战不同，字节今年将春晚合作定位为&quot;技术试炼&quot;：火山引擎作为独家 AI 云伙伴，将 AI 能力嵌入春晚节目创作全流程。Seedance 2.0 视频生成模型负责《驭风歌》节目的水墨骏马动画；豆包大模型为机器人提供&quot;大脑&quot;、&quot;嘴巴&quot;和&quot;耳朵&quot;；豆包 App 成为互动核心载体，用户需生成 AI 内容才能抢红包。官方数据显示除夕当天豆包 AI 互动达 19 亿次，峰值 TPM（每分钟 token 数）达 633 亿。</div>
-  <div class="news-comment">🦐点评：这是字节向&quot;硬科技公司&quot;转型的关键信号。过去字节的核心能力是产品运营和算法推荐，但在 AI 时代，这些护城河正在被削弱——ChatGPT 和 DeepSeek 证明，模型能力才是真正的壁垒。字节正在用&quot;Seed Edge&quot;研究项目补课基础研究，考核周期放宽至 5 年。对投资者而言，这意味着：中国 AI 竞争进入&quot;重投入、长周期&quot;阶段，只有现金流充裕的巨头才能参与终局游戏。</div>
+  <div class="news-summary">晚点深度报道字节跳动春节战役全貌：火山引擎以 AI 云伙伴身份冠名春晚，将 Seedance 2.0 用于生成水墨骏马舞台视效，用豆包大模型驱动春晚机器人，并将互动模式从&quot;摇红包&quot;改为&quot;用大模型生成图片/祝福才能抢红包&quot;——算力需求较传统互动增加 100 万倍。除夕当天豆包 AI 总互动达 19 亿次。文章同时深度分析了 AI 产品为何无法复制互联网产品的飞轮增长模式：用户增长不改善底层模型，AI 推理成本无法随规模摊薄，商业化路径根本不同于移动互联网时代。字节 CEO 梁汝波将 2026 年定为&quot;勇攀高峰&quot;，并已设立代号 Seed Edge 的长期 AGI 前沿研究项目。</div>
+  <div class="news-comment">🦐点评：这篇文章的真正价值在于揭示了 AI 大厂产品的商业化困境——豆包 19 亿互动与 ChatGPT 的增长路径完全不同，字节本质上是在用 toB 云服务（火山引擎）交叉补贴 toC 品牌。对 VC 来说，这意味着中国市场的 AI 产品 ARR 分析框架需要拆解 toB/toC 结构，单纯看 DAU 的估值逻辑存在重大误导；同时 Seed Edge 的设立也是&quot;中国科技公司是否真能做基础研究&quot;这个命题的难得实验案例。</div>
   <div class="news-meta"><span class="news-source">晚点LatePost</span></div>
 </div>
 <div class="news-item">
   <div class="news-title"><a href="https://mp.weixin.qq.com/s/RTwjEDShVYJ_ZHGE-yej0Q" target="_blank" rel="noopener">&quot;人与 Agent 的社交里，有下一个字节的机会&quot;丨100 个 AI 创业者</a></div>
-  <div class="news-summary">晚点 LatePost 专访 Teamliy.ai 创始人何朝阳。该产品定位为&quot;AI-native IM&quot;，核心创新是让多个 Agent 与真人共存于群聊场景，实现多点交互。产品形态类似微信，但通讯录里全是 Agent（做 PPT、旅行规划、健康管理等）。何朝阳认为当前 AI 只让个人成为&quot;super human&quot;，但尚未解决群体协作问题，而群聊场景&quot;有诞生下一个字节的机会&quot;。</div>
-  <div class="news-comment">🦐点评：这是对 AI 交互范式的有趣探索，但产品逻辑存在根本张力。何朝阳自己也承认 IM 只是&quot;中间状态&quot;，真正的终局是&quot;多人与多 Agent 协作网络&quot;。问题在于：如果 IM 不是终局，用户为何要迁移社交关系？微信的锁定效应不仅来自功能，更来自关系链。Teamliy 的差异化——多 Agent 群聊协作——是否足以驱动关系链迁移？历史经验表明，社交产品的成功往往来自单点突破（如微信的摇一摇、Snapchat 的阅后即焚），而非&quot;全能平台&quot;叙事。</div>
+  <div class="news-summary">晚点 AI「100 个 AI 创业者」系列第 11 篇，专访 Teamily.ai 创始人何朝阳。Teamily 是一个形态类似微信的产品，通讯录里默认全是 Agent（PPT 助理、旅行规划、健康管理等），并支持多人与多 Agent 在同一群聊中协作，具备 50+ 文件格式多模态理解和全局记忆能力。何朝阳认为当前 AI 只让个人成为&quot;super human&quot;，但群体协作场景仍是空白，&quot;群聊里有诞生下一个字节的机会&quot;。他承认 IM 只是中间形态，核心目标是构建一个多人与多 Agent 共存的协作网络平台，目标用户为中产阶级。</div>
+  <div class="news-comment">🦐点评：Teamily 的产品逻辑颇具张力，但核心冷启动问题悬而未决——社交关系迁移成本极高，不存在&quot;摇一摇&quot;这样的病毒钩子，而多 Agent 协作的复杂特性要求用户已经重度使用 AI。从 VC 视角看，这个赛道的真正机会可能不在于复制微信的社交网络效应，而在于企业内多 Agent 工作流协作（飞书/Slack 的替代品）——消费社交端的 PMF 路径风险更高，但 B2B 方向的付费意愿和产品边界更清晰。</div>
   <div class="news-meta"><span class="news-source">晚点LatePost</span></div>
 </div>
 <div class="news-item">
   <div class="news-title"><a href="https://mp.weixin.qq.com/s/aSLr9hWAlIJ-KhsVmSHqUA" target="_blank" rel="noopener">我们，已迈过奇点</a></div>
-  <div class="news-summary">赛博禅心主理人的春节思考，提出&quot;我们可能已经迈过文明奇点&quot;的判断。核心论点包括：200 美元/月的 AI 订阅是&quot;最后的平等窗口&quot;——未来顶级智能的成本将分化，花 10 万美元/月的人与花 20 美元/月的人产出质量差距巨大；纯认知劳动的经济价值将趋近于电费；一个人管理 100 个 Agent 的产出可能超过 1000 个不用 AI 的人；制约智能生产的终极瓶颈是能源。</div>
-  <div class="news-comment">🦐点评：这是一篇充满洞察但也充满焦虑的思考。&quot;智能无限生产&quot;的假设如果成立，确实会颠覆工作、教育、公司、国家竞争力等底层逻辑。但文章忽略了一个关键问题：智能的&quot;质量差异&quot;是否会被市场充分定价？如果 Agent 产出的是&quot;slop&quot;（低质量内容），其价值可能趋近于零，而非趋近于电费。此外，Agent 协作的管理能力确实稀缺，但这种能力是否可以被 AI 本身增强（即 Agent 管理 Agent）？如果是，那么&quot;管人&quot;和&quot;管 Agent&quot;的稀缺性都会被技术消解。</div>
+  <div class="news-summary">作者从&quot;智能可以无限生产&quot;这一前提出发，推演了六个发人深省的二阶效应：重度 AI 用户的月消耗成本正从&quot;人人平等的 200 美元&quot;快速分化为无上限（千美元级）；纯认知劳动的经济价值趋近于零（一份行业报告的边际成本不到一度电费）；一个人可以管理 100 个 Agent 实现超线性产出放大；现有互联网基础设施（验证码、合并单元格、企业审批流）全部面向人类而非 Agent 设计；AI 探索的最终约束将是能源而非算法；智能可无限生产后，工作、教育、公司、国家竞争力的底层逻辑全部需要重新检验。</div>
+  <div class="news-comment">🦐点评：这篇文章的独特价值在于将 OpenClaw 爆发（&quot;一个人，一个周末项目，20 万 GitHub stars&quot;）作为&quot;个人独角兽&quot;时代已到来的具体证据。对 VC 来说，两个投资方向变得更清晰：一是帮助人类更高效管理 Agent 的工具层（调度、监控、任务分解）；二是为&quot;非人类身份&quot;构建的新基础设施（Agent 的金融账户、信用体系、合规框架），目前这个空白几乎完全未被填补。</div>
   <div class="news-meta"><span class="news-source">赛博禅心</span></div>
 </div>
 <h3 class="category-header">📌 其他值得看</h3>
 <div class="news-item">
   <div class="news-title"><a href="https://mp.weixin.qq.com/s/iyLBEkbtzS3jsadqiLcNjA" target="_blank" rel="noopener">Jeff Dean 访谈：一页备忘录催生 Gemini 与万 Token 时代</a></div>
-  <div class="news-summary">宝玉 AI 翻译的 Jeff Dean 访谈，讲述 Google Gemini 项目起源——来自一页简短的备忘录。Jeff Dean 讨论了长上下文（百万 token）的技术挑战和实现路径。</div>
+  <div class="news-summary">宝玉翻译整理 Jeff Dean 在 Latent Space 播客的深度访谈精华，涵盖蒸馏技术起源（解决 50 专家模型部署难题）、Gemini 诞生一页备忘录、Flash 已驱动 Gmail/YouTube/Google 搜索 AI Mode、以及&quot;让注意力覆盖整个互联网&quot;的长上下文终极愿景。</div>
   <div class="news-meta"><span class="news-source">宝玉AI</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://mp.weixin.qq.com/s/muMKwQoWyJgJb4AMSP90kw" target="_blank" rel="noopener">CodePilot 上线了一个对小白非常友好的功能！</a></div>
-  <div class="news-summary">CodePilot 新增一键安装 Claude Code 功能，并支持快速配置各种模型的 Coding Plan，同时修复了 Windows 版本的多个 bug。</div>
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/muMKwQoWyJgJb4AMSP90kw" target="_blank" rel="noopener">CodePilot 为 Claude Code 提供 UI 客户端，Windows 主要 Bug 已修复</a></div>
+  <div class="news-summary">CodePilot 新增一键安装 Claude Code 的功能，搭配 API 快速配置支持任意模型的 Coding Plan，Windows 端主要 bug 已修复，适合想体验 Claude Code 但不习惯命令行的用户。</div>
   <div class="news-meta"><span class="news-source">歸藏的AI工具箱</span></div>
 </div>
 </section>
