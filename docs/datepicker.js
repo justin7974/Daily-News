@@ -6,18 +6,28 @@
 
   var isOpen = false;
   var availableSet = {};
-  AVAILABLE_DATES.forEach(function(d) { availableSet[d] = true; });
+  var sortedDates = [];
+  var firstAvail, lastAvail;
+  var datesLoaded = false;
 
   var currentDate = new Date(CURRENT_DATE + 'T00:00:00');
   var viewYear = currentDate.getFullYear();
   var viewMonth = currentDate.getMonth();
 
-  var sortedDates = AVAILABLE_DATES.slice().sort();
-  var firstAvail = new Date(sortedDates[0] + 'T00:00:00');
-  var lastAvail = new Date(sortedDates[sortedDates.length - 1] + 'T00:00:00');
-
   function pad(n) { return n < 10 ? '0' + n : '' + n; }
   function toDateStr(y, m, d) { return y + '-' + pad(m + 1) + '-' + pad(d); }
+
+  function loadDates(cb) {
+    if (datesLoaded) return cb();
+    fetch('dates.json').then(function(r) { return r.json(); }).then(function(dates) {
+      dates.forEach(function(d) { availableSet[d] = true; });
+      sortedDates = dates.slice().sort();
+      firstAvail = new Date(sortedDates[0] + 'T00:00:00');
+      lastAvail = new Date(sortedDates[sortedDates.length - 1] + 'T00:00:00');
+      datesLoaded = true;
+      cb();
+    });
+  }
 
   function render() {
     var html = '';
@@ -68,7 +78,6 @@
 
     panel.innerHTML = html;
 
-    // 当前日期点击 → 收起
     panel.querySelectorAll('[data-action="close"]').forEach(function(el) {
       el.style.cursor = 'pointer';
       el.addEventListener('click', function(e) {
@@ -95,10 +104,12 @@
   function open() {
     if (isOpen) return;
     isOpen = true;
-    render();
-    overlay.classList.add('dp-open');
-    btn.classList.add('active');
-    document.body.style.overflow = 'hidden';
+    loadDates(function() {
+      render();
+      overlay.classList.add('dp-open');
+      btn.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    });
   }
 
   function close() {
@@ -115,7 +126,6 @@
     if (isOpen) close(); else open();
   });
 
-  // 点遮罩背景关闭
   overlay.addEventListener('click', function(e) {
     if (e.target === overlay) close();
   });
