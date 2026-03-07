@@ -536,12 +536,12 @@ a:active {
 }
 
 .news-comment {
-  font-size: 14px;
-  color: var(--text-2);
+  font-size: 13px;
+  color: var(--text-3);
   line-height: 1.6;
   margin-top: 8px;
   padding: 6px 10px;
-  background: var(--bg-2, #f6f6f6);
+  background: transparent;
   border-radius: 6px;
 }
 
