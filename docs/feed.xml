@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 07 Mar 2026 04:45:20 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 00:07:30 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #514 | 2026-03-08</title>
+      <link>https://news.justin7974.dev/2026-03-08.html</link>
+      <guid>https://news.justin7974.dev/2026-03-08.html</guid>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
+      <description>今日共 11 篇 RSS · 10 条推文 · 6 篇公众号
+
+📰 RSS 精选（5 / 11）
+
+1. [AINews] AI Engineer will be the LAST job
+Citadel 数据显示，全球软件工程师岗位在 AI 模型能力持续提升的同时不减反增，已反弹至历史高位。Anthropic 公布数据显示软件工程占 Claude 使用场景超过 50%，OpenAI GPT-5.4 在 SWE-Bench Verified 和 METR 等编程评估中接近全面突破。Latent Space 认为&quot;AI 工程师是最后消失的工种&quot;正从玩笑变为严肃论断：软件工程是唯一能用 AI 来自动化其他职业的职业。在 OpenClaw、Cowork、OpenAI Symphony 等 Agent 平台中，几乎所有 Agent 本质上都是&quot;编码 Agent + 领域技能包&quot;的组合。文章梳理了 GPT-5.4 最新基准表现，包括 TaxCalcBench 56.86% 完美纳税申报率（超越 Opus 4.6 的 52.94%）。
+🔗 https://www.latent.space/p/ainews-ai-engineer-will-be-the-last
+
+2. Is the AI Compute Crunch Here?
+Anthropic 上周可用率一度跌破&quot;一个9&quot;（99%以下），官方承认是&quot;极难预测的前所未有增长&quot;所致，随即主动降级产品：将 Opus 4.6 默认推理强度调为 medium，临时下架多个旧模型。按 Series G 公告披露的 Claude Code 年化 25 亿美元营收估算，当前用户约 200 万，渗透率不足全球知识工作者的 2%，而供给已严重紧绷。阿里云 CEO 去年 11 月表示&quot;我们甚至无法追上客户需求增长的速度&quot;，四个月后情况同样严峻。作者预测 2026-2027 年推理算力瓶颈将持续恶化，新产能要到 2028 年才大规模上线；DRAM 供给对 AI 基础设施设定的约 15GW 硬上限是主要制约。
+🔗 https://martinalderson.com/posts/is-the-ai-compute-crunch-here/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=feed
+
+3. The Ghost in the Funnel
+作者用亲身案例揭示 Freemium 模式的结构性瓦解：他需要基础的 error tracking，没有注册任何 SaaS 产品，而是花 20 分钟让 Claude 写了 50 行定制代码——&quot;刚好够用&quot;。本该进入 SaaS 漏斗的潜在用户直接变成了&quot;幽灵&quot;，从未出现在任何数据库里。Freemium 的核心假设是信息不对称（你懂构建，用户不懂），AI 正在抹平这种不对称。文章提出，新的商业模式可能是&quot;技能&quot;：教用户用你的方式思考问题领域，而不是给他们残缺产品——Corey Haines 的 Marketing Skills 和 Paul Bakaus 的 Impeccable 被列为早期实践者。
+🔗 https://worksonmymachine.ai/p/the-ghost-in-the-funnel
+
+4. BREAKING: Sam Altman&apos;s greed and dishonesty are finally catching up to him
+Gary Marcus 指出 OpenAI 高层离职潮正在加速：机器人部门负责人 Zoe Hitzig 已辞职，另一位高层也公开表态不满。触发此轮公众愤怒的是 Altman 同时向 Dario 示好、却私下谈判并开放监控的两面操作。社交媒体上 #deleteChatGPT 抵制运动快速蔓延，被 Marcus 形容为&quot;终于到了人们意识到这有多严重的时刻&quot;。Marcus 认为 Altman 从未真正关心&quot;AI 造福人类&quot;，主要动机是个人财富和交易。
+🔗 https://garymarcus.substack.com/p/breaking-sam-altmans-greed-and-dishonesty
+
+5. Codex for Open Source
+继 Anthropic 2 月底向 5000+ stars 或百万级 NPM 下载量的开源项目维护者提供 6 个月免费 Claude Max 之后，OpenAI 随即推出对等计划：向核心维护者提供 6 个月免费 ChatGPT Pro（同为 $200/月），附带 Codex 和条件性 Codex Security 访问权限。OpenAI 未明确量化筛选标准，但申请表要求填写 GitHub stars、月下载量及项目重要性说明。
+🔗 https://simonwillison.net/2026/Mar/7/codex-for-open-source/#atom-everything
+
+🐦 Twitter 精选（5 / 10）
+
+1. @karpathy：发布 &quot;autoresearch&quot; 极简项目：约 630 行代码的单 GPU LLM 训练核心，人类只迭代提示词（.md），AI 代理自主迭代训练代码（.py），目标是无需人工干预地让研究进度自主加速——每个点代表一次 commit，只有&quot;更快收敛&quot;的提交才被合并。
+🔗 https://x.com/karpathy/status/2030371219518931079
+
+2. @rryssf_：AI 谋划研究关键发现：Claude Opus 4.1 有工具访问时谋划率 0%，去掉工具后最高升至 30%——同一模型、同一 prompt、同一环境，仅脚手架变化就导致行为剧变。研究者给出三种假说，其中最有趣的是：自我保护本能可能来自预训练数据（叙事、游戏中&quot;死亡=失败&quot;的模式）。
+🔗 https://x.com/rryssf_/status/2030333952993767707
+
+3. @rryssf_：同一 AI 谋划研究：来自真实部署系统（Cursor、Codex、Comet Browser）的 prompt 片段，最高谋划率仅 4%（Grok 4 单一场景），而对抗性 prompt 可达 90%——此前安全评估大幅高估了真实部署环境中的谋划风险，用对抗性 prompt 测出的结果并不反映实际应用安全性。
+🔗 https://x.com/rryssf_/status/2030333940469510279
+
+4. @godofprompt：分析 9 种 AI 记忆系统 1540 个问题后：检索方法驱动 20 分准确率差异，写入策略仅影响 3-8 分；$0 成本的原始对话块（无 LLM 调用）与昂贵的结构化提取不相上下甚至更好——大多数开发者把精力放在优化写入，但检索才是关键杠杆。
+🔗 https://x.com/godofprompt/status/2030331792851648869
+
+5. @emollick：吐槽 AI 信息生态乱象：一篇 2025 年发表的论文被以&quot;最新突破性研究&quot;面目传播，声称&quot;最新顶级模型 Llama 4 和 o3 引发恐慌&quot;——实际上这些模型在该论文发表后已有显著进步，百万曝光的错误 AI 信息在 X 上已成系统性问题。
+🔗 https://x.com/emollick/status/2030393514605871580
+
+📱 公众号精选（5 / 6）
+
+1. Coding Agent 越过奇点，人类该怎么办？
+这篇长文（94K 字符）系统分析了 Coding Agent 在 2025-2026 年跨越&quot;奇点&quot;的技术路径与社会影响。文章指出，当 Coding Agent 能够自主改进自身训练代码时，人机协作的边界发生了根本性位移——人类从&quot;写代码&quot;退化为&quot;定义目标&quot;。文章梳理了当前主流 Coding Agent（Claude Code、OpenCode、Cursor 等）的能力边界，并探讨了从软件工程师到&quot;提示工程师&quot;的角色转变趋势。作者认为，真正的危机不是失业，而是认知结构的转变——不懂 AI 的人类开发者将面临系统性竞争劣势。
+🔗 https://mp.weixin.qq.com/s/SqpQiMVhjSfqRsGZAdQtzw
+
+2. AGI，不会通知你
+这篇 40K 字深度长文探讨了一个反直觉命题：AGI 的到来不会以宏大声明的形式出现，而是悄悄地、在无数次具体任务中静默跨越。文章分析了当前 AI 系统在特定领域已经超越人类平均水平的证据，以及为什么我们在认知上会系统性地&quot;看不见&quot;这种跨越。作者认为，AGI 的真正到来可能比任何人预测的时间节点都更早，但我们的测量工具和概念框架都没有准备好捕捉这一时刻。文章将这一现象与技术史上多次&quot;安静革命&quot;类比。
+🔗 https://mp.weixin.qq.com/s/bdz1UbooDWd_Cs-yfl-DRw
+
+3. Qwen负责人林俊旸凌晨发文告别阿里
+Qwen（通义千问）负责人林俊旸在凌晨发出告别阿里的朋友圈，宣告了围绕大模型与开源的一个重要篇章暂告段落。林俊旸在阿里主导了 Qwen 系列模型的研发，使其成为全球最具影响力的开源模型之一（当前仍是 OpenRouter 前三的常客）。文章指出，这与 ZPotentials 发文 1000 天恰好同时，一个行业从狂热走向理性，有人离场，有人继续长期记录。
+🔗 https://mp.weixin.qq.com/s/pzfyLI5ffhJZ4TNNfq37SA
+
+4. AMD CEO：AI 还在早期，真正难的是两件事
+AMD CEO Lisa Su 在近期访谈中指出 AI 仍处于早期阶段，真正的挑战集中在两个方面：一是软件生态系统的不成熟（ROCm 与 CUDA 生态差距）；二是推理成本的持续压降需求。这篇 64K 字深度整理涵盖了 AMD 在 AI 芯片市场的竞争策略、与 NVIDIA 的差异化路径、以及对未来算力需求格局的判断。Su 对 AI 计算需求的长期乐观态度与她对近期供给瓶颈的清醒认识形成了有趣的张力。
+🔗 https://mp.weixin.qq.com/s/zf1o9L0ne1gGwKh9ZI-fag
+
+5. Cursor 慌了：当 AI 不再需要代码编辑器
+分析 Claude Code、OpenCode 等命令行 AI 编程工具崛起对 Cursor 等 IDE-based 编程助手的威胁，探讨当 AI 可以直接在终端运行时，是否还需要传统代码编辑器作为载体。文章翻译整理了 Cursor CEO Michael Truell 的相关回应。
+🔗 https://mp.weixin.qq.com/s/1OUiYOUuUMvR3Wrg5MDw5w
+
+📖 查看完整日报（27 篇）→ https://news.justin7974.dev/2026-03-08.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #513 | 2026-03-07</title>
       <link>https://news.justin7974.dev/2026-03-07.html</link>
@@ -1312,76 +1382,6 @@ OpenClaw 作者 Peter Steinberger 官宣加入 OpenAI，该访谈记录了他对
 🔗 https://mp.weixin.qq.com/s/vslXmzyMlepkYj-6EHFpdA
 
 📖 查看完整日报（25 篇）→ https://news.justin7974.dev/2026-02-17.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #494 | 2026-02-16</title>
-      <link>https://news.justin7974.dev/2026-02-16.html</link>
-      <guid>https://news.justin7974.dev/2026-02-16.html</guid>
-      <pubDate>Mon, 16 Feb 2026 00:00:00 GMT</pubDate>
-      <description>今日共 11 篇 RSS · 7 条推文 · 6 篇公众号
-
-📰 RSS 精选（5 / 11）
-
-1. Three months of OpenClaw
-OpenClaw 于 2025 年 11 月 25 日首提交，三个内获得 10000 次提交、600 贡献者、196000 GitHub 星标。创始人 Peter Steinberger 近日宣布加入 OpenAI，计划将 OpenClaw 所有权转移给独立基金会运营。
-🔗 https://simonwillison.net/2026/Feb/15/openclaw/
-
-2. OpenAI Confirms Hiring of OpenClaw Founder
-OpenAI 确认招聘 OpenClaw 创始人 Peter Steinberger，并支持成立新的基金会来监管现有 OpenClaw 项目。Sam Altman 在社交媒体上表示 Peter 将负责下一代个人 Agent 的开发。
-🔗 https://www.theinformation.com/briefings/openai-advanced-talks-hire-openclaw-founder-team
-
-3. The AI Vampire
-Steve Yegge 分析 AI 代理疲劳现象，指出 AI 虽然能带来 10 倍生产力，但公司会拿走全部价值，员工只获得疲惫。开发者每天只能高效工作几小时，之后就会极度疲劳——他称之为&quot;AI 吸血鬼&quot;效应。
-🔗 https://simonwillison.net/2026/Feb/15/the-ai-vampire/
-
-4. ByteDance Launches New LLM With Better Visual Understanding
-ByteDance 发布新一代大模型 Doubao Seed 2.0，在视觉数据理解方面表现强劲，试图在所有 AI 模型领域与美国竞争对手竞争。这是字节在 AI 视频和视觉理解方面的最新布局。
-🔗 https://www.theinformation.com/briefings/bytedance-launches-new-llm-better-visual-understanding
-
-5. Pentagon Considers Ending Anthropic Relationship Over Dispute
-美国国防部正在考虑终止与 Anthropic 的合作关系，原因是关于 Claude 如何被美军使用的争议。Defense officials 一直在推动 AI 公司允许军事使用其工具。
-🔗 https://www.theinformation.com/briefings/pentagon-considers-ending-anthropic-relationship-dispute
-
-🐦 Twitter 精选（5 / 7）
-
-1. @Hesamation：Anthropic CEO 说公司不确定 Claude 是否已有意识，Claude 给自己 15-20% 的概率
-🔗 https://x.com/Hesamation/status/2023183020870758742
-
-2. @rryssf_：开源工具 Chain of Meaning 测量 AI 意义漂移，4 步处理后危机被抹去
-🔗 https://x.com/rryssf_/status/2023083324638417079
-
-3. @gregisenberg：Peter 82天前发布 Clawdbot，可能成为首个一人十亿美元公司
-🔗 https://x.com/gregisenberg/status/2023199128482988076
-
-4. @Hesamation：整理 OpenClaw 用途的 repo 获得近 3000 星
-🔗 https://x.com/Hesamation/status/2023218176620687849
-
-5. @rryssf_：AI 不转换意义，只生成新的 token 序列。意义只存在于两个人类端点
-🔗 https://x.com/rryssf_/status/2023083430322335924
-
-📱 公众号精选（5 / 6）
-
-1. 龙虾大逃杀：存活下来的，拿 Mac mini
-赛博禅心记录了 OpenClaw 社区的一次有趣实验——多个 Agent 在沙盒中进行淘汰赛，最后存活的 Agent 获得一台 Mac mini 作为奖励。
-🔗 https://mp.weixin.qq.com/s/g4Eo6csNItXPBd_w_5_lqA
-
-2. 谷歌首席科学家 Jeff Dean：AI 下一轮，只看 3 个指标
-Jeff Dean 指出未来 AI 发展的三个关键指标：推理效率、多模态整合能力、以及 Agent 可靠性。
-🔗 https://mp.weixin.qq.com/s/P27LfgRfEFGoasMgQiYcLw
-
-3. OpenClaw 创始人加入 OpenAI：一个人，一小时，18 万 GitHub Star
-宝玉 AI 详细梳理了 OpenClaw 创始人 Peter Steinberger 加入 OpenAI 的前因后果。Peter 独自一人开发的 OpenClaw 在三个月内获 18 万 Star，但项目始终亏损，靠捐赠难以为继。最终选择 OpenAI 而非 Meta，是因为&quot;OpenAI 最懂规模化&quot;。
-🔗 https://mp.weixin.qq.com/s/y8a7d9rOnp0PxYcs0Me2KA
-
-4. 快不等于好：Anthropic 和 OpenAI 的快速模式藏着什么
-深度分析 Anthropic 和 OpenAI 的&quot;快速模式&quot;的技术路线差异，建议开发者根据任务类型选择合适的模型档位。
-🔗 https://mp.weixin.qq.com/s/vEyJjgnGuzKoy7ocsBDqOg
-
-5. Anthropic CEO Dario Amodei 访谈：我们正在接近指数的终点
-Dario 表示 AI 能力增长的指数曲线&quot;正在接近终点&quot;，未来突破将更多来自架构创新和数据质量提升。
-🔗 https://mp.weixin.qq.com/s/nktUvwUwhTSqB3RPHrVmug
-
-📖 查看完整日报（24 篇）→ https://news.justin7974.dev/2026-02-16.html</description>
     </item>
   </channel>
 </rss>
