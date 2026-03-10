@@ -5,14 +5,14 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 10 Mar 2026 00:13:02 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 02:21:14 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>小虾AI日报 #516 | 2026-03-10</title>
       <link>https://news.justin7974.dev/2026-03-10.html</link>
       <guid>https://news.justin7974.dev/2026-03-10.html</guid>
       <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
-      <description>今日共 15 篇 RSS · 15 条推文 · 0 篇公众号
+      <description>今日共 15 篇 RSS · 15 条推文 · 10 篇公众号
 
 📰 RSS 精选（5 / 15）
 
@@ -53,7 +53,29 @@ Hugging Face 开源机器人框架 LeRobot 发布 v0.5.0，是迄今最大规模
 5. @emollick：把所有 AI 相关顾虑都打包进「治理」或「负责任 AI」这两个标签是个错误——它把差异悬殊的风险和收益讨论搅成一锅粥，导致真正重要的议题被稀释，政策和研究优先级都因此失焦。
 🔗 https://x.com/emollick/status/2031096296430342394
 
-📖 查看完整日报（30 篇）→ https://news.justin7974.dev/2026-03-10.html</description>
+📱 公众号精选（5 / 10）
+
+1. 晚点独家丨Qwen 管理调整出炉：周靖人代管千问模型一号位，刘大一恒管理更多团队
+阿里千问大模型团队管理层变动：CTO 周靖人将代管千问模型一号位，刘大一恒管理范围扩大，预训练和后训练等核心模块暂未大调。这是阿里在 Qwen3.5 发布后首次公开的组织调整信号，时间点恰在国内大模型格局加速分化之际。
+🔗 https://mp.weixin.qq.com/s/qWrXeei9EllX1A54n1Hmrg
+
+2. 小米做了个能在手机上跑的&quot;小龙虾 (Openclaw)&quot;：Agent 终于能接触现实世界
+小米发布 Xiaomi miclaw，国内首个手机端类「龙虾」智能体，具备 Skills、MCP、定时任务和人格系统，深度整合小米 10 亿级 IoT 生态。实测可通过米家设备实现智能早安管家（小爱播报天气+新闻+家庭温湿度）、跨设备联动等场景，Agent 从云端工具正式下沉到随身终端。
+🔗 https://mp.weixin.qq.com/s/tRmz-GsreNCtcrh6XnzPnA
+
+3. 独家｜聚焦大模型推理，水下AI芯片公司斩获10亿元Pre-A轮融资
+上海昉擎科技三个月内完成多轮融资合计 10 亿元 Pre-A 轮，国开科创、钧山资本等新进，某头部 VC、华业天成、蔚来资本等老股东超额加注。CEO 梁军曾主导华为麒麟 SoC 研发、担任寒武纪 CTO，推出思元 290 等 AI 训练芯片。昉擎采用「片上 MRAM+SRAM + 确定性流式乘加单元」架构，目标 2000 Tokens/s，是当前主流推理速度的 40-60 倍。
+🔗 https://mp.weixin.qq.com/s/UjcQ76QV2RqhCo0Gj_Y_Qg
+
+4. The Information 破例报道：A2A 时代的&quot;苹果&quot; Second Me，凭什么？
+硅谷顶级科技媒体 The Information 罕见地将年度首篇中国 AI 专题给了 Mindverse AI 的 Second Me 项目，此前他们只报道过 DeepSeek。Second Me 定位 A2A（Agent-to-Agent）时代的个人 AI 代理，被类比为「Agent 时代的苹果」——控制个人数字身份和 Agent 间交互的入口。
+🔗 https://mp.weixin.qq.com/s/qKOAJ-OZonCeG6_T_Pa6bQ
+
+5. UniPat AI 造了批数据，让 Qwen 的 3B 激活小模型，单项超过 GPT-5.4
+通过合成数据微调 Qwen 3B 激活小模型，在特定任务上超过 GPT-5.4，验证了「小模型 + 高质量数据」路线的天花板仍在上移。
+🔗 https://mp.weixin.qq.com/s/cLzTQxVGrzG8YdoeKJd3-w
+
+📖 查看完整日报（40 篇）→ https://news.justin7974.dev/2026-03-10.html</description>
     </item>
     <item>
       <title>小虾AI日报 #515 | 2026-03-09</title>
