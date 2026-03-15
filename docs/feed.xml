@@ -5,61 +5,77 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 15 Mar 2026 04:08:10 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 05:36:14 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>小虾AI日报 #521 | 2026-03-15</title>
       <link>https://news.justin7974.dev/2026-03-15.html</link>
       <guid>https://news.justin7974.dev/2026-03-15.html</guid>
       <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 13 条推文 · 1 篇公众号
+      <description>今日共 13 篇 RSS · 18 条推文 · 5 篇公众号
 
-📰 RSS 精选（5 / 12）
+📰 RSS 精选（5 / 13）
 
-1. Meta May Lay Off 20% of Staff, Report Says
-Meta 计划裁员，规模可能超过员工总数的 20%，Reuters 援引知情人士消息。此次裁员的两大目标：一是对冲 AI 基础设施的高额资本开支，二是为 AI 助手带来的效率红利腾出空间——也就是说，用 AI 来替代 AI 花掉的钱。这将是 Meta 历史上最大规模的一轮裁员，超过 2022-2023 年&quot;效率年&quot;期间约 11% 的裁员幅度。与此同时，Zuckerberg 的 Llama 4 系列最新被 Gary Marcus 点名——好但不达预期，进一步加剧市场对 Meta AI 战略的质疑。
-🔗 https://www.theinformation.com/briefings/meta-may-lay-20-staff-report-says
-
-2. ByteDance Suspends Launch of Video AI Model After Copyright Disputes With Hollywood
-字节跳动叫停了视频生成模型 Seedance 2.0 的全球发布计划，原因是与多家好莱坞主要制片公司和流媒体平台产生一系列版权纠纷。Seedance 2.0 上月在中国面向消费者和企业发布后，生成的超写实视频迅速在 X 上获得数百万播放，引发好莱坞注意。字节已从 TikTok 应用中下线该模型功能，并暂停了在中国以外地区的发布计划，目前正在与律师团队评估法律风险。
-🔗 https://www.theinformation.com/articles/bytedance-suspends-launch-video-ai-model-copyright-disputes-hollywood
-
-3. BREAKING: Expensive new evidence that scaling is not all you need
-Gary Marcus 指出，同一周内出现了两个高代价的&quot;纯 Scaling&quot;失败案例：Meta 最新模型 Llama 4 系列&quot;好但不达预期&quot;；Elon Musk 承认 xAI &quot;从一开始就建错了&quot;，正在从头重建，大多数创始成员已经离开。Marcus 早在 2020 年就预见到纯 Scaling 路线的局限，呼吁重视认知模型和神经符号 AI。他还顺带指出，SpaceX 以 2500 亿美元收购 xAI 几乎可以视为一次掩护性的纾困行动。
-🔗 https://garymarcus.substack.com/p/breaking-expensive-new-evidence-that
-
-4. AI slopocalypse forces Jazzband to shut down
-开源协作组织 Jazzband 宣布关闭——直接原因是 GitHub 上 AI 生成垃圾 PR 和 issue 的洪流（被称为&quot;slopocalypse&quot;）使其开放成员制度难以为继。Jazzband 的模型是向所有加入者开放 push 权限，这在 AI 批量生成的低质 PR 入侵之前尚可运作；但在 curl 因 AI 生成的 bug report 确认率低于 5% 而关闭 bug bounty、GitHub 不得不推出紧急关闭 PR 功能的背景下，这套机制已经崩溃。Jannis Leidel 总结：&quot;1/10 的 AI 生成 PR 达到项目标准。&quot;
-🔗 https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything
-
-5. Ars Technica Fires Reporter Benj Edwards After He Published Story With AI-Fabricated Quotes
-Condé Nast 旗下 Ars Technica 已解雇高级 AI 记者 Benj Edwards，起因是他发布了一篇含有 AI 虚构引语的报道。Edwards 承认，在发烧、睡眠不足的情况下，他用&quot;基于 Claude Code 的实验性工具&quot;提取原始资料，不小心得到了改写版本而非原话，并将其纳入文章。Ars 最终撤稿，编辑总监承认这是&quot;严重的标准失误&quot;，Edwards 随后被开除。他的联署作者 Kyle Orland 未受牵连。
+1. Ars Technica Fires Reporter Benj Edwards After He Published Story With AI-Fabricated Quotes
+Ars Technica 资深 AI 记者 Benj Edwards 因一篇包含 AI 伪造引语的文章被解雇。Edwards 在发烧生病、用 Claude Code 工具辅助提炼信源素材时，无意间将 AI 改写版本当成真实引语收录进稿件，最终导致文章遭撤稿。编辑总编 Ken Fisher 发表道歉声明，将此定性为&quot;严重的编辑标准失败&quot;。Edwards 本人在 Bluesky 上承担了全部责任，特别说明联署记者 Kyle Orland 与此事无关。
 🔗 https://futurism.com/artificial-intelligence/ars-technica-fires-reporter-ai-quotes
 
-🐦 Twitter 精选（5 / 13）
+2. BREAKING: Expensive new evidence that scaling is not all you need
+Gary Marcus 指出同一周内出现两个重量级反缩放信号：Meta 最新旗舰模型表现&quot;好但不出色&quot;，远低于 Zuckerberg 的预期；Elon Musk 则罕见承认 xAI &quot;没有从一开始就建对&quot;，正在&quot;从地基重建&quot;。Marcus 将此解读为纯靠算力堆砌路径失效的最新证据，并重提其 2020 年文章——他当时就预言过这一结局，呼吁转向世界认知模型和神经符号 AI。
+🔗 https://garymarcus.substack.com/p/breaking-expensive-new-evidence-that
 
-1. @emollick：VC 的 AI 投资通常需要 5-8 年才能退出，这意味着当前几乎每一笔 AI VC 投资，本质上都是在押注 Anthropic、OpenAI 和 Gemini 描绘的 AGI 愿景不会实现。
-🔗 https://x.com/emollick/status/2032865789066260958
+3. My fireside chat about agentic engineering at the Pragmatic Summit
+Simon Willison 分享了他在 Pragmatic Summit 的 Agentic Engineering 炉边谈话精华。他描述了开发者 AI 采用的三个阶段：ChatGPT 问答 → AI 写代码 → 不再读代码（vibe coding）；其中&quot;agent 写的代码比你自己多&quot;是关键拐点，他自己在六个月前才越过这个节点。他认为 Claude Opus 4.5 是第一个真正让他建立信任的模型，会在开始每次 coding session 时先让 agent 跑测试，用&quot;red-green TDD&quot;五个 token 指令即可驱动整个开发流程。
+🔗 https://simonwillison.net/2026/Mar/14/pragmatic-summit/#atom-everything
 
-2. @emollick：一篇用安然邮件档案测试 AI Agent 能力的论文提供了有力证据：Agent 集群（swarm）的效果不如 Agent 组织（organization），后者通过角色分工和层级协作表现更优。
-🔗 https://x.com/emollick/status/2032829110242746395
+4. [AINews] Context Drought
+AINews 分析了 Anthropic 终于正式 GA（全面可用）其 100 万 Token 上下文窗口的意义——比 Gemini 和 OpenAI 晚了不少，被称为&quot;迟来的 GA&quot;。文章回顾了 Anthropic 在 long context 技术上的相对被动姿态，以及这对企业客户选型的影响。同时覆盖了当日 AI 生态的其他动向，包括 RL 训练新进展等。
+🔗 https://www.latent.space/p/ainews-context-drought
 
-3. @emollick：用 GPQA Diamond 基准可视化 AI 竞赛历程：OpenAI 长期独领风骚，Meta 快速崛起后崩塌，xAI 追上后陷入停滞，中国开源模型随后强势入场。
-🔗 https://x.com/emollick/status/2032677115854757985
+5. iFixit&apos;s MacBook Neo Teardown
+iFixit 发布 MacBook Neo 拆解报告，称其为 14 年来最易维修的 MacBook——普通螺丝、可更换电池、模块化设计全部回归。这既是对欧盟维修权法规的响应，也可能是苹果在价格敏感市场主动降低拥有成本的战略信号。
+🔗 https://www.ifixit.com/News/116152/macbook-neo-is-the-most-repairable-macbook-in-14-years
 
-4. @EXM7777：CLI 优于 MCP：每个接入的 MCP 服务器会在每次对话轮次中加载全部工具定义，浪费大量 token。mcp2cli 可将 MCP 服务器转为命令行调用，按需触发，据报可节省 96-99% 的 token 开销。
+🐦 Twitter 精选（5 / 18）
+
+1. @EXM7777：CLI 比 MCP 更高效：每次调用 MCP 工具，Agent 都要把所有工具定义加载一遍，消耗大量 Token；而 CLI 命令轻量直接，特别适合高频调用场景。
 🔗 https://x.com/EXM7777/status/2032924771470700969
 
-5. @EXM7777：一切正在收敛到 Markdown：Obsidian 笔记、Agent 行为规范（claude.md / agent.md）、AI 记忆文件、Cloudflare 的 HTML 转 Markdown——背后原因是 Markdown 天然支持 Git 版本控制、对人类和机器都可读。
+2. @EXM7777：如何在 Obsidian 里搭建 AI 操作系统：通过 Obsidian 插件在侧边栏打开 AI 面板，实现笔记与 AI 的深度整合，让知识库变成可交互的操作界面。
+🔗 https://x.com/EXM7777/status/2032879463164424343
+
+3. @EXM7777：万物正在向 Markdown 收敛并非偶然：Obsidian 用 Markdown 存笔记，Claude Code 用 Markdown 写文档，LLM 天然擅长处理 Markdown——这一格式正成为人类与 AI 协作的通用语言。
 🔗 https://x.com/EXM7777/status/2032819800637104488
 
-📱 公众号精选（1 / 1）
+4. @godofprompt：Claude 未来两周末将双倍使用额度。
+🔗 https://x.com/godofprompt/status/2032966165383778460
 
-1. 我们或许是最后一代为钱发愁的人
-作者整理了马斯克的 UHI（全民高收入）愿景逻辑链：AI + 机器人在 10 年内将经济规模扩大 10 倍 → 生产能力增速远超货币供应 → 自然通缩使货币购买力飙升 → 生产过剩后政府直接发钱（UHI）也不会通胀，因为稀缺已经消失。马斯克预测，当经济扩大 100 万倍，人类的所有欲望都将被饱和，AI 和机器人最终&quot;找不到事情可以为人类做了&quot;。作者将这一路径的第四步概括为&quot;钱发出去也不会通胀&quot;——因为发的是生产过剩后的剩余价值，而非凭空印钞。
+5. @godofprompt：阿里巴巴推出 Qwen 3.5 Small Model 系列，包含四个模型（0.8B 至 9B 参数），原生支持多语言。
+🔗 https://x.com/godofprompt/status/2032962451554316313
+
+📱 公众号精选（5 / 5）
+
+1. 深度｜Anthropic CEO：AI行业的盈利本质上源于对市场需求的低估，而亏损则因为高估了需求，2030年AI行业营收将跃迁至万亿美元级
+Z Potentials 翻译整理了 Dario Amodei 与 Dwarkesh Patel 的深度访谈。Dario 重申了他从 2017 年以来从未改变的&quot;核心缩放假说&quot;——真正驱动 AI 发展的只有七个要素（算力、数据规模、数据分布、训练时长、可无限缩放的目标函数、数值稳定性），RL 缩放规律现已与预训练完全一致。他对未来有 90% 信心认为十年内将诞生堪比一个国家的天才智能体；他同时坦承 AI 向经济渗透的不确定性是 Anthropic 在算力采购上保持审慎的核心原因。盈利逻辑上，他给出了罕见清晰的判断：AI 行业盈利来自需求低估，亏损来自需求高估——本质上是一个对市场预判的游戏，与传统行业截然不同。
+🔗 https://mp.weixin.qq.com/s/965pZIIf8vHeht0GV2yt-w
+
+2. WPS 笔记：没有 AI，它将毫无意义
+WPS 内部产品总监洛小山披露了 WPS AI 原生笔记产品的完整设计哲学：核心是&quot;责任转移&quot;——把整理这件逆熵的事从用户转移给 AI，用户只需&quot;往里扔&quot;。产品明确不做 AIGC 内容生成（防止 AI 污染用户的真实思考），只做内容重构和分类整理。技术层面，同时提供 MCP（23+ 工具，覆盖完整笔记生命周期）和 CLI 接口，支持 Claude Code、Cursor 等 AI 工具直接调用。作者坦言当前 AI 整理能力还不完美，还在&quot;飞轮启动阶段&quot;。
+🔗 https://mp.weixin.qq.com/s/9b7yQrqu1rrx7kcVh1k-zw
+
+3. Junior：一个有邮箱、有目标、会主动干活的 AI 同事，正在改变未来职场
+Kuse Inc 推出 AI 员工 Junior，拥有独立邮箱、账号和主动行为能力，能跨团队积累组织记忆，并与其他 AI Agent 形成协作网络。文章探讨了&quot;AI 拥有组织身份&quot;之后引发的管理学边界问题：人与 AI 如何划分权限、目标如何协同。
+🔗 https://mp.weixin.qq.com/s/17ER-9cmw9HGz8mB9RInnw
+
+4. 好工作，AI 改了标准
+整理自 Benchmark 资本合伙人 Bill Gurley 访谈：AI 正在优先冲击白领工作（律师助理、翻译、基础编程），而非体力劳动，因为白领工作本质上是语言和信息处理。他的建议是：在行业内成为最懂用 AI 工具的人，组建 4-6 人的 AI 学习同伴圈，用 AI 做多方向职业规划推演。
+🔗 https://mp.weixin.qq.com/s/Z_tWerSJZypAtyMgpVIAQw
+
+5. 我们或许是最后一代为钱发愁的人
+马斯克 UHI（全民高收入）愿景摘要：AI + 机器人将使生产力指数级提升，引发自然通缩，最终使货币本身走向消亡、进入&quot;后资本主义&quot;时代。文章提醒：人人发钱不代表人人有权，稀缺会转移而不会消失。
 🔗 https://mp.weixin.qq.com/s/rYVkqD2auEP4SanZ-Aw1vQ
 
-📖 查看完整日报（26 篇）→ https://news.justin7974.dev/2026-03-15.html</description>
+📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-03-15.html</description>
     </item>
     <item>
       <title>小虾AI日报 #520 | 2026-03-14</title>
