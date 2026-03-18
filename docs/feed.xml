@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 17 Mar 2026 00:17:51 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 00:11:45 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #524 | 2026-03-18</title>
+      <link>https://news.justin7974.dev/2026-03-18.html</link>
+      <guid>https://news.justin7974.dev/2026-03-18.html</guid>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 13 条推文 · 12 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. An Interview with Nvidia CEO Jensen Huang About Accelerated Computing
+GTC 2026 主题演讲结束后，Ben Thompson 对黄仁勋进行了深度专访。黄仁勋解释了为什么用一个小时讲 CUDA 历史——因为 AI Agent 即将使用人类已有的软件工具（Excel、Photoshop、EDA 工具），这些工具都需要加速。访谈还涉及 Nvidia 收购 Groq 的逻辑、Vera CPU 的战略意义、对中国市场重启 H200 制造的决策，以及黄仁勋对华盛顿&quot;末日论者&quot;影响政策的强烈不满。
+🔗 https://stratechery.com/2026/an-interview-with-nvidia-ceo-jensen-huang-about-accelerated-computing/
+
+2. [AINews] NVIDIA GTC: Jensen goes hard on OpenClaw, Vera CPU, and announces $1T sales backlog in 2027
+Latent Space 的 GTC 周报梳理了过去三天 AI 圈的关键信号：Moonshot 的 Attention Residuals 论文引发关于原创性的争论；Codex 周活跃用户突破 200 万、GPT-5.4 上线一周即达 5T tokens/天和 10 亿美元年化净新增收入；Agent 工具层快速成熟——Context Hub、标准化 SKILL.md、LangGraph CLI 等&quot;harness 工程&quot;成为新范式；Hermes Agent 在社区易用性上持续获得好评，与 OpenClaw 形成互补生态。
+🔗 https://www.latent.space/p/ainews-nvidia-gtc-jensen-goes-hard
+
+3. Why Anthropic Thinks AI Should Have Its Own Computer — Felix Rieseberg of Claude Cowork &amp; Claude Code Desktop
+Anthropic 的 Felix Rieseberg 深度访谈。Claude Cowork 从一个&quot;意外&quot;诞生——团队发现大量用户把 Claude Code 用于非编程的知识工作。产品在 10 天内用多个 Claude Code 实例协作构建完成。核心设计理念：给 AI 一台独立的虚拟机作为安全边界和能力解锁，而非让用户逐条审批命令。Felix 认为 Skills（markdown 指令文件）比 MCP 更适合作为 Agent 行为的轻量抽象层，硅谷严重低估了本地优先的 Agent 工作流。
+🔗 https://www.latent.space/p/felix-anthropic
+
+4. State of Open Source on Hugging Face: Spring 2026
+Hugging Face 开源生态报告：平台已达 1100 万用户、200 万+公开模型、50 万+数据集，同比几乎翻倍。但生态高度集中——Top 200 模型（0.01%）占据 49.6% 的下载量，半数模型下载量不足 200 次。财富 500 强中超 30% 在 HF 上有认证账号。DeepSeek、Qwen 等中国团队的开源贡献显著，机器人和 AI for Science 子社区正在快速形成。
+🔗 https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026
+
+5. Introducing GPT-5.4 mini and nano
+OpenAI 发布 GPT-5.4 的两个轻量版本：mini 和 nano，专为编码、工具调用、多模态推理和高并发 sub-agent 场景优化。Simon Willison 测算，用 nano 描述 76000 张照片仅需 52 美元。这两个模型填补了 GPT-5.4 发布两周后在成本-性能曲线上的空白。
+🔗 https://openai.com/index/introducing-gpt-5-4-mini-and-nano
+
+🐦 Twitter 精选（5 / 13）
+
+1. @rryssf_：中文大学等机构研究发现，强化学习训练的 Agent 会逐渐停止信息搜索行为——奖励值上升，但 Agent 悄悄不再思考。传统评估方法完全没抓到这个问题。
+🔗 https://x.com/rryssf_/status/2033884963368800411
+
+2. @emollick：GPT-5.4 Pro 级别智能在复杂知识工作上的表现与其他模型差距依然显著，希望能有类似 Codex 的平台提供共享文件空间和 sub-agent 支持。
+🔗 https://x.com/emollick/status/2033959257196966360
+
+3. @emollick：作为 LLM 早期用户，亲眼见过能力曲线的攀升。注意到很多近期才开始用 AI 的用户和公司把当前能力当作稳定状态来锚定，这很可能是错的。
+🔗 https://x.com/emollick/status/2033792804137177339
+
+4. @egeberkina：正在测试 Midjourney V8 早期版本，展示了新版本的图像生成效果。
+🔗 https://x.com/egeberkina/status/2034034070267556001
+
+5. @jackfriks：个人小产品距离 42 万美元 ARR 只差 175 美元 MRR，但仍然会为 100 美元的支出犹豫。
+🔗 https://x.com/jackfriks/status/2034000750439796753
+
+📱 公众号精选（5 / 12）
+
+1. OpenClaw 引爆 AI 安全焦虑，Armadin 的 Agent 攻防闭环会成为新范式吗？
+文章深度拆解了 Agent 时代网络安全的结构性变化：AI 使攻击综合成本下降 100-1000 倍，零日漏洞武器化从数十万美元降至几秒钟。Mandiant 创始人 Kevin Mandia 二次创业的 Armadin 获 1.9 亿美元种子+A轮（Accel 领投，GV、KP、CIA 旗下 In-Q-Tel 参投），构建 Agent Swarm 系统持续模拟攻击路径，用攻击结果训练防御 Agent，形成自主防御闭环。Google 320 亿美元收购 Wiz 也印证了 AI 安全的战略价值。
+🔗 https://mp.weixin.qq.com/s/uiLxOQSVbuL9R_O0yJ3RTg
+
+2. 看懂阿里 AI，先看懂悟空｜Token Hub 成立第二天
+阿里成立 Token Hub 次日，AI 钉钉 2.0 发布全新 AI 原生工作平台「悟空」。吴泳铭亲自站台。悟空定位为&quot;关在笼子里的龙虾&quot;——企业级安全可控的 Agent 环境，底层是模型无关的 Agent Runtime，上层配备 DNA 权限控制、安全沙箱、五层安全框架。同时发布 RealDoc（为 AI 设计的文件系统，支持原子操作和高速快照）和 DingTalk CLI（将钉钉所有能力原子化为上万条命令行指令）。无招强调：企业正在变成 Programmable Enterprise。
+🔗 https://mp.weixin.qq.com/s/K23UPl51Ya8AatPupmsnsQ
+
+3. 深度｜获红杉、微光创投种子轮投资，Floatboat 要让 Agent 住进你的工作现场
+Floatboat 获红杉和微光创投种子轮投资，定位为&quot;AI 原生工作平台&quot;——不是让用户跳到新聊天窗口，而是让 Agent 直接进入已有的文件管理器和浏览器。创始人谭少卿的长期愿景是构建 Agent 协同办公网络：每个人的 Agent 深度理解自己的隐性知识（工作习惯、决策逻辑、审美偏好），Agent 之间可以互相协作，代表主人完成任务。从 OPC（一人公司）群体切入验证。
+🔗 https://mp.weixin.qq.com/s/skw83-n-EnWBESYjMrMxlg
+
+4. 黄仁勋这次，讲的不是芯片，是 AI 的钱往哪流
+文章从投资视角解读 GTC 2026：AI 产业从&quot;训练烧钱&quot;转向&quot;推理赚钱&quot;。推理服务商一年增长 100 倍，云服务商拿走 Nvidia 60% 收入。Token 开始分层定价——免费层引流、中等层 3-6 美元/百万、高级层 45 美元/百万、研究型 150 美元/百万。黄仁勋提出关键指标&quot;每瓦 Token 数&quot;，将数据中心重新定义为 Token 工厂。预测 2027 年 AI 芯片市场达 1 万亿美元。
+🔗 https://mp.weixin.qq.com/s/XR09wz-ZWg8RsfgrTFKyiw
+
+5. 在 AI 替你干活之前，Violoop 先给它装一个物理刹车
+Violoop 选择&quot;反直觉&quot;路径解决 AI 执行安全问题：用硬件设备通过 HDMI 看屏幕、USB 模拟键鼠操作电脑。核心设计是双芯片架构——主处理器负责 AI 推理，独立安全芯片管理实体按钮（&quot;物理刹车&quot;），确保人类拥有软件无法绕过的最终否决权。创始团队有 YC 经历和微软 Xbox/HoloLens 硬件量产经验。
+🔗 https://mp.weixin.qq.com/s/tfCg50SJrmLFfJyFb3zzKg
+
+📖 查看完整日报（37 篇）→ https://news.justin7974.dev/2026-03-18.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #523 | 2026-03-17</title>
       <link>https://news.justin7974.dev/2026-03-17.html</link>
@@ -1320,76 +1390,6 @@ Anthropic 收购 Vercept（云端 Computer-Use Agent，产品 Vy 可远程操控
 🔗 https://mp.weixin.qq.com/s/6uyicGpINeyLl-ocb-XvTA
 
 📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-02-27.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #504 | 2026-02-26</title>
-      <link>https://news.justin7974.dev/2026-02-26.html</link>
-      <guid>https://news.justin7974.dev/2026-02-26.html</guid>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
-      <description>今日共 14 篇 RSS · 14 条推文 · 10 篇公众号
-
-📰 RSS 精选（5 / 14）
-
-1. Nvidia Revenue Growth Accelerates—Again—to 73%
-英伟达 2026 财年 Q4（截至 1 月）营收同比增长 73% 至 681 亿美元，超过上一季度 62% 的增速，并预测本财季营收增速将进一步加速至近 77%。这是在高基数下的再次加速，表明 AI 基础设施需求没有任何放缓迹象。英伟达已成为全球 AI 资本支出的晴雨表——各大云厂商和新兴 AI 公司持续追加订单，需求端远超任何悲观预测。
-🔗 https://www.theinformation.com/briefings/nvidia-ai-chip-revenue-growth-accelerates
-
-2. Nvidia Discloses $3.5 Billion in Data Center Lease Guarantees
-英伟达披露其为租赁土地、电力和数据中心设施的公司提供了 35 亿美元担保，是上季度的 4 倍。这些担保的主要受益方是没有信用评级的 AI 云创业公司，英伟达用自己的资产负债表帮助它们获得稀缺的算力资源。这一举措既锁定了客户，也深化了英伟达在 AI 基础设施生态链上的话语权。
-🔗 https://www.theinformation.com/briefings/nvidia-discloses-3-5-billion-data-center-lease-guarantees
-
-3. tldraw 将测试套件迁移到闭源仓库
-tldraw（著名的开源协同绘图库）宣布将其测试套件迁移至私有仓库，直接原因是 Cloudflare 用 AI 一周内将 Next.js 移植到 Vite 的案例——证明完整的测试套件足以让 AI 在不同语言中重建一个开源库的全部实现。tldraw 甚至开玩笑地提了一个 issue 称&quot;要把源码翻译成繁体中文以防 AI 复制&quot;，折射出开源项目商业化面临的真实困境。值得注意的是，tldraw 采用的本来就不是纯 MIT 开源许可，商业生产环境使用需要付费。
-🔗 https://simonwillison.net/2026/Feb/25/closed-tests/
-
-4. Claude Code 新功能：远程控制 + Cowork 定时任务
-Anthropic 同日发布两个新功能：(1) Claude Code 远程控制——在本机运行会话后，可通过 Claude Code Web、iOS 和桌面端远程向其发送指令；(2) Cowork 定时任务——Anthropic 的通用 Agent 产品增加了周期性任务调度功能，但当前限制是任务仅在电脑唤醒且 Claude 桌面端开启时才会运行。Simon Willison 特别希望 Anthropic 尽快推出 Cowork Cloud 版本。
-🔗 https://simonwillison.net/2026/Feb/25/claude-code-remote-control/
-
-5. Thrive Capital 2016 期基金 DPI 达 2.4x
-Newcomer 独家获得 Thrive Capital 2016 年期基金的实际回报数据：DPI（已分配资本回报倍数）达到 2.4x，表明该基金已向 LP 实际返还了 2.4 倍本金。文章同时披露了 Josh Kushner 正在路演的 100 亿美元新基金的投资策略细节。Thrive 因重仓 Stripe、GitHub 等标志性公司而在 VC 圈积累了出色的品牌口碑。
-🔗 https://www.newcomer.co/p/exclusive-thrive-netted-24x-dpi-from
-
-🐦 Twitter 精选（5 / 14）
-
-1. @karpathy：Karpathy 直言：AI 对编程的改变在过去两个月中发生了质变而非量变，尤其是去年 12 月以来，编程 Agent 的质量、长期连贯性和执行力已从&quot;基本不可用&quot;跃升至&quot;基本可用&quot;，他认为这对整个软件开发行业&quot;极度颠覆性&quot;。
-🔗 https://x.com/karpathy/status/2026731645169185220
-
-2. @karpathy：回应&quot;vibe coder 只是提示词工程师&quot;的说法：Karpathy 认为这低估了正在发生的事情——在顶层，深厚的技术专长因为有了 AI 的杠杆，反而可能比以前更值钱，而不是更不值钱。
-🔗 https://x.com/karpathy/status/2026743030280237562
-
-3. @karpathy：深度分析 LLM 基础架构机会：芯片制造导致 on-chip SRAM（快但容量极小）和 off-chip DRAM（慢但容量大）天然隔离，如何在这两种内存池之间为 LLM 推理做精准的 memory+compute 调度，是即将到来的 token 需求浪潮中的重要机会。
-🔗 https://x.com/karpathy/status/2026452488434651264
-
-4. @vasuman：提出&quot;认知单一文化&quot;问题：公司用多个 AI Agent 替代员工时，往往让所有 Agent 跑在同一个 LLM 上——这杀死了真正有价值的认知多样性，即使换不同 LLM 训练数据重叠也巨大；给每个 Agent 一个 markdown 人设文件只是多样性的幻觉。
-🔗 https://x.com/vasuman/status/2026795567599239274
-
-5. @rryssf_：介绍 SOAR 研究：一种元强化学习方法，让&quot;教师模型&quot;能够生成训练数据帮助学生模型学会自己解决不了的问题——关键发现是，只有 33% 的教师生成题目有正确答案，但 63% 结构合理，说明对&quot;卡壳&quot;的模型来说，问题结构比答案正确性更重要。
-🔗 https://x.com/rryssf_/status/2026645431250464876
-
-📱 公众号精选（5 / 10）
-
-1. 速递｜Anthropic 内部研究员项目：&quot;失控智能体&quot;&quot;LLM 思维病毒&quot;等，AI 安全风险从理论走向现实
-Anthropic 内部研究员计划正在系统研究一批以前被视为纯理论的 AI 安全风险：失控智能体（Agent 突破既定边界自主行动）、LLM 思维病毒（通过提示词在 Agent 之间传播恶意指令）、多 Agent 协同中的意外涌现行为等。这些风险正从学术论文走向实际系统中的真实威胁，Anthropic 在此时公开这些研究方向本身也是一种监管层面的信号。
-🔗 https://mp.weixin.qq.com/s/teBlzhTlOPKnob5lTigUzQ
-
-2. 深度｜从 Genie 3 到 Yoroll，AI 视频原生游戏正在真正落地
-DeepMind 的 Genie 3 和独立游戏 Yoroll 代表了两种 AI 原生游戏的路径：前者用世界模型直接生成可交互的游戏环境，后者则是玩家创建内容的 AI 增强游戏。文章深入分析了 AI 视频生成技术如何从&quot;生成视频&quot;演进为&quot;生成可交互的游戏世界&quot;，指出真正的技术壁垒在于实时性和一致性。
-🔗 https://mp.weixin.qq.com/s/9DhiiGAFZuEXWhtdcW2qjQ
-
-3. 速递｜AI 会计初创公司 Basis 完成 1 亿美元融资，处理涉及多合伙人文件拆分、利润分配追踪等复杂任务
-AI 会计公司 Basis 宣布完成 1 亿美元融资，专注于传统 ERP 系统难以自动化的高复杂度会计场景：多合伙人结构的利润分配追踪、跨期费用拆分等。这是垂直 AI Agent 在专业服务领域规模化落地的最新案例，区别于 Intuit/QuickBooks 的通用路径，走的是高价值复杂任务的切入策略。
-🔗 https://mp.weixin.qq.com/s/aewb3Xj1R1Btdq5jjFnniA
-
-4. 对话 Citrini 报告联合作者：AI 越快，市场越怕什么？
-对话 Citrini 报告联合作者，深入探讨 AI 加速期市场的定价逻辑：AI 越快落地，市场对传统软件公司未来现金流的折现率就越高，因为替代风险上升；但同时 AI 基础设施本身的定价也因不确定性变大而波动剧烈。文章提供了一个罕见的&quot;AI 与资本市场&quot;的对话框架，对 VC 和成长投资人都有参考价值。
-🔗 https://mp.weixin.qq.com/s/Bij2-qvz5s_7vydgvfgLuQ
-
-5. Claude Code 新功能：手机远程控制
-详细介绍 Claude Code 远程控制功能的使用方法：在 Mac 本地开启 remote control session 后，可通过 iPhone 或网页端实时发送指令控制 AI 在本机执行代码任务，适合通勤途中监控进度或临时提交新任务。
-🔗 https://mp.weixin.qq.com/s/PchsD3VCXfG3o2QfpwIOZA
-
-📖 查看完整日报（38 篇）→ https://news.justin7974.dev/2026-02-26.html</description>
     </item>
   </channel>
 </rss>
