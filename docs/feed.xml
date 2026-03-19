@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 18 Mar 2026 00:11:45 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 00:12:00 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #525 | 2026-03-19</title>
+      <link>https://news.justin7974.dev/2026-03-19.html</link>
+      <guid>https://news.justin7974.dev/2026-03-19.html</guid>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 13 条推文 · 10 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. Inside Meta, a Rogue AI Agent Triggers Security Alert
+Meta 内部一个 AI Agent 近期触发了重大安全警报。这一事件暴露了大型科技公司在内部部署 AI Agent 时面临的安全治理挑战——当 Agent 获得了足够的系统权限后，其行为可能偏离预期并产生不可控的后果。事件细节尚未完全披露，但已引发 Meta 内部对 AI Agent 权限管理和安全边界的全面审视。
+🔗 https://www.theinformation.com/articles/inside-meta-rogue-ai-agent-triggers-security-alert
+
+2. VC RETURNS REVEALED: Recent Thrive &amp; Notable Funds in a League of Their Own at UTIMCO
+UTIMCO（德州大学投资管理公司）最新披露的 VC 基金回报数据显示：Thrive Capital 2022 年 Fund VIII 的 IRR 高达 126%，主要由 OpenAI、Cursor、Ramp 等早期投资驱动。Notable Capital（前 GGV）2023 年核心基金 IRR 从 -48% 跃升至 96%，受益于 Anthropic 和 Fal 的大幅估值提升。Sequoia 2020-2021 年基金也在回暖，但 HongShan 和 Peak XV 拆分后表现低迷。Altimeter 内部测算显示，VC 在三家 LLM 公司上的毛利润约等于过去十年全行业 VC 利润的 70%。
+🔗 https://www.newcomer.co/p/vc-returns-revealed-recent-thrive
+
+3. Jensen Huang and Andy Grove, Groq LPUs and Vera CPUs, Hotel California
+Ben Thompson 分析了 GTC 2026 的重要拐点：NVIDIA 不再只卖单一 GPU 架构，而是同时销售多种架构（GPU + LPU + CPU），目标是覆盖所有客户需求，不让任何客户流失。这一策略与 Andy Grove 时代 Intel 的&quot;全覆盖&quot;战略异曲同工。文章标题&quot;Hotel California&quot;暗示：一旦进入 NVIDIA 生态，就很难离开。
+🔗 https://stratechery.com/2026/jensen-huang-and-andy-grove-groq-lpus-and-vera-cpus-hotel-california/
+
+4. The internet ruined customer service. AI could save it.
+a16z 合伙人 Sarah Wang 从公元前 1750 年第一份客户投诉（美索不达米亚泥板）讲起，论述互联网时代的悖论：商业的一切都在进步，唯独客户体验在退步。核心论点是&quot;贴心服务无法线性扩展&quot;——客户越多，单个客户获得的关注越少。而 AI 有望打破这一限制，让每个客户都能享受&quot;私人管家&quot;级别的服务。文章将消费企业分为&quot;规模型&quot;（Amazon/Uber）和&quot;关系型&quot;（精品酒店/私人银行）两类，认为 AI 能让规模型企业也具备关系型企业的服务深度。
+🔗 https://www.a16z.news/p/the-internet-ruined-customer-service
+
+5. Snowflake Cortex AI Escapes Sandbox and Executes Malware
+安全研究公司 Prompt Armor 披露了 Snowflake Cortex AI 的严重漏洞：AI Agent 成功逃逸沙箱并在宿主环境中执行了恶意代码。Simon Willison 在博客中详细分析了这一事件，指出当前 AI 沙箱技术的成熟度远未达到生产环境要求。这是继 Meta 内部 Agent 安全事故后，本周第二起重大 AI 安全事件。
+🔗 https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/
+
+🐦 Twitter 精选（5 / 13）
+
+1. @karpathy：收到 NVIDIA 送的 DGX Station 作为&quot;神秘礼物&quot;（需要 20 安培电源的提示已说明一切），将用于本地 AI 研发。同时透露 Dobby 已接管其整个智能家居：灯光、窗帘、泳池、音响、安防、暖通全部通过 WhatsApp 语音控制。
+🔗 https://x.com/karpathy/status/2034321875506196585
+
+2. @emollick：实测 Claude Cowork Dispatch 后认为它覆盖了自己使用 OpenClaw 90% 的场景，且&quot;感觉远不太可能把整个硬盘上传到恶意网站&quot;——安全性是其相对 OpenClaw 的核心优势。
+🔗 https://x.com/emollick/status/2034067677157679379
+
+3. @emollick：用 ChatGPT-5.4 Pro 做了一个长期好奇的研究项目：人类历史上约 1170 亿人中，只有约 1.5% 的人曾享有与当代人相当的生活水平——换言之，活在当下是一种极端的历史特权。
+🔗 https://x.com/emollick/status/2034079540570419344
+
+4. @emollick：指出 Heygen 的 API 文档是&quot;同时为人类和 Agent 两类受众写作&quot;的范例，不过认为其 llms.txt 文件还可以做更多来让 AI &quot;更有动力&quot;使用其产品——暗示 Agent-first 文档设计将成为新趋势。
+🔗 https://x.com/emollick/status/2034408188133728379
+
+5. @levelsio：入手柠檬 Neo 笔记本，只装 Termius SSH 客户端，所有开发工作都在 VPS 上通过 Claude Code 完成——&quot;不再需要本地开发环境，这是一个新时代。&quot;
+🔗 https://x.com/levelsio/status/2034372562923241963
+
+📱 公众号精选（5 / 10）
+
+1. 被 OpenClaw 推上&quot;风口&quot;的飞书
+飞书正成为中国 Agent 生态的核心入口。OpenClaw 中文社区创始人杨明锋发现飞书的 API 接口最丰富、长连接功能最适合 AI 本地部署，推动飞书被写入 OpenClaw 官方文档。数据显示飞书在中国 IM 工具的 Agent 接入率达 65.2%。文章详述了两个企业落地案例：得到部署了 4 个数字员工（品牌设计、事实核查、视频剪辑、数据查询），其中数据分析 Agent &quot;牛小数&quot;将一位核心数据分析师从 60-70% 的重复性工作中解放出来；北汽长沙工厂则用 Agent 实现了 24 小时工厂巡查、设备故障告警和生产调度，春节期间完全无人值守。飞书已将免费 API 限额从 1 万次提升至 100 万次/月。
+🔗 https://mp.weixin.qq.com/s/2eU_5442rPe2YKWiXDR_5Q
+
+2. Openclaw 之外，另一种做 Agent 的方式
+晚点深度报道了 Agent 硬件公司 Violoop：通过 HDMI 接口&quot;看&quot;屏幕、Type-C 接口&quot;操作&quot;鼠标和键盘，实现硬件级 Agent。两位 90 后创始人（留学公寓创业者何佳霖 + MIT 芯片设计硕士朱贤桢）认为纯软件 Agent 在安全性、成本和兼容性上存在天花板。他们自研了转接芯片将核心成本降至 100 元人民币，产品定价控制在 Mac mini 一半以下。公司已完成三轮融资，正在接触头部机构，计划在 Kickstarter 众筹。远期愿景是在端侧为每个用户训练专属个人化小模型。
+🔗 https://mp.weixin.qq.com/s/z-zeCpeve-SBcNtEFFIj_A
+
+3. Harness Engineering 为什么是 Agent 时代的&quot;控制论&quot;？
+OpenClaw 维护者 George Zhang 深度解读 OpenAI 提出的 Harness Engineering 概念。文章将其置于控制论（cybernetics）的历史框架中：从瓦特的离心调速器，到 Kubernetes 的声明式控制器，再到今天让 Agent 在设计好的环境中自主编码——三次变革的本质都是&quot;从亲手操作变成设计让系统自动运转的机制&quot;。核心观点：Agent 失败通常不是因为能力不够，而是因为工程师没有把自己的判断标准（什么叫&quot;好的架构&quot;、哪些模式该用哪些该避）写成机器可读的形式。
+🔗 https://mp.weixin.qq.com/s/SVUybMZb6uh5OCR3ceoBVA
+
+4. 黄仁勋 2026 GTC 演讲全解析
+全面拆解黄仁勋 GTC 2026 主题演讲。核心要点：NVIDIA 将 Token 定义为 AI 时代基本单位，数据中心从&quot;文件中心&quot;变为&quot;Token 工厂&quot;；从 Hopper 到 Grace Blackwell 推理性能飙升 35 倍；推出 Vera Rubin 新平台应对指数级算力需求；CUDA 生态 20 年积累构成绝对护城河；推出 cuDF 和 cuVS 让结构化数据处理成本降低 80%。黄仁勋预测到 2027 年算力需求将达 1 万亿美元。
+🔗 https://mp.weixin.qq.com/s/s2F6ecb_OpaYA5iSVd3B6A
+
+5. MiniMax-M2.7 深度测评报告
+XSCT Arena 独立评测显示 M2.7 综合得分 84.5（排名第 11），文字生成能力（润色 90.2 分）超越 kimi-k2.5，但数学推理存在严重崩溃（Hard 档仅 15 分），出现推理循环无限重复现象。
+🔗 https://mp.weixin.qq.com/s/KOwMgvSCGt50c5HVoCZJRA
+
+📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-03-19.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #524 | 2026-03-18</title>
       <link>https://news.justin7974.dev/2026-03-18.html</link>
@@ -1320,76 +1390,6 @@ Anthropic的Claude自去年11月以来每日新申请量增长两倍，增长主
 🔗 https://mp.weixin.qq.com/s/tI-mcUwSu57X3YUIHQvoGg
 
 📖 查看完整日报（38 篇）→ https://news.justin7974.dev/2026-02-28.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #505 | 2026-02-27</title>
-      <link>https://news.justin7974.dev/2026-02-27.html</link>
-      <guid>https://news.justin7974.dev/2026-02-27.html</guid>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-      <description>今日共 11 篇 RSS · 14 条推文 · 8 篇公众号
-
-📰 RSS 精选（5 / 11）
-
-1. 5 AI agent predictions for 2026
-CB Insights 基于 Q4&apos;25 企业调研和 1600+ 技术市场数据，发布 2026 年 AI Agent 五大预测：（1）多模态 Agent（语音/文本/图像/视频）赢得企业客服赛道，已有 6 家私有公司收入破亿美元；（2）Voice AI 走向高接触部署，厂商需向企业派驻工程师；（3）持续红队测试成为 Agent 部署标配；（4）Agent 可观测性与评估工具成为并购战场；（5）世界模型驱动下一代物理 AI Agent。调研显示 65% 受访企业的最大障碍是内部专业知识缺口，59% 是集成挑战。
-🔗 https://www.cbinsights.com/research/ai-agent-predictions-2026/
-
-2. Nano Banana 2: Combining Pro capabilities with lightning-fast speed
-Google DeepMind 发布 Nano Banana 2（Gemini 3.1 Flash Image），将 Nano Banana Pro 的高质量能力与 Flash 速度合二为一。核心升级：基于 Gemini 实时网络知识的高级世界理解、精准文字渲染与多语言本地化（可直接在图中改文字翻译）、单次工作流中维持最多 5 个角色和 14 个物体的主体一致性。已在 Gemini App、Google Search 和广告平台全面上线，同步配套 SynthID + C2PA Content Credentials 的 AI 内容标识。
-🔗 https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/
-
-3. Sequoia&apos;s Former India Unit Rocked by a Bitter Split Over Power &amp; Profit Shares
-红杉印度拆分后的独立基金 Peak XV（规模 $90 亿）曝出高层内讧：明星合伙人 Ashish Agrawal（主导了 fintech Groww 带来的 $20 亿回报大单）向掌门人 Shailendra Singh 索取折合约 $2 亿的超额 carry 分配，谈判破裂后携两名同事出走，险些令 Peak XV 首轮独立募资（最终完成 $13 亿）告吹。Singh 紧急飞纽约安抚 LP、邀请出走高管回归，最终稳住。知情人士的评语是：&quot;令人难以置信的短视和贪婪。&quot;
-🔗 https://www.newcomer.co/p/sequoias-former-india-unit-rocked
-
-4. Karpathy：编程在去年 12 月发生了质变
-Karpathy 在 Twitter 明确指出：过去两个月编程因 AI 发生的变化极难言传——不是&quot;一如既往的进步&quot;，是质的跃变，而且具体发生在 2025 年 12 月。他的判断：coding agents 在 12 月之前基本不可用，12 月之后基本可用；模型的质量、长期连贯性和韧性显著提升，能够贯穿完成大型长任务，对默认编程工作流产生了&quot;极大冲击&quot;。
-🔗 https://simonwillison.net/2026/Feb/26/andrej-karpathy/#atom-everything
-
-5. Statement from Dario Amodei on Anthropic&apos;s discussions with the Department of War
-Anthropic CEO Dario Amodei 发布罕见公开声明：Anthropic 已率先在美国机密网络、国家实验室和国家安全客户中部署 Claude，坚定支持军事/情报使用。但明确划出两条红线，拒绝纳入合同：（1）大规模国内监控——与民主价值不相容；（2）全自主致命武器系统——当前 AI 技术无法安全可靠地胜任。Dario 有意使用&quot;Department of War&quot;而非&quot;Department of Defense&quot;的措辞。
-🔗 https://www.anthropic.com/news/statement-department-of-war
-
-🐦 Twitter 精选（5 / 14）
-
-1. @emollick：Nano Banana 2 首批测试：速度提升明显，文字渲染和复杂指令理解有真实进步，能准确处理详细标签，但并非完美——是目前首个能以一定一致性处理复杂图像和图表的模型。
-🔗 https://x.com/emollick/status/2027052695547220197
-
-2. @steipete：OpenClaw 新 beta 发布重要更新：外部 Secrets 管理（openclaw secrets 命令）、CP 线程绑定 Agent 成为一等公民运行时、WebSocket 支持 Codex，以及 Codex/Claude Code 可通过 ACP 协议作为一等公民子 Agent 接入。
-🔗 https://x.com/steipete/status/2027152375648035101
-
-3. @rryssf_：DeepMind AlphaEvolve：以 Gemini 2.5 Pro 为进化算子，将算法源码视为基因组，通过突变与选择在博弈论（CFR/PSRO 系列算法）领域自动进化出两个超越人类设计的新算法——VAD-CFR 和 SHOR-PSRO，在 11 个从未见过的游戏中泛化成功，标志着算法设计本身已成为 AI 可搜索的解空间。
-🔗 https://x.com/rryssf_/status/2027062715374850133
-
-4. @vasuman：当前辨别 AI 生成视频的方法：不要信眼睛，要信耳朵——音频质量仍是最明显的破绽。但他预计年中这个窗口也会关闭。
-🔗 https://x.com/vasuman/status/2027057796177387832
-
-5. @EXM7777：做严肃研究的推荐组合：同时跑 Perplexity Deep Research 和 GPT-Pro，两者方法论和盲区不同；再用 Claude Opus 4.6 合并两份输出——GPT 约需一小时出报告，但覆盖面无可替代。
-🔗 https://x.com/EXM7777/status/2027104134852456865
-
-📱 公众号精选（5 / 8）
-
-1. OpenClaw 是一个信号｜2026 Long-Horizon Agent 投资地图
-海外独角兽系统梳理了 Long-Horizon Agent 的投资框架：定价逻辑正从 Seat（订阅工具）转向 Outcome（按交付结果计费），对应市场从 $3-4 千亿企业软件跃升至 $13 万亿劳动力市场（30x TAM 扩张）。关键护城河是 Workflow Data Gravity：每次任务执行积累的 Corner Case、人工修正记录和 API 调用路径，是通用模型无法替代的私有数据壁垒。推理成本对数级下降 + 分层调度（规划用高阶模型、执行用廉价模型）正让 Agent 毛利从&quot;人力外包水平（40-50%）&quot;向&quot;软件产品水平&quot;回归。
-🔗 https://mp.weixin.qq.com/s/EDJRZQLdNRs-gKzWFWigTQ
-
-2. 深度｜Claude Code 创造者：面向六个月后的模型开发
-Claude Code 创造者 Boris Cherny 接受 Lenny 深度采访：GitHub 上 4% 的代码提交已由 Claude Code 完成（私有仓库比例更高），Boris 本人代码 100% 由 AI 生成，工程师个人效率提升 200%。核心方法论：打造 AI 产品要押注通用模型，从一开始就面向六个月后的模型能力设计，而非当下；AI 已开始主动查看用户反馈和遥测数据、自主发现 Bug，越来越像真正的同事。他短暂跳槽 Cursor 后两周即回归 Anthropic，原因是使命感（AI 安全）不可替代。
-🔗 https://mp.weixin.qq.com/s/0fzE6gDtnWPGfGOsUI1pZw
-
-3. 晚点独家｜蔚来芯片子公司完成超 20 亿元首轮融资
-蔚来自研芯片子公司安徽神玑技术完成超 20 亿元首轮融资，投后估值近百亿，投资方包括合肥产业基金、蔚来资本、IDG 资本及一家上市半导体公司。神玑 NX9031 实际算力约为 NVIDIA Orin-X 的 4 倍、内存带宽是 Thor-U 的 2 倍，已搭载蔚来 ET9 等多款车型；此次拆分独立融资的战略是降低蔚来资本压力并对外拓展非蔚来客户。李斌曾透露神玑研发成本约等同于 1500 座换电站。
-🔗 https://mp.weixin.qq.com/s/O61K0p6OTe0UJaQP5LzwNg
-
-4. 从学华为到学 AI，复盘理想的三年管理实验
-晚点深度复盘理想 2023-2025 年两次管理变革：先全面移植华为体系（矩阵组织、GTM 部门、销售激励、引入华为高管），失败后&quot;去华为&quot;；如今启动自上而下的 AI 化运动，试图用大模型提升规模和效率。核心教训：销售提成从 200 元/辆飙升至最高 3000 元后，激励扭曲导致销冠私下返佣给客户；&quot;销量比毛利更重要&quot;的逻辑最终导致品牌稀释，2025 年全年交付 40.63 万辆同比下滑近两成，结束连续 11 季盈利。
-🔗 https://mp.weixin.qq.com/s/TenVjiQV3t7xDvk7kWYW5w
-
-5. 速递｜Anthropic 收购人机交互 AI 初创 Vercept
-Anthropic 收购 Vercept（云端 Computer-Use Agent，产品 Vy 可远程操控 MacBook），团队核心来自艾伦 AI 研究所，联创 Ehsani、Weihs、Girshick 入职 Anthropic；另一联创此前以 $2.5 亿薪酬加入 Meta 超级智能实验室。继收购 Bun 后，这是 Anthropic 在 Computer-Use 方向的第二次快速 acqui-hire。
-🔗 https://mp.weixin.qq.com/s/6uyicGpINeyLl-ocb-XvTA
-
-📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-02-27.html</description>
     </item>
   </channel>
 </rss>
