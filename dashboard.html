@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="googlebot" content="noindex, nofollow">
+  <title>小虾AI日报 · 信源分析看板</title>
+  <style>
+    /* ============================================================
+       1. base/reset.css.md — CSS 变量 + Reset
+       ============================================================ */
+    :root {
+      --label:            rgba(0,0,0,1.00);
+      --label-secondary:  rgba(0,0,0,0.56);
+      --label-tertiary:   rgba(0,0,0,0.28);
+      --label-quaternary: rgba(0,0,0,0.16);
+      --bg:      #fbfbfd;
+      --bg-card: #ffffff;
+      --bg-sub:  #f5f5f7;
+      --accent:      #5A8AD4;
+      --accent-soft: rgba(90,138,212,0.10);
+      --green: #5BA87A;
+      --red:   #c4554e;
+      --amber: #b8932a;
+      --separator: rgba(60,60,67,0.12);
+      --shadow-sm: 0 1px 2px rgba(0,0,0,0.03), 0 2px 6px rgba(0,0,0,0.03);
+      --shadow-md: 0 1px 3px rgba(0,0,0,0.03), 0 4px 16px rgba(0,0,0,0.05);
+      --radius-xs: 4px;
+      --radius-sm: 6px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --spring:       cubic-bezier(0.22, 1, 0.36, 1);
+      --spring-quick: cubic-bezier(0.34, 1.56, 0.64, 1);
+      --duration-fast:   150ms;
+      --duration-normal: 300ms;
+      --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC",
+                   "Helvetica Neue", "Noto Sans SC", sans-serif;
+      --font-mono: "SF Mono", SFMono-Regular, Menlo, Consolas,
+                   "Liberation Mono", monospace;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --label:            rgba(255,255,255,0.92);
+        --label-secondary:  rgba(255,255,255,0.56);
+        --label-tertiary:   rgba(255,255,255,0.28);
+        --label-quaternary: rgba(255,255,255,0.14);
+        --bg:      #000000;
+        --bg-card: #1c1c1e;
+        --bg-sub:  #141414;
+        --separator: rgba(84,84,88,0.36);
+        --accent:      #6B9BE0;
+        --accent-soft: rgba(107,155,224,0.12);
+        --green: #6BBF8E;
+        --red:   #E08A84;
+        --amber: #D4B85C;
+        --shadow-sm: 0 1px 2px rgba(0,0,0,0.20);
+        --shadow-md: 0 2px 12px rgba(0,0,0,0.30);
+      }
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    * { -webkit-tap-highlight-color: transparent; }
+    img, video, svg { display: block; max-width: 100%; }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; background: none; border: none; cursor: pointer; -webkit-appearance: none; }
+    input, textarea, select { font: inherit; background: none; border: none; outline: none; }
+    ul, ol { list-style: none; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-sans);
+      font-size: 15px;
+      line-height: 1.55;
+      color: var(--label);
+      background: var(--bg);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    /* ============================================================
+       2. themes/dark-pro.md — 强制深色覆盖
+       ============================================================ */
+    :root {
+      --label:            rgba(255,255,255,0.92);
+      --label-secondary:  rgba(255,255,255,0.56);
+      --label-tertiary:   rgba(255,255,255,0.28);
+      --label-quaternary: rgba(255,255,255,0.12);
+      --bg:      #0a0a0a;
+      --bg-card: #141420;
+      --bg-sub:  #0f0f1a;
+      --accent:      #00d4aa;
+      --accent-soft: rgba(0,212,170,0.10);
+      --green: #00d4aa;
+      --red:   #ff6b6b;
+      --amber: #ffd166;
+      --separator: rgba(255,255,255,0.08);
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.40), 0 0 0 0.5px rgba(255,255,255,0.04);
+      --shadow-md: 0 4px 16px rgba(0,0,0,0.60), 0 0 0 0.5px rgba(255,255,255,0.04);
+      --font-sans: "SF Mono", SFMono-Regular, "JetBrains Mono", Menlo,
+                   "PingFang SC", "Microsoft YaHei", monospace;
+      --font-mono: "SF Mono", SFMono-Regular, "JetBrains Mono", Menlo,
+                   Consolas, monospace;
+      --dp-neon-green:  #00d4aa;
+      --dp-neon-red:    #ff6b6b;
+      --dp-neon-yellow: #ffd166;
+      --dp-neon-blue:   #74b9ff;
+      --dp-neon-purple: #a29bfe;
+      --dp-bg-deep:     #0a0a0a;
+      --dp-bg-panel:    #141420;
+      --dp-bg-raised:   #1e1e2e;
+      --dp-border:      rgba(255,255,255,0.08);
+      --dp-border-glow: rgba(0,212,170,0.30);
+      --dp-glow-green:  0 0 12px rgba(0,212,170,0.25), 0 0 40px rgba(0,212,170,0.10);
+      --dp-glow-red:    0 0 12px rgba(255,107,107,0.25), 0 0 40px rgba(255,107,107,0.10);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg:      #0a0a0a;
+        --bg-card: #141420;
+        --bg-sub:  #0f0f1a;
+        --accent:  #00d4aa;
+      }
+    }
+    body {
+      background: linear-gradient(135deg, #0a0a0a 0%, #0d0d1a 50%, #1a1a2e 100%);
+      background-attachment: fixed;
+      min-height: 100vh;
+    }
+
+    /* Dark Pro component overrides */
+    .badge {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 2px 8px; border-radius: var(--radius-xs);
+      font-size: 12px; font-weight: 600; line-height: 1.5;
+      white-space: nowrap; vertical-align: middle;
+      background: rgba(0,212,170,0.10);
+      color: var(--dp-neon-green);
+      border: 0.5px solid rgba(0,212,170,0.30);
+    }
+
+    /* ============================================================
+       3. Dashboard layout
+       ============================================================ */
+    .dash-header {
+      display: flex; align-items: flex-start; flex-wrap: wrap; gap: 16px;
+      padding: 28px 32px 0; max-width: 1440px; margin: 0 auto;
+    }
+    .dash-header-left { flex: 1; min-width: 0; }
+    .dash-title {
+      font-size: 22px; font-weight: 700; color: var(--label);
+      letter-spacing: -0.02em; margin-bottom: 4px;
+    }
+    .dash-title .neon { color: var(--dp-neon-green); }
+    .dash-subtitle { font-size: 13px; color: var(--label-secondary); }
+    .dash-status {
+      display: flex; align-items: center; gap: 6px;
+      font-size: 12px; color: var(--label-tertiary); margin-top: 8px;
+    }
+    .dash-status .dot {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: var(--green); flex-shrink: 0;
+      box-shadow: 0 0 6px var(--dp-neon-green);
+    }
+    .dash-main {
+      max-width: 1440px; margin: 0 auto;
+      padding: 20px 32px 48px;
+    }
+
+    /* Stat Bar */
+    .stat-bar {
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+      padding: 20px 32px 0; max-width: 1440px; margin: 0 auto;
+    }
+    .stat-item {
+      background: var(--dp-bg-panel); border: 0.5px solid var(--dp-border);
+      border-radius: var(--radius-md); padding: 16px 20px;
+      position: relative; overflow: hidden;
+    }
+    .stat-item::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px;
+      background: linear-gradient(90deg, transparent 0%, var(--dp-neon-green) 50%, transparent 100%);
+      opacity: 0.6;
+    }
+    .stat-label {
+      font-size: 11px; font-weight: 600; letter-spacing: 0.10em;
+      text-transform: uppercase; color: var(--dp-neon-green); margin-bottom: 6px;
+    }
+    .stat-value {
+      font-size: 28px; font-weight: 700; color: var(--label);
+      font-variant-numeric: tabular-nums; letter-spacing: -0.02em; line-height: 1.1;
+    }
+    .stat-sub { font-size: 11px; color: var(--label-tertiary); margin-top: 4px; }
+
+    /* Sections */
+    .dash-section {
+      background: var(--dp-bg-panel); border: 0.5px solid var(--dp-border);
+      border-radius: var(--radius-md); overflow: hidden;
+    }
+    .dash-section-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 16px 20px; border-bottom: 0.5px solid var(--separator);
+    }
+    .dash-section-title { font-size: 14px; font-weight: 600; color: var(--label); }
+    .dash-section-sub { font-size: 11px; color: var(--label-tertiary); }
+
+    /* Canvas */
+    .chart-wrap { padding: 16px 20px 12px; position: relative; }
+    .chart-wrap canvas { width: 100%; height: 220px; display: block; }
+
+    /* Ranking */
+    .rank-list { padding: 0; }
+    .rank-item {
+      display: flex; align-items: center; gap: 10px; padding: 10px 20px;
+      border-bottom: 0.5px solid var(--separator);
+      transition: background var(--duration-fast); font-size: 13px;
+    }
+    .rank-item:last-child { border-bottom: none; }
+    .rank-item:hover { background: rgba(0,212,170,0.04); }
+    .rank-num {
+      width: 20px; text-align: center; font-size: 11px; font-weight: 700;
+      color: var(--label-tertiary); flex-shrink: 0;
+    }
+    .rank-item:nth-child(1) .rank-num,
+    .rank-item:nth-child(2) .rank-num,
+    .rank-item:nth-child(3) .rank-num { color: var(--dp-neon-green); }
+    .rank-name {
+      flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;
+      white-space: nowrap; color: var(--label);
+    }
+    .rank-name.inactive { color: var(--label-tertiary); }
+    .rank-bar-wrap {
+      width: 80px; height: 6px; background: rgba(255,255,255,0.04);
+      border-radius: 100px; overflow: hidden; flex-shrink: 0;
+    }
+    .rank-bar {
+      height: 100%; border-radius: 100px; background: var(--dp-neon-green);
+      transition: width 0.6s var(--spring);
+    }
+    .rank-bar.high-freq { background: var(--dp-neon-yellow); }
+    .rank-bar.rss { background: var(--dp-neon-blue); }
+    .rank-bar.wechat { background: var(--dp-neon-purple); }
+    .rank-val {
+      min-width: 28px; text-align: right; font-size: 12px; font-weight: 600;
+      color: var(--label-secondary); font-variant-numeric: tabular-nums; flex-shrink: 0;
+    }
+    .rank-badge {
+      font-size: 10px; font-weight: 600; padding: 1px 6px;
+      border-radius: var(--radius-xs); flex-shrink: 0; white-space: nowrap;
+    }
+    .rank-badge.quality { background: rgba(0,212,170,0.12); color: var(--dp-neon-green); }
+    .rank-badge.stale { background: rgba(255,255,255,0.04); color: var(--label-quaternary); }
+    .rank-badge.active-kol { background: rgba(0,212,170,0.08); color: var(--dp-neon-green); }
+
+    /* Insight cards */
+    .insight-card {
+      background: var(--dp-bg-panel); border: 0.5px solid var(--dp-border);
+      border-radius: var(--radius-md); padding: 20px;
+      position: relative; overflow: hidden;
+    }
+    .insight-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; opacity: 0.5;
+    }
+    .insight-card.green-glow::before { background: linear-gradient(90deg, transparent, var(--dp-neon-green), transparent); }
+    .insight-card.red-glow::before { background: linear-gradient(90deg, transparent, var(--dp-neon-red), transparent); }
+    .insight-card.blue-glow::before { background: linear-gradient(90deg, transparent, var(--dp-neon-blue), transparent); }
+    .insight-title {
+      font-size: 12px; font-weight: 600; letter-spacing: 0.06em;
+      text-transform: uppercase; color: var(--dp-neon-green); margin-bottom: 12px;
+    }
+    .insight-card.red-glow .insight-title { color: var(--dp-neon-red); }
+    .insight-card.blue-glow .insight-title { color: var(--dp-neon-blue); }
+    .insight-row {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 6px 0; font-size: 13px; border-bottom: 0.5px solid var(--separator);
+    }
+    .insight-row:last-child { border-bottom: none; }
+    .insight-name { color: var(--label); flex: 1; }
+    .insight-val { font-weight: 600; font-variant-numeric: tabular-nums; color: var(--dp-neon-green); }
+    .insight-card.red-glow .insight-val { color: var(--dp-neon-red); }
+    .insight-card.blue-glow .insight-val { color: var(--dp-neon-blue); }
+    .stability-score {
+      font-size: 48px; font-weight: 700; color: var(--label); line-height: 1; margin: 8px 0;
+    }
+    .stability-detail { font-size: 12px; color: var(--label-secondary); line-height: 1.6; }
+
+    /* Legend */
+    .chart-legend { display: flex; gap: 16px; padding: 8px 20px 4px; flex-wrap: wrap; }
+    .legend-item { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--label-secondary); }
+    .legend-dot { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
+
+    /* Tooltip */
+    .chart-tooltip {
+      position: absolute; pointer-events: none;
+      background: var(--dp-bg-raised); border: 0.5px solid var(--dp-border-glow);
+      border-radius: var(--radius-sm); padding: 10px 14px; font-size: 12px;
+      color: var(--label); box-shadow: var(--dp-glow-green); z-index: 10;
+      opacity: 0; transition: opacity 0.15s; white-space: nowrap; line-height: 1.6;
+    }
+    .chart-tooltip.visible { opacity: 1; }
+    .tt-date { font-weight: 600; color: var(--dp-neon-green); margin-bottom: 4px; }
+    .tt-row { display: flex; align-items: center; gap: 6px; }
+    .tt-dot { width: 6px; height: 6px; border-radius: 2px; flex-shrink: 0; display: inline-block; }
+
+    /* Three column */
+    .three-col { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .three-col { grid-template-columns: 1fr; }
+      .stat-bar { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 640px) {
+      .dash-header { padding: 20px 16px 0; }
+      .stat-bar { padding: 16px 16px 0; grid-template-columns: 1fr 1fr; gap: 10px; }
+      .dash-main { padding: 16px 16px 40px; }
+      .three-col { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="dash-header">
+  <div class="dash-header-left">
+    <h1 class="dash-title"><span class="neon">></span> 小虾AI日报 · 信源分析看板</h1>
+    <p class="dash-subtitle">39 期真实数据 · 2026-02-10 ~ 2026-03-20</p>
+    <div class="dash-status">
+      <div class="dot"></div>
+      <span>数据截至 2026-03-20</span>
+    </div>
+  </div>
+</div>
+
+<div class="stat-bar" id="statBar">
+  <div class="stat-item">
+    <div class="stat-label">总期数</div>
+    <div class="stat-value">39</div>
+    <div class="stat-sub">2026-02-10 起</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-label">日均内容</div>
+    <div class="stat-value" id="avgDailyVal">--</div>
+    <div class="stat-sub">条 / 天</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-label">独立信源</div>
+    <div class="stat-value">114</div>
+    <div class="stat-sub">RSS 77 + Twitter 19 + 公众号 18</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-label">精选率</div>
+    <div class="stat-value" id="featuredRateVal">--</div>
+    <div class="stat-sub" id="featuredRateSub"></div>
+  </div>
+</div>
+
+<div class="dash-main">
+  <div style="display:flex;flex-direction:column;gap:20px;">
+
+    <!-- Row 1: Trend Chart -->
+    <div class="dash-section" style="position:relative;">
+      <div class="dash-section-header">
+        <div>
+          <span class="dash-section-title">每日内容量趋势</span>
+          <span class="dash-section-sub" style="margin-left:12px;">39 天 · 堆叠面积图</span>
+        </div>
+      </div>
+      <div class="chart-legend">
+        <div class="legend-item"><div class="legend-dot" style="background:#74b9ff"></div>RSS</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#00d4aa"></div>Twitter</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#a29bfe"></div>公众号</div>
+      </div>
+      <div class="chart-wrap" style="position:relative;">
+        <canvas id="trendChart" height="220"></canvas>
+        <div class="chart-tooltip" id="trendTooltip"></div>
+      </div>
+    </div>
+
+    <!-- Row 2: Three-column ranking -->
+    <div class="three-col">
+      <div class="dash-section">
+        <div class="dash-section-header">
+          <div>
+            <span class="dash-section-title">RSS 信源排行</span>
+            <span class="dash-section-sub" style="margin-left:8px;">77 个独立源 · Top 15</span>
+          </div>
+        </div>
+        <div class="rank-list" id="rssRank"></div>
+      </div>
+      <div class="dash-section">
+        <div class="dash-section-header">
+          <div>
+            <span class="dash-section-title">Twitter KOL 排行</span>
+            <span class="dash-section-sub" style="margin-left:8px;">19 人 · Top 10</span>
+          </div>
+        </div>
+        <div class="rank-list" id="twitterRank"></div>
+      </div>
+      <div class="dash-section">
+        <div class="dash-section-header">
+          <div>
+            <span class="dash-section-title">公众号排行</span>
+            <span class="dash-section-sub" style="margin-left:8px;">18 个 · Top 10</span>
+          </div>
+        </div>
+        <div class="rank-list" id="wechatRank"></div>
+      </div>
+    </div>
+
+    <!-- Row 3: Insight cards -->
+    <div class="three-col">
+      <div class="insight-card green-glow" id="topQuality"></div>
+      <div class="insight-card red-glow" id="staleSources"></div>
+      <div class="insight-card blue-glow" id="stability"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  // ══════════════════════════════════════════════════════════
+  // DATA (all hardcoded from 39 real issues, safe static content)
+  // ══════════════════════════════════════════════════════════
+  var dailyData = [
+    {date:"2026-02-10",rssTotal:7,rssFeatured:5,twitterTotal:0,wechatTotal:3,wechatFeatured:1},
+    {date:"2026-02-11",rssTotal:10,rssFeatured:5,twitterTotal:13,wechatTotal:10,wechatFeatured:4},
+    {date:"2026-02-12",rssTotal:4,rssFeatured:4,twitterTotal:3,wechatTotal:13,wechatFeatured:5},
+    {date:"2026-02-13",rssTotal:6,rssFeatured:5,twitterTotal:0,wechatTotal:12,wechatFeatured:4},
+    {date:"2026-02-14",rssTotal:14,rssFeatured:5,twitterTotal:8,wechatTotal:12,wechatFeatured:5},
+    {date:"2026-02-15",rssTotal:4,rssFeatured:0,twitterTotal:0,wechatTotal:7,wechatFeatured:2},
+    {date:"2026-02-16",rssTotal:11,rssFeatured:6,twitterTotal:7,wechatTotal:6,wechatFeatured:2},
+    {date:"2026-02-17",rssTotal:12,rssFeatured:5,twitterTotal:9,wechatTotal:4,wechatFeatured:2},
+    {date:"2026-02-18",rssTotal:10,rssFeatured:5,twitterTotal:16,wechatTotal:5,wechatFeatured:3},
+    {date:"2026-02-19",rssTotal:14,rssFeatured:5,twitterTotal:16,wechatTotal:5,wechatFeatured:2},
+    {date:"2026-02-20",rssTotal:13,rssFeatured:5,twitterTotal:15,wechatTotal:4,wechatFeatured:2},
+    {date:"2026-02-21",rssTotal:12,rssFeatured:5,twitterTotal:12,wechatTotal:4,wechatFeatured:3},
+    {date:"2026-02-22",rssTotal:10,rssFeatured:3,twitterTotal:13,wechatTotal:7,wechatFeatured:2},
+    {date:"2026-02-23",rssTotal:12,rssFeatured:5,twitterTotal:14,wechatTotal:3,wechatFeatured:2},
+    {date:"2026-02-24",rssTotal:13,rssFeatured:5,twitterTotal:14,wechatTotal:7,wechatFeatured:2},
+    {date:"2026-02-25",rssTotal:14,rssFeatured:5,twitterTotal:14,wechatTotal:7,wechatFeatured:3},
+    {date:"2026-02-26",rssTotal:14,rssFeatured:5,twitterTotal:14,wechatTotal:10,wechatFeatured:4},
+    {date:"2026-02-27",rssTotal:11,rssFeatured:5,twitterTotal:14,wechatTotal:8,wechatFeatured:4},
+    {date:"2026-02-28",rssTotal:15,rssFeatured:5,twitterTotal:13,wechatTotal:10,wechatFeatured:3},
+    {date:"2026-03-01",rssTotal:13,rssFeatured:5,twitterTotal:10,wechatTotal:10,wechatFeatured:4},
+    {date:"2026-03-02",rssTotal:10,rssFeatured:4,twitterTotal:9,wechatTotal:4,wechatFeatured:2},
+    {date:"2026-03-03",rssTotal:12,rssFeatured:5,twitterTotal:13,wechatTotal:8,wechatFeatured:3},
+    {date:"2026-03-04",rssTotal:13,rssFeatured:5,twitterTotal:10,wechatTotal:8,wechatFeatured:4},
+    {date:"2026-03-05",rssTotal:11,rssFeatured:5,twitterTotal:14,wechatTotal:8,wechatFeatured:3},
+    {date:"2026-03-06",rssTotal:13,rssFeatured:5,twitterTotal:12,wechatTotal:10,wechatFeatured:5},
+    {date:"2026-03-07",rssTotal:12,rssFeatured:5,twitterTotal:10,wechatTotal:7,wechatFeatured:2},
+    {date:"2026-03-08",rssTotal:11,rssFeatured:5,twitterTotal:10,wechatTotal:6,wechatFeatured:4},
+    {date:"2026-03-09",rssTotal:11,rssFeatured:5,twitterTotal:14,wechatTotal:2,wechatFeatured:1},
+    {date:"2026-03-10",rssTotal:15,rssFeatured:5,twitterTotal:15,wechatTotal:10,wechatFeatured:4},
+    {date:"2026-03-11",rssTotal:12,rssFeatured:2,twitterTotal:14,wechatTotal:9,wechatFeatured:2},
+    {date:"2026-03-12",rssTotal:14,rssFeatured:5,twitterTotal:10,wechatTotal:9,wechatFeatured:3},
+    {date:"2026-03-13",rssTotal:13,rssFeatured:5,twitterTotal:12,wechatTotal:10,wechatFeatured:5},
+    {date:"2026-03-14",rssTotal:14,rssFeatured:5,twitterTotal:11,wechatTotal:10,wechatFeatured:4},
+    {date:"2026-03-15",rssTotal:13,rssFeatured:4,twitterTotal:18,wechatTotal:5,wechatFeatured:2},
+    {date:"2026-03-16",rssTotal:12,rssFeatured:5,twitterTotal:15,wechatTotal:5,wechatFeatured:3},
+    {date:"2026-03-17",rssTotal:12,rssFeatured:5,twitterTotal:12,wechatTotal:6,wechatFeatured:2},
+    {date:"2026-03-18",rssTotal:12,rssFeatured:5,twitterTotal:13,wechatTotal:12,wechatFeatured:5},
+    {date:"2026-03-19",rssTotal:12,rssFeatured:5,twitterTotal:13,wechatTotal:10,wechatFeatured:4},
+    {date:"2026-03-20",rssTotal:11,rssFeatured:5,twitterTotal:11,wechatTotal:10,wechatFeatured:4}
+  ];
+
+  var rssSources = [
+    {name:"simonwillison.net",total:43,featured:22,rate:51,last:"03-19"},
+    {name:"theinformation.com",total:36,featured:12,rate:33,last:"03-20"},
+    {name:"latent.space",total:35,featured:23,rate:66,last:"03-20"},
+    {name:"openai.com",total:33,featured:18,rate:55,last:"03-20"},
+    {name:"a16z.news",total:22,featured:15,rate:68,last:"03-20"},
+    {name:"36kr",total:21,featured:0,rate:0,last:"03-08"},
+    {name:"huggingface.co",total:20,featured:9,rate:45,last:"03-18"},
+    {name:"lennysnewsletter.com",total:17,featured:10,rate:59,last:"03-17"},
+    {name:"量子位",total:17,featured:0,rate:0,last:"03-12"},
+    {name:"garymarcus.substack.com",total:15,featured:8,rate:53,last:"03-17"},
+    {name:"newcomer.co",total:14,featured:12,rate:86,last:"03-19"},
+    {name:"雷锋网",total:13,featured:0,rate:0,last:"03-06"},
+    {name:"stratechery.com",total:12,featured:8,rate:67,last:"03-19"},
+    {name:"blog.google",total:12,featured:6,rate:50,last:"03-18"},
+    {name:"36kr.com",total:10,featured:0,rate:0,last:"03-17"}
+  ];
+
+  var twitterKOLs = [
+    {name:"emollick",tweets:95,last:"03-20"},
+    {name:"Hesamation",tweets:44,last:"03-19"},
+    {name:"rryssf_",tweets:39,last:"03-20"},
+    {name:"EXM7777",tweets:37,last:"03-20"},
+    {name:"karpathy",tweets:31,last:"03-19"},
+    {name:"gregisenberg",tweets:29,last:"03-20"},
+    {name:"godofprompt",tweets:23,last:"03-15"},
+    {name:"levelsio",tweets:22,last:"03-20"},
+    {name:"rileybrown",tweets:20,last:"03-15"},
+    {name:"vasuman",tweets:18,last:"03-19"},
+    {name:"marclou",tweets:16,last:"03-19"},
+    {name:"jackfriks",tweets:15,last:"03-18"},
+    {name:"corbin_braun",tweets:14,last:"03-15"},
+    {name:"0xROAS",tweets:10,last:"03-17"},
+    {name:"eptwts",tweets:10,last:"03-15"},
+    {name:"steipete",tweets:7,last:"03-19"},
+    {name:"kloss_xyz",tweets:6,last:"03-20"},
+    {name:"egeberkina",tweets:4,last:"03-18"},
+    {name:"MengTo",tweets:1,last:"02-17"}
+  ];
+
+  var wechatSources = [
+    {name:"Z Potentials",total:70,featured:39,rate:56,last:"03-20"},
+    {name:"宝玉AI",total:39,featured:0,rate:0,last:"03-18"},
+    {name:"赛博禅心",total:38,featured:21,rate:55,last:"03-19"},
+    {name:"晚点LatePost",total:36,featured:24,rate:67,last:"03-20"},
+    {name:"AI 深度研究员",total:22,featured:9,rate:41,last:"03-18"},
+    {name:"歸藏的AI工具箱",total:18,featured:5,rate:28,last:"03-20"},
+    {name:"AGENT橘",total:14,featured:1,rate:7,last:"03-17"},
+    {name:"投资实习所",total:8,featured:4,rate:50,last:"03-13"},
+    {name:"洛小山",total:8,featured:2,rate:25,last:"03-20"},
+    {name:"有新Newin",total:8,featured:3,rate:38,last:"03-20"},
+    {name:"葬AI",total:7,featured:2,rate:29,last:"03-18"},
+    {name:"海外独角兽",total:6,featured:5,rate:83,last:"03-19"},
+    {name:"AI产品黄叔",total:6,featured:1,rate:17,last:"03-17"},
+    {name:"数字生命卡兹克",total:5,featured:0,rate:0,last:"02-28"},
+    {name:"一泽Eze",total:4,featured:2,rate:50,last:"03-13"},
+    {name:"向阳乔木推荐看",total:3,featured:0,rate:0,last:"03-18"},
+    {name:"深思SenseAI",total:3,featured:3,rate:100,last:"03-19"},
+    {name:"AI深度研究员",total:1,featured:0,rate:0,last:"02-27"}
+  ];
+
+  // ══════════════════════════════════════════════════════════
+  // HELPERS
+  // ══════════════════════════════════════════════════════════
+  function isStale(lastDate) {
+    var parts = lastDate.split("-");
+    var m = parseInt(parts[0]), d = parseInt(parts[1]);
+    var lastTS = new Date(2026, m - 1, d).getTime();
+    var todayTS = new Date(2026, 2, 20).getTime();
+    return (todayTS - lastTS) > 7 * 86400000;
+  }
+
+  function el(id) { return document.getElementById(id); }
+
+  function buildDOM(tag, cls, text) {
+    var node = document.createElement(tag);
+    if (cls) node.className = cls;
+    if (text !== undefined) node.textContent = text;
+    return node;
+  }
+
+  // ══════════════════════════════════════════════════════════
+  // COMPUTED STATS
+  // ══════════════════════════════════════════════════════════
+  var totalArticles = 0, totalFeatured = 0;
+  var dailyTotals = [];
+  for (var i = 0; i < dailyData.length; i++) {
+    var d = dailyData[i];
+    var dayTotal = d.rssTotal + d.twitterTotal + d.wechatTotal;
+    totalArticles += dayTotal;
+    totalFeatured += d.rssFeatured + d.wechatFeatured;
+    dailyTotals.push(dayTotal);
+  }
+  var avgDaily = (totalArticles / dailyData.length).toFixed(1);
+  var featuredRate = ((totalFeatured / totalArticles) * 100).toFixed(1);
+  var mean = totalArticles / dailyData.length;
+  var variance = 0;
+  for (var i = 0; i < dailyTotals.length; i++) {
+    variance += Math.pow(dailyTotals[i] - mean, 2);
+  }
+  variance /= dailyData.length;
+  var stddev = Math.sqrt(variance);
+  var cv = stddev / mean;
+  var stabilityScore = Math.round(Math.max(0, Math.min(100, (1 - cv) * 100)));
+
+  // ══════════════════════════════════════════════════════════
+  // RENDER: Stat Bar
+  // ══════════════════════════════════════════════════════════
+  el('avgDailyVal').textContent = avgDaily;
+  el('featuredRateVal').textContent = featuredRate + '%';
+  el('featuredRateSub').textContent = totalFeatured + ' / ' + totalArticles + ' 篇入选精选';
+
+  // ══════════════════════════════════════════════════════════
+  // RENDER: Trend Chart (Canvas stacked area)
+  // ══════════════════════════════════════════════════════════
+  function drawTrendChart() {
+    var canvas = el('trendChart');
+    var rect = canvas.parentElement.getBoundingClientRect();
+    var dpr = window.devicePixelRatio || 1;
+    canvas.width = rect.width * dpr;
+    canvas.height = 220 * dpr;
+    canvas.style.width = rect.width + 'px';
+    canvas.style.height = '220px';
+    var ctx = canvas.getContext('2d');
+    ctx.scale(dpr, dpr);
+    var W = rect.width, H = 220;
+    var pad = { top: 20, right: 16, bottom: 32, left: 36 };
+    var cw = W - pad.left - pad.right;
+    var ch = H - pad.top - pad.bottom;
+    var n = dailyData.length;
+    var maxVal = 0;
+    for (var i = 0; i < n; i++) {
+      var t = dailyData[i].rssTotal + dailyData[i].twitterTotal + dailyData[i].wechatTotal;
+      if (t > maxVal) maxVal = t;
+    }
+    var yMax = Math.ceil(maxVal / 5) * 5 + 5;
+
+    function xPos(idx) { return pad.left + (idx / (n - 1)) * cw; }
+    function yPos(v) { return pad.top + ch - (v / yMax) * ch; }
+
+    // Grid
+    ctx.strokeStyle = 'rgba(255,255,255,0.05)';
+    ctx.lineWidth = 0.5;
+    for (var v = 0; v <= yMax; v += 10) {
+      ctx.beginPath(); ctx.moveTo(pad.left, yPos(v)); ctx.lineTo(W - pad.right, yPos(v)); ctx.stroke();
+      ctx.fillStyle = 'rgba(255,255,255,0.25)';
+      ctx.font = '10px monospace';
+      ctx.textAlign = 'right';
+      ctx.fillText(v, pad.left - 6, yPos(v) + 3);
+    }
+    // X labels
+    ctx.fillStyle = 'rgba(255,255,255,0.25)';
+    ctx.font = '10px monospace';
+    ctx.textAlign = 'center';
+    for (var i = 0; i < n; i += 5) {
+      ctx.fillText(dailyData[i].date.slice(5), xPos(i), H - 8);
+    }
+    ctx.fillText(dailyData[n-1].date.slice(5), xPos(n-1), H - 8);
+
+    // Build stacks: bottom to top = wechat, twitter, rss
+    var order = ['wechat', 'twitter', 'rss'];
+    var keys = { wechat: 'wechatTotal', twitter: 'twitterTotal', rss: 'rssTotal' };
+    var fills = { wechat: 'rgba(162,155,254,0.25)', twitter: 'rgba(0,212,170,0.25)', rss: 'rgba(116,185,255,0.25)' };
+    var strokes = { wechat: '#a29bfe', twitter: '#00d4aa', rss: '#74b9ff' };
+    var cumulative = new Array(n);
+    for (var i = 0; i < n; i++) cumulative[i] = 0;
+
+    for (var oi = 0; oi < order.length; oi++) {
+      var key = order[oi];
+      var base = cumulative.slice();
+      var top = [];
+      for (var i = 0; i < n; i++) {
+        top.push(cumulative[i] + dailyData[i][keys[key]]);
+      }
+      // Fill area
+      ctx.beginPath();
+      ctx.moveTo(xPos(0), yPos(top[0]));
+      for (var i = 1; i < n; i++) {
+        ctx.bezierCurveTo(xPos(i - 0.5), yPos(top[i-1]), xPos(i - 0.5), yPos(top[i]), xPos(i), yPos(top[i]));
+      }
+      for (var i = n - 1; i >= 0; i--) {
+        if (i === n - 1) { ctx.lineTo(xPos(i), yPos(base[i])); }
+        else { ctx.bezierCurveTo(xPos(i + 0.5), yPos(base[i+1]), xPos(i + 0.5), yPos(base[i]), xPos(i), yPos(base[i])); }
+      }
+      ctx.closePath();
+      ctx.fillStyle = fills[key];
+      ctx.fill();
+      // Stroke top line
+      ctx.beginPath();
+      ctx.moveTo(xPos(0), yPos(top[0]));
+      for (var i = 1; i < n; i++) {
+        ctx.bezierCurveTo(xPos(i - 0.5), yPos(top[i-1]), xPos(i - 0.5), yPos(top[i]), xPos(i), yPos(top[i]));
+      }
+      ctx.strokeStyle = strokes[key];
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+      cumulative = top;
+    }
+    canvas._meta = { xPos: xPos, yPos: yPos, n: n, pad: pad, cw: cw };
+  }
+
+  drawTrendChart();
+  window.addEventListener('resize', drawTrendChart);
+
+  // Tooltip
+  var trendCanvas = el('trendChart');
+  var tooltip = el('trendTooltip');
+
+  trendCanvas.addEventListener('mousemove', function(e) {
+    var meta = trendCanvas._meta;
+    if (!meta) return;
+    var rect = trendCanvas.getBoundingClientRect();
+    var mx = e.clientX - rect.left;
+    var idx = Math.round(((mx - meta.pad.left) / meta.cw) * (meta.n - 1));
+    if (idx < 0 || idx >= meta.n) { tooltip.classList.remove('visible'); return; }
+    var d = dailyData[idx];
+    var total = d.rssTotal + d.twitterTotal + d.wechatTotal;
+
+    // Build tooltip DOM safely
+    while (tooltip.firstChild) tooltip.removeChild(tooltip.firstChild);
+    var dateDiv = buildDOM('div', 'tt-date', d.date);
+    tooltip.appendChild(dateDiv);
+
+    var rows = [
+      { color: '#74b9ff', text: 'RSS: ' + d.rssTotal + ' (\u7CBE\u9009 ' + d.rssFeatured + ')' },
+      { color: '#00d4aa', text: 'Twitter: ' + d.twitterTotal },
+      { color: '#a29bfe', text: '\u516C\u4F17\u53F7: ' + d.wechatTotal + ' (\u7CBE\u9009 ' + d.wechatFeatured + ')' }
+    ];
+    for (var ri = 0; ri < rows.length; ri++) {
+      var row = buildDOM('div', 'tt-row');
+      var dot = buildDOM('span', 'tt-dot');
+      dot.style.background = rows[ri].color;
+      row.appendChild(dot);
+      row.appendChild(document.createTextNode(' ' + rows[ri].text));
+      tooltip.appendChild(row);
+    }
+    var totalDiv = buildDOM('div', '', '\u5408\u8BA1: ' + total + ' \u6761');
+    totalDiv.style.cssText = 'margin-top:4px;font-weight:600;color:var(--label);';
+    tooltip.appendChild(totalDiv);
+
+    tooltip.classList.add('visible');
+    var tx = mx + 16, ty = e.clientY - rect.top - 10;
+    if (tx + 220 > rect.width) tx = mx - 230;
+    if (ty < 0) ty = 10;
+    tooltip.style.left = tx + 'px';
+    tooltip.style.top = ty + 'px';
+
+    // Redraw with guide line
+    drawTrendChart();
+    var ctx2 = trendCanvas.getContext('2d');
+    var dpr = window.devicePixelRatio || 1;
+    ctx2.save();
+    ctx2.scale(dpr, dpr);
+    ctx2.strokeStyle = 'rgba(0,212,170,0.3)';
+    ctx2.lineWidth = 1;
+    ctx2.setLineDash([4, 4]);
+    var gx = meta.xPos(idx);
+    ctx2.beginPath(); ctx2.moveTo(gx, meta.pad.top); ctx2.lineTo(gx, 220 - 32); ctx2.stroke();
+    ctx2.restore();
+  });
+
+  trendCanvas.addEventListener('mouseleave', function() {
+    tooltip.classList.remove('visible');
+    drawTrendChart();
+  });
+
+  // ══════════════════════════════════════════════════════════
+  // RENDER: Rankings (DOM-safe)
+  // ══════════════════════════════════════════════════════════
+  function renderRankItem(container, idx, name, value, barPct, barClass, badges) {
+    var item = buildDOM('div', 'rank-item');
+    item.appendChild(buildDOM('span', 'rank-num', String(idx + 1)));
+    var nameSpan = buildDOM('span', 'rank-name', name);
+    if (badges.stale) nameSpan.classList.add('inactive');
+    item.appendChild(nameSpan);
+
+    var barWrap = buildDOM('div', 'rank-bar-wrap');
+    var bar = buildDOM('div', 'rank-bar' + (barClass ? ' ' + barClass : ''));
+    bar.style.width = barPct + '%';
+    barWrap.appendChild(bar);
+    item.appendChild(barWrap);
+
+    item.appendChild(buildDOM('span', 'rank-val', String(value)));
+
+    if (badges.quality) {
+      item.appendChild(buildDOM('span', 'rank-badge quality', badges.quality));
+    } else if (badges.rate) {
+      item.appendChild(buildDOM('span', 'rank-badge stale', badges.rate));
+    }
+    if (badges.stale) {
+      item.appendChild(buildDOM('span', 'rank-badge stale', '\u505C\u66F4'));
+    }
+    if (badges.active !== undefined) {
+      if (badges.active) {
+        item.appendChild(buildDOM('span', 'rank-badge active-kol', '\u6D3B\u8DC3'));
+      } else {
+        item.appendChild(buildDOM('span', 'rank-badge stale', '\u6C89\u9ED8'));
+      }
+    }
+    container.appendChild(item);
+  }
+
+  // RSS
+  var rssContainer = el('rssRank');
+  var maxRSS = rssSources[0].total;
+  for (var i = 0; i < rssSources.length; i++) {
+    var s = rssSources[i];
+    var stale = isStale(s.last);
+    var badges = {};
+    if (s.rate > 50) badges.quality = s.rate + '%';
+    else if (s.rate > 0) badges.rate = s.rate + '%';
+    if (stale) badges.stale = true;
+    renderRankItem(rssContainer, i, s.name, s.total, (s.total / maxRSS * 100).toFixed(0), 'rss', badges);
+  }
+
+  // Twitter
+  var twitterContainer = el('twitterRank');
+  var topKOLs = twitterKOLs.slice(0, 10);
+  var maxTweets = topKOLs[0].tweets;
+  for (var i = 0; i < topKOLs.length; i++) {
+    var k = topKOLs[i];
+    var stale = isStale(k.last);
+    renderRankItem(twitterContainer, i, '@' + k.name, k.tweets,
+      (k.tweets / maxTweets * 100).toFixed(0),
+      k.tweets > 30 ? 'high-freq' : '',
+      { active: !stale });
+  }
+
+  // WeChat
+  var wechatContainer = el('wechatRank');
+  var topWechat = wechatSources.slice(0, 10);
+  var maxWechat = topWechat[0].total;
+  for (var i = 0; i < topWechat.length; i++) {
+    var s = topWechat[i];
+    var stale = isStale(s.last);
+    var badges = {};
+    if (s.rate > 50) badges.quality = s.rate + '%';
+    else if (s.rate > 0) badges.rate = s.rate + '%';
+    if (stale) badges.stale = true;
+    renderRankItem(wechatContainer, i, s.name, s.total, (s.total / maxWechat * 100).toFixed(0), 'wechat', badges);
+  }
+
+  // ══════════════════════════════════════════════════════════
+  // RENDER: Insight Cards
+  // ══════════════════════════════════════════════════════════
+
+  // 1. Top Quality
+  var allSources = [];
+  for (var i = 0; i < rssSources.length; i++) allSources.push({ name: rssSources[i].name, total: rssSources[i].total, rate: rssSources[i].rate, type: 'RSS' });
+  for (var i = 0; i < wechatSources.length; i++) allSources.push({ name: wechatSources[i].name, total: wechatSources[i].total, rate: wechatSources[i].rate, type: '\u516C\u4F17\u53F7' });
+  var qualitySources = allSources.filter(function(s) { return s.total >= 5 && s.rate > 0; });
+  qualitySources.sort(function(a, b) { return b.rate - a.rate; });
+  qualitySources = qualitySources.slice(0, 5);
+
+  var qCard = el('topQuality');
+  qCard.appendChild(buildDOM('div', 'insight-title', '\u6700\u9AD8\u8D28\u91CF\u4FE1\u6E90 Top 5'));
+  for (var i = 0; i < qualitySources.length; i++) {
+    var row = buildDOM('div', 'insight-row');
+    var nameEl = buildDOM('span', 'insight-name');
+    nameEl.textContent = qualitySources[i].name + ' ';
+    var typeEl = buildDOM('span', '', qualitySources[i].type);
+    typeEl.style.cssText = 'color:var(--label-tertiary);font-size:11px;';
+    nameEl.appendChild(typeEl);
+    row.appendChild(nameEl);
+    row.appendChild(buildDOM('span', 'insight-val', qualitySources[i].rate + '%'));
+    qCard.appendChild(row);
+  }
+
+  // 2. Stale Sources
+  var staleList = [];
+  for (var i = 0; i < rssSources.length; i++) {
+    if (isStale(rssSources[i].last)) staleList.push({ name: rssSources[i].name, last: rssSources[i].last, type: 'RSS' });
+  }
+  for (var i = 0; i < twitterKOLs.length; i++) {
+    if (isStale(twitterKOLs[i].last)) staleList.push({ name: '@' + twitterKOLs[i].name, last: twitterKOLs[i].last, type: 'Twitter' });
+  }
+  for (var i = 0; i < wechatSources.length; i++) {
+    if (isStale(wechatSources[i].last)) staleList.push({ name: wechatSources[i].name, last: wechatSources[i].last, type: '\u516C\u4F17\u53F7' });
+  }
+
+  var sCard = el('staleSources');
+  sCard.appendChild(buildDOM('div', 'insight-title', '\u6C89\u9ED8\u4FE1\u6E90 (>7 \u5929\u672A\u51FA\u73B0)'));
+  if (staleList.length === 0) {
+    var noStale = buildDOM('div', '', '\u5168\u90E8\u4FE1\u6E90\u5747\u6D3B\u8DC3');
+    noStale.style.cssText = 'color:var(--label-tertiary);font-size:13px;';
+    sCard.appendChild(noStale);
+  } else {
+    for (var i = 0; i < staleList.length; i++) {
+      var row = buildDOM('div', 'insight-row');
+      var nameEl = buildDOM('span', 'insight-name');
+      nameEl.textContent = staleList[i].name + ' ';
+      var typeEl = buildDOM('span', '', staleList[i].type);
+      typeEl.style.cssText = 'color:var(--label-tertiary);font-size:11px;';
+      nameEl.appendChild(typeEl);
+      row.appendChild(nameEl);
+      row.appendChild(buildDOM('span', 'insight-val', staleList[i].last));
+      sCard.appendChild(row);
+    }
+  }
+
+  // 3. Stability
+  var stCard = el('stability');
+  stCard.appendChild(buildDOM('div', 'insight-title', '\u5185\u5BB9\u7A33\u5B9A\u6027'));
+  var scoreEl = buildDOM('div', 'stability-score');
+  scoreEl.textContent = stabilityScore;
+  var scoreUnit = buildDOM('span', '', '/100');
+  scoreUnit.style.cssText = 'font-size:18px;color:var(--label-secondary);font-weight:400;';
+  scoreEl.appendChild(scoreUnit);
+  stCard.appendChild(scoreEl);
+
+  var detailEl = buildDOM('div', 'stability-detail');
+  var stMsg = stabilityScore >= 80 ? '\u975E\u5E38\u7A33\u5B9A\uFF0C\u5185\u5BB9\u4EA7\u51FA\u5747\u5300' :
+    stabilityScore >= 60 ? '\u8F83\u4E3A\u7A33\u5B9A\uFF0C\u5076\u6709\u6CE2\u52A8' :
+    '\u6CE2\u52A8\u8F83\u5927\uFF0C\u9700\u5173\u6CE8\u5185\u5BB9\u6E90\u7A33\u5B9A\u6027';
+  detailEl.textContent = '\u65E5\u5747\u5185\u5BB9\u91CF: ' + avgDaily + ' \u6761 | \u6807\u51C6\u5DEE: ' + stddev.toFixed(1) + ' \u6761 | \u53D8\u5F02\u7CFB\u6570: ' + (cv * 100).toFixed(1) + '%';
+  var msgEl = buildDOM('div', '', stMsg);
+  msgEl.style.cssText = 'color:var(--dp-neon-blue);margin-top:6px;';
+  detailEl.appendChild(msgEl);
+  stCard.appendChild(detailEl);
+
+})();
+</script>
+</body>
+</html>
