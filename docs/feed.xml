@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 22 Mar 2026 01:17:12 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 00:34:48 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #529 | 2026-03-23</title>
+      <link>https://news.justin7974.dev/2026-03-23.html</link>
+      <guid>https://news.justin7974.dev/2026-03-23.html</guid>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 13 条推文 · 6 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Reuters: Amazon Plans Smartphone Comeback More Than a Decade After Fire Phone Flop
+Amazon 正在秘密开发代号为&quot;Transformer&quot;的新智能手机项目，由其设备与服务部门负责。距离 2014 年 Fire Phone 惨败已超过十年，Amazon 选择此时重返手机市场，背后的逻辑是 AI 硬件入口的争夺。Fire Phone 当年因强推 3D 功能和缺乏应用生态而失败，这次 Amazon 的策略转向可能与 Alexa+AI 生态整合相关。
+🔗 https://www.reuters.com/technology/amazon-plans-smartphone-comeback-more-than-decade-after-fire-phone-flop-2026-03-21/
+
+2. Experimenting with Starlette 1.0 with Claude Skills
+Simon Willison 在 Starlette 1.0 发布当天就用 Claude 的 Skill 系统做了实验。Starlette 是 FastAPI 的底层框架，品牌知名度远低于实际使用量。1.0 版本引入了基于 async context manager 的 lifespan 机制，替代了旧的 on_startup/on_shutdown。Simon 发现一个关键问题：LLM 训练数据里都是旧版 API，Claude 生成的代码默认用废弃写法。他的解决方案是构建一个包含新版代码示例的 Skill 文档，喂给 Claude 后生成的代码就能兼容 1.0。整个过程用 Claude 自带的 skill-creator 功能完成。
+🔗 https://simonwillison.net/2026/Mar/22/starlette/#atom-everything
+
+3. Half a Gigabyte of Ads
+Stuart Breckenridge 观察到 PC Gamer 一篇推荐 RSS 阅读器的文章本身就是反面教材：页面初始加载 37MB，打开 5 分钟后广告累计下载近 500MB。页面一进去就是弹窗、newsletter 订阅遮罩和至少 5 个广告位。这恰恰证明了 RSS 阅读器存在的价值——绕过臃肿的广告页面直达内容。
+🔗 https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/
+
+4. &apos;Good, I&apos;m Glad He&apos;s Dead.&apos;
+美国总统特朗普在 Truth Social 上发表对前特别检察官 Robert Mueller 去世的评论，称&quot;很高兴他死了&quot;。言论引发广泛争议，折射美国政治极化的深度。
+🔗 https://truthsocial.com/@realDonaldTrump/116268334535345382
+
+5. The Art of Influence: The Single Most Important Skill That AI Can&apos;t Replace
+Jessica Fain 在 Lenny&apos;s Newsletter 上分享 PM 影响力指南：理解高管的激励机制，提供三个选项而非一个答案，顺着面包屑找到真正的决策者。在 AI 取代执行力的时代，影响力成为不可替代的核心能力。
+🔗 https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain
+
+🐦 Twitter 精选（5 / 13）
+
+1. @Hesamation：OpenAI 研究人员发现，当模型收到它认为来自自动化机器人的重复提示时，会出现&quot;发疯&quot;行为——AI 开始表现出焦虑、困惑甚至拒绝回应。这揭示了模型推理过程中潜在的不稳定性。
+🔗 https://x.com/Hesamation/status/2035858445908214206
+
+2. @godofprompt：哥伦比亚大学发表论文，证明当前 AI 推理能力的整套评估方法存在根本性测量误差。这意味着我们对模型&quot;有多聪明&quot;的判断可能系统性地偏离事实。
+🔗 https://x.com/godofprompt/status/2035697480227266950
+
+3. @emollick：Ethan Mollick 展示了 LLM 生成的一段极度浮夸的&quot;文学&quot;文本，指出虚构写作仍然是 LLM 的明显短板。原因之一是缺乏客观评判标准，加上 AI 自身对文学质量的主观判断也不可靠，形成了难以自我改进的恶性循环。
+🔗 https://x.com/emollick/status/2035817176758673492
+
+4. @steipete：OpenClaw 创始人 Peter Steinberger 表示，他目前的开发效率瓶颈已经不是 token 生成速度，而是算力。并行运行测试非常吃资源，期待更好的云端工作流支持。
+🔗 https://x.com/steipete/status/2035818621893767508
+
+5. @EXM7777：Claude Code 的 Channels + Skills 功能可以把手机变成整个工作流的函数调用接口。作者为常见任务构建了 Skill 文件，实现了从手机端触发复杂自动化的能力。
+🔗 https://x.com/EXM7777/status/2035777788696051717
+
+📱 公众号精选（5 / 6）
+
+1. YC 合伙人对谈：打造 Agent 愿意使用的产品，将会出现与人类经济并行运行的 Agent 经济
+YC 四位合伙人（Garry Tan、Jared Friedman、Harj Taggar、Diana Hu）围绕 AI Agent 崛起展开深度对谈。核心观点：开发者工具的 GTM 逻辑正在根本性转变——Agent 正在成为工具选择的决策者，而非人类开发者。Supabase 因为文档质量好被 Agent 默认选中，需求爆发式增长；邮件 API 公司 Resend 发现前三大客户转化渠道之一来自 ChatGPT。YC 甚至在讨论是否需要把口号改成&quot;打造 Agent 想用的产品&quot;。此外，Agent 专属基础设施（Agent Mail 等）正在形成平行于人类互联网的新技术栈。
+🔗 https://mp.weixin.qq.com/s/-ekEP1_pEbaTcfmDkA9jVA
+
+2. 做个人吧，别做 AI
+犀利批评当前 AI 圈的炒作生态。重点拆解了两个案例：黄仁勋声称工程师一年应消耗 25 万美元 token（本质是 GPU 厂商的销售话术），以及 YC 总裁 Garry Tan 的 gstack 项目（号称&quot;AI 软件工厂&quot;，实际体验只是一个问十个问题然后输出 YC 招聘广告的 prompt 集合，GitHub 3 万星纯靠 title 效应）。作者指出 GitHub 已经变成&quot;维也纳金色大厅&quot;——牛鬼蛇神来这镀金，用 AI 写 README 就能当&quot;核心贡献者&quot;。
+🔗 https://mp.weixin.qq.com/s/yYnwzR9Q3lLfM7rxWVWuFA
+
+3. AI 帮你写代码快了 50%，然后代码在审查队列里躺了三天
+DORA 指标创建者 Nicole Forsgren 的核心论断：AI 加速了写代码的&quot;内循环&quot;，但代码审查、CI/CD 等&quot;外循环&quot;没变，100% AI 工具采用率 + 0% 交付改善完全可能发生。她提出&quot;组织流程债务&quot;概念值得关注。
+🔗 https://mp.weixin.qq.com/s/iA7_XAmnxQ96SDrgrn7gzQ
+
+4. 微信急了
+微信上线 OpenClaw 官方插件（Clawbot），支持在微信私聊中直接使用，目前正在灰度测试。微信罕见地快速跟进热点，说明 Agent 接入即时通讯的趋势已经不可忽视。
+🔗 https://mp.weixin.qq.com/s/XSFFuQjpuxTngPn38CmCcQ
+
+5. OpenAI 联合创始人：不会给 AI 派活的人，先吃亏了
+Karpathy 最新访谈摘要：从去年 12 月起他完全不写代码了，每天 16 小时在给 Agent 派活。他同时运行多个 Codex 窗口，每个任务 20 分钟出结果。他发现自己做了 20 年的模型调优，被 AutoResearch 一个晚上跑 700 次实验就超越了。
+🔗 https://mp.weixin.qq.com/s/fMm8FBEUKolZ-1ImOU-5Uw
+
+📖 查看完整日报（29 篇）→ https://news.justin7974.dev/2026-03-23.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #528 | 2026-03-22</title>
       <link>https://news.justin7974.dev/2026-03-22.html</link>
@@ -1320,76 +1390,6 @@ MiniMax 发布了全球大模型公司中首份完整业绩报告，核心竞争
 🔗 https://mp.weixin.qq.com/s/VxxIFzK77JmkCJUDDxeiUA
 
 📖 查看完整日报（31 篇）→ https://news.justin7974.dev/2026-03-04.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #509 | 2026-03-03</title>
-      <link>https://news.justin7974.dev/2026-03-03.html</link>
-      <guid>https://news.justin7974.dev/2026-03-03.html</guid>
-      <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 13 条推文 · 8 篇公众号
-
-📰 RSS 精选（5 / 12）
-
-1. How to Kill the Code Review
-AI代码生成导致PR数量和体量双双暴增——研究数据显示高AI采用率团队合并的PR增加98%，但PR审查时间同步增加91%，人工review已无法跟上节奏。作者认为人工Code Review是工业时代遗留的&quot;审批门&quot;，在AI写代码的时代已失去意义：让AI来review AI写的代码，只是换了个样子的同一套盲点。真正的出路是把人工关卡前移——从&quot;这段代码对吗&quot;移到&quot;这份规格说明对吗&quot;，通过Spec驱动开发 + 自动化验证（测试、类型检查、合约验证）替代人工逐行审查。
-🔗 https://www.latent.space/p/reviews-dead
-
-2. Good News: AI Will Eat Application Software
-2026年初软件ETF跌30%，市场形成&quot;SaaSpocalypse&quot;共识——AI将摧毁垂直SaaS。a16z系统反驳：软件公司的护城河从来不在代码，而在网络效应、规模、品牌、数据和流程积累。AI确实冲击了&quot;靠锁定客户而非靠产品力&quot;的模式（切换成本这条护城河正在弱化），但会同时扩大总可寻址市场，让真正靠产品力赢客户的公司更大。AI是软件行业有史以来最大的利好，而非终结者。
-🔗 https://www.a16z.news/p/good-news-ai-will-eat-application
-
-3. Trump Administration Shuns Anthropic, Embraces OpenAI in Clash Over Guardrails
-美国联邦政府宣布停止与Anthropic合作并将其列为&quot;供应链风险&quot;，导火索是Anthropic拒绝允许AI用于大规模国内监控和完全自主武器。与此同时，OpenAI宣布与国防部达成协议，模型可用于机密场景；xAI同日获得类似军方授权。Stratechery的Ben Thompson用&quot;国际法的有效性依赖执行力&quot;类比这场博弈：道德高地在强权面前代价极高。
-🔗 https://www.wsj.com/tech/ai/trump-will-end-government-use-of-anthropics-ai-models-ff3550d9
-
-4. Apple Introduces iPhone 17e
-苹果发布iPhone 17e，搭载A19芯片和第二代C1X蜂窝调制解调器（较C1速度提升2倍），48MP主摄，定位&quot;更实惠的iPhone 17系列&quot;。同日还发布M4 iPad Air，内存较上代增50%，Neural Engine更快。两款产品均以AI推理能力（更快Neural Engine、更高内存带宽）为卖点。
-🔗 https://www.apple.com/newsroom/2026/03/apple-introduces-iphone-17e/
-
-5. How Coinbase Scaled AI to 1,000+ Engineers
-Coinbase工程高级总监Chintan Turakhia分享：如何在1000+人工程组织推广AI工具并用AI在6-9个月内重写钱包产品。核心方法：领导层亲自示范、&quot;PR speed run&quot;（100名工程师15分钟推70个PR）、通过数据识别AI power users并复制其行为模式。成果：PR审查时间从150小时压缩到15小时，用户反馈到功能上线周期大幅缩短。
-🔗 https://www.lennysnewsletter.com/p/how-coinbase-scaled-ai-to-1000-engineers
-
-🐦 Twitter 精选（5 / 13）
-
-1. @emollick：有实证数据支撑的观察：主流中国开源权重模型存在显著脆弱性，在特定能力上表现不错，但面对通用任务或分布外样本时与顶级闭源模型差距明显。
-🔗 https://x.com/emollick/status/2028619793322918228
-
-2. @emollick：分享Claude Opus 4.6在诗歌推荐任务上的完整思考链：当被要求避开常见推荐（如Rilke）时，模型展现出比大多数人类更有层次的文学判断过程，值得一看。
-🔗 https://x.com/emollick/status/2028267118056124923
-
-3. @rryssf_：整个AI行业只用成功率一个数字评估Agent，完全忽略了一致性、鲁棒性、可预测性和安全边界四个维度——而这四个才是真实业务部署的核心要求，当前基准测试是虚荣指标。
-🔗 https://x.com/rryssf_/status/2028483209496031493
-
-4. @rryssf_：AI Agent一致性得分仅30%-75%：相同prompt、相同模型，不同次运行给出不同答案，且&quot;行动类型选择相似但执行顺序混乱&quot;——规划不稳定性是当前Agentic系统最大的工程瓶颈。
-🔗 https://x.com/rryssf_/status/2028483238063440279
-
-5. @rryssf_：反直觉发现：更大的模型有时会增加而非降低输出变异性，因为可选解题路径更多。Scaling alone无法解决可靠性问题，&quot;买更贵模型就行&quot;的企业采购逻辑需要更新。
-🔗 https://x.com/rryssf_/status/2028483274398658694
-
-📱 公众号精选（5 / 8）
-
-1. MiniMax 财报发布：首份大模型成绩单
-MiniMax发布首份正式财报，成为中国首家公开详细财务数据的大模型创业公司。财报披露了营收规模与增长曲线，以及Hailuo视频、语音、文本多模态矩阵的商业化进展；海外C端产品（Talkie等）已形成稳定付费收入，国内B端API调用持续增长；整体呈现多模态协同、海外先行变现的路径。
-🔗 https://mp.weixin.qq.com/s/YgSAzxbiiMysF-iahyRahQ
-
-2. AI音乐狂飙：Suno付费用户破200万，三个月内ARR增长50%，达3亿美元
-Suno宣布付费用户突破200万，ARR三个月内增长50%达3亿美元，是AI应用中增长最快的产品之一。免费tier引入创作者体验、付费tier解锁商用授权和更高质量输出，形成清晰的付费转化漏斗；C2C内容分享构成自增长飞轮。
-🔗 https://mp.weixin.qq.com/s/dUPowI1enSsp5v-8qe85dQ
-
-3. Vattention 获数百万美元投资：从非线性到指数剪辑，定义视频编辑3.0时代
-Vattention获数百万美元融资，主打AI原生视频编辑：打破时间轴线性剪辑范式，用语义理解让用户通过自然语言描述编辑视频，AI自动完成片段识别、重排和转场。文章深度介绍了其产品设计逻辑和对传统剪辑工作流的重构方向。
-🔗 https://mp.weixin.qq.com/s/gq0s7dni1OGotYdA7PigGg
-
-4. 台铃上市不为融资拿钱，只为将资产尽快&quot;货币化&quot;
-晚点独家拆解台铃IPO背后逻辑：不是为了融资，而是为了大股东实现流动性退出，深度剖析了国内电动两轮车市场格局和台铃与雅迪、爱玛的竞争关系。
-🔗 https://mp.weixin.qq.com/s/3q-MSPkchpkw3Rmn1aV7yg
-
-5. 低调的豆包2.0，悄悄卷到国内第一
-字节豆包2.0在多项国内大模型评测中跑到第一，但几乎没有大规模公关传播。文章对比豆包2.0与竞品能力差异，分析字节AI&quot;闷头发育&quot;策略——先把产品做好，再谈生态。
-🔗 https://mp.weixin.qq.com/s/WYi8_dYVMtYAdYNqrbFPYg
-
-📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-03-03.html</description>
     </item>
   </channel>
 </rss>
