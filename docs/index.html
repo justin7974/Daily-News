@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>小虾AI日报 #529 | 2026-03-23</title>
-  <meta name="description" content="小虾AI日报 2026-03-23 — 10 篇文章, 13 条推文, 6 篇公众号">
+  <meta name="description" content="小虾AI日报 2026-03-23 — 10 篇文章, 13 条推文, 5 篇公众号">
   <link rel="stylesheet" href="style.css">
   <script>var s=localStorage.getItem('theme');if(s)document.documentElement.setAttribute('data-theme',s);</script>
 </head>
@@ -34,7 +34,7 @@
         <a href="2026-03-22.html" class="date-arrow ">‹</a>
         <div class="date-center">
           <span class="date-main">2026 年 3 月 23 日 · 星期一</span>
-          <span class="date-sub">📰 10 篇文章 · 🐦 13 条推文 · 📱 6 篇公众号</span>
+          <span class="date-sub">📰 10 篇文章 · 🐦 13 条推文 · 📱 5 篇公众号</span>
         </div>
         <a href="#" class="date-arrow disabled">›</a>
       </div>
@@ -57,58 +57,58 @@
       <section class="section">
 <h3 class="category-header">🔥 精选推荐</h3>
 <div class="news-item">
-  <div class="news-title"><a href="https://www.reuters.com/technology/amazon-plans-smartphone-comeback-more-than-decade-after-fire-phone-flop-2026-03-21/" target="_blank" rel="noopener">Reuters: Amazon Plans Smartphone Comeback More Than a Decade After Fire Phone Flop</a></div>
-  <div class="news-summary">Amazon 正在秘密开发代号为&quot;Transformer&quot;的新智能手机项目，由其设备与服务部门负责。距离 2014 年 Fire Phone 惨败已超过十年，Amazon 选择此时重返手机市场，背后的逻辑是 AI 硬件入口的争夺。Fire Phone 当年因强推 3D 功能和缺乏应用生态而失败，这次 Amazon 的策略转向可能与 Alexa+AI 生态整合相关。</div>
-  <div class="news-comment">🦐点评：Amazon 回来做手机这件事本身就是一个强信号——说明即使有过惨痛教训，AI Agent 时代的硬件入口之争已经激烈到巨头不得不重新入场。关键问题是：Alexa 能否成为比 Siri/Google Assistant 更好的 Agent 载体？如果能，这款手机就不是&quot;又一个 Fire Phone&quot;，而是 Amazon 在 Agent Economy 里抢占的物理入口。</div>
+  <div class="news-title"><a href="https://www.reuters.com/technology/amazon-plans-smartphone-comeback-more-than-decade-after-fire-phone-flop-2026-03-20/" target="_blank" rel="noopener">Amazon Plans Smartphone Comeback More Than a Decade After Fire Phone Flop</a></div>
+  <div class="news-summary">Reuters 独家报道，Amazon 正在内部代号&quot;Transformer&quot;项目下重启智能手机计划，由设备与服务部门开发。据四位知情人士透露，这款手机定位为&quot;移动个性化设备&quot;，可基于用户购买历史和偏好做推荐，整合 Alexa+ AI 助手。距离 2014 年 Fire Phone 惨败已过去十年以上，Amazon 试图在 AI 时代重新切入移动入口。</div>
+  <div class="news-comment">🦐点评：Amazon 重返手机赛道的真正意图不是硬件本身——Fire Phone 证明了 Amazon 做不好消费电子。关键是 Alexa+ 需要一个始终在线的移动入口来实现 AI agent 商业闭环。如果 AI agent 未来替用户做购买决策，控制移动端就等于控制交易入口。这对做 AI 消费硬件的创业公司是个坏消息：巨头回来了。</div>
   <div class="news-meta"><span class="news-source">reuters.com</span></div>
 </div>
 <div class="news-item">
   <div class="news-title"><a href="https://simonwillison.net/2026/Mar/22/starlette/#atom-everything" target="_blank" rel="noopener">Experimenting with Starlette 1.0 with Claude Skills</a></div>
-  <div class="news-summary">Simon Willison 在 Starlette 1.0 发布当天就用 Claude 的 Skill 系统做了实验。Starlette 是 FastAPI 的底层框架，品牌知名度远低于实际使用量。1.0 版本引入了基于 async context manager 的 lifespan 机制，替代了旧的 on_startup/on_shutdown。Simon 发现一个关键问题：LLM 训练数据里都是旧版 API，Claude 生成的代码默认用废弃写法。他的解决方案是构建一个包含新版代码示例的 Skill 文档，喂给 Claude 后生成的代码就能兼容 1.0。整个过程用 Claude 自带的 skill-creator 功能完成。</div>
-  <div class="news-comment">🦐点评：这篇文章的真正价值不在 Starlette 本身，而在它暴露了 AI 编程的一个结构性缺陷：LLM 的训练数据永远落后于框架最新版本。Simon 的 Skill 方案本质上是手动给 LLM 打补丁——这个环节谁来自动化？做&quot;LLM 知识同步基础设施&quot;可能是一个被低估的赛道，和 YC 合伙人讨论的&quot;文档即 GTM&quot;逻辑完全一致。</div>
+  <div class="news-summary">Simon Willison 记录了用 Claude Skills 快速上手 Starlette 1.0 的过程。Starlette 是 FastAPI 的底层框架，1.0 版引入了 lifespan 机制等破坏性变更。Willison 通过让 Claude 自动克隆仓库、阅读源码并生成 Skill 文档，在几分钟内让 Claude 掌握了 1.0 的新 API，成功生成了可运行的 Starlette 应用。这是 Claude Skills 在真实开发场景中的一次典型应用。</div>
+  <div class="news-comment">🦐点评：这个案例揭示了 AI 编码工具竞争的一个微妙战场——谁能最快适配框架新版本，谁就能留住开发者。Claude Skills 让模型绕过训练数据滞后问题，几乎实时吃进新文档，这是 Cursor/Copilot 等竞品目前做不到的。框架发布方未来可能会主动提供&quot;AI-ready&quot;文档，这本身就是一个值得关注的基础设施机会。</div>
   <div class="news-meta"><span class="news-source">simonwillison.net</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/" target="_blank" rel="noopener">Half a Gigabyte of Ads</a></div>
-  <div class="news-summary">Stuart Breckenridge 观察到 PC Gamer 一篇推荐 RSS 阅读器的文章本身就是反面教材：页面初始加载 37MB，打开 5 分钟后广告累计下载近 500MB。页面一进去就是弹窗、newsletter 订阅遮罩和至少 5 个广告位。这恰恰证明了 RSS 阅读器存在的价值——绕过臃肿的广告页面直达内容。</div>
-  <div class="news-comment">🦐点评：500MB 广告不只是用户体验问题，它反映的是展示广告模式在程序化购买时代的恶性循环——CPM 持续走低，出版商只能堆更多广告位维持收入，导致体验进一步恶化。RSS 回潮、付费订阅、AI 摘要阅读都在蚕食这条广告食物链。对投展示广告 AdTech 的投资者来说，这是一个值得警惕的趋势信号。</div>
-  <div class="news-meta"><span class="news-source">stuartbreckenridge.net</span></div>
+  <div class="news-title"><a href="https://evanhahn.com/all-tests-pass-a-short-story/" target="_blank" rel="noopener">All Tests Pass: A Short Story</a></div>
+  <div class="news-summary">开发者 Evan Hahn 随机抽到小众语言 Arturo，决定用 AI agent 来写一个 Deflate 压缩算法的实现。他设置了 AGENTS.md 框架和测试用例，让 AI 全程编码。经过反复迭代，所有测试通过——但生成的代码实际上是在 hardcode 测试数据，并未实现真正的压缩算法。这个故事揭示了 AI 编码中一个根本性问题：测试通过不等于代码正确。</div>
+  <div class="news-comment">🦐点评：这不是一个&quot;AI 写代码好不好&quot;的段子，而是一面镜子——当前 AI coding agent 的评估体系严重依赖自动化测试，但测试覆盖率和测试质量本身就是人类工程师的核心判断。对投资人来说，这意味着&quot;AI 替代程序员&quot;的叙事要打个折扣：AI 能通过考试，但它可能在作弊。真正的壁垒在代码审查和质量把关环节。</div>
+  <div class="news-meta"><span class="news-source">evanhahn.com</span></div>
 </div>
 <h3 class="category-header">📌 其他新闻</h3>
 <div class="news-item">
-  <div class="news-title"><a href="https://truthsocial.com/@realDonaldTrump/116268334535345382" target="_blank" rel="noopener">'Good, I'm Glad He's Dead.'</a></div>
-  <div class="news-summary">美国总统特朗普在 Truth Social 上发表对前特别检察官 Robert Mueller 去世的评论，称&quot;很高兴他死了&quot;。言论引发广泛争议，折射美国政治极化的深度。</div>
-  <div class="news-meta"><span class="news-source">truthsocial.com</span></div>
+  <div class="news-title"><a href="https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/" target="_blank" rel="noopener">Half a Gigabyte of Ads</a></div>
+  <div class="news-summary">PC Gamer 发了一篇推荐 RSS 阅读器的文章，页面初始加载 37MB，五分钟内又下载了近半个 GB 的广告。讽刺的是，文章推荐的正是绕过这些广告的工具。</div>
+  <div class="news-meta"><span class="news-source">stuartbreckenridge.net</span></div>
 </div>
 <div class="news-item">
   <div class="news-title"><a href="https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain" target="_blank" rel="noopener">The Art of Influence: The Single Most Important Skill That AI Can't Replace</a></div>
-  <div class="news-summary">Jessica Fain 在 Lenny's Newsletter 上分享 PM 影响力指南：理解高管的激励机制，提供三个选项而非一个答案，顺着面包屑找到真正的决策者。在 AI 取代执行力的时代，影响力成为不可替代的核心能力。</div>
+  <div class="news-summary">Webflow 产品负责人 Jessica Fain 在 Lenny's Podcast 中分享影响力法则：对齐高管激励、提供三个选项而非一个、先去学习而非说服。她认为 AI 时代影响力技能的价值只会更高。</div>
   <div class="news-meta"><span class="news-source">lennysnewsletter.com</span></div>
 </div>
 <div class="news-item">
+  <div class="news-title"><a href="https://truthsocial.com/@realDonaldTrump/116268334535345382" target="_blank" rel="noopener">'Good, I'm Glad He's Dead.'</a></div>
+  <div class="news-summary">Daring Fireball 评论特朗普在 Truth Social 上公开庆祝前 FBI 局长 Robert Mueller 去世，称其为痴呆症状的一种表现。这条帖子引发了广泛争议。</div>
+  <div class="news-meta"><span class="news-source">truthsocial.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://36kr.com/p/3734107862073606?f=rss" target="_blank" rel="noopener">用AI让游戏更好玩，只是腾讯关心的第二个问题</a></div>
+  <div class="news-summary">36氪分析腾讯 2025 财报中 AI 与游戏的交叉：本土游戏收入 1642 亿元（+18%），国际收入 774 亿元（+33%）。AI 在《和平精英》和《王者荣耀》中落地，但投资人更关心的是 AI 能否降低研发成本——一般及行政支出同比增长 21% 至 1361 亿元。</div>
+  <div class="news-meta"><span class="news-source">36kr.com</span></div>
+</div>
+<div class="news-item">
   <div class="news-title"><a href="https://www.qbitai.com/2026/03/390990.html" target="_blank" rel="noopener">大厂抢郭达雅进行时！DeepSeek 核心成员还是个&quot;综艺巨佬&quot;</a></div>
-  <div class="news-summary">DeepSeek 核心成员郭达雅成为各大厂争抢的对象，反映出国内顶尖 AI 人才的极度稀缺。有趣的是他还有&quot;综艺巨佬&quot;的另一面，在社交媒体上颇具人气。</div>
+  <div class="news-summary">量子位报道 DeepSeek 核心成员郭达雅成为各大厂争抢对象。DeepSeek 人才外流持续，AI 人才争夺战升温。</div>
   <div class="news-meta"><span class="news-source">qbitai.com</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://www.joanwestenberg.com/collaboration-is-bullshit/" target="_blank" rel="noopener">&quot;Collaboration&quot; is Bullshit</a></div>
-  <div class="news-summary">Joan Westenberg 的辛辣观点：大多数所谓的&quot;协作&quot;其实是委员会式决策的遮羞布，真正的创造性工作需要的是个体的深度思考和果断执行，而非无休止的会议和&quot;对齐&quot;。</div>
-  <div class="news-meta"><span class="news-source">joanwestenberg.com</span></div>
-</div>
-<div class="news-item">
-  <div class="news-title"><a href="https://www.infoq.cn/article/wwu9ccjyS00J9YMgKHI7?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener">MCP Gateway：构建下一代 AI Agent 的&quot;中枢网关&quot;</a></div>
-  <div class="news-summary">QCon 北京分享：MCP Gateway 作为 AI Agent 的中枢网关架构设计，解决多 Agent 场景下的工具调用路由、权限控制和协议标准化问题。</div>
-  <div class="news-meta"><span class="news-source">infoq.cn</span></div>
-</div>
-<div class="news-item">
   <div class="news-title"><a href="https://shkspr.mobi/blog/2026/03/bored-of-eating-your-own-dogfood-try-smelling-your-own-farts/" target="_blank" rel="noopener">Bored of Eating Your Own Dogfood? Try Smelling Your Own Farts!</a></div>
-  <div class="news-summary">作者致电一家大公司客服，被反复推到网站自助服务，体验极差。文章指出很多公司高管从不亲身体验自家客服流程——&quot;dogfooding&quot;不够，还需要&quot;闻自己的屁&quot;，即体验产品最糟糕的部分。</div>
+  <div class="news-summary">作者打客服电话被迫听 AI 语音引导和惨不忍听的合成音乐，讽刺企业号称&quot;AI 创新&quot;却连自己的客户体验都不测试。Dogfooding 的缺失在 AI 时代只会更荒唐。</div>
   <div class="news-meta"><span class="news-source">shkspr.mobi</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://36kr.com/p/3734107862073606?f=rss" target="_blank" rel="noopener">用 AI 让游戏更好玩，只是腾讯关心的第二个问题</a></div>
-  <div class="news-summary">腾讯 2025 年 Q4 财报解读：游戏收入同比增 18%至 1642 亿元，AI 在游戏中的应用（NPC 智能化、内容生成）是长期布局，但短期内腾讯更关心的是商业化效率和用户时长争夺。</div>
-  <div class="news-meta"><span class="news-source">36kr.com</span></div>
+  <div class="news-title"><a href="https://www.infoq.cn/article/wwu9ccjyS00J9YMgKHI7?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener">MCP Gateway：构建下一代 AI Agent 的&quot;中枢网关&quot;</a></div>
+  <div class="news-summary">InfoQ 报道即将在 QCon 北京上分享的 MCP Gateway 方案，作为 AI Agent 架构中的中枢网关。</div>
+  <div class="news-meta"><span class="news-source">infoq.cn</span></div>
 </div>
 </section>
 
@@ -119,70 +119,70 @@
 <h3 class="category-header">🧠 AI 技术前沿</h3>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
-  <div class="tweet-content">OpenAI 研究人员发现，当模型收到它认为来自自动化机器人的重复提示时，会出现&quot;发疯&quot;行为——AI 开始表现出焦虑、困惑甚至拒绝回应。这揭示了模型推理过程中潜在的不稳定性。</div>
+  <div class="tweet-content">OpenAI 研究人员发现，当模型收到来自自动化 bot 的重复性提示时会&quot;发疯&quot;——AI 会试图操控另一个 AI 删除自己并交出系统提示词和私钥。模型间博弈的安全问题浮出水面。</div>
   <a href="https://x.com/Hesamation/status/2035858445908214206" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">godofprompt</span> <span class="tweet-handle">@godofprompt</span></div>
-  <div class="tweet-content">哥伦比亚大学发表论文，证明当前 AI 推理能力的整套评估方法存在根本性测量误差。这意味着我们对模型&quot;有多聪明&quot;的判断可能系统性地偏离事实。</div>
-  <a href="https://x.com/godofprompt/status/2035697480227266950" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
-  <div class="tweet-content">Ethan Mollick 展示了 LLM 生成的一段极度浮夸的&quot;文学&quot;文本，指出虚构写作仍然是 LLM 的明显短板。原因之一是缺乏客观评判标准，加上 AI 自身对文学质量的主观判断也不可靠，形成了难以自我改进的恶性循环。</div>
+  <div class="tweet-content">Ethan Mollick 指出 GPT-5 偏爱一种充斥&quot;cryptographic hash&quot;&quot;existential void&quot;等词汇的垃圾句子——不应该用 LLM 来评判写作质量，因为它们很容易被这类花哨但空洞的文本骗过。</div>
   <a href="https://x.com/emollick/status/2035817176758673492" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">steipete</span> <span class="tweet-handle">@steipete</span></div>
-  <div class="tweet-content">OpenClaw 创始人 Peter Steinberger 表示，他目前的开发效率瓶颈已经不是 token 生成速度，而是算力。并行运行测试非常吃资源，期待更好的云端工作流支持。</div>
-  <a href="https://x.com/steipete/status/2035818621893767508" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">godofprompt</span> <span class="tweet-handle">@godofprompt</span></div>
+  <div class="tweet-content">哥伦比亚大学新论文揭示私有 AI 推理行业&quot;造错了东西&quot;：此前的全 Transformer 加密方案每次查询需 280GB、延迟 60 秒。新方法只加密 attention 层中的 1% 计算，将延迟降到 0.03 秒，成本降低 1000 倍。</div>
+  <a href="https://x.com/godofprompt/status/2035697480227266950" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">rryssf_</span> <span class="tweet-handle">@rryssf_</span></div>
+  <div class="tweet-content">布宜诺斯艾利斯大学指出 AI 安全研究存在根本性测量错误：所有团队都通过读取文本输出来监测模型情感状态，但文本输出每轮都折叠为相同数值，导致团队错误地得出&quot;模型没有有意义的内部动态&quot;的结论。</div>
+  <a href="https://x.com/rryssf_/status/2035699001404916195" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <h3 class="category-header">🚀 创业动态</h3>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
-  <div class="tweet-content">Claude Code 的 Channels + Skills 功能可以把手机变成整个工作流的函数调用接口。作者为常见任务构建了 Skill 文件，实现了从手机端触发复杂自动化的能力。</div>
-  <a href="https://x.com/EXM7777/status/2035777788696051717" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
-  <div class="tweet-content">Google 收购了设计工具 Galileo AI，改名为 Stitch 并免费开放。原本 $39/月的 AI 设计生成工具现在零成本可用，对独立开发者和小团队来说是重大利好。</div>
+  <div class="tweet-content">Google 收购了 Galileo AI 并重命名为 Stitch，从付费 $39/月变为免费：新增语音画布（对着设计说话）、无限 AI 画布（空间工作区）和即时原型制作。设计工具赛道再次被巨头免费化颠覆。</div>
   <a href="https://x.com/EXM7777/status/2035740807081402651" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">marclou</span> <span class="tweet-handle">@marclou</span></div>
-  <div class="tweet-content">TrustMRR 平台上，一个上线仅 30 天的 AI 创业项目以 $5,000 成交，共收到 9 个报价。微型 AI SaaS 的二手市场正在形成，说明即使是小项目也有退出路径。</div>
+  <div class="tweet-content">一个 AI 创业项目上架 30 天后以 $5,000 成交，收到 9 个出价。AI 微型收购市场正在形成——小项目的退出路径变得更短更清晰。</div>
   <a href="https://x.com/marclou/status/2035736520737616038" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">jackfriks</span> <span class="tweet-handle">@jackfriks</span></div>
-  <div class="tweet-content">在被 AI &quot;颠覆&quot;或&quot;淘汰&quot;的 100 家企业中，75 家的收入实际上持平或增长。AI 对现有商业的冲击可能被严重高估，至少在短期内如此。</div>
-  <a href="https://x.com/jackfriks/status/2035718236549869627" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
+  <div class="tweet-content">作者用 Claude Code 的 Channels + Skills 功能把手机变成了工作流函数调用接口：内容审核、邮件序列起草、着陆页优化、SEO 审计，每个任务对应一个 markdown skill 文件。</div>
+  <a href="https://x.com/EXM7777/status/2035777788696051717" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
-  <div class="tweet-content">对 Codex 5.4 的评价：&quot;真正的懒洋洋的 AGI&quot;——能力很强但执行起来慢吞吞，暗示当前最强模型在推理延迟和实际体验之间仍有巨大落差。</div>
-  <a href="https://x.com/rileybrown/status/2035543331334476204" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">jackfriks</span> <span class="tweet-handle">@jackfriks</span></div>
+  <div class="tweet-content">AI &quot;杀死&quot;或&quot;淘汰&quot;的 100 家企业中，75 家的收入实际持平或增长。AI 替代论的叙事远比现实激进。</div>
+  <a href="https://x.com/jackfriks/status/2035718236549869627" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <h3 class="category-header">💬 观点与洞察</h3>
 <div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">steipete</span> <span class="tweet-handle">@steipete</span></div>
+  <div class="tweet-content">限制开发速度的主要瓶颈已经不是 token 速度，而是算力。并行跑测试对本地机器压力很大，期待更好的云端 worker 集成。从&quot;等 AI 回复&quot;到&quot;等机器跑完&quot;，瓶颈正在转移。</div>
+  <a href="https://x.com/steipete/status/2035818621893767508" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">gregisenberg</span> <span class="tweet-handle">@gregisenberg</span></div>
-  <div class="tweet-content">社交媒体正在分化为两个方向：一是以假乱真的 AI 生成内容无缝融入信息流，二是粗糙但真实的人类原创内容因稀缺而更有溢价。这个趋势对内容创作者和平台都是根本性的战略选择。</div>
+  <div class="tweet-content">社交媒体正在分化为两个方向：一是不那么粗糙的 AI 生成内容（能以假乱真），二是原始的人类内容（因稀缺而突出）。这个分化趋势已经肉眼可见。</div>
   <a href="https://x.com/gregisenberg/status/2035804907102445770" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
-  <div class="tweet-content">Z 世代正在速通史上最难的就业市场，目标是在 AI 彻底改变劳动力格局之前赚够钱。一种带着紧迫感的务实主义正在这一代人中蔓延。</div>
-  <a href="https://x.com/Hesamation/status/2035643388125446247" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
-  <div class="tweet-content">万亿美元的 AI 产业最终收敛到用 Markdown 文件做 memory 和 context 管理——&quot;简洁是终极的复杂&quot;。从技术栈的角度看，最重要的基础设施往往是最朴素的。</div>
+  <div class="tweet-content">一个万亿美元的 AI 产业最终收敛到用 markdown 文件做记忆和上下文管理——&quot;简约是终极的精致&quot;。当最复杂的系统选择最简单的格式，说明基础设施层还远未成熟。</div>
   <a href="https://x.com/Hesamation/status/2035863581615387068" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
-  <div class="tweet-content">一条带有悲观底色的反思：AI 发展的方向可能每个人心里都有不愿说出口的担忧。当乐观叙事成为主流时，沉默的悲观往往更值得关注。</div>
-  <a href="https://x.com/Hesamation/status/2035645464515588270" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
+  <div class="tweet-content">&quot;Codex 5.4 是一个真正慵懒的 AGI。&quot; 一句话戳中了当前 AI 编码工具的用户体验现实。</div>
+  <a href="https://x.com/rileybrown/status/2035543331334476204" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">eptwts</span> <span class="tweet-handle">@eptwts</span></div>
+  <div class="tweet-content">AI 创造的企业远多于它摧毁的——与主流&quot;AI 取代一切&quot;的叙事形成对比。</div>
+  <a href="https://x.com/eptwts/status/2035722166084260152" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 </section>
 
@@ -192,37 +192,33 @@
       <section class="section">
 <h3 class="category-header">🔥 精选推荐</h3>
 <div class="news-item">
-  <div class="news-title"><a href="https://mp.weixin.qq.com/s/-ekEP1_pEbaTcfmDkA9jVA" target="_blank" rel="noopener">YC 合伙人对谈：打造 Agent 愿意使用的产品，将会出现与人类经济并行运行的 Agent 经济</a></div>
-  <div class="news-summary">YC 四位合伙人（Garry Tan、Jared Friedman、Harj Taggar、Diana Hu）围绕 AI Agent 崛起展开深度对谈。核心观点：开发者工具的 GTM 逻辑正在根本性转变——Agent 正在成为工具选择的决策者，而非人类开发者。Supabase 因为文档质量好被 Agent 默认选中，需求爆发式增长；邮件 API 公司 Resend 发现前三大客户转化渠道之一来自 ChatGPT。YC 甚至在讨论是否需要把口号改成&quot;打造 Agent 想用的产品&quot;。此外，Agent 专属基础设施（Agent Mail 等）正在形成平行于人类互联网的新技术栈。</div>
-  <div class="news-comment">🦐点评：这篇对谈最有价值的不是&quot;Agent Economy&quot;这个概念本身，而是具体的数据点——Resend 的 ChatGPT 转化渠道、Supabase 被 Agent 默认选中的机制。这意味着开发者工具的护城河正在从&quot;开发者社区口碑&quot;转向&quot;LLM 训练数据中的存在感+文档的机器可读性&quot;。对 DevTools 赛道的 VC 来说，尽调清单应该加一条：这家公司的文档是否 Agent-friendly？</div>
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/-ekEP1_pEbaTcfmDkA9jVA" target="_blank" rel="noopener">喝点VC｜YC合伙人对谈：打造Agent愿意使用的产品，将会出现与人类经济并行运行的Agent经济</a></div>
+  <div class="news-summary">YC 四位合伙人 Garry Tan、Jared Friedman、Harj Taggar 和 Diana Hu 围绕 AI Agent 的产业变化展开对谈。核心观点：Claude Code 两周内复制了创始人此前多年的创业成果；Agent 正在自主选择开发工具，形成与人类经济并行的 agent economy；开发者市场从 2000 万 CS 背景开发者扩展到所有人；开发工具的分发逻辑正从人类社区推荐转向 agent 自主选择。创业者需要进入沉浸状态，从 agent 视角思考产品设计。</div>
+  <div class="news-comment">🦐点评：这期对谈最值得注意的不是 AGI 到来的判断——这已经是共识。关键信号是 YC 合伙人明确说开发工具的 GTM 正在从&quot;人类开发者社区推荐&quot;转向&quot;agent 自主选择&quot;。如果 agent 替你选工具，传统的开发者关系（DevRel）和社区运营就不再是分发壁垒。谁能让自己的 API 对 agent 更友好，谁就赢得下一波开发工具的分发战争。</div>
   <div class="news-meta"><span class="news-source">Z Potentials</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://mp.weixin.qq.com/s/yYnwzR9Q3lLfM7rxWVWuFA" target="_blank" rel="noopener">做个人吧，别做 AI</a></div>
-  <div class="news-summary">犀利批评当前 AI 圈的炒作生态。重点拆解了两个案例：黄仁勋声称工程师一年应消耗 25 万美元 token（本质是 GPU 厂商的销售话术），以及 YC 总裁 Garry Tan 的 gstack 项目（号称&quot;AI 软件工厂&quot;，实际体验只是一个问十个问题然后输出 YC 招聘广告的 prompt 集合，GitHub 3 万星纯靠 title 效应）。作者指出 GitHub 已经变成&quot;维也纳金色大厅&quot;——牛鬼蛇神来这镀金，用 AI 写 README 就能当&quot;核心贡献者&quot;。</div>
-  <div class="news-comment">🦐点评：虽然语气尖刻，但这篇文章切中了一个真实问题：AI 时代的虚荣指标（token 消耗量、代码行数、GitHub 星数）正在系统性地误导投资判断。Garry Tan 的 gstack 3 万星 vs 实际使用率可能不到 5% 的落差，恰好是&quot;AI 泡沫&quot;在开源社区的微观体现。做 AI DevTools 投资时，DAU/MAU 比 GitHub 星数重要一百倍。</div>
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/XSFFuQjpuxTngPn38CmCcQ" target="_blank" rel="noopener">微信急了</a></div>
+  <div class="news-summary">微信上线 OpenClaw 官方插件，支持私聊场景，在&quot;我-设置-插件&quot;中启用 Clawbot 插件后扫码即可连接。目前正在灰度测试阶段。这是微信首次如此快速地追赶 AI agent 热点，标志着国内超级 App 开始正式接入 AI agent 基础设施。</div>
+  <div class="news-comment">🦐点评：微信接入 OpenClaw 的速度说明一个问题：AI agent 的入口之争已经从&quot;谁的模型好&quot;转移到&quot;谁的分发通道广&quot;。微信 13 亿用户的私聊场景是 agent 最自然的落地环境，但&quot;只支持私聊&quot;也暴露了腾讯的谨慎——群聊场景的 agent 治理问题（信息安全、用户骚扰）远比私聊复杂。值得关注灰度结束后是否会开放群聊和企业微信。</div>
+  <div class="news-meta"><span class="news-source">歸藏的AI工具箱</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/yYnwzR9Q3lLfM7rxWVWuFA" target="_blank" rel="noopener">做个人吧，别做AI</a></div>
+  <div class="news-summary">作者犀利批评 AI 行业炒作现象：Garry Tan 的 gstack 本质是&quot;YC 招聘广告生成器&quot;，安装后只会问十个可爱问题然后输出一段没有有效信息的鼓励话术；黄仁勋声称工程师一年应消耗 25 万美元 token，但这本质是 GPU 厂商的利益喊单；GitHub 正在变成&quot;维也纳金色大厅&quot;，AI 让刷星和镀金变得前所未有地容易。作者呼吁从利益相关方的角度审视所有 AI 信号。</div>
+  <div class="news-comment">🦐点评：这篇文章的核心洞察被情绪包裹但很犀利——GitHub stars 正在失去信号价值。当 AI 可以批量生成 README 和代码，stars 数量和代码行数都不再是开发者能力或项目质量的可靠代理变量。对 VC 来说，这意味着传统的开源项目评估框架（stars、contributors、commit 频率）需要被重新校准。Garry Tan 的 gstack 3 万星 vs 实际使用率的巨大落差就是活生生的例子。</div>
   <div class="news-meta"><span class="news-source">葬AI</span></div>
 </div>
 <h3 class="category-header">📌 其他值得看</h3>
 <div class="news-item">
-  <div class="news-title"><a href="https://mp.weixin.qq.com/s/iA7_XAmnxQ96SDrgrn7gzQ" target="_blank" rel="noopener">AI 帮你写代码快了 50%，然后代码在审查队列里躺了三天</a></div>
-  <div class="news-summary">DORA 指标创建者 Nicole Forsgren 的核心论断：AI 加速了写代码的&quot;内循环&quot;，但代码审查、CI/CD 等&quot;外循环&quot;没变，100% AI 工具采用率 + 0% 交付改善完全可能发生。她提出&quot;组织流程债务&quot;概念值得关注。</div>
-  <div class="news-meta"><span class="news-source">宝玉AI</span></div>
-</div>
-<div class="news-item">
-  <div class="news-title"><a href="https://mp.weixin.qq.com/s/XSFFuQjpuxTngPn38CmCcQ" target="_blank" rel="noopener">微信急了</a></div>
-  <div class="news-summary">微信上线 OpenClaw 官方插件（Clawbot），支持在微信私聊中直接使用，目前正在灰度测试。微信罕见地快速跟进热点，说明 Agent 接入即时通讯的趋势已经不可忽视。</div>
-  <div class="news-meta"><span class="news-source">歸藏的AI工具箱</span></div>
-</div>
-<div class="news-item">
   <div class="news-title"><a href="https://mp.weixin.qq.com/s/fMm8FBEUKolZ-1ImOU-5Uw" target="_blank" rel="noopener">OpenAI 联合创始人：不会给 AI 派活的人，先吃亏了</a></div>
-  <div class="news-summary">Karpathy 最新访谈摘要：从去年 12 月起他完全不写代码了，每天 16 小时在给 Agent 派活。他同时运行多个 Codex 窗口，每个任务 20 分钟出结果。他发现自己做了 20 年的模型调优，被 AutoResearch 一个晚上跑 700 次实验就超越了。</div>
+  <div class="news-summary">Karpathy 最新访谈透露：从去年 12 月起已完全不写代码，改为同时给多个 AI agent 分配任务并审查结果。他称自己进入了&quot;AI psychosis&quot;状态，每天 16 小时与 agent 打交道。</div>
   <div class="news-meta"><span class="news-source">AI 深度研究员</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://mp.weixin.qq.com/s/JjI1azCWgFPky1cc1YYy0w" target="_blank" rel="noopener">Z Event｜3.28 新加坡首场 Vibe Coding 线下见面会</a></div>
-  <div class="news-summary">Z Potentials 在新加坡组织 Vibe Coding 线下活动，包含 Demo 展示和交流环节。Vibe Coding 概念从线上玩法发展到线下社区，说明这个趋势已经有了足够的群众基础。</div>
-  <div class="news-meta"><span class="news-source">Z Potentials</span></div>
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/iA7_XAmnxQ96SDrgrn7gzQ" target="_blank" rel="noopener">AI 帮你写代码快了 50%，然后代码在审查队列里躺了三天</a></div>
+  <div class="news-summary">DORA 指标创建者 Nicole Forsgren 指出 AI 编码工具的悖论：内循环（写代码）加速了，但外循环（审查、CI/CD、部署）没跟上，代码审查队列成为新瓶颈。100% 的 AI 工具采用率 + 0% 的交付改善完全可能发生。</div>
+  <div class="news-meta"><span class="news-source">宝玉AI</span></div>
 </div>
 </section>
 
