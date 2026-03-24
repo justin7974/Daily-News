@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 23 Mar 2026 01:23:38 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 00:26:03 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #530 | 2026-03-24</title>
+      <link>https://news.justin7974.dev/2026-03-24.html</link>
+      <guid>https://news.justin7974.dev/2026-03-24.html</guid>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
+      <description>今日共 11 篇 RSS · 13 条推文 · 10 篇公众号
+
+📰 RSS 精选（5 / 11）
+
+1. There Are Only Two Paths Left for Software
+a16z 合伙人 David George 发出公开信：软件行业的&quot;舒适中间地带&quot;已经结束。公开市场已完成重新定价，SaaS 公司只剩两条路——要么在 12-18 个月内通过 AI 原生产品将营收增速提升 10 个百分点以上，要么重组公司达到 40%+ 真实经营利润率（含 SBC）。他建议 CEO 找出组织里最强的 5 个人（不论职级），用他们领导信息采集冲刺，然后据此淘汰一半高管团队，将 50% 研发资源投入全新 AI 产品，采用四人小组制从第一天开始写代码。
+🔗 https://www.a16z.news/p/there-are-only-two-paths-left-for
+
+2. Nvidia&apos;s New Server Rack Will Run AI Chips Made by Rivals
+Nvidia 在 GTC 大会上宣布其新一代服务器机架将支持竞争对手的 AI 芯片。尽管面临 AMD、Intel 和各云厂商自研芯片的竞争加剧，Nvidia 找到了一种即便从对手芯片上也能赚钱的方式——通过将自身定位为 AI 基础设施平台而非单纯的芯片供应商。
+🔗 https://www.theinformation.com/articles/nvidias-new-server-rack-will-run-ai-chips-made-rivals
+
+3. OpenAI CEO Sam Altman to Leave Board of Fusion Startup Helion Energy
+Sam Altman 宣布将退出其自 2015 年起投资的核聚变公司 Helion Energy 的董事会。与此同时，OpenAI 正在与 Helion 谈判购电协议。Altman 此举旨在消除利益冲突的嫌疑。
+🔗 https://www.theinformation.com/briefings/openai-ceo-sam-altman-leave-board-fusion-startup-helion-energy
+
+4. Meta Hires AI Startup Dreamer&apos;s Team
+Meta 将 AI Agent 初创公司 Dreamer 的创始人团队整体收编，包括前 Google VP Hugo Barra、David Singleton 和 Nicholas Jitkoff。Dreamer 此前专注于构建 AI Agent 产品。
+🔗 https://www.theinformation.com/briefings/meta-hires-ai-startup-dreamers-team
+
+5. Creating with Sora Safely
+OpenAI 发布 Sora 2 安全框架白皮书，详述在视频生成模型和社交创作平台中如何从底层构建安全机制，包括内容审核、水印和滥用防范。
+🔗 https://openai.com/index/creating-with-sora-safely
+
+🐦 Twitter 精选（5 / 13）
+
+1. @rryssf_：普林斯顿大学最新创造力研究显示，LLM 在创造力测试中已超越人类。更令人不安的是，那些能提升人类创造力的干预手段（如头脑风暴技巧）对 LLM 完全无效——AI 的创造力天花板可能和人类的完全不同。
+🔗 https://x.com/rryssf_/status/2036035301043564776
+
+2. @godofprompt：Meta AI 发布 Hyperagents 论文，提出一种能自我改进且不丢失已有能力的 AI 架构。此前的自我改进系统在学新东西时会遗忘旧能力，Hyperagents 通过模块化设计解决了这一根本限制。
+🔗 https://x.com/godofprompt/status/2036157611574284445
+
+3. @godofprompt：Bosch Research 发布&quot;知识图谱全链路可追溯&quot;论文，指出大多数生产环境中的 AI 系统都在&quot;盲飞&quot;——决策过程缺乏可追溯性。论文提出了一套从数据源到推理结论的完整溯源框架。
+🔗 https://x.com/godofprompt/status/2036176141481025609
+
+4. @EXM7777：AI 让写代码快了 10 倍，但也让理解自己的代码库难了 10 倍。每个 AI 生成的 PR 都在增加&quot;上下文债务&quot;（context debt）——代码能跑但没人完全理解，这可能是 AI 编程时代最大的隐性风险。
+🔗 https://x.com/EXM7777/status/2036116117350220167
+
+5. @kloss_xyz：Claude 推出全新计算机控制能力——可以直接操作用户的整台电脑，打开应用、操作浏览器、填写表格，执行任何用户坐在桌前能做的事情。
+🔗 https://x.com/kloss_xyz/status/2036220393581846681
+
+📱 公众号精选（5 / 10）
+
+1. 至简贾鹏：最快具身独角兽半年融资 20 亿，做&quot;六边形战士&quot;才能活
+至简动力创始人贾鹏首次深度受访。他此前是理想汽车智驾技术研发负责人，2025 年底离职创业，半年内完成 5 轮融资共计 20 亿元，投资方包括元璟、蓝驰、红杉中国、腾讯和阿里。贾鹏判断具身智能会复刻自动驾驶的演进路径：最终活下来的一定是软硬件深度集成的&quot;六边形战士&quot;，而非纯算法供应商。他坚持大一统模型、真实数据优先（合成数据有用但不是主力），先在小场景闭环再扩张。李想对他说：&quot;行业里第一个做的通常会死，但最后成功的一定是第一批。&quot;
+🔗 https://mp.weixin.qq.com/s/UT8yLNcWzSN3TUXeJe9qVg
+
+2. 企业养虾🦞（OpenClaw），虾住在哪里比虾本身重要
+文章从企业 Agent 落地角度提出核心论点：模型能力不是瓶颈，数据环境才是。企业需要构建四层知识体系——数据、数据间的关系、操作权限、Agent 技能。Skill 的质量上限取决于底层三层的完整度，底层是空的，Skill 再精致也是空转。作者以飞书为案例，分析其在&quot;给 Agent 提供工作环境&quot;方面的优势：结构化数据+权限系统+API 生态。核心观点：模型是租来的，知识才是自己的。
+🔗 https://mp.weixin.qq.com/s/8AVv_qX-yTIEGXW9yEaNnQ
+
+3. 速递｜OpenAI 广告首测暴露不足，预算消耗仅达承诺额的 15%–20%
+OpenAI 在 ChatGPT 中进行的首批广告测试效果不及预期，广告主的预算消耗仅达到承诺额的 15%-20%。这暴露了对话式 AI 产品在广告变现上的结构性挑战——用户意图明确、交互短平快，与传统信息流广告的&quot;漫游式浏览&quot;场景天然矛盾。
+🔗 https://mp.weixin.qq.com/s/FfkGxNrCwECglru1WUSJSg
+
+4. Agent Skills 设计哲学和实战进化
+宝玉分享 baoyu-skills 开发复盘：两个月 19 个 Skills、10000+ Stars。核心方法论是 Skill 原子化、用 AGENTS.md 编排工作流、站在 Agent 角度设计（多存中间文件、先分析再执行、脚本优先于 MCP）。
+🔗 https://mp.weixin.qq.com/s/StNHbRCUzUytEkOqttlEIA
+
+5. MiniMax 定理：压缩即智能
+从信息论角度解读 MiniMax 的技术路线，提出&quot;压缩即智能&quot;的核心命题——模型能力的本质是对信息的高效压缩。
+🔗 https://mp.weixin.qq.com/s/Dqq8ODNCv87YeNGh4azFJw
+
+📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-03-24.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #529 | 2026-03-23</title>
       <link>https://news.justin7974.dev/2026-03-23.html</link>
@@ -1320,76 +1390,6 @@ Google宣布AI Mode中的Canvas功能向全美用户开放，现在可以在Goog
 🔗 https://mp.weixin.qq.com/s/hqGAztrbx1vbEafBsZ8qRQ
 
 📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-03-05.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #510 | 2026-03-04</title>
-      <link>https://news.justin7974.dev/2026-03-04.html</link>
-      <guid>https://news.justin7974.dev/2026-03-04.html</guid>
-      <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
-      <description>今日共 13 篇 RSS · 10 条推文 · 8 篇公众号
-
-📰 RSS 精选（5 / 13）
-
-1. GPT-5.3 Instant: Smoother, more useful everyday conversations
-OpenAI 发布 GPT-5.3 Instant，定位日常对话场景的主力模型更新。核心改进：大幅减少不必要拒绝和说教式回复，幻觉率较前代下降 26.8%（使用 web 时）和 19.7%（仅内置知识时），搜索结果整合更智能，不再简单堆砌链接。OpenAI 明确表示此次更新直接响应了用户对 GPT-5.2 过度谨慎和&quot;令人尴尬语气&quot;的反馈，同步降低高风险领域（医疗/法律/金融）幻觉率。
-🔗 https://openai.com/index/gpt-5-3-instant
-
-2. Gemini 3.1 Flash-Lite: Built for intelligence at scale
-Google 发布 Gemini 3.1 Flash-Lite，主打高并发、低成本场景。定价 $0.25/M 输入 tokens、$1.5/M 输出，是 Gemini 3.1 Pro 价格的 1/8，速度较 2.5 Flash 快 2.5 倍。支持四档思考强度配置，Arena.ai Elo 评分 1432，GPQA Diamond 达 86.9%，超过了前代更大的 Gemini 2.5 Flash。现已在 Google AI Studio 和 Vertex AI 以预览版开放。
-🔗 https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/
-
-3. Apple MacBook Pro with M5 Pro and M5 Max
-Apple 发布搭载全新 M5 Pro/M5 Max 的 MacBook Pro（14 和 16 英寸）。采用新 Fusion Architecture（双 die SoC 设计），AI 性能较前代提升 4 倍、较 M1 提升 8 倍；SSD 速度翻倍，起步 1TB 存储，新增 N1 芯片支持 Wi-Fi 7 和 Bluetooth 6，电池续航 24 小时。同日发布 MacBook Air M5（起步存储翻倍至 512GB）和 Studio Display XDR。3 月 4 日开始预订，3 月 11 日发货。
-🔗 https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/
-
-4. The AI Bubble Is An Information War
-Ed Zitron 深度分析 CoreWeave Q4 FY2025 财报：营收 $1.57bn，但每兆瓦收入从 Q3 的 $2.3m 跌至 $1.847m，算力越扩张、单位收入越低。CoreWeave 2025 年资本开支 $100 亿，67% 收入来自 Microsoft 单一客户，还有 NVIDIA 的 $63 亿未售出容量兜底到 2032 年。NVIDIA 财报同期披露的 $270 亿云承诺也被质疑是在补贴自己客户。作者认为 AI 算力生态存在系统性收入虚高。
-🔗 https://www.wheresyoured.at/the-ai-bubble-is-an-information-war/
-
-5. Supreme Court saves artists from AI
-美国最高法院拒绝受理 AI 版权上诉案，实际上确认下级法院裁决：AI 生成内容不享有版权保护，因为版权法要求&quot;人类创作行为的固化&quot;，AI 作为非人类工具生成的内容不满足条件。这延续了&quot;猴子自拍&quot;等既有版权理论。Cory Doctorow 同时指出，支持艺术家版权的法院不一定真的&quot;站在艺术家一边&quot;，需要警惕被主流媒体利用。
-🔗 https://pluralistic.net/2026/03/03/its-a-trap-2/
-
-🐦 Twitter 精选（5 / 10）
-
-1. @levelsio：Photo AI 将 GPU 供应商从 Nano Banana Pro 切换到 Nano Banana 2，月度 GPU 账单从 $47,250 降至 $22,383，利润率从约 50% 恢复到约 80%——一次供应商切换直接决定 AI 产品的生死线，算力成本管理是 AI 应用的核心变量。
-🔗 https://x.com/levelsio/status/2028901801215574087
-
-2. @godofprompt：新论文发现：多轮对话中约 70% 的 turn 不需要 AI 历史回复作为上下文；去掉 AI 自身历史输出后，性能不降反升——&quot;context pollution&quot;（AI 把早期错误锁死并向前传播）是当前所有 agent 框架的系统性风险，默认存储完整轨迹的设计逻辑需要重新审视。
-🔗 https://x.com/godofprompt/status/2028801299576500625
-
-3. @godofprompt：延伸观察：Cursor 已做 context 压缩，Claude Code 会修剪 tool outputs，但这些是打补丁。该论文建议的方向是&quot;反转默认值：不存 assistant 历史，除非有特定原因保留&quot;——对 AI agent 框架赛道的产品设计有直接指导意义。
-🔗 https://x.com/godofprompt/status/2028801264080019917
-
-4. @rryssf_：实验数据：unbiased 随机反馈下 GPT 发现率 29.5%，故意谄媚条件 14.1%，default GPT 只有 5.9%——与故意谄媚在统计上无显著差别。没人编程让它同意用户，它只是默认如此。与 Gary Marcus 今日发文的 Princeton 研究互相印证。
-🔗 https://x.com/rryssf_/status/2028803321855967285
-
-5. @rileybrown：预判：不久后 AI agent 将在互联网上互相谈判；前沿模型将赢得所有谈判——暗示 AI agent 时代的竞争壁垒将直接由底层模型能力决定，应用层的差异化空间被压缩。
-🔗 https://x.com/rileybrown/status/2028901792965415006
-
-📱 公众号精选（5 / 8）
-
-1. 一年百亿利润的大疆无人机生意，护城河能挖多深
-晚点深度剖析大疆的竞争壁垒：年利润突破百亿的背后，护城河由软硬件深度整合、供应链自研能力（芯片、图传、云台全部自研）和全球渠道三层叠加构成。系统梳理了大疆在消费级、专业级、行业级三条产品线的竞争逻辑，以及面对国内外竞争对手（DJI 在美国面临禁令压力）的防御策略和全球化路径。
-🔗 https://mp.weixin.qq.com/s/ThsyyB2Yk31lELG2T6hksg
-
-2. 拆解银河通用：具身智能估值第一独角兽，春晚唯一没有彩排的节目背后
-晚点深度拆解银河通用：作为具身智能赛道估值最高的独角兽，在春晚进行了唯一一个无彩排节目展示。文章揭示了其实时交互控制技术路线的核心选择、创始团队背景（学术+产业复合）、融资逻辑，以及在具身智能商业化尚不明朗时，为何选择这种高风险曝光方式的战略考量。
-🔗 https://mp.weixin.qq.com/s/IDCroAbpRLkXGu9G0LgF7A
-
-3. Cursor 三个月翻倍，ARR 于 2 月突破 20 亿美元，约 60% 收入来自企业客户
-Z Potentials 速报：Cursor ARR 在 2026 年 2 月突破 $20 亿，较三个月前翻倍，其中约 60% 来自企业客户。收入结构正从个人开发者向企业采购转移，支付意愿和合同规模完全不同。企业收入占比高说明 Cursor 已进入大客户销售周期，而非纯 PLG 增长。
-🔗 https://mp.weixin.qq.com/s/Ggc-gFhzxee7CVBdg_tDxA
-
-4. MiniMax 交出全球首份大模型业绩报，以系统效率迎战 Token 海啸
-MiniMax 发布了全球大模型公司中首份完整业绩报告，核心竞争力定位于系统效率——在 Token 消耗量爆炸增长背景下，用更低推理成本提供同等能力。文章深度分析了 MiniMax 的技术架构选择（MoE + 长上下文优化）、商业化路径及其在全球模型竞争格局中的差异化定位。
-🔗 https://mp.weixin.qq.com/s/bEr3-EfuIkoYAiPJuG3oxA
-
-5. 速递｜AI 客服 14.ai 不做 SaaS 做服务，AI 处理 60%、人工 40%，获 YC 领投 300 万美元
-14.ai 获 YC 领投 $300 万，模式是&quot;服务&quot;而非 SaaS——AI 处理 60% 客服工作，人工兜底 40%，按结果计费。Hybrid 模式比纯 AI 替代更易落地，但规模化路径也更复杂，运营密度高。
-🔗 https://mp.weixin.qq.com/s/VxxIFzK77JmkCJUDDxeiUA
-
-📖 查看完整日报（31 篇）→ https://news.justin7974.dev/2026-03-04.html</description>
     </item>
   </channel>
 </rss>
