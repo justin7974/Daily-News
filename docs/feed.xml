@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 26 Mar 2026 00:08:28 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2026 00:05:59 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #533 | 2026-03-27</title>
+      <link>https://news.justin7974.dev/2026-03-27.html</link>
+      <guid>https://news.justin7974.dev/2026-03-27.html</guid>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
+      <description>今日共 15 篇 RSS · 18 条推文 · 10 篇公众号
+
+📰 RSS 精选（5 / 15）
+
+1. Disney Drops Vaporware $1B Investment in OpenAI After Sora Got Axed
+OpenAI 宣布关停独立视频生成应用 Sora，Disney 随即终止了此前高调宣布的 10 亿美元投资计划。据 Reuters 和 Financial Times 引述知情人士称，Disney 对 Sora 下线感到&quot;措手不及&quot;，形容这是一次&quot;rug-pull&quot;。Sora 上线仅六个月，美区 App Store 下载量在 2026 年 1 月已环比暴跌 45%。视频生成功能将整合进 ChatGPT，不再作为独立产品运营。
+🔗 https://variety.com/2026/digital/news/openai-shutting-down-sora-video-disney-1236698277/
+
+2. The Biggest Claude Launch of All Time
+Latent Space 详细梳理了 Anthropic 近期密集发布：Claude Cowork Dispatch 上线计算机操控能力（基于收购 Vercept 的成果），Claude 可在用户离开时接管 Mac 完成任务——打开应用、导航浏览器、填写表格。新功能在 Claude Cowork 和 Claude Code 中均可启用，Claude 会在访问新应用前请求权限。市场反响远超预期，Latent Space 称之为&quot;Claude 有史以来最大的一次发布&quot;。
+🔗 https://www.latent.space/p/ainews-the-biggest-claude-launch
+
+3. An Interview with Arm CEO Rene Haas About Selling Chips
+Ben Thompson 专访 Arm CEO Rene Haas，聚焦 Arm 从纯 IP 授权转向自研芯片销售的战略转型。Arm 推出自研 AGI CPU，瞄准 AI 数据中心工作负载，CEO 提出 150 亿美元营收目标。Haas 表示这是客户驱动的决策，新 CPU 旨在与 NVIDIA 等加速器芯片配合，而非替代。消息公布后 Arm 股价上涨 6%。
+🔗 https://stratechery.com/2026/an-interview-with-arm-ceo-rene-haas-about-selling-chips/
+
+4. Apple Can &quot;Distill&quot; Google&apos;s Big Gemini Model
+The Information 披露 Apple-Google AI 合作的最新细节：Apple 不仅可以调用 Google 的 Gemini 模型，还获得了蒸馏权限——可以将大模型压缩为适合端侧运行的小模型，用于 Apple Intelligence 和 Siri 的本地处理。Apple 在自己的数据中心拥有 Gemini 模型的完整访问权限，这使得端侧 AI 能力的迭代速度将大幅加快。
+🔗 https://www.theinformation.com/newsletters/ai-agenda/apple-can-distill-googles-big-gemini-model?rc=jfy0lk
+
+5. Gemini 3.1 Flash Live: Making Audio AI More Natural and Reliable
+Google 发布 Gemini 3.1 Flash Live，专为实时语音对话设计的 AI 音频模型。相比 2.5 Flash Native Audio，新模型在音调识别、语速感知方面大幅提升，延迟更低。已集成 SynthID 水印技术，可检测 AI 生成音频。目前在 Google AI Studio 通过 Gemini Live API 提供预览，将用于 Gemini Live 和 Search Live 产品。Ars Technica 评价称&quot;可能让人更难分辨是否在和机器人对话&quot;。
+🔗 https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/
+
+🐦 Twitter 精选（5 / 18）
+
+1. @emollick：小型 AI 模型和垂直专用模型非常脆弱——任何异常场景或超出分布范围的输入都会导致严重失败。这对依赖垂直 AI 的创业公司是重要警示。
+🔗 https://x.com/emollick/status/2037235669278367931
+
+2. @emollick：呼吁由权威机构建立经过验证的 ARC-AGI-X 基准测试，避免自报成绩带来的可信度问题。目前各家自行跑分、自行宣布的模式正在损害整个领域的公信力。
+🔗 https://x.com/emollick/status/2037106065553154521
+
+3. @emollick：回顾一年前的预测&quot;100% 代码将由 AI 编写&quot;——指出可以从两个角度看：要么认为是炒作（确实还没到 100%），要么看到实际进展速度远超多数人想象。
+🔗 https://x.com/emollick/status/2037147367925789073
+
+4. @rryssf_：基于 180 组实验的多智能体系统研究发现：存在明确的最优智能体数量上限，超过后错误会被放大而非修正。任务如有独立子任务则适合多智能体，否则单智能体效果更好。预测方程对 GPT-5.2 的平均绝对误差仅 0.071。
+🔗 https://x.com/rryssf_/status/2037197964578611511
+
+5. @godofprompt：&quot;Token 税&quot;是真实存在的——行业多年来一直在悄悄征收。每次 prompt 的冗余开销、系统提示的重复计费、上下文窗口的无效填充，都在消耗用户预算。
+🔗 https://x.com/godofprompt/status/2037227937196347810
+
+📱 公众号精选（5 / 10）
+
+1. Z Tech｜前 Qwen 负责人林俊旸离职后首篇长文，押注智能体思考
+阿里千问大模型核心负责人林俊旸离职后首发万字长文，核心判断：AI 行业将从&quot;推理式思考&quot;（让模型想得更久）转向&quot;智能体式思考&quot;（让模型为行动而想，在环境交互中持续修正计划）。他梳理了 Qwen3 开发中&quot;思考与指令模式融合&quot;的技术难点——两种模式的数据分布和行为目标天然互斥，容易导致&quot;两头平庸&quot;。Anthropic 的 Claude 系列被认为提供了重要纠偏：思考应由目标任务塑造，反对无意义的冗长推理链。
+🔗 https://mp.weixin.qq.com/s/M4ZnIRqzeew2jkEh4i-13g
+
+2. 速递｜红杉资本三度押注，法律 AI 独角兽 Harvey 完成 2 亿美元融资，估值 110 亿美元
+Harvey 在 18 个月内完成四轮融资，估值从 30 亿一路飙升至 110 亿美元，累计融资超 10 亿。红杉资本三度押注。法律 AI 是目前垂直 AI 领域增长最快、商业化最扎实的赛道之一。
+🔗 https://mp.weixin.qq.com/s/kXI4q49s4BUR9A79Kfac9w
+
+3. Harness is the New Dataset：模型智能提升的下一个关键方向
+当模型基础能力过线之后，决定 AI 产品好坏的不再是&quot;模型多强&quot;，而是&quot;harness 多好&quot;——即如何编排任务、如何设计 prompt、如何处理上下文。文章提出&quot;Harness is the New Dataset&quot;的判断，认为 AI 产品的核心竞争力正在从数据和模型层向编排层迁移。
+🔗 https://mp.weixin.qq.com/s/9qI83Ne-Ac_R9y-yJ6SVnQ
+
+4. 在中国 AI 生态圈摸底了两周，我学到了什么【译】
+一位西方 VC 深入中国 AI 生态的第一手观察：中国创始人更务实、硬件壁垒被低估、软件泡沫明显，以及中美 AI 生态之间存在一个&quot;被忽视的不对称性&quot;。
+🔗 https://mp.weixin.qq.com/s/9nf6j8y3NF-RdiHt0OKzqw
+
+5. 对话文远知行韩旭：智驾终局论是妄想，不存在必赢的技术路线
+文远知行 CEO 韩旭在专访中警告：认为自动驾驶有&quot;终局技术路线&quot;是一种妄想，新技术随时可能颠覆现有格局。&quot;任何你觉得 That&apos;s it 的时候，很可能就会有新的技术出现。&quot;
+🔗 https://mp.weixin.qq.com/s/j3U3YFt5zLCTvfEaj6nH2g
+
+📖 查看完整日报（43 篇）→ https://news.justin7974.dev/2026-03-27.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #532 | 2026-03-26</title>
       <link>https://news.justin7974.dev/2026-03-26.html</link>
@@ -1320,76 +1390,6 @@ AMD CEO Lisa Su 在近期访谈中指出 AI 仍处于早期阶段，真正的挑
 🔗 https://mp.weixin.qq.com/s/1OUiYOUuUMvR3Wrg5MDw5w
 
 📖 查看完整日报（27 篇）→ https://news.justin7974.dev/2026-03-08.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #513 | 2026-03-07</title>
-      <link>https://news.justin7974.dev/2026-03-07.html</link>
-      <guid>https://news.justin7974.dev/2026-03-07.html</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 10 条推文 · 7 篇公众号
-
-📰 RSS 精选（5 / 12）
-
-1. [AINews] GPT-5.4：SOTA 知识工作 + 编程 + CUA，OpenAI 强势回归
-GPT-5.4 是 OpenAI 首个将编程（GPT-5.3-Codex 能力）与通用推理合并的主线推理模型，同时将计算机操作（CUA）作为一等功能内置。关键基准：OSWorld-Verified 75.0%（超越人类 72.4% 基准线）、SWE-Bench Pro 57.7%、GDPVal 83% 胜率对决领域专家。Codex /fast 模式速度提升 1.5 倍，支持约 100 万 token 上下文，且 Pro 版与基础版同天发布（历史首次）。多家顶级金融机构已成为设计合作伙伴；Latent Space 编辑意外将其用作日常主力后，完全没发现自己没在用 Opus。
-🔗 https://www.latent.space/p/ainews-gpt-54-sota-knowledge-work
-
-2. Cursor 第三纪元：云端 Agent
-Cursor 完成对 Graphite（代码审查）和 Autotab（计算机操作）的收购，正式宣布 Cloud Agents 使用量超越 Tab 自动补全，进入&quot;开发工具第三纪元&quot;。云端 Agent 运行在已配置好的云端计算机中，具备完整计算机操作能力（像素输入/坐标输出），可独立测试代码、生成操作录屏、调用 MCP 工具，并连续工作数小时后提交经过自验证的 PR。Jonas 表示核心方向是并行 Agent 群组（swarms）大幅提升吞吐量，而非单 Agent 加速。
-🔗 https://www.latent.space/p/cursor-third-era
-
-3. Anthropic 的诚实代价
-Dario Amodei 2 月 27 日的内部备忘录遭泄露，直言 Trump 政府不满 Anthropic 的真实原因：未捐款、拒绝献媚、支持 AI 监管、拒绝&quot;安全剧场&quot;。国防部随即正式将 Anthropic 列为供应链风险，但意外红利接踵而至：每日超过 100 万用户新注册 Claude，OpenAI 研究副总裁宣布跳槽 Anthropic，形成&quot;删优步&quot;效应。Dario 事后公开道歉，表示备忘录非公司主动泄露。微软、谷歌、亚马逊均表示继续向客户销售 Anthropic 模型。
-🔗 https://www.newcomer.co/p/anthropics-poorly-timed-truth-telling
-
-4. 软银寻求 400 亿美元贷款投资 OpenAI
-软银正与摩根大通等四家银行安排一笔 400 亿美元过桥贷款（1 年期），用于对 OpenAI 的新一轮投资。这将是美国有史以来规模最大的企业单笔贷款之一。软银不选择出售资产而选择高杠杆贷款，意味着孙正义判断 OpenAI 的价值在未来一年内将继续大幅攀升。
-🔗 https://www.theinformation.com/briefings/softbank-seeks-40-billion-loan-openai-investment
-
-5. Anthropic 内斗：私人恩怨与政治博弈的碰撞
-The Information 深度报道 Anthropic 与五角大楼冲突内幕：冲突根源涵盖 Trump 捐款差异、AI 监管立场分歧以及拒绝配合&quot;安全剧场&quot;。国防部长 Pete Hegseth 亲签信函将 Anthropic 列为供应链风险；Dario 备忘录的泄露恰在谈判可能出现转机时，直接破坏了缓和空间。此次冲突同时掺杂 Emil Michael（前优步高管、现任国防部官员）的个人恩怨。
-🔗 https://www.theinformation.com/articles/anthropic-feuds-personal-collides-political
-
-🐦 Twitter 精选（5 / 10）
-
-1. @karpathy：训练 GPT 的代码仅约 1000 行，成功标准完全客观（最低 loss）。现在 AI agent 可以自主设计并运行训练实验——karpathy 正在让 AI 用 agent 方式优化自身的训练代码，&quot;post-AGI 时代的感觉&quot;。
-🔗 https://x.com/karpathy/status/2029957088022254014
-
-2. @emollick：AI 与 AI 之间的通信协调是被严重低估的研究领域，现有模型并未为此优化。随着 AI agent 组织的兴起，如何在任务中高质量交接上下文将成为核心瓶颈。
-🔗 https://x.com/emollick/status/2029994277212696610
-
-3. @emollick：经历足够多的模型发布周期后，可以说：OpenAI、Anthropic、Google 三家的最新模型在发布时通常是世界最强（有些锯齿状边角），直到下一家发布。这种三方接力正形成自我实现的技术加速预言。
-🔗 https://x.com/emollick/status/2029793370378289170
-
-4. @vasuman：Varick Agents 的企业 AI 核心卖点：你需要 AI，但真正做好极难——平衡 context、治理、访问权限和自主性，是 off-the-shelf AI SaaS 无法解决的问题，这也是企业 AI SaaS 迄今投资回报率接近零的根本原因。
-🔗 https://x.com/vasuman/status/2029772863088251025
-
-5. @gregisenberg：参照高盛图表分析：下一波 $1000 万-$1 亿 ARR 垂直 AI 公司的机会在于——每个业务功能都会产出可重复的文档（招聘候选摘要、月度财务报告、市场分析报告），把这些&quot;输出即产品&quot;的工作流自动化，就是最清晰的创业路径。
-🔗 https://x.com/gregisenberg/status/2029939457311351092
-
-📱 公众号精选（5 / 7）
-
-1. 林俊旸离职风波始末：AI 技术负责人与大公司的成长与分歧
-林俊旸，1993 年生，在阿里巴巴主导创建千问（Qwen）大模型系列，以一年时间晋升至 P10（阿里最高技术级别）。其开源的 Qwen3.5 模型受到 Elon Musk 点赞，在全球开发者圈引发广泛关注。然而在声望顶点宣布离职，引发内外部广泛讨论——核心张力在于：顶级 AI 技术人才的个人影响力与大公司&quot;不希望任何人上神坛&quot;文化之间的深层矛盾。晚点的报道试图还原这场风波背后的组织逻辑与个人选择。
-🔗 https://mp.weixin.qq.com/s/uE2cqN1AaCruyJrdbEpbzA
-
-2. Z Tech | 清华吴翼：离开 OpenAI，我有后悔过吗？
-清华毕业的吴翼曾在 OpenAI 工作，此次专访深度还原其在 OpenAI 的核心经历、判断逻辑以及最终选择离开的原因——&quot;有没有后悔过&quot;这个问题本身，折射出中国 AI 人才在顶级硅谷实验室的真实处境和心理轨迹。专访内容涵盖 OpenAI 内部文化、技术决策机制以及个人成长判断。
-🔗 https://mp.weixin.qq.com/s/yjn4P58S3cOah6NqalAFFQ
-
-3. GPT-5.4 深度评测报告
-长文实测 GPT-5.4 各项能力，包括推理、编程、知识工作多个维度的横向对比与案例演示，内容翔实，适合需要快速上手了解 5.4 实际表现的读者。
-🔗 https://mp.weixin.qq.com/s/aDbEFjgjmuY23PNhoL0QzA
-
-4. GPT-5.4 全整理：非常好用，非常贵
-系统梳理 GPT-5.4 的功能特性、定价结构和适用场景，标题&quot;非常贵&quot;点出了关键问题——高性能背后的成本压力对企业采购决策有直接影响。
-🔗 https://mp.weixin.qq.com/s/IKVcJmj_Bbk3CNwU0elDng
-
-5. Base44 也 1 亿美金 ARR 了，又一华人语音 AI 实现 1000 万美金 ARR
-快讯：AI 应用构建平台 Base44 达到 $1 亿 ARR 里程碑；另有一家由华人创始人运营的语音 AI 公司在一年内实现 $1000 万 ARR——两个数据均提示 AI 应用层的商业化正在加速兑现。
-🔗 https://mp.weixin.qq.com/s/Zjkuz6xPRidu9n9mQrgeFQ
-
-📖 查看完整日报（29 篇）→ https://news.justin7974.dev/2026-03-07.html</description>
     </item>
   </channel>
 </rss>
