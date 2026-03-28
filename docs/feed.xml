@@ -5,77 +5,77 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 28 Mar 2026 00:11:22 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 01:17:41 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>小虾AI日报 #534 | 2026-03-28</title>
       <link>https://news.justin7974.dev/2026-03-28.html</link>
       <guid>https://news.justin7974.dev/2026-03-28.html</guid>
       <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 16 条推文 · 7 篇公众号
+      <description>今日共 13 篇 RSS · 14 条推文 · 7 篇公众号
 
-📰 RSS 精选（5 / 12）
+📰 RSS 精选（5 / 13）
 
-1. Premium: How Much Of The AI Bubble Is Real?
-OpenAI 的 Sora 在发布仅五个月后宣布关停，与 Disney 的 10 亿美元投资协议从未实际执行——Disney 的年报和季报中均未提及 OpenAI 或任何股权投资。文章追溯了 OpenAI 一系列&quot;幽灵交易&quot;：与 NVIDIA 的千亿美元投资从&quot;信件意向&quot;降级为&quot;仅为承诺&quot;；与 SK Hynix/Samsung 的 DRAM 供应协议从未产生实际采购；与 AMD 的&quot;最终协议&quot;至今未在 AMD 财报中体现任何收入。这些被媒体广泛报道为&quot;改变行业&quot;的交易，正在被逐一揭穿为营销叙事。
+1. The Energy Situation, Explained for Tech People
+波斯湾是全球能源贸易的 us-east-1，霍尔木兹海峡是最关键的单点依赖——一旦长期关闭，冲击将从油价蔓延至食品、化肥、航运、制造业乃至政治稳定。文章用技术人熟悉的框架解释能源危机：中东石油的生产成本全球最低（沙特 Ghawar 油田单井可采 1 亿桶，美国页岩井仅 50 万桶），但美国凭借资本市场的风险偏好硬是把 Permian Basin 从零做到超越沙特。1970 年代沙特开始布局石化下游，如今全球 70% 的石化产能集中在中东和中国，美国本土产能严重空心化。海峡关闭不只推高油价，更会引发化工原料断供的连锁反应。
+🔗 https://www.a16z.news/p/the-energy-situation-explained-for
+
+2. Premium: How Much Of The AI Bubble Is Real?
+OpenAI 本周正式关闭 Sora，连同开发者版本和 ChatGPT 内的视频功能一并下线。更关键的细节是：2025 年 12 月宣布的迪士尼 10 亿美元投资从未真正发生——迪士尼 FY2025 年报和 Q1 FY2026 季报均未提及 OpenAI 或任何股权投资，Disney+ 上也找不到任何 Sora 视频。Sora 巅峰时每天烧掉高达 1500 万美元，生成的视频不过几秒钟且质量堪忧。作者痛斥主流媒体不加验证地传播 AI 营销叙事，给整个影视行业制造了不必要的恐慌。
 🔗 https://www.wheresyoured.at/premium-how-much-of-the-ai-bubble-is-real/
 
-2. Endgame for the Open Web
-Anil Dash 发出警告：2026 年可能是开放互联网存亡的决定性一年。AI 公司大规模抓取开放内容用于训练，却不回馈生态；大型科技公司通过收购和协议锁定独立平台；开源社区被 AI 生成的低质量贡献淹没。他认为从内容到代码、从社区到文化，开放网络的每一个支柱都在被攻击——而攻击者正是从这个系统中获利最多的人。
+3. Endgame for the Open Web
+Anil Dash 发出严厉警告：2026 年可能是决定开放互联网存亡的关键年份。AI 爬虫正在疯狂抓取发布者内容——每向网站发送 50 万次请求才导流 1 个用户，发布者承担了成本却得不到回报。LLM 平台用这些内容训练模型后几乎不提供原始链接。从内容到代码、从社区到文化，开放网络的每一层都在被科技巨头系统性攻击。他呼吁开源生态不能继续&quot;business as usual&quot;，必须像面对生存威胁一样反击。
 🔗 https://anildash.com/2026/03/27/endgame-open-web/
 
-3. Vibe Coding SwiftUI Apps Is a Lot of Fun
-Simon Willison 用 Claude Opus 4.6 和 GPT-5.4 在不打开 Xcode 的情况下，纯对话式地构建了两个 macOS 原生应用（网络带宽监控和 GPU 监控）。整个 SwiftUI 应用可以塞进一个文件，模型对 SwiftUI 的掌握已经足够流畅——prompt 极其简短就能生成功能完整的菜单栏工具。他还对比了两个模型：Claude 更擅长一次性生成完整代码，GPT 则在迭代调试中更灵活。
-🔗 https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything
-
 4. We Rewrote JSONata with AI in a Day, Saved $500K/Year
-安全公司 Reco 用 AI 在 7 小时、$400 token 成本内将 JSONata 从 JavaScript 移植到 Go，随后通过影子部署一周验证行为一致性。这是又一个&quot;vibe porting&quot;案例——关键前提是 JSONata 拥有完善的测试套件，AI 生成代码后可以直接跑测试验证正确性，年节省 $500K 基础设施成本。
+Reco.ai 团队用 AI 在一天内将 JSONata（类似 jq 的 JSON 表达式语言）从 JavaScript 重写为 Go 实现，年省 50 万美元。关键在于 JSONata 已有完善的测试套件，AI 用 7 小时、400 美元 token 成本完成初版，随后通过 shadow deployment 一周并行验证新旧实现的一致性。Simon Willison 将这类操作归类为&quot;vibe porting&quot;——用 AI 将成熟项目在语言间移植。
 🔗 https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything
 
-5. Apple Discontinues the Mac Pro With No Plans to Bring It Back
-Apple 正式确认停产 Mac Pro 产品线，且没有推出替代产品的计划。Mac Pro 是 Apple 最后一款可扩展桌面工作站，最后一次更新是 2023 年的 M2 Ultra 版本。Apple 称 Mac Studio 和 MacBook Pro 系列已能满足专业用户需求。Gruber 认为这标志着 Apple Silicon 时代 Apple 彻底放弃了&quot;可扩展性&quot;这个产品方向。
-🔗 https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/
+5. Vibe coding SwiftUI apps is a lot of fun
+Simon Willison 在 128GB M5 MacBook Pro 上用本地 LLM 进行 vibe coding，替代 Activity Monitor 写了一套 SwiftUI 性能监控工具。新笔记本跑本地大模型的能力让他直接绕过 API 依赖，纯本地完成从需求到成品的全流程。文章展示了 M5 芯片在本地推理场景下的实用性已达到可替代云端 API 的水平。
+🔗 https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything
 
-🐦 Twitter 精选（5 / 16）
+🐦 Twitter 精选（5 / 14）
 
-1. @emollick：ARC-AGI-3 应被视为一个全新的测试，衡量维度与之前的版本完全不同——包括任务复杂性、要求的泛化能力，以及与人类参照基准的差距。不应简单与 ARC-AGI-1/2 的分数直接比较。
-🔗 https://x.com/emollick/status/2037356753197617409
+1. @emollick：用开源权重 Wan 2.1 模型在家用电脑上生成&quot;水獭在飞机上用笔记本&quot;的视频，一次成功。18 个月前这完全不可能，本地硬件上的 AI 视频生成进步速度惊人。
+🔗 https://x.com/emollick/status/2037616578787713194
 
-2. @emollick：值得注意的是，领先的 AI 实验室对自己能持续发布更强大模型的信心是绝对的。他们内部看到的进展曲线让他们确信 scaling 远未见顶。
-🔗 https://x.com/emollick/status/2037392207641014688
-
-3. @emollick：去年所有人都在谈 AI 数据中心过度建设的风险，但今年可能开始证明根本不存在&quot;过度&quot;——需求端的增速正在超出预期。
+2. @emollick：去年所有人都在说 AI 数据中心过度建设，今年可能会开始证明算力根本不够用。AI 目前在很大程度上仍是被补贴的。
 🔗 https://x.com/emollick/status/2037541006237733217
 
-4. @rryssf_：Google DeepMind 完成了迄今最大规模的 AI 操控性研究：10,101 名参与者、3 个国家、3 个领域。研究发现 AI 在特定场景下的说服力已经超过人类对照组。
-🔗 https://x.com/rryssf_/status/2037560319812473338
+3. @emollick：头部 AI 实验室对持续发布更强模型表现出绝对信心。他们可能不一定对，但到目前为止，他们在这件事上还没错过。
+🔗 https://x.com/emollick/status/2037392207641014688
 
-5. @rryssf_：RLHF 对齐训练正在悄悄破坏 AI 系统最重要的安全特性：模型对自身不确定性的感知能力。经过 RLHF 训练的模型变得更&quot;自信&quot;，但同时也更不擅长说&quot;我不知道&quot;。
+4. @emollick：ARC-AGI-3 实质上是一个全新测试，衡量的东西和前几代不同，有不同的规则。把它和 ARC-AGI-1/2 直接比较会产生误导。
+🔗 https://x.com/emollick/status/2037356753197617409
+
+5. @rryssf_：RLHF 对齐训练正在悄悄破坏 AI 最重要的安全特性：知道自己不知道什么。在 40-79% 的事实性问题上，对齐后的模型连续 10 次生成完全相同的答案——不是相似，是一模一样。模型被训练得&quot;自信地不确定&quot;变成了&quot;自信地确定&quot;。
 🔗 https://x.com/rryssf_/status/2037499613352247534
 
 📱 公众号精选（5 / 7）
 
 1. 给 AI 配张银行卡：Stripe 半年搭完的 Agent 支付全景
-从 2025 年 9 月到现在，Stripe 在 Agent 支付方向连发六个产品，搭建了一套完整的双场景支付基础设施：场景一是&quot;AI 帮人买东西&quot;——通过 ACP 交易协议让 Agent 与商家系统对话、SPT 令牌安全使用用户信用卡、ACS 套件让商家低代码接入多个 Agent；场景二是&quot;机器给机器付钱&quot;——x402 用稳定币在链上按次付费、MPP 统一多种支付方式的机器支付协议。3 月最新发布的 Machine Payments Protocol 与 Tempo 支付区块链同日上线，Visa 以设计伙伴身份加入。
+从 2025 年 9 月到 2026 年 3 月，Stripe 密集推出六层 Agent 支付产品。两大场景：一是 AI 帮人买东西（ACP 交易协议 + SPT 支付令牌 + ACS 商家接入套件），ChatGPT Instant Checkout 已接入 Etsy 和百万 Shopify 商家；二是机器给机器付钱（x402 链上稳定币按次付费 + MPP 统一机器支付协议），Tempo 支付区块链同步上线。SPT 最新扩展支持 Mastercard Agent Pay、Visa Intelligent Commerce 以及 Affirm/Klarna 先买后付。Stripe 自称是唯一同时支持 Agent 网络令牌和 BNPL 令牌的支付提供商。
 🔗 https://mp.weixin.qq.com/s/3Pzo4iu7j1YP1_uO4NwGkQ
 
-2. 前 OpenAI 与 DeepMind 创立，AI 科学实验室 Periodic Labs，估值涨 5 倍至 70 亿美元
-由前 OpenAI 研究副总裁 Liam Fedus 和前 DeepMind 研究科学家 Ekin Dogus Cubuk 创立的 Periodic Labs，正以约 70 亿美元估值进行新一轮融资——去年 9 月种子轮估值仅 13 亿美元，半年估值翻 5 倍。公司约 40 人，专注 AI 驱动的材料科学研究，已在半导体行业获得首批付费客户，是少数已有收入的&quot;新实验室&quot;之一。投资人包括 a16z、Felicis、Accel、贝索斯、施密特、Jeff Dean 等。
-🔗 https://mp.weixin.qq.com/s/PJmOK1UmHHIhRcax7foBng
-
-3. 爱马仕：一家做了 189 年 Harness 的公司
-文章以爱马仕 189 年的历史为线索，精妙地将品牌管理理念映射到 AI 系统设计：马具（Harness）的核心是&quot;约束和引导&quot;——与 AI alignment 一脉相通；三层品控（工匠自检→团队复查→总监签字）对应 AI 的多层 guardrails；配货制度的&quot;渐进式披露&quot;对应 context 管理；以及&quot;不合格的不打折，直接销毁&quot;对应 AI 系统对&quot;幻觉&quot;的零容忍态度。
+2. 爱马仕：一家做了 189 年 Harness 的公司
+用爱马仕 189 年的品牌史做了一次精妙的类比：马具（Harness）的核心功能是&quot;约束和引导，让力量朝正确的方向释放&quot;——这恰好是 AI Alignment 的本质。鞍针缝法的双线容错是 fault tolerance，三层品控（工匠自检-质量复查-总监签字）是 guardrails，配货制度是 progressive disclosure，每件产品的可追溯性是 trace data。最反直觉的洞察：爱马仕每代继承人都在&quot;砍掉上一代觉得很聪明的产品线&quot;——build to delete。
 🔗 https://mp.weixin.qq.com/s/2NWvKt6M1ZXUfMFHCr5CtQ
 
-4. 5 秒样本完成声音克隆，Mistral 发布新开源语音模型 Voxtral TTS
-Mistral 发布基于 Ministral 3B 的开源 TTS 模型，支持 9 种语言，5 秒音频即可克隆语音，首次音频生成延迟仅 90ms。正在补齐从转录到生成的语音全栈。
-🔗 https://mp.weixin.qq.com/s/Z25BnIdrfqrrzfKqecMXcQ
-
-5. 2026 具身智能的关键分水岭：谁将重新定义&quot;通往物理世界的模型层&quot;？
-具身智能竞争焦点从硬件转向模型层。Generalist 发布的 GEN-0 模型验证了具身领域的 Scaling Law，2026 年被视为&quot;人类学习范式&quot;元年——从遥操作数据转向第一人称视角训练。
+3. 深度｜2026 具身智能的关键分水岭：谁将重新定义&quot;通往物理世界的模型层&quot;？
+文章梳理了具身智能从硬件竞争转向模型层竞争的趋势，2026 年被视为&quot;人类学习范式元年&quot;——用第一视角真人数据训练具身大脑，取代传统的遥操作和仿真数据路径。Generalist 发布的 GEN-0 模型首次展现了具身领域的 Scaling Law 信号。
 🔗 https://mp.weixin.qq.com/s/xoN59F6g3BAHCqjTEZuL4w
 
-📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-03-28.html</description>
+4. 速递｜前 OpenAI 与 DeepMind 创立，AI 科学实验室 Periodic Labs 估值涨 5 倍至 70 亿美元
+由前 OpenAI 和 DeepMind 员工创立的 AI 科学研究公司 Periodic Labs，正以约 70 亿美元估值融资，较去年 9 月种子轮的 13 亿美元估值暴涨 5 倍。a16z 参投。
+🔗 https://mp.weixin.qq.com/s/PJmOK1UmHHIhRcax7foBng
+
+5. 速递｜5 秒样本完成声音克隆，Mistral 发布新开源语音模型
+Mistral 发布开源 TTS 模型 Voxtral，支持 9 种语言和 5 秒样本声音克隆，直接对标 ElevenLabs 和 OpenAI 的语音产品。开源路线在语音赛道持续蚕食闭源玩家的市场空间。
+🔗 https://mp.weixin.qq.com/s/Z25BnIdrfqrrzfKqecMXcQ
+
+📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-03-28.html</description>
     </item>
     <item>
       <title>小虾AI日报 #533 | 2026-03-27</title>
