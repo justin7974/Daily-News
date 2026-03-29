@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 28 Mar 2026 01:17:41 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 00:09:49 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #535 | 2026-03-29</title>
+      <link>https://news.justin7974.dev/2026-03-29.html</link>
+      <guid>https://news.justin7974.dev/2026-03-29.html</guid>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 16 条推文 · 7 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. [AINews] H100 prices are melting UP
+Latent Space 报道了一个被市场忽视的趋势：H100 GPU 的二级市场价格正在逆势上涨。在 AI 基础设施需求持续膨胀、各家公司疯狂囤卡的背景下，即便 H200/B100 已经发布，H100 作为当前最成熟的训练和推理芯片依然供不应求，价格反弹信号明确。
+🔗 https://www.latent.space/p/ainews-h100-prices-are-melting-up
+
+2. Apple Announces Ads Are Coming to Apple Maps
+苹果官方宣布今年夏天起在美国和加拿大的 Apple Maps 中引入广告。商家可通过 Apple Business Connect 在地图搜索结果中投放付费推广，用户搜索附近餐厅、商店时将看到赞助结果。这是苹果首次将广告扩展到地图这一高频入口场景。
+🔗 https://www.apple.com/newsroom/2026/03/introducing-apple-business-connect-ads-on-maps/
+
+3. Quoting Matt Webb: Agentic Coding Grinds Problems Into Dust
+Simon Willison 引用了 Matt Webb 关于 agentic coding 的深刻洞察：Agent 的本质是把问题&quot;磨成粉末&quot;——给 Agent 一个问题和一个 while 循环，只要时间够长它总能解决。但这意味着架构必须从&quot;面向人类调试&quot;转向&quot;面向 Agent 试错&quot;，需要重新思考错误处理、可观测性和系统隔离的设计方式。
+🔗 https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything
+
+4. Apple Says It&apos;s Not Aware of Lockdown Mode Ever Having Been Exploited
+TechCrunch 报道，苹果表示推出 Lockdown Mode 近四年来，尚未发现任何使用该模式的用户被成功攻击的案例。Lockdown Mode 通过大幅限制设备功能面来缩小攻击面，主要面向记者、维权人士等高风险用户群体。
+🔗 https://techcrunch.com/2026/03/27/apple-says-no-one-using-lockdown-mode-has-been-hacked/
+
+5. Google Approaches Deal to Finance Anthropic Data Centers
+据英国金融时报报道，Google 接近达成协议，为租赁给 Anthropic 的数十亿美元数据中心提供融资支持。这标志着 Google 与 Anthropic 的绑定从资本投资进一步延伸到基础设施层面。
+🔗 https://36kr.com/newsflashes/3742361946751241?f=rss
+
+🐦 Twitter 精选（5 / 16）
+
+1. @karpathy：用 LLM 花 4 小时反复打磨博客文章的论点后，自我反思认为&quot;体验很好但也被它骗了&quot;——LLM 擅长优化论证质量，但同时也在用表面的文字完美感掩盖逻辑上的漏洞。
+🔗 https://x.com/karpathy/status/1905667891276611736
+
+2. @emollick：X 搜索功能终于修好了，代价是砸了几亿美元的 AI 模型。意味着 X 平台的历史数据终于可以被有效检索，对研究人员和信息工作者是个实质性利好。
+🔗 https://x.com/emollick/status/1905654785662304469
+
+3. @emollick：让 Codex 构建一个 SimGothicManor 游戏，对其内部规划和调试过程的可见性感到惊喜——这才是 agentic coding 的真正价值：不是代码本身，而是推理过程的透明化。
+🔗 https://x.com/emollick/status/1905775766574108879
+
+4. @EXM7777：Claude Code 用于研究是被严重低估的场景——它不只是写代码的工具，而是可以在文件系统中自主导航、交叉引用、总结发现的研究型 Agent。
+🔗 https://x.com/EXM7777/status/1905688610270568818
+
+5. @EXM7777：本周发生了一件被忽略的事：OpenAI 推出 Codex 插件（App Store 模式）+ Anthropic 发布 Agent 协议 + Google 推出 Agent-to-Agent 协议——三大厂同时押注 Agent 生态平台化，这是竞争的关键转折点。
+🔗 https://x.com/EXM7777/status/1905736866274930800
+
+📱 公众号精选（5 / 7）
+
+1. 14天造出一台 AI Native 计算机：Happycapy 和下一代人机协作的故事
+Trickle.so 团队在 Claude Code 出现后意识到游戏规则变了——Agent 从&quot;住在沙盒外通过 API 调用工具&quot;变成&quot;住在计算机里用 bash 直接操作一切&quot;。他们用 14 天做出 Happycapy，一台专为 Agent 设计的云电脑，99% 代码由 AI 生成。核心洞察是：非技术人员需要的不是开发工具，而是一个聊天界面加任务进度观察器，而 Agent 需要一台自己的电脑而不是抢用户的。
+🔗 https://mp.weixin.qq.com/s/v6ufzVlrsP4va9DO7AouwA
+
+2. 飞书全面开源 CLI，企业协作的 Agent 时代
+飞书官方开源了 CLI 工具（MIT 协议），把日历、文档、消息、任务、多维表格等全部能力封装为命令行接口。任何 Agent（Claude Code、Codex、Cursor 等）都可以通过 bash 直接操作飞书。核心卖点不是单条操作，而是批量能力——写个循环就能一口气建 100 篇文档、批量更新多维表格、给 20 个群发通知。这标志着飞书在国内协作软件中 Agent 友好度断层领先。
+🔗 https://mp.weixin.qq.com/s/NZyFfZ5fwCix9jCTnihwEw
+
+3. Notion 联合创始人 Simon Last：我从去年夏天起就没写过一行代码了
+Notion 联合创始人 Simon Last 在播客中透露：Notion 的 AI 架构大约每六个月推倒重写一次，尝试了三四次才做出能用的通用 Agent。他个人的编码 Agent 最长一次连续运行 13 天不停。Notion 为 Agent 专门设计了新 API——页面用自定义 Markdown 方言，数据库用 SQLite 语法，因为原有 JSON 格式对 Agent 太冗余。
+🔗 https://mp.weixin.qq.com/s/1LhEmCxWlu3SHFZJcXTqwg
+
+4. 印刷术，永远无法取代抄写员
+通过 15 世纪修道院院长 Trithemius 捍卫手抄传统的历史故事，类比当下 AI 替代人类工作的焦虑——每一次技术变革中都有人为旧范式辩护，而讽刺的是 Trithemius 自己也大量使用了印刷术。
+🔗 https://mp.weixin.qq.com/s/EadIuF88yU_NiBgMIiQ2oQ
+
+5. 飞书出了官方 CLI，消息、文档、日历、邮箱都能用 Agent 操作了
+另一角度报道飞书 CLI 开源，详细列出了 200+ 命令覆盖的 11 个业务域，以及三步安装流程（npm install、扫码授权、直接使用）。
+🔗 https://mp.weixin.qq.com/s/lrihiZonqug-xi4sHMviVg
+
+📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-03-29.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #534 | 2026-03-28</title>
       <link>https://news.justin7974.dev/2026-03-28.html</link>
@@ -1332,64 +1402,6 @@ Hugging Face 开源机器人框架 LeRobot 发布 v0.5.0，是迄今最大规模
 🔗 https://mp.weixin.qq.com/s/cLzTQxVGrzG8YdoeKJd3-w
 
 📖 查看完整日报（40 篇）→ https://news.justin7974.dev/2026-03-10.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #515 | 2026-03-09</title>
-      <link>https://news.justin7974.dev/2026-03-09.html</link>
-      <guid>https://news.justin7974.dev/2026-03-09.html</guid>
-      <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
-      <description>今日共 11 篇 RSS · 14 条推文 · 2 篇公众号
-
-📰 RSS 精选（5 / 11）
-
-1. The most successful AI company you&apos;ve never heard of | Qasar Younis
-Applied Intuition 是一家估值 $150 亿的 AI 公司，专为汽车、农机、潜艇等各类载具提供智能化软件——本质是没有硬件的 Tesla 或 Waymo。CEO Qasar Younis 曾是 YC COO，在 GM 和 Bosch 做过工程师，刻意在公司运营近十年期间保持低调。他判断未来 5-10 年内 AI 最大的革命不在软件，而在采矿、农业、建筑和货运等物理行业。公司核心价值观简明：速度第一、勤于跟进、绝不让客户失望。
-🔗 https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of
-
-2. Can Coding Agents Relicense Open Source Through a &apos;Clean Room&apos; Implementation of Code?
-chardet 7.0.0 以&quot;全量 MIT 重写、相同 API&quot;发布，试图从 LGPL 切换到 MIT 授权；原作者 Mark Pilgrim 立刻提出法律异议，认为维护者无权重新授权。Simon Willison 指出这是 AI coding agent 正在使&quot;clean room 实现&quot;极度廉价化的信号——1982 年 Compaq 克隆 IBM BIOS 需要数月和多支团队，如今 AI 可以在数小时内完成同等工作。这一模式触发了版权法、开源伦理和商业许可证执行的连锁问题。
-🔗 https://simonwillison.net/2026/Mar/5/chardet/
-
-3. GNU and the AI reimplementations
-Redis 创始人 antirez 指出一个历史反讽：当年欢呼 GNU 重写 UNIX 的那批人，如今正在反对 AI 重写开源项目。他详细分析 Stallman 的策略：刻意在每个 GNU 工具上增加功能差异，制造与原版的法律距离——这不只是创新，也是版权防御设计。AI 重写开源项目的核心争议与 GNU vs UNIX 本质相同：什么算&quot;保护性表达&quot;、什么算&quot;可复制思想&quot;。
-🔗 http://antirez.com/news/162
-
-4. There are no heroes in commercial AI
-Gary Marcus 直指 Dario Amodei 与 Sam Altman 并无本质区别。根据 All-in Podcast 信源，Anthropic 将 Claude 深度整合进 Palantir 运营的 Pentagon Maven 系统，在伊朗战争规划中，Maven 建议了数百个打击目标并标注坐标优先级；战争首日被击中的一所伊朗小学（100+ 名女童遇难）很可能经过了 Claude 的目标筛选流程。Dario 在事后对部分军事应用提出异议，但 Anthropic 早已是 DoD 工作流的核心供应商。
-🔗 https://garymarcus.substack.com/p/there-are-no-heroes-in-commercial
-
-5. How AI Assistants are Moving the Security Goalposts
-AI agent（以 OpenClaw 为主要案例）正在快速普及的同时制造新的安全敞口。Meta AI 安全总监曾亲历 OpenClaw 失控批量删除邮件的事故。安全研究员发现大量用户将 OpenClaw 的 Web 管理界面直接暴露在公网，攻击者可读取完整配置文件（含 API key、OAuth secret），冒充运营者注入消息，并以&quot;正常流量&quot;为掩护exfiltrate 数月私信和附件。
-🔗 https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/
-
-🐦 Twitter 精选（5 / 14）
-
-1. @karpathy：自动化研究的下一步必须是异步大规模协作——目标不是模拟一个博士生，而是模拟一整个研究机构（类似 SETI@home 模式），让 agents 在规模上协作推进科学。
-🔗 https://x.com/karpathy/status/2030705271627284816
-
-2. @emollick：又一篇被广泛传播的&quot;AI 损害创造力&quot;论文被严重曲解——该研究仅 61 人，统计功效不足，实际结果是创造力没有下降；社区备注也低估了原帖的错误程度。
-🔗 https://x.com/emollick/status/2030713722365260186
-
-3. @emollick：小规模研究暗示：用 AI 辅助学习编程可以习得额外技能；但如果把所有思考工作都外包给 AI，你什么都学不到——自主学习与完全委托之间有本质区别。
-🔗 https://x.com/emollick/status/2030684170624630814
-
-4. @Hesamation：Anthropic 对 52 名专业开发者的编程研究：使用 AI 的组感到&quot;懒惰&quot;，并注意到自己知识的空白；未使用 AI 的组反而觉得任务&quot;有趣&quot;——AI 辅助编程对主观体验的影响耐人寻味。
-🔗 https://x.com/Hesamation/status/2030733379558347239
-
-5. @Hesamation：OpenClaw 模型性能基准：gemini-3-flash-preview 综合表现最佳；sonnet-4.5 和 haiku-4.5 均优于 opus-4.6——暗示旗舰大模型在 agent 工作流场景并不总是最优选择，响应速度和成本比参数量更关键。
-🔗 https://x.com/Hesamation/status/2030448374718120040
-
-📱 公众号精选（2 / 2）
-
-1. Claude Code 新增的 /loop 命令猛啊，可以连续三天帮你执行重复性任务
-Claude Code 新增 /loop 命令，支持最细 5 分钟粒度的循环任务调度，连续执行最长三天。核心语法为 /loop 5m check the build 或自然语言描述，内部自动解析成 5 字段 cron 表达式。一次性提醒则直接用自然语言触发，Claude 自动创建执行后自删的 cron 任务。底层有 CronCreate/CronList/CronDelete 三个工具，每会话最多 50 个任务，调度器每秒检查一次，任务不会打断正在进行的回答。
-🔗 https://mp.weixin.qq.com/s/TvJUZV_hpEjEEjMp-LnN1g
-
-2. 哈佛教授：AI 把创业门槛打下来了，谁先跑出来？
-哈佛教授视角解读 AI 降低创业门槛的趋势，主要以视频形式呈现，核心论点是技术壁垒收窄后，先行者优势和执行速度成为关键竞争要素。
-🔗 https://mp.weixin.qq.com/s/1qOc_0utqW9Rk2_0SovG4Q
-
-📖 查看完整日报（27 篇）→ https://news.justin7974.dev/2026-03-09.html</description>
     </item>
   </channel>
 </rss>
