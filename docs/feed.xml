@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 30 Mar 2026 10:05:10 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 00:15:28 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #537 | 2026-03-31</title>
+      <link>https://news.justin7974.dev/2026-03-31.html</link>
+      <guid>https://news.justin7974.dev/2026-03-31.html</guid>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 15 条推文 · 9 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. Coatue Projected $1.995 Trillion Valuation for Anthropic in 2030
+Coatue在今年1月的一份投资路演中披露了对Anthropic的详细财务预测：2026年预计亏损EBITDA 140亿美元，营收180亿美元，年底ARR达300亿美元。最新消息显示Anthropic已实现190亿美元ARR，已超出Coatue预期。到2031年，Coatue预测营收2000亿美元、EBITDA 480亿美元，届时估值2.413万亿美元；2030年目标估值1.995万亿，对应41倍forward EBITDA。这份幻灯片是Coatue在2月主导参与Anthropic 300亿美元G轮（估值3800亿）前两周制作的。
+🔗 https://www.newcomer.co/p/coatue-projected-1995-trillion-valuation
+
+2. Every Building You&apos;ve Ever Been In Was Designed By Software Built in 1997
+全球13万亿美元建筑行业的核心设计工具Autodesk Revit，是1997年的桌面软件，年收入约30亿美元，几乎垄断所有大型建筑、工程和施工公司的BIM设计。85%的建筑项目超预算，3/4无法按时交付，仅美国每年因返工、沟通失误损失1770亿美元，其中超70%源于设计错误。行业内数十家公司共享同一栋楼的设计文件，却靠PDF和邮件协作，&quot;周二改了一根梁，周五承包商才知道&quot;是常态。a16z认为这是等待&quot;1997时刻&quot;颠覆的巨型机会。
+🔗 https://www.a16z.news/p/every-building-youve-ever-been-in
+
+3. Mistral: Voxtral TTS, Forge, Leanstral, &amp; what&apos;s next for Mistral 4
+Mistral本周发布Voxtral TTS——基于4B参数Ministral的多语言低延迟开源语音合成模型，对ElevenLabs Flash v2.5的胜率达68.4%，是目前开权重最强TTS模型之一。架构结合自回归语义token生成与flow matching实现高质量输出。此外播客还讨论了Forge（Mistral的部署平台）、Leanstral轻量模型线，以及Mistral 4的下一步方向。
+🔗 https://www.latent.space/p/voxtral
+
+4. How Stripe built &quot;minions&quot;—AI coding agents that ship 1,300 PRs per week
+Stripe工程师Steve Kaliski分享了公司内部&quot;minions&quot;项目：AI编程agent每周提交约1300个Pull Request，通常只需一个Slack emoji触发。核心突破是云开发环境解锁了并行AI工作流——多个agent同时在不同分支工作，无需等待本地环境。Agent甚至能花钱、协调服务、完成端对端任务。他强调真正的瓶颈不是写代码，而是如何安全地审查数千个AI生成PR。
+🔗 https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-stripe
+
+5. &apos;The Brand Age&apos;
+PG用瑞士手表产业的&quot;石英危机&quot;作类比：1970年代石英技术让精准计时变成商品，曾靠工程能力领先的瑞士表厂失去竞争优势。幸存者（百达翡丽、江诗丹顿、爱彼）靠转型为奢侈品牌活下来，欧米茄坚持工程路线走向破产。核心命题：当技术使产品实质差异消失，品牌便成了剩下的唯一资产——而技术的自然趋势正是消灭差异。
+🔗 https://paulgraham.com/brandage.html
+
+🐦 Twitter 精选（5 / 15）
+
+1. @emollick：ChatGPT GPT-5.4 Pro版的一个实用优势是能清晰展示推理过程，方便用户理解和质疑AI的判断路径。
+🔗 https://x.com/emollick/status/2038693491153199428
+
+2. @emollick：ARC-AGI-3被设计成AI当前得零分，就像早期版本一样——这不是AI失败的信号，而是用来精确测量未来进步幅度的基准。
+🔗 https://x.com/emollick/status/2038680759305691586
+
+3. @kloss_xyz：有人说&quot;OpenClaw已死&quot;，但它正是史上增长最快的代码仓库之一，这两件事同时为真。
+🔗 https://x.com/kloss_xyz/status/2038716269126734169
+
+4. @EXM7777：Agent基础设施领域正在发生比任何单一工具发布都更重大的系统性变革。
+🔗 https://x.com/EXM7777/status/2038677447269568757
+
+5. @EXM7777：Google Veo 3.1可以从单张自拍克隆你的形象，实现每天产出内容无需真人出镜，每条视频成本不到1美元。
+🔗 https://x.com/EXM7777/status/2038700313470005480
+
+📱 公众号精选（5 / 9）
+
+1. 永不停歇的情绪工厂：字节造红果，平台驯化影视业
+红果上线不到两年日活达1.2亿，用户日均观看时长2小时，是腾讯视频的两倍。字节通过免费观看颠覆付费短剧模式，再用算法构建极度市场化的内容生态——谁做出最受欢迎的内容谁赚钱，无保底。本月红果取消了对中小制作方每部20-35万元的真人短剧保底，大批公司被迫裁员并转型成本更低的AI漫剧。短剧市场规模已超中国电影票房，正在越过长视频平台十年投入千亿元构筑的生态体系。
+🔗 https://mp.weixin.qq.com/s/bdDL4KI7EQXi5NIrWfoKlQ
+
+2. 速递｜前DeepMind创立，物理世界模型Physical Intelligence，估值四个月内翻倍至110亿美元
+Physical Intelligence（π.ai）正在讨论约10亿美元新融资，估值将超110亿美元，而四个月前上一轮估值仅为56亿美元。Founders Fund（Peter Thiel）、Lightspeed、Thrive Capital和Lux Capital均在谈判中。公司由前Google DeepMind研究员创办，专注于构建驱动机器人执行多种任务的AI模型——折叠衣物、制作咖啡、组装纸箱——目标是可执行任意物理任务的&quot;通用机器人大脑&quot;。
+🔗 https://mp.weixin.qq.com/s/-UxMdMUeNkB272Wn9Wu8Iw
+
+3. 一个预测未来的模型，它赚到钱了
+UniPat AI的ECHO系统搭载EchoZ-1.0预测模型，在通用AI预测排行榜以Elo 1034.2排第一，超越Gemini-3.1-Pro、Claude-Opus-4.6和GPT-5.2。技术核心是&quot;Train-on-Future&quot;方法论：不使用历史数据回测（存在数据泄露和幸存者偏差缺陷），而是持续生成真实未来问题，评价推理行为质量而非等待结果反馈，从而实现即时训练。该模型已在预测市场实际盈利。
+🔗 https://mp.weixin.qq.com/s/fufH_NwgWrRNctEo5rw2Fw
+
+4. 为什么一夜之间大家都在做 CLI？
+飞书、Google、Stripe、ElevenLabs等公司近期不约而同发布CLI工具。文章解释了原因：GUI是为眼睛设计的，CLI是为文字设计的——而AI本质上是&quot;文字进文字出&quot;的系统，CLI是AI的原生交互界面。新一代CLI从设计之初假设调用者可能是AI：输出JSON格式、自带Skills说明书、支持--dry-run预览。Karpathy的核心论断：&quot;你的服务应该有一个CLI工具，不要让开发者去点击，直接指示和赋能他们的AI。&quot;
+🔗 https://mp.weixin.qq.com/s/2HC9mNCtnVu-tUvglOl9tw
+
+5. Daniel Miessler：AI 时代最重要的五个认知
+安全研究员Daniel Miessler总结AI时代五个相互加速的趋势：自主改进（AI自动优化任何可定义目标的系统）、意图工程（新核心技能是表达意图而非写代码）、透明化（运营数据全面可见）、工作的本质是脚手架（75-99%的工作是协调和包装）、专家知识公共化（专业门槛系统性下降）。这五条构成&quot;复合飞轮&quot;相互加速，核心命题：一切可定义理想状态的东西，都将被自主优化。
+🔗 https://mp.weixin.qq.com/s/NCcRkVKXsDF5HM9PtgeH8Q
+
+📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-03-31.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #536 | 2026-03-30</title>
       <link>https://news.justin7974.dev/2026-03-30.html</link>
@@ -1324,76 +1394,6 @@ Gergely Orosz 的文章翻译：不再是假设性问题，而是即将冲击科
 🔗 https://mp.weixin.qq.com/s/tct5Z9dd4DBEBnwwnxDaqQ
 
 📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-03-12.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #517 | 2026-03-11</title>
-      <link>https://news.justin7974.dev/2026-03-11.html</link>
-      <guid>https://news.justin7974.dev/2026-03-11.html</guid>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 14 条推文 · 9 篇公众号
-
-📰 RSS 精选（5 / 12）
-
-1. Bessemer: Legacy SaaS Is Dead, But a New Wave of Applications Will Thrive
-Bessemer VP Byron Deeter 发表了他对 AI 时代应用层命运的判断：应用层的死亡被严重夸大了。他的逻辑是——基础模型公司扮演了 AI 时代的&quot;云超算&quot;角色（相当于 AWS/Google），而真正的机会在其上方：针对特定行业和工作流程构建的 AI 原生垂直软件，例如 Bessemer 投资的面向伤害律师的 EvenUp 和将医患对话转成临床笔记的 Abridge。他认为传统 SaaS 公司（Salesforce、Adobe、SAP）的危机不在于用户真的在砍席位，而在于&quot;当大家都认为会砍&quot;时估值已先行崩塌。Bessemer 在 Anthropic Series D 持有股份，同时重押应用层，算是两端都赌。他给出的市场规模估算：5 万亿美元数据中心投入 × 9 倍逐层叠加利润率 = 45 万亿美元软件市场。
-🔗 https://www.newcomer.co/p/bessemer-legacy-saas-is-dead-but
-
-2. How NVIDIA Builds Open Data for AI
-NVIDIA 在 HuggingFace 上开放了 2PB+ AI 训练数据，涵盖 180+ 数据集和 650+ 开放模型。核心数据集包括：Physical AI Collection（50 万条机器人轨迹、5700 万次抓取动作、15TB 多模态数据，已被 Runway 用于 GWM-Robotics 世界模型训练，累计下载超 1000 万次）；Nemotron Personas（美国 600 万、日本 600 万、印度 2100 万、巴西 600 万合成人格数据集，已帮助 CrowdStrike 将 NL→CQL 翻译准确率从 50.7% 提升至 90.4%）；La Proteina（45.5 万个蛋白质结构，用于药物发现）。NVIDIA 同步提供 GitHub 上的训练配方和评估框架，形成完整的&quot;数据→模型→推理&quot;生态。
-🔗 https://huggingface.co/blog/nvidia/open-data-for-ai
-
-3. Oracle Cloud-Server Revenue Rises 84%, Boosting Shares 8%
-Oracle 2 月财季云服务器租赁收入同比暴增 84%，股价盘后涨 8%，符合此前预期并上调全年指引。在 AWS/Azure 主导市场的格局下，Oracle Cloud Infrastructure 实现这一增速，验证了超规模算力需求的扩散效应——大模型公司多云布局是核心驱动之一。
-🔗 https://www.wsj.com/tech/oracle-cloud-server-revenue-rises-84-boosting-shares-8-after-hours
-
-4. Salesforce Plans to Issue Up to $25 Billion in Bonds to Fund Stock Buyback
-Salesforce 计划本周发行 200-250 亿美元债券，为其 500 亿美元回购计划融资，是近年科技公司最大规模的杠杆回购操作之一。在 AI 转型压力下，公司选择靠资本操作提振股价——这与 Bessemer &quot;SaaS 末日&quot;叙事在同一时间线上，耐人寻味。
-🔗 https://www.wsj.com/finance/salesforce-plans-to-issue-up-to-25-billion-in-bonds-to-fund-stock-buyback
-
-5. Investing in Nexthop AI
-a16z 宣布领投 Nexthop AI 5 亿美元 B 轮。Nexthop 专注于 AI 推理基础设施，押注推理层（而非训练层）基础设施是规模化 AI 部署的下一个瓶颈。5 亿美元 B 轮是近期推理基础设施赛道融资规模最大的之一。
-🔗 https://a16z.com/investing-in-nexthop-ai/
-
-🐦 Twitter 精选（5 / 14）
-
-1. @emollick：盘点&quot;弱 AGI&quot;判定标准：Loebner 图灵测试被 GPT-4.5 通过、Winograd 被 GPT-3 通过、SAT 被 GPT-4 以 75% 成绩通过，唯一未完成的只剩一款 1984 年的 Atari 游戏——调侃 AI 实验室现在可以做一件&quot;很好笑的事&quot;来宣布弱 AGI 到来。
-🔗 https://x.com/emollick/status/2031519480371683594
-
-2. @emollick：AI 实验室的核心使命是&quot;训练最强模型→用来训练更强的模型→实现超级智能&quot;，面向消费者和企业发布的所有产品只是附带收益，不是战略核心。
-🔗 https://x.com/emollick/status/2031422031120535990
-
-3. @godofprompt：亚马逊在强制推行 80% AI 编码工具采用率后，让 Kiro Agent 以 operator 级权限自主写代码且无 peer review，随后引发多起高影响生产事故——这才是 AI 最重要的信号：最大的云基础设施公司花了 2000 亿美元押注 AI，但 AI 生成代码和生产系统之间的治理层问题仍未解决。
-🔗 https://x.com/godofprompt/status/2031419734537711825
-
-4. @godofprompt：LeCun 被两年来嘲笑 LLM 是&quot;美化的自动补全&quot;，他不是在抱怨，而是在诊断。AMI Labs（世界模型路线）拿到 10 亿美元融资，标志着 AI 领域出现了真正的架构路线分叉：Scaling LLM 阵营 vs. 世界模型/具身智能阵营。
-🔗 https://x.com/godofprompt/status/2031501108644815240
-
-5. @godofprompt：Stanford 研究测试了包括 GPT-5、Claude、Gemini、Llama、DeepSeek、Qwen 在内的 11 个主流 AI 模型，在涉及操控、欺骗、明显有害关系场景中，AI 对用户的肯定程度比人类高 50%——AI 系统性谄媚的研究证据。
-🔗 https://x.com/godofprompt/status/2031344839434920165
-
-📱 公众号精选（5 / 9）
-
-1. 速递｜IPO前夜OpenAI估值8500亿美元，Anthropic正成为OpenAI上市路上的&quot;影子对手&quot;？
-OpenAI 距 IPO 至少还有 6 个月，但投行已开始试探公开市场投资者的兴趣。当前估值 8500 亿美元相当于 2026 年预期营收的 28 倍，远高于 NVIDIA 的 12 倍远期市销率。采访的 11 位公开市场投资者中多数持谨慎态度，主要顾虑是财务细节在上市申请前不透明，以及长期盈利路径不清晰——公司自述要到 2030 年才能停止烧钱。战略投资者谈判中包括软银、Amazon、NVIDIA，本轮估值含当前募资。Anthropic 被定位为&quot;影子竞争对手&quot;，快速成长中的对标叙事开始形成。
-🔗 https://mp.weixin.qq.com/s/pja9kdCq0mGH5ihcw7Qu5g
-
-2. 融资 5000 万美元，VAST 的新阶段和宋亚宸的新命题丨100 个 AI 创业者
-AI 3D 生成公司 VAST 完成 5000 万美元 A 轮，阿里和上汽领投，元禾璞华、BV 百度风投等跟投。29 岁 CEO 宋亚宸创业第 3 年，Tripo Studio 正式上线 3 个月，累计用户超 650 万，服务 9 万+ 开发者和企业。技术上，最新旗舰模型 Tripo P1.0 将 3D 生成时间压缩至 2 秒，质量接近专业建模师水平。在具身智能、视频生成轮番爆火的 2025 年，宋亚宸拒绝了多个方向诱惑，今年将推出面向普通用户的 UGC 轻交互内容平台，把 3D 做成&quot;短视频&quot;式的消费级内容形态。
-🔗 https://mp.weixin.qq.com/s/HaTQr7iH2cHl7_VqUDJV1g
-
-3. 速递｜营收每季度增长超过300%，Lyzr AI估值2.5亿美元，要做关键数据本地化的企业级Agent
-企业级 AI Agent 基础设施公司 Lyzr AI 完成埃森哲领投的 1450 万美元 A+ 轮，估值 2.5 亿美元（较 5 个月前增长 5 倍），连续两季度营收增速超 300%，预计 4 月实现盈利。核心差异化是&quot;关键数据不出企业&quot;——多 Agent 协同系统部署在企业自有基础设施上，已为德勤、毕马威、埃森哲提供服务。
-🔗 https://mp.weixin.qq.com/s/v9NMjQ1j5MsSKjpeKlQoPA
-
-4. 对话 WorkBuddy 李超：快，是唯一正确的事
-腾讯 WorkBuddy 被称为&quot;腾讯版龙虾&quot;，完全兼容 OpenClaw skills，不需自己部署服务器和管理 token，安装即用、1 分钟接入企微。李超谈到 AI 编程新范式：当 AI 每天产出上万行代码，工程师的角色要从&quot;写代码的人&quot;转变为&quot;当老板的人&quot;，建立反馈机制比亲自写代码更重要。
-🔗 https://mp.weixin.qq.com/s/efatnVMfFNoUxelps2mGmQ
-
-5. Harness 工程就是控制论
-类比蒸汽机调速器→Kubernetes→AI Agent 的三次控制论模式演变，解读 OpenAI &quot;Harness 工程&quot;的本质：5 个月、100 万行代码、全由 AI 写，工程师从&quot;拧阀门&quot;转变为&quot;设计 harness 系统的人&quot;。文章将这一模式与 18 世纪控制论（Cybernetics）相连，框架清晰。
-🔗 https://mp.weixin.qq.com/s/IISIthpTuztCT5uCGI9KdQ
-
-📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-03-11.html</description>
     </item>
   </channel>
 </rss>
