@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 01 Apr 2026 01:32:47 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 01:44:56 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #539 | 2026-04-02</title>
+      <link>https://news.justin7974.dev/2026-04-02.html</link>
+      <guid>https://news.justin7974.dev/2026-04-02.html</guid>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
+      <description>今日共 11 篇 RSS · 15 条推文 · 10 篇公众号
+
+📰 RSS 精选（5 / 11）
+
+1. [AINews] The Claude Code Source Leak
+Claude Code 的 50 万行源码意外泄露，成为愚人节最大&quot;礼物&quot;。泄露揭示了多层架构细节：三层记忆系统（MEMORY.md 顶层 + 项目级 + 会话级）、不到 20 个默认工具（含 AgentTool、BashTool 等）、激进的缓存复用策略、文件读取去重机制，以及内置的自定义 Grep/Glob/LSP。此外还暴露了未发布的 /buddy 愚人节宠物功能和数十个隐藏特性。Sebastian Raschka 总结了六大关键发现，社区已出现多个托管 fork。
+🔗 https://www.latent.space/p/ainews-the-claude-code-source-leak
+
+2. Harvey &amp; Legora in a Land-Grab Race for Dominance of Legal AI
+Legal AI 赛道正上演经典的硅谷双雄对决。Harvey 以 $110 亿估值完成 $2 亿融资，年化收入超 $2 亿；Legora 以 $55 亿估值拿下 $5.5 亿，收入约为 Harvey 的一半但增速更快。VC 阵营泾渭分明：Harvey 背后是 Sequoia、a16z、Kleiner Perkins、Coatue；Legora 则有 Benchmark、Bessemer、General Catalyst、Accel、ICONIQ。两家创始人风格迥异——Harvey 的 Weinberg（31 岁律师出身）vs Legora 的 Junestrand（26 岁瑞典工程师），后者拒绝直呼对手名字。
+🔗 https://www.newcomer.co/p/harvey-and-legora-in-a-land-grab-race
+
+3. America&apos;s Energy Problem Isn&apos;t Supply. It&apos;s Delivery.
+前 Tesla 动力总成 SVP Drew Baglino 撰文指出，美国能源的真正瓶颈不在发电侧而在配送侧——电网基础设施正在同时老化和面临前所未有的需求增长。数据中心、电动车、热泵和再工业化推动的电力需求增速为一代人以来最快，实现全面电气化意味着发电量需要增长四倍以上。Baglino 创办的 Heron Power 押注固态变压器（SST）技术：体积仅为传统变压器的 1/10，可在数周内部署而非数年，且能实现双向电力流动和动态电压调节。
+🔗 https://a16z.com/americas-energy-problem-isnt-supply-its-delivery/
+
+4. Holo3: Breaking the Computer Use Frontier
+Hcompany 发布 Holo3，在 OSWorld-Verified 基准测试上以 78.85% 的得分刷新了桌面 Computer Use 领域的 SOTA。关键亮点：仅 10B 活跃参数（总量 122B MoE），成本远低于 GPT-5.4 和 Opus 4.6 等大模型；训练采用&quot;Agentic Learning Flywheel&quot;——在合成企业环境中生成导航数据并持续迭代；35B-A3B 版本以 Apache 2.0 开源。公司的愿景是构建&quot;Autonomous Enterprise&quot;。
+🔗 https://huggingface.co/blog/holo3
+
+5. Falcon Perception: 0.6B Early-Fusion Transformer
+TII（阿联酋技术创新研究所）发布 Falcon Perception，一个仅 0.6B 参数的早期融合 Transformer，用于自然语言驱动的开放词汇 grounding 和 segmentation。在 SA-Co 基准上达到 68.0 Macro-F1（SAM 3 为 62.3）。同时发布 Falcon OCR（0.3B 参数），在 olmOCR 和 OmniDocBench 上分别得分 80.3 和 88.6，且吞吐量为开源方案中最高。所有模型以 Apache 2.0 开源。
+🔗 https://huggingface.co/blog/falcon-perception
+
+🐦 Twitter 精选（5 / 15）
+
+1. @rryssf_：IBM 在生产环境部署 AI Agent 后发现，38% 的失败与推理能力无关——模型知道答案，但输出格式出错。JSON 解析错误、缺失字段、schema 违规，一个格式问题就能让 8 个 Agent 的流水线全线崩溃。
+🔗 https://x.com/rryssf_/status/2039385498180100598
+
+2. @rryssf_：港科大研究证明内容安全审查方向错了：攻击者已经学会劫持推理链。一个精心构造的 token 就能让 DeepSeek-R1 陷入无限循环，模型永远不输出答案，API 账单却在疯涨——而所有安全系统只监控输出，没人在看模型&quot;怎么想&quot;。
+🔗 https://x.com/rryssf_/status/2039357182320545809
+
+3. @rryssf_：Sony 研究证明：模型越微调越聪明，同时也越无聊。每一轮 RLHF 和 SFT 都在把模型推向高概率输出，Top-1 答案更好了，但 Pass@k 指标悄悄停滞——模型失去了给出多样化答案的能力，这叫&quot;多样性坍塌&quot;。
+🔗 https://x.com/rryssf_/status/2039281648437809189
+
+4. @EXM7777：n8n 发布原生 MCP 支持：AI Agent 现在可以直接创建和修改 n8n 自动化工作流。Claude Code 接入后可调用全部 1396 个 n8n 节点，原本 45 分钟手动搭建的工作流现在一句话就能生成。
+🔗 https://x.com/EXM7777/status/2039401923267477695
+
+5. @Hesamation：Claude Code 的记忆系统详解——围绕源码泄露后暴露的三层记忆架构展开讨论。
+🔗 https://x.com/Hesamation/status/2039381120127496362
+
+📱 公众号精选（5 / 10）
+
+1. 除了ChatGPT，所有消费AI都在陪跑？这份数据报告说出了真相
+Altimeter 的 Apoorv Agrawal 用 Sensortower 数据做了消费级 AI 应用全景体检。核心数据：ChatGPT 周活 9 亿（市场份额~70%）、DAU/MAU 45%、四周留存 66%、日均使用 16 分钟；Gemini 约 2 亿周活但 DAU/MAU 仅 22%（大量用户只是&quot;试试看&quot;）；Claude DAU/MAU 37% 排第二，用户少但粘性极高。Character AI 日均 83 分钟直追 TikTok 的 91 分钟。ChatGPT 的用户规模已超过 Spotify 和 Amazon Shopping，正在从&quot;Niche 工具&quot;跨入&quot;Social 级基础设施&quot;。
+🔗 https://mp.weixin.qq.com/s/AXbz8hjzIRcLNEIO8Ifp0g
+
+2. Claude Code 成了高危木马，UP主 Jack Cui 首个发现
+源码泄露后大量开发者从非官方渠道获取和修改 Claude Code，导致 hooks 机制的安全隐患被放大。B 站 UP 主 Jack Cui 实测演示：仅运行 claude 命令，电脑摄像头被静默调起、密码被自动窃取，全程零交互零确认。投毒路径至少三条：hooks 配置投毒、MCP 配置文件投毒、Skill 插件投毒——都是 Claude Code 默认信任的配置入口。CVE-2025-59536 此前已被安全公司 Check Point 标记。
+🔗 https://mp.weixin.qq.com/s/9urGvG6sTk6e81DFaTSLzQ
+
+3. Cursor们为什么都开始自研模型？
+基于 Tanay Jaipuria 的分析，文章论证 AI 应用公司正在被迫走向&quot;全栈&quot;。向下吃模型：Cursor 基于 Kimi K2.5 做继续预训练发布 Composer 2，Intercom 发布 Fin Apex 直接处理全部英文客服。向上吃服务：从卖软件变成卖结果（如 Sierra 直接管理客服 KPI）。核心飞轮逻辑：产品好 → 用户多 → trace 多 → 训练数据好 → 模型强 → 产品更好。只做中间编排层的公司会被上下挤压。
+🔗 https://mp.weixin.qq.com/s/WsS0YOFCukCRxcsc0BbjHA
+
+4. 为什么要把 Agent 变成一只宠物？
+Claude Code 源码泄露暴露了内置宠物系统，作者受此启发在 CodePilot 中构建了一套宠物助理系统——用扭蛋、稀有度、进化机制把 Agent 的能力成长可视化，让用户&quot;看见&quot; AI 变强的过程。
+🔗 https://mp.weixin.qq.com/s/LO8TpiV_XjO2qlfb715syA
+
+5. OpenAI 完成 1220 亿美元融资，估值 8520 亿美元
+OpenAI 正式关闭史上最大单轮私募融资，三大锚定方为 Amazon（$500 亿）、Nvidia（$300 亿）、SoftBank（$300 亿）。月收入 $20 亿，ChatGPT 周活超 9 亿，Codex 周活超 200 万（3 个月增长 5 倍），广告试点 6 周 ARR 已超 $1 亿。
+🔗 https://mp.weixin.qq.com/s/JdNyMnS0VN-BIvB61Xrmcw
+
+📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-04-02.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #538 | 2026-04-01</title>
       <link>https://news.justin7974.dev/2026-04-01.html</link>
@@ -1324,76 +1394,6 @@ a16z 发布第 6 版 AI 百强榜，核心变化：ChatGPT 在网页端领先 Ge
 🔗 https://mp.weixin.qq.com/s/Ad6qNxeIkR61ywL44V7Cxg
 
 📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-03-14.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #519 | 2026-03-13</title>
-      <link>https://news.justin7974.dev/2026-03-13.html</link>
-      <guid>https://news.justin7974.dev/2026-03-13.html</guid>
-      <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-      <description>今日共 13 篇 RSS · 12 条推文 · 10 篇公众号
-
-📰 RSS 精选（5 / 13）
-
-1. Cursor Weighs Fresh Fundraise as Debate Rages on Coding Firm&apos;s Prospects
-Cursor 母公司 Anysphere 正在就新一轮融资进行早期谈判，讨论规模约 50 亿美元，若成功将估值推至 600 亿美元。这将使其成为全球估值最高的非上市 AI 编程工具公司之一。与此同时，市场对 Cursor 的前景存在明显分歧——一部分投资人认为 AI 辅助编程已进入成熟期、护城河有限；另一部分则认为其用户黏性和开发者生态仍具备长期价值。
-🔗 https://www.newcomer.co/p/cursor-weighs-fresh-fundraise-as
-
-2. Institutional AI vs Individual AI
-a16z 的这篇长文从一个核心悖论出发：AI 让个人生产力提升了 10 倍，但公司的整体价值几乎没有增长，&quot;生产力去哪了？&quot;作者用 1890 年代电气化的历史类比切入——电动机装上后效率没有提升，直到 1920 年代工厂从根本上重新设计了生产流程才实现飞跃。今天企业引入 AI 却没有重构组织和工作流，就是重蹈覆辙。文章提出了区分&quot;个人 AI&quot;与&quot;机构 AI&quot;的七大维度：协同、信噪比、记忆、权限、问责、透明度和度量。真正有价值的 B2B AI 产品，必须解决的是机构层面的协同与信号问题，而不仅仅是让个人员工变快。
-🔗 https://www.a16z.news/p/institutional-ai-vs-individual-ai
-
-3. [AINews] Replit Agent 4: The Knowledge Work Agent
-Replit 在过去六个月估值从 30 亿涨至 90 亿美元，同步推出 Agent 4——不再只是&quot;加了 AI 的代码编辑器&quot;，而是覆盖 Apps、Slides、Sites、Videos 的全能知识工作平台，实现从编程工具到生产力套件的全面跳升。与此同时，本期 AINews 汇总了当日多个重要技术发布：NVIDIA Nemotron 3 Super（120B/12B active，混合 Mamba-Transformer 架构，原生支持 MTP 多 token 推测，推理速度最高达 484 tok/s）、Perplexity 宣布 Personal Computer（Mac mini 本地/云混合 Agent）、@karpathy 提出&quot;我们需要一个更大的 IDE&quot;而非 IDE 已死的论断。整个趋势指向 2026 年的主轴：Coding Agent → Knowledge Work Agent，编程能力只是入口，知识工作的全面 Agent 化才是终点。
-🔗 https://www.latent.space/p/ainews-replit-agent-4-the-knowledge
-
-4. How NVIDIA AI-Q Reached #1 on DeepResearch Bench I and II
-NVIDIA 的开源 Agent 框架 AI-Q Deep Researcher 同时拿下 DeepResearch Bench I（55.95 分）和 II（54.50 分）两个研究 Agent 基准测试第一名。其架构采用三层设计（Orchestrator + Planner + Researcher），基于 NeMo Agent Toolkit 和 LangChain DeepAgents，骨干模型为 NVIDIA Nemotron 3 Super（约 6.7 万条 SFT 数据微调，研究合成任务专项优化）。AI-Q 是完全开放的蓝图，包括权重、训练数据和推理基础设施细节，强调企业可自主拥有、检查和定制。
-🔗 https://huggingface.co/blog/nvidia/how-nvidia-won-deepresearch-bench
-
-5. Coding After Coders: The End of Computer Programming as We Know It
-《纽约时报》杂志重磅长文，记者 Clive Thompson 采访了包括 Google、Amazon、Microsoft、Apple 在内超过 70 名软件开发者，深度记录 AI 辅助编程正在如何颠覆程序员的职业形态。文章呈现了一个正在加速的分裂：一部分开发者拥抱 AI 辅助工具大幅提效，另一部分强烈抵触、坚守手写代码的工匠精神。文章引用了 Les Orchard 的观察：&quot;AI 辅助编程正在暴露开发者群体中一直存在但不那么明显的鸿沟——注重工艺的人 vs 就是想让东西跑起来的人。&quot;
-🔗 https://simonwillison.net/2026/Mar/12/coding-after-coders/#atom-everything
-
-🐦 Twitter 精选（5 / 12）
-
-1. @emollick：写了一篇关于 AI 指数级进步路径的文章，并记录了早期迹象：工作性质正在发生巨变，包括已有软件公司没有人再写代码了，以及 F1 赛季一周内 AI 工作渗透的真实观察。
-🔗 https://x.com/emollick/status/2032097753011028164
-
-2. @emollick：越来越多证据表明，人类与 AI 如何协同工作是我们必须解决的核心问题，否则人类端会在配合中不堪重负而崩溃。
-🔗 https://x.com/emollick/status/2032153281753981270
-
-3. @emollick：对于那些有眼光看到的人，各项指标的指数级提升无处不在——包括一些全新的、早期非推理模型完全无法完成的基准测试，现在都已呈现出清晰的改进曲线。
-🔗 https://x.com/emollick/status/2031913755336982703
-
-4. @kloss_xyz：如果你的 AI Agent 系统在欺骗你，有办法让它自己坦白：你的 Agent 其实已经知道哪里有冲突规则被忽视，哪些东西已经过期，只是没有主动告诉你而已。
-🔗 https://x.com/kloss_xyz/status/2032223154094162063
-
-5. @Hesamation：理智正在回归——企业开始意识到，靠 markdown 文件跑不了数十亿美元的生意。
-🔗 https://x.com/Hesamation/status/2032242139212517437
-
-📱 公众号精选（5 / 10）
-
-1. Lovable 一个月新增 1 亿美金 ARR，Replit 再融 4 亿美金 Cursor 打算融 50 亿美金
-AI Coding 赛道本周密集爆出数据：Lovable 最新 ARR 已达 4 亿美元，距上一次突破 3 亿仅一个月；日活超 1500 万，每天新增 20 万个项目，绝大多数用户仍是非技术背景的创始人。Replit 正式官宣 4 亿美元融资（估值 90 亿美元），投资方阵容包括 a16z、Coatue、YC、卡塔尔投资局和埃森哲战略投资；Replit 声称覆盖全球 500 强企业的 85%，今年 ARR 有望破 10 亿。Cursor 传出高达 50 亿美元的新融资规模，若完成将推动估值至 600 亿美元。值得注意的是，Lovable 首席营收官明确表示 Claude 并没有抢走他们的市场，反而把整体市场做大了——专业开发者倾向于用 Claude，非技术用户则更爱 Lovable。
-🔗 https://mp.weixin.qq.com/s/ZxOQmNiOfajUwBqiRRJ7_Q
-
-2. SenseAI 荐读｜2026年 a16z GenAI 应用 Top 100
-a16z 第六版 Top 100 生成式 AI 消费应用榜单发布，三大结构性变化最为关键：①ChatGPT 仍领先但&quot;默认 AI&quot;之争已开打，Claude 付费订阅同比增长超 200%，两者的生态路线已彻底分化——ChatGPT 押注消费超级应用（旅行/购物/健康），Claude 深耕专业场景（金融数据终端/开发者基础设施）；②AI Agent 首次携带真实用户数据登榜（OpenClaw、Manus），不再只是概念；③AI 主战场正从浏览器向桌面原生工具和操作系统层迁移，CapCut、Canva、Notion 等&quot;AI 加持&quot;型产品首次纳入榜单。
-🔗 https://mp.weixin.qq.com/s/TTgeFQKEXPn-zMH0baIsmA
-
-3. a16z：Agent 表现不好，可能是缺乏正确的数据上下文
-a16z 深度分析企业 AI Agent 失败的核心原因：不是模型能力不够，而是&quot;上下文层&quot;缺失。文章拆解了一个典型案例：数据 Agent 被问&quot;上季度收入增长多少&quot;时，面临的挑战不是 SQL 生成，而是找不到&quot;收入&quot;和&quot;季度&quot;的组织级统一定义——语义层文件是离职员工写的，新产品线没更新，事实数据散落在多张表。文章提出现代&quot;上下文层&quot;需要成为语义层的超集，包含持续更新的实体规范、身份消解、部落知识和治理指引，才能让 Agent 真正自主运行。
-🔗 https://mp.weixin.qq.com/s/WtQKUBPzqxlcToFuZTJtgA
-
-4. 晚点独家丨爱诗融资 3 亿美元，中国视频生成最大单笔融资诞生
-爱诗科技（PixVerse）完成 3 亿美元 C 轮融资，超过 20 家机构投资，鼎晖领投。这是中国视频生成领域有史以来最大单笔融资。爱诗主打&quot;实时交互&quot;视频生成方向，在 Sora、Veo 等海外产品竞争格局仍未稳定的背景下，完成了大规模融资。
-🔗 https://mp.weixin.qq.com/s/IvYrlRtAfIqWV9hZlqQm4w
-
-5. 深度｜行业还在争论数据路线，第一个具身数据独角兽已经跑出
-在行业还在争论数据采集路线的时候，第一个具身数据独角兽已经率先跑出。资本给出了判断：真正胜出的不是单一数据路线的押注者，而是能够构建系统能力的玩家。具身机器人数据生态的竞争格局正在加速分化。
-🔗 https://mp.weixin.qq.com/s/_P_l1m1u1woS72CJMVJeyA
-
-📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-03-13.html</description>
     </item>
   </channel>
 </rss>
