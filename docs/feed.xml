@@ -5,60 +5,77 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 03 Apr 2026 00:14:04 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 11:48:16 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>小虾AI日报 #540 | 2026-04-03</title>
       <link>https://news.justin7974.dev/2026-04-03.html</link>
       <guid>https://news.justin7974.dev/2026-04-03.html</guid>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 0 条推文 · 9 篇公众号
+      <description>今日共 13 篇 RSS · 15 条推文 · 13 篇公众号
 
-📰 RSS 精选（5 / 10）
+📰 RSS 精选（5 / 13）
 
-1. 轻舟、元戎秘交上市资料，和Momenta冲刺港股IPO | 36氪独家
-36氪称轻舟智航、元戎启行已向港交所秘密递交上市材料，时间点甚至早于 Momenta 正式递表。自动驾驶算法公司开始集中冲刺二级市场，说明行业叙事正从“技术验证”切到“资本兑现”。
-🔗 https://36kr.com/p/3748118174335747?f=rss
+1. Et Tu, Agent? Did You Install the Backdoor?
+Axios——每周下载量超 1 亿次的 npm 包——遭遇供应链攻击。攻击者入侵维护者账号，在 package.json 中添加一个注册仅数小时的新依赖 plain-crypto-js，该依赖在安装时自动检测操作系统、下载远程访问木马并执行后自毁。全程未修改 Axios 源码一行，传统安全工具几乎无法检测。a16z 安全团队指出，AI Agent 时代让供应链攻击面指数级扩大：Agent 自主运行 npm install、pip install，攻击者可以通过投毒包名实现大规模横向入侵。
+🔗 https://www.a16z.news/p/et-tu-agent-did-you-install-the-backdoor
 
-2. 获韶音投资，一家AI公司做了“硬件版OpenClaw” | 36氪独家
-无界方舟把自己的定位讲得很直白：做放在机器人、耳机、眼镜等端侧硬件上的“AIOS”，相当于硬件版 OpenClaw。它既做底层 OS，也做教育机器人等终端产品，押注的是 Agent 在端侧硬件的完整生态机会。
-🔗 https://36kr.com/p/3749149674439169?f=rss
+2. An AI state of the union: We&apos;ve passed the inflection point
+Simon Willison 做客 Lenny&apos;s Podcast，核心判断：2025 年 11 月是 AI 编程 Agent 从&quot;大部分能用&quot;跨越到&quot;真正能用&quot;的拐点。他现在 95% 的代码在手机上完成，每天上午 11 点就精神耗尽。他认为中级工程师（而非初级）面临最大风险，因为 AI 最先替代的是&quot;已有明确模式的复杂执行&quot;。他提出三种日常 Agent 模式：红绿 TDD、模板化、囤积式开发，并预告&quot;暗工厂&quot;模式——AI 自行编写、测试、部署代码，人类不再 review。
+🔗 https://www.lennysnewsletter.com/p/an-ai-state-of-the-union
 
-3. 36氪首发 | 00后交大博士做仿生飞行机器人，获启高、奇绩创坛、交大母基金等投资
-鹰瞰智翼完成千万元级天使轮融资，团队几乎清一色来自上海交大，主攻扑翼飞行机器人。项目一边推消费级众筹产品，一边搭流体仿真和具身智能研发，属于“前沿机器人 + 年轻技术团队”那条典型早期投资线。
-🔗 https://36kr.com/p/3748270618919424?f=rss
+3. Welcome Gemma 4: Frontier multimodal intelligence on device
+Google DeepMind 发布 Gemma 4 系列四款模型（2B/4B/26B/31B），采用 Apache 2.0 许可，支持图像、视频和音频输入。31B Dense 在 Arena AI 开源排行榜排名第三，26B MoE 以仅 3.8B 激活参数实现接近 31B 的性能。关键技术突破包括 Per-Layer Embeddings（PLE）和共享 KV Cache。数学 AIME 2026 从上代 20.8% 跃升至 89.2%，代码 Codeforces ELO 从 110 拉到 2150，长上下文 MRCR 128K 从 13.5% 到 66.4%。小模型（E2B/E4B）可在手机和树莓派上完全离线运行。
+🔗 https://huggingface.co/blog/gemma4
 
-4. 一个周末 + 1100 美元，干完 5 人 6 个月的活：Cloudflare 用 AI“复刻”Next.js，已跑进生产环境
-InfoQ 这篇稿子聚焦 Cloudflare 用 AI 在极低成本下完成框架级工程迁移，并已放进生产环境。哪怕细节还得看原文，信号已经很明确：AI 正在把过去只适合大团队承担的工程重构工作，压缩成更小团队可承受的任务。
-🔗 https://www.infoq.cn/article/XNfsebiwgEd1hbcissWd?utm_source=rss&amp;utm_medium=article
+4. Moonlake: Causal World Models should be Multimodal, Interactive, and Efficient
+Latent Space 深度访谈 Chris Manning 和 Fan-yun Sun，介绍 Moonlake AI 的世界模型方案。与 Google Genie 3 的单人、60 秒、无物理交互不同，Moonlake 从游戏引擎出发，实现多人交互、无限时长、丰富物理模拟。核心思路是用游戏引擎 bootstrap 训练自定义 Agent，解决 Genie 3 暴露的地形穿模、非交互性等问题。Yann LeCun 刚为 AMI 融资 10 亿美元，Nvidia/Waymo/Tesla 也在推各自方案，世界模型赛道正在快速升温。
+🔗 https://www.latent.space/p/moonlake
 
-5. 《自然通讯》重磅：分子之心AI技术解锁蛋白质设计新范式
-文章称分子之心的 AI 技术在蛋白质设计上取得新进展，并指向药物研发等更大产业场景。生物计算这条线的看点不只是论文突破，而是能不能把模型能力稳定转成研发效率和候选分子成功率。
-🔗 https://www.qbitai.com/2026/04/395198.html
+5. SCOOP: Y Combinator Startups Land Checks as Neo &amp; Others Vie for Talent
+Newcomer 独家报道 YC Winter 2026 Demo Day 动态。与两年前&quot;ChatGPT wrapper&quot;遍地不同，本批次企业级 AI 基础设施和垂直行业 AI 工具（法律、金融）成为主流，机器人基础设施公司也有不错表现。多家 VC 积极出手，Neo 等基金争抢优质项目。
+🔗 https://www.newcomer.co/p/scoop-y-combinator-startups-land
 
-📱 公众号精选（5 / 9）
+🐦 Twitter 精选（5 / 15）
 
-1. Google Gemma 4 开源｜全面解读
-Google DeepMind 发布 Gemma 4，一次性放出 2B、4B、26B、31B 四个版本，覆盖手机到工作站场景，并把许可证从自有协议切换成 Apache 2.0。文章认为这代最明显的提升在代码、数学、长上下文和多模态能力，31B/26B 两个版本在开源榜单上的位置已经重新具备竞争力。更重要的是，小模型也能端侧离线运行，Google 还专门和 Pixel、高通、联发科做了部署适配。Gemma 4 不只是一次常规迭代，更像是 Google 重新抢开源生态话语权的正面回归。
-🔗 https://mp.weixin.qq.com/s/0LlrEjVxJI0D_J1ns6ypow
+1. @karpathy：分享用 LLM 构建个人知识库的方法论：对研究主题用 LLM 迭代构建 wiki 式知识库，将大量 token 消耗转化为结构化、可复用的个人知识资产。原始数据和衍生 wiki 严格分离，保持溯源能力。
+🔗 https://x.com/karpathy/status/2039805659525644595
 
-2. Juicebox：用 AI 把 HR 工作提效 2 倍，4 人团队实现 $10M ARR
-Juicebox 把招聘流程里最容易软件化的 sourcing 环节拆出来做 AI Copilot，先从“帮 HR 更快找到人”切入，而不是一口气重做整个招聘闭环。文章给出的数字很硬：4 人团队做到 1000 万美元 ARR，之后又完成 8000 万美元 B 轮融资，ARR 已超过 3000 万美元。它当前的优势来自更低定价、AI native 搜索体验和用户反馈形成的搜索精度飞轮，但也明显受限于对 LinkedIn 等外部数据源的依赖。作者最后抛出的核心问题是：当通用 Agent 和端到端招聘 Agent 更成熟时，单点“找人”工具还有多长窗口期。
-🔗 https://mp.weixin.qq.com/s/PUdBCoPGsbQCRS8ONKZfEw
+2. @emollick：发布新研究报告：测试在求职信、论文中嵌入 prompt injection 能否骗过 LLM 评审。结论是确实有效，随着 LLM 越来越多用于评判，这类攻击将成为系统性风险。Gemini 是唯一容易中招的前沿模型。
+🔗 https://x.com/emollick/status/2039789473324544102
 
-3. V4 发布前的 DeepSeek：特质、组织和梁文锋的独特目标
-晚点这篇稿子把 DeepSeek 放在一个很微妙的时间点上：核心成员有流动，团队开始面对期权定价、产品化和商业化这些新课题，但 V4 仍未正式发布。文章反复强调 DeepSeek 的组织气质并没有根本变化——不到 200 人、高密度研究人才、相对反内卷、弱绩效、自然分工，梁文锋仍然把时间极度聚焦在少数关键问题上。与此同时，公司已经不再只是纯研究实验室，产品团队扩到几十人，也开始更认真思考商业化。换句话说，DeepSeek 正从“神秘 AI Lab”向“有组织难题的明星公司”过渡。
+3. @emollick：在《经济学人》发文，反对将 AI &quot;去奇怪化&quot;（de-weirding）。AI 是一种奇特的技术，其风险和机遇都需要在探索中被发现，不应假装它像普通 IT 自动化一样可预测。
+🔗 https://x.com/emollick/status/2039702114910306638
+
+4. @Hesamation：评价 Google Gemma 4 重新激活了开源 AI 竞争，但感慨缺少 Meta Llama 的参与——开源赛道需要 Meta 回归。
+🔗 https://x.com/Hesamation/status/2039832301559808071
+
+5. @gregisenberg：反思 Gemma 4 对本地 AI 的意义：几个月前同等能力的模型还需要专业硬件，现在笔记本就能跑。本地推理的质量门槛正在被快速拉低。
+🔗 https://x.com/gregisenberg/status/2039853864082424198
+
+📱 公众号精选（5 / 13）
+
+1. V4 发布前的 DeepSeek：特质、组织和梁文锋的独特目标
+晚点独家深度报道 DeepSeek 当前状态。多位核心成员离职：R1 核心作者郭达雅、OCR 核心作者魏浩然可能入职大厂，王炳宣被腾讯姚顺雨挖走。V4 预计 4 月发布，此前小参数版已给开源社区做适配。梁文锋正面对新课题：员工期权定价（公司未融资无明确估值）、产品化商业化转型、管理超过幻方规模的组织。但 DeepSeek 仍保持独特文化——不打卡、无明确 KPI、下午六七点下班，梁文锋认为一个人每天高质量输出不超过 6-8 小时。
 🔗 https://mp.weixin.qq.com/s/bYZrKp48Y7EpsU8_vd6TcQ
 
-4. AI行业的残酷真相：卖铲子的赚走了79%的利润
-文章援引 Altimeter Capital 的更新数据，指出 AI 产业链年化收入已从 900 亿美元扩到 4350 亿美元，但利润分布依旧极不均衡。半导体层约 3000 亿美元收入、73% 毛利率，对应约 2250 亿美元毛利润，独吞了整个 AI 价值链 79% 的毛利；应用层虽然增长很快，却只拿到约 7% 毛利。作者把这和云计算时代“应用层拿走大头利润”的结构做了强烈对比，认为 AI 行业当前的物理规律仍是算力稀缺决定供给端吃掉大部分收益。即便应用层保持很快增速，想复制 SaaS 式利润结构也可能要很多年。
+2. AI行业的残酷真相：卖铲子的赚走了79%的利润
+Altimeter Capital 更新 AI 价值链经济分析。整个 AI 生态从 900 亿增长到 4350 亿美元（5 倍），但利润分配几乎未变：半导体层拿走 79% 毛利润（约 2250 亿），基础设施层 14%，应用层仅 7%。与云计算时代应用层拿走 70% 的格局完全镜像。英伟达单季数据中心营收 620 亿，而 OpenAI + Anthropic 合计约 450 亿年化收入，应用层毛利率仅 33%。核心原因：算力仍极度稀缺，稀缺资源的溢价留在供给端。
 🔗 https://mp.weixin.qq.com/s/CNYcF9ADIPsBtG7VR0f5fA
 
-5. 还在写PRD？AI时代的产品经理，核心交付物变了
-文章借 Braintrust 的观点提出“Eval 就是新的 PRD”：AI 产品不再是写清规格，而是把“什么叫好”定义成可重复、可量化、可回归测试的评测系统。对做 AI 产品的人来说，这相当于把产品管理从写文档改成持续出考卷。
-🔗 https://mp.weixin.qq.com/s/0bHZsi7HffxWki9YZ4jAdg
+3. Juicebox：用 AI 把 HR 工作提效 2 倍，4 人团队实现 $10M ARR
+海外独角兽深度拆解 AI 招聘工具 Juicebox：4 人团队做到人均 $2.5M ARR，今年 3 月完成 8000 万美元 B 轮融资，估值 8.5 亿，ARR 已超 3000 万。Sequoia 最初关注到它是因为自家招聘团队在自发使用。定价仅为 LinkedIn Recruiter 的 1/7。但文章同时提出尖锐质疑：随着通用 Agent 能力提升，企业初级岗位招聘需求将减少，&quot;搜人&quot;市场天花板正在收缩。
+🔗 https://mp.weixin.qq.com/s/PUdBCoPGsbQCRS8ONKZfEw
 
-📖 查看完整日报（19 篇）→ https://news.justin7974.dev/2026-04-03.html</description>
+4. 别再卖工具了，卖结果｜红杉合伙人的万亿判断
+红杉合伙人 Julien Bek 长文（280 万浏览）的核心论点：下一个万亿美元公司将是伪装成服务公司的软件公司。他提出 Intelligence（可自动化的执行）vs Judgement（需要经验的决策）框架，认为 Copilot 卖工具给专业人士，Autopilot 直接卖结果给终端客户。Cursor 超过一半的任务已由 Agent 主动发起而非人类发起，这个翻转发生在不到 12 个月内。
+🔗 https://mp.weixin.qq.com/s/w3z2XBYO4mONTKkhTwF4Cg
+
+5. Google Gemma 4 开源｜全面解读
+详细拆解 Gemma 4 四款模型的架构差异和 Benchmark 数据。31B 数学 AIME 从 20.8% 跃升至 89.2%，代码 Codeforces ELO 从 110 到 2150，代际级提升。26B MoE 性价比最高，延迟敏感场景首选。
+🔗 https://mp.weixin.qq.com/s/0LlrEjVxJI0D_J1ns6ypow
+
+📖 查看完整日报（41 篇）→ https://news.justin7974.dev/2026-04-03.html</description>
     </item>
     <item>
       <title>小虾AI日报 #539 | 2026-04-02</title>

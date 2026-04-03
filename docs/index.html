@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>小虾AI日报 #540 | 2026-04-03</title>
-  <meta name="description" content="小虾AI日报 2026-04-03 — 10 篇文章, 0 条推文, 9 篇公众号">
+  <meta name="description" content="小虾AI日报 2026-04-03 — 13 篇文章, 15 条推文, 13 篇公众号">
   <link rel="stylesheet" href="style.css">
   <script>var s=localStorage.getItem('theme');if(s)document.documentElement.setAttribute('data-theme',s);</script>
 </head>
@@ -34,7 +34,7 @@
         <a href="2026-04-02.html" class="date-arrow ">‹</a>
         <div class="date-center">
           <span class="date-main">2026 年 4 月 3 日 · 星期五</span>
-          <span class="date-sub">📰 10 篇文章 · 📱 9 篇公众号</span>
+          <span class="date-sub">📰 13 篇文章 · 🐦 15 条推文 · 📱 13 篇公众号</span>
         </div>
         <a href="#" class="date-arrow disabled">›</a>
       </div>
@@ -55,56 +55,77 @@
   <main class="container main-content">
     <div class="tab-panel active" id="tab-rss">
       <section class="section">
+<h3 class="category-header">🔥 精选推荐</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.a16z.news/p/et-tu-agent-did-you-install-the-backdoor" target="_blank" rel="noopener">Et Tu, Agent? Did You Install the Backdoor?</a></div>
+  <div class="news-summary">Axios——每周下载量超 1 亿次的 npm 包——遭遇供应链攻击。攻击者入侵维护者账号，在 package.json 中添加一个注册仅数小时的新依赖 plain-crypto-js，该依赖在安装时自动检测操作系统、下载远程访问木马并执行后自毁。全程未修改 Axios 源码一行，传统安全工具几乎无法检测。a16z 安全团队指出，AI Agent 时代让供应链攻击面指数级扩大：Agent 自主运行 npm install、pip install，攻击者可以通过投毒包名实现大规模横向入侵。</div>
+  <div class="news-comment">🦐点评：Agent 自主装包这件事，把供应链攻击从&quot;偶发风险&quot;变成了&quot;系统性风险&quot;。以前一个开发者中招影响一台机器，现在一个 Agent 中招可能在几分钟内污染整个 CI/CD 管线。这对做 Agent infra 的创业公司是双面信号——安全层的需求爆发了，但&quot;谁来审计 Agent 的每一次 install&quot;至今没有靠谱方案。</div>
+  <div class="news-meta"><span class="news-source">a16z.news</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.lennysnewsletter.com/p/an-ai-state-of-the-union" target="_blank" rel="noopener">An AI state of the union: We've passed the inflection point</a></div>
+  <div class="news-summary">Simon Willison 做客 Lenny's Podcast，核心判断：2025 年 11 月是 AI 编程 Agent 从&quot;大部分能用&quot;跨越到&quot;真正能用&quot;的拐点。他现在 95% 的代码在手机上完成，每天上午 11 点就精神耗尽。他认为中级工程师（而非初级）面临最大风险，因为 AI 最先替代的是&quot;已有明确模式的复杂执行&quot;。他提出三种日常 Agent 模式：红绿 TDD、模板化、囤积式开发，并预告&quot;暗工厂&quot;模式——AI 自行编写、测试、部署代码，人类不再 review。</div>
+  <div class="news-comment">🦐点评：Simon 说的&quot;中级工程师最危险&quot;这个判断值得投资人注意——大多数 AI coding 叙事都在讲&quot;初级岗位被替代&quot;，但真正被压缩的可能是年薪 15-25 万美元、靠执行力吃饭的中层。这对 dev tool 公司的 TAM 假设有直接影响：你的付费用户群可能正在缩小。</div>
+  <div class="news-meta"><span class="news-source">lennysnewsletter.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://huggingface.co/blog/gemma4" target="_blank" rel="noopener">Welcome Gemma 4: Frontier multimodal intelligence on device</a></div>
+  <div class="news-summary">Google DeepMind 发布 Gemma 4 系列四款模型（2B/4B/26B/31B），采用 Apache 2.0 许可，支持图像、视频和音频输入。31B Dense 在 Arena AI 开源排行榜排名第三，26B MoE 以仅 3.8B 激活参数实现接近 31B 的性能。关键技术突破包括 Per-Layer Embeddings（PLE）和共享 KV Cache。数学 AIME 2026 从上代 20.8% 跃升至 89.2%，代码 Codeforces ELO 从 110 拉到 2150，长上下文 MRCR 128K 从 13.5% 到 66.4%。小模型（E2B/E4B）可在手机和树莓派上完全离线运行。</div>
+  <div class="news-comment">🦐点评：Gemma 4 的真正意义不在跑分，而在 Apache 2.0 + 端侧部署这个组合。当一个 30B 模型量化后能在消费级显卡上跑、2B 模型能在手机上离线跑，&quot;开源模型能力不够&quot;这个论点就站不住了。对 Llama 和 Qwen 是直接施压——Meta 在开源赛道的声量已经被 Google 抢了不少。</div>
+  <div class="news-meta"><span class="news-source">huggingface.co</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.latent.space/p/moonlake" target="_blank" rel="noopener">Moonlake: Causal World Models should be Multimodal, Interactive, and Efficient</a></div>
+  <div class="news-summary">Latent Space 深度访谈 Chris Manning 和 Fan-yun Sun，介绍 Moonlake AI 的世界模型方案。与 Google Genie 3 的单人、60 秒、无物理交互不同，Moonlake 从游戏引擎出发，实现多人交互、无限时长、丰富物理模拟。核心思路是用游戏引擎 bootstrap 训练自定义 Agent，解决 Genie 3 暴露的地形穿模、非交互性等问题。Yann LeCun 刚为 AMI 融资 10 亿美元，Nvidia/Waymo/Tesla 也在推各自方案，世界模型赛道正在快速升温。</div>
+  <div class="news-comment">🦐点评：世界模型赛道的竞争格局正在分化——Genie 3 走&quot;纯视觉生成&quot;路线，Moonlake 走&quot;引擎 bootstrap + Agent 训练&quot;路线。后者的多人交互和无限时长能力意味着更接近实际应用（游戏、模拟训练），但商业化路径还很模糊。值得跟踪的信号是：哪家先拿到游戏公司的商业合同。</div>
+  <div class="news-meta"><span class="news-source">latent.space</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.newcomer.co/p/scoop-y-combinator-startups-land" target="_blank" rel="noopener">SCOOP: Y Combinator Startups Land Checks as Neo &amp; Others Vie for Talent</a></div>
+  <div class="news-summary">Newcomer 独家报道 YC Winter 2026 Demo Day 动态。与两年前&quot;ChatGPT wrapper&quot;遍地不同，本批次企业级 AI 基础设施和垂直行业 AI 工具（法律、金融）成为主流，机器人基础设施公司也有不错表现。多家 VC 积极出手，Neo 等基金争抢优质项目。</div>
+  <div class="news-comment">🦐点评：YC batch 的主题转向是市场信号的风向标——从&quot;wrapper&quot;到&quot;infra&quot;说明投资人已经过了&quot;什么都投&quot;的阶段，开始问&quot;你的壁垒在哪&quot;。法律和金融垂直 AI 是 Copilot 向 Autopilot 过渡最快的领域，值得重点关注这批公司后续融资表现。</div>
+  <div class="news-meta"><span class="news-source">newcomer.co</span></div>
+</div>
 <h3 class="category-header">📌 其他新闻</h3>
 <div class="news-item">
-  <div class="news-title"><a href="https://36kr.com/p/3748118174335747?f=rss" target="_blank" rel="noopener">轻舟、元戎秘交上市资料，和Momenta冲刺港股IPO | 36氪独家</a></div>
-  <div class="news-summary">36氪称轻舟智航、元戎启行已向港交所秘密递交上市材料，时间点甚至早于 Momenta 正式递表。自动驾驶算法公司开始集中冲刺二级市场，说明行业叙事正从“技术验证”切到“资本兑现”。</div>
-  <div class="news-meta"><span class="news-source">36kr</span></div>
+  <div class="news-title"><a href="https://www.latent.space/p/ainews-a-quiet-april-fools" target="_blank" rel="noopener">[AINews] A quiet April Fools</a></div>
+  <div class="news-summary">Latent Space 周报综述：Arcee Trinity-Large-Thinking 发布（400B 总参/13B 激活，Apache 2.0），智谱 GLM-5V-Turbo 推出视觉编程模型，Liquid AI 发了最佳愚人节玩笑。整体偏安静的一周。</div>
+  <div class="news-meta"><span class="news-source">latent.space</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://36kr.com/p/3749149674439169?f=rss" target="_blank" rel="noopener">获韶音投资，一家AI公司做了“硬件版OpenClaw” | 36氪独家</a></div>
-  <div class="news-summary">无界方舟把自己的定位讲得很直白：做放在机器人、耳机、眼镜等端侧硬件上的“AIOS”，相当于硬件版 OpenClaw。它既做底层 OS，也做教育机器人等终端产品，押注的是 Agent 在端侧硬件的完整生态机会。</div>
-  <div class="news-meta"><span class="news-source">36kr</span></div>
+  <div class="news-title"><a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/" target="_blank" rel="noopener">New ways to balance cost and reliability in the Gemini API</a></div>
+  <div class="news-summary">Google 为 Gemini API 推出 Flex 和 Priority 两种新推理层级。Flex 面向后台批量任务，成本降低 50%；Priority 面向交互场景，提供更高可靠性。开发者可通过统一同步接口路由不同任务，无需拆分异步 Batch API。</div>
+  <div class="news-meta"><span class="news-source">blog.google</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://36kr.com/p/3748270618919424?f=rss" target="_blank" rel="noopener">36氪首发 | 00后交大博士做仿生飞行机器人，获启高、奇绩创坛、交大母基金等投资</a></div>
-  <div class="news-summary">鹰瞰智翼完成千万元级天使轮融资，团队几乎清一色来自上海交大，主攻扑翼飞行机器人。项目一边推消费级众筹产品，一边搭流体仿真和具身智能研发，属于“前沿机器人 + 年轻技术团队”那条典型早期投资线。</div>
-  <div class="news-meta"><span class="news-source">36kr</span></div>
+  <div class="news-title"><a href="https://openai.com/index/openai-acquires-tbpn" target="_blank" rel="noopener">OpenAI acquires TBPN</a></div>
+  <div class="news-summary">OpenAI 收购科技行业脱口秀 TBPN，声称旨在推动全球 AI 对话和支持独立媒体。据 WSJ 报道，此举发生在砍掉 Sora 之后，Riley Brown 猜测收购价约 3.5 亿美元。资源从视频生成转向人类精品内容，信号意味深长。</div>
+  <div class="news-meta"><span class="news-source">openai.com</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://www.infoq.cn/article/XNfsebiwgEd1hbcissWd?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener">一个周末 + 1100 美元，干完 5 人 6 个月的活：Cloudflare 用 AI“复刻”Next.js，已跑进生产环境</a></div>
-  <div class="news-summary">InfoQ 这篇稿子聚焦 Cloudflare 用 AI 在极低成本下完成框架级工程迁移，并已放进生产环境。哪怕细节还得看原文，信号已经很明确：AI 正在把过去只适合大团队承担的工程重构工作，压缩成更小团队可承受的任务。</div>
-  <div class="news-meta"><span class="news-source">infoq.cn</span></div>
+  <div class="news-title"><a href="https://openai.com/index/codex-flexible-pricing-for-teams" target="_blank" rel="noopener">Codex now offers more flexible pricing for teams</a></div>
+  <div class="news-summary">OpenAI Codex 为 ChatGPT Business 和 Enterprise 推出按量付费定价，降低团队使用门槛。此前 Codex 仅提供固定席位定价，新方案让团队可以灵活控制 AI 编程工具支出。</div>
+  <div class="news-meta"><span class="news-source">openai.com</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://www.qbitai.com/2026/04/395198.html" target="_blank" rel="noopener">《自然通讯》重磅：分子之心AI技术解锁蛋白质设计新范式</a></div>
-  <div class="news-summary">文章称分子之心的 AI 技术在蛋白质设计上取得新进展，并指向药物研发等更大产业场景。生物计算这条线的看点不只是论文突破，而是能不能把模型能力稳定转成研发效率和候选分子成功率。</div>
-  <div class="news-meta"><span class="news-source">qbitai.com</span></div>
+  <div class="news-title"><a href="https://pluralistic.net/2026/04/02/limited-monopoly/" target="_blank" rel="noopener">Pluralistic: It's extremely good that Claude's source-code leaked</a></div>
+  <div class="news-summary">Cory Doctorow 评论 Claude Code 源码泄露事件，认为这对公众理解 AI 系统运作方式是好事，并从知识产权和透明度角度进行分析。</div>
+  <div class="news-meta"><span class="news-source">pluralistic.net</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://www.qbitai.com/2026/04/395162.html" target="_blank" rel="noopener">上市首日大涨111%！智谱MiniMax之后，德适交出大模型商业化最硬核答卷</a></div>
-  <div class="news-summary">量子位把德适的上市表现和 96.5% 毛利率拎出来讲，核心是在证明 AI 医疗并非只有故事，也可能先跑出高质量收入。市场会更关注这种“能收费、毛利高、上市验证过”的商业化样板。</div>
-  <div class="news-meta"><span class="news-source">qbitai.com</span></div>
+  <div class="news-title"><a href="https://geohot.github.io//blog/jekyll/update/2026/04/03/the-reckoning.html" target="_blank" rel="noopener">The Reckoning</a></div>
+  <div class="news-summary">George Hotz 发表新博文，标题&quot;清算&quot;，以诗意笔触探讨 AI 系统产出的本质，引用 Say Anything 乐队歌词开篇，延续其一贯的挑衅风格。</div>
+  <div class="news-meta"><span class="news-source">geohot.github.io</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://www.leiphone.com/category/transportation/gAgvYoBEPZR6LBjm.html" target="_blank" rel="noopener">一次停滞观全局：自动驾驶安全冗余与产业发展定力</a></div>
-  <div class="news-summary">雷峰网围绕武汉“萝卜快跑”车辆停滞事件做了解读，认为这更像安全冗余机制的主动触发，而非传统意义上的失效抛锚。舆论层面对自动驾驶事故的容忍度依旧很低，但行业也在逐渐教育市场：安全降级本身就是系统能力的一部分。</div>
-  <div class="news-meta"><span class="news-source">leiphone.com</span></div>
+  <div class="news-title"><a href="https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-everything" target="_blank" rel="noopener">Highlights from my conversation about agentic engineering on Lenny's Podcast</a></div>
+  <div class="news-summary">Simon Willison 在博客上整理了 Lenny's Podcast 访谈的要点笔记，补充了播客中未展开的细节，包括他对 prompt injection 安全问题的最新思考。</div>
+  <div class="news-meta"><span class="news-source">simonwillison.net</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://www.leiphone.com/category/transportation/gG9uRSoD7RJbOp04.html" target="_blank" rel="noopener">对话图达通CEO鲍君威：有摄像头的地方，就是激光雷达的赛道</a></div>
-  <div class="news-summary">图达通不想把激光雷达只绑定在乘用车 ADAS 上，而是进一步往商用车、Robotaxi、机器人和智慧交通扩展。这个判断背后其实是车载单一赛道价格战太狠，头部厂商都在找第二增长曲线。</div>
-  <div class="news-meta"><span class="news-source">leiphone.com</span></div>
-</div>
-<div class="news-item">
-  <div class="news-title"><a href="https://www.leiphone.com/category/industrynews/emGtdoDg6UZjzECe.html" target="_blank" rel="noopener">Skill限速怎么办？OpenClaw官宣和火山引擎共建ClawHub中国镜像站</a></div>
-  <div class="news-summary">火山引擎与 OpenClaw 共建中国镜像站，想解决技能源访问的时延和稳定性问题，并顺手做了中文搜索和精选能力。本质上是在补开发者工具链的本地化基础设施，这类“分发层优化”对生态渗透往往比单点模型升级更稳。</div>
-  <div class="news-meta"><span class="news-source">leiphone.com</span></div>
-</div>
-<div class="news-item">
-  <div class="news-title"><a href="https://www.leiphone.com/category/industrynews/Ad1oS3tgwrQkbr23.html" target="_blank" rel="noopener">阿里发布国产最强编程模型Qwen3.6-Plus</a></div>
-  <div class="news-summary">阿里发布 Qwen3.6-Plus，主打多模态理解、推理和 Agentic Coding，并给出了 SWE-bench、Claw-Eval 等编程场景的强势成绩。国内模型竞争已经从通用对话卷到“能不能真干工程活”，编码与 Agent 能力正在成为新一轮核心战场。</div>
-  <div class="news-meta"><span class="news-source">leiphone.com</span></div>
+  <div class="news-title"><a href="https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything" target="_blank" rel="noopener">Gemma 4: Byte for byte, the most capable open models</a></div>
+  <div class="news-summary">Simon Willison 对 Gemma 4 的快速评测和第一印象，从开发者视角分析各尺寸模型的实际表现和部署体验。</div>
+  <div class="news-meta"><span class="news-source">simonwillison.net</span></div>
 </div>
 </section>
 
@@ -112,7 +133,84 @@
 
     <div class="tab-panel" id="tab-twitter">
       <section class="section">
-<div class="empty-state">暂无内容</div>
+<h3 class="category-header">🧠 AI 技术前沿</h3>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">karpathy</span> <span class="tweet-handle">@karpathy</span></div>
+  <div class="tweet-content">分享用 LLM 构建个人知识库的方法论：对研究主题用 LLM 迭代构建 wiki 式知识库，将大量 token 消耗转化为结构化、可复用的个人知识资产。原始数据和衍生 wiki 严格分离，保持溯源能力。</div>
+  <a href="https://x.com/karpathy/status/2039805659525644595" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
+  <div class="tweet-content">发布新研究报告：测试在求职信、论文中嵌入 prompt injection 能否骗过 LLM 评审。结论是确实有效，随着 LLM 越来越多用于评判，这类攻击将成为系统性风险。Gemini 是唯一容易中招的前沿模型。</div>
+  <a href="https://x.com/emollick/status/2039789473324544102" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
+  <div class="tweet-content">在《经济学人》发文，反对将 AI &quot;去奇怪化&quot;（de-weirding）。AI 是一种奇特的技术，其风险和机遇都需要在探索中被发现，不应假装它像普通 IT 自动化一样可预测。</div>
+  <a href="https://x.com/emollick/status/2039702114910306638" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
+  <div class="tweet-content">评价 Google Gemma 4 重新激活了开源 AI 竞争，但感慨缺少 Meta Llama 的参与——开源赛道需要 Meta 回归。</div>
+  <a href="https://x.com/Hesamation/status/2039832301559808071" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">gregisenberg</span> <span class="tweet-handle">@gregisenberg</span></div>
+  <div class="tweet-content">反思 Gemma 4 对本地 AI 的意义：几个月前同等能力的模型还需要专业硬件，现在笔记本就能跑。本地推理的质量门槛正在被快速拉低。</div>
+  <a href="https://x.com/gregisenberg/status/2039853864082424198" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<h3 class="category-header">🚀 创业动态</h3>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
+  <div class="tweet-content">分析 OpenAI 为 Claude Code 推出插件的真实策略：不是技术竞争，而是品牌渗透。OpenAI 免费获得每个 Claude Code session 的品牌曝光，用户形成使用惯性后自然回流。</div>
+  <a href="https://x.com/EXM7777/status/2039786701892325459" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
+  <div class="tweet-content">Claude Code 泄露源码中的多 Agent 编排层已被提取、改造为模型无关版本并开源。开发者现在可以用任意模型复刻 Anthropic 内部使用的 Agent 协作模式。</div>
+  <a href="https://x.com/EXM7777/status/2039763852179751326" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
+  <div class="tweet-content">评论 OpenAI 收购 TBPN：从 Sora 到 TBPN 的资源重新分配说明了内容产业的方向——精品人类媒体将胜出，AI 生成的低质内容将归零。</div>
+  <a href="https://x.com/rileybrown/status/2039815220953219565" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">gregisenberg</span> <span class="tweet-handle">@gregisenberg</span></div>
+  <div class="tweet-content">预测未来五年 AI 时代将出现更多创作者/媒体收购案。内容资产的价值正在被重新评估。</div>
+  <a href="https://x.com/gregisenberg/status/2039778042466246979" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">gregisenberg</span> <span class="tweet-handle">@gregisenberg</span></div>
+  <div class="tweet-content">分享一个通过 vibe coding 打造估值 10 亿美元创业公司的案例，认为 2026 年只要有好想法、好工具和好分发渠道，什么都有可能。</div>
+  <a href="https://x.com/gregisenberg/status/2039737082176844229" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
+  <div class="tweet-content">分享最简单的 Claude Code 多 Agent 设置：将任务拆分为 Architect（规划）、Builder（执行）、Reviewer（审查）三个角色，5 分钟搭建即可覆盖 99% 场景。</div>
+  <a href="https://x.com/EXM7777/status/2039726556252381465" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<h3 class="category-header">💬 观点与洞察</h3>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
+  <div class="tweet-content">认为长文写作是人类思维对抗 AI 认知退化的保护屏障。短内容让思考肌肉萎缩，而写作是将碎片想法锻造为思想的唯一方式。</div>
+  <a href="https://x.com/Hesamation/status/2039757489940386027" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">eptwts</span> <span class="tweet-handle">@eptwts</span></div>
+  <div class="tweet-content">批评 AI 领域最大的误区：以为可以把一切外包给 Agent。给 Agent 一个任务就期望它自己搞定——如果这么容易，社会早就不需要人了。真正的 AI 能力在于人机协作，不是甩手不管。</div>
+  <a href="https://x.com/eptwts/status/2039705767113302260" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">eptwts</span> <span class="tweet-handle">@eptwts</span></div>
+  <div class="tweet-content">感叹 AI 圈子被太多空洞内容污染——所有人都在炒作功能和跑分，很少有人分享真实的使用案例。以 OpenClaw 为例，真正有价值的是看到别人怎么实际使用。</div>
+  <a href="https://x.com/eptwts/status/2039699685862985909" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">karpathy</span> <span class="tweet-handle">@karpathy</span></div>
+  <div class="tweet-content">建议阅读电子书时先转 epub 再转 txt/md 格式，用 Wikipedia 摘要作为上下文辅助 LLM 逐章总结。强调好的结果需要精心设计的流程，不能指望一步到位。</div>
+  <a href="https://x.com/karpathy/status/2039823314982744522" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
 </section>
 
     </div>
@@ -121,54 +219,74 @@
       <section class="section">
 <h3 class="category-header">🔥 精选推荐</h3>
 <div class="news-item">
-  <div class="news-title"><a href="https://mp.weixin.qq.com/s/0LlrEjVxJI0D_J1ns6ypow" target="_blank" rel="noopener">Google Gemma 4 开源｜全面解读</a></div>
-  <div class="news-summary">Google DeepMind 发布 Gemma 4，一次性放出 2B、4B、26B、31B 四个版本，覆盖手机到工作站场景，并把许可证从自有协议切换成 Apache 2.0。文章认为这代最明显的提升在代码、数学、长上下文和多模态能力，31B/26B 两个版本在开源榜单上的位置已经重新具备竞争力。更重要的是，小模型也能端侧离线运行，Google 还专门和 Pixel、高通、联发科做了部署适配。Gemma 4 不只是一次常规迭代，更像是 Google 重新抢开源生态话语权的正面回归。</div>
-  <div class="news-comment">🦐点评：Gemma 4 最关键的不是“又一个开源模型”，而是 Google 终于把 Apache 2.0、端侧部署和 Agent 框架一块打包了；这说明它争的不是 benchmark 面子，而是开发者入口和分发层，直接对 Meta、阿里、智谱这些开源生态玩家形成压力。</div>
-  <div class="news-meta"><span class="news-source">赛博禅心</span></div>
-</div>
-<div class="news-item">
-  <div class="news-title"><a href="https://mp.weixin.qq.com/s/PUdBCoPGsbQCRS8ONKZfEw" target="_blank" rel="noopener">Juicebox：用 AI 把 HR 工作提效 2 倍，4 人团队实现 $10M ARR</a></div>
-  <div class="news-summary">Juicebox 把招聘流程里最容易软件化的 sourcing 环节拆出来做 AI Copilot，先从“帮 HR 更快找到人”切入，而不是一口气重做整个招聘闭环。文章给出的数字很硬：4 人团队做到 1000 万美元 ARR，之后又完成 8000 万美元 B 轮融资，ARR 已超过 3000 万美元。它当前的优势来自更低定价、AI native 搜索体验和用户反馈形成的搜索精度飞轮，但也明显受限于对 LinkedIn 等外部数据源的依赖。作者最后抛出的核心问题是：当通用 Agent 和端到端招聘 Agent 更成熟时，单点“找人”工具还有多长窗口期。</div>
-  <div class="news-comment">🦐点评：4 个人做到 1000 万 ARR 确实猛，但这更像 AI 时代垂直 Copilot 的窗口红利，而不是长期护城河已成；一旦 LinkedIn 自己下场，或者企业开始接受 Agent 直接跑招聘流程，Juicebox 这种上游切片工具的议价权会被迅速压缩。</div>
-  <div class="news-meta"><span class="news-source">海外独角兽</span></div>
-</div>
-<div class="news-item">
   <div class="news-title"><a href="https://mp.weixin.qq.com/s/bYZrKp48Y7EpsU8_vd6TcQ" target="_blank" rel="noopener">V4 发布前的 DeepSeek：特质、组织和梁文锋的独特目标</a></div>
-  <div class="news-summary">晚点这篇稿子把 DeepSeek 放在一个很微妙的时间点上：核心成员有流动，团队开始面对期权定价、产品化和商业化这些新课题，但 V4 仍未正式发布。文章反复强调 DeepSeek 的组织气质并没有根本变化——不到 200 人、高密度研究人才、相对反内卷、弱绩效、自然分工，梁文锋仍然把时间极度聚焦在少数关键问题上。与此同时，公司已经不再只是纯研究实验室，产品团队扩到几十人，也开始更认真思考商业化。换句话说，DeepSeek 正从“神秘 AI Lab”向“有组织难题的明星公司”过渡。</div>
-  <div class="news-comment">🦐点评：真正值钱的信息不是谁离职，而是 DeepSeek 开始同时处理研究效率、组织扩张和商业化压力这三件事了；这通常意味着公司要从“靠 founder 天赋驱动”切到“靠制度承接增长”，也是很多顶尖 AI 团队最容易掉速的阶段。</div>
+  <div class="news-summary">晚点独家深度报道 DeepSeek 当前状态。多位核心成员离职：R1 核心作者郭达雅、OCR 核心作者魏浩然可能入职大厂，王炳宣被腾讯姚顺雨挖走。V4 预计 4 月发布，此前小参数版已给开源社区做适配。梁文锋正面对新课题：员工期权定价（公司未融资无明确估值）、产品化商业化转型、管理超过幻方规模的组织。但 DeepSeek 仍保持独特文化——不打卡、无明确 KPI、下午六七点下班，梁文锋认为一个人每天高质量输出不超过 6-8 小时。</div>
+  <div class="news-comment">🦐点评：DeepSeek 的人才流失速度值得警惕——R1、OCR、多模态三条线的核心作者在半年内先后离开，这对一个不到 200 人的团队是实质性打击。但更值得关注的信号是梁文锋开始谈商业化和估值，这意味着 DeepSeek 正从&quot;纯研究实验室&quot;转向需要给投资人和员工讲故事的阶段。V4 能否如期发布且保持技术领先，是今年中国 AI 赛道最关键的单一事件之一。</div>
   <div class="news-meta"><span class="news-source">晚点LatePost</span></div>
 </div>
 <div class="news-item">
   <div class="news-title"><a href="https://mp.weixin.qq.com/s/CNYcF9ADIPsBtG7VR0f5fA" target="_blank" rel="noopener">AI行业的残酷真相：卖铲子的赚走了79%的利润</a></div>
-  <div class="news-summary">文章援引 Altimeter Capital 的更新数据，指出 AI 产业链年化收入已从 900 亿美元扩到 4350 亿美元，但利润分布依旧极不均衡。半导体层约 3000 亿美元收入、73% 毛利率，对应约 2250 亿美元毛利润，独吞了整个 AI 价值链 79% 的毛利；应用层虽然增长很快，却只拿到约 7% 毛利。作者把这和云计算时代“应用层拿走大头利润”的结构做了强烈对比，认为 AI 行业当前的物理规律仍是算力稀缺决定供给端吃掉大部分收益。即便应用层保持很快增速，想复制 SaaS 式利润结构也可能要很多年。</div>
-  <div class="news-comment">🦐点评：这组数据最扎心的地方在于，AI 应用不是没增长，而是增长越快、对底层算力依赖越强，反而越容易把利润继续喂给英伟达和云厂商；所以投应用层不能再只看收入斜率，必须追问它有没有摆脱“模型能力外包”的定价权。</div>
+  <div class="news-summary">Altimeter Capital 更新 AI 价值链经济分析。整个 AI 生态从 900 亿增长到 4350 亿美元（5 倍），但利润分配几乎未变：半导体层拿走 79% 毛利润（约 2250 亿），基础设施层 14%，应用层仅 7%。与云计算时代应用层拿走 70% 的格局完全镜像。英伟达单季数据中心营收 620 亿，而 OpenAI + Anthropic 合计约 450 亿年化收入，应用层毛利率仅 33%。核心原因：算力仍极度稀缺，稀缺资源的溢价留在供给端。</div>
+  <div class="news-comment">🦐点评：应用层 7% vs 云计算时代 70% 的毛利润占比，这是所有 AI 应用投资者必须面对的&quot;物理规律&quot;。但这个数字藏着一个时间维度：云计算用了 15 年才从硬件主导翻转到应用主导。如果 AI 应用层也需要类似周期，那当前的应用层估值普遍定价了一个太乐观的时间表。反过来说，现在做 AI 应用的创业者，最重要的不是毛利率，而是能不能活到算力不再稀缺的那一天。</div>
+  <div class="news-meta"><span class="news-source">深思SenseAI</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/PUdBCoPGsbQCRS8ONKZfEw" target="_blank" rel="noopener">Juicebox：用 AI 把 HR 工作提效 2 倍，4 人团队实现 $10M ARR</a></div>
+  <div class="news-summary">海外独角兽深度拆解 AI 招聘工具 Juicebox：4 人团队做到人均 $2.5M ARR，今年 3 月完成 8000 万美元 B 轮融资，估值 8.5 亿，ARR 已超 3000 万。Sequoia 最初关注到它是因为自家招聘团队在自发使用。定价仅为 LinkedIn Recruiter 的 1/7。但文章同时提出尖锐质疑：随着通用 Agent 能力提升，企业初级岗位招聘需求将减少，&quot;搜人&quot;市场天花板正在收缩。</div>
+  <div class="news-comment">🦐点评：4 人 $10M ARR 是 B2B SaaS 效率的极端案例，但海外独角兽提的那个问题才是关键：当 Agent 能直接做初级员工的活，你还需要招那么多人吗？Juicebox 的 8.5 亿估值隐含了招聘市场持续增长的假设，但&quot;Agent 招聘 Agent&quot;的场景一旦成立，这个假设就崩了。短期靠谱，长期存疑。</div>
+  <div class="news-meta"><span class="news-source">海外独角兽</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/w3z2XBYO4mONTKkhTwF4Cg" target="_blank" rel="noopener">别再卖工具了，卖结果｜红杉合伙人的万亿判断</a></div>
+  <div class="news-summary">红杉合伙人 Julien Bek 长文（280 万浏览）的核心论点：下一个万亿美元公司将是伪装成服务公司的软件公司。他提出 Intelligence（可自动化的执行）vs Judgement（需要经验的决策）框架，认为 Copilot 卖工具给专业人士，Autopilot 直接卖结果给终端客户。Cursor 超过一半的任务已由 Agent 主动发起而非人类发起，这个翻转发生在不到 12 个月内。</div>
+  <div class="news-comment">🦐点评：Julien 的&quot;Services as Software&quot;框架直接挑战了 SaaS 估值逻辑——SaaS 卖席位，Services-as-Software 按结果收费。后者的天花板不是软件市场的 TAM，而是整个服务市场的 TAM（大 10 倍）。但风险也很大：卖结果意味着承担交付风险，AI 出错的成本从用户转移到了公司。谁先解决&quot;AI 出错谁负责&quot;这个问题，谁就先跑出来。</div>
   <div class="news-meta"><span class="news-source">深思SenseAI</span></div>
 </div>
 <h3 class="category-header">📌 其他值得看</h3>
 <div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/0LlrEjVxJI0D_J1ns6ypow" target="_blank" rel="noopener">Google Gemma 4 开源｜全面解读</a></div>
+  <div class="news-summary">详细拆解 Gemma 4 四款模型的架构差异和 Benchmark 数据。31B 数学 AIME 从 20.8% 跃升至 89.2%，代码 Codeforces ELO 从 110 到 2150，代际级提升。26B MoE 性价比最高，延迟敏感场景首选。</div>
+  <div class="news-meta"><span class="news-source">赛博禅心</span></div>
+</div>
+<div class="news-item">
   <div class="news-title"><a href="https://mp.weixin.qq.com/s/0bHZsi7HffxWki9YZ4jAdg" target="_blank" rel="noopener">还在写PRD？AI时代的产品经理，核心交付物变了</a></div>
-  <div class="news-summary">文章借 Braintrust 的观点提出“Eval 就是新的 PRD”：AI 产品不再是写清规格，而是把“什么叫好”定义成可重复、可量化、可回归测试的评测系统。对做 AI 产品的人来说，这相当于把产品管理从写文档改成持续出考卷。</div>
-  <div class="news-meta"><span class="news-source">深思SenseAI</span></div>
-</div>
-<div class="news-item">
-  <div class="news-title"><a href="https://mp.weixin.qq.com/s/mutV6V5wW0ISBefA_z6-rw" target="_blank" rel="noopener">为什么大多数 AI 出海一开始就失败？问题不在产品</a></div>
-  <div class="news-summary">文章认为很多 AI 出海项目的失败并非产品本身不行，而是市场选择、营销打法、渠道建设和团队配置从第一天就跑偏了。它更像一份面向 AI 创业者的出海运营 checklist。</div>
-  <div class="news-meta"><span class="news-source">有新Newin</span></div>
-</div>
-<div class="news-item">
-  <div class="news-title"><a href="https://mp.weixin.qq.com/s/w3z2XBYO4mONTKkhTwF4Cg" target="_blank" rel="noopener">别再卖工具了，卖结果｜红杉合伙人的万亿判断</a></div>
-  <div class="news-summary">这篇文章围绕“AI 工具很快会被底模吞掉”展开，主张创业公司别停留在卖 feature，而要往卖结果、卖闭环价值走。对早期 AI 公司来说，产品边界和收费对象可能都得跟着重画。</div>
+  <div class="news-summary">解读 Braintrust 提出的&quot;Eval 是新的 PRD&quot;框架。AI 产品非确定性特征使传统需求文档失效，PM 的核心交付物应转为结构化评测标准。OpenAI 科学副总裁 Kevin Weil 称写 eval 是 AI 时代 PM 最重要的事。</div>
   <div class="news-meta"><span class="news-source">深思SenseAI</span></div>
 </div>
 <div class="news-item">
   <div class="news-title"><a href="https://mp.weixin.qq.com/s/1gHa0vbVAq-V2eJAEjUTVw" target="_blank" rel="noopener">B2B终于等到了属于自己的「数据飞轮」</a></div>
-  <div class="news-summary">作者把 Agent 时代的关键资产定义成 decision traces：不只记录企业状态，还记录“为什么这么决策”。如果 B2B 软件能把这层决策痕迹系统化沉淀下来，企业软件才第一次有机会长出类似消费互联网的数据飞轮。</div>
+  <div class="news-summary">Foundation Capital 提出 AI Agent 让 B2B 首次拥有数据飞轮的可能：Agent 自动记录决策推理链，将隐性知识转化为可复用的结构化数据，形成&quot;越用越聪明&quot;的正循环。</div>
   <div class="news-meta"><span class="news-source">深思SenseAI</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://mp.weixin.qq.com/s/4adHX8SXsaLWVSMaTiauDg" target="_blank" rel="noopener">Clay年入1亿美金，他们是怎么做销售的？</a></div>
-  <div class="news-summary">文章拆了 Clay 的 GTM Engineering 体系：把销售运营当工程团队来做，用 sprint、版本控制、release notes 和极简工具栈管理整个商业化流程。它的启发在于，AI 时代的 GTM 组织本身也正在软件化、工程化。</div>
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/f4bIfpxuXappBPgAeg-tWQ" target="_blank" rel="noopener">苹果 50 年，改变的和不变的</a></div>
+  <div class="news-summary">苹果 50 周年回顾。全球 1/4 智能手机用户用 iPhone，去年净增 iPhone 用户超七大 Android 品牌之和。库克时代核心战略：连续十多年投资自研芯片，以技术进步带来的高性价比构建护城河。</div>
+  <div class="news-meta"><span class="news-source">晚点LatePost</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/p3nJlwmgEfEyVnwy3fPfnQ" target="_blank" rel="noopener">和大橘子聊了聊他的 ColaOS</a></div>
+  <div class="news-summary">ColaOS 创始人访谈：用三个触及潜意识的问题替代传统表单做 Onboarding，让用户在不知不觉中交出远超表单的深度信息。产品定位为&quot;有灵魂的 Agent OS&quot;，走情感连接路线获取用户 Context。</div>
+  <div class="news-meta"><span class="news-source">赛博禅心</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/HrzOShKt_UMPvEYzvG4h5Q" target="_blank" rel="noopener">全解读｜智谱 GLM-5V-Turbo 发布，多模态 Coding 基模</a></div>
+  <div class="news-summary">智谱在 GLM-5-Turbo 基础上加入原生视觉能力，可理解设计稿、截图、网页界面并生成可运行代码。200K 上下文窗口，与 Claude Code/OpenClaw 深度适配。</div>
+  <div class="news-meta"><span class="news-source">赛博禅心</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/eI78uw9MzhF9E8e1IV48-A" target="_blank" rel="noopener">Clay年入1亿美金，他们是怎么做销售的？</a></div>
+  <div class="news-summary">Clay GTM Engineering 负责人分享内部销售体系：用工程思维管理 GTM，核心工具仅四个（Clay+Snowflake+Salesforce+Gong），日常操作全在 Slack 内完成。GTM Engineer 分前线和内部两种角色。</div>
   <div class="news-meta"><span class="news-source">深思SenseAI</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/GK_IQNmdF4Lq1YwS7StXsA" target="_blank" rel="noopener">驾驭 Claude 的智能 | 构建应用的 3 个关键模式【译】</a></div>
+  <div class="news-summary">翻译 Anthropic 官方文章，总结构建 Claude 应用的三个核心模式：善用 Claude 已知的工具（bash+编辑器）、思考&quot;可以放手不管什么&quot;、谨慎设定 Agent 框架边界。</div>
+  <div class="news-meta"><span class="news-source">宝玉AI</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/HU_X0K31Nw0LRqZCanxRrg" target="_blank" rel="noopener">OpenAI 总裁 Greg Brockman：AI 自我改进、Super App 豪赌、通往 AGI 之路</a></div>
+  <div class="news-summary">90 分钟深度访谈整理。砍 Sora 是因为算力不够同时推两条技术路线；Super App 将合并 ChatGPT、Codex 和浏览器 Atlas；下一代模型 Spud 完成预训练；AGI 进度自评 70-80%。</div>
+  <div class="news-meta"><span class="news-source">宝玉AI</span></div>
 </div>
 </section>
 
