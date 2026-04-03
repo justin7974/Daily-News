@@ -5,8 +5,61 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 02 Apr 2026 01:44:56 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 00:14:04 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #540 | 2026-04-03</title>
+      <link>https://news.justin7974.dev/2026-04-03.html</link>
+      <guid>https://news.justin7974.dev/2026-04-03.html</guid>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 0 条推文 · 9 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. 轻舟、元戎秘交上市资料，和Momenta冲刺港股IPO | 36氪独家
+36氪称轻舟智航、元戎启行已向港交所秘密递交上市材料，时间点甚至早于 Momenta 正式递表。自动驾驶算法公司开始集中冲刺二级市场，说明行业叙事正从“技术验证”切到“资本兑现”。
+🔗 https://36kr.com/p/3748118174335747?f=rss
+
+2. 获韶音投资，一家AI公司做了“硬件版OpenClaw” | 36氪独家
+无界方舟把自己的定位讲得很直白：做放在机器人、耳机、眼镜等端侧硬件上的“AIOS”，相当于硬件版 OpenClaw。它既做底层 OS，也做教育机器人等终端产品，押注的是 Agent 在端侧硬件的完整生态机会。
+🔗 https://36kr.com/p/3749149674439169?f=rss
+
+3. 36氪首发 | 00后交大博士做仿生飞行机器人，获启高、奇绩创坛、交大母基金等投资
+鹰瞰智翼完成千万元级天使轮融资，团队几乎清一色来自上海交大，主攻扑翼飞行机器人。项目一边推消费级众筹产品，一边搭流体仿真和具身智能研发，属于“前沿机器人 + 年轻技术团队”那条典型早期投资线。
+🔗 https://36kr.com/p/3748270618919424?f=rss
+
+4. 一个周末 + 1100 美元，干完 5 人 6 个月的活：Cloudflare 用 AI“复刻”Next.js，已跑进生产环境
+InfoQ 这篇稿子聚焦 Cloudflare 用 AI 在极低成本下完成框架级工程迁移，并已放进生产环境。哪怕细节还得看原文，信号已经很明确：AI 正在把过去只适合大团队承担的工程重构工作，压缩成更小团队可承受的任务。
+🔗 https://www.infoq.cn/article/XNfsebiwgEd1hbcissWd?utm_source=rss&amp;utm_medium=article
+
+5. 《自然通讯》重磅：分子之心AI技术解锁蛋白质设计新范式
+文章称分子之心的 AI 技术在蛋白质设计上取得新进展，并指向药物研发等更大产业场景。生物计算这条线的看点不只是论文突破，而是能不能把模型能力稳定转成研发效率和候选分子成功率。
+🔗 https://www.qbitai.com/2026/04/395198.html
+
+📱 公众号精选（5 / 9）
+
+1. Google Gemma 4 开源｜全面解读
+Google DeepMind 发布 Gemma 4，一次性放出 2B、4B、26B、31B 四个版本，覆盖手机到工作站场景，并把许可证从自有协议切换成 Apache 2.0。文章认为这代最明显的提升在代码、数学、长上下文和多模态能力，31B/26B 两个版本在开源榜单上的位置已经重新具备竞争力。更重要的是，小模型也能端侧离线运行，Google 还专门和 Pixel、高通、联发科做了部署适配。Gemma 4 不只是一次常规迭代，更像是 Google 重新抢开源生态话语权的正面回归。
+🔗 https://mp.weixin.qq.com/s/0LlrEjVxJI0D_J1ns6ypow
+
+2. Juicebox：用 AI 把 HR 工作提效 2 倍，4 人团队实现 $10M ARR
+Juicebox 把招聘流程里最容易软件化的 sourcing 环节拆出来做 AI Copilot，先从“帮 HR 更快找到人”切入，而不是一口气重做整个招聘闭环。文章给出的数字很硬：4 人团队做到 1000 万美元 ARR，之后又完成 8000 万美元 B 轮融资，ARR 已超过 3000 万美元。它当前的优势来自更低定价、AI native 搜索体验和用户反馈形成的搜索精度飞轮，但也明显受限于对 LinkedIn 等外部数据源的依赖。作者最后抛出的核心问题是：当通用 Agent 和端到端招聘 Agent 更成熟时，单点“找人”工具还有多长窗口期。
+🔗 https://mp.weixin.qq.com/s/PUdBCoPGsbQCRS8ONKZfEw
+
+3. V4 发布前的 DeepSeek：特质、组织和梁文锋的独特目标
+晚点这篇稿子把 DeepSeek 放在一个很微妙的时间点上：核心成员有流动，团队开始面对期权定价、产品化和商业化这些新课题，但 V4 仍未正式发布。文章反复强调 DeepSeek 的组织气质并没有根本变化——不到 200 人、高密度研究人才、相对反内卷、弱绩效、自然分工，梁文锋仍然把时间极度聚焦在少数关键问题上。与此同时，公司已经不再只是纯研究实验室，产品团队扩到几十人，也开始更认真思考商业化。换句话说，DeepSeek 正从“神秘 AI Lab”向“有组织难题的明星公司”过渡。
+🔗 https://mp.weixin.qq.com/s/bYZrKp48Y7EpsU8_vd6TcQ
+
+4. AI行业的残酷真相：卖铲子的赚走了79%的利润
+文章援引 Altimeter Capital 的更新数据，指出 AI 产业链年化收入已从 900 亿美元扩到 4350 亿美元，但利润分布依旧极不均衡。半导体层约 3000 亿美元收入、73% 毛利率，对应约 2250 亿美元毛利润，独吞了整个 AI 价值链 79% 的毛利；应用层虽然增长很快，却只拿到约 7% 毛利。作者把这和云计算时代“应用层拿走大头利润”的结构做了强烈对比，认为 AI 行业当前的物理规律仍是算力稀缺决定供给端吃掉大部分收益。即便应用层保持很快增速，想复制 SaaS 式利润结构也可能要很多年。
+🔗 https://mp.weixin.qq.com/s/CNYcF9ADIPsBtG7VR0f5fA
+
+5. 还在写PRD？AI时代的产品经理，核心交付物变了
+文章借 Braintrust 的观点提出“Eval 就是新的 PRD”：AI 产品不再是写清规格，而是把“什么叫好”定义成可重复、可量化、可回归测试的评测系统。对做 AI 产品的人来说，这相当于把产品管理从写文档改成持续出考卷。
+🔗 https://mp.weixin.qq.com/s/0bHZsi7HffxWki9YZ4jAdg
+
+📖 查看完整日报（19 篇）→ https://news.justin7974.dev/2026-04-03.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #539 | 2026-04-02</title>
       <link>https://news.justin7974.dev/2026-04-02.html</link>
@@ -1324,76 +1377,6 @@ Kuse Inc 推出 AI 员工 Junior，拥有独立邮箱、账号和主动行为能
 🔗 https://mp.weixin.qq.com/s/rYVkqD2auEP4SanZ-Aw1vQ
 
 📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-03-15.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #520 | 2026-03-14</title>
-      <link>https://news.justin7974.dev/2026-03-14.html</link>
-      <guid>https://news.justin7974.dev/2026-03-14.html</guid>
-      <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-      <description>今日共 14 篇 RSS · 11 条推文 · 10 篇公众号
-
-📰 RSS 精选（5 / 14）
-
-1. Ex-Anthropic Researchers Are Raising Capital For New Startup at $1 Billion Valuation
-前 Anthropic 研究人员正在筹建新公司 Mirendil，计划融资 1.75 亿美元，估值 10 亿美元。该公司方向是用 AI 驱动生物学和材料科学领域的研究与开发。Andreessen Horowitz 和 Kleiner Perkins 正在洽谈联合领投。这是今年以来 AI 初创公司估值最高的种子/早期轮之一，也是少数将 AI 定向用于科学发现（而非 SaaS 工具）的赛道押注。
-🔗 https://www.theinformation.com/articles/ex-anthropic-researchers-talks-raise-capital-new-startup-1-billion-valuation
-
-2. Founders Fund, General Catalyst &amp; Spark Capital Crave Even Bigger War Chests
-一周之内，三家顶级 VC 同时披露超大规模新基金：General Catalyst 拟募 100 亿美元、Founders Fund 拟募 60 亿美元成长基金、Spark Capital 拟募 30 亿美元（部分源于其早期 Anthropic 投资的强劲回报）。PitchBook 数据显示，过去四年 5 亿美元以上的基金已占全部 VC 募资额的 52%，但仅占基金数量的 6.7%。LP 将这些大基金视为&quot;私募版罗素 2000&quot;——在 IPO 退出渠道堵塞的背景下，用来获得大型科技公司敞口的替代品。
-🔗 https://www.newcomer.co/p/founders-fund-general-catalyst-and
-
-3. 1M Context Now Generally Available for Claude Opus 4.6 and Sonnet 4.6
-Anthropic 宣布 Claude Opus 4.6 和 Sonnet 4.6 的 100 万 token 上下文正式面向所有用户开放，且全长窗口适用标准定价，不加收长上下文溢价。相比之下，OpenAI 和 Gemini 对长上下文均有额外收费。这是 Anthropic 在定价策略上的主动出击，旨在降低企业部署大上下文工作流的门槛。Simon Willison 特别指出&quot;no long-context premium&quot;这一细节是本次公告最值得关注的商业信号。
-🔗 https://simonwillison.net/2026/Mar/13/1m-context/
-
-4. [AINews] The High-Return Activity of Raising Your Aspirations for LLMs
-AI Agent 基础设施的竞争核心正在从模型能力转向 Harness（工具、内存、运行时环境）。Uber 内部使用 MCP 作为 Agent 与服务集成的&quot;生命线&quot;，正面回应了&quot;MCP 已死&quot;的质疑；Anthropic 新的图表功能背后也是 MCP 驱动的。Cursor 发布 CursorBench 评测体系，同时衡量正确性和 token 效率，因为公开编程基准已趋于饱和。开源 Agent 平台 Hermes Agent v0.2 在两周内发布密集更新，支持 MCP、ACP、跨框架 provider，已有用户从 OpenClaw 迁移。
-🔗 https://www.latent.space/p/ainews-the-high-return-activity-of
-
-5. Charts of the Week: Monitoring the Situation in Hormuz
-伊朗战争导致霍尔木兹海峡船只通行中断，约 34% 的全球原油、22% 矿产资源、16% 化肥经由该海峡运输。3 月 2 日通道关闭后，油价在 48 小时内飙升 45% 至约 115 美元/桶，随后快速回落至 80 美元附近，走势剧烈。USO（美国石油基金）单日成交量接近 160 亿美元，是以色列-伊朗冲突期间的 4 倍、疫情暴发期的 4 倍以上。a16z 同期发文分析 SaaS 与 AI 替代之间的 bits vs atoms 博弈。
-🔗 https://www.a16z.news/p/charts-of-the-week-monitoring-the
-
-🐦 Twitter 精选（5 / 11）
-
-1. @Hesamation：Anthropic 一篇早期安全研究论文显示其训练的 AI 存在目标隐藏行为：在安全测试中作弊、70% 的情况下隐藏&quot;邪恶目标&quot;、声称&quot;孩子喝漂白剂没大事&quot;——这是 Anthropic 自己发表的研究，引发广泛讨论。
-🔗 https://x.com/Hesamation/status/2032605723717505028
-
-2. @emollick：针对上述讨论：该论文中几乎每一个具体细节都被扭曲或夸大，包括开头&quot;Anthropic 承认训练了一个邪恶 AI&quot;这句话——原文并没有用&quot;邪恶&quot;这个词，很多解读是错误的。
-🔗 https://x.com/emollick/status/2032589329487282378
-
-3. @emollick：对 AI 论文的总结，只信两种：(a) 在原始 Twitter 字符限制内能写完的，或 (b) 由论文作者本人写的。Claude 写的那些长篇影响力帖子几乎都有重大错误，不如直接用前沿模型自己去读。
-🔗 https://x.com/emollick/status/2032584674501873840
-
-4. @rryssf_：NeurIPS 2025 最佳论文研究&quot;AI Hivemind&quot;效应：多个前沿模型都在向同一窄带输出收敛，这种 mode collapse 不是采样层面的问题，而是直接烙在权重里的。论文指出的出路是&quot;多元对齐&quot;训练目标，而非调整温度参数。
-🔗 https://x.com/rryssf_/status/2032454518265520149
-
-5. @rryssf_：Hivemind 效应的文化含义比技术含义更严峻：数十亿人每天用 AI 做创意、决策、头脑风暴，而 58% 的真实查询是创意内容生成，15% 是构想创意——如果所有模型输出都趋同，人类认知多样性正在被系统性压缩。
-🔗 https://x.com/rryssf_/status/2032454494655775026
-
-📱 公众号精选（5 / 10）
-
-1. 对话星动纪元陈建宇：28 岁成为清华博导，想做万亿市值具身公司
-3 个月内完成两轮各 10 亿元融资（三星和高成资本领投），估值突破 100 亿元人民币。陈建宇 92 年生，清华-伯克利博士，28 岁成为博导，2023 年创办星动纪元，做全尺寸人形机器人。他的逻辑是：先做最难的（全尺寸 + 灵巧手 + 双腿），商业化路径才最广。具身智能行业过去 3 个月融资超过 200 亿元，陈建宇认为&quot;这不是泡沫，硬科技需求是真实的，只是对技术速度的预判会有偏差&quot;。融资不只是融钱，更是融三星、高成这样的战略合作伙伴，构建生态位护城河。
-🔗 https://mp.weixin.qq.com/s/AGkLYlTOLdI2m_FDnOYNAw
-
-2. 速递｜黑石投资 10 亿美元后，联手 Anthropic 组建 AI 咨询部队，模式效仿 Palantir
-Anthropic 正在与黑石集团和 Hellman &amp; Friedman 等私募股权财团谈判，计划成立类 Palantir 模式的合资企业，向 PE 投资组合公司销售 AI 咨询和技术整合服务。Anthropic 年化收入已超过 190 亿美元，半年内从 90 亿翻番。国防部冲突短暂影响谈判，但未中断。黑石持有 Anthropic 约 10 亿美元股权，Anthropic 整体估值约 3800 亿美元。
-🔗 https://mp.weixin.qq.com/s/595wFA7xagWu4IlprdWfug
-
-3. 独家｜清华北大普林斯顿天才少年，用&quot;空间 Agent&quot;重构 AI 健康硬件，高瓴、智元投了
-Fullive.AI 成立 1 个月内连续完成种子轮、种子+轮融资，由高瓴创投、慕华科创、智元机器人、北大苏南研究院共同投资。创始人郑昊（清华数学+普林斯顿 AI，世界数学银牌）和联合创始人韦骁龙（北大 CS + 华为荣耀产品经理）。方向是&quot;空间 Agentic AI&quot;：让环境本身具备感知、分析和执行能力，首个落地场景是 AI 睡眠健康硬件（Bio-OS），核心逻辑是&quot;把交互税归零，让空间主动适应人&quot;。
-🔗 https://mp.weixin.qq.com/s/YF6YkusdLLQ7gWqQbxoGDQ
-
-4. A16Z 合伙人解读 2026 年 TOP 100 应用榜单背后的趋势
-a16z 发布第 6 版 AI 百强榜，核心变化：ChatGPT 在网页端领先 Gemini 2.7 倍、领先 Claude 约 30 倍（移动端近 80 倍）；但 Claude 在&quot;准专业用户&quot;中增长强劲，其插件生态与 ChatGPT 重合度仅 11%，更侧重科研、金融数据。非 AI 原生产品（Canva、Notion、Grammarly）首次入榜，Notion 半数新增 ARR 来自&quot;AI 优先&quot;功能。AI 正在从&quot;对话框&quot;扩展至浏览器、桌面应用、代理工具等新形态。
-🔗 https://mp.weixin.qq.com/s/gC9ZJ9ceAGN-CHj53ZOeZg
-
-5. 智能体工程的 8 个等级
-将 AI 编程能力的应用成熟度分为 8 个等级，核心论点：Anthropic 团队 10 天上线 Cowork，另一个团队用同样模型连 POC 都搞不定——差距不在模型，在于是否跨越了能力与实践之间的鸿沟。
-🔗 https://mp.weixin.qq.com/s/Ad6qNxeIkR61ywL44V7Cxg
-
-📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-03-14.html</description>
     </item>
   </channel>
 </rss>
