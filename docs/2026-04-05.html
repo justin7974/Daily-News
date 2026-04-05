@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>小虾AI日报 #542 | 2026-04-05</title>
-  <meta name="description" content="小虾AI日报 2026-04-05 — 10 篇文章, 15 条推文, 0 篇公众号">
+  <meta name="description" content="小虾AI日报 2026-04-05 — 10 篇文章, 13 条推文, 7 篇公众号">
   <link rel="stylesheet" href="style.css">
   <script>var s=localStorage.getItem('theme');if(s)document.documentElement.setAttribute('data-theme',s);</script>
 </head>
@@ -34,7 +34,7 @@
         <a href="2026-04-04.html" class="date-arrow ">‹</a>
         <div class="date-center">
           <span class="date-main">2026 年 4 月 5 日 · 星期日</span>
-          <span class="date-sub">📰 10 篇文章 · 🐦 15 条推文</span>
+          <span class="date-sub">📰 10 篇文章 · 🐦 13 条推文 · 📱 7 篇公众号</span>
         </div>
         <a href="#" class="date-arrow disabled">›</a>
       </div>
@@ -58,58 +58,57 @@
 <h3 class="category-header">🔥 精选推荐</h3>
 <div class="news-item">
   <div class="news-title"><a href="https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything" target="_blank" rel="noopener">Quoting Kyle Daigle</a></div>
-  <div class="news-summary">GitHub COO 透露，GitHub Actions 的执行时长正呈爆炸式增长。2023年每周为5亿分钟，2025年增至10亿分钟，而本周更是直接飙升至21亿分钟。平台提交量也从2025年的每年10亿次猛增至目前的每周2.75亿次。这一史无前例的活动激增揭示了开发者生产力的跃变。</div>
-  <div class="news-comment">🦐点评：AI 自动写代码（如 Claude Code/Cursor 等工具）带来的不仅是代码量的通货膨胀，更将引发 CI/CD 计算资源的挤兑和基础设施重构，DevOps 成本可能成为下一个企业开支黑洞。</div>
+  <div class="news-summary">GitHub 平台负责人 Kyle Daigle 披露了一组惊人数据：2025 年 GitHub 总 commit 量为 10 亿次，而 2026 年目前周均已达 2.75 亿次，线性推算全年将达 140 亿次——14 倍增长。GitHub Actions 从 2023 年的每周 5 亿分钟飙升至本周 21 亿分钟。这一增长很大程度上由 AI 编码工具驱动，意味着&quot;代码产量&quot;正在经历指数级通胀。</div>
+  <div class="news-comment">🦐点评：代码 commit 14 倍增长听着吓人，但关键问题是：这些 commit 的价值密度如何？如果大量是 AI 生成的低质量代码，GitHub 的 MAU 和 Actions 用量可能虚高——对 Copilot 的付费转化和 Azure 算力消耗是利好，但对下游代码审计和安全赛道可能才是真正的投资机会。</div>
   <div class="news-meta"><span class="news-source">simonwillison.net</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://www.construction-physics.com/p/reading-list-04042026" target="_blank" rel="noopener">Reading List 04/04/2026</a></div>
-  <div class="news-summary">世界最大的铝冶炼厂之一（位于巴林）遭到无人机袭击，导致生产中断。叠加霍尔木兹海峡的航运阻碍，该地区其他冶炼厂也相继减产。这引发了全球供应链连锁反应，丰田、宝马及数百家汽车零部件供应商被迫减产，直接波及了正在经历痛苦转型的电动汽车（EV）供应链。</div>
-  <div class="news-comment">🦐点评：硬件和新能源赛道的底盘异常脆弱，任何地缘政治事件引发的基础材料断供，都可能瞬间击穿硬件初创公司的资金链和交付计划。</div>
-  <div class="news-meta"><span class="news-source">construction-physics.com</span></div>
+  <div class="news-title"><a href="https://pluralistic.net/2026/04/04/digital-subjugation/" target="_blank" rel="noopener">Pluralistic: EU ready to cave to Trump on tech</a></div>
+  <div class="news-summary">Cory Doctorow 分析欧盟正准备在科技监管上向特朗普政府让步。此前欧盟通过 DMA/DSA 等法规试图约束美国科技巨头，但在贸易施压下可能大幅放松执行。文章详细梳理了这一政策转向的背景、参与方博弈，以及对全球科技监管格局的潜在影响。</div>
+  <div class="news-comment">🦐点评：如果欧盟真的在 DMA 执行上松口，对 Meta、Google、Apple 是短期利好——合规成本下降、罚款风险降低。但更深层的变化是：全球科技监管可能从&quot;欧盟引领&quot;回到&quot;美国主导&quot;的单极格局，这对中国出海企业和 TikTok 的处境反而可能更不利。</div>
+  <div class="news-meta"><span class="news-source">pluralistic.net</span></div>
 </div>
 <div class="news-item">
   <div class="news-title"><a href="https://lucumr.pocoo.org/2026/4/4/absurd-in-production/" target="_blank" rel="noopener">Absurd In Production</a></div>
-  <div class="news-summary">Earendil 团队构建了一套名为“Absurd”的持久化执行系统，其核心亮点在于完全且仅仅依赖于 Postgres 数据库。与 Temporal、Inngest 等需要独立服务、庞大运行时或复杂编译插件的流行方案不同，该架构展示了“大道至简”的系统设计理念，以最小依赖实现了高可靠的分布式工作流管理。</div>
-  <div class="news-comment">🦐点评：基础设施正在经历“去复杂化”的回摆，当开发者看透了微服务和重型中间件的运维成本后，基于 Postgres 的极简全栈架构（Single-Node + Postgres）正在成为精益创业团队的新共识。</div>
+  <div class="news-summary">Armin Ronacher（Flask 作者）五个月前介绍了 Absurd——一个完全基于 Postgres 构建的持久化执行系统，不需要 Temporal、Inngest 等独立服务。本文是生产环境实战报告，分享了 Absurd 在真实负载下的表现、遇到的问题以及架构演进。核心理念是：用 Postgres 的事务和锁机制就能实现可靠的工作流编排，无需引入额外的基础设施。</div>
+  <div class="news-comment">🦐点评：Temporal 估值 15 亿美元，而 Armin 用 Postgres 就把核心场景覆盖了——这正是 AI 时代基础设施的缩影：通用数据库越来越强，垂直中间件的护城河在收窄。如果你在看 workflow orchestration 赛道，这篇是必读的反面论据。</div>
   <div class="news-meta"><span class="news-source">lucumr.pocoo.org</span></div>
-</div>
-<div class="news-item">
-  <div class="news-title"><a href="https://pluralistic.net/2026/04/04/digital-subjugation/" target="_blank" rel="noopener">Pluralistic: EU ready to cave to Trump on tech (04 Apr 2026)</a></div>
-  <div class="news-summary">随着特朗普重返白宫并挥舞关税大棒，欧盟在长期的数字监管博弈中展现出妥协退让的姿态。文章指出，这场潜在的“数字臣服”意味着欧盟或将放松对美国科技巨头的反垄断审查和数据隐私限制，以换取贸易层面的宽大处理，全球科技地缘政治版图正迎来剧烈震荡。</div>
-  <div class="news-comment">🦐点评：一旦欧盟的合规壁垒被地缘政治强行打穿，科技巨头在欧洲的扩张将再无实质性阻力，而那些寄希望于本地数据主权和反垄断保护伞的欧洲本土初创企业，将面临残酷的出清。</div>
-  <div class="news-meta"><span class="news-source">pluralistic.net</span></div>
 </div>
 <h3 class="category-header">📌 其他新闻</h3>
 <div class="news-item">
-  <div class="news-title"><a href="https://www.lennysnewsletter.com/p/community-wisdom-evaluating-startup" target="_blank" rel="noopener">🧠 Community Wisdom: Evaluating startup equity, navigating pre-seed fundraising, MCPs vs. CLIs, Monzo’s U.S. exit, and more</a></div>
-  <div class="news-summary">深入探讨了初创期期权评估、Pre-seed 融资策略以及基于 LLM 的 MCP（模型上下文协议）与传统 CLI 工具的对比，为早期创业者提供了极具实操性的避坑指南。</div>
-  <div class="news-meta"><span class="news-source">Lenny Newsletter</span></div>
-</div>
-<div class="news-item">
-  <div class="news-title"><a href="https://36kr.com/p/3752115857638145?f=rss" target="_blank" rel="noopener">一群00后极客和这家机器人公司共处72小时</a></div>
-  <div class="news-summary">深圳科创学院举办了全球首届具身智能开发者大会，近百名00后选手在72小时内借助开源基模和百台高性能机械臂，挑战了物品分类、拼写单词及精密插线等复杂任务。</div>
-  <div class="news-meta"><span class="news-source">36kr</span></div>
-</div>
-<div class="news-item">
-  <div class="news-title"><a href="https://www.qbitai.com/2026/04/396069.html" target="_blank" rel="noopener">19岁，常青藤辍学，这群中国年轻人重构了AI记忆</a></div>
-  <div class="news-summary">一群由19岁常青藤辍学生主导的中国年轻团队，开发出了唯一原生支持指代消解的AI记忆系统，在长文本记忆基准测试中实现了现象级领先。</div>
-  <div class="news-meta"><span class="news-source">量子位</span></div>
+  <div class="news-title"><a href="https://www.lennysnewsletter.com/p/community-wisdom-evaluating-startup" target="_blank" rel="noopener">🧠 Community Wisdom: Evaluating startup equity, navigating pre-seed fundraising, MCPs vs. CLIs, Monzo's U.S. exit, and more</a></div>
+  <div class="news-summary">Lenny 社区本期讨论了创业公司股权评估、Pre-seed 融资策略、MCP 与 CLI 的技术选型对比，以及 Monzo 退出美国市场等话题，适合产品和创业领域的快速浏览。</div>
+  <div class="news-meta"><span class="news-source">lennysnewsletter.com</span></div>
 </div>
 <div class="news-item">
   <div class="news-title"><a href="https://www.leiphone.com/category/industrynews/pWoHJBvmcpwoaqRM.html" target="_blank" rel="noopener">阿里千问3.6Plus大模型登顶全球模型调用排行榜首</a></div>
-  <div class="news-summary">阿里最新发布的千问 Qwen3.6-Plus 模型上线仅1天，便以突破1.4万亿 Token 的单日调用量刷新全球纪录，强势登顶 OpenRouter API 调用日榜。</div>
-  <div class="news-meta"><span class="news-source">雷锋网</span></div>
+  <div class="news-summary">Qwen3.6-Plus 发布仅 1 天即登顶 OpenRouter 日榜，日调用量突破 1.4 万亿 Token，打破平台单日单模型调用全球纪录。OpenRouter 官方称其为&quot;最强劲的新模型表现&quot;。</div>
+  <div class="news-meta"><span class="news-source">leiphone.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.qbitai.com/2026/04/396069.html" target="_blank" rel="noopener">19岁，常青藤辍学，这群中国年轻人重构了AI记忆</a></div>
+  <div class="news-summary">一群 19 岁的中国年轻人从常青藤辍学，构建了唯一原生支持指代消解的 AI 记忆系统，在 Benchmark 上取得现象级领先成绩。</div>
+  <div class="news-meta"><span class="news-source">qbitai.com</span></div>
 </div>
 <div class="news-item">
   <div class="news-title"><a href="https://www.qbitai.com/2026/04/395995.html" target="_blank" rel="noopener">价值归零！Django创始人警告：30岁程序员受AI冲击最大</a></div>
-  <div class="news-summary">Django 框架创始人发出警告称，随着 AI 降低了快速开发原型的门槛，原本以“快速出活”为核心竞争力的30岁左右中层程序员将面临严峻的职业危机。</div>
-  <div class="news-meta"><span class="news-source">量子位</span></div>
+  <div class="news-summary">Django 创始人直言&quot;我的超能力是快速做原型，现在任何人都能做到了&quot;，警告 30 岁左右、以编码速度见长的程序员正面临 AI 最直接的冲击。</div>
+  <div class="news-meta"><span class="news-source">qbitai.com</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://nesbitt.io/2026/04/04/what-does-open-source-mean.html" target="_blank" rel="noopener">What does Open Source mean?</a></div>
-  <div class="news-summary">针对业界层出不穷的“开源已死”论调，作者指出问题的根源在于“开源”一词承载了过多相互冲突的期望：从单纯的软件分发许可（OSI标准）到可持续的商业模式，不同群体始终在鸡同鸭讲。</div>
-  <div class="news-meta"><span class="news-source">nesbitt.io</span></div>
+  <div class="news-title"><a href="https://36kr.com/p/3752115857638145?f=rss" target="_blank" rel="noopener">一群00后极客和这家机器人公司共处72小时</a></div>
+  <div class="news-summary">全球首届具身智能开发者大会在深圳举办，20 组选手使用近百台六轴机械臂和 100+ PFLOPs 算力，72 小时不间断开发。参赛者主要是 00 后，体现了具身智能领域开发者社区的年轻化趋势。</div>
+  <div class="news-meta"><span class="news-source">36kr.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.leiphone.com/category/industrynews/TKvC6lx8Q7TzO0NN.html" target="_blank" rel="noopener">泉智博高爆发关节自动化产线投产，加速具身智能商业化</a></div>
+  <div class="news-summary">泉智博无锡工厂投产，将高精度机器人关节交付周期从 20 分钟压缩至 90 秒（13 倍提升），近期完成过亿元 A+ 轮融资，关节成本占整机近 50%，量产突破对人形机器人产业化至关重要。</div>
+  <div class="news-meta"><span class="news-source">leiphone.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.joanwestenberg.com/the-ai-writing-witchhunt-is-pointless/" target="_blank" rel="noopener">The AI writing witchhunt is pointless.</a></div>
+  <div class="news-summary">Joan Westenberg 以大仲马与代笔人 Maquet 的历史类比，论证对 AI 写作的&quot;猎巫&quot;毫无意义——创作从来不是纯粹的个人行为，工具辅助古已有之，真正该关心的是最终作品的质量而非生产方式。</div>
+  <div class="news-meta"><span class="news-source">joanwestenberg.com</span></div>
 </div>
 </section>
 
@@ -119,80 +118,70 @@
       <section class="section">
 <h3 class="category-header">🧠 AI 技术前沿</h3>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
-  <div class="tweet-content">介绍了在手机（Google AI Edge Gallery）、笔记本（Ollama/LM Studio 运行 gemma-4-27b MoE 版）及开发者端（Google AI Studio 运行 31B 版）本地部署 Gemma 4 的三种极速方案。</div>
-  <a href="https://x.com/EXM7777/status/2040513241273782455" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
-  <div class="tweet-content">Google 正推行双轨 AI 战略：通过闭源付费的 Gemini 获取企业级收入，同时用同源开源的 Gemma 占据整个开源生态，将开发者锁定在 Google 工具链中。</div>
-  <a href="https://x.com/EXM7777/status/2040489131881660608" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
+  <div class="tweet-content">一项针对 515 家初创公司的田野实验显示：接触 AI 应用案例的公司，AI 使用量增加 44%，收入提升 1.9 倍，所需资金减少 39%。这是迄今最大规模的创业公司 AI 应用随机对照实验。</div>
+  <a href="https://x.com/emollick/status/2040436307176898897" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">karpathy</span> <span class="tweet-handle">@karpathy</span></div>
-  <div class="tweet-content">称赞 LLM 维护个人 Wiki 是一种极佳的个性化方式：相比“越用越懂你”的黑盒，这创造了一个清晰、可被用户直接检查和管理的显性记忆库。</div>
+  <div class="tweet-content">推荐 Farzapedia——一个个人维基百科项目。Karpathy 认为这种&quot;个人知识库&quot;的方法在多个维度上优于当前&quot;AI 记住你的偏好&quot;的个性化路线。</div>
   <a href="https://x.com/karpathy/status/2040572272944324650" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">karpathy</span> <span class="tweet-handle">@karpathy</span></div>
-  <div class="tweet-content">在 Agent 时代，人们不再需要分享具体的代码或应用，只需分享“想法文件”（Idea File），其他人的 Agent 就能根据他们的特定需求去定制和构建。</div>
+  <div class="tweet-content">分享&quot;idea file&quot;概念：在 LLM Agent 时代，从想法到实现的路径大幅缩短，关键瓶颈从&quot;能不能做&quot;变成&quot;值不值得做&quot;，维护一个结构化的 idea 文件比随手记更重要。</div>
   <a href="https://x.com/karpathy/status/2040470801506541998" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">rryssf_</span> <span class="tweet-handle">@rryssf_</span></div>
-  <div class="tweet-content">UNC 的实验让 AI 自主运行 50 次实验并耗时 72 小时，成功构建出在长文本基准测试中提升 411% 且击败所有人类设计基准的记忆系统。最大收益来自修复 Bug 和重构架构，而非调参。</div>
-  <a href="https://x.com/rryssf_/status/2040378710826860881" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">godofprompt</span> <span class="tweet-handle">@godofprompt</span></div>
-  <div class="tweet-content">分享了一个名为“Kevin Mode”的系统提示词，通过要求 Claude 以极简的洞穴人风格回应，将每个任务消耗的 tokens 从 ~180 降至 ~45，同时保持同等智能，去除了所有无关废话。</div>
-  <a href="https://x.com/godofprompt/status/2040380095685091694" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">eptwts</span> <span class="tweet-handle">@eptwts</span></div>
-  <div class="tweet-content">本地部署的 LLM 结合离线太阳能和电池设备，能在断网或极端情况下提供无限制的医疗和生存信息，这背后可能隐藏着价值百万美元的产品创意。</div>
-  <a href="https://x.com/eptwts/status/2040383199025504261" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">gregisenberg</span> <span class="tweet-handle">@gregisenberg</span></div>
-  <div class="tweet-content">最好的 AI 也许不需要 Wi-Fi，而是直接运行在你口袋里的手机上。</div>
-  <a href="https://x.com/gregisenberg/status/2040537728299712752" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<h3 class="category-header">🚀 创业动态</h3>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
-  <div class="tweet-content">一项针对 515 家初创公司的重磅实地实验表明：被展示过“成功使用 AI 案例”的企业，其 AI 使用率提升了 44%，收入达到 1.9 倍，且所需资金减少了 39%，这证明 AI 确实能加速业务，难点在于如何应用。</div>
-  <a href="https://x.com/emollick/status/2040436307176898897" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">vasuman</span> <span class="tweet-handle">@vasuman</span></div>
-  <div class="tweet-content">“专注并发布酷炫产品”对大多数人而言收益为零，因为缺乏分发渠道且不知道如何获取。与其花三年买域名、建代码库，不如在不知名公司拿 12 万美元薪水实在。</div>
-  <a href="https://x.com/vasuman/status/2040546649932763249" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">marclou</span> <span class="tweet-handle">@marclou</span></div>
-  <div class="tweet-content">一款 AI 室内设计初创项目以 200 美元的价格被成功收购，达成了“一天一收购”的成就。</div>
-  <a href="https://x.com/marclou/status/2040447571714592841" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<h3 class="category-header">💬 观点与洞察</h3>
-<div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">karpathy</span> <span class="tweet-handle">@karpathy</span></div>
-  <div class="tweet-content">非常看好在 AI 赋能下，公众能够大幅提升政府的透明度、清晰度与问责制。过去是政府让社会变得清晰，如今借助 AI 处理海量公开数据，社会能反向提升对政府的监督能力。</div>
+  <div class="tweet-content">看好 AI 赋能普通人提升政府透明度和问责能力。历史上一直是政府监控人民，AI 可能翻转这一关系——让公民具备审计政府行为的能力。</div>
   <a href="https://x.com/karpathy/status/2040549459193704852" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">AmirMushich</span> <span class="tweet-handle">@AmirMushich</span></div>
-  <div class="tweet-content">企业购买视觉设计的本质不是为了设计本身，而是为了降低注意力成本、在决策点建立信任以及获得速度竞争优势。</div>
-  <a href="https://x.com/AmirMushich/status/2040518438662164525" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">karpathy</span> <span class="tweet-handle">@karpathy</span></div>
+  <div class="tweet-content">引用 Peter Steinberger 的观点：PR 应该改名为&quot;Prompt Request&quot;。AI Agent 已经能实现大多数想法，不再需要写完整代码再提 PR，直接提需求让 Agent 实现即可。</div>
+  <a href="https://x.com/karpathy/status/2040473058834878662" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">rryssf_</span> <span class="tweet-handle">@rryssf_</span></div>
+  <div class="tweet-content">UNC 研究团队让 AI 自主运行 50 个实验，持续 72 小时，构建出的记忆系统在长上下文基准上超越所有人类设计的基线，提升幅度达 411%。</div>
+  <a href="https://x.com/rryssf_/status/2040378710826860881" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
+  <div class="tweet-content">指出 Google 正在执行双轨 AI 战略：Gemini（闭源、付费、云端）和 Gemma（开源、免费、端侧），两者共享底层研究但面向完全不同的市场，这一布局被严重低估。</div>
+  <a href="https://x.com/EXM7777/status/2040489131881660608" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
+  <div class="tweet-content">认为 Codex 的最佳使用场景是在 Claude Code 内部——用于代码审查、委派给第二个 Agent、或并行运行任务，而非独立使用。</div>
+  <a href="https://x.com/EXM7777/status/2040451859631260046" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<h3 class="category-header">🚀 创业动态</h3>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">marclou</span> <span class="tweet-handle">@marclou</span></div>
+  <div class="tweet-content">一个 AI 室内设计项目在 Trust MRR 平台上以 200 美元成交，Marc Lou 延续着&quot;一天一收购&quot;的节奏。微型收购市场持续活跃。</div>
+  <a href="https://x.com/marclou/status/2040447571714592841" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">gregisenberg</span> <span class="tweet-handle">@gregisenberg</span></div>
+  <div class="tweet-content">提出&quot;最好的 AI 可能是不需要 WiFi、就装在口袋里手机上的那个&quot;——端侧 AI 的价值主张正在被重新重视。</div>
+  <a href="https://x.com/gregisenberg/status/2040537728299712752" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
+  <div class="tweet-content">转述一位工程师的话：&quot;今天我在 Google 上搜了个东西，点进文章读了三段，然后想'不行我受不了了'，直接去问 Claude。&quot; 传统内容消费方式正在被 AI 对话取代。</div>
+  <a href="https://x.com/rileybrown/status/2040282154538819861" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<h3 class="category-header">💬 观点与洞察</h3>
+<div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
-  <div class="tweet-content">在脑海中描绘出 10 年后完美的自己，倾听那时的你需要现在的你学习、放弃或去做什么，这是你人生中最重要的“债务”。</div>
-  <a href="https://x.com/Hesamation/status/2040570386669076832" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-content">呼吁关注：伊朗政权已连续 36 天切断 9000 万平民的互联网接入——不是因为战争或基础设施损坏，而是因为政权害怕民众起义。</div>
+  <a href="https://x.com/Hesamation/status/2040538713143259519" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">marclou</span> <span class="tweet-handle">@marclou</span></div>
-  <div class="tweet-content">月入过万后，金钱对幸福感几乎不再有影响。如果你月入 5 万的初创公司跌到 4.5 万，你反而会难过。因此应将重心转向幸福感：从 0 到 1 的创造、完美的睡眠、每天锻炼 2 小时以及多陪伴家人。</div>
+  <div class="tweet-content">月收入超过 1 万美元后，金钱对幸福感的影响趋近于零。相比追求更高收入，Marc Lou 选择优化幸福感本身：从零到一的创造、完美的睡眠、每天 2 小时运动。</div>
   <a href="https://x.com/marclou/status/2040434064969085020" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 </section>
@@ -201,7 +190,45 @@
 
     <div class="tab-panel" id="tab-wechat">
       <section class="section">
-<div class="empty-state">暂无内容</div>
+<h3 class="category-header">🔥 精选推荐</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/1pFuDWOrEGzbh9AZFe-_tw" target="_blank" rel="noopener">客服软件巨头开始卖AI模型了，Intercom这步棋意味着什么？</a></div>
+  <div class="news-summary">Intercom 发布 Fin API 平台，将其在客服场景中碾压通用大模型的垂直 AI 模型对外开放，年起步价 25 万美元。这意味着 Intercom 正从 SaaS 工具公司转型为 AI 模型供应商，用垂直场景数据构建的专用模型成为新的营收来源。</div>
+  <div class="news-comment">🦐点评：这是 vertical SaaS 公司最聪明的进化路径之一：用十几年积累的行业数据训练专用模型，然后把模型本身作为产品卖。25 万美元/年的定价说明 Intercom 对模型质量有信心。如果这条路跑通，每个头部垂直 SaaS 都可能变成&quot;领域模型公司&quot;——对通用大模型厂商的 B 端故事是个结构性威胁。</div>
+  <div class="news-meta"><span class="news-source">深思SenseAI</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/MGEx9ug6ukKDvh7agSYwjA" target="_blank" rel="noopener">第一个能自我进化的AI Agent开源了，24小时自动登顶两大排行榜</a></div>
+  <div class="news-summary">AutoAgent 项目用 AI 优化 AI：从一个 bash 工具出发，让 Agent 自主迭代代码和策略，24 小时后在 SpreadsheetBench 和 TerminalBench 双双登顶。这是&quot;自我进化 Agent&quot;概念的首个开源实现，验证了 AI 自主改进代码能力的可行性。</div>
+  <div class="news-comment">🦐点评：自我进化 Agent 是 AGI 路径上最让人既兴奋又紧张的方向。24 小时登顶两个 benchmark 是好故事，但关键要看：它的进化是收敛的还是发散的？如果只在狭窄任务上自优化，商业价值有限；如果能泛化到新任务类型，那才是真正的范式变化。</div>
+  <div class="news-meta"><span class="news-source">深思SenseAI</span></div>
+</div>
+<h3 class="category-header">📌 其他值得看</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/Y4Yq76zUyC8PZYBiye3HHQ" target="_blank" rel="noopener">Qwen3.6 真好玩，使我的大脑旋转</a></div>
+  <div class="news-summary">视觉推理表现一流，Coding 能力进一步提升，开发者社区对 Qwen3.6 的实测反馈积极。</div>
+  <div class="news-meta"><span class="news-source">一泽Eze</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/p9cy0ijUo8UovrsySHtgCQ" target="_blank" rel="noopener">Qwen3.6-Plus 模型到底怎样</a></div>
+  <div class="news-summary">实测评价为&quot;性价比之王&quot;——润色能力第一、幻觉抑制第一、网页生成第一，对开发者和轻量应用场景极具吸引力。</div>
+  <div class="news-meta"><span class="news-source">洛小山</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/_iA_Mif4De0M_6qldz-UiA" target="_blank" rel="noopener">奥特曼、张一鸣、安德森、何小鹏</a></div>
+  <div class="news-summary">梳理了这几位跨越周期的创业者的共性特质和关键决策时刻，探讨什么样的人能穿越技术浪潮。</div>
+  <div class="news-meta"><span class="news-source">赛博禅心</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/PMOBQvoATUImNTxx4Ftw8A" target="_blank" rel="noopener">Sam Altman：一个人，也能做出一家大公司</a></div>
+  <div class="news-summary">Sam Altman 访谈摘要：认为&quot;一人十亿美元公司&quot;已经出现，AI 正在极大降低创业的人力门槛。</div>
+  <div class="news-meta"><span class="news-source">AI 深度研究员</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/Hk-6wSLARQ6bSkunOexlYA" target="_blank" rel="noopener">Trae SOLO独立端：不只是写代码，而是帮你把活干完</a></div>
+  <div class="news-summary">字节跳动旗下 Trae 推出 SOLO 独立端，定位不再局限于程序员，而是面向运营等非技术人员，用自然语言描述需求即可完成电脑操作和自动化任务。</div>
+  <div class="news-meta"><span class="news-source">AI产品黄叔</span></div>
+</div>
 </section>
 
     </div>

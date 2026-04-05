@@ -5,55 +5,77 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 05 Apr 2026 00:08:20 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 15:24:18 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>小虾AI日报 #542 | 2026-04-05</title>
       <link>https://news.justin7974.dev/2026-04-05.html</link>
       <guid>https://news.justin7974.dev/2026-04-05.html</guid>
       <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 15 条推文 · 0 篇公众号
+      <description>今日共 10 篇 RSS · 13 条推文 · 7 篇公众号
 
 📰 RSS 精选（5 / 10）
 
 1. Quoting Kyle Daigle
-GitHub COO 透露，GitHub Actions 的执行时长正呈爆炸式增长。2023年每周为5亿分钟，2025年增至10亿分钟，而本周更是直接飙升至21亿分钟。平台提交量也从2025年的每年10亿次猛增至目前的每周2.75亿次。这一史无前例的活动激增揭示了开发者生产力的跃变。
+GitHub 平台负责人 Kyle Daigle 披露了一组惊人数据：2025 年 GitHub 总 commit 量为 10 亿次，而 2026 年目前周均已达 2.75 亿次，线性推算全年将达 140 亿次——14 倍增长。GitHub Actions 从 2023 年的每周 5 亿分钟飙升至本周 21 亿分钟。这一增长很大程度上由 AI 编码工具驱动，意味着&quot;代码产量&quot;正在经历指数级通胀。
 🔗 https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything
 
-2. Reading List 04/04/2026
-世界最大的铝冶炼厂之一（位于巴林）遭到无人机袭击，导致生产中断。叠加霍尔木兹海峡的航运阻碍，该地区其他冶炼厂也相继减产。这引发了全球供应链连锁反应，丰田、宝马及数百家汽车零部件供应商被迫减产，直接波及了正在经历痛苦转型的电动汽车（EV）供应链。
-🔗 https://www.construction-physics.com/p/reading-list-04042026
-
-3. Absurd In Production
-Earendil 团队构建了一套名为“Absurd”的持久化执行系统，其核心亮点在于完全且仅仅依赖于 Postgres 数据库。与 Temporal、Inngest 等需要独立服务、庞大运行时或复杂编译插件的流行方案不同，该架构展示了“大道至简”的系统设计理念，以最小依赖实现了高可靠的分布式工作流管理。
-🔗 https://lucumr.pocoo.org/2026/4/4/absurd-in-production/
-
-4. Pluralistic: EU ready to cave to Trump on tech (04 Apr 2026)
-随着特朗普重返白宫并挥舞关税大棒，欧盟在长期的数字监管博弈中展现出妥协退让的姿态。文章指出，这场潜在的“数字臣服”意味着欧盟或将放松对美国科技巨头的反垄断审查和数据隐私限制，以换取贸易层面的宽大处理，全球科技地缘政治版图正迎来剧烈震荡。
+2. Pluralistic: EU ready to cave to Trump on tech
+Cory Doctorow 分析欧盟正准备在科技监管上向特朗普政府让步。此前欧盟通过 DMA/DSA 等法规试图约束美国科技巨头，但在贸易施压下可能大幅放松执行。文章详细梳理了这一政策转向的背景、参与方博弈，以及对全球科技监管格局的潜在影响。
 🔗 https://pluralistic.net/2026/04/04/digital-subjugation/
 
-5. 🧠 Community Wisdom: Evaluating startup equity, navigating pre-seed fundraising, MCPs vs. CLIs, Monzo’s U.S. exit, and more
-深入探讨了初创期期权评估、Pre-seed 融资策略以及基于 LLM 的 MCP（模型上下文协议）与传统 CLI 工具的对比，为早期创业者提供了极具实操性的避坑指南。
+3. Absurd In Production
+Armin Ronacher（Flask 作者）五个月前介绍了 Absurd——一个完全基于 Postgres 构建的持久化执行系统，不需要 Temporal、Inngest 等独立服务。本文是生产环境实战报告，分享了 Absurd 在真实负载下的表现、遇到的问题以及架构演进。核心理念是：用 Postgres 的事务和锁机制就能实现可靠的工作流编排，无需引入额外的基础设施。
+🔗 https://lucumr.pocoo.org/2026/4/4/absurd-in-production/
+
+4. 🧠 Community Wisdom: Evaluating startup equity, navigating pre-seed fundraising, MCPs vs. CLIs, Monzo&apos;s U.S. exit, and more
+Lenny 社区本期讨论了创业公司股权评估、Pre-seed 融资策略、MCP 与 CLI 的技术选型对比，以及 Monzo 退出美国市场等话题，适合产品和创业领域的快速浏览。
 🔗 https://www.lennysnewsletter.com/p/community-wisdom-evaluating-startup
 
-🐦 Twitter 精选（5 / 15）
+5. 阿里千问3.6Plus大模型登顶全球模型调用排行榜首
+Qwen3.6-Plus 发布仅 1 天即登顶 OpenRouter 日榜，日调用量突破 1.4 万亿 Token，打破平台单日单模型调用全球纪录。OpenRouter 官方称其为&quot;最强劲的新模型表现&quot;。
+🔗 https://www.leiphone.com/category/industrynews/pWoHJBvmcpwoaqRM.html
 
-1. @EXM7777：介绍了在手机（Google AI Edge Gallery）、笔记本（Ollama/LM Studio 运行 gemma-4-27b MoE 版）及开发者端（Google AI Studio 运行 31B 版）本地部署 Gemma 4 的三种极速方案。
-🔗 https://x.com/EXM7777/status/2040513241273782455
+🐦 Twitter 精选（5 / 13）
 
-2. @EXM7777：Google 正推行双轨 AI 战略：通过闭源付费的 Gemini 获取企业级收入，同时用同源开源的 Gemma 占据整个开源生态，将开发者锁定在 Google 工具链中。
-🔗 https://x.com/EXM7777/status/2040489131881660608
+1. @emollick：一项针对 515 家初创公司的田野实验显示：接触 AI 应用案例的公司，AI 使用量增加 44%，收入提升 1.9 倍，所需资金减少 39%。这是迄今最大规模的创业公司 AI 应用随机对照实验。
+🔗 https://x.com/emollick/status/2040436307176898897
 
-3. @karpathy：称赞 LLM 维护个人 Wiki 是一种极佳的个性化方式：相比“越用越懂你”的黑盒，这创造了一个清晰、可被用户直接检查和管理的显性记忆库。
+2. @karpathy：推荐 Farzapedia——一个个人维基百科项目。Karpathy 认为这种&quot;个人知识库&quot;的方法在多个维度上优于当前&quot;AI 记住你的偏好&quot;的个性化路线。
 🔗 https://x.com/karpathy/status/2040572272944324650
 
-4. @karpathy：在 Agent 时代，人们不再需要分享具体的代码或应用，只需分享“想法文件”（Idea File），其他人的 Agent 就能根据他们的特定需求去定制和构建。
+3. @karpathy：分享&quot;idea file&quot;概念：在 LLM Agent 时代，从想法到实现的路径大幅缩短，关键瓶颈从&quot;能不能做&quot;变成&quot;值不值得做&quot;，维护一个结构化的 idea 文件比随手记更重要。
 🔗 https://x.com/karpathy/status/2040470801506541998
 
-5. @rryssf_：UNC 的实验让 AI 自主运行 50 次实验并耗时 72 小时，成功构建出在长文本基准测试中提升 411% 且击败所有人类设计基准的记忆系统。最大收益来自修复 Bug 和重构架构，而非调参。
-🔗 https://x.com/rryssf_/status/2040378710826860881
+4. @karpathy：看好 AI 赋能普通人提升政府透明度和问责能力。历史上一直是政府监控人民，AI 可能翻转这一关系——让公民具备审计政府行为的能力。
+🔗 https://x.com/karpathy/status/2040549459193704852
 
-📖 查看完整日报（25 篇）→ https://news.justin7974.dev/2026-04-05.html</description>
+5. @karpathy：引用 Peter Steinberger 的观点：PR 应该改名为&quot;Prompt Request&quot;。AI Agent 已经能实现大多数想法，不再需要写完整代码再提 PR，直接提需求让 Agent 实现即可。
+🔗 https://x.com/karpathy/status/2040473058834878662
+
+📱 公众号精选（5 / 7）
+
+1. 客服软件巨头开始卖AI模型了，Intercom这步棋意味着什么？
+Intercom 发布 Fin API 平台，将其在客服场景中碾压通用大模型的垂直 AI 模型对外开放，年起步价 25 万美元。这意味着 Intercom 正从 SaaS 工具公司转型为 AI 模型供应商，用垂直场景数据构建的专用模型成为新的营收来源。
+🔗 https://mp.weixin.qq.com/s/1pFuDWOrEGzbh9AZFe-_tw
+
+2. 第一个能自我进化的AI Agent开源了，24小时自动登顶两大排行榜
+AutoAgent 项目用 AI 优化 AI：从一个 bash 工具出发，让 Agent 自主迭代代码和策略，24 小时后在 SpreadsheetBench 和 TerminalBench 双双登顶。这是&quot;自我进化 Agent&quot;概念的首个开源实现，验证了 AI 自主改进代码能力的可行性。
+🔗 https://mp.weixin.qq.com/s/MGEx9ug6ukKDvh7agSYwjA
+
+3. Qwen3.6 真好玩，使我的大脑旋转
+视觉推理表现一流，Coding 能力进一步提升，开发者社区对 Qwen3.6 的实测反馈积极。
+🔗 https://mp.weixin.qq.com/s/Y4Yq76zUyC8PZYBiye3HHQ
+
+4. Qwen3.6-Plus 模型到底怎样
+实测评价为&quot;性价比之王&quot;——润色能力第一、幻觉抑制第一、网页生成第一，对开发者和轻量应用场景极具吸引力。
+🔗 https://mp.weixin.qq.com/s/p9cy0ijUo8UovrsySHtgCQ
+
+5. 奥特曼、张一鸣、安德森、何小鹏
+梳理了这几位跨越周期的创业者的共性特质和关键决策时刻，探讨什么样的人能穿越技术浪潮。
+🔗 https://mp.weixin.qq.com/s/_iA_Mif4De0M_6qldz-UiA
+
+📖 查看完整日报（30 篇）→ https://news.justin7974.dev/2026-04-05.html</description>
     </item>
     <item>
       <title>小虾AI日报 #541 | 2026-04-04</title>
