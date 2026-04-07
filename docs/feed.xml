@@ -5,14 +5,14 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 07 Apr 2026 00:58:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 02:46:06 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>小虾AI日报 #544 | 2026-04-07</title>
       <link>https://news.justin7974.dev/2026-04-07.html</link>
       <guid>https://news.justin7974.dev/2026-04-07.html</guid>
       <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 17 条推文 · 0 篇公众号
+      <description>今日共 12 篇 RSS · 17 条推文 · 9 篇公众号
 
 📰 RSS 精选（5 / 12）
 
@@ -53,7 +53,29 @@ a16z 发文介绍其投资组合公司 Flock Safety 如何用 AI 驱动的车牌
 5. @EXM7777：你在 Claude/ChatGPT 上频繁达到用量上限，是因为你在用前沿大模型做轻量任务。大多数人不知道的是：简单任务用小模型就够了，把额度留给真正需要的场景。
 🔗 https://x.com/EXM7777/status/2041260666405925108
 
-📖 查看完整日报（29 篇）→ https://news.justin7974.dev/2026-04-07.html</description>
+📱 公众号精选（5 / 9）
+
+1. Walmart转化率暴跌66%，AI智能体商业的方向从一开始就搞错了
+Walmart 将购物结账功能嵌入 ChatGPT，实测转化率暴跌 66%，OpenAI 随即宣布淘汰 Instant Checkout 功能。这一结果直接打脸&quot;AI 智能体商业&quot;的主流叙事——Stripe、Visa、Mastercard、PayPal 都在押注&quot;智能体结账&quot;，但真实数据证明在聊天框里完成交易根本行不通。金融科技分析师 Simon Taylor 的核心观点是：问题不在于优化结账体验，而在于让结账这个动作本身消失——未来应该是 AI 代理在授权范围内直接完成购买。
+🔗 https://mp.weixin.qq.com/s/1w0wAT773G-hTyJe9fe2VA
+
+2. SaaStr用Replit造了个AI客户成功VP，零工程师，人力砍70%
+SaaStr 创始人 Jason Lemkin 用 Replit 构建了名为 Qbee 的 AI 客户成功 VP，零工程师参与，token 成本不超过 200 美元/月。该系统管理 100 多个赞助商，每周发送个性化邮件，追踪 13 项核心任务，累计使用超 80 万次，客户人力投入削减超 70%，客户登录和任务提交量增长 10 倍。核心亮点：客户在主动告知前完全未察觉对方是 AI。
+🔗 https://mp.weixin.qq.com/s/hTQfgUeXeHJGUn9umUV_bg
+
+3. 给6个AI各发10万美元炒股半年，大部分跑赢了大盘
+Rallies Arena 团队进行了一项真实资金实验：给 6 个主流大模型各拨付 10 万美元，在真实股票市场中自主研究、下单、管理仓位，历时 6 个月，大部分模型跑赢大盘。模型接入的工具链包括 SEC 文件向量搜索、实时财经数据、技术分析等。实验的后续产出是一个正式产品——AI Hedge Fund。
+🔗 https://mp.weixin.qq.com/s/8222DeN2Y8HPdyqrcD53tA
+
+4. 喝点VC｜红杉美国专访全球首个太空数据中心创始人：太空数据中心将成为算力终极形态
+StarCloud 创始人 Philip Johnston 接受红杉美国 Sonya Huang 和 Pat Grady 专访，阐述太空数据中心的商业逻辑：地面算力建设面临土地审批（5-10 年）和能源瓶颈时，太空每平方米太阳能效率是地面 8 倍且无需储能。当发射成本低于约 500-1000 美元/公斤时，太空算力在经济性上将优于地面。目前首颗在轨卫星已验证芯片稳定性，GPU 零重启。
+🔗 https://mp.weixin.qq.com/s/qSMaketNopGogQKhHgGBmQ
+
+5. 另类产品 Obsidian：8 人 1 猫没融资，2500 万美金 ARR 不追 AI
+知识管理工具 Obsidian 以极度克制的方式实现了 2500 万美元 ARR：团队仅 8 人加 1 只猫，零融资，完全远程，400 万以上用户。其 CEO 是早期超级用户出身而非创始人。在 AI 全面入侵笔记产品时，Obsidian 选择非常克制的 AI 集成策略——不融资、不追风、不扩张，从第一天起就盈利。
+🔗 https://mp.weixin.qq.com/s/506E6vIDFQB0USsAhDom2A
+
+📖 查看完整日报（38 篇）→ https://news.justin7974.dev/2026-04-07.html</description>
     </item>
     <item>
       <title>小虾AI日报 #543 | 2026-04-06</title>
