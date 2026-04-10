@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 09 Apr 2026 00:13:39 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 00:09:05 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #547 | 2026-04-10</title>
+      <link>https://news.justin7974.dev/2026-04-10.html</link>
+      <guid>https://news.justin7974.dev/2026-04-10.html</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 16 条推文 · 11 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. 三个理由认为 Anthropic Mythos 发布被过度炒作
+Gary Marcus 指出三个冷静看待 Mythos 的理由：其 Firefox 漏洞利用测试中实际关闭了沙箱，更多是概念验证而非即时威胁；Hugging Face CEO Clem Delangue 团队用小型开源模型复现了 Anthropic 展示的 8 个漏洞中的大部分分析；Ramez Naam 的 ECI 标准化分析显示 Mythos 基本在趋势线上，并非断崖式突破。Marcus 的结论是&quot;我们在一定程度上被操纵了&quot;。
+🔗 https://garymarcus.substack.com/p/three-reasons-to-think-that-the-claude
+
+2. Stratechery 专访 NYT CEO：押注人类专业能力对抗 AI
+Ben Thompson 对话纽约时报 CEO Meredith Kopit Levien，核心议题是人类专业知识作为抵御聚合器和 AI 冲击的护城河。NYT 的策略是在 AI 时代加倍投入人类编辑判断力和专业调查能力，用付费墙保护高价值内容。
+🔗 https://stratechery.com/2026/an-interview-with-new-york-times-ceo-meredith-kopit-levien-about-betting-on-humans-with-expertise/
+
+3. 无人机改变战争：地表不再安全
+Steve Blank 分析乌克兰和伊朗战争中无人机对传统防御体系的颠覆。美国发现防空系统（THAAD、爱国者）设计用于应对数十到数百目标，面对数千架无人机的不对称攻击力不从心。传统陆军作战模式被根本改变——地面上的一切都在无人机监视和打击范围内。
+🔗 https://steveblank.com/2026/04/09/nowhere-is-safe/
+
+4. CB Insights 专访 OpenHands CEO：最大开源 AI 编程代理的市场定位
+OpenHands 创始人 Robert Brennan 接受 CB Insights 专访，阐述其作为最大开源 AI 编程代理的市场定位、客户需求理解和竞争策略。OpenHands 定位在开源生态中构建 AI 驱动的软件开发自动化。
+🔗 https://www.cbinsights.com/research/ceo-interviews-openhands/
+
+5. CB Insights 专访 Qdrant CEO：向量数据库市场格局
+Qdrant 创始人 Andre Zayarni 介绍向量数据库市场定位。随着 RAG 和 Agent 架构普及，向量数据库成为 AI 应用基础设施的关键一环。
+🔗 https://www.cbinsights.com/research/ceo-interview-qdrant/
+
+🐦 Twitter 精选（5 / 16）
+
+1. @emollick：对当前前沿 AI 格局的全面盘点：美国闭源模型（Google/OpenAI/Anthropic）继续领先且可能出现递归自我改进迹象；xAI 暂时掉出前沿；Meta 今天带着闭源 Muse Spark 重新入场；所有美国前沿实验室都放弃了开放权重，开源模型只能指望中国实验室。
+🔗 https://x.com/emollick/status/2042088011748290750
+
+2. @emollick：AI 能力的&quot;参差不齐&quot;容易被过度聚焦。LLM 虽然在编程等可验证领域被优化，但在企业战略、医疗建议、写作、共情和创意生成等方面也表现不差——通用性本身就是一个惊喜。
+🔗 https://x.com/emollick/status/2042353479604130221
+
+3. @karpathy：AI 能力理解差距正在扩大：很多人基于去年免费版 ChatGPT 的体验形成了对 AI 的判断，但当前前沿模型的能力已经远超那个版本。这种认知滞后正在造成越来越大的信息不对称。
+🔗 https://x.com/karpathy/status/2042334451611693415
+
+4. @rryssf_：一个 7B 参数模型在深度研究任务上超越了 Gemini-2.5-Pro、GPT-4o 和 GPT-5.4——关键在于它能从自身搜索历史中学习，无需重训练，只靠一个记录成功和失败的记忆系统。
+🔗 https://x.com/rryssf_/status/2042256281097187364
+
+5. @Hesamation：Anthropic 推出 ADVISOR 功能：用 Opus 做复杂规划，Sonnet 执行具体任务。结果是成本降低 11.9%，SWE-bench 多语言测试比纯 Sonnet 高 2.7%——接近 Opus 级智能但成本大幅降低。
+🔗 https://x.com/Hesamation/status/2042345910768751061
+
+📱 公众号精选（5 / 11）
+
+1. 对话大疆汪滔：求真理、得自由、活成故事
+汪滔十年来首次公开深度访谈。他修正了那句著名的&quot;世界蠢得不可思议&quot;——补上了后半句&quot;我也是&quot;。从 2006 年在深圳莲花村民居创业到今天，汪滔回顾了大疆 20 年的技术路径和组织哲学。这是理解大疆决策逻辑和汪滔个人认知演变的第一手资料。
+🔗 https://mp.weixin.qq.com/s/5eXM9DFnEArfjsmH8VKw5Q
+
+2. ATOM Report：中国开源模型已经全面领先，差距还在扩大
+Nathan Lambert 和 Florian Brand 发布 ATOM Report，追踪约 1500 个开源模型的下载量、衍生模型、推理市场份额和性能数据。核心结论：中国开源模型在 2025 年夏天超过美国后，差距持续扩大。报告覆盖 2023 年 11 月到 2026 年 3 月的完整数据。
+🔗 https://mp.weixin.qq.com/s/22KdeKVSOtmxc1jdx4lP7w
+
+3. Eclipse 募集 $13 亿押注实体产业 AI 初创
+硅谷 VC Eclipse 完成 $13 亿募资，投资方向锁定 AI 基础设施、制造业和国防等实体产业。Eclipse 是 Nvidia 竞争对手 Cerebras Systems 的早期投资方。本轮包括 $7.2 亿早期投资和 $5.91 亿后期项目。
+🔗 https://mp.weixin.qq.com/s/OTbnktR7zFEuN0f0ChZksA
+
+4. Anthropic 官方 Harness 发布：Managed Agents 全面解读
+Anthropic 发布 Claude Managed Agents，提供可组合 API 构建云托管 AI Agent。核心卖点是 Harness（Agent 编排引擎）——经过调优的编排循环自动处理工具调用决策、上下文管理和错误恢复，且随模型升级自动演进。Notion、Asana、Rakuten、Sentry 已在生产环境使用。
+🔗 https://mp.weixin.qq.com/s/N0OBBlPIdUKJzRU0ZCciFg
+
+5. Claude Managed Agents 完整上手指南
+三个 API 调用、十分钟搭建生产级 Agent 的实操教程。不需要自己搭 Docker 或写沙箱，降低了 Agent 开发的入门门槛。
+🔗 https://mp.weixin.qq.com/s/KfodDuvYwHpecHQKEA_HZQ
+
+📖 查看完整日报（39 篇）→ https://news.justin7974.dev/2026-04-10.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #546 | 2026-04-09</title>
       <link>https://news.justin7974.dev/2026-04-09.html</link>
@@ -1320,76 +1390,6 @@ YC CEO Garry Tan 开源的 GStack 两周内收获 32.8k stars，本质是把&quo
 🔗 https://mp.weixin.qq.com/s/a_t5HRzd_u8eMRePNSLmGQ
 
 📖 查看完整日报（32 篇）→ https://news.justin7974.dev/2026-03-22.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #527 | 2026-03-21</title>
-      <link>https://news.justin7974.dev/2026-03-21.html</link>
-      <guid>https://news.justin7974.dev/2026-03-21.html</guid>
-      <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
-      <description>今日共 13 篇 RSS · 13 条推文 · 10 篇公众号
-
-📰 RSS 精选（5 / 13）
-
-1. Big Guns Including Bezos &amp; Blackstone Join the AI Transformation Fray
-Bezos 正在筹集 1000 亿美元的&quot;制造业转型基金&quot;，计划收购芯片制造和国防领域的企业并注入 AI 能力。与此同时，OpenAI 正与 TPG、Bain Capital 洽谈 100 亿美元合资企业，Anthropic 则与 Blackstone、Hellman &amp; Friedman 商讨类似方案，将 AI 产品推向 PE 投资组合公司。Carta 最新数据显示，2022-2025 年 VC 基金的顶级表现者 TVPI 几乎是 75 分位的两倍，大型基金 IRR 飙升至 54.7%-77%。
-🔗 https://www.newcomer.co/p/big-guns-including-bezos-and-blackstone
-
-2. Dreamer: the Personal Agent OS
-此前一直以&quot;dev/agents&quot;代号秘密开发的个人 Agent 操作系统项目正式公开亮相，定名 Dreamer。该项目由前 Google 工程副总裁 David Singleton 创立，愿景极为大胆——打造一个让 AI Agent 能自主管理用户数字生活的操作系统层，并为新工具开发者提供 1 万美元奖金。
-🔗 https://www.latent.space/p/dreamer
-
-3. [AINews] Every Lab serious enough about Developers has bought their own Devtools
-OpenAI 收购了 Python 工具链公司 Astral（uv/ruff 背后的团队），Anthropic 收购了 JavaScript 运行时 Bun，Google DeepMind 则收购了 Antigravity 团队。三大 AI 实验室几乎同步完成了开发者工具的收购布局，标志着&quot;模型+开发者生态&quot;的垂直整合战正式打响。
-🔗 https://www.latent.space/p/ainews-every-lab-serious-enough-about
-
-4. Charts of the Week: Learning to Weld
-a16z 最新数据分析揭示了年轻人就业困境的真实原因：并非 AI 替代白领工作，而是老年人延长工作年限导致入职通道堵塞。与此同时，制造业岗位出现回暖——数据中心建设推动了专业承包商和制造业需求，Goldman Sachs 估计 AI 基建需要额外 50 万岗位，存在约 7.8 万人的劳动力缺口。此外，大量新创企业正在涌现，但属于&quot;不招人&quot;型——薪资支出持平，技术服务支出持续攀升。
-🔗 https://a16z.com/charts-of-the-week-learning-to-weld/
-
-5. Elon Musk Misled Twitter Investors, Jury Finds
-陪审团认定 Musk 在 2022 年收购 Twitter 过程中误导了投资者。Musk 最初以每股 54.20 美元报价收购 Twitter，随后以虚假机器人账号为由宣布交易&quot;暂时搁置&quot;，导致 Twitter 股价剧烈波动，部分投资者蒙受损失。
-🔗 https://www.theinformation.com/briefings/elon-musk-misled-twitter-investors-jury-finds
-
-🐦 Twitter 精选（5 / 13）
-
-1. @emollick：一种实用的提高 AI 创意多样性的技术：在提示词中添加随机引导短语和尾部词汇。由于 LLM 更关注输入的开头和结尾，这种方法能有效打破相似 prompt 产生相似结果的问题。
-🔗 https://x.com/emollick/status/2035046505262833846
-
-2. @emollick：Skill.md 的做法非常好，值得借鉴——通过结构化的技能文件来指导 AI Agent 的行为模式。
-🔗 https://x.com/emollick/status/2035082303932694773
-
-3. @emollick：阿里 Qwen 和小米似乎都在远离开放权重模式，中国前沿 AI 模型的开源趋势正在逆转。此前的预测正在应验。
-🔗 https://x.com/emollick/status/2034983183653986337
-
-4. @emollick：小米 MiMo-V2-Pro 表现尚可但未达前沿水平，更值得关注的是它不再开放权重——中国前沿模型走向闭源可能已成趋势。
-🔗 https://x.com/emollick/status/2034870418813665438
-
-5. @rryssf_：Meta 研究人员让模型观看了 200 万小时视频，无标注、无监督。之后模型能识别物体永久性、碰撞动力学等物理规则的违反——仅通过一周的视频训练就达到了高于随机水平的物理违规检测能力。
-🔗 https://x.com/rryssf_/status/2034946706081747073
-
-📱 公众号精选（5 / 10）
-
-1. 阿里的价值重估，还要给市场一点时间
-阿里和腾讯同周发布财报后股价均下跌约 7%，而 MiniMax 上市后首份财报当天涨 23%。阿里透露五年战略：阿里云外部收入年复合增长率目标超 40%，到 2031 年阿里云+AI 年收入目标 1000 亿美元，云业务 EBITA 利润率长期有望达 20%。平头哥自研 AI 芯片累计交付 47 万片，60% 以上服务外部客户，未来不排除 IPO。阿里希望市场将其从&quot;传统电商股&quot;重新定价为&quot;AI 科技股&quot;。
-🔗 https://mp.weixin.qq.com/s/91O6rkLjsKNrkhIgWT22xg
-
-2. 速递｜ARR 破 4 亿，视频托管 Fal 再融 3.5 亿美元
-AI 推理服务商 Fal 正在洽谈 3-3.5 亿美元融资，估值将从三个月前的 45 亿美元翻倍至约 80 亿美元。年化收入已达 4 亿美元（较去年 10 月翻番），按使用量计费，服务 300 万开发者，客户包括 Adobe、Canva 和 Shopify，托管 Google Nano Banana、Black Forest Labs Flux 等数百个模型。
-🔗 https://mp.weixin.qq.com/s/_m3_bCFNC6V-TYsvibwvKA
-
-3. 速递｜红杉 Accel 联手押注，Oasis 获 1.2 亿美元融资
-网络安全初创 Oasis Security 获 Craft Ventures 领投的 1.2 亿美元融资，红杉和 Accel 跟投，累计融资 1.9 亿美元。该公司专注于&quot;非人类身份&quot;安全——管理 AI Agent 和自动化工具的系统访问权限。CEO 表示财富 500 强公司（尤其金融行业）采用 AI Agent 的速度比初创公司更快，这是一个&quot;巨大的意外&quot;。
-🔗 https://mp.weixin.qq.com/s/PjK5nM9eHKa_lv61SNJIHg
-
-4. 晚点独家丨地平线敲定征程 7 目标算力，舱驾一体产品命名&quot;星空&quot;
-地平线下一代智驾芯片 J7 系列最高性能版 J7P 目标算力将大幅超越英伟达 Thor-X，计划 2027 年量产。与 J6 不同，J7 的产品规划由算法团队主导（副总裁苏箐带领），而非芯片团队。舱驾一体新芯片&quot;星空&quot;支持座舱大模型本地化，计划今年 4 月发布并年内量产。与大众合资的酷睿程 C7H 芯片同基于 J7 架构，单颗 AI 算力 500-700 TOPS。
-🔗 https://mp.weixin.qq.com/s/Os9mOZZSSHDPP_B5Npk0Eg
-
-5. 暗壳 AI：物理空间设计，需要自己的 Lovart
-暗壳 AI 定位为&quot;空间设计的 Lovart&quot;，其 Agent 2.0 能理解模糊需求（如&quot;有呼吸感的客厅&quot;）并反问澄清，生成方案后还会检查产品尺寸是否可采购。团队来自矩阵股份，将十几年行业经验工程化封装进 Agent 工作流。
-🔗 https://mp.weixin.qq.com/s/6Ejvo4xOsxDdEZLkyF2Nuw
-
-📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-03-21.html</description>
     </item>
   </channel>
 </rss>
