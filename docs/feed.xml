@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 13 Apr 2026 00:11:56 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 00:12:10 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #551 | 2026-04-14</title>
+      <link>https://news.justin7974.dev/2026-04-14.html</link>
+      <guid>https://news.justin7974.dev/2026-04-14.html</guid>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+      <description>今日共 11 篇 RSS · 15 条推文 · 8 篇公众号
+
+📰 RSS 精选（5 / 11）
+
+1. Mythos, Muse, and the Opportunity Cost of Compute
+Ben Thompson 重新审视 Aggregation Theory 在 AI 时代的适用性。核心论点：AI 公司面临的不是边际成本问题，而是机会成本问题——算力用在 A 就不能用在 B。Anthropic 限制 Mythos 发布不仅是安全考量，更是算力分配的理性选择：当前服务现有模型已经捉襟见肘，用户大量抱怨 Claude 性能下降。同时 Anthropic 披露 DeepSeek、Moonshot、MiniMax 三家实验室通过 2.4 万个虚假账户、超 1600 万次对话对 Claude 进行蒸馏。Meta 的 Muse Spark 虽非 SOTA，但 Meta 作为唯一没有企业/云业务的大厂，在消费端不存在机会成本冲突，反而可能成为 consumer AI 的最大受益者。
+🔗 https://stratechery.com/2026/mythos-muse-and-the-opportunity-cost-of-compute/
+
+2. Surviving AI Price Wars Without Destroying Your Business
+a16z 合伙人 Tugce Erten 基于大量企业买家访谈，总结了 AI 应用公司在价格战中的五个关键认知偏差。第一，预算其实充足——大型金融机构会刻意为同一用例部署两三个 AI 工具做冗余。第二，溢价空间真实存在，约 10%-20% 的价格差不会显著影响成交。第三，定价单位比定价数字更重要——按结果收费让比价变得困难。第四，应该降低 POC 成本而非产品价格。第五，真正的长期对手不是竞品，而是客户的内部工程团队——当推理成本持续下降，build vs buy 的天平会倾斜。
+🔗 https://www.a16z.news/p/surviving-ai-price-wars-without-destroying
+
+3. Meta Builds AI Version of Mark Zuckerberg to Interact With Staff
+FT 独家报道，Meta 正在构建 Mark Zuckerberg 的 AI 数字分身，用于与公司员工互动。这是 Meta 押注 AI 数字人战略的最新动作——不仅面向外部用户，也在内部组织管理中实验 AI 代理。结合 Meta Superintelligence Labs 刚发布的 Muse Spark 模型，Meta 正在全方位加码 AI 战略。
+🔗 https://www.ft.com/content/02107c23-6c7a-4c19-b8e2-b45f4bb9ce5f
+
+4. Quoting Steve Yegge
+Steve Yegge 爆料 Google 工程团队的 AI 采纳率与拖拉机公司 John Deere 处于同一水平：20% 深度 Agent 用户、20% 完全拒绝、60% 仍在用 Cursor 级别的聊天工具。18 个月的招聘冻结导致没有外部人才带入新认知。
+🔗 https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything
+
+5. Claude Mythos, evaluated
+Gary Marcus 评估 Anthropic 尚未公开发布的 Claude Mythos 模型的安全风险——标题&quot;我们该有多害怕？&quot;直指 Mythos 的网络安全能力是否真的构成威胁。
+🔗 https://garymarcus.substack.com/p/claude-mythos-evaluated
+
+🐦 Twitter 精选（5 / 15）
+
+1. @emollick：Anthropic 对 Mythos 的网络安全担忧看起来确实有据——该模型已发现数千个高危漏洞，包括主流操作系统和浏览器中的漏洞，AI 在攻防安全领域的能力正在超越大多数人类专家。
+🔗 https://x.com/emollick/status/2043810051979157680
+
+2. @Hesamation：Claude 帮助安全研究人员在 Vim 和 Emacs 中发现了远程代码执行链——仅仅打开文件或运行 git status 就可能触发恶意代码执行，涉及 Git 信任边界的根本性安全问题。
+🔗 https://x.com/Hesamation/status/2043699292787900754
+
+3. @rryssf_：浙江大学研究发现 AI Agent 的致命短板：执行明确的分步指令近乎完美，但理解用户真实意图（模糊请求、行为模式推断）的准确率低于 50%。任务执行器与个人助手之间的鸿沟仍然巨大。
+🔗 https://x.com/rryssf_/status/2043630336874275163
+
+4. @rryssf_：开源项目 OpenMontage 打通了完整视频制作流水线：11 条 pipeline、49 个工具、单条产品广告成本仅 $0.69。支持 Kling、Runway Gen-4、Veo 3 等 12 个视频生成服务，AI 编程助手充当&quot;导演&quot;角色。
+🔗 https://x.com/rryssf_/status/2043705860631998885
+
+5. @Hesamation：Claude Mythos 发布前的社区氛围极度高涨，Anthropic 的&quot;先谈危险再发产品&quot;策略正在制造前所未有的期待感。
+🔗 https://x.com/Hesamation/status/2043749462913274098
+
+📱 公众号精选（5 / 8）
+
+1. &quot;人类的带宽太低、算力也低&quot;，agent 可以替人去工作丨100 个 AI 创业者
+80 后创始人谭少卿以&quot;约等于净身出户&quot;的方式离开了十年的公司，创立 Floatboat——一个客户端形态的 all-in-one Agent Workspace。核心判断：AI 时代的办公入口不该是网页聊天框，而应该是操作系统级的本地客户端，集成文件管理器、浏览器和 AI 对话框。7 人团队已获红杉中国 200 万美元 Safe 投资，即将开启新一轮融资。
+🔗 https://mp.weixin.qq.com/s/9y19OPBM2FuCG6hjQwGl1Q
+
+2. 45比1，机器用户已经碾压人类——SaaS公司的新战场来了
+Calibre Labs 联创 Sandhya 的核心数据：企业中机器身份与人类用户比例已达 45:1，部分组织高达 100:1。Neon 数据库 80% 的实例由 AI Agent 创建；GitHub 超过 5% 的提交完全由 Claude Code 完成，另有 40% 由 AI 辅助；MCP 服务注册表突破 2000 个，月 SDK 下载量 9700 万次。软件没有死，但用户正在从人类切换到机器。
+🔗 https://mp.weixin.qq.com/s/wieItUoy7CyioNqDQifxTg
+
+3. Claude Code源码全拆解：55个目录、331个模块，最强Agent架构长什么样
+独立开发者 Rohit 通过 .map 文件逆向拆解了 Claude Code 的完整架构：55 个目录、331 个模块。核心设计决策包括四层架构（模型层、上下文层、外壳层、Harness 层）、多层级权限管道、上下文压缩策略、错误重试路径。关键发现：Anthropic 解决的不是&quot;如何让模型更聪明&quot;，而是&quot;如何让 Agent 在生产环境跑几百轮不崩&quot;。
+🔗 https://mp.weixin.qq.com/s/qAthyV8sgwodBXpkL44HPQ
+
+4. Cisco本周第二笔AI安全收购，拟以最高3.5亿美元收购Astrix Security
+Cisco 正在洽谈以 2.5-3.5 亿美元收购以色列 AI Agent 安全初创 Astrix Security，较上轮估值溢价至少 25%。AI Agent 安全正在成为大型软件厂商的必争赛道。
+🔗 https://mp.weixin.qq.com/s/7Ts6ft4a5S-LyPoRTHn-aA
+
+5. NVIDIA站台开源AI芯片SiFive，本轮融资获4亿美元
+RISC-V 开源芯片设计公司 SiFive 获超额认购 4 亿美元融资，估值 36.5 亿美元。NVIDIA 参投，Apollo、D1 Capital、Point72 等机构跟进，RISC-V 与 GPU 的&quot;开放 CPU 生态&quot;路线加速。
+🔗 https://mp.weixin.qq.com/s/b3K_wNQy2ejxy067n8JUHA
+
+📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-04-14.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #550 | 2026-04-13</title>
       <link>https://news.justin7974.dev/2026-04-13.html</link>
@@ -1320,76 +1390,6 @@ AI 视频编辑应用 Captions 更名 Mirage，定位 AI 实验室。过去 365 
 🔗 https://mp.weixin.qq.com/s/fCfnajftRvL4PxJ1HeE6-A
 
 📖 查看完整日报（37 篇）→ https://news.justin7974.dev/2026-03-26.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #531 | 2026-03-25</title>
-      <link>https://news.justin7974.dev/2026-03-25.html</link>
-      <guid>https://news.justin7974.dev/2026-03-25.html</guid>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
-      <description>今日共 15 篇 RSS · 17 条推文 · 8 篇公众号
-
-📰 RSS 精选（5 / 15）
-
-1. LiteLLM PyPI 供应链攻击：凭证窃取器潜伏在合法包中
-LiteLLM v1.82.8 发布到 PyPI 的版本中被植入了经过 base64 编码的凭证窃取器，隐藏在 litellm_init.pth 文件中。简单执行 pip install litellm 就足以导致 SSH 密钥、AWS 凭证等敏感信息被窃取。该恶意包在 PyPI 上存活约 3 小时后被隔离。Andrej Karpathy 在推特上称之为「软件恐怖故事」，引发广泛关注。事件也促使 Simon Willison 重新审视了依赖冷却机制（dependency cooldowns）——在安装更新包之前等待数天，让社区有机会发现异常。
-🔗 https://simonwillison.net/2026/Mar/24/malicious-litellm/#atom-everything
-
-2. Revolut：持续复利的算法
-a16z 深度拆解了 Revolut 2025 年年报：收入 45 亿英镑（+46%），税前利润 17 亿英镑（+57%），利润率 38%。零售客户一年新增 1600 万人，达到全欧洲覆盖且无单一国家占比超 25%。更惊人的是收入结构：6 个细分业务板块，没有单一品类超过 22%，11 条产品线各自突破 1 亿英镑。ROE 高达 35%（还是在资本过剩的情况下）。Rule of 75%（收入增速+利润率）处于金融机构最高梯队。
-🔗 https://www.a16z.news/p/the-algorithm-that-keeps-compounding
-
-3. Satya Nadella 的困境
-Newcomer 长文揭示了微软在 AI 时代面临的深层问题。今年以来微软股价跌了 19%，在 Mag 7 中表现最差。AI 负责人 Mustafa Suleyman 被调离产品管理岗位，公司 AI 团队架构再次重组。多位微软高层人士反映，弱产品设计、领导层选择失误和组织膨胀等老问题在 AI 时代被放大。纳德拉早期押注 OpenAI 的光环正在消退——随着竞争加剧和 SaaS 股遭抛售，微软发现自己可能在 AI 这一轮平台变迁中重蹈移动时代的覆辙。
-🔗 https://www.newcomer.co/p/the-trials-of-satya-nadella
-
-4. Dreamer 被 Meta 超级智能实验室收编，消费级 Agent 阵营重组
-Meta Superintelligence Labs 完成了对 Dreamer 团队的 execuhire（授权+招聘），距离 Latent Space 播客发布仅隔数天。Dreamer 的 Sidekick 是一个个人智能代理操作系统（agent-of-agents），用户可以通过它统一调度各类 Agent 完成日常任务。这是继 2025 年底 20 亿美元收购 Manus 之后，MSL 的第二次重大人才整合。两个团队合并后，Meta 在消费级 Agent 赛道上形成了地球上最强的团队组合之一。
-🔗 https://www.latent.space/p/ainews-dreamer-joins-meta-superintelligence
-
-5. 2026 年初产品岗位市场状态
-Lenny 的半年度就业市场分析显示多个乐观信号：PM 岗位空缺达到三年来最高水平，AI 相关角色呈爆发式增长，软件工程师需求尚未因 AI 下降。Bay Area 的重要性在回升，远程工作机会持续减少。尽管裁员新闻不断，但科技行业整体岗位数量仍在增长。不过更多岗位空缺并不自动意味着人们能更快找到工作。
-🔗 https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-ee9
-
-🐦 Twitter 精选（5 / 17）
-
-1. @karpathy：LiteLLM PyPI 供应链攻击被曝光。简单的 pip install litellm 就足以窃取 SSH 密钥、AWS 凭证和环境变量。Karpathy 称之为「软件恐怖故事」。
-🔗 https://x.com/karpathy/status/2036487306585268612
-
-2. @emollick：高可靠性组织（HRO）的核心教训是：可靠性是系统的属性，不是个体组件的属性。AI Agent 构建者必须理解这一点。
-🔗 https://x.com/emollick/status/2036501869065896435
-
-3. @emollick：提醒大家指数增长终究会变成 S 曲线。但这条特定的 S 曲线（AI 能力增长）可能比 AI 应用增长的停滞来得晚得多。
-🔗 https://x.com/emollick/status/2036504304329122287
-
-4. @emollick：机器人技术是否真的「这次不同」，是决定我们中期未来的最大问题之一。是的，之前每一波都让人失望过。
-🔗 https://x.com/emollick/status/2036427919908593891
-
-5. @vasuman：测试了 MiniMax M2.7 的 agentic 能力，认为它是目前 agentic 工作中用过的最好的模型之一。分配了一个复杂任务，结果令人惊喜。
-🔗 https://x.com/vasuman/status/2036302685377270239
-
-📱 公众号精选（5 / 8）
-
-1. Token 的译名，不再是量子位
-3 月 23 日，国家数据局局长刘烈宏在中国发展高层论坛上给出了 Token 的官方中文译名：「词元」。人民日报随后发刊确认。这个翻译并不新——2021 年复旦邱锡鹏教授的教材里就用过，但当时大部分人不需要知道 Token 是什么。「元」指向最小不可再分单位（像素、字节的构词逻辑），「词」将其锚定在语言处理范畴。尽管 Token 的粒度不总是「词」——可以是半个字、标点、图像 patch 或音频 frame——但术语需要稳定性而非精确性。
-🔗 https://mp.weixin.qq.com/s/T4sSJY2LhMsnh55rv1UtJA
-
-2. 可观测性赛道新独角兽：Dash0 融资 1.1 亿美元，估值 10 亿
-Dash0 完成 Balderton Capital 领投的 1.1 亿美元融资，估值达 10 亿美元，计划将其可观测性平台拓展至美国全境。Dash0 采用 OpenTelemetry 开放标准收集应用数据，避免供应商锁定，并通过专用 AI Agent 分析传入数据、识别问题根源并提供修复建议。CEO 表示目标是「相当快地」达到 1 亿美元 ARR。随着 AI 生成代码和自主执行任务的 Agent 增加，可观测性变得愈发关键。
-🔗 https://mp.weixin.qq.com/s/3HBMVhHgsYDVg6nr0efGFQ
-
-3. APP 是功能的软件化，Skill 是经验的软件化
-文章提出了一个精辟的范式对比：移动互联网时代把需求装进 APP，Agent 时代把经验装进 Skill——从「功能封装」到「经验封装」，从「给人点的软件」到「给 Agent 调的能力」。作者观察微信指数中 OpenClaw 的走势：从一千万冲到两亿再快速跌回三千万——用户尝鲜后发现不知道让 Agent 干什么就卸载了。核心问题是「从上门安装到上门卸载」。Skill 生态才是 Agent 时代的 App Store。
-🔗 https://mp.weixin.qq.com/s/8zDSS7Of0aAErcHrHkFrOg
-
-4. Agent，能自动做生意、赚真钱了
-阿里上线了 Accio Work——一个面向全球中小企业的 Agent 产品。输入一句话（如「我想在美国卖极客文化周边」），它自动完成市场分析、选品定价、商品主图生成、详情页撰写、Shopify 开店、Instagram 推广，甚至自动用邮箱跟供应商砍价谈账期。作者用 Shopify 空店铺实测：在对话框输入指令，刷新页面商品就上架了。Agent 还支持定时任务和自动化执行。
-🔗 https://mp.weixin.qq.com/s/rf9T4VFKosFJYt1s9_fOwQ
-
-5. 京东京造，加速制造 AI+ 爆款
-京东 2025 年营收 1.31 万亿元（+12.94%），自研大模型 JoyAI 的 Token 调用量较 2024 年增长近百倍，在内部超 2000 个业务场景中应用。京东京造推出首批搭载 AI 的产品迅速售罄。
-🔗 https://mp.weixin.qq.com/s/Xf8S_TeBLtC0VIoIxRRvwQ
-
-📖 查看完整日报（40 篇）→ https://news.justin7974.dev/2026-03-25.html</description>
     </item>
   </channel>
 </rss>
