@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 14 Apr 2026 00:12:10 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 00:10:17 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #552 | 2026-04-15</title>
+      <link>https://news.justin7974.dev/2026-04-15.html</link>
+      <guid>https://news.justin7974.dev/2026-04-15.html</guid>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 9 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. OpenAI&apos;s Memos, Frontier, Amazon and Anthropic
+Stratechery 拆解了 OpenAI 内部备忘录——关于如何在企业市场正面迎击 Anthropic。OpenAI 对 Anthropic 在编程和企业级 Agent 领域的领先位置高度警觉，正全力推进 Frontier 平台和企业级定制方案。同时 Amazon 在这场竞争中的角色愈发关键：作为 Anthropic 最大股东和 AWS 的分发渠道，Amazon 实际上在押注两边——既投 Anthropic，又通过 Bedrock 接入 OpenAI。
+🔗 https://stratechery.com/2026/openais-memos-frontier-amazon-and-anthropic/
+
+2. Not all AI agents are created equal
+Lenny Newsletter 邀请两位顶尖 AI Agent 课程讲师 Hamza Farooq 和 Jaya Rajwani 撰写了一份 Agent 优先级框架。核心论点：企业里 5-10 个 Agent 计划放在同一个 roadmap 上比较是行不通的，因为不同类型的 Agent（信息检索型、流程自动化型、自主决策型）在架构、团队需求、LLM 成本上差了几个数量级。文章提供了三层分类法和具体的优先级决策树。
+🔗 https://www.lennysnewsletter.com/p/not-all-ai-agents-are-created-equal
+
+3. Trusted access for the next era of cyber defense
+OpenAI 正式推出 GPT-5.4-Cyber——一个专为网络安全防御者微调的模型，并扩大 Trusted Access for Cyber 项目的覆盖范围。背景是 Anthropic 刚刚因 Mythos 的网络安全能力引发广泛关注，OpenAI 选择在此时宣布自己的安全模型，定位是&quot;赋能防御方&quot;而非攻击方。模型仅向经过审查的安全研究机构和企业开放。
+🔗 https://openai.com/index/scaling-trusted-access-for-cyber-defense
+
+4. Cybersecurity Looks Like Proof of Work Now
+英国 AI 安全研究所评估了 Claude Mythos 的网络安全能力，结论令人震惊：AI 正在让攻防双方的能力同时指数级增长，网络安全开始像&quot;工作量证明&quot;——攻击成本接近零，防御必须持续投入才能保持安全。
+🔗 https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everything
+
+5. Amazon to Acquire Globalstar
+Amazon 宣布收购卫星通信公司 Globalstar，同时与 Apple 达成协议继续为 iPhone 和 Apple Watch 提供卫星服务。Amazon 借此强化 Project Kuiper 卫星互联网布局，同时锁定 Apple 作为卫星服务客户。
+🔗 https://www.aboutamazon.com/news/company-news/amazon-globalstar-apple
+
+🐦 Twitter 精选（5 / 30）
+
+1. @emollick：AI 模型版本号严重失真——按 GPQA 每 0.1 版本的实际提升来看，Claude 3.7 应该叫 4.4。版本号让普通用户严重低估了模型能力的真实跃迁。
+🔗 https://x.com/emollick/status/2044200225653326269
+
+2. @emollick：未来几个月的心智模型：模型在已有优势领域（如编码）会变得非常强，但弱项（如长篇小说）依然不变。上一次 jagged frontier 形状发生根本改变，还是 o1 和 Reasoner 的出现。
+🔗 https://x.com/emollick/status/2044124960096965115
+
+3. @Hesamation：OpenAI 正在为 Mythos 发布做准备，GPT-5.4-Cyber 是 GPT-5.4 的安全微调版本。未来几年的互联网会非常有意思。
+🔗 https://x.com/Hesamation/status/2044189248429904331
+
+4. @Hesamation：GPT-5.4 Pro 又解决了一个 Erdős 数学难题。AI 在数学领域的能力边界持续扩展。
+🔗 https://x.com/Hesamation/status/2044073470510649624
+
+5. @Hesamation：拿 35B 参数的 Qwen 和 5T 参数的 Opus 做对比是 next-level 的操作——&quot;这个味道和肉一模一样&quot;的素食主义者能量。
+🔗 https://x.com/Hesamation/status/2044198692161224824
+
+📱 公众号精选（5 / 9）
+
+1. 40 余人撬动 1300 亿收入，揭秘 Anthropic 的 AI &quot;自增长&quot;黑盒
+Lenny&apos;s Podcast 专访 Anthropic 增长负责人 Amol Avasare，揭示了一组惊人数字：约 40 人的增长团队在 14 个月内推动 ARR 从 72 亿元飙升至 1368 亿元。Amol 靠一封 Cold Email 获得这份工作，团队分为横向（增长平台 + 变现）和纵向（B2B、代码、知识工作者、API）两条线。核心金句：&quot;Claude is growing itself at this point.&quot;
+🔗 https://mp.weixin.qq.com/s/4HemGzqidgWBMochUVUa_A
+
+2. 6个月做到4000万美金年收入：这家AI保险公司开咖啡馆、印报纸、让员工住进办公室
+AI 保险公司 Corgi 的创始人完全没有保险行业背景（来自游戏行业），成立不到半年 ARR 超 4000 万美元，累计融资 1.08 亿美元。上线首日 1000+ 创始人完成保险报价。核心方法论：把保险当系统工程问题解决，找出每一个让人变慢的摩擦点然后逐一清除。极端企业文化包括 24 小时咖啡馆、自办报纸、员工住进办公室。
+🔗 https://mp.weixin.qq.com/s/lcj3tajcyKQzpndxhbyWhQ
+
+3. 完整解读：斯坦福 AI 年度报告｜26版发布，423页
+斯坦福 HAI 发布 2026 年 AI Index Report，423 页。15 条核心要点包括：AI 能力没有停滞还在加速、行业贡献超 90% 前沿模型、中美模型性能差距基本消失、组织采用率达 88%、五分之四大学生在用生成式 AI。新增 AI 与科学、AI 与医疗两个独立章节，以及 AI 主权分析框架和生成式 AI 消费者价值估算。
+🔗 https://mp.weixin.qq.com/s/fDqQJkM4e5Z3bSppLZ7YMA
+
+4. 独家｜Creao AI完成千万美金融资，以Agent OS重构AI-native时代的工作入口
+CREAO AI 完成千万级美金新一轮融资，Prosperity7 Ventures（阿美风投）领投，经纬、云启、红杉中国等老股东跟投。不到一年累积超 3000 万美元融资。核心产品是 Agent OS——AI 既造工具，也跑工具，形成自闭环系统。
+🔗 https://mp.weixin.qq.com/s/0wyjC5V5Uh7KctN6bPD-oQ
+
+5. 为什么你的&quot;AI 优先&quot;战略可能大错特错？
+与其说 AI First，不如说软件工程 First。AI 时代人成了瓶颈——PM、QA、部署每个环节都比 AI 慢。解法是全链条自动化：AI 写代码、AI 审查、AI 测试、AI 部署、AI 监控、出问题自动回滚。前提是你得先有足够好的自动化测试基础。
+🔗 https://mp.weixin.qq.com/s/RYKuHiQewwJ8p9zyBrAIzQ
+
+📖 查看完整日报（49 篇）→ https://news.justin7974.dev/2026-04-15.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #551 | 2026-04-14</title>
       <link>https://news.justin7974.dev/2026-04-14.html</link>
@@ -1320,76 +1390,6 @@ Harvey 在 18 个月内完成四轮融资，估值从 30 亿一路飙升至 110 
 🔗 https://mp.weixin.qq.com/s/j3U3YFt5zLCTvfEaj6nH2g
 
 📖 查看完整日报（43 篇）→ https://news.justin7974.dev/2026-03-27.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #532 | 2026-03-26</title>
-      <link>https://news.justin7974.dev/2026-03-26.html</link>
-      <guid>https://news.justin7974.dev/2026-03-26.html</guid>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-      <description>今日共 15 篇 RSS · 14 条推文 · 8 篇公众号
-
-📰 RSS 精选（5 / 15）
-
-1. Claude Can Now Take Control of Your Mac
-Anthropic 发布 Claude 计算机控制功能的 research preview，Claude Cowork 和 Claude Code 中用户可让 Claude 直接操作桌面——包括点击、滚动、打开浏览器和开发工具，无需额外配置。系统会优先使用精确工具（如 Slack、Google Calendar 连接器），仅在没有连接器时才调用鼠标键盘。同步推出的 Dispatch 功能允许用户从手机下发任务，Claude 在电脑端完成后交付成果。目前面向 Pro 和 Max 订阅用户开放，内置了 prompt injection 检测等安全防护，部分应用默认被屏蔽。
-🔗 https://claude.com/blog/dispatch-and-computer-use
-
-2. How Stripe built &quot;minions&quot;—AI coding agents that ship 1,300 PRs weekly from Slack reactions
-Stripe 工程师 Steve Kaliski 介绍了内部 AI 编码代理&quot;minions&quot;的工作方式：工程师在 Slack 中点击 emoji 即可触发代理，代理利用 Stripe 内部所有工具一键生成 PR，目前每周产出约 1,300 个无需人工辅助（仅需 code review）的 PR。核心基础设施是云端隔离开发环境，使多个代理可并行修改代码。非工程师也开始使用 minions 来提交代码。此外还演示了 machine-to-machine 支付协议，AI 代理可自主调用第三方服务完成任务（如用 5.47 美元策划生日派对）。
-🔗 https://www.lennysnewsletter.com/p/how-stripe-built-minionsai-coding
-
-3. [AINews] Apple&apos;s War on Slop
-Latent Space 本期 AINews 聚焦几个重要信号：OpenAI 关停 Sora（视频生成首个重大产品死亡案例）、LiteLLM 遭遇供应链攻击（恶意包在 PyPI 上存活 46 分钟、被下载 47,000 次）、以及 App Store 因 vibe-coded 应用泛滥面临分发模式危机。核心图表显示 App Store 新应用提交量激增，Apple 开始封禁 Replit、Vibecode 等工具类应用。文章认为&quot;War on Slop&quot;是 2026 年关键主题——传统应用分发平台正被低成本 AI 生成应用冲击。
-🔗 https://www.latent.space/p/ainews-apples-war-on-slop
-
-4. Arm Launches Own CPU
-Arm 宣布将直接销售自研 CPU，而非仅授权 IP。Ben Thompson 分析了这一战略转变的动因：随着计算从通用走向异构、从芯片走向系统，Arm 的传统授权模式面临价值被稀释的风险。直接卖芯片让 Arm 能捕获更多系统级价值，但也意味着与自己的客户（高通、联发科等）产生直接竞争。
-🔗 https://stratechery.com/2026/arm-launches-own-cpu-arms-motivation-constraints-and-systems/
-
-5. Robotics Needs Fewer Roboticists
-a16z 的 Jacob Zietek 认为机器人行业的部署瓶颈不是技术而是人才结构。当前领域过度优化于研究型人才（追求论文和新颖性），缺少关注可靠性、客户和运营的工程化人才。他指出 VLA（视觉-语言-动作模型）和低成本硬件已经让部署变得可行，但行业文化仍停留在实验室阶段。核心论点是机器人领域需要&quot;更少的每人均机器人学家&quot;——不是减少总人数，而是引入更多运营、产品、销售人才。
-🔗 https://www.a16z.news/p/robotics-needs-fewer-roboticists
-
-🐦 Twitter 精选（5 / 14）
-
-1. @karpathy：LLM 个性化记忆的共性问题：两个月前随口问过的一个话题会被当成&quot;深度兴趣&quot;反复提及，所有模型都有这个毛病。推测原因是训练时上下文内容大多与任务相关，模型产生了&quot;凡是给到的信息都要用上&quot;的偏差。
-🔗 https://x.com/karpathy/status/2036836816654147718
-
-2. @Hesamation：ARC-AGI-3 发布，奖金 70 万美元。Opus 4.6 在 ARC-2 高难度模式得分 69.2%，在 ARC-3 最高难度仅得 0.2%。该基准测试目标是评估&quot;探索新环境、动态获取目标、构建可适应的世界模型&quot;等能力。
-🔗 https://x.com/Hesamation/status/2036861818321146306
-
-3. @emollick：ARC-AGI-3 需要多次尝试但对人类来说是可解的，好奇前沿模型的低分有多少来自 harness/视觉/工具限制，多少是 LLM 本身的能力瓶颈。
-🔗 https://x.com/emollick/status/2036865990282092940
-
-4. @emollick：很多人以为 AI 能做某个任务就能替代人类，但 token 成本并不低——对许多任务（包括技术活）而言，人类仍然比 AI 便宜得多。算力效率提升和供给增加会改变这个等式，但现阶段 AI 并非万能替代方案。
-🔗 https://x.com/emollick/status/2036955561233719637
-
-5. @steipete：OpenClaw 新 beta 版本发布，改进了 MS Teams 集成和 OpenWebUI 支持。
-🔗 https://x.com/steipete/status/2036824286988816737
-
-📱 公众号精选（5 / 8）
-
-1. 晚点独家丨火山引擎豆包大模型日均调用量破百万亿 Tokens
-晚点独家报道，今年春节以来火山引擎豆包大模型日均调用量已超 100 万亿 Tokens，不到两个月涨超 60%。全球目前仅 OpenAI、Google 和字节跳动三家达到这一量级。Agent 产品（尤其是编程 Agent 和 OpenClaw）推动了 Token 消耗的爆发式增长。黄仁勋在 GTC 上称 Token 将成为数字世界最核心的大宗商品。阿里成立 Token Hub 事业群由吴泳铭亲自带队，目标拿下中国 AI 云增量的 80%。火山引擎此前定下 2026 年 MaaS 收入超百亿元目标，已两度上调。
-🔗 https://mp.weixin.qq.com/s/sHL6k9vf8UNgYkfaj2qmbA
-
-2. 晚点独家丨Momenta 港股秘密递表，预计年内上市
-Momenta 已向港交所秘密递交招股书，IPO 估值预期超千亿元，计划 2026 年内挂牌。累计搭载车辆近 70 万辆，获超 170 款车型定点，智驾方案已出海至 10 余国。投资方阵容包括上汽、丰田、戴姆勒、通用、博世等。创始人曹旭东为清华物理出身，此前在商汤任研发总监。多家国产智驾供应商也在准备今年上市。
-🔗 https://mp.weixin.qq.com/s/U8aRLkTj2d5rMQK4FFl03w
-
-3. Sora 关停，迪士尼 10 亿美元投资作废
-完整梳理了 Sora 从 2024 年 2 月预览到 2026 年 3 月关停的完整时间线。关键数据：Sora App 生命周期应用内购收入仅约 210 万美元，峰值月下载 330 万次跌至 113 万。迪士尼的 10 亿美元投资（全部为认股权证，零现金）从未完成资金交割。Tyler Perry 因 Sora 暂停了 8 亿美元影视基地扩建，如今看来是一个正确的等待。
-🔗 https://mp.weixin.qq.com/s/oWAZE_p8yzQ0YxMLPiu5wQ
-
-4. 速递丨AWS 裁员后以 AI 替人计划加速兑现
-AWS 开发 AI 助手承接被裁技术专员的工作，帮销售快速回答技术问题，还推出了自动协调合作伙伴交易的 Agent。CEO 贾西去年已预告 AI 会逐步减少员工数量，亚马逊还计划到 2033 年用机器人替代数十万岗位。
-🔗 https://mp.weixin.qq.com/s/PGzKjFWjg4l8RDVzrNPrNw
-
-5. 速递丨Mirage（原 Captions）获 General Catalyst 7500 万美元增长融资
-AI 视频编辑应用 Captions 更名 Mirage，定位 AI 实验室。过去 365 天下载超 320 万次，应用内购收入 2840 万美元，已创建超 2 亿个视频。计划拓展亚洲市场。
-🔗 https://mp.weixin.qq.com/s/fCfnajftRvL4PxJ1HeE6-A
-
-📖 查看完整日报（37 篇）→ https://news.justin7974.dev/2026-03-26.html</description>
     </item>
   </channel>
 </rss>
