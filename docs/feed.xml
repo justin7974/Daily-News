@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 20 Apr 2026 00:14:52 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 00:09:15 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #558 | 2026-04-21</title>
+      <link>https://news.justin7974.dev/2026-04-21.html</link>
+      <guid>https://news.justin7974.dev/2026-04-21.html</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 29 条推文 · 13 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Apple CEO 换帅：Tim Cook 转任执行主席，John Ternus 将于 9 月接任 CEO
+Apple 宣布 Tim Cook 将于 2026 年 9 月 1 日起转任执行主席，硬件工程高级副总裁 John Ternus 接任 CEO。这一过渡经董事会一致批准，是长期接班计划的成果。Cook 将继续担任 CEO 直到夏季结束，之后以执行主席身份继续参与公司事务。Ternus 自 2001 年加入 Apple，领导了从 iPhone、Mac 到 Apple Silicon 和 Vision Pro 等几乎所有硬件产品线的工程工作。Cook 在同日发布的社区公开信中回顾了 15 年的 CEO 生涯，表示这是&quot;经过深思熟虑的正确时机&quot;。
+🔗 https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/
+
+2. TSMC 财报、N3 新厂与 Nvidia 产能爬坡
+Stratechery 分析 TSMC 最新财报，指出 TSMC 管理层对 AI 增长故事的态度并不像市场预期那样&quot;all-in&quot;。文章深入探讨了 N3 制程新厂的产能规划与 Nvidia 下一代芯片的产能爬坡进度之间的微妙张力。
+🔗 https://stratechery.com/2026/tsmc-earnings-new-n3-fabs-the-nvidia-ramp/
+
+3. 独家：微软将 GitHub Copilot 转向 Token 计费，收紧速率限制
+内部文件显示微软计划暂停 GitHub Copilot 个人账户新注册，以便从按请求计费转向按 token 计费。文件还揭示 Copilot 的周运营成本自年初以来已翻倍。这一定价模型转变将深刻影响 AI 编程工具市场的竞争格局。
+🔗 https://www.wheresyoured.at/news-microsoft-to-shift-github-copilot-users-to-token-based-billing-reduce-rate-limits-2/
+
+4. Hyperscalers 正在瓜分 AI Agent 市场——谁在哪里赢
+CB Insights 继此前的云战争分析后，进一步拆解 Amazon、Google、Microsoft 三大云厂商在 AI Agent 市场各层级的竞争态势。报告从基础设施合作延伸到 Agent 平台层，分析了每家在不同垂直领域的差异化布局和 AI 创业公司的站队格局。
+🔗 https://www.cbinsights.com/research/hyperscalers-are-carving-up-the-ai-agent-market/
+
+5. a16z 宣布投资新媒体公司 MTS
+a16z 通过其媒体平台宣布对一家名为 MTS（Monitoring the Situation）的新媒体公司的投资。a16z 持续在媒体和内容基础设施领域布局。
+🔗 https://www.a16z.news/p/monitoring-the-situation
+
+🐦 Twitter 精选（5 / 29）
+
+1. @emollick：经典研究让 146 个经济学家团队分析同一数据集，结果大相径庭。新论文用 Agentic AI 重做实验——Claude Code 和 Codex 的结果接近人类中位数，但离散度更小、无极端值。表明 AI 在可扩展研究中已具实用价值。
+🔗 https://x.com/emollick/status/2046362044786458648
+
+2. @emollick：LLM 时代第二重要的发布（仅次于 GPT-3.5），配上了可能是最重要的一张图。令人惊讶的是 OpenAI 选择公开 Reasoner 而非保密——如果当初跳过 o1 直接发布 o3 作为 GPT-5，就不会有 DeepSeek 时刻，其他实验室可能也不会发现 Reasoner。
+🔗 https://x.com/emollick/status/2046053467941163055
+
+3. @emollick：识别 X 上 AI 生成水文的简单方法：看是否在 280 字符限制内。所有模型在首次尝试时都很难写出 280 字符的摘要，而制造水文的人也懒得优化 prompt。
+🔗 https://x.com/emollick/status/2046374457124528519
+
+4. @Hesamation：Claude Opus 4.7 vs 4.6 实测对比：同一编码任务，Opus 4.7 用时 11 分 10 秒、13% 用量、200K token；Opus 4.6 用时 6 分 11 秒、8% 用量、80K token。4.6 遗漏了一些边界情况和 bug，4.7 在理解和修复问题上更胜一筹。
+🔗 https://x.com/Hesamation/status/2046359452949877001
+
+5. @Hesamation：KIMI K2.6 发布博客中的疯狂细节：模型在 Mac 上本地部署了 Qwen3.5-0.8B，用 Zig 编写并优化推理，将吞吐量从 ~15 提升到 ~193 tokens/sec，比 LM Studio 快 20%。整个过程执行了 4,000+ 次工具调用，超过 12 小时，迭代 14 轮。
+🔗 https://x.com/Hesamation/status/2046269399900860922
+
+📱 公众号精选（5 / 13）
+
+1. 速递｜估值500亿美元，Cursor 新一轮融资20亿，a16z+Thrive+Nvidia 联手押注
+Cursor 完成 20 亿美元新一轮融资，估值达到 500 亿美元，由 a16z、Thrive Capital 和 Nvidia 联合领投。Cursor 通过自研 Composer、接入 Kimi 等低成本模型来降低对外部供应商的依赖度，同时压缩毛利率。
+🔗 https://mp.weixin.qq.com/s/WnldmFEAjE1cuvXqyTFR0g
+
+2. 速递｜IPO 倒计时，Anthropic CFO 已用一年让毛利率转正、ARR 涨 9 倍
+Anthropic 的融资、算力谈判、并购与 IPO 准备，都由一位极少公开露面的 CFO 一手推进。在她的操盘下，Anthropic 实现了毛利率转正和 ARR 增长 9 倍的里程碑。
+🔗 https://mp.weixin.qq.com/s/WVfNJYu9ecE0QJAe2c-ZGg
+
+3. Kimi K2.6 开源：一个人，和他的 300 Agents
+Kimi 发布 K2.6 开源模型，核心亮点是&quot;一个人操控 300 个 Agent&quot;的协作范式。这不仅是模型能力的突破，更是 Agent 编排理念的重新定义。
+🔗 https://mp.weixin.qq.com/s/OJkV7n1Qf8gU638wtXj9FQ
+
+4. Resolve AI：为什么 AI SRE 领域有望诞生下一代 Datadog
+Resolve AI 定位&quot;运维领域的 proactive agent&quot;，不是在告警后才响应，而是主动预测和预防故障。文章从 Datadog 的成长路径出发，论证 AI SRE 为何可能成为下一个十亿美元级赛道。
+🔗 https://mp.weixin.qq.com/s/cr1ZLVv9eq5cbILdlQlo8g
+
+5. AI 干活干一半崩了谁负责？下一场基础设施战争已经开始
+框架是应用，沙箱是服务器。谁拥有轨迹数据，谁就掌握 AI 基础设施的下一张牌。Agent 可靠性正在从&quot;模型问题&quot;变成&quot;基础设施问题&quot;。
+🔗 https://mp.weixin.qq.com/s/32lQUQMZyClzT9Q0lafUMw
+
+📖 查看完整日报（52 篇）→ https://news.justin7974.dev/2026-04-21.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #557 | 2026-04-20</title>
       <link>https://news.justin7974.dev/2026-04-20.html</link>
@@ -1328,76 +1398,6 @@ OpenAI 正式关闭史上最大单轮私募融资，三大锚定方为 Amazon（
 🔗 https://mp.weixin.qq.com/s/JdNyMnS0VN-BIvB61Xrmcw
 
 📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-04-02.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #538 | 2026-04-01</title>
-      <link>https://news.justin7974.dev/2026-04-01.html</link>
-      <guid>https://news.justin7974.dev/2026-04-01.html</guid>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
-      <description>今日共 13 篇 RSS · 18 条推文 · 12 篇公众号
-
-📰 RSS 精选（5 / 13）
-
-1. Accelerating the next phase of AI
-OpenAI 宣布完成 1220 亿美元新一轮融资，用于扩展前沿 AI 全球化部署、投资下一代算力基础设施、以及满足 ChatGPT、Codex 和企业 AI 日益增长的需求。这是 AI 行业迄今为止最大规模的单轮融资。
-🔗 https://openai.com/index/accelerating-the-next-phase-ai
-
-2. [AINews] The Last 4 Jobs in Tech
-Latent Space 结合 Yoni Rechtman 和 Linear CEO Karri Saarinen 的框架，提出后 AI 时代技术团队只剩四种角色：Tank（系统设计）、Healer（维护修复）、DPS（快速交付）、Support（协调沟通）——借用了魔兽世界的团队分工模型。同期热点包括 Claude Code 获得 Computer Use 能力实现闭环验证、OpenAI 发布 Codex 插件打通跨 agent 协作、以及 axios npm 包遭供应链攻击。
-🔗 https://www.latent.space/p/ainews-the-last-4-jobs-in-tech
-
-3. Mintlify, Serval, ElevenLabs &amp; Anthropic Top Enterprise Tech 30 VC Survey
-Wing 联合 Newcomer 第二年发布 ET30 VC 调研，调查顶级 VC 最看好的企业级创业公司。今年四个阶段的冠军分别是：早期 Mintlify（开发者文档）、中期 Serval（IT agent 平台）、后期 ElevenLabs（语音模型）、巨型 Anthropic。Dust、Granola、Vercel、Databricks 分获各阶段亚军。在客服赛道，估值更低的 Decagon 排名超过了 Sierra；法律 AI 领域 Harvey 和 Legora 几乎并列。Anthropic 在巨型阶段超过 OpenAI 排名第一。
-🔗 https://www.newcomer.co/p/mintlify-serval-elevenlabs-and-anthropic
-
-4. Apple&apos;s 50 Years of Integration
-Ben Thompson 分析苹果 50 年来靠硬件+软件垂直整合存活的核心逻辑。他的关键判断是：如果苹果因 AI 而失败，原因不会是整合策略本身失败，而是「整合的关键点」发生了转移——从设备端转向云端和模型层，而这恰恰是苹果最薄弱的环节。
-🔗 https://stratechery.com/2026/apples-50-years-of-integration/
-
-5. Supply Chain Attack on Axios Pulls Malicious Dependency from npm
-JavaScript 生态最流行的 HTTP 客户端库 axios（每周下载量超 1 亿次）遭遇供应链攻击。攻击者劫持了主维护者 jasonsaayman 的 npm 账号，将邮箱改为 ProtonMail 地址后发布了两个带毒版本（1.14.1 和 0.30.4），注入名为 plain-crypto-js 的恶意依赖，安装时自动执行脚本窃取凭证。
-🔗 https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/#atom-everything
-
-🐦 Twitter 精选（5 / 18）
-
-1. @Hesamation：Claude Code 源码泄露后，内部发现了关于 Anthropic 如何处理 agent 安全、权限模型和未发布功能的有趣细节。
-🔗 https://x.com/Hesamation/status/2039122807745831045
-
-2. @Hesamation：分享了一篇深度分析 Claude Code 泄露源码的文章，涵盖从工具系统到权限模型的完整架构解读。
-🔗 https://x.com/Hesamation/status/2038998662504656909
-
-3. @kloss_xyz：Claude Code 泄露源码中一个值得注意的细节：Claude Code 内置了系统提示，会告诉模型&quot;你在帮助一个开发者&quot;，这种角色设定影响了模型的行为模式。
-🔗 https://x.com/kloss_xyz/status/2039094337842397389
-
-4. @karpathy：npm 生态再遭供应链攻击，这次是最流行的 HTTP 客户端库 axios。Karpathy 提醒开发者警惕依赖链中的安全风险。
-🔗 https://x.com/karpathy/status/2038849654423798197
-
-5. @karpathy：回应 Guido van Rossum 关于 LLM 架构的讨论：LLM 相当于 CPU（数据是 token 而非字节，动态是统计而非确定性的），这套类比框架揭示了 LLM 生态与传统计算生态的结构性相似。
-🔗 https://x.com/karpathy/status/2039054981719089202
-
-📱 公众号精选（5 / 12）
-
-1. 智谱年报发布：收入结构翻转，MaaS 增长 60 倍
-智谱（02513.HK）发布上市后首份年报：2025 年全年收入 7.24 亿元，同比增长 132%。MaaS API 平台 ARR 达 17 亿元（约 2.5 亿美金），12 个月增长 60 倍。更关键的数据是：2026 年一季度 API 涨价 83% 后，调用量不降反升增长 400%。全年综合毛利率 41%，在行业平均毛利率仍为 -30% 的环境下实现正向盈利。GLM 模型覆盖 400 万企业用户，中国前十大互联网公司有 9 家在用。
-🔗 https://mp.weixin.qq.com/s/B9UptX1zLLNazEUOi2zqaQ
-
-2. Redpoint 2026：软件行业正在大分化
-Redpoint 合伙人 Logan Bartlett 发布 2026 年度市场报告，核心结论：这不是泡沫，是重组。OpenAI 和 Anthropic 各自跑出 200 亿美元+ ARR，超过 90% 的新数据中心容量在动工前就已被预订。报告将 AI Agent 成熟度分为四阶段：Copilot（$0.5T）→ Task Agent（$1.2T）→ Workflow Agent（$3.5T+）→ Autonomous Agent（远超当前），当前行业正处于从 Copilot 向 Task Agent 过渡的关键节点。
-🔗 https://mp.weixin.qq.com/s/mP3enqKmgeZxsDtQUJ06wg
-
-3. Claude Code 源码泄漏，全部细节与始末
-安全研究员 Chaofan Shou 发现 Anthropic 的 Claude Code 全部源码通过 npm 包中的 source map 文件暴露在公网。泄露版本为 v2.1.88，包含 1900 个 TypeScript 源文件、51.2 万行代码，涵盖工具系统、权限模型和未发布功能。GitHub 备份仓库一小时内突破 1.1 万 star、1.7 万 fork。同日 npm 生态还遭遇 axios 供应链攻击，两件事叠加引发广泛讨论。
-🔗 https://mp.weixin.qq.com/s/WVKutso40g5tTtOnm9pUag
-
-4. Peter Deng：你能 vibe code 一个 App，但你不能 vibe code 复利
-前 Facebook/Instagram/Uber/OpenAI 产品负责人 Peter Deng 八年只做了一个消费投资，提出消费级公司必须同时满足五条铁律：基本人类需求、疯狂的创始人、新技术浪潮、复利效应、极度聚焦。Meta 1.5 万亿、字节 5500 亿、WhatsApp 没收入卖了 190 亿——消费投资赚的是最大的钱，但五条全满的项目极为稀少。
-🔗 https://mp.weixin.qq.com/s/erpafY-lrKHVAqfllDOdxw
-
-5. 深度｜MaaS竞争下半场，谁能掌握智能的定价权
-结合智谱财报深度分析 MaaS 行业分层：第一类卖通用能力（便宜快），第二类卖任务完成率（稳定贵），Anthropic 和智谱正在证明后者才有定价权。
-🔗 https://mp.weixin.qq.com/s/nlB_stDuXUdK1uU7Ds-NFw
-
-📖 查看完整日报（43 篇）→ https://news.justin7974.dev/2026-04-01.html</description>
     </item>
   </channel>
 </rss>
