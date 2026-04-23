@@ -5,55 +5,77 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 23 Apr 2026 00:11:52 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 06:05:23 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>小虾AI日报 #560 | 2026-04-23</title>
       <link>https://news.justin7974.dev/2026-04-23.html</link>
       <guid>https://news.justin7974.dev/2026-04-23.html</guid>
       <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 15 条推文 · 0 篇公众号
+      <description>今日共 11 篇 RSS · 16 条推文 · 10 篇公众号
 
-📰 RSS 精选（5 / 12）
+📰 RSS 精选（5 / 11）
 
-1. xAI 以 $600 亿收购 Cursor，附带 $100 亿分手费
-Cursor CEO Michael Truell 在全员大会上宣布与 SpaceX 的新合作关系。SpaceX 随后发文称已获得&quot;以 $600 亿收购 Cursor 的权利，或支付 $100 亿合作费用&quot;。这笔交易对 a16z、Thrive 和 Accel 等早期投资者而言是巨大回报。交易结构刻意模糊——既是收购要约也是合作协议，给双方留足灵活空间。
+1. xAI&apos;s Move to Buy Cursor Shows the Promise &amp; the Risks for AI Applications Startups
+SpaceX 宣布获得以 600 亿美元收购 Cursor 的权利，附带 100 亿美元分手费。Cursor CEO Michael Truell 周二下午召集全员大会宣布与 SpaceX 的&quot;新合作关系&quot;。交易结构精心措辞——SpaceX 获得的是&quot;收购权&quot;而非直接收购，并将支付 100 亿美元用于&quot;合作&quot;。该交易对 a16z、Thrive 和 Accel 而言是巨大胜利。
 🔗 https://www.newcomer.co/p/xais-move-to-buy-cursor-shows-the
 
-2. OpenAI 发布 GPT-Image-2，图像生成重回产品前台
-GPT-Image-2 在 ChatGPT、Codex 和 API 全线上线，在 Arena 排行榜上全面登顶（text-to-image 1512 Elo，比第二名高 242 分）。模型支持 Thinking 和非 Thinking 两种模式，在文字渲染、排版保真、多语言支持和编辑能力上实现代际跨越。Sora 团队解散后 OpenAI 仍将图像生成列为优先级，Figma、Canva、fal 等下游工具已开始集成。最具系统性意义的变化是：图像生成正在成为编程 Agent 的前端——先生成 UI 规格图，再让 Codex 据此实现代码。
+2. [AINews] OpenAI launches GPT-Image-2
+OpenAI 正式发布 GPT-Image-2，在 ChatGPT、Codex 和 API 三端同时上线，包含 Thinking 和 Non-thinking 两种模式。Arena 排行榜显示该模型以 +242 Elo 的领先优势登顶 text-to-image、single-image edit 和 multi-image edit 全部三个类别。核心突破在于文字渲染精度和布局保真度——不再是更好看的图片，而是可以直接用于 UI 原型、文档、信息图和品牌资产的生产力工具。Figma、Canva、Adobe Firefly 和 fal 已集成该模型。
 🔗 https://www.latent.space/p/ainews-openai-launches-gpt-image
 
-3. Microsoft 将于 6 月把所有 GitHub Copilot 用户转为 Token 计费
-内部文件显示 Microsoft 计划 6 月起全面推行 token 计费：Copilot Business 用户 $19/月获 $30 池化 AI 额度，Enterprise 用户 $39/月获 $70 额度。此前 Microsoft 已暂停个人和学生账户新注册，并从最低价 $10/月计划中移除了 Anthropic 的 Opus 模型。公告预计 4/23 发布。同日 Anthropic 短暂将 Claude Code 从 $20/月 Pro 计划中移除（后已恢复），两家的动作指向同一趋势。
+3. Microsoft Moving All GitHub Copilot Subscribers To Token-Based Billing
+内部文件显示微软计划 6 月起将所有 GitHub Copilot 用户转向 token 计费模式。Copilot Business 用户将支付 $19/月/人并获得 $30 的池化 AI 额度，Copilot Enterprise 从 $39 涨至 $49 并获得 $100 额度。这意味着单纯使用 Copilot Chat 的轻度用户实际付费减少，而大量使用代码生成和 Agent 功能的重度用户将支付更多。
 🔗 https://www.wheresyoured.at/exclusive-microsoft-moving-all-github-copilot-subscribers-to-token-based-billing-in-june/
 
-4. Shopify CTO 深度访谈：AI 全面渗透后的真实挑战
-前微软高管、Shopify CTO Mikhail Parakhin 详述这家 $2000 亿公司 all-in AI 的全貌。2025 年 12 月是内部转折点——模型质量跨过阈值后，AI 工具采用率从局部试验变为近乎全员使用，CLI 风格工具增速超过传统 IDE 工具。Parakhin 指出 AI 编程的真正瓶颈已从代码生成转移到代码审查、CI/CD 和部署稳定性。Shopify 为此自建了 Tangle（可复现 ML 工作流引擎）、Tangent（自动化实验优化）和 SimGym（基于真实历史行为的客户模拟），三者组合构成端到端 AI 基础设施。
-🔗 https://www.latent.space/p/shopify
-
-5. a16z：为什么我们需要持续学习
-a16z 发表长文论述 LLM 的&quot;永恒现在&quot;困境——模型从训练中获得知识但无法形成新记忆，只能依赖上下文窗口、检索系统和 system prompt 等&quot;外部脚手架&quot;。文章引用《记忆碎片》类比，论证 in-context learning 在发现性问题（新数学证明）、对抗场景（安全）和隐性知识方面存在天花板。作者认为 state space model（SSM）虽然能大幅扩展上下文窗口，但真正的突破需要后部署参数更新——让模型持续将经验压缩进权重。多位研究者和创业者的访谈贯穿全文。
+4. Why We Need Continual Learning
+a16z 发布深度技术文章，以《记忆碎片》的 Leonard Shelby 类比当前 LLM 的根本缺陷：模型训练后参数冻结，无法从部署后的新经验中真正学习。文章系统梳理了 continual learning（持续学习）的技术路线——包括 LoRA 适配器持续微调、记忆增强架构、参数空间正则化等方法，核心论点是 in-context learning（上下文学习）在需要真正发现（如新数学定理）、对抗场景（安全）和难以语言化的隐性知识时不够用，模型需要直接更新参数的能力。
 🔗 https://www.a16z.news/p/why-we-need-continual-learning
 
-🐦 Twitter 精选（5 / 15）
+5. We&apos;re launching two specialized TPUs for the agentic era
+Google 发布第八代 TPU 的两款专用芯片 TPU 8t 和 8i，分别面向训练和推理场景，明确定位为&quot;agentic era&quot;的基础设施。Google 在自研芯片上持续加码，与 NVIDIA 的竞争进入新阶段。
+🔗 https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/
 
-1. @emollick：GPT-Image-2 的输出质量受底层 LLM 选择影响巨大——GPT-5.4 Thinking 和 GPT-5.4 Pro 会产出明显更好的图像，尤其是复杂场景。这一点既不直觉也没有官方文档说明。
-🔗 https://x.com/emollick/status/2046960756608868533
+🐦 Twitter 精选（5 / 16）
 
-2. @emollick：图像模型比文本模型更容易锚定在某个方向上，需要频繁清除上下文。他用&quot;PerfectSquashBench&quot;测试模型的锚定程度——多次尝试后南瓜仍然只是&quot;还行&quot;。
+1. @emollick：图像模型比文字模型更容易锚定在特定方向上，需要频繁清除上下文窗口。Emollick 提出 PerfectSquashBench 衡量图像模型的锚定程度——反复要求后南瓜依然只是&quot;还行&quot;。
 🔗 https://x.com/emollick/status/2047073009312121000
 
-3. @egeberkina：GPT Image 2 能精确理解产品的实际尺寸、比例和布局，生成的效果如同专业产品说明书。附 JSON 格式的详细 prompt 结构。
+2. @egeberkina：GPT Image 2 能精确理解产品尺寸和比例，生成的产品规格图与真实参数匹配，像专业产品说明书一样精准。
 🔗 https://x.com/egeberkina/status/2046963917490888832
 
-4. @egeberkina：Seedance 2.0 的 Omni Reference 功能表现强大，实现了视频生成中的高保真参考图像控制。
+3. @egeberkina：Seedance 2.0 的 Omni reference 功能非常强大，支持全方位参考图输入生成视频。
 🔗 https://x.com/egeberkina/status/2047037959866634314
 
-5. @Hesamation：Kimi K2.6 是目前唯一阻止前沿 AI 公司涨价的力量，值得尊重。中国开源模型对全球 AI 定价的制衡效应持续显现。
-🔗 https://x.com/Hesamation/status/2046938966440444105
+4. @AmirMushich：用 GPT Image 2 单提示词生成华纳音乐集团品牌重塑套件。视觉叙事扎实，但文案泛泛缺乏差异化；W 字母图形过度变形稀释了品牌识别度。AI 生图已到品牌概念阶段可用的程度。
+🔗 https://x.com/AmirMushich/status/2047061126123253851
 
-📖 查看完整日报（27 篇）→ https://news.justin7974.dev/2026-04-23.html</description>
+5. @rileybrown：GPT-Image-2 不支持透明背景输出，开发者在寻找最佳背景移除 API 方案。生图工具链仍有缺口待填。
+🔗 https://x.com/rileybrown/status/2047009958689157374
+
+📱 公众号精选（5 / 10）
+
+1. 智驾骨干集体跳向具身，催熟独角兽只要半年
+过去两年超过 20 位车企和智驾公司核心骨干转投具身智能。仅理想汽车就有超 10 位核心研发流出，包括前高级副总裁郎咸朋、前 AI 首席科学家陈伟等。理想前智驾负责人贾鹏创立的至简动力，半年估值达 10 亿美元；郎咸朋创立的昆仑行可能更快打破纪录。具身公司猎头费按年薪 25% 付，比智驾岗贵 2-3 个百分点。资本驱动下，从&quot;二三十亿&quot;到&quot;清一色百亿&quot;只用了不到半年。
+🔗 https://mp.weixin.qq.com/s/CP7utrWB04-Q_hqRfsCWSQ
+
+2. 营销已死，Anthropic 一个人干翻了整个市场部
+GRITCULT 一篇 X Article 获得 69.4 万浏览量，核心案例：Anthropic 的整个增长营销运营在某段时间由一人完成。这位增长负责人用 Claude Code 分析广告数据、构建专门化子 Agent（标题 Agent + 描述 Agent）、Figma 插件批量生成广告物料（每批 0.5 秒，最多 100 变体）、MCP 服务器对接 Meta Ads 实时数据、以及自我演化的记忆系统。文章将 AI 营销能力分为四层：自动化→思维伙伴→做以前 ROI 不划算的事→构建专属工具。
+🔗 https://mp.weixin.qq.com/s/L0ena-y0OyqyIj3s_4qUtg
+
+3. Amazon 追投 50 亿美元，Anthropic 承诺花费 1000 亿在 AWS 云计算
+Amazon 新一轮 50 亿美元投资使其在 Anthropic 的总投入达到 130 亿美元。作为交换，Anthropic 承诺未来 10 年在 AWS 花费超过 1000 亿美元，获得最多 5 GW 计算容量来训练和运行 Claude。交易核心是 Amazon 自研芯片 Trainium2 至 Trainium4。此前 Amazon 已以类似结构向 OpenAI 投入 500 亿美元。据报道 Anthropic 新一轮融资估值将达 8000 亿美元或更高。
+🔗 https://mp.weixin.qq.com/s/GCtH42uDXZ5wcBhJXRdaUA
+
+4. Phononic 拟以 20 亿美元估值出售，AI 芯片冷却赛道升温
+成立 17 年的半导体冷却公司 Phononic 正与潜在买家洽谈，估值讨论至少 15 亿、部分买家出价超 20 亿美元。公司生产直接放置在 HBM 芯片和 GPU 上的热管理套件。此前 Ecolab 以 47.5 亿美元收购 CoolIT（KKR 最成功投资之一，权益回报 15 倍），伊顿以近 100 亿美元收购 Boyd 热管理业务。NVIDIA 芯片运行温度越来越高，数据中心冷却已成为 AI 基础设施的关键瓶颈。
+🔗 https://mp.weixin.qq.com/s/lzacSLXqL3E6hLWzA5qQ1A
+
+5. Claude Code 或将 Max 专享，Pro 套餐撑不住了
+Anthropic 一度将 Claude Code 从 Pro 套餐移除，定价页和文档全量更新后又回滚。增长负责人承认&quot;使用量大幅上升，现行套餐扛不住&quot;。Claude Code 的 token 消耗远超订阅定价覆盖范围，AI 编程工具从订阅向 token 计费转型的趋势已不可逆。
+🔗 https://mp.weixin.qq.com/s/LgW4gArLSj28lWTT6KhR3A
+
+📖 查看完整日报（37 篇）→ https://news.justin7974.dev/2026-04-23.html</description>
     </item>
     <item>
       <title>小虾AI日报 #559 | 2026-04-22</title>
