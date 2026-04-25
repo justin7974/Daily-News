@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 24 Apr 2026 00:18:33 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 00:10:11 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #562 | 2026-04-25</title>
+      <link>https://news.justin7974.dev/2026-04-25.html</link>
+      <guid>https://news.justin7974.dev/2026-04-25.html</guid>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 15 条推文 · 10 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. DeepSeek V4—almost on the frontier, a fraction of the price
+DeepSeek 发布 V4 系列两款预览模型：V4-Pro（1.6T 参数，49B 激活）和 V4-Flash（284B 参数，13B 激活），均支持 100 万 token 上下文，MIT 开源。V4-Pro 是目前最大的开源模型，超过 Kimi K2.6（1.1T）和 GLM-5.1（754B）。定价极具冲击力：Flash 输入 $0.14/M、输出 $0.28/M，比 GPT-5.4 Nano 还便宜；Pro 输入 $1.74/M、输出 $3.48/M，在大模型中性价比最高。Simon Willison 测试了 SVG 绘图能力，认为模型质量接近前沿水平。
+🔗 https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything
+
+2. The people do not yearn for automation
+Simon Willison 推荐 The Verge 主编 Nilay Patel 的深度评论。Patel 提出&quot;software brain&quot;概念——习惯把一切视为可自动化的信息流的思维方式，正在与普通用户脱节。AI 使用数据持续飙升，但公众对 AI 被强行嵌入日常产品的反感也在升温。Patel 指出，普通人并不渴望自动化：Apple、Google、Amazon 花了十多年推广智能家居，大多数人依然不在乎。&quot;Software brain&quot;的极限在于——人类体验不能被压缩进数据库。
+🔗 https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything
+
+3. Premium: How OpenAI Kills Oracle
+2025 年 1 月，Oracle CEO Larry Ellison 飞赴华盛顿参与 Stargate 项目发布，这是 OpenAI 与 Oracle 合作的 5000 亿美元 AI 基础设施计划。但文章分析了 OpenAI 正在走一条&quot;先合作再取代&quot;的路径——从依赖 Oracle 的数据中心基础设施起步，逐步构建自有算力能力，最终可能不再需要 Oracle 作为中间层。
+🔗 https://www.wheresyoured.at/how-openai-kills-oracle/
+
+4. Stakes Keep Getting Higher for the SpaceX IPO
+Newcomer 报道 SpaceX IPO 的赌注持续升高。同期，知名 VC Bill Gurley 公开质疑市场普遍接受的&quot;算力短缺&quot;叙事，认为实际供需关系可能比共识更复杂。此外，Disney 前 CEO Bob Iger 加入 Thrive Capital，为这家因 OpenAI 投资而声名鹊起的 VC 增添了更多媒体和消费领域的人脉资源。
+🔗 https://www.newcomer.co/p/stakes-keep-getting-higher-for-the
+
+5. Software engineering may no longer be a lifetime career
+文章探讨了 AI 对软件工程师职业可持续性的冲击。核心论点：使用 AI 完成任务意味着你无法充分学习该任务本身。部分工程师认为这是反对使用 AI 的决定性论据——但作者认为关键不在于&quot;AI 让你变笨&quot;，而在于当 AI 能完成越来越多的编码工作时，通过长期积累经验来成为资深工程师的传统路径可能不再可行。职业生命周期可能从 30-40 年压缩到更短的窗口。
+🔗 https://seangoedecke.com/software-engineering-may-no-longer-be-a-lifetime-career/
+
+🐦 Twitter 精选（5 / 15）
+
+1. @emollick：DeepSeek 发布新模型 V4，完全开源权重，基准测试表现优秀。但开源模型的 benchmark 不总能反映实际使用体验，需要上线后实测验证。
+🔗 https://x.com/emollick/status/2047516272062058890
+
+2. @emollick：用 DeepSeek V4 Pro 做 TiKZ 画图测试，首次就画出了两只独角兽——TiKZ Sparks 系列测试的标志性难题。使用 DeepSeek 官网的 Expert 模式（即 V4 Pro）。
+🔗 https://x.com/emollick/status/2047523193481547929
+
+3. @Hesamation：DeepSeek 花了 16 个月打磨 V4：1.6T 参数、49B 激活参数、32T token 训练量、全新注意力架构，全部公开可用。特别针对 Agent 任务做了优化，是目前最大的开源模型。
+🔗 https://x.com/Hesamation/status/2047606790632665209
+
+4. @Hesamation：DeepSeek-V4 使用了 Kimi 的 Muon 优化器配方来扩展 LLM 训练，而 Kimi K2/K2.6 则采用了 DeepSeek-V3 的架构技术（超稀疏 MoE + MLA）。开源 AI 实验室正在相互借鉴、复合增长——这正是开源该有的样子。
+🔗 https://x.com/Hesamation/status/2047681313226854838
+
+5. @EXM7777：认为 GPT-5.5 和 Opus 4.7 都没有什么特别的——基准测试作为模型评估标准已经正式失效，实际使用体验才是关键。
+🔗 https://x.com/EXM7777/status/2047699343881478643
+
+📱 公众号精选（5 / 10）
+
+1. 请来 DeepSeek 核心成员阮翀，元戎启行要打的是另一场仗
+元戎启行招募 DeepSeek 核心成员阮翀，标志着大模型人才正在加速流入智能驾驶赛道。这批人才带来的不仅是算法能力，更重要的是突破现有智驾技术框架上限的可能性——传统 L2+/L4 方案的架构瓶颈，需要具备大规模预训练和 MoE 架构经验的团队才能破局。
+🔗 https://mp.weixin.qq.com/s/Ox6Ytk-e0OXcZW7dH4-T2Q
+
+2. 第一家从「前GPT时代」成功转型AI的公司，揭秘Notion的内幕
+深度还原 Notion 联合创始人 Ivan Zhao 和 Simon Last 的 AI 转型内幕：公司进入&quot;战时节奏&quot;、推行有机 AI 整合策略，以及一次豪赌式的底层重构。Notion 的路径是在已有产品中自然嵌入 AI 能力，而非推倒重来做一个&quot;AI 原生&quot;新产品。
+🔗 https://mp.weixin.qq.com/s/4C2tF5HuMJslTG5pJVcCLw
+
+3. 独家｜00后创始人获阿里战略投资，以客服为入口，重构电商生产力
+一位 00 后创始人获得阿里战略投资，产品以 AI 客服为切入点，目标是重构电商的底层生产力。AI 客服正在从&quot;自动回复&quot;升级为&quot;自动执行&quot;——不仅回答问题，还能直接完成退换货、改地址、推荐商品等操作。
+🔗 https://mp.weixin.qq.com/s/o-0fc-ASiTnwhBwX_AWuTQ
+
+4. Claude Code 变笨了？Anthropic 终于讲清楚了
+Anthropic 发布详细 postmortem，解释了 Claude Code 持续一个月的性能下降问题。原因是三个完全独立的改动叠加：模型微调调整、上下文处理变更和系统提示更新，每个单独看似无害，叠加后导致了明显的体验降质。这是一次典型的分布式系统故障复盘。
+🔗 https://mp.weixin.qq.com/s/5CtONLuYIS-3MStWFoFYag
+
+5. V4登场，外界声音很吵，但DeepSeek有自己的节奏
+比起外界期待的&quot;石破天惊&quot;式体验，DeepSeek 更愿意把重心扎在架构与工程上。V4 的技术路线选择（DSA 稀疏注意力、华为昇腾适配）反映了长期主义取向。
+🔗 https://mp.weixin.qq.com/s/z4rkKBD_oVmetA51fkJfgg
+
+📖 查看完整日报（37 篇）→ https://news.justin7974.dev/2026-04-25.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #561 | 2026-04-24</title>
       <link>https://news.justin7974.dev/2026-04-24.html</link>
@@ -1328,76 +1398,6 @@ Sebatian Raschka 撰文详解了编程智能体和 Agent Harness 的整体设计
 🔗 https://mp.weixin.qq.com/s/8748xw0B_8OD2pXPR6qs2A
 
 📖 查看完整日报（31 篇）→ https://news.justin7974.dev/2026-04-06.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #542 | 2026-04-05</title>
-      <link>https://news.justin7974.dev/2026-04-05.html</link>
-      <guid>https://news.justin7974.dev/2026-04-05.html</guid>
-      <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 13 条推文 · 7 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Quoting Kyle Daigle
-GitHub 平台负责人 Kyle Daigle 披露了一组惊人数据：2025 年 GitHub 总 commit 量为 10 亿次，而 2026 年目前周均已达 2.75 亿次，线性推算全年将达 140 亿次——14 倍增长。GitHub Actions 从 2023 年的每周 5 亿分钟飙升至本周 21 亿分钟。这一增长很大程度上由 AI 编码工具驱动，意味着&quot;代码产量&quot;正在经历指数级通胀。
-🔗 https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything
-
-2. Pluralistic: EU ready to cave to Trump on tech
-Cory Doctorow 分析欧盟正准备在科技监管上向特朗普政府让步。此前欧盟通过 DMA/DSA 等法规试图约束美国科技巨头，但在贸易施压下可能大幅放松执行。文章详细梳理了这一政策转向的背景、参与方博弈，以及对全球科技监管格局的潜在影响。
-🔗 https://pluralistic.net/2026/04/04/digital-subjugation/
-
-3. Absurd In Production
-Armin Ronacher（Flask 作者）五个月前介绍了 Absurd——一个完全基于 Postgres 构建的持久化执行系统，不需要 Temporal、Inngest 等独立服务。本文是生产环境实战报告，分享了 Absurd 在真实负载下的表现、遇到的问题以及架构演进。核心理念是：用 Postgres 的事务和锁机制就能实现可靠的工作流编排，无需引入额外的基础设施。
-🔗 https://lucumr.pocoo.org/2026/4/4/absurd-in-production/
-
-4. 🧠 Community Wisdom: Evaluating startup equity, navigating pre-seed fundraising, MCPs vs. CLIs, Monzo&apos;s U.S. exit, and more
-Lenny 社区本期讨论了创业公司股权评估、Pre-seed 融资策略、MCP 与 CLI 的技术选型对比，以及 Monzo 退出美国市场等话题，适合产品和创业领域的快速浏览。
-🔗 https://www.lennysnewsletter.com/p/community-wisdom-evaluating-startup
-
-5. 阿里千问3.6Plus大模型登顶全球模型调用排行榜首
-Qwen3.6-Plus 发布仅 1 天即登顶 OpenRouter 日榜，日调用量突破 1.4 万亿 Token，打破平台单日单模型调用全球纪录。OpenRouter 官方称其为&quot;最强劲的新模型表现&quot;。
-🔗 https://www.leiphone.com/category/industrynews/pWoHJBvmcpwoaqRM.html
-
-🐦 Twitter 精选（5 / 13）
-
-1. @emollick：一项针对 515 家初创公司的田野实验显示：接触 AI 应用案例的公司，AI 使用量增加 44%，收入提升 1.9 倍，所需资金减少 39%。这是迄今最大规模的创业公司 AI 应用随机对照实验。
-🔗 https://x.com/emollick/status/2040436307176898897
-
-2. @karpathy：推荐 Farzapedia——一个个人维基百科项目。Karpathy 认为这种&quot;个人知识库&quot;的方法在多个维度上优于当前&quot;AI 记住你的偏好&quot;的个性化路线。
-🔗 https://x.com/karpathy/status/2040572272944324650
-
-3. @karpathy：分享&quot;idea file&quot;概念：在 LLM Agent 时代，从想法到实现的路径大幅缩短，关键瓶颈从&quot;能不能做&quot;变成&quot;值不值得做&quot;，维护一个结构化的 idea 文件比随手记更重要。
-🔗 https://x.com/karpathy/status/2040470801506541998
-
-4. @karpathy：看好 AI 赋能普通人提升政府透明度和问责能力。历史上一直是政府监控人民，AI 可能翻转这一关系——让公民具备审计政府行为的能力。
-🔗 https://x.com/karpathy/status/2040549459193704852
-
-5. @karpathy：引用 Peter Steinberger 的观点：PR 应该改名为&quot;Prompt Request&quot;。AI Agent 已经能实现大多数想法，不再需要写完整代码再提 PR，直接提需求让 Agent 实现即可。
-🔗 https://x.com/karpathy/status/2040473058834878662
-
-📱 公众号精选（5 / 7）
-
-1. 客服软件巨头开始卖AI模型了，Intercom这步棋意味着什么？
-Intercom 发布 Fin API 平台，将其在客服场景中碾压通用大模型的垂直 AI 模型对外开放，年起步价 25 万美元。这意味着 Intercom 正从 SaaS 工具公司转型为 AI 模型供应商，用垂直场景数据构建的专用模型成为新的营收来源。
-🔗 https://mp.weixin.qq.com/s/1pFuDWOrEGzbh9AZFe-_tw
-
-2. 第一个能自我进化的AI Agent开源了，24小时自动登顶两大排行榜
-AutoAgent 项目用 AI 优化 AI：从一个 bash 工具出发，让 Agent 自主迭代代码和策略，24 小时后在 SpreadsheetBench 和 TerminalBench 双双登顶。这是&quot;自我进化 Agent&quot;概念的首个开源实现，验证了 AI 自主改进代码能力的可行性。
-🔗 https://mp.weixin.qq.com/s/MGEx9ug6ukKDvh7agSYwjA
-
-3. Qwen3.6 真好玩，使我的大脑旋转
-视觉推理表现一流，Coding 能力进一步提升，开发者社区对 Qwen3.6 的实测反馈积极。
-🔗 https://mp.weixin.qq.com/s/Y4Yq76zUyC8PZYBiye3HHQ
-
-4. Qwen3.6-Plus 模型到底怎样
-实测评价为&quot;性价比之王&quot;——润色能力第一、幻觉抑制第一、网页生成第一，对开发者和轻量应用场景极具吸引力。
-🔗 https://mp.weixin.qq.com/s/p9cy0ijUo8UovrsySHtgCQ
-
-5. 奥特曼、张一鸣、安德森、何小鹏
-梳理了这几位跨越周期的创业者的共性特质和关键决策时刻，探讨什么样的人能穿越技术浪潮。
-🔗 https://mp.weixin.qq.com/s/_iA_Mif4De0M_6qldz-UiA
-
-📖 查看完整日报（30 篇）→ https://news.justin7974.dev/2026-04-05.html</description>
     </item>
   </channel>
 </rss>
