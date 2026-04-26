@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 25 Apr 2026 00:10:11 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 00:13:10 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #563 | 2026-04-26</title>
+      <link>https://news.justin7974.dev/2026-04-26.html</link>
+      <guid>https://news.justin7974.dev/2026-04-26.html</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 15 条推文 · 6 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. [AINews] DeepSeek V4 Pro (1.6T-A49B) and Flash (284B-A13B), Base and Instruct — runnable on Huawei Ascend chips
+DeepSeek 发布 V4 系列：Pro（1.6T 参数/49B 激活）和 Flash（284B/13B 激活），MIT 开源，支持 100 万 token 上下文。技术亮点是新的 CSA/HCA 注意力架构，在 1M 上下文下仅需 V3.2 的 27% FLOPs 和 10% KV 缓存。独立测评显示 V4 Pro 位列开源权重第二（AA Intelligence Index 52 分），落后 Kimi K2.6（54 分），但在 Agent 任务（GDPval-AA 1554 分）领先所有开源模型。同期 Google 据报拟向 Anthropic 投资最高 400 亿美元；ComfyUI 以 5 亿美元估值完成 3000 万美元融资。
+🔗 https://www.latent.space/p/ainews-deepseek-v4-pro-16t-a49b-and
+
+2. Time to Serve Some Delicious Claim Chowder Regarding the Cook-Ternus CEO Transition
+Apple 4 月 20 日宣布 John Ternus 接任 CEO，Tim Cook 转任执行董事长。Gruber 回溯了这场交接的媒体暗战：2024 年 11 月 Financial Times 四人联合署名报道称 Apple 正在加速继任计划，Ternus 为最可能人选，预计 1 月底财报后、6 月 WWDC 前公布。Bloomberg 的 Mark Gurman 一周后公开称 FT 报道&quot;simply false&quot;，1 月再次重申&quot;seems unlikely&quot;。结果 FT 的每一个字都精确应验。Cook 的政治大使角色延续，Ternus 将在今年年中正式接掌运营。
+🔗 https://daringfireball.net/2026/04/delicious_claim_chowder_regarding_the_cook-ternus_ceo_transition
+
+3. GPT-5.5 prompting guide
+GPT-5.5 正式开放 API，OpenAI 同步发布详细的提示词指南。核心建议出人意料：不要沿用旧模型的 prompt，从最小化 prompt 重新开始调优。官方推荐的新技巧包括在多步工具调用前先发送简短状态更新（1-2 句话），以及通过 Codex 运行 $openai-docs migrate this project to gpt-5.5 来自动迁移。Simon Willison 注意到 Codex 已经在实践这种&quot;先告知再执行&quot;的模式，使长时间运行任务不再像模型崩溃。
+🔗 https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything
+
+4. Quoting Romain Huet
+OpenAI 确认自 GPT-5.4 起已将 Codex 和主模型统一为单一系统，不再发布独立的 Codex 模型。GPT-5.5 在 Agent 编码、计算机操作等任务上进一步强化。
+🔗 https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything
+
+5. Reading List 04/25/26
+Construction Physics 周报覆盖变压器用取向电工钢的制造难度（需 1350°C 以上重新加热、五到七天高温退火），美国&quot;隐性制造业繁荣&quot;的争议，以及 TSMC 因成本推迟采用 ASML High NA EUV 设备。数据中心电力变压器供应链瓶颈的上游根源值得关注。
+🔗 https://www.construction-physics.com/p/reading-list-042526
+
+🐦 Twitter 精选（5 / 15）
+
+1. @emollick：学术界尚未意识到 AI Agent 已经足够强大，能够在不访问代码和论文的情况下，仅凭方法和数据独立复现复杂论文。错误往往出在人类论文而非 AI 一方。
+🔗 https://x.com/emollick/status/2048058055472881710
+
+2. @EXM7777：分享当前工作流：Codex + GPT-5.5 做编排器（规划、路由、上下文管理），Claude Code + Opus 4.7 做执行器（创意、文案），双模型组合效果出色。
+🔗 https://x.com/EXM7777/status/2048061730274922668
+
+3. @Hesamation：OpenAI 凭借 Codex 重新赢回了大量尊重，在某个领域再次做到了最好。
+🔗 https://x.com/Hesamation/status/2047983668455412091
+
+4. @rileybrown：认为 Claude Agent SDK 之所以被低估，是因为没叫&quot;Claude Code SDK&quot;——如果改名会获得 10-100 倍的关注度。
+🔗 https://x.com/rileybrown/status/2047928846960492978
+
+5. @Hesamation：用 GPT Image-Gen-2 一次生成了一张逼真的 X 信息流截图，未指定任何账号名，模型自行补全了所有细节。
+🔗 https://x.com/Hesamation/status/2048059567762755875
+
+📱 公众号精选（5 / 6）
+
+1. 对话小马智行楼天城：驯服脱缰的野马，让 AI 自我进化
+小马智行 CTO 楼天城深度访谈。核心披露：小马智行 2020 年就意识到模仿学习无法实现 L4，转向&quot;世界模型+强化学习&quot;路线，2022 年世界模型精度开始超越传统模仿学习。最新的世界模型 2.0 将更多诊断和反馈工作交给 AI，减少对人工的依赖。公司计划今年将 Robotaxi 扩展到全球 20 个城市中心。楼天城将当下的 AI 比喻为&quot;脱缰野马&quot;——最稀缺的不是 AI 本身，而是能设置框架、让 AI 自我演进的人。
+🔗 https://mp.weixin.qq.com/s/flCEiSiAhDuEbdRUd_S6qw
+
+2. Z Tech｜对话王子涵：离开DeepSeek，我人生的逆向思考
+前 DeepSeek 研究员王子涵的深度访谈。提供了 DeepSeek 内部文化的一手观察：200 人团队中几乎人人在做研究，连 HR 都会转发大模型动态；infra 前辈逐行审查代码，每行都能找到优化空间。王子涵目前在人大攻读博士，专注 Agent 强化学习（RAGEN、VAGEN、MindCube 等框架）。他提出一个有趣的 Agent 定义框架：环境的开放程度决定了 Agent 的智能指数——完全开放计算机环境就是 OpenClaw，受限环境就是 Claude Code/Codex，只给聊天界面就是 GPT。
+🔗 https://mp.weixin.qq.com/s/grWCVvfAn_HUdqP8wBrucw
+
+3. DeepSeek V4开源，但这次不止一位屠龙少年
+分析 DeepSeek V4 开源生态格局，披露 DeepSeek 最新估值约 400 亿美元（非此前传闻的 100 亿），同期智谱 500 亿、MiniMax 300 亿、Kimi 约 200 亿、OpenAI 8500 亿、Anthropic 达万亿美元。中美大模型公司估值差距 20-50 倍。
+🔗 https://mp.weixin.qq.com/s/6mkSBOmM6Rm-8UrBsbiy7A
+
+4. UI 没有死，但 80% 的交互已经换了主角
+基于 Ramp 实际数据（MCP 周活三个月增长 10 倍）和 Salesforce &quot;Headless 360&quot; 架构转型，分析软件交互范式从&quot;用户→界面→数据库&quot;转向&quot;用户→Agent→软件Agent→数据库&quot;的趋势。
+🔗 https://mp.weixin.qq.com/s/-k1H7fHkq1dGtotouLrfJA
+
+5. 你的AGENTS.md可能比没有更糟：Augment实测数十份文件后总结的6条规律
+Augment Code 对 AGENTS.md 的系统性评测：写得好的文件等效于把模型从 Haiku 升级到 Opus，写得差的反而让输出质量低于无文件基线。最佳实践包括 100-150 行篇幅、步骤化工作流、决策表解决架构歧义等。
+🔗 https://mp.weixin.qq.com/s/X2Xe_akWd65UTvQ3pLuZXA
+
+📖 查看完整日报（31 篇）→ https://news.justin7974.dev/2026-04-26.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #562 | 2026-04-25</title>
       <link>https://news.justin7974.dev/2026-04-25.html</link>
@@ -1332,72 +1402,6 @@ StarCloud 创始人 Philip Johnston 接受红杉美国 Sonya Huang 和 Pat Grady
 🔗 https://mp.weixin.qq.com/s/506E6vIDFQB0USsAhDom2A
 
 📖 查看完整日报（38 篇）→ https://news.justin7974.dev/2026-04-07.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #543 | 2026-04-06</title>
-      <link>https://news.justin7974.dev/2026-04-06.html</link>
-      <guid>https://news.justin7974.dev/2026-04-06.html</guid>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 17 条推文 · 4 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Anthropic’s $1B to $19B growth run: how Claude became the fastest-growing AI product in history | Amol Avasare
-Anthropic 在短短 14 个月内实现了从 10 亿美元到 190 亿美元 ARR 的史诗级增长，成为史上增长最快的 AI 产品。其增长负责人 Amol Avasare 透露，内部正利用名为“CASH”的 AI 系统自主运行增长实验，极大加速了业务扩张。他预言随着 AI 赋能工程师效率，未来工程师与产品经理的比例甚至可能发生反转。
-🔗 https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run
-
-2. The back story behind the first “$1.8 Billion” dollar “AI Company”
-引发轰动的“1个人花2个月打造18亿美元估值AI公司” Medvi，近期被曝出背后可能并不是纯粹的 AI 技术胜利。深度调查显示其暴利很大程度上源于垃圾邮件营销和虚假域名欺骗等黑灰产手段，目前该公司甚至正面临加州的反垃圾邮件集体诉讼。
-🔗 https://garymarcus.substack.com/p/the-back-story-behind-the-first-18
-
-3. Class Action Lawsuit Says Perplexity’s ‘Incognito Mode’ Is a ‘Sham’
-Perplexity 目前正面临一项集体诉讼，被指控其所谓的“无痕模式（Incognito Mode）”只是一场骗局，未能真正保护用户的隐私数据不被采集和滥用。
-🔗 https://arstechnica.com/tech-policy/2026/04/perplexitys-incognito-mode-is-a-sham-lawsuit-says/
-
-4. Pinterest 部署生产级模型上下文协议生态系统，赋能 AI 智能体工作流
-Pinterest 开始在生产环境中部署企业级模型上下文协议 (MCP)，这大幅提升了其内部 AI 智能体工作流的稳定性和跨服务扩展能力。
-🔗 https://www.infoq.cn/article/04DleCzUztGhKgo26Mmk?utm_source=rss&amp;utm_medium=article
-
-5. Helidon 引入 Agent 能力，Java 框架开始内建 AI 编排
-传统的 Java 微服务框架 Helidon 正式引入了 Agent 能力，这意味着后端开发的基础设施正在原生集成大模型编排层，降低了企业的 AI 落地门槛。
-🔗 https://www.infoq.cn/article/TQ4A6w3oROqdUJRmfMLX?utm_source=rss&amp;utm_medium=article
-
-🐦 Twitter 精选（5 / 17）
-
-1. @EXM7777：Google 刚刚发布了可以在 MacBook Air 甚至 iPhone 上运行的 Gemma 4。尽管智力不及 Opus 4.6，但它展示了本地模型的飞速进化；如果你只是构建晨报或简报，其实不需要那么多算力。
-🔗 https://x.com/EXM7777/status/2040831086394278370
-
-2. @EXM7777：关于 OpenClaw 和 Hermes 谁更好的争论正在升温，但其实这不是非此即彼的选择。目前最佳的方案是让 Hermes 作为主管运行在 OpenClaw 之上，这能解决很多问题。
-🔗 https://x.com/EXM7777/status/2040810491883515985
-
-3. @Hesamation：以色列使用了一个“新 AI 平台”来定位哈梅内伊，该平台能处理来自被攻破的 IRGC 数据库、拦截的通讯以及被黑客入侵的德黑兰交通摄像头的大量数据。
-🔗 https://x.com/Hesamation/status/2040867928585773552
-
-4. @emollick：尽管 Gemma 4 作为端侧模型展现了令人印象深刻的速度，但我并不认为端侧小模型能真正实现智能体工作流。因为这太依赖模型的判断力、自我纠错和准确性了，小模型在这些方面依然太弱。
-🔗 https://x.com/emollick/status/2040925197767762425
-
-5. @emollick：一个未被充分认识的事实是，在许多任务中“第二缩放定律”似乎并没有完全触顶：给推理型 AI 模型提供更多 token 就能得到更好的答案。很多基准测试的成绩其实是被 token 用量限制了。
-🔗 https://x.com/emollick/status/2040911007392903231
-
-📱 公众号精选（4 / 4）
-
-1. 裁员 4000 人后，Block CEO 把管理活交给了 AI
-在经历大规模裁员后，Block CEO 正在将公司的核心管理任务转交给 AI 系统。这表明在追求极致人效的压力下，企业正从“用 AI 辅助执行”走向“用 AI 辅助管理”，探索完全由智能体驱动的组织架构。
-🔗 https://mp.weixin.qq.com/s/8DlG_LkuUVyUf8oY6Sq99w
-
-2. 我们先做了MCP，又做了CLI，CLI赢麻了
-TinyFish 使用同一套后端系统对比了 MCP 和 CLI 的表现，结果发现命令行在 token 效率和任务成功率上全面碾压了 MCP。文章指出这并非 MCP 的技术缺陷，而是开发者在很多场景下将其用错了地方。
-🔗 https://mp.weixin.qq.com/s/p4tO5xDho5ODEUsxzZG6zw
-
-3. Karpathy教你搭「第二大脑」：三个文件夹就够了
-AI 大牛 Karpathy 提出了极简的知识库方案：摒弃复杂的笔记软件，仅用三个文件夹和一个规则文件即可搭建高效的 AI“第二大脑”。
-🔗 https://mp.weixin.qq.com/s/WjKhtss7uUy2DXY9QX-zFw
-
-4. 编程智能体的核心组件【译】（重发，补图）
-Sebatian Raschka 撰文详解了编程智能体和 Agent Harness 的整体设计，分析了工具调用、记忆和代码库上下文等外围系统在落地场景中的巨大作用。
-🔗 https://mp.weixin.qq.com/s/8748xw0B_8OD2pXPR6qs2A
-
-📖 查看完整日报（31 篇）→ https://news.justin7974.dev/2026-04-06.html</description>
     </item>
   </channel>
 </rss>
