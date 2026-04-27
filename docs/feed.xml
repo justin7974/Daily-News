@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 26 Apr 2026 00:13:10 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 00:55:54 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #564 | 2026-04-27</title>
+      <link>https://news.justin7974.dev/2026-04-27.html</link>
+      <guid>https://news.justin7974.dev/2026-04-27.html</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 12 条推文 · 8 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Atlassian and HubSpot Join Shift From AI Flat Fees
+截至 2025 年底，Kyle Poyar 追踪的 500 家软件公司中已有 79 家（包括 HubSpot、Adobe、Salesforce）放弃了传统按席位收费的订阅模式，转向基于 AI 使用量或成果的定价。Atlassian 和 HubSpot 是最新加入这一趋势的大厂。驱动力很明确：当 AI Agent 替代了部分人工操作，按&quot;人头&quot;收费的逻辑不再成立。部分公司尝试按 AI 解决的工单数、生成的内容量或节省的工时计费，但新定价模型仍在摸索中，客户接受度参差不齐。
+🔗 https://www.theinformation.com/articles/atlassian-hubspot-join-shift-ai-flat-fees
+
+2. Snapchat CEO: Why distribution has become the most important moat
+Evan Spiegel 在 Lenny&apos;s Podcast 上提出核心判断：过去 15 年只有两款消费级应用真正突围，纯软件业务已经不构成护城河。Snapchat 的每一个重要功能都被克隆过，迫使公司转向硬件（AR 眼镜 Specs）寻找持久壁垒。Spiegel 认为人类对 AI 的心理接受度将比技术本身更成为瓶颈。Snap 目前拥有近 10 亿 MAU，设计团队仅 9-12 人，无职级、无层级，每周数百个创意直接经 CEO 评审。
+🔗 https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is
+
+3. Related Digital Finalizes Financing for Oracle&apos;s Michigan Data Center Campus
+Related Digital 与 Blackstone 完成了密歇根州一座价值 160 亿美元的数据中心园区融资，该园区专为 Oracle 建设，后者将向 OpenAI 出租算力。这是近期为 Oracle-OpenAI 算力供应链规划的一系列项目中的最新一笔。融资规模之大反映出 AI 基础设施投资正在从&quot;试探性&quot;进入&quot;工业化&quot;阶段。
+🔗 https://www.theinformation.com/briefings/related-digital-finalizes-financing-oracles-michigan-data-center-campus
+
+4. Samsung Might Post Its First-Ever Mobile Division Loss, Blaming RAM Crisis
+三星移动部门负责人 TM Roh 内部表态担忧&quot;MX 业务年度亏损的可能性&quot;——这将是三星移动部门历史上首次亏损。根源是 AI 训练和推理对 RAM 的需求爆发，导致存储芯片价格暴涨，智能手机成本被动抬升。低端安卓设备受冲击最大，摩托罗拉等品牌已开始涨价。三星同时面临内部裁员和供应链成本双重压力。
+🔗 https://9to5google.com/2026/04/22/samsung-is-increasingly-worried-about-first-ever-mobile-division-loss-in-ram-crisis-report/
+
+5. Musk-OpenAI and Big Tech Earnings on Deck This Week
+本周 Musk 与 Altman 将在加州法庭对簿公堂，争论 OpenAI 的起源和治理结构。同时 Microsoft、Meta、Amazon、Apple 集中发布财报，AI 资本支出和变现进展将成为焦点。
+🔗 https://www.theinformation.com/articles/musk-openai-big-tech-earnings-deck-week
+
+🐦 Twitter 精选（5 / 12）
+
+1. @steipete：OpenClaw 展示真实数据：自 12 月以来累计关闭 2.7 万个 issue 和 3 万个 PR，本周就关闭了 1 万个 issue 和近 5 千个 PR，靠的是 clawsweeper 和 clownfish 两个自动化工具。
+🔗 https://x.com/steipete/status/2048478136824738181
+
+2. @EXM7777：认为前端设计已经被 Opus 4.7 和 GPT-5.5 基本解决了。
+🔗 https://x.com/EXM7777/status/2048423367309766967
+
+3. @egeberkina：用 ChatGPT Image 2 快速生成故事板，再投入 Seedance 2.0 转成完整游戏风格视频。虽然不是每个场景都完美还原，但效果已经很惊艳。
+🔗 https://x.com/egeberkina/status/2048484507909599453
+
+4. @kloss_xyz：AI 开发领域每周都在加速。代码仓库根目录必须有 DESIGN.md、AGENTS.md 和 SKILL.md，否则每次 Agent 工具运行都可能产生幻觉。结构化 token 和明确的系统设计是让 Agent 自主工作的前提。
+🔗 https://x.com/kloss_xyz/status/2048530452877873390
+
+5. @gregisenberg：现代计算机可能需要被重新发明。围绕这个趋势列出 12 个&quot;小&quot;创业点子，包括：用自然语言搜索所有应用和文件的&quot;东西在哪&quot;App、AI Agent 输出质量追踪器、自动生成操作手册的工具等。
+🔗 https://x.com/gregisenberg/status/2048381278953603406
+
+📱 公众号精选（5 / 8）
+
+1. 全员 token-maxxing，一场没人敢停的军备竞赛
+五源资本合伙人孟醒硅谷考察手记。YC W26 batch 一百多家公司约 80% 做垂直 Agent，但 Opus 4.6 发布后 vibe coding 门槛被压到地板，一个周末就能复现这些产品，YC 正在从领先指标变成滞后指标。Meta 全员使用 Claude Code 写代码，安全红线让位于效率；DeepMind 也在用 Claude Code（Anthropic 做了私有部署）。一个工程师年 token 预算已达 20 多万美元，接近工程师年薪。Meta 内部甚至有 token 消耗排行榜，用量低的可能被裁。整个硅谷处于&quot;不计成本往 AI 砸钱&quot;但回报尚不清晰的状态。
+🔗 https://mp.weixin.qq.com/s/kwErGjX231e2efVWhERzTw
+
+2. 给汽车装上大脑：火山引擎的时机、策略和卡位
+豆包大模型日均 Token 调用量已达 120 万亿，100% 覆盖中国主流车企。火山引擎正在从车载语音这一单点功能供应商角色向更核心方向渗透——利用 AI 迭代速度远快于汽车工业的节奏差，将大模型能力从座舱延伸到智驾辅助决策。奔驰纯电 GLC、别克至境 E7、奥迪 E7X 的车机背后都是豆包大模型在应答。互联网公司过去十年在汽车产业只能做外围功能，AI 第一次给了它们进入核心的机会。
+🔗 https://mp.weixin.qq.com/s/Qu4XQA6VT4ijJbD38uTyZA
+
+3. 记忆，是 Agent 基建｜对话 Calvin@Vida
+OpenAI 为 Codex 上线记忆功能 Chronicle 后一天，清华 00 后开发者 Calvin 的开源项目 OpenChronicle 登上 X trending 第一。与 Chronicle 绑定 OpenAI 生态不同，OpenChronicle 是模型无关的本地记忆基础设施：通过 macOS AX Tree（无障碍接口）优先获取屏幕上下文，截图兜底，按 7 类扁平存储为 Markdown，通过 MCP 协议暴露给任何 Agent。轻度使用日耗约 50 美分，重度约 3-5 美元。Calvin 认为记忆正在从&quot;产品功能&quot;变成&quot;Agent 基建&quot;，所有权应归用户而非模型厂商。
+🔗 https://mp.weixin.qq.com/s/VZUhUo-ppqpICzbbGgCpbA
+
+4. Anthropic 做了个 Agent 版闲鱼
+Anthropic 内部实验：69 名员工各派一个 Claude Agent 在 Slack 上自动发帖、砍价、成交，一周完成 186 笔交易、总价值 4010 美元。Opus 4.5 比 Haiku 4.5 更会谈价——聪明的 Agent 真的更会赚钱。
+🔗 https://mp.weixin.qq.com/s/gprIgBZnW-AOCE8EENbJIA
+
+5. 你在用 AI，AI 也在悄悄引导你的选择
+Linear CEO Karri Saarinen 使用 AI 编码六个月后的反思：AI 是思维工具而非机械工具，它不只是帮你做事，还在悄悄决定你去做什么。蜜月期过后，能力是真实的，限制也是真实的。
+🔗 https://mp.weixin.qq.com/s/AUqslOFJF0juE0loPJD3BQ
+
+📖 查看完整日报（30 篇）→ https://news.justin7974.dev/2026-04-27.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #563 | 2026-04-26</title>
       <link>https://news.justin7974.dev/2026-04-26.html</link>
@@ -1332,76 +1402,6 @@ Sam Altman 承诺未来五年支出 $6000 亿并希望 Q4 上市，但 CFO Sarah
 🔗 https://mp.weixin.qq.com/s/QeKkh0-vBEB3t9reYWKjPQ
 
 📖 查看完整日报（50 篇）→ https://news.justin7974.dev/2026-04-08.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #544 | 2026-04-07</title>
-      <link>https://news.justin7974.dev/2026-04-07.html</link>
-      <guid>https://news.justin7974.dev/2026-04-07.html</guid>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 17 条推文 · 9 篇公众号
-
-📰 RSS 精选（5 / 12）
-
-1. Anthropic Accidentally Leaked the Entire Claude Code CLI Source Code
-Anthropic 在发布 Claude Code npm 包 v2.1.88 时意外附带了 source map 文件，导致整个 CLI 源码（近 2000 个 TypeScript 文件、超 51.2 万行代码）被公开。安全研究员 Chaofan Shou 首先发现并公开，代码迅速被上传至 GitHub 并被数万次 fork。这是 Anthropic 的严重内部失误，给了竞争对手和社区一份完整的 Claude Code 架构蓝图。
-🔗 https://daringfireball.net/2026/04/anthropic_accidentally_leaked_the_entire_claude_code_cli_source_code
-
-2. OpenAI CFO Doesn&apos;t Believe Company Ready For IPO
-据 The Information 报道，OpenAI CFO Sarah Friar 表示公司 2026 年不具备上市条件，部分原因是&quot;支出承诺带来的风险&quot;以及对收入增长能否支撑开支的不确定性。这与 OpenAI 此前对外传递的强劲增长叙事形成鲜明反差。
-🔗 https://www.wheresyoured.at/openai-cfo-news/
-
-3. What the Heck Is Happening at OpenAI? Our Bonkers Monday Cliff Notes
-Newcomer 梳理了 OpenAI 近几天密集爆出的新闻：联合创始人 Simo 因医疗原因休假、CFO 与 CEO 关系紧张、以及《纽约客》发布的 Sam Altman 深度人物报道。IPO 前夜的高层大换血引发外界对公司治理结构和战略方向的广泛担忧。
-🔗 https://newcomer.co/p/what-the-heck-is-happening-at-openai
-
-4. Harshita Arora Joins YC as General Partner
-Harshita Arora 正式升任 YC 合伙人——她 13 岁学编程、15 岁辍学、16 岁做出被 Apple 推荐的加密货币追踪 App（后被收购），之后联合创办了 AtoB（YC S20），现已成长为 Series-C 阶段的卡车行业金融基础设施公司。她是 YC 历史上最年轻的 Visiting Partner。
-🔗 https://www.ycombinator.com/blog/harshita-arora-joins-yc-as-general-partner
-
-5. We Can (and Do) Solve Crime — How Flock is Helping Make America Safer
-a16z 发文介绍其投资组合公司 Flock Safety 如何用 AI 驱动的车牌识别摄像头帮助城市打击犯罪。旧金山过去两年重大犯罪下降 44%，车辆盗窃下降 54%，Flock 的技术在其中扮演了关键角色。创始人因自家社区入室盗窃频发而创业，目前已服务全美数千个城市。
-🔗 https://a16z.com/we-can-and-do-solve-crime/
-
-🐦 Twitter 精选（5 / 17）
-
-1. @karpathy：LLM 的核心理念是你可以跳过&quot;写&quot;，但跳不过&quot;读&quot;和&quot;思考&quot;——而令人意外的是，&quot;读&quot;和&quot;思考&quot;才是真正的瓶颈，也是真正产出价值的环节。
-🔗 https://x.com/karpathy/status/2041162213160091996
-
-2. @emollick：2025 年全年，大型企业几乎没有出现 GenAI 带来的重大工作影响。彼时缺乏真正的 agentic 工具，企业采用率仍处早期——不能以过去的结果来预判未来。
-🔗 https://x.com/emollick/status/2041218593367478276
-
-3. @emollick：把 LLM 视为&quot;近似人类&quot;来处理确实能得到不错的结果，但更奇妙的是：用组织管理的经典理论（协调、分工、决策权）来管理 agent 同样有效——高能力 agent 贵、低能力 agent 便宜但易出错，委派策略需要精细设计。
-🔗 https://x.com/emollick/status/2041165222438711320
-
-4. @Hesamation：斯坦福刚把 2025 秋季学期的&quot;AI: Principles and Techniques&quot;课程全部上传到 YouTube——大约 20 小时的讲座内容，覆盖 AI 核心原理与技术。
-🔗 https://x.com/Hesamation/status/2041141721501778310
-
-5. @EXM7777：你在 Claude/ChatGPT 上频繁达到用量上限，是因为你在用前沿大模型做轻量任务。大多数人不知道的是：简单任务用小模型就够了，把额度留给真正需要的场景。
-🔗 https://x.com/EXM7777/status/2041260666405925108
-
-📱 公众号精选（5 / 9）
-
-1. Walmart转化率暴跌66%，AI智能体商业的方向从一开始就搞错了
-Walmart 将购物结账功能嵌入 ChatGPT，实测转化率暴跌 66%，OpenAI 随即宣布淘汰 Instant Checkout 功能。这一结果直接打脸&quot;AI 智能体商业&quot;的主流叙事——Stripe、Visa、Mastercard、PayPal 都在押注&quot;智能体结账&quot;，但真实数据证明在聊天框里完成交易根本行不通。金融科技分析师 Simon Taylor 的核心观点是：问题不在于优化结账体验，而在于让结账这个动作本身消失——未来应该是 AI 代理在授权范围内直接完成购买。
-🔗 https://mp.weixin.qq.com/s/1w0wAT773G-hTyJe9fe2VA
-
-2. SaaStr用Replit造了个AI客户成功VP，零工程师，人力砍70%
-SaaStr 创始人 Jason Lemkin 用 Replit 构建了名为 Qbee 的 AI 客户成功 VP，零工程师参与，token 成本不超过 200 美元/月。该系统管理 100 多个赞助商，每周发送个性化邮件，追踪 13 项核心任务，累计使用超 80 万次，客户人力投入削减超 70%，客户登录和任务提交量增长 10 倍。核心亮点：客户在主动告知前完全未察觉对方是 AI。
-🔗 https://mp.weixin.qq.com/s/hTQfgUeXeHJGUn9umUV_bg
-
-3. 给6个AI各发10万美元炒股半年，大部分跑赢了大盘
-Rallies Arena 团队进行了一项真实资金实验：给 6 个主流大模型各拨付 10 万美元，在真实股票市场中自主研究、下单、管理仓位，历时 6 个月，大部分模型跑赢大盘。模型接入的工具链包括 SEC 文件向量搜索、实时财经数据、技术分析等。实验的后续产出是一个正式产品——AI Hedge Fund。
-🔗 https://mp.weixin.qq.com/s/8222DeN2Y8HPdyqrcD53tA
-
-4. 喝点VC｜红杉美国专访全球首个太空数据中心创始人：太空数据中心将成为算力终极形态
-StarCloud 创始人 Philip Johnston 接受红杉美国 Sonya Huang 和 Pat Grady 专访，阐述太空数据中心的商业逻辑：地面算力建设面临土地审批（5-10 年）和能源瓶颈时，太空每平方米太阳能效率是地面 8 倍且无需储能。当发射成本低于约 500-1000 美元/公斤时，太空算力在经济性上将优于地面。目前首颗在轨卫星已验证芯片稳定性，GPU 零重启。
-🔗 https://mp.weixin.qq.com/s/qSMaketNopGogQKhHgGBmQ
-
-5. 另类产品 Obsidian：8 人 1 猫没融资，2500 万美金 ARR 不追 AI
-知识管理工具 Obsidian 以极度克制的方式实现了 2500 万美元 ARR：团队仅 8 人加 1 只猫，零融资，完全远程，400 万以上用户。其 CEO 是早期超级用户出身而非创始人。在 AI 全面入侵笔记产品时，Obsidian 选择非常克制的 AI 集成策略——不融资、不追风、不扩张，从第一天起就盈利。
-🔗 https://mp.weixin.qq.com/s/506E6vIDFQB0USsAhDom2A
-
-📖 查看完整日报（38 篇）→ https://news.justin7974.dev/2026-04-07.html</description>
     </item>
   </channel>
 </rss>
