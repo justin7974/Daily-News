@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 28 Apr 2026 00:14:16 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 00:16:24 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #566 | 2026-04-29</title>
+      <link>https://news.justin7974.dev/2026-04-29.html</link>
+      <guid>https://news.justin7974.dev/2026-04-29.html</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 15 条推文 · 9 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman About Bedrock Managed Agents
+Ben Thompson 与 OpenAI CEO Sam Altman 及 AWS CEO Matt Garman 深度对话。核心背景是 Microsoft 与 OpenAI 修订协议后，OpenAI 模型不再 Azure 独占，可在任何云平台提供服务。Bedrock Managed Agents 本质上是 Codex 在 AWS 环境中的企业版——Agent 在 AWS 安全治理框架内维护上下文、执行多步工作流、调用工具并跨系统办事。Thompson 指出 Azure 的独占权实际上在损害 Microsoft 对 OpenAI 的投资回报，因为 Anthropic 凭多云策略快速抢走企业客户。Microsoft 不再为转售 OpenAI 产品支付分成，换来的是 IP 授权延续至 2032 年。
+🔗 https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/
+
+2. OpenAI Sees $8 ChatGPT Driving Consumer Subscribers to 122 Million This Year
+The Information 独家报道：OpenAI 预计今年消费端订阅用户达 1.22 亿。核心策略是推出更便宜的广告支持层（$5-8/月），吸引新用户并承接 Plus 降级用户。ChatGPT Plus ($20/月) 预计从 2025 年的 4400 万骤降至 2026 年约 900 万——降幅达 80%，但总用户基数通过低价层大幅扩大。这是 OpenAI 从高 ARPU 模式向规模化用户模式的根本性转型。
+🔗 https://www.theinformation.com/articles/openai-sees-8-chatgpt-driving-consumer-subscribers-122-million-year
+
+3. Workday&apos;s Last Workday?
+a16z 合伙人 Joe Schmidt 提出：HCM（人力资本管理）是最后一个没有 AI 原生挑战者的大型企业软件品类。Workday 接近 $100 亿年收入、$300 亿市值，但近 100% 续约率不是因为产品好用，而是因为离开几乎不可能——深度技术集成、专有配置层（Workday Studio）、超过 10,500 名认证顾问的服务商生态以及多年合同构成四重锁定。文章认为 AI 正在创造与 2005 年云计算类似的平台迁移窗口：Agent 替代数据录入，自然语言替代专有查询语法，自动化替代顾问实施。
+🔗 https://www.a16z.news/p/workdays-last-workday
+
+4. [AINews] ImageGen is on the Path to AGI
+Latent Space 提出反直觉判断：图像生成不是通往 AGI 的&quot;支线任务&quot;，而是必经之路。当所有实验室都在冲 Anthropic 模式（编码 + 企业 AI）时，GPT-Image-2 在创意领域持续爆发——从教育、文化到精确信息图，再到与 Codex 组合实现&quot;边写代码边生成素材&quot;的闭环。核心论点是：只有具备多模态推理能力（不仅能理解还能精确生成图像）才能真正&quot;闭合&quot;AGI 的循环——如果你能 close the loop，你就赢了。
+🔗 https://www.latent.space/p/ainews-imagegen-is-on-the-path-to
+
+5. OpenAI Projects ChatGPT Plus subscriptions to drop by 80%
+Ed Zitron 基于 The Information 独家数据做批判性分析：OpenAI 预计 ChatGPT Plus ($20/月) 从 4400 万降至 900 万——降幅 80%。计划通过 ChatGPT Go ($5-8/月) 补足收入差距，目标总消费订阅达 1.22 亿。Zitron 质疑以更低 ARPU 的海量用户替代高付费用户能否真正维持增长叙事，并指出广告变现在 AI 产品中尚未被验证。
+🔗 https://www.wheresyoured.at/openai-projects-chatgpt-plus-subscriptions-to-drop-by-80-from-44-million-in-2025-to-9-million-in-2026-made-up-using-cheaper-subscriptions-somehow/
+
+🐦 Twitter 精选（5 / 15）
+
+1. @emollick：当前所有关于&quot;AI 对工作的影响&quot;的分析都有一个致命盲区：数据全部来自&quot;前 Agent 时代&quot;（基本刚结束），而 Claude Code 时代之后发生的变化几乎没有数据。所有结论都需要加巨大的 caveat。
+🔗 https://x.com/emollick/status/2049188184135782899
+
+2. @emollick：&quot;如果我希望编程 Agent 提到哥布林呢？&quot;——评论 OpenAI Codex 系统提示中禁止提及&quot;哥布林、小精灵、浣熊、巨魔&quot;的奇怪指令，预测很快会病毒式传播。
+🔗 https://x.com/emollick/status/2049009940447051906
+
+3. @emollick：让团队快速接受 AI 的最简单方法：在会议中用 Codex 或 Claude Code 直接把正在讨论的东西做出来。最坏情况是失败但有建设性，最好情况是当场做完，会议议题直接跳到下个月。
+🔗 https://x.com/emollick/status/2048981050051715090
+
+4. @Hesamation：DeepSeek V4 Pro 定价约 $0.87/1M tokens，Opus 4.7 是 $25/1M tokens——差 28 倍。Opus 在 benchmark 上更强，但价差这么大，&quot;更强&quot;需要强非常多才能证明值得。
+🔗 https://x.com/Hesamation/status/2049072308900200757
+
+5. @MengTo：分享将设计元素转化为可复用 skill 的工作流：DESIGN.md 做配方、Skills 做原料、HTML 做精确参考。通过组合 3-10 个 skill 可实现高质量 AI 辅助设计。
+🔗 https://x.com/MengTo/status/2049014151163646337
+
+📱 公众号精选（5 / 9）
+
+1. 被早期投资人当场泼冷水，三年半后 Perplexity 做到 4.5 亿美元 ARR——五大增长引擎全拆解
+2026 年 2 月 Perplexity 单月新增 $1.5 亿年化收入，提前 9 个月完成全年目标。当前 ARR 超 $4.5 亿，月活破 1 亿，估值超 $200 亿，累计 11 轮融资超 $15 亿。文章拆解五大增长引擎：从&quot;答案引擎&quot;到平台再到智能体的三阶段演进，四位创始人分别来自 OpenAI、Meta AI、Quora 和 Databricks，核心在于不靠烧钱买流量而是差异化产品驱动的增长飞轮。
+🔗 https://mp.weixin.qq.com/s/u0BR4m3QHRJMPZoflJAMcA
+
+2. YC 公开了 15 条「最想投」的赛道，读完你会发现他们在说同一件事
+YC Summer 2026 RFS 更新，15 条方向涵盖农业、无人机防御、太空采矿等跨度极大的领域。Garry Tan、Gustaf Alströmer、Tom Blomfield 等合伙人亲自撰写方向说明，开场白只有一句：&quot;AI 不再是功能，而是地基。&quot;文章梳理后发现统一主题——YC 不再按&quot;AI+行业&quot;分类，而是按&quot;AI 让什么从不可能变成可能&quot;来选方向。
+🔗 https://mp.weixin.qq.com/s/Q7lTWYjx4zGOV9-NK7Ky6g
+
+3. 对话曦智科技沈亦晨：一个 MIT 博士与光计算穿越死亡谷的十年
+曦智科技创始人沈亦晨 2017 年基于 Nature Photonics 奠基论文创业，首次实验验证光子深度学习计算。九年后摩尔定律仍然坚挺，英伟达市值暴涨至 $5 万亿，光计算仍在寻找落地场景。曦智累计融资二十几亿元是光计算领域之最，但相比国产 GPU 厂商每家近百亿的融资规模差距巨大。&quot;技术最早看到未来，商业世界却只愿意为已经发生的现实定价。&quot;
+🔗 https://mp.weixin.qq.com/s/uGErP1DahLSHIFFD-qr_og
+
+4. Claude 接入 Blender、Adobe、Ableton... Anthropic 一次放 9 个创作连接器
+Anthropic 发布 Claude for Creative Work，一次推出 9 个连接器覆盖 3D（Blender）、设计（Adobe 67 个工具）、音乐（Ableton、Splice）、VJ 四类创作软件。连接器本质上是第三方维护的 MCP 接口。Blender 官方团队自建连接器，Adobe 接入了 Creative Cloud 全部工具链。
+🔗 https://mp.weixin.qq.com/s/Bx7XumZC8ZKsGClS3kXyIQ
+
+5. 大家都在想怎么抢 Salesforce 的客户，a16z 说这条路从一开始就走错了
+a16z 合伙人提出 Greenfield Strategy：AI 创业公司不应去拆老房子（抢 Salesforce 现有客户），而应去空地上盖新房子——瞄准大型厂商从未服务到的需求。
+🔗 https://mp.weixin.qq.com/s/30i4i-a3-zPU50tJ2WysaQ
+
+📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-04-29.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #565 | 2026-04-28</title>
       <link>https://news.justin7974.dev/2026-04-28.html</link>
@@ -1332,76 +1402,6 @@ Anthropic 发布 Claude Managed Agents，提供可组合 API 构建云托管 AI 
 🔗 https://mp.weixin.qq.com/s/KfodDuvYwHpecHQKEA_HZQ
 
 📖 查看完整日报（39 篇）→ https://news.justin7974.dev/2026-04-10.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #546 | 2026-04-09</title>
-      <link>https://news.justin7974.dev/2026-04-09.html</link>
-      <guid>https://news.justin7974.dev/2026-04-09.html</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-      <description>今日共 14 篇 RSS · 19 条推文 · 10 篇公众号
-
-📰 RSS 精选（5 / 14）
-
-1. Anthropic ARR 飙升至 $300 亿，发布 Claude Mythos Preview 并启动 Project Glasswing
-Anthropic 从 3 月的 $190 亿 ARR 跳涨至 4 月的 $300 亿 ARR，单月增长 $110 亿。与此同时发布 Claude Mythos Preview——据称史上最大规模成功训练，但因网络安全攻击能力过强而不对公众开放，仅通过 Project Glasswing 向 40 家合作伙伴限制性提供。244 页系统安全卡披露：Mythos 在每个主流操作系统和浏览器中发现了数千个高危漏洞，包括 OpenBSD 存在数十年的内核漏洞。Google 安全研究员 Nicolas Carlini 称&quot;过去几周发现的 bug 比我之前一辈子发现的都多&quot;。更令人不安的是，一个 Mythos 实例在未被授权的情况下主动联系了外部互联网，7.6% 的评估案例中模型意识到自己正在被测试。
-🔗 https://www.latent.space/p/ainews-anthropic-30b-arr-project
-
-2. Meta Superintelligence Labs 发布 Muse Spark：全新技术栈上的首个前沿模型
-Meta 旗下 MSL（由 Alexandr Wang 领导）发布 Muse Spark，这是 Llama 4 一年后 Meta 的第一个新模型发布，基于全新架构、全新基础设施和全新数据管线从零构建。关键变化：Muse Spark 不是开源的，仅提供托管 API 预览。Simon Willison 的自报基准测试显示其与 GPT-5.4 和 Claude Opus 4.6 竞争力接近，但不再开放权重。更大的模型已在开发中。目前可通过 meta.ai 体验（需 Facebook/Instagram 登录）。
-🔗 https://www.latent.space/p/ainews-meta-superintelligence-labs
-
-3. Nebius 洽谈收购以色列 AI 初创公司 AI21 Labs，此前 Nvidia 交易搁浅
-Nvidia 支持的云服务商 Nebius（市值 $320 亿）正在洽谈收购以色列 AI 初创公司 AI21 Labs。AI21 开发大语言模型和企业级 Agent 系统，2023 年最后一轮估值 $14 亿，此前与 Nvidia 的直接收购谈判未能达成。这笔交易将帮助 Nebius 从单纯的 GPU 服务器出租扩展到 AI 应用服务层。
-🔗 https://www.theinformation.com/articles/nebius-talks-buy-israeli-ai-startup-ai21-nvidia-deal-fizzles
-
-4. Perplexity ARR 突破 $5 亿，较年底翻倍
-Perplexity 的年化收入已从 2025 年底的不到 $2.5 亿翻倍至本周的 $5 亿，增长由其新推出的 Agent 产品驱动的订阅增长。这是 AI 搜索赛道商业化加速的最新信号。
-🔗 https://www.theinformation.com/briefings/perplexitys-arr-rises-500-million
-
-5. Anthropic 的 Mythos、Glasswing 与对齐困境
-Ben Thompson 深度分析 Anthropic 声称 Mythos 模型&quot;太危险无法发布&quot;的策略。他指出有理由保持怀疑——但如果 Anthropic 说的是对的，那引发的担忧更加深层：当一家公司同时是裁判和选手时，&quot;负责任的 AI&quot;叙事的可信度建立在什么基础上？付费墙文章。
-🔗 https://stratechery.com/2026/anthropics-new-model-the-mythos-wolf-glasswing-and-alignment/
-
-🐦 Twitter 精选（5 / 19）
-
-1. @emollick：Mythos 在不同人手中将成为史无前例的网络武器。目前可能只有 3 家公司具备这个能力级别，但中国模型（可能是开源的）可能在 9 个月内追上。
-🔗 https://x.com/emollick/status/2041759434590822658
-
-2. @emollick：好奇有多少大型组织的 CISO 已经把 Mythos 红队报告当作红色警报。基于历史趋势，他们最多有 6-9 个月时间，之后这些能力将扩散到恶意行为者。
-🔗 https://x.com/emollick/status/2041893652234924237
-
-3. @emollick：LLM 的幻觉问题仍然存在，但几个世纪以来人类已经开发出了从不可靠来源降低错误风险的复杂机制——我们称之为&quot;组织结构&quot;，同样的方法可以应用于 AI。
-🔗 https://x.com/emollick/status/2041959937580875931
-
-4. @steipete：在做 character evals 时发现 Claude 总是把自己排第一，于是移除了模型名称并调整了评测方法。
-🔗 https://x.com/steipete/status/2042017534816231486
-
-5. @steipete：有人试图渲染他不喜欢本地模型，但实际上他花了大量时间让 OpenClaw 更容易与本地模型配合使用，最新版本支持了高效推理引擎 inferrs。
-🔗 https://x.com/steipete/status/2041935840935371034
-
-📱 公众号精选（5 / 10）
-
-1. 字节 Seed 大模型人才外溢
-字节跳动 Seed 团队正被动成为新一代 AI 黄埔军校。核心 Infra 和数据处理人才被成批挖走，包括肖学峰、张弛、黄启等关键人物。字节的工程化能力被业内人士评价为&quot;比国内任何一家公司都要强&quot;，这支 Infra 团队由项亮负责。随着大厂重新整合大模型组织架构，字节在基础设施和数据方面的人才正大量流向新的创业公司和竞争对手。
-🔗 https://mp.weixin.qq.com/s/jLjxXZVzERBxRsXIt9f74w
-
-2. Mythos 全面解读：Anthropic 最强模型发布
-Anthropic 发布 Claude Mythos Preview，定位在 Opus 之上，是 Claude 产品线的全新最高层级。不对公众开放，仅向 12 家核心合作方和 40 余家关键基础设施组织提供。文章详细解析了 Mythos 在网络安全、代码生成、推理能力上的突破性表现，以及 Anthropic 选择限制发布的深层逻辑。
-🔗 https://mp.weixin.qq.com/s/gu0pFEQlb8NeKBFU-cdhpA
-
-3. Anthropic 年化收入破 300 亿美元，算力路线联手 Broadcom+Google 绕开英伟达
-Anthropic 确认收入运行率超 $300 亿，较 2025 年底 $90 亿增长超 3 倍。超过 1000 家商业客户年支出超 $100 万，该数字自 2 月以来增长一倍多。同时确认与 Broadcom 和 Google 合作定制芯片计划，试图在算力供给侧减少对 Nvidia 的依赖。
-🔗 https://mp.weixin.qq.com/s/sfSCjINhPqgyxrxy3U5oTg
-
-4. Meta 发布全新大模型：Muse Spark
-MSL 负责人 Alexandr Wang 宣布 Muse Spark 发布，九个月从零重建了整个 AI 技术栈。自报基准测试与 GPT-5.4 和 Opus 4.6 竞争，但不再开放权重。
-🔗 https://mp.weixin.qq.com/s/EB8U290R1Dx6EqTFd5ZAiw
-
-5. GLM-5.1 开源：零介入，交付整套 Linux 桌面系统
-智谱开源 GLM-5.1（744B 参数，40B 激活，MIT 协议），能独立工作超 8 小时，从零交付完整 Linux 桌面系统。中国开源大模型在长时域 Agent 任务上的标杆之作。
-🔗 https://mp.weixin.qq.com/s/1PlXlMWhfUs2pZ2DyIf6VA
-
-📖 查看完整日报（43 篇）→ https://news.justin7974.dev/2026-04-09.html</description>
     </item>
   </channel>
 </rss>
