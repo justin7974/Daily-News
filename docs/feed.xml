@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 01 May 2026 00:12:57 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 00:09:56 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #569 | 2026-05-02</title>
+      <link>https://news.justin7974.dev/2026-05-02.html</link>
+      <guid>https://news.justin7974.dev/2026-05-02.html</guid>
+      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 15 条推文 · 7 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. [AINews] Agents for Everything Else: Codex for Knowledge Work, Claude for Creative Work
+编码 Agent 正在&quot;破壁&quot;——从写代码扩展到一切知识工作。OpenAI 的 Codex 本周大更新，明确定位为&quot;所有人、所有计算机任务&quot;的通用 Agent，新增 Microsoft/Google/Salesforce 集成、动态任务 UI、42% 更快的浏览器操作。Anthropic 方面，Claude 新增 Blender、Adobe Creative Cloud、Ableton 等创意工具支持。同时 GPT-5.5 在网络安全能力上追平 Claude Mythos，Qwen3.6 27B 成为 150B 参数以下的开源新王。行业正从&quot;编码 Agent&quot;进入&quot;全能 Agent&quot;阶段。
+🔗 https://www.latent.space/p/ainews-agents-for-everything-else
+
+2. Charts of the Week: The Fastest V-Shaped Recovery Ever
+S&amp;P 500 在伊朗冲突期间跌了约 10%，仅 11 个交易日后完全恢复，创下史上最快 V 型反弹纪录。上周五收于 7165 点历史新高，年涨幅 30%。巴菲特手握 3730 亿美元现金仍不认为市场便宜，Paul Tudor Jones 指出股市市值/GDP 比率达 252%（1929 年仅 65%，2000 年 170%），警告均值回归可能带来 30-35% 的回调。与此同时，半导体先于软件反弹，社交媒体可能已触及增长天花板。
+🔗 https://www.a16z.news/p/charts-of-the-week-the-fastest-v
+
+3. California&apos;s Billionaire Tax Heads for the Ballot
+加州亿万富翁税法案已收集到两倍于所需的签名数，将进入 11 月选票。该法案对净资产超 10 亿美元者征收 5% 的一次性财富税，且按投票权而非持股比例计算，意味着拥有超级投票权股份的创始人税单可能远超其实际持股价值。Sergey Brin 已投入至少 5700 万美元反对，前红杉主席 Michael Moritz 和 Ripple 创始人 Chris Larsen 领导旧金山层面的反制。Musk 与 Altman 的 OpenAI 庭审同步升温，DeepMind 顶级研究员获 10 位数融资创办 AI 新实验室。
+🔗 https://www.newcomer.co/p/californias-billionaire-tax-heads
+
+4. Meta Solved Their Problem With Kenyan Contractors Seeing Footage of AI Glasses Wearers
+Meta 在肯尼亚的外包商 Sama 的工人向瑞典媒体揭露，他们在审核 Meta 智能眼镜拍摄的内容时看到了用户如厕和性行为画面。不到两个月后，Meta 以&quot;不符合标准&quot;为由终止了与 Sama 的合同，导致 1108 名工人被裁。Sama 否认未达标准，肯尼亚工人组织指控 Meta 的裁员是对举报行为的报复。英国 ICO 和肯尼亚数据保护办公室均已介入调查。Meta 称人工审核是为改善用户体验，但此事暴露了 AI 可穿戴设备在隐私和劳动伦理上的深层矛盾。
+🔗 https://www.bbc.com/news/articles/c5y7yvgy0w6o
+
+5. Apple Q2 2026 Results
+苹果三月季度营收 1112 亿美元创历史新高，同比增 17%，iPhone 收入创季度纪录，服务收入再创历史新高，MacBook Neo 发布。EPS 2.01 美元，同比增 22%。
+🔗 https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/
+
+🐦 Twitter 精选（5 / 15）
+
+1. @emollick：新论文用旧模型 o1 测试 AI vs 医生：在多种医疗场景和基准测试中，LLM 均优于人类医生和旧模型，研究者呼吁&quot;迫切需要前瞻性临床试验&quot;。
+🔗 https://x.com/emollick/status/2050197369250033813
+
+2. @vasuman：AI 产品化五原则：先审计工作流再碰模型；默认确定性逻辑，LLM 只处理需要判断的部分；统一编排层；模型无关架构；持续度量。
+🔗 https://x.com/vasuman/status/2050239816806387774
+
+3. @0xROAS：承认六个月前对 AI UGC 判断失误——AI 生成的用户内容视频已接近真人水平，模型进步速度超出预期。
+🔗 https://x.com/0xROAS/status/2050205298992775658
+
+4. @egeberkina：Midjourney v8.1 的美学表现力大幅提升，视觉质量达到新高度。
+🔗 https://x.com/egeberkina/status/2050351879918338318
+
+5. @emollick：GPT-imagegen-2 测试：让模型生成 5x5 渐变网格（狗照片越来越可爱、猫、食人乌贼、盖茨比封面），展示了图像模型在理解渐进语义指令上的能力。
+🔗 https://x.com/emollick/status/2050049582688538736
+
+📱 公众号精选（5 / 7）
+
+1. 三个月估值翻倍、超过 OpenAI，Anthropic 的老股东却在等上市套现
+Anthropic 正在完成一轮约 500 亿美元的融资，目标估值超过 9000 亿美元——三个月前刚以 3800 亿美元估值完成上一轮。48 小时认购窗口，两周内关闭。这意味着 Anthropic 的私募估值已经接近阿里巴巴市值的四倍、超过腾讯两倍。但老股东面临流动性困境：公司估值飙升，二级份额却折价交易，部分早期投资者正在等待 IPO 套现。
+🔗 https://mp.weixin.qq.com/s/Pul6EMUrkDiS1OJDbSCMuA
+
+2. Naval Ravikant 宣判：纯软件已经不值得投了，你有 18 个月找到真正的护城河
+Naval Ravikant 在播客中直言&quot;纯软件不值得投了&quot;，828K 人观看。核心逻辑：AI 让软件开发成本趋近于零，纯软件的护城河在消失。苹果 3 万亿估值靠软件体验给硬件做溢价，一旦 AI Agent 取代 App 交互方式，这个逻辑就崩塌了。Naval 给出的时间窗口是 18 个月——在此之前需要找到软件之外的真正壁垒：数据飞轮、监管牌照、物理世界整合。
+🔗 https://mp.weixin.qq.com/s/rZldToI9I-t2GUfi5lVY4g
+
+3. Agent 可开 Cloudflare 账户了：自主买付钱、买域名、做部署
+Cloudflare 联合 Stripe 发布新协议，Agent 现在可以独立成为 Cloudflare 客户——创建账户、订阅付费方案、注册域名、获取 API token、部署代码，全程不需要人类操作。协议核心三要素：Discovery（服务发现）、Authorization（授权）、Payment（支付）。这是第一个让 AI Agent 拥有完整&quot;账户 + 支付 + 部署&quot;闭环的主流云服务商。
+🔗 https://mp.weixin.qq.com/s/TAOPgnGaVPXjhf6t5KvREA
+
+4. 我们都在给 agent 加工具，Vercel 反手砍了 80%，速度反而快了 3.5 倍
+LangChain 实验证明只改 harness 不换模型可提升 13.7 分，Vercel 砍掉 Agent 80% 工具后可靠性反升、延迟降到 1/3.5。核心结论：Agent 性能瓶颈不在模型，而在 harness（执行逻辑层）的设计。
+🔗 https://mp.weixin.qq.com/s/39ZUIyudvubTfNLlAm_Xwg
+
+5. 一下午一句话 Codex 帮我开发了一个完整的游戏！
+用 Codex 一个下午从零开发了《夜巡录：荒庙篇》——完整的 roguelike 卡牌游戏，包含 7 个怪物、20 张卡牌、音效音乐和安装包。Codex 自带浏览器和 GPT-Image 2.0 是关键。项目已开源。
+🔗 https://mp.weixin.qq.com/s/607NOxMvkny4RlLLe3tzRg
+
+📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-05-02.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #568 | 2026-05-01</title>
       <link>https://news.justin7974.dev/2026-05-01.html</link>
@@ -1336,72 +1406,6 @@ OpenAI 发布 13 页政策白皮书，首次在正式文件中承认&quot;经济
 🔗 https://mp.weixin.qq.com/s/hbq8ofHMD25OOz5lOMQLig
 
 📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-04-13.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #549 | 2026-04-12</title>
-      <link>https://news.justin7974.dev/2026-04-12.html</link>
-      <guid>https://news.justin7974.dev/2026-04-12.html</guid>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
-      <description>今日共 11 篇 RSS · 15 条推文 · 4 篇公众号
-
-📰 RSS 精选（5 / 11）
-
-1. Gary Marcus：&quot;LLM 以来最大的 AI 进步是神经符号主义&quot;
-Claude Code 的泄露源码揭示了一个惊人事实：其核心是一个 3167 行的确定性内核（print.ts），包含 486 个分支点和 12 层嵌套——本质上是经典的符号 AI。Anthropic 走的是神经符号路线：确定性符号循环与神经网络并行工作。AlphaFold、AlphaEvolve、AlphaProof 等 Google DeepMind 的重大突破也都是神经符号架构。Marcus 的核心论断是：聪明地加入符号 AI 比单纯 Scaling 更有效，纯 LLM 的创新叙事正在被改写。
-🔗 https://garymarcus.substack.com/p/the-biggest-advance-in-ai-since-the
-
-2. Sam Altman 住宅遭燃烧弹袭击，AI 反弹情绪持续升级
-一名 20 岁男子凌晨 3:45 向 Sam Altman 价值 $2700 万的旧金山住宅投掷燃烧弹，随后在 OpenAI 办公室附近被捕。Altman 事后发表长文，将 AGI 比作&quot;至尊魔戒&quot;——不应由任何单一实体掌控。更值得关注的背景是，2026 年 3 月美国爆发了历史上最大规模的反 AI 抗议，200+ 人同时包围 Anthropic、OpenAI、xAI 办公室，诉求涵盖能源消耗、就业替代和安全风险。科技 CEO 安保支出持续攀升（Zuckerberg 年超 $2000 万）。
-🔗 https://36kr.com/p/3762027785224707?f=rss
-
-3. Yupp AI 融资 $3300 万后关停——AI 洗牌的教科书案例
-a16z 领投、Jeff Dean 和 Biz Stone 等 45+ 天使投资人参与、种子轮 $3300 万的 AI 模型评估平台 Yupp，运营仅 22 个月即宣布关停。核心原因是 AI 从聊天机器人转向 Agent 的范式转移让其模型比较市场瞬间过时。剩余资金将返还投资人。创始人的反思是：在 AI 领域，你的产品分类可能在你找到 PMF 之前就消失了。
-🔗 https://36kr.com/p/3762088319484419?f=rss
-
-4. Hermes Agent 深度拆解：CLI 而非 Skill 才是 AI Agent 的真正瓶颈
-这篇技术分析指出，Claude Code 真正的强项不是 Skills 而是 CLI 工具（GlobTool、GrepTool、FileReadTool）——确定性、零 token 消耗的原子操作。OpenClaw 被诟病的高 token 成本和不稳定性，根源在于依赖脆弱的浏览器自动化而非 CLI。文章提出三层架构：CLI（确定性执行）→ Skill（上下文编排）→ LLM（语义判断）。核心判断：&quot;下一个真正的战场是 CLI 层&quot;——Web/PC/移动端的 CLI 化改造才刚开始。
-🔗 https://36kr.com/p/3761883183530502?f=rss
-
-5. OpenAI Stargate 高管集体跳槽 Meta 新计算部门
-Meta 正在挖走 OpenAI 三名负责 Stargate 云和数据中心的高管，加入其新成立的计算部门。AI 基础设施人才争夺战持续升级。
-🔗 https://www.theinformation.com/briefings/openai-stargate-execs-join-metas-new-compute-unit
-
-🐦 Twitter 精选（5 / 15）
-
-1. @kloss_xyz：一周 AI 重大事件汇总：GLM-5.1 以 MIT 许可开源，在 SWE-Bench Pro 上超越 GPT-5.4 和 Claude Opus 4.6，可自主工作 8 小时；字节 Seedance 2.0 登陆美国，视频生成能力实现代际飞跃。&quot;开源总是迟到&quot;的叙事正在被改写。
-🔗 https://x.com/kloss_xyz/status/2043092732835696712
-
-2. @rryssf_：清华大学开源语音模型 VoxCPM2 在语音相似度基准上碾压 ElevenLabs（85.4% vs 61.3%）。20 亿参数，200 万小时训练数据，Apache 2.0 许可，8GB VRAM 本地运行，无需 API 或订阅。企业语音 AI 的护城河正在被开源侵蚀。
-🔗 https://x.com/rryssf_/status/2043026335216603502
-
-3. @emollick：实验发现 LLM 生成的事实核查比人工标注获得更广泛的跨意识形态接受度——&quot;AI Community Notes 在整个政治光谱中获得更多正面评价&quot;。AI 在内容审核/信息治理领域的应用前景。
-🔗 https://x.com/emollick/status/2042797671094665254
-
-4. @Hesamation：呼吁 Claude/Codex 公开每日性能报告。&quot;Claude 变笨了吗？&quot;这个问题从 2024 年 Sonnet 3.5 就在问，至今仍无透明的公开基准监测。开发者社区对 LLM 可靠性和一致性的核心焦虑。
-🔗 https://x.com/Hesamation/status/2043023162238210459
-
-5. @steipete：OpenClaw 正在测试 GPT 的两种实验模式：strict mode（推动模型持续工作）和 Codex app server 作为 harness。AI coding agent 架构演进的一手信息。
-🔗 https://x.com/steipete/status/2042962879381434676
-
-📱 公众号精选（4 / 4）
-
-1. Anthropic 官方指南：怎么给 Agent 设计工具
-翻译自 Anthropic 官方博客&quot;Seeing like an agent&quot;，作者为 Claude Code 团队工程师 Thariq Shihipar。核心内容：Agent 的工具设计不应模仿人类 GUI 交互，而应提供原子化、确定性的原语——Bash、文件读写、代码执行各有适用场景。文章详细拆解了 Claude Code 的工具集选择逻辑，以及为什么 Anthropic 选择让 Agent 操作文件系统而非模拟鼠标点击。
-🔗 https://mp.weixin.qq.com/s/eOkICy56oQFAzmStzgTxkw
-
-2. LangChain 创始人：模型不再是主角，Agent 时代的&quot;Harness&quot;正在重塑一切
-LangChain CEO Harrison Chase 做客 MAD Podcast 的 22K 字深度访谈。核心观点：Harness/Skill 等构建方式本身不是护城河，领域 Knowledge 和 Tool 才是；File System 让 LLM 自管理 Context 是趋势；Sub-Agent 好用但增加沟通复杂性。Chase 认为 Agent 生态正在从&quot;框架竞争&quot;转向&quot;领域知识竞争&quot;。
-🔗 https://mp.weixin.qq.com/s/tZL-8voYxXJlsxFe_C8R0g
-
-3. Postgres 扛不住、DuckDB 崩了——Braintrust 自建 AI 专用数据库
-Braintrust 创始人 Ankur Goyal 的技术长文。AI 可观测性本质是数据库问题——AI trace 数据比传统 APM 大 2-3 个数量级（单 span 50KB，单 trace 10MB，P90 可达数十 GB）。Postgres 无法处理这种规模的嵌套 JSON，DuckDB 在并发写入下崩溃。Braintrust 最终自建了 Brainstore 数据库，兼顾 OLTP 写入和 OLAP 分析。
-🔗 https://mp.weixin.qq.com/s/i2Pzezc_hGu7k84NLY6kRQ
-
-4. Linear、PostHog 集体换首页被骂惨，但他们可能是对的
-Linear/PostHog/Attio 三家 SaaS 不约而同将首页换成聊天框。文章认为这不是设计趋势而是 Agent 信号——AI agent loop 比预设界面更强大，传统 CRM 5 步操作 agent 一句话搞定。
-🔗 https://mp.weixin.qq.com/s/2YKKyR8CucfnYz3Jhny7wQ
-
-📖 查看完整日报（30 篇）→ https://news.justin7974.dev/2026-04-12.html</description>
     </item>
   </channel>
 </rss>
