@@ -5,8 +5,70 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 03 May 2026 00:15:38 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 00:10:32 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #571 | 2026-05-04</title>
+      <link>https://news.justin7974.dev/2026-05-04.html</link>
+      <guid>https://news.justin7974.dev/2026-05-04.html</guid>
+      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 13 条推文 · 3 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Why cultivating agency matters more than cultivating skills in the AI era
+Notion 产品负责人 Max Schoening 提出&quot;tiny core&quot;理论：伟大产品的核心极小（iPhone 多点触控、GitHub Pull Request、Notion blocks），AI 让每个项目的前 10% 变成&quot;免费&quot;的，但真正拉开差距的是 agency——主动推动事情发生的能力，而非被动等待指令。他直言 vibe coding 让软件数量爆炸但质量没涨，这个质量缺口恰好是机会。Schoening 还反驳了&quot;SaaSpocalypse&quot;论——软件不会被 AI 淘汰，反而会因 Jevons 悖论变得更多更廉价。
+🔗 https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more
+
+2. Crimes Against Decency Need as Much Cover-Up as Crimes Against the Law
+John Gruber 追踪 Meta 解雇肯尼亚外包商 Sama 全部 1100+ 名员工事件。今年 2 月瑞典记者调查曝光：Meta AI 眼镜用户拍摄的私密视频（包括性行为和如厕画面）被发送到肯尼亚由外包人员审核，用户完全不知情。Gruber 指出 Meta 解雇这些人不是因为他们做错了什么，而是因为泄密本身让 Meta 的运营模式曝光——AI 眼镜的&quot;AI&quot;有很大一部分其实是地球另一端的人类智能在支撑，如果消费者知道这一点，几乎没人会买。
+🔗 https://daringfireball.net/2026/05/crimes_against_decency_need_as_much_cover-up_as_crimes_against_the_law
+
+3. Have LLMs improved patient outcomes?
+心脏病学家 Eric Topol 发表综述，结论是目前&quot;几乎没有证据表明 LLM 改善了患者或医生的健康结局&quot;，除了行政事务类工作。Nature Medicine 近期社论也指向同一方向。Gary Marcus 认为这与他此前关于&quot;不要信赖聊天机器人做医疗建议&quot;的研究一致——通用聊天机器人可能根本不适合医疗场景。
+🔗 https://garymarcus.substack.com/p/have-llms-improved-patient-outcomes
+
+4. Quoting Anthropic
+Anthropic 发布 Claude 个人指导使用研究：整体仅 9% 对话表现出谄媚行为，但灵性话题达 38%、情感关系话题达 25%，暴露模型在高情感场景下的安全短板。
+🔗 https://simonwillison.net/2026/May/3/anthropic/#atom-everything
+
+5. Punk, or why I don&apos;t stream anymore
+tinygrad/comma.ai 创始人 geohot 反思 AI 对文化的侵蚀：流媒体和 AI 让人们&quot;无需参与即可消费成就感&quot;，约会平台的个人简介已全面 ChatGPT 化，真实身份被营销文案取代。他警告 AI 引发的不是终结者式危机，而是一场&quot;要求你交出内在现实&quot;的信息战。
+🔗 https://geohot.github.io//blog/jekyll/update/2026/05/03/punk-or-why-i-dont-stream.html
+
+🐦 Twitter 精选（5 / 13）
+
+1. @emollick：前沿 Agent 的基准测试越来越难做——重复测量成本极高，harness 内运行和裸 API 调用差异大。怀疑基准测试低估了实际进展，因为测试针对模型设计，而非被 harness 增强后的 Agent。
+🔗 https://x.com/emollick/status/2050892355331354850
+
+2. @emollick：开源与闭源模型的差距比基准分数显示的更大——开源模型在分布外问题上明显更脆弱，涌现能力也更低。基准只测了&quot;平均水平&quot;，没测&quot;极端场景下的韧性&quot;。
+🔗 https://x.com/emollick/status/2050904152511848871
+
+3. @emollick：Anthropic 与 Claude 的关系跟其他实验室与其模型的关系&quot;完全不同&quot;——这种差异体现在模型本身的设计、以及各实验室对未来的思考方式上。
+🔗 https://x.com/emollick/status/2051049394326081571
+
+4. @corbin_braun：Opus 4.7 一次生成了他见过的最好前端之一。Claude 在前端代码生成上持续领先。
+🔗 https://x.com/corbin_braun/status/2051061219390611504
+
+5. @godofprompt：AI Agent&quot;决策&quot;的本质不是在计算最优结果，而是在预测&quot;关于决策的训练文本接下来会写什么&quot;。简单任务表现足够好，但复杂任务中这种&quot;模拟思考&quot;会系统性失败。
+🔗 https://x.com/godofprompt/status/2050867849464258652
+
+📱 公众号精选（3 / 3）
+
+1. 过去一年他见了 100 位 C 级高管：95% 的企业 AI 项目失败，都不是模型的错
+Varick Agents 创始人 vas 过去 12 个月与 100+ 位 CEO/CFO/CRO 对话后的核心判断：企业 AI 项目 95% 失败率横跨 GPT-3 到 GPT-5、Claude 2 到 4.7 多代模型迭代，问题从来不是模型不够好。四种必死模式：跳过流程审计直接写代码（SOP 与真实流程 30%+ 偏差）、什么都扔给 LLM（生产系统应该 85% 代码 + 15% LLM）、Agent 野蛮生长（200 人运营部门冒出 50-100 个各自为政的个人 Agent）、把 AI 当项目而非基础设施。唯一例外是软件工程师——GitHub Copilot 快 55%、Anthropic 内部研究砍掉 80% 任务时间，因为代码天然具备&quot;边界清楚、可检验、结构化、可验证&quot;四个特性。
+🔗 https://mp.weixin.qq.com/s/njNWNOVCBioiIuebMykFxA
+
+2. AI写了98%的代码，效率却只提升30%，为什么？
+Lemonade 联合创始人 Daniel Schreiber 提出 AI-Only 概念：从 AI-First（AI 能否填人的位置）进化到 AI-Only（为什么要有这个位置）。Lemonade 98% 代码由 AI 生成，但效率仅提升 30-50%，因为系统仍在等人——等人决策、审批、协调、上线。他用 F-35 战斗机做比喻：驾驶舱里的飞行员不是多余的一个人，而是整架飞机都在围着人的生理局限设计。Daniel 坦言 AI-Only 将带来&quot;长期、永久的失业&quot;，但竞争压力会让所有公司不得不跟上。
+🔗 https://mp.weixin.qq.com/s/KyCFKl-fB-bl1FanyERu6Q
+
+3. 从烧脑神书 GEB 到 Agent 的自我意识
+全文抓取失败（微信验证拦截）。 从标题推断：探讨 Hofstadter 的《哥德尔、艾舍尔、巴赫》中的自指与递归概念如何映射到 AI Agent 的自我意识问题。
+🔗 https://mp.weixin.qq.com/s/8yGCi-onB1xP4NNOZEdpkQ
+
+📖 查看完整日报（26 篇）→ https://news.justin7974.dev/2026-05-04.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #570 | 2026-05-03</title>
       <link>https://news.justin7974.dev/2026-05-03.html</link>
@@ -1336,76 +1398,6 @@ CREAO AI 完成千万级美金新一轮融资，Prosperity7 Ventures（阿美风
 🔗 https://mp.weixin.qq.com/s/RYKuHiQewwJ8p9zyBrAIzQ
 
 📖 查看完整日报（49 篇）→ https://news.justin7974.dev/2026-04-15.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #551 | 2026-04-14</title>
-      <link>https://news.justin7974.dev/2026-04-14.html</link>
-      <guid>https://news.justin7974.dev/2026-04-14.html</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-      <description>今日共 11 篇 RSS · 15 条推文 · 8 篇公众号
-
-📰 RSS 精选（5 / 11）
-
-1. Mythos, Muse, and the Opportunity Cost of Compute
-Ben Thompson 重新审视 Aggregation Theory 在 AI 时代的适用性。核心论点：AI 公司面临的不是边际成本问题，而是机会成本问题——算力用在 A 就不能用在 B。Anthropic 限制 Mythos 发布不仅是安全考量，更是算力分配的理性选择：当前服务现有模型已经捉襟见肘，用户大量抱怨 Claude 性能下降。同时 Anthropic 披露 DeepSeek、Moonshot、MiniMax 三家实验室通过 2.4 万个虚假账户、超 1600 万次对话对 Claude 进行蒸馏。Meta 的 Muse Spark 虽非 SOTA，但 Meta 作为唯一没有企业/云业务的大厂，在消费端不存在机会成本冲突，反而可能成为 consumer AI 的最大受益者。
-🔗 https://stratechery.com/2026/mythos-muse-and-the-opportunity-cost-of-compute/
-
-2. Surviving AI Price Wars Without Destroying Your Business
-a16z 合伙人 Tugce Erten 基于大量企业买家访谈，总结了 AI 应用公司在价格战中的五个关键认知偏差。第一，预算其实充足——大型金融机构会刻意为同一用例部署两三个 AI 工具做冗余。第二，溢价空间真实存在，约 10%-20% 的价格差不会显著影响成交。第三，定价单位比定价数字更重要——按结果收费让比价变得困难。第四，应该降低 POC 成本而非产品价格。第五，真正的长期对手不是竞品，而是客户的内部工程团队——当推理成本持续下降，build vs buy 的天平会倾斜。
-🔗 https://www.a16z.news/p/surviving-ai-price-wars-without-destroying
-
-3. Meta Builds AI Version of Mark Zuckerberg to Interact With Staff
-FT 独家报道，Meta 正在构建 Mark Zuckerberg 的 AI 数字分身，用于与公司员工互动。这是 Meta 押注 AI 数字人战略的最新动作——不仅面向外部用户，也在内部组织管理中实验 AI 代理。结合 Meta Superintelligence Labs 刚发布的 Muse Spark 模型，Meta 正在全方位加码 AI 战略。
-🔗 https://www.ft.com/content/02107c23-6c7a-4c19-b8e2-b45f4bb9ce5f
-
-4. Quoting Steve Yegge
-Steve Yegge 爆料 Google 工程团队的 AI 采纳率与拖拉机公司 John Deere 处于同一水平：20% 深度 Agent 用户、20% 完全拒绝、60% 仍在用 Cursor 级别的聊天工具。18 个月的招聘冻结导致没有外部人才带入新认知。
-🔗 https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything
-
-5. Claude Mythos, evaluated
-Gary Marcus 评估 Anthropic 尚未公开发布的 Claude Mythos 模型的安全风险——标题&quot;我们该有多害怕？&quot;直指 Mythos 的网络安全能力是否真的构成威胁。
-🔗 https://garymarcus.substack.com/p/claude-mythos-evaluated
-
-🐦 Twitter 精选（5 / 15）
-
-1. @emollick：Anthropic 对 Mythos 的网络安全担忧看起来确实有据——该模型已发现数千个高危漏洞，包括主流操作系统和浏览器中的漏洞，AI 在攻防安全领域的能力正在超越大多数人类专家。
-🔗 https://x.com/emollick/status/2043810051979157680
-
-2. @Hesamation：Claude 帮助安全研究人员在 Vim 和 Emacs 中发现了远程代码执行链——仅仅打开文件或运行 git status 就可能触发恶意代码执行，涉及 Git 信任边界的根本性安全问题。
-🔗 https://x.com/Hesamation/status/2043699292787900754
-
-3. @rryssf_：浙江大学研究发现 AI Agent 的致命短板：执行明确的分步指令近乎完美，但理解用户真实意图（模糊请求、行为模式推断）的准确率低于 50%。任务执行器与个人助手之间的鸿沟仍然巨大。
-🔗 https://x.com/rryssf_/status/2043630336874275163
-
-4. @rryssf_：开源项目 OpenMontage 打通了完整视频制作流水线：11 条 pipeline、49 个工具、单条产品广告成本仅 $0.69。支持 Kling、Runway Gen-4、Veo 3 等 12 个视频生成服务，AI 编程助手充当&quot;导演&quot;角色。
-🔗 https://x.com/rryssf_/status/2043705860631998885
-
-5. @Hesamation：Claude Mythos 发布前的社区氛围极度高涨，Anthropic 的&quot;先谈危险再发产品&quot;策略正在制造前所未有的期待感。
-🔗 https://x.com/Hesamation/status/2043749462913274098
-
-📱 公众号精选（5 / 8）
-
-1. &quot;人类的带宽太低、算力也低&quot;，agent 可以替人去工作丨100 个 AI 创业者
-80 后创始人谭少卿以&quot;约等于净身出户&quot;的方式离开了十年的公司，创立 Floatboat——一个客户端形态的 all-in-one Agent Workspace。核心判断：AI 时代的办公入口不该是网页聊天框，而应该是操作系统级的本地客户端，集成文件管理器、浏览器和 AI 对话框。7 人团队已获红杉中国 200 万美元 Safe 投资，即将开启新一轮融资。
-🔗 https://mp.weixin.qq.com/s/9y19OPBM2FuCG6hjQwGl1Q
-
-2. 45比1，机器用户已经碾压人类——SaaS公司的新战场来了
-Calibre Labs 联创 Sandhya 的核心数据：企业中机器身份与人类用户比例已达 45:1，部分组织高达 100:1。Neon 数据库 80% 的实例由 AI Agent 创建；GitHub 超过 5% 的提交完全由 Claude Code 完成，另有 40% 由 AI 辅助；MCP 服务注册表突破 2000 个，月 SDK 下载量 9700 万次。软件没有死，但用户正在从人类切换到机器。
-🔗 https://mp.weixin.qq.com/s/wieItUoy7CyioNqDQifxTg
-
-3. Claude Code源码全拆解：55个目录、331个模块，最强Agent架构长什么样
-独立开发者 Rohit 通过 .map 文件逆向拆解了 Claude Code 的完整架构：55 个目录、331 个模块。核心设计决策包括四层架构（模型层、上下文层、外壳层、Harness 层）、多层级权限管道、上下文压缩策略、错误重试路径。关键发现：Anthropic 解决的不是&quot;如何让模型更聪明&quot;，而是&quot;如何让 Agent 在生产环境跑几百轮不崩&quot;。
-🔗 https://mp.weixin.qq.com/s/qAthyV8sgwodBXpkL44HPQ
-
-4. Cisco本周第二笔AI安全收购，拟以最高3.5亿美元收购Astrix Security
-Cisco 正在洽谈以 2.5-3.5 亿美元收购以色列 AI Agent 安全初创 Astrix Security，较上轮估值溢价至少 25%。AI Agent 安全正在成为大型软件厂商的必争赛道。
-🔗 https://mp.weixin.qq.com/s/7Ts6ft4a5S-LyPoRTHn-aA
-
-5. NVIDIA站台开源AI芯片SiFive，本轮融资获4亿美元
-RISC-V 开源芯片设计公司 SiFive 获超额认购 4 亿美元融资，估值 36.5 亿美元。NVIDIA 参投，Apollo、D1 Capital、Point72 等机构跟进，RISC-V 与 GPU 的&quot;开放 CPU 生态&quot;路线加速。
-🔗 https://mp.weixin.qq.com/s/b3K_wNQy2ejxy067n8JUHA
-
-📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-04-14.html</description>
     </item>
   </channel>
 </rss>
