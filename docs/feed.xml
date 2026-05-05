@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 04 May 2026 00:10:32 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 00:11:01 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #572 | 2026-05-05</title>
+      <link>https://news.justin7974.dev/2026-05-05.html</link>
+      <guid>https://news.justin7974.dev/2026-05-05.html</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 16 条推文 · 6 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. Premium: The AI Compute Demand Story Is A Lie
+Google、Amazon、Microsoft 三家在 AI 泡沫中累计资本开支 8030 亿美元，OpenAI 和 Anthropic 合计融资超 2520 亿美元。作者估算 85% 以上的 AI 算力需求来自这两家公司——它们的存在完全靠超大规模云厂商补贴。除去 OpenAI、Anthropic 及为其服务的超大规模云厂商和 Meta 之外，实际独立 AI 算力需求不足 10 亿美元（作者甚至认为不超过 5 亿）。微软已成功将 OpenAI 的算力负担转嫁给 Oracle 和 Amazon，同时保留 20% 收入分成。
+🔗 https://www.wheresyoured.at/premium-the-ai-compute-demand-story-is-a-lie/
+
+2. [AINews] The Other vs The Utility
+Sierra 以 150 亿美元估值融资约 10 亿美元，ARR 从去年 11 月的 1 亿增长到今年 2 月的 1.5 亿，推算当前已达 2 亿。文章核心聚焦 Roon（OpenAI 员工）引发的关于 AI&quot;人格&quot;的讨论——GPT 作为&quot;逻辑义肢&quot;被使用，用户不会被工具审判；Claude 则被当作&quot;道德上级&quot;和&quot;值得崇拜的他者&quot;。技术层面，harness 工程正在成为产品边界：改变 prompt 和中间件可以让 gpt-5.2-codex 在 Terminal-Bench 2.0 上从 52.8% 提升到 66.5%。
+🔗 https://www.latent.space/p/ainews-the-other-vs-the-utility
+
+3. Google Earnings, Meta Earnings
+华尔街看好 Google 财报却看衰 Meta，尽管 Meta 核心业务表现更强。Ben Thompson 指出关键差异在于：Google 正在&quot;当下&quot;变现其 AI 投资（这其中可能主要是 Anthropic 的贡献），而 Meta 的 AI 投资回报仍停留在远期承诺阶段。
+🔗 https://stratechery.by.ben-thompson.com/google-earnings-meta-earnings/
+
+4. ★ Y Combinator&apos;s Stake in OpenAI
+John Gruber 追问一个被忽视的问题：YC 是否持有 OpenAI 股权？OpenAI 由 YC Research 在 2016 年孵化（当时 Altman 执掌 YC），Gary Marcus 早在 2023 年就指出 Altman 声称&quot;没有 OpenAI 股权&quot;只是半真话——他通过 YC 间接持有 OpenAI 股份。按 OpenAI 当前估值，YC 的这笔持股可能价值数十亿美元。Gruber 质疑 Paul Graham 在《纽约客》调查中对 Altman 可信度的含糊态度——Graham 说&quot;我们没有让他离开&quot;，但始终没说&quot;Altman 值得信任&quot;。
+🔗 https://daringfireball.net/2026/05/yc_openai
+
+5. Commits on GitHub Are Up 14× Year-Over-Year
+GitHub 提交量同比增长 14 倍。Gruber 的核心洞察：AI 代码生成不是在&quot;替代&quot;人写的代码，而是在创造大量原本根本不会存在的代码——全新的应用、服务和库。人类程序员写的代码总量可能变化不大，但 AI 生成的代码可能是人类产出的 10 倍甚至更多，未来几年可能达到 100-100,000 倍。在那个未来，人类仍在写或逐行审查代码，但占比只是一个微小切片。
+🔗 https://daringfireball.net/linked/2026/05/04/commits
+
+🐦 Twitter 精选（5 / 16）
+
+1. @emollick：5 月 5 日同一天：旧金山举办 GPT-5.5 发布庆典，纽约举办 Claude 金融简报会。两个海岸、完全相反的调性。
+🔗 https://x.com/emollick/status/2051443790615814232
+
+2. @godofprompt：本月模型性格互换：Opus 4.7 变得更刚性精确，GPT-5.5 变得更自然对话化。一个成了完美规划者，另一个成了完美执行者——这不是 bug，是组合使用的理由。
+🔗 https://x.com/godofprompt/status/2051362250963698090
+
+3. @EXM7777：Claude Code 会话管理决策规则：任务范围变了或上下文超 60% 就重启，还在同一文件同一函数就继续。长会话会破坏 prompt cache，直接炸掉 token 账单。
+🔗 https://x.com/EXM7777/status/2051407277064962363
+
+4. @emollick：AI 监管的核心挑战：我们的基准测试极其糟糕，没有风险基准，红队测试需要专业组织且难以量化。没有客观数字可以作为监管依据。
+🔗 https://x.com/emollick/status/2051431009766289734
+
+5. @EXM7777：gpt-image-2 文字准确率达 99%，拼写时代结束、排版时代开始。一个简单 prompt 30 秒内就能比 Photoshop 出更好的结果。
+🔗 https://x.com/EXM7777/status/2051361728584425794
+
+📱 公众号精选（5 / 6）
+
+1. 你以为切模型能省钱，其实更贵：Claude Code 团队亲口讲的一堂缓存课
+Claude Code 工程师 Thariq Shihipar 撰文揭示：Claude Code 将 prompt cache 命中率当作等同于服务可用率的指标来监控——命中率下降直接触发 SEV（严重事故）响应。核心逻辑是订阅用户的算力额度固定，缓存命中率越高，用户能用的额度就越慷慨。团队把缓存看作&quot;架构&quot;而非&quot;优化&quot;——这意味着 Agent 产品的 session 管理、上下文排列顺序、模型切换策略都需要围绕缓存重新设计。
+🔗 https://mp.weixin.qq.com/s/3Zc5dRuAMod0IbyxpHWijw
+
+2. 产品的未来
+作者提出五个核心判断：产品的主要使用者正从人转向 Agent，人从操作者变成委托者；决定体验的从交互变成协议；产品基本单位从功能转向任务；做事方法可以被封装为 Skill 直接分发，服务业的产品化从此打开入口；更远一步，连&quot;该做什么&quot;这个判断也会由系统自己完成。
+🔗 https://mp.weixin.qq.com/s/7jTB8kjg2K80QfU1WVpT2w
+
+3. 喝点VC｜a16z合伙人分享AI产品定价干货：AI价格战没有赢家
+a16z 合伙人的核心论点：AI 公司打价格战是自杀行为。防守性降价应对更便宜的竞争对手时，你可能在放弃本不必放弃的利润——那个买家可能本来就因为你更好而更青睐你。关键不是在价格上赢，而是在采用率上赢：在市场整合之前让客户离不开你。避免价格战的方法是找到另一种让客户认知价值并付费的方式。
+🔗 https://mp.weixin.qq.com/s/-PXzHCrtMvc4qgKRZlAisw
+
+4. 豆包要上付费会员了：专业版一年 5000 块
+字节跳动旗下豆包 AI 即将推出付费会员，专业版定价 5000 元/年。作者认为每人每月花 100 美金在 AI 上将成为未来基本开销，强如字节也要尊重商业模式。
+🔗 https://mp.weixin.qq.com/s/gN3P-xRMCxK9agKKVi1-rg
+
+5. AI 生成的垃圾内容正在干一件，140 年前电灯泡干过的事
+Reid Hoffman 将 AI 生成内容泛滥与 1883 年爱迪生在剧院用电灯泡做营销类比——每项新技术早期都会产生大量低质量应用，但这不代表技术本身没有价值，关键是等待&quot;杀手级应用&quot;出现。
+🔗 https://mp.weixin.qq.com/s/GOnUkzrKb8dWrhrAAJraZw
+
+📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-05-05.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #571 | 2026-05-04</title>
       <link>https://news.justin7974.dev/2026-05-04.html</link>
@@ -1328,76 +1398,6 @@ OpenAI 第二次收购金融应用，Hiro Finance 让用户输入薪资、债务
 🔗 https://mp.weixin.qq.com/s/fW4tHCwaSqdmDqZ_xVhpCg
 
 📖 查看完整日报（38 篇）→ https://news.justin7974.dev/2026-04-16.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #552 | 2026-04-15</title>
-      <link>https://news.justin7974.dev/2026-04-15.html</link>
-      <guid>https://news.justin7974.dev/2026-04-15.html</guid>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 9 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. OpenAI&apos;s Memos, Frontier, Amazon and Anthropic
-Stratechery 拆解了 OpenAI 内部备忘录——关于如何在企业市场正面迎击 Anthropic。OpenAI 对 Anthropic 在编程和企业级 Agent 领域的领先位置高度警觉，正全力推进 Frontier 平台和企业级定制方案。同时 Amazon 在这场竞争中的角色愈发关键：作为 Anthropic 最大股东和 AWS 的分发渠道，Amazon 实际上在押注两边——既投 Anthropic，又通过 Bedrock 接入 OpenAI。
-🔗 https://stratechery.com/2026/openais-memos-frontier-amazon-and-anthropic/
-
-2. Not all AI agents are created equal
-Lenny Newsletter 邀请两位顶尖 AI Agent 课程讲师 Hamza Farooq 和 Jaya Rajwani 撰写了一份 Agent 优先级框架。核心论点：企业里 5-10 个 Agent 计划放在同一个 roadmap 上比较是行不通的，因为不同类型的 Agent（信息检索型、流程自动化型、自主决策型）在架构、团队需求、LLM 成本上差了几个数量级。文章提供了三层分类法和具体的优先级决策树。
-🔗 https://www.lennysnewsletter.com/p/not-all-ai-agents-are-created-equal
-
-3. Trusted access for the next era of cyber defense
-OpenAI 正式推出 GPT-5.4-Cyber——一个专为网络安全防御者微调的模型，并扩大 Trusted Access for Cyber 项目的覆盖范围。背景是 Anthropic 刚刚因 Mythos 的网络安全能力引发广泛关注，OpenAI 选择在此时宣布自己的安全模型，定位是&quot;赋能防御方&quot;而非攻击方。模型仅向经过审查的安全研究机构和企业开放。
-🔗 https://openai.com/index/scaling-trusted-access-for-cyber-defense
-
-4. Cybersecurity Looks Like Proof of Work Now
-英国 AI 安全研究所评估了 Claude Mythos 的网络安全能力，结论令人震惊：AI 正在让攻防双方的能力同时指数级增长，网络安全开始像&quot;工作量证明&quot;——攻击成本接近零，防御必须持续投入才能保持安全。
-🔗 https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everything
-
-5. Amazon to Acquire Globalstar
-Amazon 宣布收购卫星通信公司 Globalstar，同时与 Apple 达成协议继续为 iPhone 和 Apple Watch 提供卫星服务。Amazon 借此强化 Project Kuiper 卫星互联网布局，同时锁定 Apple 作为卫星服务客户。
-🔗 https://www.aboutamazon.com/news/company-news/amazon-globalstar-apple
-
-🐦 Twitter 精选（5 / 30）
-
-1. @emollick：AI 模型版本号严重失真——按 GPQA 每 0.1 版本的实际提升来看，Claude 3.7 应该叫 4.4。版本号让普通用户严重低估了模型能力的真实跃迁。
-🔗 https://x.com/emollick/status/2044200225653326269
-
-2. @emollick：未来几个月的心智模型：模型在已有优势领域（如编码）会变得非常强，但弱项（如长篇小说）依然不变。上一次 jagged frontier 形状发生根本改变，还是 o1 和 Reasoner 的出现。
-🔗 https://x.com/emollick/status/2044124960096965115
-
-3. @Hesamation：OpenAI 正在为 Mythos 发布做准备，GPT-5.4-Cyber 是 GPT-5.4 的安全微调版本。未来几年的互联网会非常有意思。
-🔗 https://x.com/Hesamation/status/2044189248429904331
-
-4. @Hesamation：GPT-5.4 Pro 又解决了一个 Erdős 数学难题。AI 在数学领域的能力边界持续扩展。
-🔗 https://x.com/Hesamation/status/2044073470510649624
-
-5. @Hesamation：拿 35B 参数的 Qwen 和 5T 参数的 Opus 做对比是 next-level 的操作——&quot;这个味道和肉一模一样&quot;的素食主义者能量。
-🔗 https://x.com/Hesamation/status/2044198692161224824
-
-📱 公众号精选（5 / 9）
-
-1. 40 余人撬动 1300 亿收入，揭秘 Anthropic 的 AI &quot;自增长&quot;黑盒
-Lenny&apos;s Podcast 专访 Anthropic 增长负责人 Amol Avasare，揭示了一组惊人数字：约 40 人的增长团队在 14 个月内推动 ARR 从 72 亿元飙升至 1368 亿元。Amol 靠一封 Cold Email 获得这份工作，团队分为横向（增长平台 + 变现）和纵向（B2B、代码、知识工作者、API）两条线。核心金句：&quot;Claude is growing itself at this point.&quot;
-🔗 https://mp.weixin.qq.com/s/4HemGzqidgWBMochUVUa_A
-
-2. 6个月做到4000万美金年收入：这家AI保险公司开咖啡馆、印报纸、让员工住进办公室
-AI 保险公司 Corgi 的创始人完全没有保险行业背景（来自游戏行业），成立不到半年 ARR 超 4000 万美元，累计融资 1.08 亿美元。上线首日 1000+ 创始人完成保险报价。核心方法论：把保险当系统工程问题解决，找出每一个让人变慢的摩擦点然后逐一清除。极端企业文化包括 24 小时咖啡馆、自办报纸、员工住进办公室。
-🔗 https://mp.weixin.qq.com/s/lcj3tajcyKQzpndxhbyWhQ
-
-3. 完整解读：斯坦福 AI 年度报告｜26版发布，423页
-斯坦福 HAI 发布 2026 年 AI Index Report，423 页。15 条核心要点包括：AI 能力没有停滞还在加速、行业贡献超 90% 前沿模型、中美模型性能差距基本消失、组织采用率达 88%、五分之四大学生在用生成式 AI。新增 AI 与科学、AI 与医疗两个独立章节，以及 AI 主权分析框架和生成式 AI 消费者价值估算。
-🔗 https://mp.weixin.qq.com/s/fDqQJkM4e5Z3bSppLZ7YMA
-
-4. 独家｜Creao AI完成千万美金融资，以Agent OS重构AI-native时代的工作入口
-CREAO AI 完成千万级美金新一轮融资，Prosperity7 Ventures（阿美风投）领投，经纬、云启、红杉中国等老股东跟投。不到一年累积超 3000 万美元融资。核心产品是 Agent OS——AI 既造工具，也跑工具，形成自闭环系统。
-🔗 https://mp.weixin.qq.com/s/0wyjC5V5Uh7KctN6bPD-oQ
-
-5. 为什么你的&quot;AI 优先&quot;战略可能大错特错？
-与其说 AI First，不如说软件工程 First。AI 时代人成了瓶颈——PM、QA、部署每个环节都比 AI 慢。解法是全链条自动化：AI 写代码、AI 审查、AI 测试、AI 部署、AI 监控、出问题自动回滚。前提是你得先有足够好的自动化测试基础。
-🔗 https://mp.weixin.qq.com/s/RYKuHiQewwJ8p9zyBrAIzQ
-
-📖 查看完整日报（49 篇）→ https://news.justin7974.dev/2026-04-15.html</description>
     </item>
   </channel>
 </rss>
