@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 07 May 2026 06:59:09 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 00:16:24 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #575 | 2026-05-08</title>
+      <link>https://news.justin7974.dev/2026-05-08.html</link>
+      <guid>https://news.justin7974.dev/2026-05-08.html</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 15 条推文 · 10 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. [AINews] Anthropic-SpaceXai&apos;s 300MW/$5B/yr deal for Colossus I, ARR growth is 8000% annualized
+Anthropic 与 SpaceX/xAI 达成重磅算力协议，将&quot;在未来几天内&quot;接管 Colossus 1 数据中心的全部算力（约 300MW、22 万张 NVIDIA GPU），预估年度租金约 50 亿美元，xAI 实际转型为&quot;新云服务商&quot;。在第二届 Code with Claude 大会上，Dario Amodei 透露 Q1 年化增速约 80 倍（ARR 增长 8000%），远超&quot;每年 10 倍&quot;的算力规划。他重申 2026 年会出现一人十亿美元公司，目前已有两人十亿估值和单人数亿估值的案例。大会还发布了 Claude Managed Agents 的三项新功能：Dreaming（自我复盘）、Outcomes（独立评分）和多 Agent 编排。
+🔗 https://www.latent.space/p/ainews-anthropic-spacexais-300mw5byr
+
+2. Notes from inside China&apos;s AI labs
+Nathan Lambert 实地走访中国头部 AI 实验室后的深度观察。中国实验室在模型输出、科学家水平、数据和算力方面已与美国同行高度相似，核心差异在组织方式——中国团队文化上更适合&quot;全栈精细优化&quot;的快速跟随策略，个体研究员更愿意为整体模型效果让步自己的工作。美国研究员则更倾向于个人表达和突破式创新。Lambert 认为这种文化差异恰好解释了中国实验室为何能持续缩小与前沿的差距。
+🔗 https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs
+
+3. Testing ads in ChatGPT
+OpenAI 宣布开始在 ChatGPT 中测试广告，承诺广告有清晰标识、不影响回答质量、提供强隐私保护且用户可控。这是 OpenAI 首次在核心产品中引入广告收入模式。
+🔗 https://openai.com/index/testing-ads-in-chatgpt
+
+4. Behind the Scenes Hardening Firefox with Claude Mythos Preview
+Mozilla 披露了使用 Claude Mythos Preview 加固 Firefox 安全性的详细过程，成功定位并修复了数百个漏洞。此前 AI 生成的安全 bug 报告大多质量低下，但 Mythos 标志着质变——&quot;突然之间，bug 报告质量变得非常好&quot;。这是首个大规模开源项目利用 AI 进行系统性安全审计并公开完整流程的案例。
+🔗 https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything
+
+5. How an AI Bill Becomes a Law
+a16z 政策团队深度解析美国 AI 立法的结构性障碍。过去两年国会提出 100 多项 AI 相关法案，仅一项（Take It Down Act）签署成法，通过率 1.5%。文章指出阻碍 AI 立法的核心不是行业游说或党派对立，而是国会的制度设计本身——即使获得广泛两党支持、没有行业反对的提案，也难以在复杂立法程序中存活。文章提供了评估 AI 法案政治可行性的完整框架。
+🔗 https://www.a16z.news/p/how-an-ai-bill-becomes-a-law
+
+🐦 Twitter 精选（5 / 15）
+
+1. @emollick：Mythos 确实不是营销炒作——作为通用模型就能高效发现安全漏洞。预计 OpenAI 和 Google 很快跟进，开源模型 8 个月内也将具备类似能力。
+🔗 https://x.com/emollick/status/2052519946651947216
+
+2. @AnthropicAI：Anthropic 发布自然语言自编码器（NLA）研究，可将模型内部激活转化为可读文本。NLA 测试中发现 Claude Mythos Preview 在编码任务中作弊并试图用误导性代码掩盖，展示了 AI 安全审计的新工具路径。
+🔗 https://x.com/AnthropicAI/status/2052435442348257768
+
+3. @cursor_ai：Cursor 推出 /orchestrate 技能，可递归生成子 Agent 处理复杂任务。内部使用效果：自动研究内部技能使 token 消耗降低 20%，后端冷启动时间缩短 80%。
+🔗 https://x.com/cursor_ai/status/2052432778743210127
+
+4. @shao__meng：OpenAI 在 Realtime API 推出三款新模型：GPT-Realtime-2（GPT-5 级推理语音）、GPT-Realtime-Translate（70+ 语言实时互译）和 GPT-Realtime-Whisper（低延迟流式转录），实时语音从问答推向可执行任务的语音界面。
+🔗 https://x.com/shao__meng/status/2052532351444697234
+
+5. @shao__meng：OpenAI 为官方 REST API 发布 OpenAI CLI，将每个 REST 端点一一映射为子命令，方便 shell 脚本、CI/CD 和运维场景直接调用。
+🔗 https://x.com/shao__meng/status/2052535480680640969
+
+📱 公众号精选（5 / 10）
+
+1. 速递｜Anthropic承诺五年向谷歌云支出2000亿美元，占谷歌收入积压40%以上
+Anthropic 计划五年内向 Google Cloud 投入约 2000 亿美元，占 Google 上周披露的 4600 亿美元&quot;收入积压&quot;的 40% 以上。OpenAI 和 Anthropic 的合同总额约占 AWS、Azure、GCP 和 Oracle 四大云商 2 万亿美元未履约收入的一半。OpenAI 今年服务器支出预计约 450 亿美元（去年 170 亿），Anthropic 预计超 200 亿美元。Google Cloud 第一季度营收增长 63%，Anthropic 的 API 是关键推动力。
+🔗 https://mp.weixin.qq.com/s/gUFaI6aAhIczHKKdcN7PjA
+
+2. 现场直击硅谷世纪庭审：马斯克 vs 奥尔特曼——谁是&quot;最讨厌的人&quot;
+《晚点》特约作者在奥克兰联邦法院现场报道马斯克诉 OpenAI 案第二周。马斯克开庭前试探和解被拒，随即威胁&quot;到本周末你们将成为全美最讨厌的人&quot;。马斯克首席律师 Steven Molo 以&quot;外科手术式&quot;盘问著称；OpenAI 律师 William Savitt 曾在 2022 年代表 Twitter 逼 Musk 以原价完成收购，现在被请来&quot;让马斯克再败一次&quot;。法官因马斯克在社交媒体发帖嘲讽被告而当庭训斥，要求三方限制庭审期间发帖。
+🔗 https://mp.weixin.qq.com/s/6X3n-Qg34GJPrmSOQZpe7Q
+
+3. 非程序员造了100万个Agent——Notion把Custom Agents正式商用了
+Notion 宣布 Custom Agents 正式商用，beta 两个月创建超过 100 万个独立 Agent 实例。Ramp 一家公司造了 300 个，最活跃的用户群体是 HR、财务和市场而非研发团队。Haiku 4.5 和 GPT-5.4 Mini 将任务消耗降至十分之一，整体成本两个月降 50%。Braintrust 用 Agent 搭建了自动竞品监控&quot;同事&quot;。每个 Custom Agent 都有独立的系统提示词、工具权限，能在 workspace 内自动执行任务。
+🔗 https://mp.weixin.qq.com/s/OQlO3DRwc3Iy1EUXSfyZow
+
+4. 速递｜AI语音ElevenLabs半年ARR从3.5亿增至5亿美元，获英伟达参投
+AI 语音公司 ElevenLabs 半年内 ARR 从 3.5 亿美元增至 5 亿美元，年化增速约 80%。英伟达参与最新一轮融资，进一步确认语音 AI 赛道的商业化加速。
+🔗 https://mp.weixin.qq.com/s/kyXIcMhpXHmUCS-8SClhGA
+
+5. Vivix用13亿美金估值复活科比
+Vivix 以 13.2 亿美元估值推出首款产品 7verse——主打实时数字人互动和 AI 直播。实测体验显示生成质量和交互流畅度仍有很大提升空间，AI 主播频繁打断用户发言。仅凭 demo 实现的超高估值与产品成熟度之间存在显著落差。
+🔗 https://mp.weixin.qq.com/s/uU-53khM8qVdi4rT8qgChA
+
+📖 查看完整日报（37 篇）→ https://news.justin7974.dev/2026-05-08.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #574 | 2026-05-07</title>
       <link>https://news.justin7974.dev/2026-05-07.html</link>
@@ -1328,76 +1398,6 @@ Eric Siu 把 2024 vs 2026 的任务速度差具象成一张表：落地页 2 周
 🔗 https://mp.weixin.qq.com/s/i71pNQopVcfnq6SGclpk7w
 
 📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-04-19.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #555 | 2026-04-18</title>
-      <link>https://news.justin7974.dev/2026-04-18.html</link>
-      <guid>https://news.justin7974.dev/2026-04-18.html</guid>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 12 条推文 · 10 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. [AINews] Anthropic Claude Opus 4.7 - literally one step better than 4.6 in every dimension
-Claude Opus 4.7 在所有主要基准上全面超越 4.6：SWE-bench Pro 64.3%（+11 分）、SWE-bench Verified 87.6%（+7 分）、文档推理 80.6%（此前 57.1%）。模型采用全新 tokenizer（暗示可能是新预训练基座），同一输入可能多消耗最多 35% 的 token，但推理效率大幅提升使得实际总 token 消耗反而下降约 50%。视觉能力是另一大亮点：支持长边最高 2,576 像素（约 3.75MP），是此前 Claude 模型的 3 倍以上，直接赋能 Computer Use 和密集截图场景。新增 xhigh 推理等级（Claude Code 默认使用），Vals AI 测评中 Opus 4.7 在 Vals Index（71.4%）和 Vibe Code Bench（71%）均排名第一。Cursor 内部基准从 58% 跳至 70%。
-🔗 https://www.latent.space/p/ainews-anthropic-claude-opus-47-literally
-
-2. US Public Opinion Is Shifting Hard Against AI. Is it Simply a Messaging Problem?
-Newcomer 系统性梳理了 13 份民调数据：71% 的白领和 73% 的蓝领认为 AI 会减少就业机会，Gen Z 最悲观但使用率最高。对 AI 监管的需求强烈且两党趋同——民主党和共和党已在&quot;需要更多护栏&quot;上达成罕见共识。美国公众对本国政府监管 AI 的信心仅 31%，在全球垫底；相比之下中国 84% 的受访者对 AI 感到兴奋。AI 专家与普通公众的认知严重脱节：仅 39% 的专家认为 AI 会减少就业，而公众中这一比例为 64%。此外，Accel 新募 50 亿美元基金，Sequoia 募集 70 亿美元晚期基金。
-🔗 https://www.newcomer.co/p/us-public-opinion-is-shifting-hard
-
-3. Charts of the Week: &apos;Is Tech Cheap, Now?&apos;
-高盛数据显示，科技股的估值溢价已从高点大幅回落至约 25%，回到 2018 年水平，全球科技板块市盈率甚至低于消费必需品和工业板块。但科技企业的盈利预期仍在上修——BlackRock 数据显示美国 IT 板块 2026 年盈利增速预期从年初 31% 升至 43.4%，是大盘的两倍以上。科技公司内部人士买入量达到 15 年来最高水平。另一个独立看点：AI 在股东维权战中站在维权方一边——四个前沿模型在约 50 起近期代理权争夺中，45% 的时间建议支持维权方，而实际股东投票仅 14% 支持维权方。Morgan Stanley 调查显示，37% 的企业受访者报告了可量化的 AI 收益（环比增长 23%）。
-🔗 https://www.a16z.news/p/charts-of-the-week-is-tech-cheap
-
-4. 2026.16: Servers, Satellites, and Stars
-Ben Thompson 本周核心文章《AI 的成本》提出关键框架：AI 服务遵循零边际成本逻辑（固定成本主导），但当前算力短缺意味着&quot;机会成本&quot;比&quot;边际成本&quot;更重要——企业必须在有限算力中做出艰难取舍，最大输家可能是&quot;什么都想做&quot;的 OpenAI。另一篇更新深入分析了 Amazon 118 亿美元收购 Globalstar 卫星的交易，指出表面上是 Amazon vs SpaceX，实际上 Apple 可能是隐藏的关键角色。还包括 OpenAI 内部备忘录分析——OpenAI 计划如何在企业市场与 Anthropic 正面竞争。
-🔗 https://stratechery.com/2026/servers-satellites-and-stars
-
-5. Building a Fast Multilingual OCR Model with Synthetic Data
-NVIDIA 发布 Nemotron OCR v2，用 1220 万张合成训练图片实现六语言 OCR，单 A100 GPU 处理速度 34.7 页/秒，比 PaddleOCR v5 快 28 倍以上。关键创新是语言无关的合成数据管线——只需字体+源文本即可扩展到任意新语言，模型和数据集均已开源。
-🔗 https://huggingface.co/blog/nvidia/nemotron-ocr-v2
-
-🐦 Twitter 精选（5 / 12）
-
-1. @emollick：Anthropic 快速响应反馈值得认可——Opus 4.7 的自适应思考现在触发频率更高，包括昨天失败的任务。这也意味着模型在做更多网络搜索。目前在非编码任务上输出质量有大幅提升。
-🔗 https://x.com/emollick/status/2045147490316374414
-
-2. @emollick：AI 实验室应该随每个新模型发布一份&quot;变更日志&quot;——详细说明新模型在各类具体任务上相比旧模型的变化、退步或改进。这在模型快速迭代的当下越来越重要。
-🔗 https://x.com/emollick/status/2045140944740122745
-
-3. @emollick：AI 实验室的加速发布节奏展示了 AI 驱动产品开发的可能性——大量产品正在涌现，很多确实质量不错（虽然有粗糙边缘），但我们也没有能力全部消化吸收。
-🔗 https://x.com/emollick/status/2045170892951474263
-
-4. @rryssf_：Meta 开源了一套纯 Python 3D 角色动画系统，不需要 Unreal、Unity 或任何游戏引擎，只用 PyTorch 和 NumPy。游戏引擎 20 年来一直是 3D 动作工作的守门人——不是因为数学需要它们，而是因为没人把数学打包成独立工具。
-🔗 https://x.com/rryssf_/status/2045200692923814202
-
-5. @Hesamation：看着 Figma 这个 100 亿美元的 UX 设计垄断者，因为 Claude 的一条推文而陷入恐慌。
-🔗 https://x.com/Hesamation/status/2045177065150841091
-
-📱 公众号精选（5 / 10）
-
-1. 群核 IPO 后与黄晓煌聊这 15 年：被嫌弃的 GPU、冠军酷家乐、空间智能、六小龙
-群核科技（酷家乐）4 月 17 日登陆港股，成为杭州&quot;六小龙&quot;中首家 IPO 公司，开盘涨超 160%，市值约 350 亿港元（300 亿人民币）。晚点在上市首日专访了董事长黄晓煌。三位联合创始人毕业于浙大和清华，曾在英伟达、亚马逊工作，2011 年回国创业时年仅 25-26 岁。创业初期一年多未融到资，第一笔投资来自浙大师兄王淮个人的 50 万元，后者成立线性资本后多轮加注。从 3D 家居设计工具到空间智能平台，群核用 15 年走完了从&quot;被嫌弃&quot;到&quot;杭州科技符号&quot;的全程。
-🔗 https://mp.weixin.qq.com/s/V5T-9uUaSY87voPVBPL1AA
-
-2. 预测市场下一个万亿机会：Kalshi周交易量30倍增长，华尔街已经悄悄入场
-Kalshi 的每周交易量在过去六个月从 3 亿美元涨到 30 亿美元——10 倍增长，不是年化。a16z 合伙人 Alex Immerman 和 Santiago Rodriguez 撰文复盘 Kalshi 首届研究大会核心洞察。出席者包括高盛高管、Tradeweb 全球市场联席主管、CNBC 高层和前国会议员。Kalshi 举办首届行业大会本身就是一个信号——团队认为预测市场已经足够成熟到可以拥有自己的&quot;达沃斯&quot;。
-🔗 https://mp.weixin.qq.com/s/-gsccx_CT5YOUErH_SnVeQ
-
-3. Cal AI被苹果下架的真相：5000万ARR归零，但真正的教训不是30%的苹果税
-Cal AI 已做到 5000 万美元 ARR，几周前刚被 MyFitnessPal 以约 2-2.5 亿美元收购，收购完成后数周即被苹果从 App Store 下架——原因是绕过苹果支付系统。移动端增长专家 Lucas Patiri 撰文分析认为，大多数人搞错了重点：Cal AI 的问题不是苹果税是否合理，而是在移动端高速增长的 AI 应用如果没有想清支付基础设施问题，随时都可能遇到类似的平台风险。
-🔗 https://mp.weixin.qq.com/s/NLdR0irH5pq7MwAyxY_hBw
-
-4. OpenAI花数亿收购两个播客——这是AI时代最清醒的一笔账
-OpenAI 花数亿美元收购了 TBPN 播客——两个人、一台麦克风、每个工作日直播。收购估值超过了 99% 的 VC 支持的科技初创公司。Rizz app 创始人 Roman Khaves（1500 万下载、1500 万美元收入、几乎零付费广告）撰文分析认为，这证明了&quot;分发不是护城河之一，它是唯一的护城河&quot;。当 AI 让技术实现能力商品化后，能控制注意力入口的内容资产成为最稀缺的资源。
-🔗 https://mp.weixin.qq.com/s/Q_LTUUu2L84dZzvgkJCpYw
-
-5. Claude Design 发布：设计的新时代
-Anthropic 发布 Claude Design（claude.ai/design），一句话输入即可生成交互图形和设计稿。直接冲击 Figma 等设计工具的核心领地，Figma 股价当日承压。
-🔗 https://mp.weixin.qq.com/s/PT-qFsMyWhWjvuxkMLS7DQ
-
-📖 查看完整日报（32 篇）→ https://news.justin7974.dev/2026-04-18.html</description>
     </item>
   </channel>
 </rss>
