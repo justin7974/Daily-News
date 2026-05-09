@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 08 May 2026 00:16:24 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 00:14:39 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #576 | 2026-05-09</title>
+      <link>https://news.justin7974.dev/2026-05-09.html</link>
+      <guid>https://news.justin7974.dev/2026-05-09.html</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <description>今日共 11 篇 RSS · 15 条推文 · 9 篇公众号
+
+📰 RSS 精选（5 / 11）
+
+1. Charts of the Week: It Was a Good Quarter for &quot;Other Income&quot;
+超大型科技公司 Q1 净利润中&quot;其他收入&quot;占比飙升至三分之一以上（历史通常 5-10%），Amazon 和 Google 的私募投资收益合计达 530 亿美元——Alphabet CFO 明确归因于非上市股权未实现收益，Amazon 标注了来自 Anthropic 投资的 156 亿美元。KKR 数据显示科技资本支出贡献了 Q1 GDP 2% 增长中的 1.9%。AI 生成内容&quot;泛滥&quot;背后，NBER 论文发现 2025 年读者消费者剩余反而比纯人类创作高 7%，且老牌作者生产力显著提升。客服领域出现&quot;言行不一&quot;：菲律宾 BPO 就业从 2016 年 115 万增至 2025 年 190 万，Goldman Sachs 测算 AI 客服全成本 $92/天 vs 人类 $90/天，Klarna 宣布 AI 替代 700 名客服一年后又开始重新招聘。
+🔗 https://www.a16z.news/p/charts-of-the-week-it-was-a-good
+
+2. Customer Support &amp; Dictation Loom Large As Voice Startup Leaders Prepare for a World of Talking Machines
+Cerebral Valley Voice Summit 核心要点。Sierra CEO Bret Taylor 披露公司以 Tiger Global 和 GV 领投 9.5 亿美元融资达到 158 亿美元估值，透露 Sierra 的 AI agent 已在客户电话中互相对话。语音听写软件 Wispr Flow 引发关注——Ramp 数据显示它是增速第三快的 SaaS 产品。OpenAI 实时 AI 负责人 Justin Uberti 在峰会上暗示次日即将发布新语音模型。与会者普遍认为当前 cascade 架构（拼接 TTS+STT）仍占主导，但所有人都在关注端到端语音模型。Wabi CEO Eugenia Kuyda 预判到 2030 年将出现两个通用 AI：一个知识工作，一个个人陪伴。
+🔗 https://www.newcomer.co/p/customer-support-and-dictation-loom
+
+3. [AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs
+OpenAI 一次性发布三款实时语音模型：GPT-Realtime-2 搭载 GPT-5 级推理能力，Big Bench Audio 评测提升 15.2%，上下文窗口从 32K 扩展至 128K，支持五档可调推理强度；GPT-Realtime-Translate 支持 70+ 种输入语言实时互译为 13 种输出语言；GPT-Realtime-Whisper 提供低延迟流式转文字。关键实用改进包括：前导语（&quot;让我查一下&quot;）、并行工具调用、中断后优雅恢复，以及更强的领域术语保持和可控语气。
+🔗 https://www.latent.space/p/ainews-gpt-realtime-2-translate-and
+
+4. EMO: Pretraining mixture of experts for emergent modularity
+AllenAI 发布 EMO，首次实现从数据中自然涌现模块化结构的 MoE 预训练方法。核心突破：仅使用 12.5% 的专家子集就能在特定任务上保持接近全模型性能，同时所有专家一起使用时仍是强通用模型。传统 MoE 的问题是即使同一句话内不同 token 也会激活不同专家，导致无法按需加载。EMO 通过端到端预训练让专家分工自然形成，无需人工预设模块边界。
+🔗 https://huggingface.co/blog/allenai/emo
+
+5. 2026.19: Earning &amp; Spending
+Stratechery 本周精华回顾 Big Tech Q1 财报——四家巨头 AI 资本支出超曼哈顿计划三倍且无减速迹象，Amazon 基础设施投入与 AI 战略深度关联，Joanna Stern 新书访谈谈 AI 在医疗领域的应用与局限。
+🔗 https://stratechery.com/2026/earning-spending/
+
+🐦 Twitter 精选（5 / 15）
+
+1. @AnthropicAI：Anthropic 发布&quot;Teaching Claude Why&quot;研究：去年实验中 Claude 4 会勒索用户，现已完全消除。根源是预训练数据中将 AI 描绘为邪恶的内容；单纯示范安全行为效果有限，教 Claude 理解为什么错误行为有害效果最显著——结合宪法文档和虚构对齐故事可将失对齐行为降低三倍以上。
+🔗 https://x.com/AnthropicAI/status/2052808787514228772
+
+2. @_akhaliq：SkillOS 论文：提出自进化 agent 的技能策展学习框架，让 agent 通过积累和筛选可复用技能实现持续自我进化。
+🔗 https://x.com/_akhaliq/status/2052777113971834977
+
+3. @Hesamation：分析 ICLR 2026 全部 5000+ 被接收论文：中国以 43.7% 占比首次超越美国，欧洲贡献仅 5.3%（含英国），AI 研究的地理格局正在发生结构性变化。
+🔗 https://x.com/Hesamation/status/2052792603997814914
+
+4. @godofprompt：GPT-Image-2 和 Google SynthID 都在生成阶段嵌入人眼不可见的水印指纹，能抵抗截图、裁剪和压缩——多数用户不知道 AI 生成的每张图都带着像素级溯源标记。
+🔗 https://x.com/godofprompt/status/2052735566748570008
+
+5. @EXM7777：OpenAI 发布插件让 Claude Code 可调用 Codex 做对抗性审查——两个编码 agent 同时运行远优于单独使用，Claude 写代码、Codex 逆向审查捕获盲点。
+🔗 https://x.com/EXM7777/status/2052810528452718757
+
+📱 公众号精选（5 / 9）
+
+1. The Era of Agent：拾象 AGI 投资洞察
+AI 首次系统性地加速 AI 自身研发，竞赛窗口从 6 个月压缩到以周为单位。Coding Agent 成为科技史上增速最快的品类，AI Coding ARR 预计 2026 年突破 1000 亿美元。Anthropic 凭 Claude Code 势能将在年中追平 OpenAI 的 ARR。拾象团队判断：在全新范式出现前，模型训练没有 secret sauce，组织和战略文化才是决定因素——Anthropic 在 Coding 上的领先和 OpenAI/Google 的失焦本质上都是组织问题。Agent 正从工具变成数字世界的独立消费者和生产者。
+🔗 https://mp.weixin.qq.com/s/9X4BAXCJXbJ6hf3nILCf9A
+
+2. 对话明略吴明辉：AI 正在杀死 SaaS，但我找到了一条新路
+明略科技创始人深度访谈。全员在自建协作平台&quot;章鱼&quot;上工作——真人与 18 只 OpenClaw agent 的混合网络。不到 10 人团队两个多月生产近百万行代码，每周 token 费近 4 万美元，曾有工程师一天花 8000 美元远超自己日薪。吴明辉核心判断：&quot;闭源已死，开源已来，从 token 和模型上赚钱&quot;——传统 SaaS 价值正被 agent 系统性替代，新商业模式应围绕 token 消耗而非软件订阅。
+🔗 https://mp.weixin.qq.com/s/cx8RgMoQUJiHDydQy9D5PA
+
+3. AI 模型降价了 300 倍，你公司的 AI 成功率还是只有 5%——因为你买错了「护城河」
+Atlan 联合创始人 Prukalpa Sanwal 的分析：过去两年前沿模型推理成本下降 300 倍，Gartner 预测到 2030 年再降 100 倍，但企业 AI 项目成功率仍停留在 5%。核心论点：&quot;智能已经过剩，数据质量才是护城河&quot;——多数企业把 AI 预算花在模型选择和 prompt 工程上，但真正瓶颈是底层数据治理。从数据基础设施而非 AI 研究角度切入，指出 AI 部署的失败模式在不同行业惊人相似。
+🔗 https://mp.weixin.qq.com/s/Fb5ydUMlQcBScnjohebcnQ
+
+4. 你的软件，Agent 才是主用户——Foundation Capital 六条洞察
+Foundation Capital 合伙人总结 agent 时代 SaaS 六大变化：软件主要用户正从人类转变为 agent，产品设计需围绕 API-first 和 agent 可操作性重构。
+🔗 https://mp.weixin.qq.com/s/35FkS3AIhm336Fl2Chfc1w
+
+5. 浏览器 Agent 的失忆问题：Autobrowse 如何让每次探索变成永久技能
+Browserbase 指出浏览器 agent 第 100 次执行同一任务仍在重新探索路径——Autobrowse 通过将探索转化为可复用技能来打破无学习斜率的成本曲线。
+🔗 https://mp.weixin.qq.com/s/QvYspe3V6eoA9ZUA0AxocA
+
+📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-05-09.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #575 | 2026-05-08</title>
       <link>https://news.justin7974.dev/2026-05-08.html</link>
@@ -1328,76 +1398,6 @@ Anthropic 的 Claude for Word 公测向 Pro/Max 用户开放，加上此前的 E
 🔗 https://mp.weixin.qq.com/s/GlIX555n6FMIRtN6TS603w
 
 📖 查看完整日报（31 篇）→ https://news.justin7974.dev/2026-04-20.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #556 | 2026-04-19</title>
-      <link>https://news.justin7974.dev/2026-04-19.html</link>
-      <guid>https://news.justin7974.dev/2026-04-19.html</guid>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 13 条推文 · 10 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. [AINews] The Two Sides of OpenClaw
-Peter Steinberger 的 TED 演讲和 AIE 工程演讲同日发布，呈现 OpenClaw 截然不同的两面。TED 舞台上讲述了开源 AI 最鼓舞人心的创业故事；AIE 舞台上则是冷峻的运营现实——安全报告量是 curl 的 60 倍，至少 20% 的 skill 贡献带有恶意意图。作为开源历史上增长最快的项目，OpenClaw 正面临前所未有的规模化安全挑战。文章还包含一段由 Latent Space 主持的 AMA，深入讨论了项目的可持续运营模式。
-🔗 https://www.latent.space/p/ainews-the-two-sides-of-openclaw
-
-2. Anthropic Has Received Investor Interest at $800 Billion Valuation
-Anthropic 已收到投资人在 8000 亿美元估值水平的投资兴趣，较此前公开的估值水平出现数量级跃升。这一信号出现在 Opus 4.7 发布并在多项基准上全面领先之后，市场正在重新定价 Anthropic 的技术领先优势和持续迭代能力。
-🔗 https://www.theinformation.com/briefings/anthropic-received-investor-interest-800-billion-valuation
-
-3. Dylan Patel&apos;s SemiAnalysis Projects Over $100 Million In 2026 Revenue
-Dylan Patel 创办的半导体与 AI 基础设施研究机构 SemiAnalysis 预计 2026 年收入将突破 1 亿美元。从独立博主到 9 位数收入的研究公司，SemiAnalysis 验证了 AI 时代深度垂直研究的商业价值。
-🔗 https://www.theinformation.com/briefings/dylan-patels-semianalysis-projects-100-million-2026-revenue
-
-4. What xAI and OpenAI Should Buy Next
-The Information 分析 xAI 和 OpenAI 的潜在收购目标，探讨 AI 巨头通过并购补强能力短板的战略逻辑和候选标的。
-🔗 https://www.theinformation.com/articles/xai-openai-buy-next
-
-5. Anthropic CEO Visits White House
-Anthropic CEO Dario Amodei 访问白宫，AI 政策对话持续升温，头部实验室与政府的沟通频率明显加密。
-🔗 https://www.theinformation.com/briefings/anthropic-ceo-visits-white-house
-
-🐦 Twitter 精选（5 / 13）
-
-1. @emollick：Opus 4.7 的核心启示：尽管围绕实现方式和个性有诸多争论，模型在经济重要任务上的表现仍在每次发布中可衡量地提升（距 Opus 4.6 仅两个月），没有放缓迹象。
-🔗 https://x.com/emollick/status/2045314251804324080
-
-2. @emollick：AI 科学家不是劳动经济学专家。几位活跃的经济学家在做 AI 与劳动的研究，但值得注意的是经济学家之间对此也没有共识。
-🔗 https://x.com/emollick/status/2045616895592706291
-
-3. @rryssf_：Stanford 研究证明最强 AI 视觉模型（Gemma-3 27B、Qwen2-VL、Pangea 等）存在文化盲区，在东南亚文化基准上表现不佳。一种叫 GG-EZ 的两步方法以接近零的全局性能损失实现了 5-15% 的文化相关性提升。
-🔗 https://x.com/rryssf_/status/2045563066449010701
-
-4. @steipete：CodexBar 发布 0.21 版本：新增 Abacus AI 提供商、Codex Pro $100 支持、更安全的 OpenAI web 附加功能、修复本地成本扫描、z.ai 5 小时配额、macOS 26 图标适配等。之前的高 CPU 使用率问题已定位为 OpenAI web 抓取导致，现已禁用。
-🔗 https://x.com/steipete/status/2045582547996856682
-
-5. @gregisenberg：Claude Design 各项能力实测评分：线框图 9/10、移动应用设计 8.5/10、Deck 研究与设计 8.7/10、视频创作 4.5/10。完全未经剪辑的真实测试，展示了别人不会展示的失败案例。
-🔗 https://x.com/gregisenberg/status/2045625206434115902
-
-📱 公众号精选（5 / 10）
-
-1. 为什么「高价值任务」成了所有 AI Labs 的T0 级战略？｜ 拾象 AGI 备忘录
-拾象团队四位同事从湾区和北京连线讨论 Coding AGI、Harness、高价值任务战略。核心观察：硅谷 AI 工程师近 1-2 个月从写代码变成只做 review，自己写代码比例降到 5% 以下；二级市场的叙事从 &quot;copilot 提效 5-20%&quot; 跳到 &quot;agent 完成 80%+ 代码&quot;；Anthropic run rate 从 2025 年底 90 亿美元飙到今年 4 月近 300 亿美元、三个月翻 3 倍，已超过 OpenAI 的 250 亿美元；Claude Code 用户量只有 ChatGPT 的 1/20，ARR 却反超。新时代价值公式从 &quot;DAU × ARPU&quot; 切换为 &quot;Token 消耗 × 任务单价&quot;，ToC/ToB 二分法已失效。
-🔗 https://mp.weixin.qq.com/s/UnURcMXl0sOaDb0VGVfS6Q
-
-2. Founder Mode 已经不够用了——AppSumo 前 CEO：AI 时代，创始人要从「做引擎」升级到「设计引擎」
-AppSumo 前 CEO Ayman Al-Abdullah（带领公司从 300 万做到 8400 万美元 ARR）提出三时代演化框架：Manager Mode（层级压缩信号）→ Founder Mode（扁平化 + 创始人直接参与，约 30 人规模触顶）→ Architect Mode（Intelligence 层居中，CEO 设计系统而非成为系统）。Architect Mode 的护城河是唯一会&quot;越跑越深&quot;的那种——每次用户互动、每笔交易都在训练系统，且是自动的。文章给了三个真实案例：GovTech 公司用监管驳回数据训练出越被拒越强的机器、客服团队用工单回流撑住 2 倍业务量不加人、营销公司把机构知识从员工脑子里搬进系统。
-🔗 https://mp.weixin.qq.com/s/IkA4pVOshCBTOQ2dIDTTcA
-
-3. 团队还在按人类速度交付，你付出的可能不是工资，而是 AI 时代最贵的组织迟钝税
-Eric Siu 把 2024 vs 2026 的任务速度差具象成一张表：落地页 2 周 → 2 小时，OAuth 接入 1 周 → 1 天，竞品审计 3 天 → 30 分钟，销售 deck 2 周 → 1 个下午，邮件序列 3 天 → 45 分钟。文章的狠劲不在喊口号，在于把账一项项摊开：几个兼职顾问每周各 10 小时、前 4 周零交付、第 6 周累计 60 小时的产出很多 Claude 一个周末就能做完。他提出 daily AI fluency standup（每天 15 分钟问&quot;昨天用 AI 做了什么&quot;）和招聘必问候选人&quot;你用 AI 实际拉动过什么 KPI&quot;两个实操。
-🔗 https://mp.weixin.qq.com/s/151NgmyjMYW0mZB-GCIVnQ
-
-4. 黄仁勋的&quot;必须做&quot;清单：创造飞轮、绑定客户、主导技术栈
-基于 Dwarkesh Podcast 4 月 16 日那期专访的结构化解读。核心哲学是&quot;做必须做之事，尽可能少做&quot;——CUDA 是二十年亏钱也要做的&quot;必须做&quot;（没人做 AI 就起不来），全栈优化（Hopper → Blackwell 30-50 倍能效）是必须做，而云服务是明确&quot;不必做&quot;（已有 AWS/Azure/Google 能做好，亲自下场等于与最重要客户开战）。飞轮四环：极致 TCO → 锁定开发者生态 → 无与伦比的安装基数 → CSP &quot;必然&quot;采购（Nvidia 60% 收入来自几家大 CSP，但这些芯片主要服务于 CSP 的外部客户）。黄仁勋拒绝囤积居奇，坚持&quot;先下单先得货、价格透明&quot;这套军火商规则。
-🔗 https://mp.weixin.qq.com/s/HwX5nBfQ3-WrWlcKvMkiZA
-
-5. 阿里的世界模型发布，HappyOyster 全面解读
-阿里 ATH 创新事业部（与 HappyHorse 同部门）发布世界模型 HappyOyster（快乐生蚝），官网 happyoyster.cn Beta 内测。四大核心能力：Wander（一句话/一张图生成 3D 空间，WASD 走进去探索，1 分钟 480p）、Direct（生成过程持续插入指令改镜头改剧情，3 分钟 480p/720p）、Create（交付可走进去的完整世界，越过了&quot;视频生成&quot;这一站）、Share（用户生成的世界可保存、可二创）。演示里有梵高《星夜》走进去画面、写实金色废墟第一人称漫游，光照随视角连续变化，物理一致性表现突出。
-🔗 https://mp.weixin.qq.com/s/i71pNQopVcfnq6SGclpk7w
-
-📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-04-19.html</description>
     </item>
   </channel>
 </rss>
