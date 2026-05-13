@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 12 May 2026 00:13:10 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 00:14:55 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #580 | 2026-05-13</title>
+      <link>https://news.justin7974.dev/2026-05-13.html</link>
+      <guid>https://news.justin7974.dev/2026-05-13.html</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <description>今日共 11 篇 RSS · 15 条推文 · 10 篇公众号
+
+📰 RSS 精选（5 / 11）
+
+1. SpaceX and Anthropic, xAI&apos;s Two Companies, Elon Musk and SpaceXAI&apos;s Future
+Anthropic 与 xAI 达成交易，Ben Thompson 认为这一消息&quot;令人震惊但并不意外&quot;。Thompson 的核心建议是 Musk 应该将 xAI 定位为基础设施提供商，加倍投入&quot;服务其他公司&quot;的方向，而非在前沿模型层面与 OpenAI/Anthropic/Google 正面竞争。文章分析了 xAI 内部实质上存在两家公司——一家做模型，一家做算力基础设施——以及 SpaceXAI 的未来整合路径。
+🔗 https://stratechery.com/2026/spacex-and-anthropic-xais-two-companies-elon-musk-and-spacexais-future/
+
+2. How open model ecosystems compound
+Nathan Lambert 提出一个被忽视的成本结构洞察：前沿模型约 80% 的算力花在研发而非最终训练（Ai2 的 Olmo 3 开发文档和 Epoch AI 的研究共同证实）。在中国这种开源优先的生态中，各实验室通过详尽的技术报告和有意的知识共享，有效去重研发算力投入——避免不同团队重复验证同一条死路。开源 AI 与传统开源软件的关键差异在于：OSS 的反馈循环直接降低部署成本，而开源 AI 的收益主要体现在降低未来的研发成本。
+🔗 https://www.interconnects.ai/p/how-open-model-ecosystems-compound
+
+3. Thinking Machines&apos; Native Interaction Models — TML-Interaction-Small 276B-A12B
+Mira Murati 和翁荔创立的 Thinking Machines Lab 发布了首个核心模型 TML-Interaction-Small：276B 参数 MoE 架构（12B 激活），专注实时多模态交互。核心创新是&quot;微回合&quot;设计——每 200ms 刷新一次感知与输出，彻底抛弃传统 VAD（语音活动检测），由模型自身判断何时说、何时听。在 FD-bench 交互质量测试中得分 77.8，远超 GPT-realtime-2.0（46.8）和 Gemini-3.1-flash-live。模型还搭配独立的&quot;背景模型&quot;处理工具调用等重活。
+🔗 https://www.latent.space/p/ainews-thinking-machines-native-interaction
+
+4. Consumer Investors Say Their Category Isn&apos;t Dead. It&apos;s Different.
+Lightspeed 合伙人 Faraz Fatemi 参加了一场 consumer GP 聚会，Menlo Ventures 主办，出席者包括 Forerunner 的 Kirsten Green、CRV 的 Saar Gur、Accel 的 Ivan Zhou、Greylock 的 Mike Duboe。核心讨论是 consumer 投资的定义正在被 AI 重塑——编程助手、prosumer AI 工具这类传统上被归类为&quot;开发者工具&quot;的产品，正在被 consumer VC 纳入自己的投资范畴。消费互联网没有死，它的边界在被 AI 重新划定。
+🔗 https://www.newcomer.co/p/consumer-investors-say-their-category
+
+5. Claude Code v2.1.140
+Claude Code 发布新版本，改进了 Agent tool 的 subagent_type 匹配（支持大小写和分隔符不敏感）、修复了 /goal 在特定 hooks 配置下静默挂起的问题、优化了 settings 热重载等。持续高频迭代节奏。
+🔗 https://github.com/anthropics/claude-code/releases/tag/v2.1.140
+
+🐦 Twitter 精选（5 / 15）
+
+1. @Hesamation：GPT-5.5 不仅在编程能力上超过 Opus 4.7，价格也更便宜，调用次数更少。200 美元/月订阅费的性价比正在被重新审视。
+🔗 https://x.com/Hesamation/status/2054315825922723866
+
+2. @_akhaliq：Qwen-Image-2.0 技术报告发布，阿里通义千问团队的最新图像生成模型。
+🔗 https://x.com/_akhaliq/status/2054188580084318337
+
+3. @emollick：ChatGPT 悄然移除了 Study Mode，这是一个重大失误——Claude 和 Gemini 仍保留该功能。作为个性化学习工具，Study Mode 本可成为 AI 最具社会价值的应用之一。
+🔗 https://x.com/emollick/status/2054289201055871160
+
+4. @cursor_ai：Cursor 现已支持 Claude Opus 4.7 的 Fast 模式，速度提升 2.5 倍，成本增加 6 倍。适合对速度敏感的高频编程场景。
+🔗 https://x.com/cursor_ai/status/2054274305345618163
+
+5. @shao__meng：Claude Code 发布 Agent View，将分散在不同终端标签页的会话统一到一个面板，实时显示哪些 agent 在运行、哪些在等待用户、哪些已完成。
+🔗 https://x.com/shao__meng/status/2054005092190462394
+
+📱 公众号精选（5 / 10）
+
+1. Supabase：百亿美元估值，vibe coding 的默认后端？
+Supabase 即将完成 GIC 领投的 5 亿美元 F 轮融资，估值 100 亿美元。核心数据：累计用户突破 700 万，Anthropic ARR 在 Opus 4.5 发布后三个月从 90 亿跳至 300 亿美元级别，Supabase 增长曲线同步加速。产品路线图已从&quot;给人类开发者更好的体验&quot;切换为&quot;给 agent 更好的 Postgres capability&quot;——收购 OrioleDB 改造 Postgres 底层，通过 MCP Server 接入 18+ agent，将与 Anthropic 合作推出 vibe coding platform。Supabase 已成为 Lovable、Bolt 等平台的默认后端。
+🔗 https://mp.weixin.qq.com/s/N-g5W-gh_4HomEJcpOhgrw
+
+2. AI芯片独角兽Cerebras上调IPO规模，拟融资48亿美元、超额认购20倍
+Cerebras Systems 上调 IPO 规模至最高 48 亿美元（3000 万股、每股 150-160 美元），此前计划为 2800 万股、每股 115-125 美元。价格区间上限对应市值 344 亿美元，认购需求超过可用股份 20 倍。2025 年营收 5.1 亿美元，净利润 8790 万美元，扭亏为盈（去年同期亏损 4.85 亿）。OpenAI 持有 3340 万份 Cerebras 认股权证。IPO 预计 5 月 13 日定价。
+🔗 https://mp.weixin.qq.com/s/-yDsfhk9TycR8t2UJutjKA
+
+3. 晚点独家丨拼多多千亿&quot;新拼姆&quot;计划：百人团队、大牌工厂、Temu 变重
+拼多多以百人独立团队执行&quot;新拼姆&quot;项目，首期注资 150 亿元，三年总投入 1000 亿元。模式是平台自创品牌 + 工厂代工：选定服装、家居、户外三个类目，接触波司登、雅戈尔、骆驼等年销数十亿的成熟供应商，平台提供设计指引、买断库存、负责包销，综合供应商毛利率 10%-20%。商品定价为生产成本 4-5 倍，约同类大品牌 5-7 折。产品面向美国和欧洲市场，不在国内销售。交货周期 15-30 天，单品采购量达万件级——与 Shein 小单快返形成鲜明对比。
+🔗 https://mp.weixin.qq.com/s/GFYFfo0WBxGUft24yhVU8Q
+
+4. Thinking Machines 刚发的「边听边说」，让我想到了几个月前的面壁智能
+TML 的 Interaction Model 与面壁智能 2 月开源的 MiniCPM-o 4.5 在技术路径上的详细对比：TML 走 276B MoE + 200ms 微回合 + 无编码器端到端训练 + 云端部署路线，面壁走 9B 统一模型 + 1.0s 时间窗口 + Whisper+SigLIP 编码器 + 端侧部署路线。两家的核心共识是 VAD 必须被模型自身替代，但在时间粒度上存在分歧——面壁的消融实验显示 200ms 窗口内信息量不足以做稳定决策。
+🔗 https://mp.weixin.qq.com/s/Cb7JBt-xLZAsxEiLbdkbIQ
+
+5. OpenAI砸45亿美元成立AI部署公司，收购咨询公司Tomoro
+OpenAI 收购约 150 人的咨询公司 Tomoro，组建 AI 部署公司，联合 TPG、Brookfield、Advent、Bain Capital 等 PE 投入 40 亿美元。模型公司正式下场做企业服务落地。
+🔗 https://mp.weixin.qq.com/s/06JbFsnbov_qQpuXjKX7jg
+
+📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-05-13.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #579 | 2026-05-12</title>
       <link>https://news.justin7974.dev/2026-05-12.html</link>
@@ -1328,76 +1398,6 @@ NVIDIA 支持的 AI 数据存储公司 Vast Data 完成约 10 亿美元融资，
 🔗 https://mp.weixin.qq.com/s/bbR8lFTwQnsgiN7tobR3mQ
 
 📖 查看完整日报（30 篇）→ https://news.justin7974.dev/2026-04-24.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #560 | 2026-04-23</title>
-      <link>https://news.justin7974.dev/2026-04-23.html</link>
-      <guid>https://news.justin7974.dev/2026-04-23.html</guid>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-      <description>今日共 11 篇 RSS · 16 条推文 · 10 篇公众号
-
-📰 RSS 精选（5 / 11）
-
-1. xAI&apos;s Move to Buy Cursor Shows the Promise &amp; the Risks for AI Applications Startups
-SpaceX 宣布获得以 600 亿美元收购 Cursor 的权利，附带 100 亿美元分手费。Cursor CEO Michael Truell 周二下午召集全员大会宣布与 SpaceX 的&quot;新合作关系&quot;。交易结构精心措辞——SpaceX 获得的是&quot;收购权&quot;而非直接收购，并将支付 100 亿美元用于&quot;合作&quot;。该交易对 a16z、Thrive 和 Accel 而言是巨大胜利。
-🔗 https://www.newcomer.co/p/xais-move-to-buy-cursor-shows-the
-
-2. [AINews] OpenAI launches GPT-Image-2
-OpenAI 正式发布 GPT-Image-2，在 ChatGPT、Codex 和 API 三端同时上线，包含 Thinking 和 Non-thinking 两种模式。Arena 排行榜显示该模型以 +242 Elo 的领先优势登顶 text-to-image、single-image edit 和 multi-image edit 全部三个类别。核心突破在于文字渲染精度和布局保真度——不再是更好看的图片，而是可以直接用于 UI 原型、文档、信息图和品牌资产的生产力工具。Figma、Canva、Adobe Firefly 和 fal 已集成该模型。
-🔗 https://www.latent.space/p/ainews-openai-launches-gpt-image
-
-3. Microsoft Moving All GitHub Copilot Subscribers To Token-Based Billing
-内部文件显示微软计划 6 月起将所有 GitHub Copilot 用户转向 token 计费模式。Copilot Business 用户将支付 $19/月/人并获得 $30 的池化 AI 额度，Copilot Enterprise 从 $39 涨至 $49 并获得 $100 额度。这意味着单纯使用 Copilot Chat 的轻度用户实际付费减少，而大量使用代码生成和 Agent 功能的重度用户将支付更多。
-🔗 https://www.wheresyoured.at/exclusive-microsoft-moving-all-github-copilot-subscribers-to-token-based-billing-in-june/
-
-4. Why We Need Continual Learning
-a16z 发布深度技术文章，以《记忆碎片》的 Leonard Shelby 类比当前 LLM 的根本缺陷：模型训练后参数冻结，无法从部署后的新经验中真正学习。文章系统梳理了 continual learning（持续学习）的技术路线——包括 LoRA 适配器持续微调、记忆增强架构、参数空间正则化等方法，核心论点是 in-context learning（上下文学习）在需要真正发现（如新数学定理）、对抗场景（安全）和难以语言化的隐性知识时不够用，模型需要直接更新参数的能力。
-🔗 https://www.a16z.news/p/why-we-need-continual-learning
-
-5. We&apos;re launching two specialized TPUs for the agentic era
-Google 发布第八代 TPU 的两款专用芯片 TPU 8t 和 8i，分别面向训练和推理场景，明确定位为&quot;agentic era&quot;的基础设施。Google 在自研芯片上持续加码，与 NVIDIA 的竞争进入新阶段。
-🔗 https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/
-
-🐦 Twitter 精选（5 / 16）
-
-1. @emollick：图像模型比文字模型更容易锚定在特定方向上，需要频繁清除上下文窗口。Emollick 提出 PerfectSquashBench 衡量图像模型的锚定程度——反复要求后南瓜依然只是&quot;还行&quot;。
-🔗 https://x.com/emollick/status/2047073009312121000
-
-2. @egeberkina：GPT Image 2 能精确理解产品尺寸和比例，生成的产品规格图与真实参数匹配，像专业产品说明书一样精准。
-🔗 https://x.com/egeberkina/status/2046963917490888832
-
-3. @egeberkina：Seedance 2.0 的 Omni reference 功能非常强大，支持全方位参考图输入生成视频。
-🔗 https://x.com/egeberkina/status/2047037959866634314
-
-4. @AmirMushich：用 GPT Image 2 单提示词生成华纳音乐集团品牌重塑套件。视觉叙事扎实，但文案泛泛缺乏差异化；W 字母图形过度变形稀释了品牌识别度。AI 生图已到品牌概念阶段可用的程度。
-🔗 https://x.com/AmirMushich/status/2047061126123253851
-
-5. @rileybrown：GPT-Image-2 不支持透明背景输出，开发者在寻找最佳背景移除 API 方案。生图工具链仍有缺口待填。
-🔗 https://x.com/rileybrown/status/2047009958689157374
-
-📱 公众号精选（5 / 10）
-
-1. 智驾骨干集体跳向具身，催熟独角兽只要半年
-过去两年超过 20 位车企和智驾公司核心骨干转投具身智能。仅理想汽车就有超 10 位核心研发流出，包括前高级副总裁郎咸朋、前 AI 首席科学家陈伟等。理想前智驾负责人贾鹏创立的至简动力，半年估值达 10 亿美元；郎咸朋创立的昆仑行可能更快打破纪录。具身公司猎头费按年薪 25% 付，比智驾岗贵 2-3 个百分点。资本驱动下，从&quot;二三十亿&quot;到&quot;清一色百亿&quot;只用了不到半年。
-🔗 https://mp.weixin.qq.com/s/CP7utrWB04-Q_hqRfsCWSQ
-
-2. 营销已死，Anthropic 一个人干翻了整个市场部
-GRITCULT 一篇 X Article 获得 69.4 万浏览量，核心案例：Anthropic 的整个增长营销运营在某段时间由一人完成。这位增长负责人用 Claude Code 分析广告数据、构建专门化子 Agent（标题 Agent + 描述 Agent）、Figma 插件批量生成广告物料（每批 0.5 秒，最多 100 变体）、MCP 服务器对接 Meta Ads 实时数据、以及自我演化的记忆系统。文章将 AI 营销能力分为四层：自动化→思维伙伴→做以前 ROI 不划算的事→构建专属工具。
-🔗 https://mp.weixin.qq.com/s/L0ena-y0OyqyIj3s_4qUtg
-
-3. Amazon 追投 50 亿美元，Anthropic 承诺花费 1000 亿在 AWS 云计算
-Amazon 新一轮 50 亿美元投资使其在 Anthropic 的总投入达到 130 亿美元。作为交换，Anthropic 承诺未来 10 年在 AWS 花费超过 1000 亿美元，获得最多 5 GW 计算容量来训练和运行 Claude。交易核心是 Amazon 自研芯片 Trainium2 至 Trainium4。此前 Amazon 已以类似结构向 OpenAI 投入 500 亿美元。据报道 Anthropic 新一轮融资估值将达 8000 亿美元或更高。
-🔗 https://mp.weixin.qq.com/s/GCtH42uDXZ5wcBhJXRdaUA
-
-4. Phononic 拟以 20 亿美元估值出售，AI 芯片冷却赛道升温
-成立 17 年的半导体冷却公司 Phononic 正与潜在买家洽谈，估值讨论至少 15 亿、部分买家出价超 20 亿美元。公司生产直接放置在 HBM 芯片和 GPU 上的热管理套件。此前 Ecolab 以 47.5 亿美元收购 CoolIT（KKR 最成功投资之一，权益回报 15 倍），伊顿以近 100 亿美元收购 Boyd 热管理业务。NVIDIA 芯片运行温度越来越高，数据中心冷却已成为 AI 基础设施的关键瓶颈。
-🔗 https://mp.weixin.qq.com/s/lzacSLXqL3E6hLWzA5qQ1A
-
-5. Claude Code 或将 Max 专享，Pro 套餐撑不住了
-Anthropic 一度将 Claude Code 从 Pro 套餐移除，定价页和文档全量更新后又回滚。增长负责人承认&quot;使用量大幅上升，现行套餐扛不住&quot;。Claude Code 的 token 消耗远超订阅定价覆盖范围，AI 编程工具从订阅向 token 计费转型的趋势已不可逆。
-🔗 https://mp.weixin.qq.com/s/LgW4gArLSj28lWTT6KhR3A
-
-📖 查看完整日报（37 篇）→ https://news.justin7974.dev/2026-04-23.html</description>
     </item>
   </channel>
 </rss>
