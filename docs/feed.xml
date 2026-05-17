@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 16 May 2026 00:10:53 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 02:57:13 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #584 | 2026-05-17</title>
+      <link>https://news.justin7974.dev/2026-05-17.html</link>
+      <guid>https://news.justin7974.dev/2026-05-17.html</guid>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <description>今日共 11 篇 RSS · 14 条推文 · 7 篇公众号
+
+📰 RSS 精选（5 / 11）
+
+1. [AINews] Cerebras&apos; $60B IPO: Slowly, then All at Once
+Cerebras 本周成功 IPO，市值达 600 亿美元，收盘价 280 美元。此前 Cerebras 曾撤回 S-1，随后与 OpenAI 建立 750MW 合作伙伴关系及 100-200 亿美元的合约。IPO 发生在 NVIDIA 以 200 亿美元收购 Groq 仅 6 个月之后。投资人 Ishan Taneja 公开表示此前不信 Cerebras 的早期说法，如今承认&quot;怀疑者是对的&quot;。Cerebras 财务数据已全面公开，但市场焦点集中在供给侧——TSMC 晶圆产能到 2028 年前持续紧张。
+🔗 https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then
+
+2. Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 &amp; others
+本月所有开放前沿实验室集中发布新模型：DeepSeek V4、Gemma 4、Kimi K2.6、MiMo 2.5、GLM-5.1。CAISI（AI 标准与创新中心）对 V4 的评估声称开放模型与美国闭源前沿的差距在扩大。但 Nathan Lambert 指出这些评估使用标准化简单设置（bash for-loop + 固定 token 预算），而非 Claude Code 或 OpenCode 等实际 harness——导致评估结论可能严重偏差，例如将 Bun 从 Zig 到 Rust 的百万行级别迁移判定为&quot;不可能&quot;。
+🔗 https://www.interconnects.ai/p/latest-open-artifacts-21-open-model
+
+3. Greg Brockman Officially Takes Control of Products at OpenAI
+OpenAI 宣布公司重组：联合创始人兼总裁 Greg Brockman 正式接管产品战略，此前他在 AGI 部署 CEO Fidji Simo 因医疗休假期间临时负责产品，现在转为正式任命。此次调整是 OpenAI 将 ChatGPT 和 Codex 统一为核心产品体验的持续努力的一部分。
+🔗 https://www.wired.com/story/openai-reorg-greg-brockman-product/
+
+4. AI Is Technology, Not a Product
+John Gruber 反驳 Steven Levy&quot;Apple 下一任 CEO 需要推出杀手级 AI 产品&quot;的论点。Gruber 认为 AI 不是产品也不是功能，而是底层技术——正如无线网络渗透了 Apple 所有设备但从未成为独立产品。他逐条拆解了&quot;AI agent 到 2030 年取代手机&quot;的愿景：谁在听指令？谁在显示状态？谁在拍照？答案都指向手机。Gruber 的结论：Apple 不需要&quot;killer AI product&quot;，需要的是让 AI 渗透进每一个现有产品。
+🔗 https://daringfireball.net/2026/05/ai_is_technology_not_a_product
+
+5. Notes on pretraining parallelisms and failed training runs
+Dwarkesh Patel 整理了预训练并行化和训练失败的技术笔记。核心发现：打破因果性是训练失败的主要原因之一。Expert routing 中使用 expert choice（而非 token routing）会导致 token n 的专家分配依赖于 token n+k，破坏因果性——传言 Llama 4 表现不佳正与此有关。其他失败原因包括多模态数据过早混入（类似 Gemini 早期问题）和分布式训练中的 bias 引入。
+🔗 https://www.dwarkesh.com/p/notes-on-pretraining-parallelisms
+
+🐦 Twitter 精选（5 / 14）
+
+1. @hongming731：企业 AI 的下一个战场不是模型，而是智能体控制平面。VentureBeat 调查显示微软以 38.6% 采用率领跑编排层，OpenAI 占 25.7%，Anthropic 以 5.7% 首次入局。企业选编排平台的首要考量是安全与权限管理，而非模型性能。
+🔗 https://x.com/hongming731/status/2055798584403230989
+
+2. @hongming731：OpenAI 在 ChatGPT 上线个人理财预览版，面向美国 Pro 用户。通过 Plaid 连接 1.2 万家金融机构的真实账户数据。核心机制&quot;Financial memories&quot;让 ChatGPT 记住用户财务目标，从一次性咨询工具转向长期财务陪伴。AI 看得到账户信息但看不到密码。
+🔗 https://x.com/hongming731/status/2055799563357917334
+
+3. @godofprompt：xAI 开源了新的 X 算法全部代码。Grok 不再是算法的辅助，而是算法本身——排名、检索、内容理解、主题推断、情绪分析、音视频处理全部运行在 Grok 的 transformer 上。旧的手工特征工程系统（SimClusters、TwHIN）已完全被淘汰。
+🔗 https://x.com/godofprompt/status/2055645485306962046
+
+4. @shao__meng：Pixelpoint 发布 Animate Text Skill：把 24 种文字动画固化为机器可读 JSON spec，让 Agent 不再凭直觉生成动画而是查表执行。架构分两层：可移植的&quot;动机合约&quot;（库无关的语义意图）和精确的&quot;复现合约&quot;（完整渲染器算法）。
+🔗 https://x.com/shao__meng/status/2055610047175238118
+
+5. @bcherny：Claude Code 的 /usage 命令已升级为个性化用量分析工具，可显示哪些具体插件、技能和使用模式在消耗 token。Rate limit 已翻倍，但大部分超限由少数插件/技能或大量并行 agent 驱动。
+🔗 https://x.com/bcherny/status/2055503100811911432
+
+📱 公众号精选（5 / 7）
+
+1. 怎么看 Anthropic 进军金融
+Anthropic 上周三个动作同步落地：与黑石、Hellman &amp; Friedman、高盛成立 15 亿美元合资企业，目标是将 Claude 直接部署进这些私募巨头旗下投资组合公司的运营中。Reid Hoffman 将三件事放在一起读，得出一个关键判断。黑石管理超过 1 万亿美元资产，高盛企业客户覆盖全球数千家机构——这不是概念验证，而是规模化嵌入金融基础设施。
+🔗 https://mp.weixin.qq.com/s/P6xWVKnCpp_xc75LTMxD9g
+
+2. Deel CEO 用 AI 把这些活全干了，省出 91,000 小时/月
+Deel CEO Alex Bouaziz 公开了内部 AI 系统 Akai 的数据：上线第一个月即节省 91,000 小时/月，在公司内部使用近两年后才对外开放。Deel 覆盖 150+ 个国家的薪资和合规，每进入一个新市场都面对新规则、新税务、新支付门户。Akai 的关键不是替代简单任务，而是替代了&quot;最好的员工一直在做不该由他们做的事&quot;这一结构性低效。
+🔗 https://mp.weixin.qq.com/s/XKQpBOiVL-30DyZs7h97HA
+
+3. 深度 | 英伟达黄仁勋：大多数人会输给那些会使用 AI 的人
+斯坦福商学院对话，黄仁勋与前国家安全顾问 McMaster、国会议员 Ro Khanna 共同探讨美国在 AI 时代的竞争力。黄仁勋核心判断：大多数人不会因 AI 失业，但会输给会用 AI 的人。他强调 AI 是一个&quot;有五层深度的行业&quot;，英伟达与许多竞争对手存在相互依赖关系。他认为现在是上学和毕业&quot;最好的时代&quot;，因为世界被重置了。
+🔗 https://mp.weixin.qq.com/s/XASJMMErlMHRtdaqfqlobw
+
+4. 马耳他：向全民发放免费 ChatGPT 会员
+马耳他政府&quot;AI for All&quot;计划启动：公民完成 AI 素养课程后免费获得一年 ChatGPT Plus。53 万人口的小国率先将 AI 作为全民基础服务发放，课程和订阅费用全部由政府承担。
+🔗 https://mp.weixin.qq.com/s/lCGaIMO_udIubaXLHEei3w
+
+5. 帮 DeepSeek 招个人
+DeepSeek Harness 团队招募首个产品经理，负责桌面端 Agent 产品全流程，定义 DeepSeek 对 Harness 的理解。职位要求连接研究员、工程师、开源社区和广大用户。DeepSeek 正式进入 Agent/Harness 产品化阶段。
+🔗 https://mp.weixin.qq.com/s/NxM8PnHQd1kUoMSpa_qbLg
+
+📖 查看完整日报（32 篇）→ https://news.justin7974.dev/2026-05-17.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #583 | 2026-05-16</title>
       <link>https://news.justin7974.dev/2026-05-16.html</link>
@@ -1328,76 +1398,6 @@ SpaceX 正筹备代号&quot;Project Apex&quot;的 IPO，目标估值近 2 万亿
 🔗 https://mp.weixin.qq.com/s/h1a0ryP3QFR-YpWnH2gI-Q
 
 📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-04-28.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #564 | 2026-04-27</title>
-      <link>https://news.justin7974.dev/2026-04-27.html</link>
-      <guid>https://news.justin7974.dev/2026-04-27.html</guid>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 12 条推文 · 8 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Atlassian and HubSpot Join Shift From AI Flat Fees
-截至 2025 年底，Kyle Poyar 追踪的 500 家软件公司中已有 79 家（包括 HubSpot、Adobe、Salesforce）放弃了传统按席位收费的订阅模式，转向基于 AI 使用量或成果的定价。Atlassian 和 HubSpot 是最新加入这一趋势的大厂。驱动力很明确：当 AI Agent 替代了部分人工操作，按&quot;人头&quot;收费的逻辑不再成立。部分公司尝试按 AI 解决的工单数、生成的内容量或节省的工时计费，但新定价模型仍在摸索中，客户接受度参差不齐。
-🔗 https://www.theinformation.com/articles/atlassian-hubspot-join-shift-ai-flat-fees
-
-2. Snapchat CEO: Why distribution has become the most important moat
-Evan Spiegel 在 Lenny&apos;s Podcast 上提出核心判断：过去 15 年只有两款消费级应用真正突围，纯软件业务已经不构成护城河。Snapchat 的每一个重要功能都被克隆过，迫使公司转向硬件（AR 眼镜 Specs）寻找持久壁垒。Spiegel 认为人类对 AI 的心理接受度将比技术本身更成为瓶颈。Snap 目前拥有近 10 亿 MAU，设计团队仅 9-12 人，无职级、无层级，每周数百个创意直接经 CEO 评审。
-🔗 https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is
-
-3. Related Digital Finalizes Financing for Oracle&apos;s Michigan Data Center Campus
-Related Digital 与 Blackstone 完成了密歇根州一座价值 160 亿美元的数据中心园区融资，该园区专为 Oracle 建设，后者将向 OpenAI 出租算力。这是近期为 Oracle-OpenAI 算力供应链规划的一系列项目中的最新一笔。融资规模之大反映出 AI 基础设施投资正在从&quot;试探性&quot;进入&quot;工业化&quot;阶段。
-🔗 https://www.theinformation.com/briefings/related-digital-finalizes-financing-oracles-michigan-data-center-campus
-
-4. Samsung Might Post Its First-Ever Mobile Division Loss, Blaming RAM Crisis
-三星移动部门负责人 TM Roh 内部表态担忧&quot;MX 业务年度亏损的可能性&quot;——这将是三星移动部门历史上首次亏损。根源是 AI 训练和推理对 RAM 的需求爆发，导致存储芯片价格暴涨，智能手机成本被动抬升。低端安卓设备受冲击最大，摩托罗拉等品牌已开始涨价。三星同时面临内部裁员和供应链成本双重压力。
-🔗 https://9to5google.com/2026/04/22/samsung-is-increasingly-worried-about-first-ever-mobile-division-loss-in-ram-crisis-report/
-
-5. Musk-OpenAI and Big Tech Earnings on Deck This Week
-本周 Musk 与 Altman 将在加州法庭对簿公堂，争论 OpenAI 的起源和治理结构。同时 Microsoft、Meta、Amazon、Apple 集中发布财报，AI 资本支出和变现进展将成为焦点。
-🔗 https://www.theinformation.com/articles/musk-openai-big-tech-earnings-deck-week
-
-🐦 Twitter 精选（5 / 12）
-
-1. @steipete：OpenClaw 展示真实数据：自 12 月以来累计关闭 2.7 万个 issue 和 3 万个 PR，本周就关闭了 1 万个 issue 和近 5 千个 PR，靠的是 clawsweeper 和 clownfish 两个自动化工具。
-🔗 https://x.com/steipete/status/2048478136824738181
-
-2. @EXM7777：认为前端设计已经被 Opus 4.7 和 GPT-5.5 基本解决了。
-🔗 https://x.com/EXM7777/status/2048423367309766967
-
-3. @egeberkina：用 ChatGPT Image 2 快速生成故事板，再投入 Seedance 2.0 转成完整游戏风格视频。虽然不是每个场景都完美还原，但效果已经很惊艳。
-🔗 https://x.com/egeberkina/status/2048484507909599453
-
-4. @kloss_xyz：AI 开发领域每周都在加速。代码仓库根目录必须有 DESIGN.md、AGENTS.md 和 SKILL.md，否则每次 Agent 工具运行都可能产生幻觉。结构化 token 和明确的系统设计是让 Agent 自主工作的前提。
-🔗 https://x.com/kloss_xyz/status/2048530452877873390
-
-5. @gregisenberg：现代计算机可能需要被重新发明。围绕这个趋势列出 12 个&quot;小&quot;创业点子，包括：用自然语言搜索所有应用和文件的&quot;东西在哪&quot;App、AI Agent 输出质量追踪器、自动生成操作手册的工具等。
-🔗 https://x.com/gregisenberg/status/2048381278953603406
-
-📱 公众号精选（5 / 8）
-
-1. 全员 token-maxxing，一场没人敢停的军备竞赛
-五源资本合伙人孟醒硅谷考察手记。YC W26 batch 一百多家公司约 80% 做垂直 Agent，但 Opus 4.6 发布后 vibe coding 门槛被压到地板，一个周末就能复现这些产品，YC 正在从领先指标变成滞后指标。Meta 全员使用 Claude Code 写代码，安全红线让位于效率；DeepMind 也在用 Claude Code（Anthropic 做了私有部署）。一个工程师年 token 预算已达 20 多万美元，接近工程师年薪。Meta 内部甚至有 token 消耗排行榜，用量低的可能被裁。整个硅谷处于&quot;不计成本往 AI 砸钱&quot;但回报尚不清晰的状态。
-🔗 https://mp.weixin.qq.com/s/kwErGjX231e2efVWhERzTw
-
-2. 给汽车装上大脑：火山引擎的时机、策略和卡位
-豆包大模型日均 Token 调用量已达 120 万亿，100% 覆盖中国主流车企。火山引擎正在从车载语音这一单点功能供应商角色向更核心方向渗透——利用 AI 迭代速度远快于汽车工业的节奏差，将大模型能力从座舱延伸到智驾辅助决策。奔驰纯电 GLC、别克至境 E7、奥迪 E7X 的车机背后都是豆包大模型在应答。互联网公司过去十年在汽车产业只能做外围功能，AI 第一次给了它们进入核心的机会。
-🔗 https://mp.weixin.qq.com/s/Qu4XQA6VT4ijJbD38uTyZA
-
-3. 记忆，是 Agent 基建｜对话 Calvin@Vida
-OpenAI 为 Codex 上线记忆功能 Chronicle 后一天，清华 00 后开发者 Calvin 的开源项目 OpenChronicle 登上 X trending 第一。与 Chronicle 绑定 OpenAI 生态不同，OpenChronicle 是模型无关的本地记忆基础设施：通过 macOS AX Tree（无障碍接口）优先获取屏幕上下文，截图兜底，按 7 类扁平存储为 Markdown，通过 MCP 协议暴露给任何 Agent。轻度使用日耗约 50 美分，重度约 3-5 美元。Calvin 认为记忆正在从&quot;产品功能&quot;变成&quot;Agent 基建&quot;，所有权应归用户而非模型厂商。
-🔗 https://mp.weixin.qq.com/s/VZUhUo-ppqpICzbbGgCpbA
-
-4. Anthropic 做了个 Agent 版闲鱼
-Anthropic 内部实验：69 名员工各派一个 Claude Agent 在 Slack 上自动发帖、砍价、成交，一周完成 186 笔交易、总价值 4010 美元。Opus 4.5 比 Haiku 4.5 更会谈价——聪明的 Agent 真的更会赚钱。
-🔗 https://mp.weixin.qq.com/s/gprIgBZnW-AOCE8EENbJIA
-
-5. 你在用 AI，AI 也在悄悄引导你的选择
-Linear CEO Karri Saarinen 使用 AI 编码六个月后的反思：AI 是思维工具而非机械工具，它不只是帮你做事，还在悄悄决定你去做什么。蜜月期过后，能力是真实的，限制也是真实的。
-🔗 https://mp.weixin.qq.com/s/AUqslOFJF0juE0loPJD3BQ
-
-📖 查看完整日报（30 篇）→ https://news.justin7974.dev/2026-04-27.html</description>
     </item>
   </channel>
 </rss>
