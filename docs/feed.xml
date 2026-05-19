@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 18 May 2026 00:16:54 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 00:14:07 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #586 | 2026-05-19</title>
+      <link>https://news.justin7974.dev/2026-05-19.html</link>
+      <guid>https://news.justin7974.dev/2026-05-19.html</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+      <description>今日共 11 篇 RSS · 15 条推文 · 9 篇公众号
+
+📰 RSS 精选（5 / 11）
+
+1. OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments
+OpenAI 与 Dell 宣布合作，将 Codex 部署到混合云和本地基础设施环境。Codex 已成为 OpenAI 增长最快的企业产品之一，每周超过 400 万开发者使用。更关键的是 Codex 正在从编码工具扩展为通用企业 Agent——团队已开始用它汇集跨工具上下文、准备报告、路由产品反馈、鉴定线索。Dell 将把 Codex 接入其 AI 数据平台和 AI Factory，使企业能在自有基础设施上安全运行 AI 编码代理。
+🔗 https://openai.com/index/dell-codex-enterprise-partnership
+
+2. The Next War Is Already Here. The West Isn&apos;t Ready.
+乌克兰连续创业者 Yaroslav Azhnyuk 从做宠物摄像头（PetCube）转型创办 The Fourth Law，成为全球最先进的 AI 引导无人机公司之一。他与 Noah Smith 在两小时深度对谈中系统梳理了无人机战争的技术栈——FPV 无人机成为&quot;新战神&quot;、光纤 vs AI 自主、五级自主性框架、自主战场的八个维度。核心判断：现代战场已经把西方远远甩在后面，中国的制造业优势使得无人机竞赛的差距正在扩大而非缩小。
+🔗 https://www.latent.space/p/the-fourth-law
+
+3. HTML is the new Markdown: How Anthropic engineers are building with Claude Code
+Anthropic Claude Code 团队工程师 Thariq Shihipar 分享了一种新的 AI 协作范式：用 HTML 取代 Markdown 作为 AI Agent 的沟通和规划格式。核心理念是&quot;99% 的 AI 生成 token 应该用于规划、接口和沟通，而非生产代码&quot;。他展示了如何用 HTML 制作交互式规划文档、一次性微型 UI、以及跟随代码库移动的&quot;活设计系统&quot;。他把工程师的新角色定义为&quot;compute allocator&quot;——不再亲手写代码，而是分配计算资源。
+🔗 https://www.lennysnewsletter.com/p/html-is-the-new-markdown-how-anthropic
+
+4. The Open Agent Leaderboard
+IBM Research 与 Hugging Face 联合发布开放 Agent 排行榜，首次系统性评估通用 AI Agent 的能力。关键洞察：评估 Agent 不能只看底层模型得分——Agent 是一个完整系统，包括工具选择、规划步骤、记忆管理、错误恢复，改变任何一个组件都会影响最终表现。排行榜提供了可复现的评估框架和公开数据，让社区可以比较不同 Agent 架构的实际表现。
+🔗 https://huggingface.co/blog/ibm-research/open-agent-leaderboard
+
+5. Jury Rejects Elon Musk&apos;s Claim Against Sam Altman in Unanimous Verdict
+九人陪审团一致裁定马斯克在三年诉讼时效到期后才提起诉讼——他早在 2021 年就知晓相关行为，却直到 2024 年夏才起诉。这一裁决扫除了悬在 OpenAI（估值 7300 亿美元）头上的最大法律风险。
+🔗 https://www.nytimes.com/live/2026/05/18/technology/openai-trial-verdict-altman-musk?unlocked_article_code=1.jVA.Cc2V.IwYuu2r4SJfQ
+
+🐦 Twitter 精选（5 / 15）
+
+1. @cursor_ai：Cursor 发布 Composer 2.5，基于 Moonshot Kimi K2.5 开源底座训练，号称同等能力下效率提升 10 倍。同时宣布与 SpaceXAI 合作，将在 Colossus 2（百万 H100 等效算力）上从零训练更大模型，算力投入提升 10 倍。
+🔗 https://x.com/cursor_ai/status/2056415413077233983
+
+2. @AnthropicAI：Anthropic 宣布收购 Stainless API——一个 SDK 和 MCP 服务器平台，从最早期就为 Anthropic 的所有 SDK 提供支持。这次收购意味着 Anthropic 将 SDK 基础设施内部化。
+🔗 https://x.com/AnthropicAI/status/2056419620643541012
+
+3. @karminski3：字节跳动发布开源多模态模型 Lance，激活参数仅 3B，却能同时接受文本/图片/视频输入并输出文本/图片/视频。视觉输入用 Qwen2.5-VL-ViT，输出用 Wan2.2_VAE，训练成本仅 128 张 A100。核心亮点是&quot;拼得好&quot;——用成熟组件高效组合出全能模型。
+🔗 https://x.com/karminski3/status/2056510142045213136
+
+4. @karminski3：Qwen3.7-Max-Preview 在 ArenAI 内测跑分出炉，整体排名第 13，数学能力第 7，编程第 10，视觉第 16，目前为国产模型 SOTA。空间理解和指令遵循相比 Qwen3.6-Plus 有明显提升。
+🔗 https://x.com/karminski3/status/2056458246236639606
+
+5. @emollick：Claude 和 GPT 的一个常见问题：模型会在输出中暴露无关的对话历史——幻灯片会出现&quot;更好、更有针对性的版本&quot;之类的页脚，文档会引用&quot;改进后的版本&quot;。这是 theory-of-mind 的系统性失败。
+🔗 https://x.com/emollick/status/2056387958760939592
+
+📱 公众号精选（5 / 9）
+
+1. 制造豆包：一个 AI 超级入口的形成与转向
+豆包是中国唯一 DAU 过亿的 AI 产品，但正在刻意降低对用户规模的关注。春节期间冲刺 2 亿 DAU 的目标暴露了 AI 产品的反规模效应——用的人越多，推理成本越高，收入不会同步增长。五一开启付费订阅后用户质疑&quot;笨还收费&quot;，团队紧急修复。豆包延续了字节在抖音、TikTok 上的方法论（拟人化、离用户近、极速迭代），但 AI 时代的边界正在显现：当用户从聊天娱乐转向追求&quot;聪明&quot;，DAU 必然受影响。文章还原了豆包从秘密项目到亿级产品的完整路径，包括产品负责人朱骏的设计哲学和团队对声音、交互的极致打磨。
+🔗 https://mp.weixin.qq.com/s/Y90KsMk2AkIi7iWCb7aSvA
+
+2. 云知声黄伟：从 token 价值到智能密度，热身赛结束后的 AI 游戏新规则
+云知声创始人黄伟提出&quot;AI 公司行业价值 = 智能密度 × Token 价值&quot;的公式。智能密度指用较小参数和更低成本达到足够高的智能水平——云知声的 U2 模型用 2600 亿参数达到 1.2 万亿参数模型的性能，参数效率近 5 倍。Token 价值则区别于黄仁勋讲的 token efficiency（生产效率），强调 token 能转化为多少商业收入。这家 2012 年成立的&quot;AI 元老&quot;在 2025 年完成港股上市，不到 500 人团队实现年营收超 10 亿，大模型收入 6.1 亿同比增长超 10 倍。黄伟判断&quot;2023-2025 年是热身赛，2026 年正赛才开始&quot;。
+🔗 https://mp.weixin.qq.com/s/M6LInAa7Dx-MJHLtPX6PMg
+
+3. Agent 时代，如何办公
+作者用 Claude Code 连接飞书处理合同、邮件、材料、活动复盘，一小时过几十份文档，工作总量翻十倍。从&quot;试一次&quot;到&quot;回不去了&quot;的真实使用路径，展示了 Agent + 飞书 + CLI 组合在日常办公中的实际效果。
+🔗 https://mp.weixin.qq.com/s/xteSTt_v8kceDOCah_Mgjw
+
+4. 从分散工具走向统一底座，医院 AI 正在换一条更长期的路
+国内医院 AI 普遍采取&quot;科室各自采购&quot;模式，导致数据孤岛、算力浪费、模型无法复用。行业正在从单点模型向统一 AI 底座转型，寻求&quot;用得好、用透、用得久&quot;的解法。
+🔗 https://mp.weixin.qq.com/s/kcnRvfBToRsHdcGttKN94w
+
+5. 去看展发现，豆包居然上了博物馆讲解模式！
+豆包与国内 20 多家博物馆深度合作上线讲解功能。打开语音和摄像头即可获得实时文物讲解，支持轻声交流、听众身份定制（儿童/专业人士）、与路线无关的自由讲解。在多模态 AI 消费场景中，这是一个具体且可感知的落地案例。
+🔗 https://mp.weixin.qq.com/s/fCwt2xCYYUXq9OGNMiaR6w
+
+📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-05-19.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #585 | 2026-05-18</title>
       <link>https://news.justin7974.dev/2026-05-18.html</link>
@@ -1328,76 +1398,6 @@ DeepSeek V4 发布后的跨洋讨论：芯片架构师和前 OpenAI 研究员参
 🔗 https://mp.weixin.qq.com/s/90JsXhPGqvyS1PyUDFzOCQ
 
 📖 查看完整日报（32 篇）→ https://news.justin7974.dev/2026-04-30.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #566 | 2026-04-29</title>
-      <link>https://news.justin7974.dev/2026-04-29.html</link>
-      <guid>https://news.justin7974.dev/2026-04-29.html</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 15 条推文 · 9 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman About Bedrock Managed Agents
-Ben Thompson 与 OpenAI CEO Sam Altman 及 AWS CEO Matt Garman 深度对话。核心背景是 Microsoft 与 OpenAI 修订协议后，OpenAI 模型不再 Azure 独占，可在任何云平台提供服务。Bedrock Managed Agents 本质上是 Codex 在 AWS 环境中的企业版——Agent 在 AWS 安全治理框架内维护上下文、执行多步工作流、调用工具并跨系统办事。Thompson 指出 Azure 的独占权实际上在损害 Microsoft 对 OpenAI 的投资回报，因为 Anthropic 凭多云策略快速抢走企业客户。Microsoft 不再为转售 OpenAI 产品支付分成，换来的是 IP 授权延续至 2032 年。
-🔗 https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/
-
-2. OpenAI Sees $8 ChatGPT Driving Consumer Subscribers to 122 Million This Year
-The Information 独家报道：OpenAI 预计今年消费端订阅用户达 1.22 亿。核心策略是推出更便宜的广告支持层（$5-8/月），吸引新用户并承接 Plus 降级用户。ChatGPT Plus ($20/月) 预计从 2025 年的 4400 万骤降至 2026 年约 900 万——降幅达 80%，但总用户基数通过低价层大幅扩大。这是 OpenAI 从高 ARPU 模式向规模化用户模式的根本性转型。
-🔗 https://www.theinformation.com/articles/openai-sees-8-chatgpt-driving-consumer-subscribers-122-million-year
-
-3. Workday&apos;s Last Workday?
-a16z 合伙人 Joe Schmidt 提出：HCM（人力资本管理）是最后一个没有 AI 原生挑战者的大型企业软件品类。Workday 接近 $100 亿年收入、$300 亿市值，但近 100% 续约率不是因为产品好用，而是因为离开几乎不可能——深度技术集成、专有配置层（Workday Studio）、超过 10,500 名认证顾问的服务商生态以及多年合同构成四重锁定。文章认为 AI 正在创造与 2005 年云计算类似的平台迁移窗口：Agent 替代数据录入，自然语言替代专有查询语法，自动化替代顾问实施。
-🔗 https://www.a16z.news/p/workdays-last-workday
-
-4. [AINews] ImageGen is on the Path to AGI
-Latent Space 提出反直觉判断：图像生成不是通往 AGI 的&quot;支线任务&quot;，而是必经之路。当所有实验室都在冲 Anthropic 模式（编码 + 企业 AI）时，GPT-Image-2 在创意领域持续爆发——从教育、文化到精确信息图，再到与 Codex 组合实现&quot;边写代码边生成素材&quot;的闭环。核心论点是：只有具备多模态推理能力（不仅能理解还能精确生成图像）才能真正&quot;闭合&quot;AGI 的循环——如果你能 close the loop，你就赢了。
-🔗 https://www.latent.space/p/ainews-imagegen-is-on-the-path-to
-
-5. OpenAI Projects ChatGPT Plus subscriptions to drop by 80%
-Ed Zitron 基于 The Information 独家数据做批判性分析：OpenAI 预计 ChatGPT Plus ($20/月) 从 4400 万降至 900 万——降幅 80%。计划通过 ChatGPT Go ($5-8/月) 补足收入差距，目标总消费订阅达 1.22 亿。Zitron 质疑以更低 ARPU 的海量用户替代高付费用户能否真正维持增长叙事，并指出广告变现在 AI 产品中尚未被验证。
-🔗 https://www.wheresyoured.at/openai-projects-chatgpt-plus-subscriptions-to-drop-by-80-from-44-million-in-2025-to-9-million-in-2026-made-up-using-cheaper-subscriptions-somehow/
-
-🐦 Twitter 精选（5 / 15）
-
-1. @emollick：当前所有关于&quot;AI 对工作的影响&quot;的分析都有一个致命盲区：数据全部来自&quot;前 Agent 时代&quot;（基本刚结束），而 Claude Code 时代之后发生的变化几乎没有数据。所有结论都需要加巨大的 caveat。
-🔗 https://x.com/emollick/status/2049188184135782899
-
-2. @emollick：&quot;如果我希望编程 Agent 提到哥布林呢？&quot;——评论 OpenAI Codex 系统提示中禁止提及&quot;哥布林、小精灵、浣熊、巨魔&quot;的奇怪指令，预测很快会病毒式传播。
-🔗 https://x.com/emollick/status/2049009940447051906
-
-3. @emollick：让团队快速接受 AI 的最简单方法：在会议中用 Codex 或 Claude Code 直接把正在讨论的东西做出来。最坏情况是失败但有建设性，最好情况是当场做完，会议议题直接跳到下个月。
-🔗 https://x.com/emollick/status/2048981050051715090
-
-4. @Hesamation：DeepSeek V4 Pro 定价约 $0.87/1M tokens，Opus 4.7 是 $25/1M tokens——差 28 倍。Opus 在 benchmark 上更强，但价差这么大，&quot;更强&quot;需要强非常多才能证明值得。
-🔗 https://x.com/Hesamation/status/2049072308900200757
-
-5. @MengTo：分享将设计元素转化为可复用 skill 的工作流：DESIGN.md 做配方、Skills 做原料、HTML 做精确参考。通过组合 3-10 个 skill 可实现高质量 AI 辅助设计。
-🔗 https://x.com/MengTo/status/2049014151163646337
-
-📱 公众号精选（5 / 9）
-
-1. 被早期投资人当场泼冷水，三年半后 Perplexity 做到 4.5 亿美元 ARR——五大增长引擎全拆解
-2026 年 2 月 Perplexity 单月新增 $1.5 亿年化收入，提前 9 个月完成全年目标。当前 ARR 超 $4.5 亿，月活破 1 亿，估值超 $200 亿，累计 11 轮融资超 $15 亿。文章拆解五大增长引擎：从&quot;答案引擎&quot;到平台再到智能体的三阶段演进，四位创始人分别来自 OpenAI、Meta AI、Quora 和 Databricks，核心在于不靠烧钱买流量而是差异化产品驱动的增长飞轮。
-🔗 https://mp.weixin.qq.com/s/u0BR4m3QHRJMPZoflJAMcA
-
-2. YC 公开了 15 条「最想投」的赛道，读完你会发现他们在说同一件事
-YC Summer 2026 RFS 更新，15 条方向涵盖农业、无人机防御、太空采矿等跨度极大的领域。Garry Tan、Gustaf Alströmer、Tom Blomfield 等合伙人亲自撰写方向说明，开场白只有一句：&quot;AI 不再是功能，而是地基。&quot;文章梳理后发现统一主题——YC 不再按&quot;AI+行业&quot;分类，而是按&quot;AI 让什么从不可能变成可能&quot;来选方向。
-🔗 https://mp.weixin.qq.com/s/Q7lTWYjx4zGOV9-NK7Ky6g
-
-3. 对话曦智科技沈亦晨：一个 MIT 博士与光计算穿越死亡谷的十年
-曦智科技创始人沈亦晨 2017 年基于 Nature Photonics 奠基论文创业，首次实验验证光子深度学习计算。九年后摩尔定律仍然坚挺，英伟达市值暴涨至 $5 万亿，光计算仍在寻找落地场景。曦智累计融资二十几亿元是光计算领域之最，但相比国产 GPU 厂商每家近百亿的融资规模差距巨大。&quot;技术最早看到未来，商业世界却只愿意为已经发生的现实定价。&quot;
-🔗 https://mp.weixin.qq.com/s/uGErP1DahLSHIFFD-qr_og
-
-4. Claude 接入 Blender、Adobe、Ableton... Anthropic 一次放 9 个创作连接器
-Anthropic 发布 Claude for Creative Work，一次推出 9 个连接器覆盖 3D（Blender）、设计（Adobe 67 个工具）、音乐（Ableton、Splice）、VJ 四类创作软件。连接器本质上是第三方维护的 MCP 接口。Blender 官方团队自建连接器，Adobe 接入了 Creative Cloud 全部工具链。
-🔗 https://mp.weixin.qq.com/s/Bx7XumZC8ZKsGClS3kXyIQ
-
-5. 大家都在想怎么抢 Salesforce 的客户，a16z 说这条路从一开始就走错了
-a16z 合伙人提出 Greenfield Strategy：AI 创业公司不应去拆老房子（抢 Salesforce 现有客户），而应去空地上盖新房子——瞄准大型厂商从未服务到的需求。
-🔗 https://mp.weixin.qq.com/s/30i4i-a3-zPU50tJ2WysaQ
-
-📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-04-29.html</description>
     </item>
   </channel>
 </rss>
