@@ -5,8 +5,56 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 20 May 2026 00:11:39 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 00:10:13 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #588 | 2026-05-21</title>
+      <link>https://news.justin7974.dev/2026-05-21.html</link>
+      <guid>https://news.justin7974.dev/2026-05-21.html</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 16 条推文 · 0 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. SpaceX S-1 披露与 Anthropic 的算力合作协议
+SpaceX 提交的 S-1 招股书披露，公司拥有支持 Grok 5 训练的 Colossus II 算力基础设施，并在 2026 年 5 月与 Anthropic PBC 签署了 Cloud Services Agreement，向其提供算力服务。SpaceX/xAI 从纯粹的 AI 竞争者转变为同时扮演基础设施供应商的角色，Anthropic 成为 Colossus II 的外部客户。
+🔗 https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything
+
+2. OpenAI 模型推翻离散几何学 80 年核心猜想
+OpenAI 的通用模型解决了 80 年历史的 unit distance problem，推翻了离散几何学的一个核心猜想，被称为&quot;组合几何中最著名的问题之一&quot;。这是 AI 在纯数学领域的里程碑式进展——2024 年 6 月 LLM 无法数清 strawberry 中的 r，2025 年 7 月获 IMO 金牌，2026 年 5 月攻克经典数学难题。
+🔗 https://openai.com/index/model-disproves-discrete-geometry-conjecture
+
+3. Railway：Agent-Native 云平台深度访谈
+Railway 创始人 Jake Cooper 深度访谈：平台已达 300 万用户，每周 10 万新注册，已建设自有金属数据中心。最引人注目的数据是 Railway 内部每月花费超过 $20 万用于 coding agent，并宣称&quot;PR 已死&quot;——Agent 直接部署代码到生产环境的工作流正在取代传统的 code review 流程。
+🔗 https://www.latent.space/p/railway
+
+4. a16z 领投 Exa Series C：为 AI Agent 打造搜索引擎
+a16z 领投 Exa 的 Series C 轮融资。Exa 定位为 AI 时代的搜索引擎——不面向人类用户，而是为 AI 系统提供对世界知识的全面访问能力，无论请求多复杂都能处理。产品核心是成为 AI Agent 的&quot;信息接口&quot;，让 Agent 能够像人类一样检索和理解互联网信息。
+🔗 https://www.a16z.news/p/investing-in-exa
+
+5. Stratechery：Google I/O、世界模型与意大利面策略
+Ben Thompson 分析 Google I/O 2026：Google 把 AI 铺到了所有产品线，但这种&quot;到处撒 AI&quot;的策略有利有弊。文章核心问题是 DeepMind 的研究方向是否与 Google 的商业目标对齐——世界模型（Gemini Omni）投入巨大，商业变现路径尚不清晰。Google 同时发布了 100 项产品更新，执行风险在于注意力和资源的分散。
+🔗 https://stratechery.com/2026/google-i-o-world-models-i-o-spaghetti/
+
+🐦 Twitter 精选（5 / 16）
+
+1. @emollick：2024 年 6 月 LLM 数不清 strawberry 里的 r，2025 年 7 月获国际数学奥赛金牌，2026 年 5 月解决了组合几何经典问题——AI 能力跃迁的速度令人震撼。
+🔗 https://x.com/emollick/status/2057190703965327834
+
+2. @emollick：追问：OpenAI 去年说有个未公开的通用模型获得了 IMO 金牌，一年过去了还不知道是什么模型。GPT-5.5 Pro Extended 追上它了吗？
+🔗 https://x.com/emollick/status/2057196459259301933
+
+3. @_akhaliq：论文&quot;Code as Agent Harness&quot;发布，探索以代码为核心骨架的 Agent 框架范式。
+🔗 https://x.com/_akhaliq/status/2056900568921133565
+
+4. @karminski3：对 AI 生成代码的新理解：prompt 才是真正的&quot;代码&quot;，而代码实际上是中间表示（IR），大模型则是将代码编译为 IR 的编译器——虽然这个编译器还不完美，但不妨碍生态的诞生。
+🔗 https://x.com/karminski3/status/2057231930505212292
+
+5. @cursor_ai：Cursor 推出 Automations 功能，已集成到 Agents Window 中，支持挂载多个代码仓库让 Agent 跨代码库推理和执行。新建自动化的 Agent 运行限时 7 天半价。
+🔗 https://x.com/cursor_ai/status/2057167359593603471
+
+📖 查看完整日报（28 篇）→ https://news.justin7974.dev/2026-05-21.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #587 | 2026-05-20</title>
       <link>https://news.justin7974.dev/2026-05-20.html</link>
@@ -1328,76 +1376,6 @@ LangChain 实验证明只改 harness 不换模型可提升 13.7 分，Vercel 砍
 🔗 https://mp.weixin.qq.com/s/607NOxMvkny4RlLLe3tzRg
 
 📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-05-02.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #568 | 2026-05-01</title>
-      <link>https://news.justin7974.dev/2026-05-01.html</link>
-      <guid>https://news.justin7974.dev/2026-05-01.html</guid>
-      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 15 条推文 · 8 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. [AINews] The Inference Inflection
-Noam Brown 称&quot;推理算力是当前被低估的战略资源&quot;，Sam Altman 表态&quot;我们必须成为一家 AI 推理公司&quot;。Intel CEO Lip-Bu Tan 在 Q1 财报电话会上给出 CPU 需求增长数据——COVID 时期采购的 CPU 正进入 5-6 年更换周期，但企业把所有预算都挤向 GPU，CPU 只做维护性更换。与此同时，Claude Code 等编码 Agent 的工作负载实际运行在 CPU 上，RL gym 也在推高 CPU 利用率。行业正从&quot;训练为王&quot;转向&quot;推理为王&quot;的新阶段。
-🔗 https://www.latent.space/p/ainews-the-inference-inflection
-
-2. Voice AI Investment Surges as Enterprise Applications Gain Traction
-2026 年 Q1 风投向语音 AI 初创公司注入超 70 亿美元，远超此前任何季度。ElevenLabs、Synthesia、Runway 均在年初完成大额融资。全球语音识别技术市场 2026 年预计达 220 亿美元，五年内有望翻三倍。企业端部署加速：Abridge 的环境 AI 医疗记录员在凤凰城地区全面铺开，Deepgram 与 Aramark 达成集成，Wispr Flow 深入个人笔记场景。Cerebral Valley 将于 5 月 6 日在旧金山举办首届语音 AI 峰会。
-🔗 https://www.newcomer.co/p/voice-ai-investment-surges-as-enterprise
-
-3. Amazon Earnings, Trainium and Commodity Markets, Additional Amazon Notes
-Ben Thompson 分析亚马逊最新财报：行业从训练向推理和 Agent 的转变意味着亚马逊在自研 Trainium 芯片上的押注正在兑现。文章还讨论了广告业务、Agent 战略以及体育版权方面的新动向。
-🔗 https://stratechery.com/2026/amazon-earnings-trainium-and-commodity-markets-additional-amazon-notes/
-
-4. Our evaluation of OpenAI&apos;s GPT-5.5 cyber capabilities
-英国 AI 安全研究所（AISI）完成了对 GPT-5.5 的网络安全能力评估，发现其在发现安全漏洞方面与此前评估的 Claude Mythos 能力相当。关键差异在于：Mythos 仍为预览版，而 GPT-5.5 已全面开放使用——这意味着前沿级别的漏洞发现能力现在对所有人可用。
-🔗 https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything
-
-5. The Zig project&apos;s rationale for their firm anti-AI contribution policy
-Zig 语言维护者 Loris Cro 详细阐述了其严格的反 LLM 贡献政策的原因。有趣的张力在于：被 Anthropic 收购的 Bun 运行时使用 Zig 的分支，并大量使用 AI 辅助开发，但因 Zig 的政策无法将成果回馈上游。
-🔗 https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything
-
-🐦 Twitter 精选（5 / 15）
-
-1. @karpathy：Sequoia Ascent 2026 炉边谈话：LLM 远不止加速现有工作。三个新方向——menugen（纯 LLM 输入图片输出图片的完整应用）、用 .md 技能文件替代 .sh 安装脚本、让 LLM 原生处理整个任务链。
-🔗 https://x.com/karpathy/status/2049903821095354523
-
-2. @emollick：前沿模型 API 能做的事和实验室原生应用（Codex、Claude Code）能做的事之间的差距正在拉大。模型在配套工具链中训练和优化后，在原生环境中展现出更多能力。
-🔗 https://x.com/emollick/status/2049865091739209868
-
-3. @godofprompt：GPT-5.5 在 AA-Omniscience 测试中创下 57% 最高准确率纪录，但同时有 86% 的幻觉率——不知道答案时几乎从不说&quot;我不知道&quot;，而是以同样自信的语气给出错误答案。
-🔗 https://x.com/godofprompt/status/2049885072291975422
-
-4. @Hesamation：GPT-5.5 在专家级网络安全任务中达到 71.4% 通过率，与 Mythos Preview 的 68.6% 基本持平。关键数据：GPT-5.5 用 10 分 22 秒、$1.73 解决了人类专家需要 12 小时的挑战。
-🔗 https://x.com/Hesamation/status/2049971981886312463
-
-5. @eptwts：众多 AI 新工具中，最有用的是 Claude Code + Obsidian 的组合——本质上就是一个能读写和链接 markdown 文件的 Agent，简单但在知识管理场景中极其强大。
-🔗 https://x.com/eptwts/status/2049886735006347512
-
-📱 公众号精选（5 / 8）
-
-1. YC W26 看了 199 个 pitch，我发现最值得投的赛道一家都没出现
-YC W26 Demo Day 199 家公司的全景分析：B2B 占 87%，AI-native 占 60%，中位 ARR 约 5-10 万美元，月增长 30-50%，约 50% 公司尚无收入。只有约 5% 的公司超过 100 万 ARR。作者 Rathin Shah（YC 校友、Spennyapp 创始人）在现场坐了六小时看完所有 pitch，发现最值得投的赛道反而在 Demo Day 上一家都没出现。
-🔗 https://mp.weixin.qq.com/s/JNBf3YuyyREYMIcODKJG5Q
-
-2. 每家 AI 公司都在买 eval 平台，OpenAI 做 Evals 的人说这是错的
-OpenAI 负责 Evals 的 Alec Barber 在闭门沙龙上直言：Codex 和 Claude Code 已经足够强大，AI 团队完全可以自建评测支架并与自身产品紧密耦合，而不需要采购通用 eval 平台。通用平台的核心问题不是功能不够，而是它试图解决的是一个&quot;不该被通用化&quot;的问题。这对正在花真金白银买 eval SaaS 的团队来说是一记警钟。
-🔗 https://mp.weixin.qq.com/s/teBiXkUAyyFbpYYOjxkQvg
-
-3. 星际之门进度：提前三年锁定 10GW
-OpenAI 的 Stargate 计划新进度：原计划 2029 年锁定的 10GW 算力容量已提前三年完成，最近 90 天单独又新增 3GW。7GW 已在德州 Abilene（旗舰站、已上线 GB200）、新墨西哥州、俄亥俄州等地开工或选址确认。10GW 相当于 10 座核电厂或 600 万户美国家庭的年用电量。
-🔗 https://mp.weixin.qq.com/s/YL1gipGg4AT-lORmyjI8KQ
-
-4. BabyAGI 的作者发了份「AI 创业清单」，满满的机会
-BabyAGI 作者、Untapped VC 合伙人 Yohei Nakajima 发布 18 条 AI 创业方向（&quot;Requests for AI — Summer 2026 Edition&quot;），与 YC 的版本不同——这份清单来自一线 builder 而非纯投资人视角。
-🔗 https://mp.weixin.qq.com/s/rSx0_oIy_5ykCVW022cLVQ
-
-5. YC 最想投 AI 服务公司，但一个亲自失败过的人说：这条路走不通
-YC 2026 夏季最想投 AI 原生服务公司，但 Hari Raghavan（前 BCG 顾问、AbstractOpsCo 创始人）以亲身失败经历反驳：&quot;AI 会吃掉服务业，但 AI 公司做不了服务业&quot;。
-🔗 https://mp.weixin.qq.com/s/2hXtvYhjBP6pebnGIJmspw
-
-📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-05-01.html</description>
     </item>
   </channel>
 </rss>
