@@ -5,8 +5,74 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 23 May 2026 00:12:10 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 00:14:13 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #591 | 2026-05-24</title>
+      <link>https://news.justin7974.dev/2026-05-24.html</link>
+      <guid>https://news.justin7974.dev/2026-05-24.html</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 13 条推文 · 4 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. White House, Anthropic Near Deal For Spy Agencies to Use AI
+白宫正在与 Anthropic 敲定一项协议，允许 NSA 等美国情报机构使用其先进 AI 模型处理机密工作。此前国防部曾对 Anthropic 进行特殊标记审查。该协议意味着 Claude 模型将正式进入美国政府最高保密级别的应用场景，也标志着 AI 安全公司与国家安全机构之间的合作进入实质阶段。
+🔗 https://www.theinformation.com/briefings/white-house-anthropic-near-deal-spy-agencies-use-ai
+
+2. [AINews] All Model Labs are now Agent Labs
+OpenAI 联合创始人 Greg Brockman 公开表态&quot;模型本身不再是产品&quot;，标志着头部 AI 实验室的共识转向。AI21 关闭模型团队全面转向 Agent，DeepSeek 首次组建&quot;Harness 团队&quot;。Latent Space 指出一个值得警惕的趋势：模型与 Agent 框架深度耦合后训练，厂商可以事实上将用户锁定在自家 Agent 生态中，即便模型本身是开源的。DeepSeek V4 Pro 永久降价 75%，API 综合成本约 $0.18/M token，比 GPT-5.5 便宜约 12 倍。
+🔗 https://www.latent.space/p/ainews-all-model-labs-are-now-agent
+
+3. Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models
+NVIDIA 发布 Nemotron-Labs Diffusion 系列扩散语言模型（3B/8B/14B），打破自回归模型&quot;逐 token 生成&quot;的根本瓶颈。该模型并行生成多个 token 后迭代精炼，更充分利用 GPU 算力，且具备修改已生成 token 的能力。模型以商业友好的 NVIDIA Nemotron Open License 发布，同时提供 8B 视觉语言模型变体。
+🔗 https://huggingface.co/blog/nvidia/nemotron-labs-diffusion
+
+4. There is only one bad AI scenario
+geohot 提出反主流的 AI 风险框架：真正的危险不是 Skynet 式人机大战或灰蛊场景，而是以&quot;安全&quot;之名建立的 singleton——一个没有外部的统一控制层。暴力被预防、现实被中介、一切以行政语言推行。在这种系统中，没有独立行为者能施加成本，没有竞争系统能绕过它，没有不受控的演化过程能产生意外。不是一场与机器的战争，而是演化的缓慢终结。
+🔗 https://geohot.github.io//blog/jekyll/update/2026/05/23/one-bad-scenario.html
+
+5. 对话王小川：离开通用人工智能的主干道之后
+百川智能一年前大幅缩减通用模型团队 All in 医疗 AI，新发布医疗大模型 M4 和 Agent 产品&quot;百小医&quot;。在 HealthBench 评测中表现最佳，北京儿童医院 AI 诊断与专家会诊结果吻合率达 95%。
+🔗 https://36kr.com/p/3821521291038856?f=rss
+
+🐦 Twitter 精选（5 / 13）
+
+1. @emollick：GPT-5.5 Pro 在事实核查方面表现出色，可以逐章检查引用准确性。唯一不足是过于追求细微差异，会返回大量&quot;大方向对但忽略了小细节 X&quot;的反馈。
+🔗 https://x.com/emollick/status/2058331615525232988
+
+2. @godofprompt：OpenAI 内部推理模型一次尝试就解决了 Erdos 1946 年提出的 80 年未解数学难题。9 位顶级数学家验证了证明，菲尔兹奖得主表示会&quot;毫不犹豫地推荐发表&quot;。该模型是通用推理系统，无数学专项训练。
+🔗 https://x.com/godofprompt/status/2058201338413195702
+
+3. @egeberkina：实测 Runway Aleph 2.0：选取视频中的单帧，用 Nano Banana Pro 或 GPT Image 2 对该帧进行修改，Aleph 能将修改自动传播到整个镜头序列。从一帧编辑到全序列适配，效果惊艳。
+🔗 https://x.com/egeberkina/status/2058199446937125055
+
+4. @hongming731：BestBlogs 早报三大主题：Agent 架构在生产端形成长时程与实时两类分化（LangChain Interrupt 2027）；Notion 以爵士乐队模式重新创业（Ivan Zhao x Sequoia）；GLM-5.1 高速版 400 tokens/s 打破&quot;快必然小&quot;的惯例。
+🔗 https://x.com/hongming731/status/2057992936923824147
+
+5. @shao__meng：Wix VP 推出免费课程「Zero to Claude Code」，14 级 147 课 10 种交互形态，从零基础到能用 Claude Code 在生产环境发布软件。课程覆盖终端基础、Git、MCP 服务器、Subagents、Hooks 到毕业项目。
+🔗 https://x.com/shao__meng/status/2057997802735796293
+
+📱 公众号精选（4 / 4）
+
+1. 深度｜Starcloud创始人：未来最便宜的AI算力在太空中，我们要把数据中心搬上太空
+Starcloud CEO Philip Johnston 在红杉 AI Ascent 2026 上论证太空 AI 算力的经济可行性：太空无需土地审批、24 小时太阳能供电、每平方米能量密度是地面 8 倍，主要额外成本仅剩发射费用。盈亏平衡点约 $500/kg 发射成本（现需降约 10 倍），Starship 设计目标 $10-20/kg。已向 SEC 申请部署 88,000 颗卫星的星座系统，20GW 算力容量，capex 约 $1000 亿但仍低于同规模地面设施。几乎全部用于推理——推理很快将占整个算力市场的 99%。
+🔗 https://mp.weixin.qq.com/s/9pV4lpnHEJhHDm69-OO_cA
+
+2. 不用你按回车，Claude Code 会主动替你开 PR 了
+Anthropic 在 Code with Claude 大会上演示 Routines 功能：Claude Code 从被动工具变为主动队友。以文档工程师 Sarah 为例——团队 PR 量增长 200%，她用 Routines 搭建了定时扫描代码变更自动开文档 PR、以及 issue 创建时自动触发处理的两个自动化流程。三大能力：始终在线（不依赖本机）、灵活触发（定时/事件/webhook）、透明可介入（随时查看和调整 session）。
+🔗 https://mp.weixin.qq.com/s/J1PU1yegNM32PjUp7JQ7iQ
+
+3. Roblox 的AI能实时生成任何游戏场景，但玩了才发现根本没有目标
+Roblox 训练的 140 亿参数视频世界模型可以 24fps 实时生成画面，但交给游戏开发者试用后发现核心问题：画面有了，操控有了，但没有血量、任务和游戏逻辑——这不是游戏，只是美丽的荒野。解决方案叫&quot;Game Cartridge&quot;：用 Luau 代码写状态机管游戏逻辑，AI 管视觉渲染，VLM（视觉语言模型）充当桥梁实时观察画面触发逻辑回调。局限在于空间控制不够精准、角色外观长时间运行后会漂移。
+🔗 https://mp.weixin.qq.com/s/-qoxe1msCQQCzuk3mWC_mg
+
+4. 随便点开 20 个 YC 官网，有 16 个用的是同一套字体
+随机打开 20 个 YC 公司官网，16 个使用 Inter/Geist/Sohne/PP Neue Montreal 四款字体之一。Figma 模板、Next.js 框架默认值和从众效应三重锁定，&quot;科技史上同质化程度最高的字体时代&quot;。
+🔗 https://mp.weixin.qq.com/s/pWFRACYYnvRD0X5y9GvBaQ
+
+📖 查看完整日报（27 篇）→ https://news.justin7974.dev/2026-05-24.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #590 | 2026-05-23</title>
       <link>https://news.justin7974.dev/2026-05-23.html</link>
@@ -1336,68 +1402,6 @@ Reid Hoffman 将 AI 生成内容泛滥与 1883 年爱迪生在剧院用电灯泡
 🔗 https://mp.weixin.qq.com/s/GOnUkzrKb8dWrhrAAJraZw
 
 📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-05-05.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #571 | 2026-05-04</title>
-      <link>https://news.justin7974.dev/2026-05-04.html</link>
-      <guid>https://news.justin7974.dev/2026-05-04.html</guid>
-      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 13 条推文 · 3 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Why cultivating agency matters more than cultivating skills in the AI era
-Notion 产品负责人 Max Schoening 提出&quot;tiny core&quot;理论：伟大产品的核心极小（iPhone 多点触控、GitHub Pull Request、Notion blocks），AI 让每个项目的前 10% 变成&quot;免费&quot;的，但真正拉开差距的是 agency——主动推动事情发生的能力，而非被动等待指令。他直言 vibe coding 让软件数量爆炸但质量没涨，这个质量缺口恰好是机会。Schoening 还反驳了&quot;SaaSpocalypse&quot;论——软件不会被 AI 淘汰，反而会因 Jevons 悖论变得更多更廉价。
-🔗 https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more
-
-2. Crimes Against Decency Need as Much Cover-Up as Crimes Against the Law
-John Gruber 追踪 Meta 解雇肯尼亚外包商 Sama 全部 1100+ 名员工事件。今年 2 月瑞典记者调查曝光：Meta AI 眼镜用户拍摄的私密视频（包括性行为和如厕画面）被发送到肯尼亚由外包人员审核，用户完全不知情。Gruber 指出 Meta 解雇这些人不是因为他们做错了什么，而是因为泄密本身让 Meta 的运营模式曝光——AI 眼镜的&quot;AI&quot;有很大一部分其实是地球另一端的人类智能在支撑，如果消费者知道这一点，几乎没人会买。
-🔗 https://daringfireball.net/2026/05/crimes_against_decency_need_as_much_cover-up_as_crimes_against_the_law
-
-3. Have LLMs improved patient outcomes?
-心脏病学家 Eric Topol 发表综述，结论是目前&quot;几乎没有证据表明 LLM 改善了患者或医生的健康结局&quot;，除了行政事务类工作。Nature Medicine 近期社论也指向同一方向。Gary Marcus 认为这与他此前关于&quot;不要信赖聊天机器人做医疗建议&quot;的研究一致——通用聊天机器人可能根本不适合医疗场景。
-🔗 https://garymarcus.substack.com/p/have-llms-improved-patient-outcomes
-
-4. Quoting Anthropic
-Anthropic 发布 Claude 个人指导使用研究：整体仅 9% 对话表现出谄媚行为，但灵性话题达 38%、情感关系话题达 25%，暴露模型在高情感场景下的安全短板。
-🔗 https://simonwillison.net/2026/May/3/anthropic/#atom-everything
-
-5. Punk, or why I don&apos;t stream anymore
-tinygrad/comma.ai 创始人 geohot 反思 AI 对文化的侵蚀：流媒体和 AI 让人们&quot;无需参与即可消费成就感&quot;，约会平台的个人简介已全面 ChatGPT 化，真实身份被营销文案取代。他警告 AI 引发的不是终结者式危机，而是一场&quot;要求你交出内在现实&quot;的信息战。
-🔗 https://geohot.github.io//blog/jekyll/update/2026/05/03/punk-or-why-i-dont-stream.html
-
-🐦 Twitter 精选（5 / 13）
-
-1. @emollick：前沿 Agent 的基准测试越来越难做——重复测量成本极高，harness 内运行和裸 API 调用差异大。怀疑基准测试低估了实际进展，因为测试针对模型设计，而非被 harness 增强后的 Agent。
-🔗 https://x.com/emollick/status/2050892355331354850
-
-2. @emollick：开源与闭源模型的差距比基准分数显示的更大——开源模型在分布外问题上明显更脆弱，涌现能力也更低。基准只测了&quot;平均水平&quot;，没测&quot;极端场景下的韧性&quot;。
-🔗 https://x.com/emollick/status/2050904152511848871
-
-3. @emollick：Anthropic 与 Claude 的关系跟其他实验室与其模型的关系&quot;完全不同&quot;——这种差异体现在模型本身的设计、以及各实验室对未来的思考方式上。
-🔗 https://x.com/emollick/status/2051049394326081571
-
-4. @corbin_braun：Opus 4.7 一次生成了他见过的最好前端之一。Claude 在前端代码生成上持续领先。
-🔗 https://x.com/corbin_braun/status/2051061219390611504
-
-5. @godofprompt：AI Agent&quot;决策&quot;的本质不是在计算最优结果，而是在预测&quot;关于决策的训练文本接下来会写什么&quot;。简单任务表现足够好，但复杂任务中这种&quot;模拟思考&quot;会系统性失败。
-🔗 https://x.com/godofprompt/status/2050867849464258652
-
-📱 公众号精选（3 / 3）
-
-1. 过去一年他见了 100 位 C 级高管：95% 的企业 AI 项目失败，都不是模型的错
-Varick Agents 创始人 vas 过去 12 个月与 100+ 位 CEO/CFO/CRO 对话后的核心判断：企业 AI 项目 95% 失败率横跨 GPT-3 到 GPT-5、Claude 2 到 4.7 多代模型迭代，问题从来不是模型不够好。四种必死模式：跳过流程审计直接写代码（SOP 与真实流程 30%+ 偏差）、什么都扔给 LLM（生产系统应该 85% 代码 + 15% LLM）、Agent 野蛮生长（200 人运营部门冒出 50-100 个各自为政的个人 Agent）、把 AI 当项目而非基础设施。唯一例外是软件工程师——GitHub Copilot 快 55%、Anthropic 内部研究砍掉 80% 任务时间，因为代码天然具备&quot;边界清楚、可检验、结构化、可验证&quot;四个特性。
-🔗 https://mp.weixin.qq.com/s/njNWNOVCBioiIuebMykFxA
-
-2. AI写了98%的代码，效率却只提升30%，为什么？
-Lemonade 联合创始人 Daniel Schreiber 提出 AI-Only 概念：从 AI-First（AI 能否填人的位置）进化到 AI-Only（为什么要有这个位置）。Lemonade 98% 代码由 AI 生成，但效率仅提升 30-50%，因为系统仍在等人——等人决策、审批、协调、上线。他用 F-35 战斗机做比喻：驾驶舱里的飞行员不是多余的一个人，而是整架飞机都在围着人的生理局限设计。Daniel 坦言 AI-Only 将带来&quot;长期、永久的失业&quot;，但竞争压力会让所有公司不得不跟上。
-🔗 https://mp.weixin.qq.com/s/KyCFKl-fB-bl1FanyERu6Q
-
-3. 从烧脑神书 GEB 到 Agent 的自我意识
-全文抓取失败（微信验证拦截）。 从标题推断：探讨 Hofstadter 的《哥德尔、艾舍尔、巴赫》中的自指与递归概念如何映射到 AI Agent 的自我意识问题。
-🔗 https://mp.weixin.qq.com/s/8yGCi-onB1xP4NNOZEdpkQ
-
-📖 查看完整日报（26 篇）→ https://news.justin7974.dev/2026-05-04.html</description>
     </item>
   </channel>
 </rss>
