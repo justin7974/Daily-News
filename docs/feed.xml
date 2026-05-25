@@ -5,14 +5,14 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 25 May 2026 00:13:32 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 02:21:59 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>小虾AI日报 #592 | 2026-05-25</title>
       <link>https://news.justin7974.dev/2026-05-25.html</link>
       <guid>https://news.justin7974.dev/2026-05-25.html</guid>
       <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 14 条推文 · 0 篇公众号
+      <description>今日共 10 篇 RSS · 14 条推文 · 5 篇公众号
 
 📰 RSS 精选（5 / 10）
 
@@ -53,7 +53,29 @@ Oura、Blockchain.com 等公司宣布上市计划，加入 OpenAI 等在 SpaceX 
 5. @hongming731：Bob 大叔（Robert C. Martin）认为，未来程序员将使用 Gherkin 等声明式规范语言描述需求，过程式代码将完全成为 AI 的领域。
 🔗 https://x.com/hongming731/status/2058519631019827229
 
-📖 查看完整日报（24 篇）→ https://news.justin7974.dev/2026-05-25.html</description>
+📱 公众号精选（5 / 5）
+
+1. 你还在算 DAU，Vellum 工程师团队已经把 Webflow 裁了
+Vellum 工程师 Anita Kirkovska 的核心论断：2026 年生产力工具的用户已经不是人，是 Agent。过去 90 天 Stripe、Notion、Cloudflare、Linear、Figma、Vercel 集体重构产品接入面——不是&quot;加一个 AI 功能&quot;，而是把产品从人类界面重新设计成可被程序调用的接口。她提出 Agent-native 五步法（Programmatic Parity、多接入面、/llms.txt 文档、Agent 身份原语、进入 MCP/skills.sh 生态）和六个新指标（DAA 取代 DAU 等）。最锋利的案例：Vellum 团队的 Agent 用不动 Webflow，于是 Webflow 一年少了 3 万美元收入——Webflow 的 dashboard 看不到这个流失，因为 churn 调查里用户只说&quot;找到了更好的替代品&quot;。
+🔗 https://mp.weixin.qq.com/s/AGnbSu6IOAh3lG4fGbgF2Q
+
+2. 教你如何配置出最强性能的Claude Code
+Mnimiy 在 X 发布的 Claude 设置审计帖：Claude Code 的 settings.json 有 125 个配置键，官方文档只覆盖 40 个，剩下 85 个散落在 GitHub Issues 和 Discord 里。文章拆解了 18 个最值得改的设置——Memory 4-6 周后会&quot;漂移&quot;（建议开 project-scoped 隔离）、Extended Thinking 全开导致 18-25% 的 token 浪费、permissions.deny 存在已知 bug（Issue #11544）需要 chmod 600 双保险、hooks.SessionStart 按 git 分支加载不同上下文文件可降低 30% 上下文预算浪费。作者最锋利的判断：用户感知到的&quot;Claude 变笨了&quot;，本质是 MCP servers 和插件在对话开始前已经吃掉 4-8K tokens，&quot;你的对话从一开始就在一间比你以为的小 30% 的房间里进行&quot;。
+🔗 https://mp.weixin.qq.com/s/TFLerlq3IPjvOEVULNiXMw
+
+3. 从《纳瓦尔宝典》到《马斯克原理》
+作者发现两本书是同一作者 Eric Jorgenson 用同一方法做出来的——不写传记、不做采访，而是从一个人海量公开发言里提炼思维框架，编排成可操作手册（《纳瓦尔宝典》卖了上百万册，《马斯克原理》花了 5 年从马斯克 20 年的 300 万字访谈推文中编排）。两本书对应人生两阶段：财富自由前（纳瓦尔——专长 × 责任 × 杠杆）和财富自由后（马斯克——第一性原理、工程学就是魔法、技术是决定性优势）。摘录的金句包括：纳瓦尔的&quot;最好的工作是终身学习者在自由市场中的创造性表达&quot;、马斯克的&quot;用类比思维理解世界，用第一性原理改变世界&quot;、&quot;创意本身没有多少价值，做出原型还不够，规模化才是关键&quot;。
+🔗 https://mp.weixin.qq.com/s/xzLn-HwxYsZRdznYm211Rw
+
+4. DeepSeek 的 10 万亿美元大战略
+AGENT橘 对 DeepSeek 战略的原创解读，论证梁文锋押注 MoE/GRPO/RLVR/MLA 等底层创新而非订阅变现，目标是带动中国万亿美元 AI 产业（同主题更完整中文版见下条宝玉AI 译文）。
+🔗 https://mp.weixin.qq.com/s/APG1HsUjzrsmXCWAfO5TtA
+
+5. DeepSeek 的 10 万亿美元大战略【译】
+宝玉翻译 GDP (@bookwormengr) 原文：DeepSeek 不卷编程订阅、不做多模态、坚持开源不是疯狂，而是在用底层算法创新（MoE、GRPO、RLVR、MTP、零气泡流水线、MLA/DSA/CSA/HCA、Engram、mHC）压低推理成本，目标是借此催生中国 10 万亿美元 AI 产业。
+🔗 https://mp.weixin.qq.com/s/a4MQXW9hBW8meHDRjwRqgA
+
+📖 查看完整日报（29 篇）→ https://news.justin7974.dev/2026-05-25.html</description>
     </item>
     <item>
       <title>小虾AI日报 #591 | 2026-05-24</title>

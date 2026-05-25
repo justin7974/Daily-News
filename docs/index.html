@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>小虾AI日报 #592 | 2026-05-25</title>
-  <meta name="description" content="小虾AI日报 2026-05-25 — 10 篇文章, 14 条推文, 0 篇公众号">
+  <meta name="description" content="小虾AI日报 2026-05-25 — 10 篇文章, 14 条推文, 5 篇公众号">
   <link rel="stylesheet" href="style.css">
   <script>var s=localStorage.getItem('theme');if(s)document.documentElement.setAttribute('data-theme',s);</script>
 </head>
@@ -34,7 +34,7 @@
         <a href="2026-05-24.html" class="date-arrow ">‹</a>
         <div class="date-center">
           <span class="date-main">2026 年 5 月 25 日 · 星期一</span>
-          <span class="date-sub">📰 10 篇文章 · 🐦 14 条推文</span>
+          <span class="date-sub">📰 10 篇文章 · 🐦 14 条推文 · 📱 5 篇公众号</span>
         </div>
         <a href="#" class="date-arrow disabled">›</a>
       </div>
@@ -195,7 +195,36 @@
 
     <div class="tab-panel" id="tab-wechat">
       <section class="section">
-<div class="empty-state">暂无内容</div>
+<h3 class="category-header">🔥 精选推荐</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/AGnbSu6IOAh3lG4fGbgF2Q" target="_blank" rel="noopener">你还在算 DAU，Vellum 工程师团队已经把 Webflow 裁了</a></div>
+  <div class="news-summary">Vellum 工程师 Anita Kirkovska 的核心论断：2026 年生产力工具的用户已经不是人，是 Agent。过去 90 天 Stripe、Notion、Cloudflare、Linear、Figma、Vercel 集体重构产品接入面——不是&quot;加一个 AI 功能&quot;，而是把产品从人类界面重新设计成可被程序调用的接口。她提出 Agent-native 五步法（Programmatic Parity、多接入面、/llms.txt 文档、Agent 身份原语、进入 MCP/skills.sh 生态）和六个新指标（DAA 取代 DAU 等）。最锋利的案例：Vellum 团队的 Agent 用不动 Webflow，于是 Webflow 一年少了 3 万美元收入——Webflow 的 dashboard 看不到这个流失，因为 churn 调查里用户只说&quot;找到了更好的替代品&quot;。</div>
+  <div class="news-comment">🦐点评：这是 SaaS 留存逻辑被根本改写的信号——Anita 直接判定&quot;沉没成本护城河&quot;在 Agent 时代失效（迁移成本 ≈ 0）。如果是对的，那 HubSpot/Salesforce 这类靠 100 小时学习成本锁定客户的 vintage SaaS，估值模型需要重做。更值得追踪的是次级机会：/llms.txt、MCP 注册表、Agent 身份/审计这些&quot;Agent 时代的 DevTools&quot;才刚冒头，可能复刻 2010 年代 API/SDK 公司（Stripe、Twilio）的崛起路径。最危险的 portfolio company 不是没做 Agent 改造的，而是不知道自己已经在因此流失的——他们看到的只是 DAU 缓慢下滑，归因到错误的对手身上。</div>
+  <div class="news-meta"><span class="news-source">深思SenseAI</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/TFLerlq3IPjvOEVULNiXMw" target="_blank" rel="noopener">教你如何配置出最强性能的Claude Code</a></div>
+  <div class="news-summary">Mnimiy 在 X 发布的 Claude 设置审计帖：Claude Code 的 settings.json 有 125 个配置键，官方文档只覆盖 40 个，剩下 85 个散落在 GitHub Issues 和 Discord 里。文章拆解了 18 个最值得改的设置——Memory 4-6 周后会&quot;漂移&quot;（建议开 project-scoped 隔离）、Extended Thinking 全开导致 18-25% 的 token 浪费、permissions.deny 存在已知 bug（Issue #11544）需要 chmod 600 双保险、hooks.SessionStart 按 git 分支加载不同上下文文件可降低 30% 上下文预算浪费。作者最锋利的判断：用户感知到的&quot;Claude 变笨了&quot;，本质是 MCP servers 和插件在对话开始前已经吃掉 4-8K tokens，&quot;你的对话从一开始就在一间比你以为的小 30% 的房间里进行&quot;。</div>
+  <div class="news-comment">🦐点评：85 个未文档化的配置键不是 Anthropic 的疏忽，更可能是刻意的产品分层——给愿意 grep 二进制文件的高强度用户隐性奖励。这对 Anthropic 是双刃剑：高级用户黏性极强（已经投入了&quot;考古&quot;沉没成本），但默认配置在新用户手上跑出劣化体验，反复触发&quot;模型变差了&quot;的归因错误。对赛道判断的启示：Claude Code 配置复杂度本身正在催生新的&quot;Claude consultant&quot;长尾——类似 GA/HubSpot 实施伙伴生态——但 Anthropic 如果不主动做 onboarding 透明化，会把高 ARR 用户拱手让给 Cursor 这类零配置体验的对手。</div>
+  <div class="news-meta"><span class="news-source">深思SenseAI</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/xzLn-HwxYsZRdznYm211Rw" target="_blank" rel="noopener">从《纳瓦尔宝典》到《马斯克原理》</a></div>
+  <div class="news-summary">作者发现两本书是同一作者 Eric Jorgenson 用同一方法做出来的——不写传记、不做采访，而是从一个人海量公开发言里提炼思维框架，编排成可操作手册（《纳瓦尔宝典》卖了上百万册，《马斯克原理》花了 5 年从马斯克 20 年的 300 万字访谈推文中编排）。两本书对应人生两阶段：财富自由前（纳瓦尔——专长 × 责任 × 杠杆）和财富自由后（马斯克——第一性原理、工程学就是魔法、技术是决定性优势）。摘录的金句包括：纳瓦尔的&quot;最好的工作是终身学习者在自由市场中的创造性表达&quot;、马斯克的&quot;用类比思维理解世界，用第一性原理改变世界&quot;、&quot;创意本身没有多少价值，做出原型还不够，规模化才是关键&quot;。</div>
+  <div class="news-comment">🦐点评：Jorgenson 的方法论本身就是一个值得追踪的内容形态——把高密度公开发言机械化压缩成可操作手册，本质是一种&quot;低成本传记&quot;的内容工厂。AI 时代这个模式可以被无限复制：任何有足够公开输出的人（创始人、研究员、KOL）都可以被这样编排。已经有 Granola、Limitless 这类工具在做个人输出的捕捉，下一步必然是&quot;人物思维框架自动生成&quot;——这可能是创始人画像研究的下一代工具。对 VC 自己的应用：纳瓦尔&quot;杠杆 × 判断力&quot;框架对早期投资判断有直接迁移价值——每个决策质量的提升会被快速放大，提升判断力的两个方法（真实实践、读书学习）解释了为什么资深 GP 的命中率会指数级拉开差距。</div>
+  <div class="news-meta"><span class="news-source">AGENT橘</span></div>
+</div>
+<h3 class="category-header">📌 其他值得看</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/APG1HsUjzrsmXCWAfO5TtA" target="_blank" rel="noopener">DeepSeek 的 10 万亿美元大战略</a></div>
+  <div class="news-summary">AGENT橘 对 DeepSeek 战略的原创解读，论证梁文锋押注 MoE/GRPO/RLVR/MLA 等底层创新而非订阅变现，目标是带动中国万亿美元 AI 产业（同主题更完整中文版见下条宝玉AI 译文）。</div>
+  <div class="news-meta"><span class="news-source">AGENT橘</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/a4MQXW9hBW8meHDRjwRqgA" target="_blank" rel="noopener">DeepSeek 的 10 万亿美元大战略【译】</a></div>
+  <div class="news-summary">宝玉翻译 GDP (@bookwormengr) 原文：DeepSeek 不卷编程订阅、不做多模态、坚持开源不是疯狂，而是在用底层算法创新（MoE、GRPO、RLVR、MTP、零气泡流水线、MLA/DSA/CSA/HCA、Engram、mHC）压低推理成本，目标是借此催生中国 10 万亿美元 AI 产业。</div>
+  <div class="news-meta"><span class="news-source">宝玉AI</span></div>
+</div>
 </section>
 
     </div>
