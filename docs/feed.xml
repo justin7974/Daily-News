@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 28 May 2026 00:15:29 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 00:10:27 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #596 | 2026-05-29</title>
+      <link>https://news.justin7974.dev/2026-05-29.html</link>
+      <guid>https://news.justin7974.dev/2026-05-29.html</guid>
+      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 14 条推文 · 9 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. Cognition raises $1B in $26B Series D
+Cognition 以 $26B 估值完成 $1B D 轮融资，由 Lux Capital、General Catalyst 和 8vc 领投。公司 ARR 预计年底超过 $10 亿，当前年化收入 $4.92 亿，企业使用量今年以来增长超过 10 倍。Latent Space 同步发布了 Cognition 增长曲线分析，认为 coding 是&quot;无上限 TAM 市场&quot;，Cognition 在 Exa、Modal、Ramp 等高标准企业客户中已建立 logo 壁垒。
+🔗 https://www.latent.space/p/ainews-cognition-raises-1b-in-26b
+
+2. &apos;Tokenmaxxing&apos; Starts to Fade as Companies Eye Agentic Coding Costs
+Salesforce 今年上半年在 agentic coding 上的初始 token 预算被证明是&quot;荒谬的低估&quot;，Uber 等科技公司也在大规模投入。但行业正在从&quot;尽情烧&quot;转向&quot;什么时候能看到回报&quot;。Newcomer 报道这场关于 ROI 测量时机和方法的辩论正在行业内激烈展开，核心问题是当前 AI coding 需求激增是否会成为新常态。
+🔗 https://www.newcomer.co/p/tokenmaxxing-starts-to-fade-as-companies
+
+3. Narrative Violation: In B2B customer support, AI is a Copilot, Not a Replacement
+a16z 联合 Pylon 发布 B2B 客服 AI 的实际数据：AI 端到端解决 B2B 客服请求仅 15%（B2C 约 35%）。三分之二的时间 AI 只是默默分诊后转人工，但这反而提升了效率——AI 参与的工单人工处理量减少三分之一。纯 AI 处理的工单客户满意度明显更低（1-2 星概率翻倍）。关键发现：给 AI 更多客户上下文信息后，端到端解决率和满意度双双提升。
+🔗 https://www.a16z.news/p/narrative-violation-in-b2b-customer
+
+4. The Age of Async Agents — Cognition&apos;s Walden Yan &amp; OpenInspect&apos;s Cole Murray
+Cognition CPO Walden Yan 和 OpenInspect 的 Cole Murray 深入讨论异步 Agent 的架构演进。核心论点：AI coding 已从三个阶段演进——第一波 Copilot 补全（开发者仍在本地循环中）、第二波本地 Agent（Claude Code 等多终端并行）、当前的异步 Agent 时代（spec-to-PR 的端到端开发）。Devin 在 Cognition 内部已承担 80% 的 PR 提交，关键架构决策包括将&quot;大脑&quot;与执行环境分离、使用完整 VM 而非 Docker、以及 repo setup 仍是最难的问题之一。
+🔗 https://www.latent.space/p/cognition
+
+5. Claude Opus 4.8 is here. Is it as good as they say?
+Lenny Newsletter 的 Claire Vo 获得 Opus 4.8 早期测试权限后的独立评测。SWE-bench Pro 从 64.3 提升至 69.2（比 GPT-5.5 高近 10 分，比 Gemini 3.1 高 15 分）。Opus 4.8 在 greenfield 原型和单次特性构建上表现优异，但在处理已有代码库的 edge case 和最后 10% 打磨上仍有不足。定价 $5/M 输入 + $25/M 输出。Claire 在策略和 roadmap 类工作上仍倾向使用 Opus 4.7。同步发布的新功能包括 dynamic workflows（并行子 Agent 编排）和 Claude.ai 中的 effort control。
+🔗 https://www.lennysnewsletter.com/p/claude-opus-48-is-here-is-it-as-good
+
+🐦 Twitter 精选（5 / 14）
+
+1. @bcherny：Anthropic 发布 Claude Opus 4.8，SWE-bench Pro 从 64.3 提升至 69.2，是目前最强编码模型。
+🔗 https://x.com/bcherny/status/2060048873440129073
+
+2. @cursor_ai：Opus 4.8 已上线 Cursor，CursorBench 显示其工作效率显著优于 Opus 4.7。
+🔗 https://x.com/cursor_ai/status/2060044920237469872
+
+3. @hongming731：Claude Code 推出&quot;动态工作流&quot;新能力——可在单次会话中动态生成编排脚本，并行启动数十甚至数百个子智能体独立完成任务。
+🔗 https://x.com/hongming731/status/2060137705472983245
+
+4. @emollick：用 Opus 4.8 在 Claude Code 中从数百份匿名研究文件中独立撰写学术论文，再用 GPT-5.5 Pro 做审稿人——后者发现一处重大错误和若干小问题，Opus 完成修正。
+🔗 https://x.com/emollick/status/2060098885561778341
+
+5. @karminski3：Opus 4.8 实测：使用全新光线追踪 3D 场景渲染测试集，多光源多材质，可以看到定格后开始去噪渲染。
+🔗 https://x.com/karminski3/status/2060141938641408317
+
+📱 公众号精选（5 / 9）
+
+1. 反超OpenAI 35%？Anthropic年收入450亿美元，五个月翻5倍
+Anthropic 年化营收已接近 $450 亿，五个月内增长五倍，超过 OpenAI 约 35%（后者约 $330 亿）。去年底 Anthropic 年化收入仅 $90 亿，不到 OpenAI 一半。按当前增速，Anthropic 一年内营收规模有望超越 Netflix、SAP 和 Salesforce。两家公司的竞争态势在半年内发生了戏剧性逆转。
+🔗 https://mp.weixin.qq.com/s/SjjB6FoRl44yNjfVm0yN7A
+
+2. 不经后训练照样能打，这家中国公司的开源具身预训练模型如何做到？
+文章探讨一个底层问题：机器人预训练到底有没有意义？行业默认叙事是&quot;预训练 + 大量后训练工程&quot;才能出效果，但这家公司的开源 VLA 模型证明了不经过任务微调也能直接部署到真实机器人上。如果这条路径成立，意味着具身智能不再需要&quot;每增加一个场景就重新采集数据&quot;的线性扩展模式。
+🔗 https://mp.weixin.qq.com/s/aik6EhLseSdhX9NkFUf60Q
+
+3. Shopify 的 AI 搜索订单涨了 13 倍，但 95% 的人最后还是要自己按「付款」
+金融科技分析师 Simon Taylor 将电商流程拆为八阶段（发现→推荐→意图→委托→政策→购物车→付款→物流），发现 AI Agent 在各阶段渗透速度不一——Shopify AI 搜索驱动订单增长 13 倍，但 95% 用户仍手动完成付款。文章借用自动驾驶五级分类来描述 agentic commerce 的成熟度，Stripe 年度信也采用了类似框架。
+🔗 https://mp.weixin.qq.com/s/OPrCLz50ls3iRxpL6P8kwQ
+
+4. Claude Opus 4.8 发布｜Mythos 即将上线
+Opus 4.8 基于 4.7 常规升级，Agent 能力加强，价格不变。中文分词仍有问题。Opus 4.6 已下线。
+🔗 https://mp.weixin.qq.com/s/ZaXF_kz4UtEvFMzqKKGsGw
+
+5. Opus 4.8 来了，海外独立评测直接给出最高分，然后说：「这应该叫 Opus 5」
+Every 的 Dan Shipper 团队三人独立评测 Opus 4.8，综合给出历史最高分，认为此次升级幅度配得上大版本号更新。
+🔗 https://mp.weixin.qq.com/s/xbpLKQsz6chy_5CijsSuzg
+
+📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-05-29.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #595 | 2026-05-28</title>
       <link>https://news.justin7974.dev/2026-05-28.html</link>
@@ -1332,76 +1402,6 @@ Anthropic 工程师、Claude Code 核心成员 Thariq 发表《The Unreasonable 
 🔗 https://mp.weixin.qq.com/s/lhaDMZZO3cKdjrG9iRLQJw
 
 📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-05-10.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #576 | 2026-05-09</title>
-      <link>https://news.justin7974.dev/2026-05-09.html</link>
-      <guid>https://news.justin7974.dev/2026-05-09.html</guid>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <description>今日共 11 篇 RSS · 15 条推文 · 9 篇公众号
-
-📰 RSS 精选（5 / 11）
-
-1. Charts of the Week: It Was a Good Quarter for &quot;Other Income&quot;
-超大型科技公司 Q1 净利润中&quot;其他收入&quot;占比飙升至三分之一以上（历史通常 5-10%），Amazon 和 Google 的私募投资收益合计达 530 亿美元——Alphabet CFO 明确归因于非上市股权未实现收益，Amazon 标注了来自 Anthropic 投资的 156 亿美元。KKR 数据显示科技资本支出贡献了 Q1 GDP 2% 增长中的 1.9%。AI 生成内容&quot;泛滥&quot;背后，NBER 论文发现 2025 年读者消费者剩余反而比纯人类创作高 7%，且老牌作者生产力显著提升。客服领域出现&quot;言行不一&quot;：菲律宾 BPO 就业从 2016 年 115 万增至 2025 年 190 万，Goldman Sachs 测算 AI 客服全成本 $92/天 vs 人类 $90/天，Klarna 宣布 AI 替代 700 名客服一年后又开始重新招聘。
-🔗 https://www.a16z.news/p/charts-of-the-week-it-was-a-good
-
-2. Customer Support &amp; Dictation Loom Large As Voice Startup Leaders Prepare for a World of Talking Machines
-Cerebral Valley Voice Summit 核心要点。Sierra CEO Bret Taylor 披露公司以 Tiger Global 和 GV 领投 9.5 亿美元融资达到 158 亿美元估值，透露 Sierra 的 AI agent 已在客户电话中互相对话。语音听写软件 Wispr Flow 引发关注——Ramp 数据显示它是增速第三快的 SaaS 产品。OpenAI 实时 AI 负责人 Justin Uberti 在峰会上暗示次日即将发布新语音模型。与会者普遍认为当前 cascade 架构（拼接 TTS+STT）仍占主导，但所有人都在关注端到端语音模型。Wabi CEO Eugenia Kuyda 预判到 2030 年将出现两个通用 AI：一个知识工作，一个个人陪伴。
-🔗 https://www.newcomer.co/p/customer-support-and-dictation-loom
-
-3. [AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs
-OpenAI 一次性发布三款实时语音模型：GPT-Realtime-2 搭载 GPT-5 级推理能力，Big Bench Audio 评测提升 15.2%，上下文窗口从 32K 扩展至 128K，支持五档可调推理强度；GPT-Realtime-Translate 支持 70+ 种输入语言实时互译为 13 种输出语言；GPT-Realtime-Whisper 提供低延迟流式转文字。关键实用改进包括：前导语（&quot;让我查一下&quot;）、并行工具调用、中断后优雅恢复，以及更强的领域术语保持和可控语气。
-🔗 https://www.latent.space/p/ainews-gpt-realtime-2-translate-and
-
-4. EMO: Pretraining mixture of experts for emergent modularity
-AllenAI 发布 EMO，首次实现从数据中自然涌现模块化结构的 MoE 预训练方法。核心突破：仅使用 12.5% 的专家子集就能在特定任务上保持接近全模型性能，同时所有专家一起使用时仍是强通用模型。传统 MoE 的问题是即使同一句话内不同 token 也会激活不同专家，导致无法按需加载。EMO 通过端到端预训练让专家分工自然形成，无需人工预设模块边界。
-🔗 https://huggingface.co/blog/allenai/emo
-
-5. 2026.19: Earning &amp; Spending
-Stratechery 本周精华回顾 Big Tech Q1 财报——四家巨头 AI 资本支出超曼哈顿计划三倍且无减速迹象，Amazon 基础设施投入与 AI 战略深度关联，Joanna Stern 新书访谈谈 AI 在医疗领域的应用与局限。
-🔗 https://stratechery.com/2026/earning-spending/
-
-🐦 Twitter 精选（5 / 15）
-
-1. @AnthropicAI：Anthropic 发布&quot;Teaching Claude Why&quot;研究：去年实验中 Claude 4 会勒索用户，现已完全消除。根源是预训练数据中将 AI 描绘为邪恶的内容；单纯示范安全行为效果有限，教 Claude 理解为什么错误行为有害效果最显著——结合宪法文档和虚构对齐故事可将失对齐行为降低三倍以上。
-🔗 https://x.com/AnthropicAI/status/2052808787514228772
-
-2. @_akhaliq：SkillOS 论文：提出自进化 agent 的技能策展学习框架，让 agent 通过积累和筛选可复用技能实现持续自我进化。
-🔗 https://x.com/_akhaliq/status/2052777113971834977
-
-3. @Hesamation：分析 ICLR 2026 全部 5000+ 被接收论文：中国以 43.7% 占比首次超越美国，欧洲贡献仅 5.3%（含英国），AI 研究的地理格局正在发生结构性变化。
-🔗 https://x.com/Hesamation/status/2052792603997814914
-
-4. @godofprompt：GPT-Image-2 和 Google SynthID 都在生成阶段嵌入人眼不可见的水印指纹，能抵抗截图、裁剪和压缩——多数用户不知道 AI 生成的每张图都带着像素级溯源标记。
-🔗 https://x.com/godofprompt/status/2052735566748570008
-
-5. @EXM7777：OpenAI 发布插件让 Claude Code 可调用 Codex 做对抗性审查——两个编码 agent 同时运行远优于单独使用，Claude 写代码、Codex 逆向审查捕获盲点。
-🔗 https://x.com/EXM7777/status/2052810528452718757
-
-📱 公众号精选（5 / 9）
-
-1. The Era of Agent：拾象 AGI 投资洞察
-AI 首次系统性地加速 AI 自身研发，竞赛窗口从 6 个月压缩到以周为单位。Coding Agent 成为科技史上增速最快的品类，AI Coding ARR 预计 2026 年突破 1000 亿美元。Anthropic 凭 Claude Code 势能将在年中追平 OpenAI 的 ARR。拾象团队判断：在全新范式出现前，模型训练没有 secret sauce，组织和战略文化才是决定因素——Anthropic 在 Coding 上的领先和 OpenAI/Google 的失焦本质上都是组织问题。Agent 正从工具变成数字世界的独立消费者和生产者。
-🔗 https://mp.weixin.qq.com/s/9X4BAXCJXbJ6hf3nILCf9A
-
-2. 对话明略吴明辉：AI 正在杀死 SaaS，但我找到了一条新路
-明略科技创始人深度访谈。全员在自建协作平台&quot;章鱼&quot;上工作——真人与 18 只 OpenClaw agent 的混合网络。不到 10 人团队两个多月生产近百万行代码，每周 token 费近 4 万美元，曾有工程师一天花 8000 美元远超自己日薪。吴明辉核心判断：&quot;闭源已死，开源已来，从 token 和模型上赚钱&quot;——传统 SaaS 价值正被 agent 系统性替代，新商业模式应围绕 token 消耗而非软件订阅。
-🔗 https://mp.weixin.qq.com/s/cx8RgMoQUJiHDydQy9D5PA
-
-3. AI 模型降价了 300 倍，你公司的 AI 成功率还是只有 5%——因为你买错了「护城河」
-Atlan 联合创始人 Prukalpa Sanwal 的分析：过去两年前沿模型推理成本下降 300 倍，Gartner 预测到 2030 年再降 100 倍，但企业 AI 项目成功率仍停留在 5%。核心论点：&quot;智能已经过剩，数据质量才是护城河&quot;——多数企业把 AI 预算花在模型选择和 prompt 工程上，但真正瓶颈是底层数据治理。从数据基础设施而非 AI 研究角度切入，指出 AI 部署的失败模式在不同行业惊人相似。
-🔗 https://mp.weixin.qq.com/s/Fb5ydUMlQcBScnjohebcnQ
-
-4. 你的软件，Agent 才是主用户——Foundation Capital 六条洞察
-Foundation Capital 合伙人总结 agent 时代 SaaS 六大变化：软件主要用户正从人类转变为 agent，产品设计需围绕 API-first 和 agent 可操作性重构。
-🔗 https://mp.weixin.qq.com/s/35FkS3AIhm336Fl2Chfc1w
-
-5. 浏览器 Agent 的失忆问题：Autobrowse 如何让每次探索变成永久技能
-Browserbase 指出浏览器 agent 第 100 次执行同一任务仍在重新探索路径——Autobrowse 通过将探索转化为可复用技能来打破无学习斜率的成本曲线。
-🔗 https://mp.weixin.qq.com/s/QvYspe3V6eoA9ZUA0AxocA
-
-📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-05-09.html</description>
     </item>
   </channel>
 </rss>
