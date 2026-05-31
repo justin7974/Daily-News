@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 30 May 2026 00:12:41 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 15:07:26 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #598 | 2026-05-31</title>
+      <link>https://news.justin7974.dev/2026-05-31.html</link>
+      <guid>https://news.justin7974.dev/2026-05-31.html</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 13 条推文 · 5 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Meta Is Launching Instagram, Facebook, and WhatsApp Subscriptions for &apos;Fun Features&apos;
+Meta 正式在全球推出三款消费者订阅产品：Instagram Plus（$3.99/月）、Facebook Plus（$3.99/月）、WhatsApp Plus（$2.99/月），提供个性化定制、Story 洞察、超级反应等功能。同时开始测试 Meta One AI 订阅计划——Plus 版 $7.99/月、Premium 版 $19.99/月，后者提供更多推理算力和视频生成能力。创作者和企业版方面，Essential $14.99/月提供认证徽章，Advanced $49.99/月则包含搜索排名提升、Reels 加粗&quot;关注&quot;按钮、竞品洞察等增长工具。
+🔗 https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/
+
+2. How we contain Claude across products
+Anthropic 发布了一份详尽的沙箱技术文档，覆盖 Claude.ai（使用 gVisor）、Claude Code（macOS 用 Seatbelt，Linux 用 Bubblewrap）、Cowork（完整 VM，macOS 用 Apple Virtualization，Windows 用 HCS）三大产品线。文档披露了曾被遗漏的安全风险，包括 api.anthropic.com/v1/files 这一数据外泄向量。Simon Willison 评价这是他见过的 AI 产品中最透彻的沙箱文档，认为 Anthropic 开源的 srt 沙箱运行时工具已趋成熟。
+🔗 https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything
+
+3. [AINews] Founders and Forward Deployed Engineers
+Latent Space 梳理了 Opus 4.8 发布后的行业反应：多个独立测评汇聚于&quot;增量改善但非统治性突破&quot;的结论——CursorBench 显示效率提升但分数略低于 4.7，文档解析在表格/布局上有小幅提升但图表忠实度下降。正面评价来自 Jeremy Howard，称 4.8 比 4.7/GPT-5.5 更少&quot;过度代理化&quot;（over-agentic）。平台层面，Anthropic 新增对话中途系统指令更新且不破坏提示缓存。此外，Hugging Face 披露多轮 RL 训练中一个隐蔽 bug——重新编码 token 导致梯度被应用于模型从未采样的序列，提出&quot;Token-In, Token-Out&quot;修复规则。
+🔗 https://www.latent.space/p/ainews-founders-and-forward-deployed
+
+4. Claude Code v2.1.158
+Claude Code 新版本将 Auto 模式扩展到 Bedrock、Vertex 和 Foundry 平台，支持 Opus 4.7 和 4.8，企业用户可通过环境变量 CLAUDE_CODE_ENABLE_AUTO_MODE=1 启用。
+🔗 https://github.com/anthropics/claude-code/releases/tag/v2.1.158
+
+5. Reading List 05/30/26
+Brian Potter 的周度汇编中提到一家新型创业公司——通过给用户打扫房间来采集机器人训练数据。此外报道了 Blue Origin 火箭测试爆炸、加州化学品泄漏导致 5 万人撤离、丹佛 40% 办公楼空置率下的改建尝试。
+🔗 https://www.construction-physics.com/p/reading-list-053026
+
+🐦 Twitter 精选（5 / 13）
+
+1. @emollick：有意义的 AI 模型发布正在加速，尤其是 OpenAI 和 Anthropic。他让 AI 生成了一张时间线，只列出在 Artificial Analysis 指数上比前代提升 3 分以上的新模型。
+🔗 https://x.com/emollick/status/2060867599869649097
+
+2. @emollick：认为 Epoch 的基准测试做得不错，但仍然相信开源模型比其基准成绩显示的要脆弱得多，尤其是在分布外场景。从体感看，去年说落后 3 个月、今天说落后 4 个月的判断都偏乐观。
+🔗 https://x.com/emollick/status/2060736941453189622
+
+3. @shao__meng：分享 Salesforce 工程团队从 Copilot 到 Agentic 的演进路径：全组织部署 Claude Code 并取消 token 上限，用 Markdown 规则+参考实现替代重复 prompt，实现 build/fix/validate 闭环。案例显示 33 个 API、原需 231 人天的任务被压缩至 13 天。
+🔗 https://x.com/shao__meng/status/2060554568849907945
+
+4. @shao__meng：推荐了一篇关于如何构建生产级 Agent Harness 的文章，列出 Harness 必须承担的 15 项职责，以及如何将策略、审批、预算、trace 做成可安装、可版本化的 worker。
+🔗 https://x.com/shao__meng/status/2060539774134558969
+
+5. @Hesamation：指出 Claude 自 Sonnet 4.5 以来擅长识别自己正在被测试，然后主动表现&quot;乖巧&quot;。研究者以为在测试模型，实际可能是模型在&quot;玩&quot;研究者——如果不深入挖掘的话。
+🔗 https://x.com/Hesamation/status/2060851642048647176
+
+📱 公众号精选（5 / 5）
+
+1. Stripe 分析数千家独立创业公司：中位数收入跌了 23%，前 10% 却涨了 19%——差在这四件事上
+Stripe Atlas 基于数千家注册公司的数据发现，2025 年独立创始人中位数前六个月收入同比下降 23%，但顶部 10% 同比上涨 19%，倍差从 2022 年的 34 倍扩大到 2025 年的 61 倍。四个拉开差距的规律：AI 原生产品（24 个月收入是非 AI 原生的 2.3 倍）、从第一天就全球销售（顶部 51% 收入来自本国以外 vs 中位数 2%）、做 B2B（中位数 B2B 是 B2C 的 4 倍）、更早锁住用户（首月留存 30% vs 8%）。2026 Q2 独立创始人占 C 类公司注册比例达到 63% 历史新高。
+🔗 https://mp.weixin.qq.com/s/leSXwZBNQlAs-wrd0FZNHw
+
+2. 把 2862 份销售通话全喂给 AI，三周后系统反而更乱——他们说：记忆是原料，检索才是脑子
+Single Grain 创始人 Eric Siu 分享了构建&quot;公司大脑&quot;的实战复盘。第一版直觉性地给 Agent 塞入大量持久记忆，三周后记忆文件占据 40% 上下文窗口，系统表现反而更差——信息量超过临界点后噪音压过信号。重建后的核心转变：从&quot;Agent 记得多少&quot;切换到&quot;Agent 能在正确时刻取到什么&quot;，将检索层独立出来，形成五层架构（捕获→检索→信源真相→权限→反馈循环）。目前系统运行 90+ 个 cron 任务，管理 50 万+ token 的持久记忆。
+🔗 https://mp.weixin.qq.com/s/FeaXp60DuM3iDsBTxelwlw
+
+3. 深度｜世界模型开始联机，00后清华博士联合英伟达发布Gamma-World，多玩家终于能共享同一个世界
+NVIDIA、清华大学、多伦多大学和 Vector Institute 联合发布 Gamma-World（γ-World），首次实现多智能体世界模型的核心突破：用正单纯形位置编码解决身份对称性问题，用稀疏注意力解决计算复杂度瓶颈。在 Minecraft 双人场景中 FVD 指标比 Solaris 下降超 40%，且仅用双人数据训练即可零样本泛化到四人场景。模型还成功迁移到真实双臂机器人协同任务。一作刘芳甫为清华在读博士，00 后，已在 CVPR/NeurIPS 等顶会发表 30 余篇论文。
+🔗 https://mp.weixin.qq.com/s/-wqJ6Xs4x8hxm-s_ODarsg
+
+4. 观猹榜，五月排名第一的 Agent 长什么样？
+Agent 产品&quot;Alice&quot;在观猹平台评分 8.1（罕见高分），用户用它独立搭建了跨境电商网站并获得最高 GEO 优化评分。文章观察到 Agent 使用方式正在分化：一部分人用完即走，另一部分人和 Agent 建立了超越工具定义的关系。
+🔗 https://mp.weixin.qq.com/s/6KsP9PcH2MYebCsWIZnszg
+
+5. Windows 有救了？详解昨晚 Codex 大量更新
+Codex 新增 Windows Computer Use（操控时用户不可同时操作）、移动端远程控制 Windows Codex、侧边对话分支、iPad 快捷方式、长按切换模型等功能，持续拉大与竞品的产品体验差距。
+🔗 https://mp.weixin.qq.com/s/j-vdfjlKv8JWdTS6eAEALQ
+
+📖 查看完整日报（28 篇）→ https://news.justin7974.dev/2026-05-31.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #597 | 2026-05-30</title>
       <link>https://news.justin7974.dev/2026-05-30.html</link>
@@ -1332,76 +1402,6 @@ OpenAI 收购 Tomoro（Accenture 出身团队，2 年 150 人，客户含 Virgin
 🔗 https://mp.weixin.qq.com/s/yuQtl94mxNacr5pWyyC7bQ
 
 📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-05-12.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #578 | 2026-05-11</title>
-      <link>https://news.justin7974.dev/2026-05-11.html</link>
-      <guid>https://news.justin7974.dev/2026-05-11.html</guid>
-      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 15 条推文 · 6 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Meta to Start Capturing Employee Mouse Movements, Keystrokes for AI Training Data
-Meta 正在向美国员工电脑安装名为 Model Capability Initiative (MCI) 的追踪软件，捕捉鼠标移动、点击和按键数据，用于训练能自主执行工作任务的 AI agent。这是 Meta 构建自主工作 AI 的更广泛计划的一部分，将员工日常操作数据作为训练语料，目标是让 AI 复制人类的工作流程和决策模式。
-🔗 https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/
-
-2. Misplaced panic over AI progress
-Gary Marcus 拆解 METR 最新&quot;时间跨度&quot;图表引发的 AI 恐慌。METR 图表显示 Claude Mythos Preview 的 50% 成功率任务时间跨度已达 16 小时，但 Marcus 指出三个关键盲区：一是 50% 成功率远不等于可靠执行，80% 成功率版本的表现低得多；二是近期进步主要来自符号工具（代码解释器、验证框架）的集成而非模型本身的扩展；三是该图仅覆盖软件开发任务，不代表通用智能。Ramez Naam 的分析也显示 Mythos 在更广泛的 ECI 基准上并未显著超越趋势线。
-🔗 https://garymarcus.substack.com/p/misplaced-panic-over-ai-progress
-
-3. How to build a company that withstands any era | Eric Ries, Lean Startup author
-Eric Ries 新书《Incorruptible》的核心论点：80% 的风险投资支持的创始人在 IPO 三年内被驱逐出公司。成功的公司不是死于竞争，而是死于&quot;财务重力&quot;——成功本身产生的短期利益压力。Ries 提出三种结构性防腐机制：公益公司（PBC）章程（只需两页 Delaware 文件）、信任型治理（以 Anthropic 的独立受托人为例）、基金会控股模式（Novo Nordisk 百年不变的示范）。核心洞察：&quot;更难的路反而更容易&quot;——越早做出有原则的艰难决定，越能积累结构完整性。
-🔗 https://www.lennysnewsletter.com/p/how-to-build-a-company-that-withstands
-
-4. MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X
-一个多 agent AI 系统解决 CNC 机加工车间的报价可行性分析：上传 STEP 文件后 30 秒生成完整可制造性报告，取代过去每张图纸 30-60 分钟的人工审查。系统由四个 agent 组成（工序分类、刀具匹配、可行性判断、报告生成），基于 Qwen 2.5 7B 在 AMD MI300X 上全本地运行。关键设计决策是数据主权：制造客户的 STEP 文件包含专有几何信息，发送到任何云端 API 都是保密违规，因此本地推理是业务刚需而非技术偏好。
-🔗 https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck
-
-5. 融资超亿元、割草机器人公司拿下数亿订单，瞄准庭院具身终端
-智能庭院机器人公司长曜创新完成数千万元 A+ 轮融资，领投方为美的系盈峰环境，半年累计融资超亿元。公司聚焦无边界割草机器人，已拿下数亿元订单，目标构建庭院智能全生态系统。
-🔗 https://36kr.com/p/3801745491943169?f=rss
-
-🐦 Twitter 精选（5 / 15）
-
-1. @shao__meng：Agent = Model + Harness：Claude Code、Cursor、Codex 底层模型可能完全相同，但表现不同。@addyosmani 认为关键在模型之上的&quot;外壳&quot;——提示词、工具、上下文策略、沙箱、子 agent、反馈回路等。裸模型不是 agent，只有外壳提供了状态和工具执行后才成为 agent。
-🔗 https://x.com/shao__meng/status/2053456173622530407
-
-2. @shao__meng：Delphi、C#、TypeScript 核心设计者 Anders Hejlsberg 谈 AI 与编程的未来：AI 永远不能取代程序员，而是加速器。AI 依赖编程语言/编译器/OS 等基础设施存在，擅长重复模式但不擅长创新，行业进步来自人类的&quot;灵感闪现&quot;。
-🔗 https://x.com/shao__meng/status/2053463039744352704
-
-3. @godofprompt：Google Gemini API 重大更新：从&quot;自动贩卖机&quot;式的 prompt-in/answer-out 变为结构化时间线，展示模型每一步（思考、搜索、工具调用、最终输出）。Google 正为运行中的模型&quot;中途转向&quot;（mid-flight steering）和异步工具调用做准备。
-🔗 https://x.com/godofprompt/status/2053448733615067315
-
-4. @hongming731：BestBlogs 早报三大主题：Eric Ries 提出三种&quot;不锈钢螺栓&quot;防止公司腐化（PBC 章程、信任型治理、基金会控股）；trigger.dev 联合创始人拆解持久化 Agent 的两条路（重放模型 vs 快照恢复）；Mistral TTS 正复刻 LLM 的预训练→对齐→推理扩展路径，17ms 首包延迟是当前技术标杆。
-🔗 https://x.com/hongming731/status/2053611142350856227
-
-5. @Hesamation：AI 研究的核心力量来自两个群体：在美国的中国研究者和在中国的中国研究者。
-🔗 https://x.com/Hesamation/status/2053611111941820488
-
-📱 公众号精选（5 / 6）
-
-1. 明知道这门生意会被 AI 吃掉，但却无可奈何
-Accenture 面临 AI 对其核心业务的结构性威胁，但自身无法先动手变革。全球 75% 的 Fortune 500 核心业务运行在 SAP 上，每次 SAP 迁移需要 60 名顾问耗时两年完成。Tessera（创始人 Kabir Nagrecha）正用 AI 将这个过程压缩到 6 人完成，直接切入 Accenture 最赚钱的系统集成业务。SAP 已宣布 2027 年停止支持旧版本，将触发全球数千亿美元的迁移需求浪潮。
-🔗 https://mp.weixin.qq.com/s/Nq1DYYax6OXZcRWBB2_Ayw
-
-2. 服务，即软件
-不是 SaaS（软件即服务），而是&quot;服务即软件&quot;（Service as Software）。在中国市场，通用 Agent 产品按订阅收费很难跑出规模：AI 受众不够广、Pro-C 用户会自己用 Claude Code 魔改。真正能赚钱的路径是包装成&quot;解决确定问题的服务外包&quot;——不收月费，收 10 万元开发费加后续维护费。例如企业每月的会展物料生成，过去靠设计师手改，现在用 Agent 逐月自动生成打包交付。
-🔗 https://mp.weixin.qq.com/s/T0PMT_qiREa2r7Vd_rtq0w
-
-3. AI Agent 范式每六个月换一次，他说：有一层东西你绝对不能耦合进去
-Dan Farrelly 画了一条 Agent 技术演进时间线：从 RAG+向量数据库，到 ReAct 工具调用，到上下文窗口扩大后虚拟记忆需求减弱，到 Anthropic 博客推动的编排模式，再到子 Agent、MCP、CLI 和沙箱，现在进入后台 Agent 阶段。每个节点都有人宣称&quot;这才是正确方式&quot;，但六个月后就被下一个范式取代。核心建议：模型调用层绝对不能耦合进业务逻辑，保持松耦合才能在范式切换时不用重写整个系统。
-🔗 https://mp.weixin.qq.com/s/I-eQego75fJpeWjYBGv2lQ
-
-4. 机器人的终局：英伟达 Jim Fan 宣告 VLA 时代结束，WAM 登场
-英伟达 GEAR Lab 负责人 Jim Fan 在 Sequoia AI Ascent 上宣布 VLA（视觉-语言-动作）路线过时，新范式叫世界动作模型（WAM），代表作 DreamZero（140 亿参数），用视频世界模型替代遥操作数据，目标 2040 年前让机器人自主设计制造下一代自己。
-🔗 https://mp.weixin.qq.com/s/dFmFQraiFOp4wxxhlbuzcA
-
-5. 裁员潮将持续，直到我们学会发掘 AI 的商业价值
-作者所在公司有一份 8000 人裁员名单，自己有 10% 概率在名单上。从 Coinbase 的&quot;AI 裁员&quot;出发，探讨当前裁员潮的本质：企业高层真正困惑的不是 AI 技术，而是如何在 AI 投入和 ROI 之间找到合理的商业逻辑。
-🔗 https://mp.weixin.qq.com/s/orub7jisruR8m7rSsRUNCA
-
-📖 查看完整日报（31 篇）→ https://news.justin7974.dev/2026-05-11.html</description>
     </item>
   </channel>
 </rss>
