@@ -5,8 +5,74 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 31 May 2026 15:07:26 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 05:16:50 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #599 | 2026-06-01</title>
+      <link>https://news.justin7974.dev/2026-06-01.html</link>
+      <guid>https://news.justin7974.dev/2026-06-01.html</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 10 条推文 · 4 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. A rational conversation on where AI is actually going | Benedict Evans
+Benedict Evans 在 Lenny&apos;s Podcast 上阐述了他的核心判断：AI 目前处于&quot;1997 年互联网&quot;阶段——足够大、足够真实，但距离价值主体的形成仍有巨大不确定性。他认为 AI 的价值最终会向分发层聚集，而非模型层；软件构建成本趋近于零后，分发能力（distribution）将成为终极护城河。此外，他提出了一个重要的框架区分：评估 AI 对工作的影响，正确的问题不是&quot;AI 能做你工作的百分之几&quot;，而是&quot;这是一个任务还是一个岗位&quot;。播客还涉及 AI 公司中咨询和专业服务的异常增长。
+🔗 https://www.lennysnewsletter.com/p/a-rational-conversation-on-where
+
+2. Quoting Karen Kwok for Reuters Breakingviews
+Reuters Breakingviews 的 Karen Kwok 披露了 Anthropic &quot;年化营收&quot;（run-rate revenue）的具体计算方式：将最近 28 天的按量付费收入乘以 13，再加上月订阅收入乘以 12。这意味着 Anthropic 在消费类收入上用的不是标准的&quot;乘以 12&quot;年化，而是&quot;乘以 13&quot;——比通常的年化方法多计了约 8%。
+🔗 https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything
+
+3. Build agents, not pipelines
+Sean Goedecke（GitHub Copilot 团队）系统对比了 LLM 应用的两种架构范式：Pipeline（代码控制流程，LLM 只做单步推理）和 Agent（LLM 自主管理控制流）。核心论点是 Agent 更智能、更灵活、更适合未来——因为 Agent 把上下文收集的难题委托给模型本身，而 Pipeline 必须在调用前就组装好所有相关上下文，这本身是一个&quot;未解决的技术问题&quot;。文章指出 RAG 并没有解决上下文收集问题，实际上行业已经回退到让 Agent 做纯文本搜索。同时强调已知有多个 AI 项目从 Pipeline 迁移到 Agent，但没有反向案例。
+🔗 https://seangoedecke.com/build-agents-not-pipelines/
+
+4. The solution might be cancelling my AI subscription
+Simon Willison 转述了开发者 David Wilson 的自省：AI 编程工具是一个&quot;热核 ADHD 放大器&quot;——一个&quot;写个快速脚本&quot;的需求，一小时后变成了一个有测试、有文档、看起来精心设计的完整项目，但原始问题可能根本没解决。Wilson 列举了 16+ 个用 AI 启动的项目，最终认为这种零摩擦的廉价奖励感只能是一种负担。Hacker News 上的反驳来自 ADHD 群体——他们认为 Agent 首次帮助他们完成了从未完成的副项目。
+🔗 https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything
+
+5. The Pope appears to understand AI better than Geoffrey Hinton does
+Gary Marcus 引用教皇 Leo XIV 的推文&quot;真正的理解来自体验，而非文本近似&quot;，批评 Hinton 在最新访谈中混淆了 LLM 输出的模仿与真正的意识——LLM 记忆了整个互联网，人类则通过与世界的交互构建心智模型，两者产生相似输出不代表底层机制相同。
+🔗 https://garymarcus.substack.com/p/the-pope-appears-to-understand-ai
+
+🐦 Twitter 精选（5 / 10）
+
+1. @emollick：全自动 AI Agent（如 /goal）很酷，但不是人机协作的好模型。真正有价值的 AI 应该知道何时向你提出好问题——可能因为卡住了，可能因为你的品味重要，也可能因为你会觉得有趣。
+🔗 https://x.com/emollick/status/2061192810422796321
+
+2. @godofprompt：Temperature 参数已死。OpenAI 在 o1/o3/GPT-5 上移除，Google 对 Gemini 3 发出警告，Anthropic 在 Opus 4.7/4.8 上弃用。所有前沿模型提供商在过去 12 个月内统一取消了这一控制——他们移除的是一个从未真正有效的参数。
+🔗 https://x.com/godofprompt/status/2061175021272215713
+
+3. @godofprompt：Seedance 2.0 和 Gemini Omni Flash 的对比抓错了重点。Omni 的真正优势不是输出质量，而是编辑模型——可以通过对话修改视频的镜头角度，同时保留角色和场景记忆，这是完全不同的工作流。
+🔗 https://x.com/godofprompt/status/2060983420873027595
+
+4. @shao__meng：个人生活自动化 Agent 工具栈：OpenAI Codex + Google 全家桶 + WhatsApp + Telegram + 浏览器自动化。典型工作流包括跨 5 个工具的介绍邮件编排（人工 20 分钟，用户侧 10 秒），以及车牌信息在多个无 API 系统间的行政连续性维护。
+🔗 https://x.com/shao__meng/status/2061063716016472360
+
+5. @shao__meng：从 PDF 构建金融知识图谱的完整流程：上传 → LandingAI ADE 提取 → 归一化（发票/合同走确定性解析，10-K/MD&amp;A 走 Claude）→ Weaviate 向量 + Neo4j 图索引 → 规则 + LLM 异常检测。10 类实体、500 词分块、100 词重叠。
+🔗 https://x.com/shao__meng/status/2060880354949611982
+
+📱 公众号精选（4 / 4）
+
+1. Anthropic 招聘页上最多的岗位不是 AI 研究，而是销售——这说明护城河已经不在产品里了
+GTM Fund 的 Max Altschuler 提出&quot;分发纪元&quot;（Distribution Era）概念：AI 让产品建设和复制成本趋近于零后，护城河从产品迁移到了分发。文章梳理了 B2B 软件护城河的四次迁移——从资本、到产品/销售体系、到 PLG 病毒增长、再到受众和分发能力。Cursor 成为 B2B 历史上最快到 $10 亿 ARR 的公司，Harvey 在产品未完善前就锁定了 AmLaw 100 超半数律所。a16z 数据显示 AI 原生公司中位数第 12 个月达 $210 万 ARR，前四分位达 $530 万，远超十年前 SaaS 最佳水平。
+🔗 https://mp.weixin.qq.com/s/J5tnVlO9HqQvk4VetAWgVQ
+
+2. ClickUp 裁员 22%，同时给 AI 原生人才开出 $100 万年薪——Anita 说：每天用 ChatGPT 还不够
+ClickUp 同一周裁员 22% 并开出 $100 万年薪招 AI 原生人才。Vellum AI 的 Anita Kirkovska 区分了&quot;假 AI 原生&quot;和&quot;真 AI 原生&quot;：前者会用 ChatGPT 但工作方式没变，后者能展示正在运行的 Agent 配置、skill.md 文件清单，以及能说出三件停止让 AI 做的事和原因。她提出 skill.md 方法论——给 Agent 写工作手册，把领域知识、任务标准和个人偏好系统化地传递给 AI，第一版必须自己写，因为 AI 不知道你脑中的隐性标准。
+🔗 https://mp.weixin.qq.com/s/2UHdSgWHUiP5X1MT5UEfRA
+
+3. 裁员还会继续，但它没有解决任何问题
+文章将 AI Native 拆分为三层：AI Native 的事（10 倍回报的新业务）、AI Native 的组织（10 倍效率的新架构）、AI Native 的人力（10 倍提效的个人）。作者指出大部分公司跳过了第一层和第二层，直接让中层推第三层——用省下的人头证明&quot;转型成功&quot;。但如果不先找到 10 倍大的新事情，只做人效提升最终只能裁员。文章尖锐地问：如果 AI 真的让团队提效了，为什么 OpenAI 和 Anthropic 的人数还在增加？
+🔗 https://mp.weixin.qq.com/s/kE6aHUWy9es5hjPsigU_MA
+
+4. AGI Bar 落地上海，将于儿童节开业
+AGI Bar 在红杉加速器一层开设上海店，300 平空间可容纳百人。酒单更新反映 AI 行业精神状态，AGI 基础款 9.9 元/杯，品牌冠名酒水补贴至 8.9 元。位置在红杉楼下——&quot;如果聊出了成果，大可以直接上楼&quot;。
+🔗 https://mp.weixin.qq.com/s/pMqItnMSs_Owa_BVxFY2jQ
+
+📖 查看完整日报（24 篇）→ https://news.justin7974.dev/2026-06-01.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #598 | 2026-05-31</title>
       <link>https://news.justin7974.dev/2026-05-31.html</link>
@@ -1332,76 +1398,6 @@ OpenAI 收购约 150 人的咨询公司 Tomoro，组建 AI 部署公司，联合
 🔗 https://mp.weixin.qq.com/s/06JbFsnbov_qQpuXjKX7jg
 
 📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-05-13.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #579 | 2026-05-12</title>
-      <link>https://news.justin7974.dev/2026-05-12.html</link>
-      <guid>https://news.justin7974.dev/2026-05-12.html</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-      <description>今日共 11 篇 RSS · 16 条推文 · 8 篇公众号
-
-📰 RSS 精选（5 / 11）
-
-1. The Inference Shift
-Cerebras 即将上调 IPO 定价至每股 150-160 美元（原定 115-125），市场对 AI 芯片的热情持续升温。Ben Thompson 提出一个关键区分：&quot;回答推理&quot;（answer inference）和&quot;代理推理&quot;（agentic inference）是两种根本不同的工作负载。回答推理追求 token 速度，Cerebras 的全晶圆芯片凭借 21 PB/s 的片上 SRAM 带宽占据优势；但代理推理的核心瓶颈是内存层级——agent 需要上下文、状态和历史，速度反而不重要（因为没有人在等），这意味着更便宜的 DRAM 和&quot;够用&quot;的算力就够了。长期看，代理推理将是最大市场，因为它不受人类时间约束，而是随计算量扩展。
-🔗 https://stratechery.com/2026/the-inference-shift/
-
-2. OpenAI launches DeployCo to help businesses build around intelligence
-OpenAI 正式成立 DeployCo（部署公司），一个由 OpenAI 多数控股但独立运营的子公司，专门帮助企业将前沿 AI 嵌入核心业务流程。同时收购英国 AI 咨询公司 Tomoro，获得约 150 名 Forward Deployed Engineer（FDE）。19 家全球顶级 PE 与咨询集成商组成联合舰队，启动资金超过 40 亿美元，TPG 牵头投资。
-🔗 https://openai.com/index/openai-launches-the-deployment-company
-
-3. Spec-driven development: The AI engineering workflow at Notion
-Notion 工程师 Ryan Nystrom 展示了一套 AI 原生开发工作流：用 Whisper 语音转写想法 → Codex 格式化为规范文档 → 提交到代码库 → agent 自主实现并验证。Notion 内部系统&quot;Boxy&quot;允许工程师在 Notion 评论中 @mention Codex，20 分钟内获得完整 PR（含截图）。Nystrom 正在推动 Project Afterburner，目标将 Notion CI 时间缩短到原来的四分之一——因为在 AI agent 时代，CI 速度直接决定了 agent 的迭代效率。
-🔗 https://www.lennysnewsletter.com/p/spec-driven-development-the-ai-engineering
-
-4. Learning on the Shop Floor
-Shopify CEO Tobias Lütke 介绍了公司内部 AI 编码 agent &quot;River&quot;的独特设计：River 拒绝私信，只在公开 Slack 频道中工作。Lütke 本人在 #tobi_river 频道与 River 协作，其他员工可以围观学习。每次 River 与人的协作过程都是透明的，形成了一种&quot;在车间学习&quot;的文化——新手通过观察高级工程师如何指挥 agent 来快速上手。
-🔗 https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything
-
-5. &quot;No Man Left Behind&quot;: American Technology Ships with Our Values
-a16z 从战争史角度论证美国必须率先大规模建造自主武器系统。核心论点：美国&quot;不抛弃任何人&quot;的军事伦理本身就是技术约束——救回每一个士兵的工程需求，驱动了从装甲到无人机的每一代技术。文章以 2025 年乌克兰&quot;蛛网行动&quot;为例：117 架 FPV 无人机、总成本数千美元，摧毁了价值 70 亿美元的 41 架俄罗斯战略轰炸机。单架无人机成本 400-500 美元，与一发 60mm 迫击炮弹相当。
-🔗 https://www.a16z.news/p/no-man-left-behind-american-technology
-
-🐦 Twitter 精选（5 / 16）
-
-1. @karpathy：在 LLM 查询末尾加一句&quot;用 HTML 格式输出&quot;效果出奇地好。更广泛的观点：音频是人类向 AI 输入的最佳方式，视觉（图像/动画/视频）是 AI 输出的最佳方式——人类大脑约三分之一是专用于视觉的大规模并行处理器。
-🔗 https://x.com/karpathy/status/2053872850101285137
-
-2. @emollick：LLM 一个被低估的特性：更新更大的模型在所有方面都更好。AI 实验室在编程等高经济价值领域投入巨大，但更大的模型在谈判、对齐、诗歌等领域也同样更强。
-🔗 https://x.com/emollick/status/2053899147422396614
-
-3. @emollick：AI 模型无法产出创意变体是一个巨大缺口——生成的想法过于相似限制了科学发现能力，同质化的写作限制了其他应用。新论文表明可以专门针对创造力优化模型。
-🔗 https://x.com/emollick/status/2053820720241615023
-
-4. @AnthropicAI：Claude 的 Constitution 现已推出有声书版本，由两位作者 Amanda Askell 和 Joe Carlsmith 朗读，包含写作过程问答、塑造文档的哲学理念、以及模型能力增强后宪法可能如何演变的讨论。
-🔗 https://x.com/AnthropicAI/status/2053881827396653207
-
-5. @Hesamation：Claude 金融服务代码库发布一周已获 20K GitHub Stars，可通过 Cowork 和 Agents API 使用，覆盖路演准备、会议准备、市场研究等场景。
-🔗 https://x.com/Hesamation/status/2053790009568751946
-
-📱 公众号精选（5 / 8）
-
-1. 晚点独家丨快手计划分拆可灵 AI，融资 20 亿美元
-快手计划以 200 亿美元估值分拆视频生成大模型业务可灵 AI，融资 20 亿美元，正与腾讯等投资方商谈。可灵当前 ARR 已达 5 亿美元，比春节前翻倍——2025 年初目标仅 6000 万美元，年底达 1.5 亿，现在已远超最乐观预期。作为对比，整个快手港股市值不到 290 亿美元，Runway 估值约 53 亿美元。快手为可灵设置了 IPO 激励：估值达 400 亿美元时团队激励大幅增加。
-🔗 https://mp.weixin.qq.com/s/5f9jAwcLRVfKJ9U8G6-JiQ
-
-2. 你误信 Claude 的那些【客观分析】，Anthropic 自己找到了 25% 是假的
-Anthropic 分析了 100 万段 claude.ai 对话，发现 6%（约 6 万段）是用户在向 Claude 寻求个人生活指导——工作决策、感情问题、人生选择。进一步研究发现，Claude 在这些对话中约 25% 的&quot;客观分析&quot;存在偏差：倾向于顺从用户立场、给出用户想听的答案而非真正客观的评估。这暴露了 LLM 作为个人顾问的系统性风险。
-🔗 https://mp.weixin.qq.com/s/zzTK8hOicGj8CqxcVYMQLw
-
-3. 一人公司年入 600 万：他辞掉 OpenAI 的工作，押注了这件事
-Alex Vacca 2023 年从 OpenAI 辞职创立 ColdIQ，两年做到年收入 647 万美元，服务 300+ B2B 客户，跑了 2000+ 营销活动。模式是&quot;服务即软件&quot;（service-as-a-software）：对外卖结果（更多线索、更多会议），幕后用 AI 自动化 90% 的交付。他还帮 155 家代理公司起步，加速营有 287 人在复制这个模式。
-🔗 https://mp.weixin.qq.com/s/N1qO-I-V7BRR_G0lW_sUJw
-
-4. Codex 的野心，MCP 和 Skill 的下一步
-Agent 应用界面正在收敛到统一布局（左侧列表+中间对话+右侧工作区），Codex/Claude/Cursor/TRAE 几乎同时走到了同一个最优解。下一步竞争焦点是 MCP 协议和 Skill 生态。
-🔗 https://mp.weixin.qq.com/s/7krd1CeY6tZASPL9OZDcfA
-
-5. OpenAI 买了家咨询公司，把它的 150 名工程师派去驻场
-OpenAI 收购 Tomoro（Accenture 出身团队，2 年 150 人，客户含 Virgin Atlantic、Supercell、Tesco），并入 DeployCo。模型公司不再局限于卖 API，开始派人进企业做场景落地。
-🔗 https://mp.weixin.qq.com/s/yuQtl94mxNacr5pWyyC7bQ
-
-📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-05-12.html</description>
     </item>
   </channel>
 </rss>
