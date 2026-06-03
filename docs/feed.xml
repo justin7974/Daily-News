@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 02 Jun 2026 00:12:42 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 00:09:38 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #601 | 2026-06-03</title>
+      <link>https://news.justin7974.dev/2026-06-03.html</link>
+      <guid>https://news.justin7974.dev/2026-06-03.html</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 15 条推文 · 8 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. The Google Capital Company
+Google 向伯克希尔·哈撒韦发行股权，这笔交易释放了一个强烈信号：AI 基础设施的资本需求已经大到连 Google 都需要出让股权来融资。Ben Thompson 认为这标志着一个新时代——资本本身成为终极大宗商品，AI 竞赛的胜负将越来越取决于谁能以更低成本调动更多资本。需求端的爆发远超预期，未来的竞争格局可能由资本效率而非技术领先决定。
+🔗 https://stratechery.com/2026/the-google-capital-company/
+
+2. GitHub&apos;s plan for Agents — Kyle Daigle, GitHub
+GitHub COO Kyle Daigle 阐述了 GitHub 的 Agent 战略。Copilot 开创了 AI 编程时代，但 Agent 编码的爆发式增长正在给全球最大开发者平台带来前所未有的压力——代码审查、权限管理、工作流编排都是为人类设计的，Agent 的行为模式完全不同。GitHub 正在重新设计平台的底层假设，以适应&quot;Agent 是一等公民&quot;的新范式。
+🔗 https://www.latent.space/p/github
+
+3. [AINews] NVIDIA Cosmos 3, Nemotron 3 Ultra, and RTX Spark
+NVIDIA 一口气发布多个重磅产品：Cosmos 3 全模态物理 AI 模型开源、Nemotron 3 Ultra 推理模型、RTX Spark 消费级 AI PC。产品线覆盖从数据中心到端侧的完整 AI 计算栈。Cosmos 3 将世界生成、物理推理和动作生成统一到单一模型，开源策略意在让整个物理 AI 生态绑定在 NVIDIA GPU 上。
+🔗 https://www.latent.space/p/ainews-nvidia-cosmos-3-nemotron-3
+
+4. Microsoft&apos;s new MAI models
+微软一次性发布 7 款自研 AI 模型：MAI-Thinking-1（35B 参数推理模型，仅向精选合作伙伴开放）、MAI-Code-1-Flash（5B 参数，专为 GitHub Copilot 和 VS Code 设计的编码模型）、以及空间推理、语音、多模态等五个垂直模型。Simon Willison 注意到 MAI-Thinking-1 的 GPQA 和 Terminal Bench 2.0 得分&quot;奇怪地低&quot;，但微软发布时难以直接试用这些模型。
+🔗 https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything
+
+5. Codex is becoming a productivity tool for everyone
+OpenAI 发布《The Next Era of Knowledge Work》报告，Codex 正从编程工具向通用生产力平台扩展，覆盖研究、数据分析、工作流自动化和内容创作。用户群体从开发者扩展到分析师、市场人员和设计师。配合同日发布的 Codex 插件和站点功能，OpenAI 的意图很明确：把 Codex 打造成 AI 时代的知识工作操作系统。
+🔗 https://openai.com/index/codex-for-knowledge-work
+
+🐦 Twitter 精选（5 / 15）
+
+1. @AnthropicAI：Anthropic 对白宫新 AI 行政命令表态支持，称这是&quot;加强美国 AI 领导地位的重要一步&quot;，并表示期待配合实施。AI 政策监管框架正在加速成型。
+🔗 https://x.com/AnthropicAI/status/2061924580222968183
+
+2. @AnthropicAI：Anthropic 扩大 Project Glasswing 计划，将 Claude Mythos Preview 的访问权限扩展到 15 个以上国家的约 150 个机构。Mythos 是 Anthropic 的安全前沿模型。
+🔗 https://x.com/AnthropicAI/status/2061796327986454883
+
+3. @cursor_ai：Cursor 认为优秀的云端 Agent 体验远不止&quot;把本地 Agent 搬到服务器&quot;——需要持久化执行平台、强大的 harness，以及为 Agent 提供真实开发环境的工具和基础设施。
+🔗 https://x.com/cursor_ai/status/2061878340265656620
+
+4. @emollick：微软 MAI-Thinking-1 仅从 benchmark 分数难以判断实际能力（GPQA 和 Terminal Bench 2.0 得分异常偏低），且微软在发布时很难让用户直接试用——这是微软 AI 产品的通病。分数低于 Meta Spark。
+🔗 https://x.com/emollick/status/2061907785768489127
+
+5. @emollick：法学教授用办公时间被问到的真实问题做测试：Gemini 2.5 对阵人类教授，由其他教授盲审打分。结果 Gemini 胜率 75%，且被评为&quot;危害性更低&quot;。更新的模型表现更好。
+🔗 https://x.com/emollick/status/2061876620638486584
+
+📱 公众号精选（5 / 8）
+
+1. 晚点独家丨字节 Seed 架构调整：周畅管理范围扩大，具身业务纳入核心
+字节跳动 Seed 团队进行架构调整，周畅的管理范围进一步扩大，具身智能业务被正式纳入核心业务线。这标志着模型大厂对世界模型和物理 AI 的战略升级——具身智能从&quot;探索方向&quot;变成了组织架构中的一等公民。
+🔗 https://mp.weixin.qq.com/s/uIsOdDcJ6pROH29EwZt63w
+
+2. 模型没有越来越聪明，但有些企业的 AI 越来越强——中间差了一个上下文层
+Atlan 联合创始人 Prukalpa 提出：赢得下一个十年的公司不是拥有最好模型的那个，而是上下文在复利积累的那个。模型本身的智能增长正在放缓，但企业可以通过构建高质量的上下文层（数据、流程、业务知识的结构化积累）让 AI 的实际表现持续提升。
+🔗 https://mp.weixin.qq.com/s/5G0XkCZskZG3ssOLoDpkMw
+
+3. 速递｜英伟达进军CPU市场：Vera获OpenAI、Anthropic背书，三季度全面投产
+NVIDIA 发布 Vera CPU，性能是英特尔 x86 的 1.8 倍，同功耗下可多部署 40% 的 NVIDIA 加速芯片。OpenAI 和 Anthropic 已为 Vera 背书，三季度全面投产。NVIDIA 正式进入 CPU 市场，补全了从 CPU 到 GPU 到网络的全栈计算垄断。
+🔗 https://mp.weixin.qq.com/s/26ClfRzcTUuQqcrU8GndTw
+
+4. 速递｜Anthropic安全模型Mythos三周发现20+关键漏洞，烧掉超百万美元Token
+Anthropic 的安全专用模型 Claude Mythos 在三周内发现了 20 多个关键漏洞，但 token 消耗超过百万美元。OpenAI 也有类似的 GPT-5.5-cyber。AI 安全模型的效果显著但成本极高，商业化路径仍需探索。
+🔗 https://mp.weixin.qq.com/s/x9VKqTFjjd5xvvvBfRKkeQ
+
+5. 独家｜蓝驰高瓴下注硅碳互联黑马SiClink，脑机接口从&quot;读懂大脑&quot;走向&quot;重建感知&quot;
+蓝驰和高瓴投资脑机接口公司 SiClink，关注从单向&quot;读脑&quot;到双向&quot;重建感知&quot;的技术跃迁。双向交互是脑机接口从功能代偿工具走向信息接口的关键转折。
+🔗 https://mp.weixin.qq.com/s/aGnD7Ng9FdjhAigTfNHaSA
+
+📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-06-03.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #600 | 2026-06-02</title>
       <link>https://news.justin7974.dev/2026-06-02.html</link>
@@ -1328,76 +1398,6 @@ Anthropic 发布面向律师、法学生的 12 款专业工具（插件），包
 🔗 https://mp.weixin.qq.com/s/8SzgoOty4UqUgXMOgTd9eA
 
 📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-05-15.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #581 | 2026-05-14</title>
-      <link>https://news.justin7974.dev/2026-05-14.html</link>
-      <guid>https://news.justin7974.dev/2026-05-14.html</guid>
-      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 15 条推文 · 7 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. The Deployment Company, Back to the 70s, Apple and Intel
-OpenAI 成立新公司 &quot;OpenAI Deployment Company&quot; 并投入数十亿美元，专门帮助企业部署 AI 系统，同时收购了 AI 咨询公司 Tomoro。Google 紧随其后招聘数百名&quot;前沿部署工程师&quot;，Anthropic 则与 PE 基金成立合资公司向 PE portfolio 推销 AI。Ben Thompson 认为这验证了他 2024 年的判断：AI 企业落地更像 70 年代大型机时代的自上而下实施，而非 SaaS 时代的自下而上采纳。此外，Apple 与 Intel 达成初步协议由 Intel 代工部分芯片，核心原因是 TSMC 产能不足导致多条产品线供应受限。
-🔗 https://stratechery.com/2026/the-deployment-company-back-to-the-70s-apple-and-intel/
-
-2. Is Software Losing Its Head?
-a16z 合伙人 Seema Amble 深度分析了 Agent 时代企业软件 &quot;System of Record&quot; 的防御性变迁。Salesforce 推出 headless 产品后引发根本问题：当 UI 被剥离、Agent 直接通过 API 操作数据时，传统 SoR 的护城河在哪里？文章提出，人类习惯和 UI 粘性将消退，但运营逻辑、合规数据、多方网络效应和真实世界执行层将成为新的防御壁垒。对 AI 原生替代者来说，关键不再是&quot;存储记录&quot;，而是能否拥有行动层闭环、专有数据生成和网络效应。
-🔗 https://www.a16z.news/p/is-software-losing-its-head
-
-3. [AINews] The End of Finetuning
-OpenAI 宣布废弃 finetuning API，这是 2026 年继 Sora 之后又一个被砍掉的&quot;副业&quot;。Latent Space 分析认为，对 80% 的 AI 工程行业而言 finetuning 趋势已死——长 prompt（如 Claude 的 Constitution）足以替代。但顶级玩家如 Cursor 和估值 250 亿美元的 Cognition 反而在加大开源模型 RLFT 的投入。此外还覆盖了多条技术动态：Perplexity 在 GB200 上服务 Qwen3 235B MoE 模型、Google Gemini 作为 OS 级智能层进入操作系统、Isomorphic Labs 获 21 亿美元融资，以及针对 AI 工具链的供应链攻击扩展到 Mistral AI 和 Guardrails AI。
-🔗 https://www.latent.space/p/ainews-the-end-of-finetuning
-
-4. 林俊旸创业，新公司估值约20亿美金丨智能涌现独家
-前阿里千问大模型技术负责人林俊旸正式创业，方向为世界模型和具身大脑，以约 20 亿美金估值开启融资，接触的基金包括红杉中国、高榕创投。相比 World Labs（50 亿）和 AMI Labs（35 亿），这一估值在硅谷同行中不算贵。
-🔗 https://36kr.com/p/3807382930251523?f=rss
-
-5. 阿里云外部收入增长40%创新高，AI收入占比首破30%
-阿里巴巴 Q1 财报显示阿里云收入同比增长 38% 至 416 亿元，AI 相关产品收入达 90 亿元连续 11 个季度三位数增长，占外部收入首次突破 30%。百炼平台客户数同比增长 8 倍。
-🔗 https://www.leiphone.com/category/industrynews/bun2xa6hMdgmEPLh.html
-
-🐦 Twitter 精选（5 / 15）
-
-1. @emollick：英国 AI 安全研究所发现 Mythos 是首个在网络安全能力上取得重大突破的模型，GPT-5.5 也有类似进展；AI 能力倍增周期约为 4.5 个月。
-🔗 https://x.com/emollick/status/2054595505712165154
-
-2. @emollick：质疑 Anthropic Mythos 的发布路径——Google 和 OpenAI 会推出同等模型且采用不同的安全护栏策略，Anthropic 如何摆脱政府审批的束缚？
-🔗 https://x.com/emollick/status/2054566138470617268
-
-3. @bcherny：Anthropic 工程师确认英国 AISI 发现 Mythos Preview 是首个端到端攻克其两个网络安全靶场的模型，正加速将能力交付给防御方。
-🔗 https://x.com/bcherny/status/2054617810253615147
-
-4. @hongming731：BestBlogs 早报精讲：Anthropic 揭示 Computer Use 点击不准的根因是截图被压缩致坐标偏移、OpenAI 的 Windows Codex 沙箱方案、生产级 Agent 评估框架。
-🔗 https://x.com/hongming731/status/2054703467088986483
-
-5. @hongming731：OpenAI 为 Codex 引入 Computer Use，从代码操作扩展到本地 GUI 应用操控；独立光标设计使 AI 成为后台并行的&quot;队友&quot;。
-🔗 https://x.com/hongming731/status/2054364556655485062
-
-📱 公众号精选（5 / 7）
-
-1. AI Labs 都在用，ClickHouse 能成为 AI 日志的实时分析引擎吗？
-ClickHouse Cloud ARR 在 2025 年保持 250% 同比增速，从约 1500 万美元增长至 1.6 亿美元，2026 年 1 月 D 轮估值达 150 亿美元。Anthropic 在 Claude 3.5 发布后 APM 系统崩溃，迁移至 ClickHouse 仅 3 人团队即管理全部可观测性基础设施；OpenAI 也在多分片 ClickHouse 集群上自建可观测方案。三笔关键收购（HyperDX→可观测性、Langfuse→LLM 可观测性、Postgres Service→OLTP）将其从单一 OLAP 引擎扩展为数据平台，正式进入 Datadog/Snowflake 同段位竞争。
-🔗 https://mp.weixin.qq.com/s/iq2fwhNrk7sxjsufjbB9Gw
-
-2. 击败40个对手拿下亚马逊订单，AI语音Vapi估值5亿美元
-Amazon Ring 评估 40+ AI 语音供应商后选择 Vapi 处理 100% 入站电话，助力其完成 Peak XV 领投的 5000 万美元 B 轮融资，投后估值约 5 亿美元。Vapi 已累计处理超 10 亿次通话，日处理量 100-500 万次，企业客户包括 Amazon Ring、Kavak、New York Life 等，自助平台超 100 万开发者。创始团队来自 YC，定位是语音 Agent 基础设施和编排层而非预包装应用。
-🔗 https://mp.weixin.qq.com/s/TmWetRbuvPBwL7xtm4x05A
-
-3. 对话黄岩：拒绝&quot;压扁&quot;物理世界，一个少数派对具身智能的第一性原理对赌
-深度访谈具身智能创业者黄岩。核心观点：当前主流路径在中间层将三维信息压缩为一维向量导致空间关系流失，其 BridgeVLA 模型通过保留三维热力图实现每个任务仅 3 条轨迹即达 96.8% 成功率，将部署成本压缩至传统方案的百分之一。
-🔗 https://mp.weixin.qq.com/s/AnFqHAUPnCwWcQTFZp2WTA
-
-4. 72小时合了14个PR每个都更好——差距只在一个机制
-YC CEO Garry Tan 用 Claude Code 和 Codex 同时跑 15 个并行会话，72 小时完成 14 个 PR、近 29000 行代码且质量持续提升。关键机制是&quot;复杂度棘轮&quot;：每次 AI 编程会话留下测试、文档和评估结果，形成只进不退的质量地板。
-🔗 https://mp.weixin.qq.com/s/sMoSwp1f0cR6PI8_ZT4oNQ
-
-5. 黄仁勋阿拉斯加登机，临时加入访华团
-Bloomberg 报道 NVIDIA CEO 黄仁勋在 Air Force One 阿拉斯加经停时临时登机加入特朗普访华团，此前未出现在白宫公布的初始 16 人 CEO 名单上。马斯克和库克已在此前登机。
-🔗 https://mp.weixin.qq.com/s/HoOmAwJT89bPbaA3dCl42A
-
-📖 查看完整日报（32 篇）→ https://news.justin7974.dev/2026-05-14.html</description>
     </item>
   </channel>
 </rss>
