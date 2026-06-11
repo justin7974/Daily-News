@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 10 Jun 2026 00:11:40 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 00:12:49 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #609 | 2026-06-11</title>
+      <link>https://news.justin7974.dev/2026-06-11.html</link>
+      <guid>https://news.justin7974.dev/2026-06-11.html</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 18 条推文 · 8 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. [AINews] Anthropic Claude Fable 5 — Mythos but Safe, with Controversial Terms
+Opus 4.8 发布仅两周，Anthropic 就推出了 Mythos 级模型 Fable 5，定价约为 Opus 的两倍（$10/$50 per M tokens）。FrontierCode Diamond 基准从 13.4% 跃升至 29.3%，CursorBench 刷新 SOTA 至 72.9%。但发布伴随两项争议政策：一是所有 Mythos 级流量强制 30 天数据留存（ZDR），二是通过隐形 steering vectors 和 PEFT 限制模型在前沿 LLM 开发任务上的表现——用户不会收到任何提示，模型只是&quot;变笨了&quot;。Anthropic 估计这影响不到 0.03% 的流量，但开源社区反应强烈。
+🔗 https://www.latent.space/p/ainews-anthropic-claude-fable-5-mythos
+
+2. Everything is Recorded Now
+a16z 的 David Haber 指出，企业内部正在发生一个不可逆转的变化：几乎所有工作会议默认被录音。AI 需要像新员工一样被&quot;onboard&quot;——不是读文档，而是参加会议、通过耳濡目染学习公司文化和决策上下文。Bridgewater 的全面录音制度多年来被视为怪异，如今 OpenAI 已经在用 agent 代替高管出席会议。一个新的企业软件品类正在出现——以语音而非文本为核心的 system of record，而&quot;口头文化&quot;公司（如 Shopify、OpenAI）将在 AI 时代获得不对称优势。
+🔗 https://www.a16z.news/p/everything-is-recorded-now
+
+3. Breaking news, and how the end might begin
+Gary Marcus 回顾了 5 月 22 日与预测次贷危机的 Steve Eisman（《大空头》原型）的对话。Eisman 认为 AI 泡沫的破裂方式可能类似次贷——当终端买家拒绝为 token 付费时，&quot;整台机器就会死停&quot;。Marcus 判断 OpenAI 最可能先出问题：烧钱最快、资产最少、已开始对投资者做越来越多让步（保底回报率 17.5%、融资条件挂钩 AGI 或 IPO）。Eisman 直言：如果 OpenAI 出事，&quot;不是涟漪，是海啸&quot;——Oracle 在 Q3 财报后因 AI backlog 数字从 230 涨到 330，这种估值结构极度脆弱。
+🔗 https://garymarcus.substack.com/p/breaking-news-and-how-the-end-might
+
+4. Breaking: Google liable for hallucinations
+一项法律判决认定 Google 需为 AI 幻觉内容承担责任。Marcus 认为这可能是&quot;巨大的&quot;先例——如果其他国家效仿，整个生成式 AI 行业都将面临法律风险重估。评论区一位读者精辟总结了这个矛盾：&quot;你不能一边说我们的 AI 是超级智能、胜过一屋子博士，一边又说它会胡编乱造、用户自己负责核实。这是大规模欺骗。&quot;
+🔗 https://garymarcus.substack.com/p/breaking-google-liable-for-hallucinations
+
+5. Gaslighting Openness
+Flask 和 Sentry 创始人 Armin Ronacher 撰文指出，AI 领域正在发生一场关于&quot;开放&quot;的叙事操控。Anthropic 用安全和国家安全语言包装限制，但实质是在公共作品上训练模型后阻止开源社区学习和蒸馏这些系统。Apple 以安全为由延迟欧洲 AI 功能上线，实质是抵抗 DMA 要求的开放。他认为 EU 的 DMA 尽管争议重重，但正是防止&quot;关门打狗&quot;的关键制衡——短期的产品体验损失，换来的是长期的技术准入权。
+🔗 https://lucumr.pocoo.org/2026/6/10/gaslighting/
+
+🐦 Twitter 精选（5 / 18）
+
+1. @Hesamation：Google 发布 DiffusionGemma 扩散式推理模型，可并行生成 256 个 token，H100 上达 1000+ tok/s，RTX 5090 达 700+ tok/s。26B MoE 架构仅 3.8B 活跃参数，18GB 显存即可运行。
+🔗 https://x.com/Hesamation/status/2064761225058136456
+
+2. @cursor_ai：Cursor 代码审查 agent 速度提升 3 倍、成本降低 22%、bug 检出率提高 10%。同时支持用 /review 命令在编辑器内直接触发审查。
+🔗 https://x.com/cursor_ai/status/2064774675021119825
+
+3. @shao__meng：Cohere 发布首个开源编程模型 North Mini Code：MoE 架构（30B 总参数，3B 活跃），128 专家，256K 输入 / 64K 输出上下文，最低硬件需求仅 16GB 显存。
+🔗 https://x.com/shao__meng/status/2064518114835108255
+
+4. @karminski3：Fable 5 xhigh 模式实测：从零写光追渲染器，PBR 和 BRDF 表现出色，但仍存在一些奇怪的 bug，认为&quot;超越人类还为时尚早&quot;。
+🔗 https://x.com/karminski3/status/2064498333117567299
+
+5. @EXM7777：Claude Fable 5 能将数月工程压缩到数天，但核心问题是无法完全信任单次输出——需要多轮验证才能确保质量。
+🔗 https://x.com/EXM7777/status/2064791469861597282
+
+📱 公众号精选（5 / 8）
+
+1. 速递｜AI氛围编程Lovable：成立不到三年，ARR破5亿美元，每周新增百万项目
+欧洲 vibe coding 初创公司 Lovable 年化收入突破 5 亿美元，较 2 月的 4 亿美元继续增长。平台累计构建超 5000 万项目，使用量加速至每周新增 100 万。用户调查显示主要用户为非技术人员——创始人、设计师、销售，构建从电商到 CRM 到 HR 平台的各类工具。去年 8 月该公司曾表示有望 12 个月内 ARR 达 10 亿。
+🔗 https://mp.weixin.qq.com/s/cSvmrvSLvxoYefIeqCegpA
+
+2. 速递｜英伟达领投，AI科学实验室Lila Sciences拟融资20亿美元，估值85亿美元
+AI 科学研究公司 Lila Sciences 正洽谈 B 轮融资约 20 亿美元，融资前估值约 85 亿美元，由 CalPERS 和 NVIDIA NVentures 领投。去年 10 月 A 轮 3.5 亿美元估值 13 亿，不到一年估值翻了 6.5 倍。该公司由 Moderna 孵化器 Flagship Pioneering 创立，利用 AI 加速科学发现。
+🔗 https://mp.weixin.qq.com/s/BoVGv_q5bW1MayrPqCIaOQ
+
+3. 对话蓝色光标 CEO 潘飞：三次内部创业，和一个正在重生的&quot;新蓝标&quot;
+蓝色光标 2025 年 AI 相关收入达 37.25 亿元，毛利率数倍于传统业务；2026 年 Q1 AI 业务 Token 调用量已达去年全年的三倍。每个员工的 Token 费用无上限报销。这家 30 岁营销集团正在从&quot;帮客户买媒体投广告&quot;转型为 AI 原生的内容生产和投放平台——2023 年喊出&quot;All in AI&quot;三年后，终于在财务数据上交出了证明。
+🔗 https://mp.weixin.qq.com/s/i6Jdzf6QDT3tTK1CkRmo4A
+
+4. 腾讯做了一堆情感陪伴Agent
+腾讯发布 Marvis 本地 Agent，以对话框形式运行，能下载公众号文章、清理电脑垃圾等。最有趣的是其&quot;办公室&quot;可视化——多个 Agent 模拟白领工作场景，没活干时还会在电脑上打《王者荣耀》。
+🔗 https://mp.weixin.qq.com/s/io9jgZ_bLWe0t8CvqUf4Jw
+
+5. Claude 最强模型 Fable 5 全解析：Mythos 级别的怪物
+Mythos 和 Fable 底层同一个模型，区别在护栏：Mythos 给政府和特定机构（$25/$125），Fable 面向所有人（$10/$50，刚好比 Opus 4.8 贵一倍）。Pro/Max/Team 用户 6 月 22 日前可用，之后需 usage credits。
+🔗 https://mp.weixin.qq.com/s/v_G9KaCnjkPHeMCJ5E9VPA
+
+📖 查看完整日报（38 篇）→ https://news.justin7974.dev/2026-06-11.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #608 | 2026-06-10</title>
       <link>https://news.justin7974.dev/2026-06-10.html</link>
@@ -1316,76 +1386,6 @@ DeepSeek 再次以激进定价策略冲击 AI 市场。作为已经通过 V3/R1 
 🔗 https://mp.weixin.qq.com/s/rfvF13138Hf_hJwV983J4Q
 
 📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-05-23.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #589 | 2026-05-22</title>
-      <link>https://news.justin7974.dev/2026-05-22.html</link>
-      <guid>https://news.justin7974.dev/2026-05-22.html</guid>
-      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
-      <description>今日共 11 篇 RSS · 15 条推文 · 8 篇公众号
-
-📰 RSS 精选（5 / 11）
-
-1. [AINews] OpenAI GPT-next 用不到 $1000 推翻了 80 年历史的 Erdős 平面单位距离猜想
-OpenAI 一个通用推理模型（推测为 GPT-5.6）在不到 32 小时、花费不到 $1000 的情况下，推翻了 Erdős 1946 年提出的平面单位距离猜想。模型产出了 125 页推理过程，发现了一族超越方格网格解的新构造。菲尔兹奖得主 Timothy Gowers 称其为&quot;AI 首次真正解决一个著名开放数学问题的清晰例子&quot;。OpenAI 强调这是通用模型而非专用数学系统。同日 Cohere 以 Apache 2.0 开源了 Command A+。
-🔗 https://www.latent.space/p/ainews-openai-gpt-next-disproves
-
-2. Giving Agents Computers — Daytona 74% 月环比增长，日跑 85 万个 Sandbox
-Daytona CEO Ivan Burazin 深度访谈：公司从开发者云端 IDE 转型为 AI Agent 沙箱基础设施，实现 74% 月环比增长。单一客户日均运行近 85 万个 sandbox，RL/评估工作负载从零飙升至总用量的约 50%。Daytona 运行在裸金属上并自研调度器，提供有状态、可动态扩展、秒级启动的 Agent 计算环境。Ivan 认为&quot;localhost 之死&quot;终于到来——Agent 不关心你的笔记本电脑，它们需要通过 API 访问的可编程计算机。
-🔗 https://www.latent.space/p/daytona
-
-3. SpaceX IPO：轨道数据中心成为 Musk 宏大愿景的核心
-SpaceX 招股书显示公司整体 TAM 估值 $28.5 万亿，其中 93%（$26.5 万亿）与 AI 相关。AI 基础设施占 $2.4 万亿，企业应用占 $22.7 万亿。SpaceX 押注轨道数据中心可以训练与 OpenAI、Anthropic 竞争的前沿模型，同时将 token 成本压到足够低以解锁企业市场。但招股书承认，轨道数据中心卫星最早要到 2028 年才开始部署。考虑到 Musk 一贯的时间表偏差，实际时间存在较大不确定性。
-🔗 https://www.newcomer.co/p/spacex-ipo-orbital-data-centers-emerge
-
-4. Google I/O 2026：Gemini 3.5、Omni 多模态生成、Spark 个人 Agent 全面发布
-Gemini 3.5 Flash 成为 Gemini 应用和 Search AI Mode 的默认模型，3.5 Pro 下月跟进。Gemini Omni 是全新模型家族，支持文本+图片+视频+音频到视频的多模态生成。Gemini Spark 是 Google 版&quot;OpenClaw&quot;——基于 Gemini 3.5 Flash 的 24/7 后台 Agent，可连接 Workspace 和第三方应用。Universal Cart 打通 YouTube、Search、Gemini、Gmail 的跨商家购物车。AI Studio 支持用自然语言构建 Android 应用并发布到 Play Store。
-🔗 https://www.theverge.com/tech/933415/google-io-2026-biggest-announcements-ai-gemini?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6Ik5tNTBSc0hxRXQiLCJwIjoiL3RlY2gvOTMzNDE1L2dvb2dsZS1pby0yMDI2LWJpZ2dlc3QtYW5ub3VuY2VtZW50cy1haS1nZW1pbmkiLCJleHAiOjE3Nzk3NTk5MjQsImlhdCI6MTc3OTMyNzkyNH0.g_JiqbJBfi9YcDT1re8aofzmpb3tcZNwY2jQybgwJL0
-
-5. Anthropic &quot;盈利&quot;是怎么算出来的：一场精心设计的数字游戏
-WSJ 报道 Anthropic Q2 收入将翻倍至 $109 亿，运营利润 $5.59 亿——首个盈利季度。但文章拆解发现：Anthropic 5-6 月开始按 $12.5 亿/月向 SpaceX 购买 Colossus 算力，但初期享有折扣费率，恰好压低了这两个月的成本。Anthropic 自己也承认&quot;全年可能无法保持盈利&quot;。今年 1 月 The Information 报道其推理成本比预期高 23%。此外，Anthropic 尚未遵循上市公司的财务报告要求，使用的非 GAAP 会计方法不透明。
-🔗 https://www.wheresyoured.at/anthropics-profitability-swindle/
-
-🐦 Twitter 精选（5 / 15）
-
-1. @emollick：GPT-5.2 在学术同行评审中达到专家水平：45 位科学家花 469 小时评估了 82 篇论文的人类与 AI 审稿意见，发现 AI 审稿已可与 Nature 官方顶级审稿人竞争。
-🔗 https://x.com/emollick/status/2057528309727088907
-
-2. @emollick：算力严重短缺将导致复杂 Agent 工作流极其昂贵，而单轮聊天机器人反而越来越便宜。结果可能是：最富的公司用 AI Agent，其他人只能用聊天机器人——AI 的民主化叙事面临分裂。
-🔗 https://x.com/emollick/status/2057565824341127432
-
-3. @emollick：AI 在没有已知问题清单的科学领域中，仍然不擅长发现有趣的研究问题。这一直是培养博士最难的部分——否则你只会找到小问题、无法推进领域的问题或不能泛化的问题。
-🔗 https://x.com/emollick/status/2057469699567260072
-
-4. @_akhaliq：Mix-Quant 论文：对 Agent 类 LLM 采用量化 Prefilling + 精确 Decoding 的混合策略，在保持 Agent 任务精度的同时降低推理成本。
-🔗 https://x.com/_akhaliq/status/2057511086958452825
-
-5. @bcherny：Claude Code 下一版本将新增 /usage 命令，展示 Skills、Agents、MCP 和 Plugins 各自的 token 消耗明细。CLI 先行，Desktop 版随后。
-🔗 https://x.com/bcherny/status/2057476878110261587
-
-📱 公众号精选（5 / 8）
-
-1. 从 Agent 开权限开始，Serval 想成为下一代 ServiceNow
-员工在 Slack 里说一句&quot;帮我开 Cursor&quot;，系统自动判断身份、权限、审批规则，调用 workflow 完成操作，到期自动回收权限。Serval 把 IT help desk 从工单系统推向 governed execution layer——请求高频、动作明确、权限重要、结果可验证、ROI 直接。这类场景是 enterprise agent 最早成立的地方。
-🔗 https://mp.weixin.qq.com/s/7U92Rhlzvr2PRIhOybQcVw
-
-2. AI 抢人大战，批量制造这个时代的流量明星
-三年间 AI 研究员薪资从年薪百万涨到破亿。传言姚顺雨以亿元薪酬入职腾讯，郭达雅以近亿年薪加盟字节。海外部分研究员年薪超过 NBA 顶薪的库里，甚至超过执掌苹果多年的库克。A 股 5400+ 家上市公司中董事长平均年薪仅 133.94 万，一半以上公司全年净利润不到 1 亿。
-🔗 https://mp.weixin.qq.com/s/fbpWu1674pwB260FBrIsWw
-
-3. OpenAI 和 Google 联手推 SynthID，要让每一张 AI 图片都无所遁形
-OpenAI 官宣接入 Google SynthID 并推出 AI 图片检测工具，强化内容溯源。当造假成本趋近于零且没有有效识别手段时，信任成本趋近于无穷大。两大竞争对手在内容安全上选择合作，试图用最低成本让 AI 生成图片可被识别。
-🔗 https://mp.weixin.qq.com/s/OIyttSapeDkwD9Flt7XIEA
-
-4. 悬了 80 年的数学猜想，被 GPT 推翻了
-菲尔兹奖得主 Gowers 表示&quot;如果你是数学家，最好先坐下来再往下读&quot;。GPT 同时帮助解决了另一个悬了 40 年的 Nesterov 加速梯度法点收敛问题。AI 做数学的能力已不需要刷 AIME 来证明。
-🔗 https://mp.weixin.qq.com/s/adA3Mt6UVg73wo31r_Jx_Q
-
-5. 车企集体押注&quot;新三大件&quot;，买电车的标准变了
-线控转向、高线数激光雷达+大算力芯片、全域 800V 高压架构组成电车&quot;新三大件&quot;，取代传统的冰箱彩电大沙发。蔚来、理想、小鹏均有投入，底层能力竞争正取代表层体验竞争。
-🔗 https://mp.weixin.qq.com/s/cL_q-gGx3L4siFqLQZpgEQ
-
-📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-05-22.html</description>
     </item>
   </channel>
 </rss>
