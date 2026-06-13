@@ -5,8 +5,56 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 12 Jun 2026 00:15:20 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 00:14:01 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #611 | 2026-06-13</title>
+      <link>https://news.justin7974.dev/2026-06-13.html</link>
+      <guid>https://news.justin7974.dev/2026-06-13.html</guid>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 15 条推文 · 0 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. David Sacks&apos; Warning About Anthropic Regulatory Pleas Misses the Mark &amp; SpaceX Asks Investors to Dream Big in Mega IPO
+SpaceX 以 $1.8 万亿估值完成 $750 亿 IPO，成为史上最大 IPO，BlackRock 单笔认购至少 $50 亿，总认购超额 4 倍。Anthropic CEO Dario Amodei 呼吁对训练超过 10²⁵ FLOPs 的基础模型实施类似汽车和飞机级别的政府监管，David Sacks 则批评其为&quot;sophisticated regulatory capture strategy&quot;。OpenAI 正在考虑大幅下调 token 价格以应对竞争压力，Databricks 据报也在筹备新一轮私募融资。AI 创业公司 Poetic 获 Kleiner Perkins 领投的 $5000 万 A 轮。
+🔗 https://www.newcomer.co/p/david-sacks-warning-about-anthropic
+
+2. 2026.24: Hey Siri, Tell Me a Fable
+Ben Thompson 本周回顾三条主线。Apple 终于在 WWDC 2026 交付了真正可用的 Siri AI——演示慢到不可能造假，对比两年前的 vaporware 是实质性进步。Anthropic 的 Fable 5 因暗中限制 AI 研究用途引发社区反弹后一天内撤回政策，Thompson 认为这种行为正是他此前批评 Anthropic 对政府立场时所预见的。第三条线是欧盟与中国贸易摩擦升温，G7 和布鲁塞尔峰会前各方加速博弈。
+🔗 https://stratechery.com/2026/hey-siri-tell-me-a-fable/
+
+3. Charts of the Week: Making the Stuff that Makes the Stuff
+美国制造业出现了一个 &quot;boom-let&quot;——订单和产能数据都在回升，但远不是真正的再工业化。核心瓶颈是 capital stock 问题：各主要工业品类中，进口增速超过了设备和厂房的资本存量增速。设备和结构投资占 GDP 比重自 80 年代以来持续下降，即使近年设备投资增速接近 9%，也主要被 AI 相关需求拉动。非 AI 核心工业机械投资约一半是涡轮机和暖通，另一半可能也与半导体相关。
+🔗 https://www.a16z.news/p/charts-of-the-week-making-the-stuff
+
+4. [AINews] Loopcraft: The Art of Stacking Loops
+Karpathy、Steinberger、Boris Cherny 三人不约而同提出同一主张：不要再亲自 prompt AI agent，而是设计让 agent 自主运行的循环（loop）系统。Karpathy 原话是&quot;我不想当研究员在回路中，我在拖后腿&quot;。Latent Space 将此总结为&quot;Salty Lesson&quot;——对应 Sutton 的 Bitter Lesson：不要自己修问题，把精力放在随 agent 数量扩展的系统上。文章同时汇总了 Fable 5 首周社区反馈：FrontierSWE 排名第一、部分任务可持续工作近 20 小时，但成本高昂、安全回退和输出泄露&quot;neuralese&quot;等问题突出。
+🔗 https://www.latent.space/p/ainews-loopcraft-the-art-of-stacking
+
+5. olmo-eval: An evaluation workbench for the model development loop
+Allen AI 发布 olmo-eval，面向 LLM 开发循环的评测工作台。与一次性跑分不同，它把 benchmark 逻辑和运行策略解耦，支持逐问题级别的检查点对比，帮助分辨真实改进和统计噪声。
+🔗 https://huggingface.co/blog/allenai/olmo-eval
+
+🐦 Twitter 精选（5 / 15）
+
+1. @karminski3：FlashMemory 论文提出神经内存索引器，预判生成时需要的 KV Cache 片段并预加载，将 DeepSeekV4 百万上下文的显存占用从 10GB 压缩到 1.3GB，效果不降反升。
+🔗 https://x.com/karminski3/status/2065258023690600795
+
+2. @karminski3：Kimi K2.7 Code 发布，在 K2.6 基础上针对编程 Agent 专项优化，Kimi Code Bench v2 相比 K2.6 提升 11%。架构不变，属于后训练优化版本，适合编程和需要外部 Agent 验证的任务。
+🔗 https://x.com/karminski3/status/2065572072542392813
+
+3. @shao__meng：K2.7 Code 三项编码基准均有提升但未登顶——与 GPT-5.5、Opus 4.8 差距缩小。亮点是 MCP Mark Verified 达 81.1 超过 Opus 4.8 的 76.4，MCP 工具调用成为差异化优势。
+🔗 https://x.com/shao__meng/status/2065391798961442966
+
+4. @_akhaliq：SpenseGPT 提出实用的 one-shot 剪枝方法，能同时启用稀疏和稠密 GEMM 加速 LLM 推理，兼顾压缩率与实际推理速度。
+🔗 https://x.com/_akhaliq/status/2065506907264045307
+
+5. @emollick：论文发现通用 Frontier LLM 在三项医疗评估中全面优于专用临床 AI 工具（如 OpenEvidence），后者表现仅与 Google 搜索 AI Overview 相当。
+🔗 https://x.com/emollick/status/2065444925483692192
+
+📖 查看完整日报（25 篇）→ https://news.justin7974.dev/2026-06-13.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #610 | 2026-06-12</title>
       <link>https://news.justin7974.dev/2026-06-12.html</link>
@@ -1320,72 +1368,6 @@ AGENT橘 对 DeepSeek 战略的原创解读，论证梁文锋押注 MoE/GRPO/RLV
 🔗 https://mp.weixin.qq.com/s/a4MQXW9hBW8meHDRjwRqgA
 
 📖 查看完整日报（29 篇）→ https://news.justin7974.dev/2026-05-25.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #591 | 2026-05-24</title>
-      <link>https://news.justin7974.dev/2026-05-24.html</link>
-      <guid>https://news.justin7974.dev/2026-05-24.html</guid>
-      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 13 条推文 · 4 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. White House, Anthropic Near Deal For Spy Agencies to Use AI
-白宫正在与 Anthropic 敲定一项协议，允许 NSA 等美国情报机构使用其先进 AI 模型处理机密工作。此前国防部曾对 Anthropic 进行特殊标记审查。该协议意味着 Claude 模型将正式进入美国政府最高保密级别的应用场景，也标志着 AI 安全公司与国家安全机构之间的合作进入实质阶段。
-🔗 https://www.theinformation.com/briefings/white-house-anthropic-near-deal-spy-agencies-use-ai
-
-2. [AINews] All Model Labs are now Agent Labs
-OpenAI 联合创始人 Greg Brockman 公开表态&quot;模型本身不再是产品&quot;，标志着头部 AI 实验室的共识转向。AI21 关闭模型团队全面转向 Agent，DeepSeek 首次组建&quot;Harness 团队&quot;。Latent Space 指出一个值得警惕的趋势：模型与 Agent 框架深度耦合后训练，厂商可以事实上将用户锁定在自家 Agent 生态中，即便模型本身是开源的。DeepSeek V4 Pro 永久降价 75%，API 综合成本约 $0.18/M token，比 GPT-5.5 便宜约 12 倍。
-🔗 https://www.latent.space/p/ainews-all-model-labs-are-now-agent
-
-3. Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models
-NVIDIA 发布 Nemotron-Labs Diffusion 系列扩散语言模型（3B/8B/14B），打破自回归模型&quot;逐 token 生成&quot;的根本瓶颈。该模型并行生成多个 token 后迭代精炼，更充分利用 GPU 算力，且具备修改已生成 token 的能力。模型以商业友好的 NVIDIA Nemotron Open License 发布，同时提供 8B 视觉语言模型变体。
-🔗 https://huggingface.co/blog/nvidia/nemotron-labs-diffusion
-
-4. There is only one bad AI scenario
-geohot 提出反主流的 AI 风险框架：真正的危险不是 Skynet 式人机大战或灰蛊场景，而是以&quot;安全&quot;之名建立的 singleton——一个没有外部的统一控制层。暴力被预防、现实被中介、一切以行政语言推行。在这种系统中，没有独立行为者能施加成本，没有竞争系统能绕过它，没有不受控的演化过程能产生意外。不是一场与机器的战争，而是演化的缓慢终结。
-🔗 https://geohot.github.io//blog/jekyll/update/2026/05/23/one-bad-scenario.html
-
-5. 对话王小川：离开通用人工智能的主干道之后
-百川智能一年前大幅缩减通用模型团队 All in 医疗 AI，新发布医疗大模型 M4 和 Agent 产品&quot;百小医&quot;。在 HealthBench 评测中表现最佳，北京儿童医院 AI 诊断与专家会诊结果吻合率达 95%。
-🔗 https://36kr.com/p/3821521291038856?f=rss
-
-🐦 Twitter 精选（5 / 13）
-
-1. @emollick：GPT-5.5 Pro 在事实核查方面表现出色，可以逐章检查引用准确性。唯一不足是过于追求细微差异，会返回大量&quot;大方向对但忽略了小细节 X&quot;的反馈。
-🔗 https://x.com/emollick/status/2058331615525232988
-
-2. @godofprompt：OpenAI 内部推理模型一次尝试就解决了 Erdos 1946 年提出的 80 年未解数学难题。9 位顶级数学家验证了证明，菲尔兹奖得主表示会&quot;毫不犹豫地推荐发表&quot;。该模型是通用推理系统，无数学专项训练。
-🔗 https://x.com/godofprompt/status/2058201338413195702
-
-3. @egeberkina：实测 Runway Aleph 2.0：选取视频中的单帧，用 Nano Banana Pro 或 GPT Image 2 对该帧进行修改，Aleph 能将修改自动传播到整个镜头序列。从一帧编辑到全序列适配，效果惊艳。
-🔗 https://x.com/egeberkina/status/2058199446937125055
-
-4. @hongming731：BestBlogs 早报三大主题：Agent 架构在生产端形成长时程与实时两类分化（LangChain Interrupt 2027）；Notion 以爵士乐队模式重新创业（Ivan Zhao x Sequoia）；GLM-5.1 高速版 400 tokens/s 打破&quot;快必然小&quot;的惯例。
-🔗 https://x.com/hongming731/status/2057992936923824147
-
-5. @shao__meng：Wix VP 推出免费课程「Zero to Claude Code」，14 级 147 课 10 种交互形态，从零基础到能用 Claude Code 在生产环境发布软件。课程覆盖终端基础、Git、MCP 服务器、Subagents、Hooks 到毕业项目。
-🔗 https://x.com/shao__meng/status/2057997802735796293
-
-📱 公众号精选（4 / 4）
-
-1. 深度｜Starcloud创始人：未来最便宜的AI算力在太空中，我们要把数据中心搬上太空
-Starcloud CEO Philip Johnston 在红杉 AI Ascent 2026 上论证太空 AI 算力的经济可行性：太空无需土地审批、24 小时太阳能供电、每平方米能量密度是地面 8 倍，主要额外成本仅剩发射费用。盈亏平衡点约 $500/kg 发射成本（现需降约 10 倍），Starship 设计目标 $10-20/kg。已向 SEC 申请部署 88,000 颗卫星的星座系统，20GW 算力容量，capex 约 $1000 亿但仍低于同规模地面设施。几乎全部用于推理——推理很快将占整个算力市场的 99%。
-🔗 https://mp.weixin.qq.com/s/9pV4lpnHEJhHDm69-OO_cA
-
-2. 不用你按回车，Claude Code 会主动替你开 PR 了
-Anthropic 在 Code with Claude 大会上演示 Routines 功能：Claude Code 从被动工具变为主动队友。以文档工程师 Sarah 为例——团队 PR 量增长 200%，她用 Routines 搭建了定时扫描代码变更自动开文档 PR、以及 issue 创建时自动触发处理的两个自动化流程。三大能力：始终在线（不依赖本机）、灵活触发（定时/事件/webhook）、透明可介入（随时查看和调整 session）。
-🔗 https://mp.weixin.qq.com/s/J1PU1yegNM32PjUp7JQ7iQ
-
-3. Roblox 的AI能实时生成任何游戏场景，但玩了才发现根本没有目标
-Roblox 训练的 140 亿参数视频世界模型可以 24fps 实时生成画面，但交给游戏开发者试用后发现核心问题：画面有了，操控有了，但没有血量、任务和游戏逻辑——这不是游戏，只是美丽的荒野。解决方案叫&quot;Game Cartridge&quot;：用 Luau 代码写状态机管游戏逻辑，AI 管视觉渲染，VLM（视觉语言模型）充当桥梁实时观察画面触发逻辑回调。局限在于空间控制不够精准、角色外观长时间运行后会漂移。
-🔗 https://mp.weixin.qq.com/s/-qoxe1msCQQCzuk3mWC_mg
-
-4. 随便点开 20 个 YC 官网，有 16 个用的是同一套字体
-随机打开 20 个 YC 公司官网，16 个使用 Inter/Geist/Sohne/PP Neue Montreal 四款字体之一。Figma 模板、Next.js 框架默认值和从众效应三重锁定，&quot;科技史上同质化程度最高的字体时代&quot;。
-🔗 https://mp.weixin.qq.com/s/pWFRACYYnvRD0X5y9GvBaQ
-
-📖 查看完整日报（27 篇）→ https://news.justin7974.dev/2026-05-24.html</description>
     </item>
   </channel>
 </rss>
