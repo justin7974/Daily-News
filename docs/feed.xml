@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 17 Jun 2026 03:44:06 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 00:16:12 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #616 | 2026-06-18</title>
+      <link>https://news.justin7974.dev/2026-06-18.html</link>
+      <guid>https://news.justin7974.dev/2026-06-18.html</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 23 条推文 · 8 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. GLM-5.2: Built for Long-Horizon Tasks
+智谱 GLM-5.2 成为首个在前端编程盲测中超过所有 Opus（含 4.8）的开源模型，而它只有 744B 参数（Opus 据传至少两倍大）。MIT 许可、1M 上下文、与 5.1 同价（输入/输出 1.4/4.4 美元每百万 token）。在 FrontierSWE、PostTrainBench、SWE-Marathon 三个长程编程基准上均为开源第一，FrontierSWE 仅落后 Opus 4.8 1%、反超 GPT-5.5。新架构 IndexShare 每四层稀疏注意力复用同一索引器，1M 上下文下每 token FLOPs 降 2.9×；Terminal-Bench 2.1 拿到 81.0，逼近 Opus 4.8 的 85.0。
+🔗 https://huggingface.co/blog/zai-org/glm-52-blog
+
+2. Soaring Costs Prompt Fresh Interest in Open Source AI. Chinese Firms Are Way Ahead.
+算力成本飙升叠加前沿政治动荡，正重新点燃开源模型之争——投资人给这批横跨 AI stack 的开源创业公司起了个&quot;反抗军联盟&quot;（rebel alliance）的名号。自 2025 年 DeepSeek 突破后，美国实验室节节败退，Qwen、Kimi 已成为全球创业公司的默认底座，Meta 反而从开源战略收缩。估值 120 亿美元的 Poolside（Nvidia、Bain、DST 投资）把整个公司 all-in 开源，联合 CEO Eiso Kant 称这是&quot;公司唯一一次意识形态决策&quot;，今年 4 月已放出面向 agentic coding 的 Laguna XS.2。Bill Gurley 的判断很直白：没人愿意把全部 token 消耗押在一家公司、尤其是贵的那家。
+🔗 https://www.newcomer.co/p/soaring-costs-prompt-fresh-interest
+
+3. New research shows how AMIE, our medical AI, could help manage health conditions.
+Google 医疗 AI AMIE 登上 Nature——能力从&quot;一次性诊断对话&quot;扩展到&quot;长期慢病管理&quot;。基于 Gemini 的长上下文，AMIE 能调用药品处方集（drug formularies）和临床指南，跨多次问诊追踪症状、随指南更新调整用药，并配了一个有共情能力的实时对话 Agent。这标志着医疗 AI 的战线从&quot;给出诊断&quot;推进到&quot;持续管理治疗过程&quot;。
+🔗 https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/
+
+4. From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot
+AWS 开源了 Strands Robots（Apache 2.0），把机器人仿真、LeRobot 数据栈和策略推理统一封装成 AgentTools，用一个 Agent loop 串起&quot;从 Hub 数据集到物理机器人&quot;的全流程。关键在于仿真和真机用同一种磁盘数据格式，换策略只需改一个字符串（GR00T、MolmoAct2 等即插即换），再用一个 peer mesh 把同一个 Agent 扇出到多台机器人。它要解决的是今天具身智能&quot;录制/训练/仿真/部署/协同各用一套工具、彼此不通&quot;的碎片化痛点。
+🔗 https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware
+
+5. How to design AI agent loops: schedules, goals, and subagents in Claude Code and Codex
+&quot;提示词时代结束，循环时代开始&quot;——这期播客拆解四种 loop（heartbeat / cron / hook / goal）各自的适用场景，提出&quot;像 onboarding 一名员工那样设计循环&quot;的心智模型，并指出有效循环必备的五件套：worktree、skills、connectors、subagents、状态追踪。现场搭了两个能自主运行的循环：Claude Code 里每天 10:15 自动 review 老化 PR 并自己派生 subagent，Codex 里每周自动识别可沉淀的技能。结论是 goal loop 最难写、最容易烧 token。
+🔗 https://www.lennysnewsletter.com/p/how-to-design-ai-agent-loops-schedules
+
+🐦 Twitter 精选（5 / 23）
+
+1. @_akhaliq：分享 LoopCoder-v2 论文：用&quot;只循环一次&quot;（Only Loop Once）的方式实现高效的测试时计算扩展（test-time compute scaling）。
+🔗 https://x.com/_akhaliq/status/2067350422772130255
+
+2. @karminski3：GLM-5.2 实测中提升最大的是 Agent 能力且属质变：它一开始就把地图&quot;背下来&quot;，不搜附近位置就直接导航到目标，省掉一次 tool call，是他测过的 20 多个模型里唯一能做到的。
+🔗 https://x.com/karminski3/status/2067163145685319705
+
+3. @Hesamation：GPT-5.4 在 2.5 个月内改进了一个关键药物发现反应：测试 10,080 个反应，硼酸类产率提升 88%、磺酰胺类 83%，14 项结果经化学家验证。
+🔗 https://x.com/Hesamation/status/2067324278031196619
+
+4. @Hesamation：AI 视频下一代竞争点是&quot;反应时延&quot;，MaineCoon 成为低延迟 SOTA：22B 参数、首帧亚秒级、单张 H100 跑 47.5 FPS、音视频联合生成、可 10 分钟以上连续流式。
+🔗 https://x.com/Hesamation/status/2067202316441112967
+
+5. @shao__meng：Exa 发布 Exa Agent：托管式 Web Research Agent API，把前沿模型和自研搜索打包成单一接口，面向深度调研、名单构建、实体 enrichment，采用任务分解 + 并行子 Agent 的 Map-Reduce 研究架构。
+🔗 https://x.com/shao__meng/status/2067247791211168152
+
+📱 公众号精选（5 / 8）
+
+1. 速递｜IPO后首笔并购：SpaceX拟以600亿美元收购AI编程Cursor
+SpaceX 宣布以 600 亿美元收购 AI 编程公司 Cursor，这是其上周以约 1.77 万亿美元估值 IPO 后的首笔并购。SpaceX 今年 4 月已获得 600 亿美元收购 Cursor 的选择权，协议允许 Cursor 使用 SpaceX AI 部门的算力训练其编程模型 Composer，SpaceX 则获得加速自身编程类 AI 项目的工具与数据。马斯克在公司内部把这笔交易视作追赶 Anthropic、OpenAI 的途径，预计 2026 年三季度完成合并。
+🔗 https://mp.weixin.qq.com/s/-eXhjJrGwryGWAALEdy9Lg
+
+2. 速递｜高通拟收购AI芯片公司Tenstorrent，报价100亿美元，溢价近4倍
+高通正洽谈收购 AI 芯片设计公司 Tenstorrent，讨论价格在 80 亿至 100 亿美元之间，较 Tenstorrent 最新估值溢价显著（近 4 倍）。高通大部分收入来自手机和 PC 芯片，一直试图在 AI 数据中心芯片市场与对手抗衡；去年它刚以 24 亿美元收购了英国芯片互联公司 Alphawave Semi。高通年初至今股价涨 29%，市值约 2000 亿美元。
+🔗 https://mp.weixin.qq.com/s/nNI_xCorL_SW9lYnWhesZA
+
+3. 葬AI基准测试发布：GLM 5.2第一，超越Opus 4.8
+作者自研了一个真实工程基准——让智谱、Qwen、Kimi、MiniMax、DeepSeek 及作为对照的 Claude，各自独立重构一个含首页、知识图谱页、文章列表和 103 篇详情页的完整静态网站，每个模型跑 10 轮、共 60 个网站，再由 Agent 从完整性、图谱质量、视觉、交互稳定性等五维加权打分。结果 GLM-5.2 以 85.5 分微超 Claude Opus 4.8（85.2）拿下第一，其后是 Qwen 3.7 Max、Kimi K2.7-code、MiniMax M3、DeepSeek V4 Pro。作者同时抛出一个尖锐判断：所有模型都在刷 SWE-bench 导致同质化，&quot;卷编程甚至在损害写作能力&quot;。
+🔗 https://mp.weixin.qq.com/s/pCGsj_cY13SSX4zfBhzYyQ
+
+4. 深度｜Agent时代的下半场：谁在抢占中国企业AI的基础设施入口
+文章的核心论点是：AI ToB 的天花板不是几千亿美元的软件预算，而是十万亿美元级的&quot;工资表&quot;——当 Agent 开始承担客服、销售、财务、研发、法务等岗位的可标准化工作，它替代的是人力而非软件订阅（SpaceX 招股书估 AI 企业级市场达 22.7 万亿美元）。OpenAI、Anthropic 都在把重心从个人助手转向企业 Agent，并强化 FDE（Forward Deployed Engineer）这种让工程师直接进客户现场嵌入业务系统的组织形态。但作者认为中国受数据安全、私有化、成本和供应链自主约束，未必走美国&quot;超级模型 + 云端集中&quot;的路线，Zleap 给出的答案是 10 万元以内、单卡、本地部署的企业 Agent 一体机。
+🔗 https://mp.weixin.qq.com/s/XspPj0leXvnhMB-TF5fr0Q
+
+5. 人人都在教你搭 AI 的循环，但难的从来是另一半：验证
+文章转述 AI 工程师 Samuel McDonnell 对&quot;循环工程&quot;的冷水：一个 loop = 生成器 + 验证器，而瓶颈从来在验证器一侧。开放循环（给目标自由发挥）能产出新颖结果但烧 token、评判一松就变成&quot;喷废料的机器&quot;；今天真正能出活的是带评估闸门的封闭循环——功劳常被记在&quot;自主性&quot;上，但真正起作用的是那道挡住&quot;自信错误答案&quot;的闸。作者还区分内循环（任务内自测自修，已成熟）与外循环（跨会话把教训写进 SKILL.md/AGENTS.md，还只搭了一半），并以 Bun 作者用 Claude Code 把 75 万行运行时从 Zig 移植到 Rust（测试 99.8% 通过、6–11 天完成、每个文件配两个审查 Agent 加一层专门&quot;反驳&quot;的 Agent）为旗舰案例，点出&quot;验证不是最后一步，验证就是整个架构&quot;。
+🔗 https://mp.weixin.qq.com/s/xo6oA8gnihPG2ERGV9l4Sw
+
+📖 查看完整日报（43 篇）→ https://news.justin7974.dev/2026-06-18.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #615 | 2026-06-17</title>
       <link>https://news.justin7974.dev/2026-06-17.html</link>
@@ -1308,76 +1378,6 @@ Cursor 首份开发者报告关键数据：头部用户的 AI 代码产出和 to
 🔗 https://mp.weixin.qq.com/s/1frdcVhPUR9VNjPSXeRyrQ
 
 📖 查看完整日报（31 篇）→ https://news.justin7974.dev/2026-05-30.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #596 | 2026-05-29</title>
-      <link>https://news.justin7974.dev/2026-05-29.html</link>
-      <guid>https://news.justin7974.dev/2026-05-29.html</guid>
-      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 14 条推文 · 9 篇公众号
-
-📰 RSS 精选（5 / 12）
-
-1. Cognition raises $1B in $26B Series D
-Cognition 以 $26B 估值完成 $1B D 轮融资，由 Lux Capital、General Catalyst 和 8vc 领投。公司 ARR 预计年底超过 $10 亿，当前年化收入 $4.92 亿，企业使用量今年以来增长超过 10 倍。Latent Space 同步发布了 Cognition 增长曲线分析，认为 coding 是&quot;无上限 TAM 市场&quot;，Cognition 在 Exa、Modal、Ramp 等高标准企业客户中已建立 logo 壁垒。
-🔗 https://www.latent.space/p/ainews-cognition-raises-1b-in-26b
-
-2. &apos;Tokenmaxxing&apos; Starts to Fade as Companies Eye Agentic Coding Costs
-Salesforce 今年上半年在 agentic coding 上的初始 token 预算被证明是&quot;荒谬的低估&quot;，Uber 等科技公司也在大规模投入。但行业正在从&quot;尽情烧&quot;转向&quot;什么时候能看到回报&quot;。Newcomer 报道这场关于 ROI 测量时机和方法的辩论正在行业内激烈展开，核心问题是当前 AI coding 需求激增是否会成为新常态。
-🔗 https://www.newcomer.co/p/tokenmaxxing-starts-to-fade-as-companies
-
-3. Narrative Violation: In B2B customer support, AI is a Copilot, Not a Replacement
-a16z 联合 Pylon 发布 B2B 客服 AI 的实际数据：AI 端到端解决 B2B 客服请求仅 15%（B2C 约 35%）。三分之二的时间 AI 只是默默分诊后转人工，但这反而提升了效率——AI 参与的工单人工处理量减少三分之一。纯 AI 处理的工单客户满意度明显更低（1-2 星概率翻倍）。关键发现：给 AI 更多客户上下文信息后，端到端解决率和满意度双双提升。
-🔗 https://www.a16z.news/p/narrative-violation-in-b2b-customer
-
-4. The Age of Async Agents — Cognition&apos;s Walden Yan &amp; OpenInspect&apos;s Cole Murray
-Cognition CPO Walden Yan 和 OpenInspect 的 Cole Murray 深入讨论异步 Agent 的架构演进。核心论点：AI coding 已从三个阶段演进——第一波 Copilot 补全（开发者仍在本地循环中）、第二波本地 Agent（Claude Code 等多终端并行）、当前的异步 Agent 时代（spec-to-PR 的端到端开发）。Devin 在 Cognition 内部已承担 80% 的 PR 提交，关键架构决策包括将&quot;大脑&quot;与执行环境分离、使用完整 VM 而非 Docker、以及 repo setup 仍是最难的问题之一。
-🔗 https://www.latent.space/p/cognition
-
-5. Claude Opus 4.8 is here. Is it as good as they say?
-Lenny Newsletter 的 Claire Vo 获得 Opus 4.8 早期测试权限后的独立评测。SWE-bench Pro 从 64.3 提升至 69.2（比 GPT-5.5 高近 10 分，比 Gemini 3.1 高 15 分）。Opus 4.8 在 greenfield 原型和单次特性构建上表现优异，但在处理已有代码库的 edge case 和最后 10% 打磨上仍有不足。定价 $5/M 输入 + $25/M 输出。Claire 在策略和 roadmap 类工作上仍倾向使用 Opus 4.7。同步发布的新功能包括 dynamic workflows（并行子 Agent 编排）和 Claude.ai 中的 effort control。
-🔗 https://www.lennysnewsletter.com/p/claude-opus-48-is-here-is-it-as-good
-
-🐦 Twitter 精选（5 / 14）
-
-1. @bcherny：Anthropic 发布 Claude Opus 4.8，SWE-bench Pro 从 64.3 提升至 69.2，是目前最强编码模型。
-🔗 https://x.com/bcherny/status/2060048873440129073
-
-2. @cursor_ai：Opus 4.8 已上线 Cursor，CursorBench 显示其工作效率显著优于 Opus 4.7。
-🔗 https://x.com/cursor_ai/status/2060044920237469872
-
-3. @hongming731：Claude Code 推出&quot;动态工作流&quot;新能力——可在单次会话中动态生成编排脚本，并行启动数十甚至数百个子智能体独立完成任务。
-🔗 https://x.com/hongming731/status/2060137705472983245
-
-4. @emollick：用 Opus 4.8 在 Claude Code 中从数百份匿名研究文件中独立撰写学术论文，再用 GPT-5.5 Pro 做审稿人——后者发现一处重大错误和若干小问题，Opus 完成修正。
-🔗 https://x.com/emollick/status/2060098885561778341
-
-5. @karminski3：Opus 4.8 实测：使用全新光线追踪 3D 场景渲染测试集，多光源多材质，可以看到定格后开始去噪渲染。
-🔗 https://x.com/karminski3/status/2060141938641408317
-
-📱 公众号精选（5 / 9）
-
-1. 反超OpenAI 35%？Anthropic年收入450亿美元，五个月翻5倍
-Anthropic 年化营收已接近 $450 亿，五个月内增长五倍，超过 OpenAI 约 35%（后者约 $330 亿）。去年底 Anthropic 年化收入仅 $90 亿，不到 OpenAI 一半。按当前增速，Anthropic 一年内营收规模有望超越 Netflix、SAP 和 Salesforce。两家公司的竞争态势在半年内发生了戏剧性逆转。
-🔗 https://mp.weixin.qq.com/s/SjjB6FoRl44yNjfVm0yN7A
-
-2. 不经后训练照样能打，这家中国公司的开源具身预训练模型如何做到？
-文章探讨一个底层问题：机器人预训练到底有没有意义？行业默认叙事是&quot;预训练 + 大量后训练工程&quot;才能出效果，但这家公司的开源 VLA 模型证明了不经过任务微调也能直接部署到真实机器人上。如果这条路径成立，意味着具身智能不再需要&quot;每增加一个场景就重新采集数据&quot;的线性扩展模式。
-🔗 https://mp.weixin.qq.com/s/aik6EhLseSdhX9NkFUf60Q
-
-3. Shopify 的 AI 搜索订单涨了 13 倍，但 95% 的人最后还是要自己按「付款」
-金融科技分析师 Simon Taylor 将电商流程拆为八阶段（发现→推荐→意图→委托→政策→购物车→付款→物流），发现 AI Agent 在各阶段渗透速度不一——Shopify AI 搜索驱动订单增长 13 倍，但 95% 用户仍手动完成付款。文章借用自动驾驶五级分类来描述 agentic commerce 的成熟度，Stripe 年度信也采用了类似框架。
-🔗 https://mp.weixin.qq.com/s/OPrCLz50ls3iRxpL6P8kwQ
-
-4. Claude Opus 4.8 发布｜Mythos 即将上线
-Opus 4.8 基于 4.7 常规升级，Agent 能力加强，价格不变。中文分词仍有问题。Opus 4.6 已下线。
-🔗 https://mp.weixin.qq.com/s/ZaXF_kz4UtEvFMzqKKGsGw
-
-5. Opus 4.8 来了，海外独立评测直接给出最高分，然后说：「这应该叫 Opus 5」
-Every 的 Dan Shipper 团队三人独立评测 Opus 4.8，综合给出历史最高分，认为此次升级幅度配得上大版本号更新。
-🔗 https://mp.weixin.qq.com/s/xbpLKQsz6chy_5CijsSuzg
-
-📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-05-29.html</description>
     </item>
   </channel>
 </rss>
