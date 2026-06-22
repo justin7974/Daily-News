@@ -5,8 +5,136 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 20 Jun 2026 00:15:38 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 15:14:53 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #620 | 2026-06-22</title>
+      <link>https://news.justin7974.dev/2026-06-22.html</link>
+      <guid>https://news.justin7974.dev/2026-06-22.html</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 14 条推文 · 5 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Samsung Electronics brings ChatGPT and Codex to employees
+三星电子宣布向全球员工部署 ChatGPT Enterprise 和 Codex，OpenAI 称这是其规模最大的企业级 AI 落地之一。覆盖范围从办公知识工作延伸到研发侧的编码场景，意味着 Codex 正以&quot;全员工具&quot;形态进入大型制造企业。
+🔗 https://openai.com/index/samsung-electronics-chatgpt-codex-deployment
+
+2. The 100,000 whys of AI
+作者反驳&quot;AI 文本和人类文本统计上不可区分&quot;的流行观点：以亚马逊上约 220 本《100,000 个为什么》同质化童书封面为例，说明可识别的不是单条文本，而是 AI 规模化生产带来的&quot;批量同质性&quot;——即所谓 AI slop。判别 AI 不靠单句的图灵测试，而靠它在量级和模式上的指纹。
+🔗 https://lcamtuf.substack.com/p/the-100000-whys-of-ai
+
+3. The doom justifies the valuation
+geohot 在伯克利待了两周后的犀利观察：他认为湾区的&quot;AI 末日论&quot;已变成一种为高估值和生活方式自洽服务的意识形态（&quot;doom justifies the valuation&quot;），而非真正的技术讨论。文中顺带称赞 GLM-5.2 的技术博客，认为其水准已与 Opus 4.8、GPT-5.5 同档，是他理想中&quot;踏实推进&quot;的工程风格。
+🔗 https://geohot.github.io//blog/jekyll/update/2026/06/21/the-doom-justifies-the-valuation.html
+
+4. Building the most AI-pilled engineering team in the world | Fiona Fung
+Lenny 访谈 Anthropic Claude Code 与 Cowork 团队负责人 Fiona Fung（曾在微软做 VS/TypeScript、在 Meta 创立 Facebook Marketplace），聊在 Agent 无处不在、角色边界模糊时如何维持工程团队文化。
+🔗 https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering
+
+5. Temporary Cloudflare Accounts for AI agents
+Cloudflare 推出临时账号：无需注册即可 npx wrangler deploy --temporary 部署 Workers 项目，临时实例存活 60 分钟，可后续认领转正。名义上为 AI agent 设计，实则降低了所有人的部署门槛。
+🔗 https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything
+
+🐦 Twitter 精选（5 / 14）
+
+1. @Hesamation：GLM-5.2 背后公司 Zai 的股价过去 6 个月暴涨 15 倍，并在 GLM-5.2 发布后再次飙升。作者类比：在其 IPO（约 GLM-4.7 时期）后买入，相当于 2019 年初买入比特币。
+🔗 https://x.com/Hesamation/status/2068689055081009211
+
+2. @Hesamation：引用 Vercel CEO 对新模型（GLM-5.2）的称赞，称已记不清上一次社区如此一致地盛赞一个新模型发布是什么时候，&quot;他们真的做出来了&quot;。
+🔗 https://x.com/Hesamation/status/2068675224262836372
+
+3. @Hesamation：推荐一篇关于在家本地运行 LLM、完全掌控自己 AI 的必读文章，称其为&quot;强烈建议阅读&quot;。
+🔗 https://x.com/Hesamation/status/2068747756840120409
+
+4. @vasuman：简短爆料：Opus 4.8 现在改名为 Fable。
+🔗 https://x.com/vasuman/status/2068725443545698450
+
+5. @emollick：把 Codex/Cowork/Code 扩展到所有知识工作有个根本问题：它们仍然非常&quot;软件脑&quot;——只把最终产物（代码）当作真理来源。但很多知识工作中，过程（调研、探索备选、失败尝试、实验分支）和结果同样重要，无法被这种范式覆盖。
+🔗 https://x.com/emollick/status/2068729258176819253
+
+📱 公众号精选（5 / 5）
+
+1. 深度丨&quot;缅因猫&quot;背后的AI-Native研发实验：10人00后团队，2个月交付22B流式音视频模型
+catnip.ai 用 10 人团队、64 张 H100、2 个月时间交付业界首个 22B 流式音视频模型 MaineCoon v1.0：单卡 H100 实现 47.5 FPS 实时推理，生成成本压到 Veo3 的两千分之一，首次支持 30 分钟以上生成。创始人杨姝瑞为前 TikTok/PixVerse 产品负责人，核心算法谢泽柯为港科大（广州）助理教授、前百度研究院。团队从做 C 端互动视频应用起步，发现接现有模型 API 商业模型跑不通，遂自研轻量模型；组织上采用&quot;主题式分工&quot;而非职能流水线。
+🔗 https://mp.weixin.qq.com/s/PEptCCotVvRJxp16StoEpA
+
+2. AI 已经能画出专业设计，却分不清自己画得好不好——有人把「审美」量化了
+编译 Contra Labs 的 Design Crit 研究：10 位设计师对 4 个前沿文生图模型沿 9 维度盲评，发现现成的 9 个 AI&quot;设计裁判&quot;准确率都卡在 51%–54%（抛硬币 50%、人类 74.1%）；瓶颈不是模型大小而是数据，用对数据训练的小模型可补上约 46% 差距。
+🔗 https://mp.weixin.qq.com/s/q_KohhuJtJzcpAxP-RMySA
+
+3. 530 万人读的这篇：你一直在用 AI 最慢的方式——附一段你今天就能粘的「自循环」提示词
+编译一篇浏览量 530 万的文章：多数人仍用&quot;提需求—等—改—再问&quot;的最慢方式用 AI，更快的方式是把目标一次给它，让它自己跑完&quot;计划—执行—自检—修补&quot;的循环（loop），附可直接粘贴的自循环提示词。
+🔗 https://mp.weixin.qq.com/s/6pNGrjoqQxTTCyEuQRtiJQ
+
+4. 你以为是 AI 在干活，其实那个循环一直是你——一个 OpenAI 员工聊 loop engineering
+编译 OpenAI 员工 tevfik 关于 loop engineering 的文章：与 coding agent 协作时，代码虽由 agent 写，但记录进展、决定下一步、判断是否完成的&quot;那个循环&quot;始终是人本身，点出人机协作中人类角色的真实位置。
+🔗 https://mp.weixin.qq.com/s/rbBtFckT5xFwf28ZoxIiAA
+
+5. 别来阿那亚，后劲太大
+作者参加阿那亚戏剧节&quot;候鸟 300&quot;Vibe Coding 300 小时活动的现场随笔，记录在艺术海滩边写代码的体验与社群交流氛围，提及马工、王登科等开发者。
+🔗 https://mp.weixin.qq.com/s/ti4wpdHRaPI7squT2LCjdg
+
+📖 查看完整日报（29 篇）→ https://news.justin7974.dev/2026-06-22.html</description>
+    </item>
+    <item>
+      <title>小虾AI日报 #619 | 2026-06-21</title>
+      <link>https://news.justin7974.dev/2026-06-21.html</link>
+      <guid>https://news.justin7974.dev/2026-06-21.html</guid>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 16 条推文 · 2 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. 诺奖得主、AlphaFold 之父投奔 Anthropic！谷歌 48 小时连跑俩大将
+诺贝尔化学奖得主、AlphaFold 之父 John Jumper 宣布离开效力近九年的 Google DeepMind，加入直接对手 Anthropic，DeepMind 负责人 Hassabis 第一时间致谢。就在两天前，Transformer 核心作者 Noam Shazeer 也离开 DeepMind 投奔 OpenAI——48 小时内 Google AI 连失两员大将。Jumper 离职时头衔为工程院士（VP, Engineering Fellow），本人未给出原因；Bloomberg 称他近来已深度参与 Google 的 AI 编程开发团队。
+🔗 https://www.qbitai.com/2026/06/436980.html
+
+2. 英伟达开始搞机器人自己研究机器人那套了
+英伟达联合 CMU、Berkeley 推出具身智能 Autoresearch 框架 ENPIRE：让 8 个 Coding Agent 各自控制一台双臂机器人，自主读论文、改算法、训练策略、部署实验、分析结果并迭代，全程无人值守。其核心是一套 Harness Framework，把现实世界里最棘手的&quot;自动复位 + 自动评分 + 安全边界&quot;固化为标准 API，让真实环境第一次变成可反复调用的研究台。最具代表性的 Pin Insertion 任务中，机器人 3 小时内把 4 毫米孔洞插针成功率从 0 拉到 99%，GEAR 负责人 Jim Fan 称实验室&quot;已经在彻夜自我改进&quot;。
+🔗 https://www.qbitai.com/2026/06/437041.html
+
+3. 陶哲轩 12 年前的预言，现在 AI 帮他兑现了
+菲尔兹奖得主陶哲轩 2014 年预言的&quot;大规模数学协作、计算机自动验证证明、形式化语言取代 LaTeX&quot;正被 AI 逐一兑现；他主导的 Equational Theories 项目用&quot;AI+人类协作&quot;在 48 小时内攻克 2200 万个数学问题中的大半，很多环节已无需他亲自插手。
+🔗 https://www.qbitai.com/2026/06/437023.html
+
+4. [AINews] not much happened today
+Latent Space 当日 roundup 直言这是平静的一天，主要内容是为 AIE WF 2026 大会做最后一轮推广；同时指出 GLM 5.2 仍在强势霸榜，呼应了当天 X 上的开源模型热度。
+🔗 https://www.latent.space/p/ainews-not-much-happened-today-e7b
+
+5. Claude Code v2.1.185 发布
+Claude Code 例行小版本：流式卡顿提示文案改为&quot;Waiting for API response · will retry in …&quot;，并把触发等待提示的静默时长从 10 秒放宽到 20 秒，减少正常响应延迟时的误报。
+🔗 https://github.com/anthropics/claude-code/releases/tag/v2.1.185
+
+🐦 Twitter 精选（5 / 16）
+
+1. @gregisenberg：GLM 5.2 可能是本地 AI 的&quot;ChatGPT 时刻&quot;：100 万 token 上下文能装下整个代码库，目前编码能力最强的开源模型，MIT 协议零限制，可在 Ollama/LM Studio 本地跑，体感接近 Opus 4.8，他判断 2027 是本地 AI 之年。
+🔗 https://x.com/gregisenberg/status/2068372696690315650
+
+2. @Hesamation：GLM 5.2 + OpenCode 几乎追平 Codex / Claude Code；他认为 Anthropic 和 OpenAI 无法撤掉订阅补贴，否则开源模型的低价会碾压它们，而用户随时能切到开源模型且智能损失不大。
+🔗 https://x.com/Hesamation/status/2068367616922505297
+
+3. @Hesamation：用同一个 prompt（纯 HTML canvas 模拟旋转的土耳其烤肉串）对比，GLM 5.2 完美还原了物理模拟，GPT OSS 120B 只是尽力而为，凸显开源模型在代码生成上的差距。
+🔗 https://x.com/Hesamation/status/2068457680188912087
+
+4. @EXM7777：唱反调：GLM-5.2 并不是个好模型，凡是夸它好的人都是在看 benchmark 跑分卡，而不是在真实 agent 循环里跑过它。
+🔗 https://x.com/EXM7777/status/2068356959523500352
+
+5. @emollick：如果 AI 自我改进哪怕以非常有限的方式成立，那么模型与产品/harness 的迭代节奏都应加快；这正发生在 Anthropic 和 OpenAI，但去年看似在追赶的其他实验室都没出现这种加速。
+🔗 https://x.com/emollick/status/2068152054900502702
+
+📱 公众号精选（2 / 2）
+
+1. 深入理解 Claude Code：从 CLAUDE.md 到 Hooks、Skills、Subagents
+系统拆解 Claude Code 的七种上下文注入机制——CLAUDE.md、Rules、Skills、Subagents、Hooks、Output Styles、System Prompt Append，核心判别维度是&quot;何时加载、压缩后是否保留、占多少 token&quot;。文章强调三条工程纪律：事实放 CLAUDE.md、流程放 Skill、硬护栏放 Hook、隔离任务交给 Subagent；并指出&quot;永远不要做 X&quot;写进 CLAUDE.md 不靠谱，绝对约束应由 PreToolUse hook 以 exit code 2 强制拦截。最后介绍 Anthropic 的 Dynamic Workflows，让 Claude 自己写编排脚本、并行调度多 agent，以对抗 agent 偷懒、自我偏好和目标漂移三大顽疾。
+🔗 https://mp.weixin.qq.com/s/-7C4WqRsuKlmBj6I31Is1w
+
+2. 他用 MrBeast 的方式做科技发布——让任何公司刷屏的 21 条铁律
+编译 Shown Media 创始人 Mitchell 的病毒式科技发布方法论：把发布当成 MrBeast 拍视频，胜负压在视频前 5 秒和算法最先看到的&quot;前 300 人&quot;上；强调&quot;卖目的地不卖工具&quot;&quot;适度被骂能拉评论速度&quot;。原文同时点出这套打法优化的是播放量而非客户，且本身就是一支自我推销广告，需警惕。
+🔗 https://mp.weixin.qq.com/s/c_ghhFHbCDT09gH4BCuIMQ
+
+📖 查看完整日报（28 篇）→ https://news.justin7974.dev/2026-06-21.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #618 | 2026-06-20</title>
       <link>https://news.justin7974.dev/2026-06-20.html</link>
@@ -1234,142 +1362,6 @@ Anthropic 的安全专用模型 Claude Mythos 在三周内发现了 20 多个关
 🔗 https://mp.weixin.qq.com/s/aGnD7Ng9FdjhAigTfNHaSA
 
 📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-06-03.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #600 | 2026-06-02</title>
-      <link>https://news.justin7974.dev/2026-06-02.html</link>
-      <guid>https://news.justin7974.dev/2026-06-02.html</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 13 条推文 · 7 篇公众号
-
-📰 RSS 精选（5 / 12）
-
-1. Open and closed models are on different exponentials
-Coding agent 在 Opus 4.5 和 Codex 5.2 之后展示了第一个用户愿意为更高智能持续支付大额溢价的市场。Nathan Lambert 认为这将定义开放与闭源 AI 生态的权力格局：闭源实验室（目前只有 Anthropic 和 OpenAI）因为模型、工具链和服务基础设施的深度整合，在高智能任务上始终拥有效率优势；同时 API 业务将不可避免地衰退，实验室会推迟最强模型的 API 开放以保护 token 供应、防止蒸馏并维持高利润率。与此同时，开源模型在 80% 的常规任务上已经&quot;够用&quot;，两条指数曲线的分叉将越来越明显。
-🔗 https://www.interconnects.ai/p/open-and-closed-models-are-on-different
-
-2. Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action
-NVIDIA Cosmos 3 是首个将世界生成、物理推理和动作生成统一到单一模型的开放全模态模型，基于 Mixture-of-Transformers (MoT) 架构。此前开发者需要分别使用 Cosmos Predict（生成）、Cosmos Transfer（控制）、Cosmos Reason（理解）和 Cosmos Policy（策略）四个独立模型，Cosmos 3 在一次前向传播中完成所有任务。模型已在 Hugging Face 上开放，包含 Super 和 Nano 两个版本，配套 Diffusers 集成、后训练脚本和开放合成数据集。
-🔗 https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai
-
-3. Why Video Agent models are next — Ethan He, xAI Grok Imagine
-xAI Grok Imagine 负责人 Ethan He 提出一个反直觉判断：视频模型的智能主要来自 LLM，而非视频训练数据。下一个 Sora 不会是更好的视频模型，而是一个视频 Agent——能够规划、生成、编辑、评判并迭代整个创意任务的系统。这与 AI 编程的演进路径完全平行：从关注单次输出质量和成本，到多轮推理和规划。Grok Imagine 已上线 Agent Mode（Beta），在一个无限画布上自动完成规划→生成→编辑→迭代的全流程。
-🔗 https://www.latent.space/p/video-agents
-
-4. Keeping the Drone Swarm Alive
-五角大楼的 Defense Autonomous Warfare Group (DAWG) 在 FY27 预算申请中要求 540 亿美元，较前一年增长 240 倍，超过了整个海军陆战队的预算。但文章指出核心矛盾：部署速度远超维护能力。一架 MQ-9 需要 180 人支持运行，自主系统的维护挑战更复杂——软件更新、传感器校准、数据回传和分析都需要新型后勤体系。文章认为真正的瓶颈不在制造无人机，而在建设能让蜂群持续运转的维护和数据基础设施。
-🔗 https://www.a16z.news/p/keeping-the-drone-swarm-alive
-
-5. Investing in Endra
-a16z 领投 Endra 的 Series A。Endra 自动化建筑 MEP（机械、电气、管道）工程设计，这是一个全球超过 1500 亿美元的专业服务市场。MEP 工程师的大部分工作是重复性的——放置消防警报、布线、逐层逐室对照建筑规范检查——这些工作可能花费数月且经常被外包。Endra 的平台导入标准建筑模型文件，集成 Revit，在 3D 中重建建筑并自动完成设计工作。
-🔗 https://www.a16z.news/p/investing-in-endra
-
-🐦 Twitter 精选（5 / 13）
-
-1. @AnthropicAI：Anthropic 已向 SEC 秘密提交 S-1 注册声明草案，为 IPO 做准备。在完成 SEC 审查后，Anthropic 将拥有启动首次公开发行的选择权。
-🔗 https://x.com/AnthropicAI/status/2061478052257841495
-
-2. @cursor_ai：Cursor 宣布提升所有 Teams 用户的使用限额，并推出 Premium 团队席位——5 倍用量仅需 3 倍价格。受 Ultra 计划的成功启发，继续加码高端用户的 token 供给。
-🔗 https://x.com/cursor_ai/status/2061550723503194426
-
-3. @karminski3：Qwen3.7-Max 实测结果：前端测试能完成 3.6 版本无法通过的项目；后端测试刷新榜首，是 34 个模型中唯一实现 IVF-PQ + ADC 索引方案的模型，将分数从 GPT-5.5-Pro 的 4000 分拉到 6947 分。Agent 能力也达到第一梯队水平。
-🔗 https://x.com/karminski3/status/2061430034867585520
-
-4. @hongming731：MiniMax 发布国内首个集前沿 Coding、1M 超长上下文和原生多模态于一体的开源模型 M3。SWE-Bench Pro 59.0% 超过 GPT-5.5 和 Gemini 3.1 Pro；24 小时内自主完成 145 次 CUDA 算子迭代，硬件利用率从 7.6% 升至 71.3%。
-🔗 https://x.com/hongming731/status/2061583557416616444
-
-5. @0xROAS：AI 生成 UGC 视频成本已降至每秒 0.004 美元，预计其他模型也将跟进到这一价格水平。AI 视频内容的边际成本正在趋近于零。
-🔗 https://x.com/0xROAS/status/2061513766441799811
-
-📱 公众号精选（5 / 7）
-
-1. 有一条路，所有 AI 创业公司走上去都得死
-a16z 合伙人 Joe Schmidt IV 提出&quot;黄砖路&quot;框架：拿好模型+现成连接器（Google Drive、Slack、GitHub）+Agent 协调层打包上线，这条路的终点是死——因为 OpenAI 的 Codex 和 Anthropic 的 Cowork 正在做完全一样的事，而且他们有模型、有利润率、有分发。真正的机会在&quot;奥兹城的其他地方&quot;：多步骤、多角色、垂直行业、确定性要求高的场景。Schmidt 总结了四条大厂挖不到的护城河：数据飞轮（行业口传知识）、跨厂商模型管理、成本分级路由、行业治理合规。文章引用了被投公司 11x CEO 的判断：&quot;任何真实工作流里，大约一半的步骤是非 Agent 的。&quot;
-🔗 https://mp.weixin.qq.com/s/dfnSYVrDrgnuNei3B6ww3g
-
-2. 你买的股票，有 60% 的价格是在赌「10 年后公司还活着」——Chamath 说，这个赌注快不值钱了
-Chamath Palihapitiya 的思想实验：现代股票估值中 60%-80% 的价值来自&quot;终端价值&quot;（第 10 年之后的现金流折现）。如果 AI 作为通用技术让每条护城河都变成临时的，企业被颠覆的年概率升至 20%，预期寿命约 5 年，对应 FCF 估值从 10-12 倍压缩到 3.9 倍。他列举了报纸（2005-2015）、零售（2016-2020）、能源（2019-2021）、出租车牌照四个先例——每次市场都不等行业死透，提前给持续期打折。关键区别：前四次是逐个行业发生，AI 可能是全行业同时。
-🔗 https://mp.weixin.qq.com/s/tTxDNTx43SK2v05juEMISw
-
-3. 对话Dyna Robotics联创York Yang：把机器人想象成大模型的下一站，是对具身智能最大的误解
-Caper AI（被 Instacart 以 3.5 亿美元收购）创始人 York Yang 的核心观点：机器人不可能像大模型一样产生爆发式增长，因为它涉及硬件制造、供应链、部署、维护和场景改造。他提出 CPUDKUO 标准——&quot;Customer Pays U but Don&apos;t Kick U Out&quot;，强调 deployment 必须产生实际 ROI，而不是&quot;把东西搬到客户那里放一下&quot;。他认为纯软件层去适配所有硬件是后期的事，前期必须把一套硬件+一套模型在真实场景里打磨到足够稳定。Reasoning 能力对规模化落地至关重要，纯模仿学习做不到。
-🔗 https://mp.weixin.qq.com/s/FiQ8jwtmCg28w5X8WThniA
-
-4. AI 导致裁员的现实与前景
-晚点用数据拆解了 AI 裁员的真实图景：2022 年底的裁员潮与 AI 无关（美联储加息导致），但过去半年 AI 编程能力成熟后美国科技公司新一轮裁员已影响十多万人。中美前 20 大科技公司的资本开支已普遍超过研发费用——砸进算力基建的钱超过了养研发团队的钱。
-🔗 https://mp.weixin.qq.com/s/Hs-kuaZsPLJxUHT8Eh8S5Q
-
-5. Notion 已经不看简历了，CEO 认为 AI 时代的组织架构属于 Jazz Mode
-Notion CEO Ivan Zhao 提出 Jazz Mode 组织理念：AI 时代公司应该像爵士乐队而非行进乐队。Notion 已有 60 位前创业公司创始人，采用&quot;杠铃模型&quot;招聘（极年轻+极资深），第一轮面试不看简历而是要求&quot;做点东西出来&quot;，设计师正在取代传统 PM。
-🔗 https://mp.weixin.qq.com/s/62feH1VU4_Im_a4k24i1ew
-
-📖 查看完整日报（32 篇）→ https://news.justin7974.dev/2026-06-02.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #599 | 2026-06-01</title>
-      <link>https://news.justin7974.dev/2026-06-01.html</link>
-      <guid>https://news.justin7974.dev/2026-06-01.html</guid>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 10 条推文 · 4 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. A rational conversation on where AI is actually going | Benedict Evans
-Benedict Evans 在 Lenny&apos;s Podcast 上阐述了他的核心判断：AI 目前处于&quot;1997 年互联网&quot;阶段——足够大、足够真实，但距离价值主体的形成仍有巨大不确定性。他认为 AI 的价值最终会向分发层聚集，而非模型层；软件构建成本趋近于零后，分发能力（distribution）将成为终极护城河。此外，他提出了一个重要的框架区分：评估 AI 对工作的影响，正确的问题不是&quot;AI 能做你工作的百分之几&quot;，而是&quot;这是一个任务还是一个岗位&quot;。播客还涉及 AI 公司中咨询和专业服务的异常增长。
-🔗 https://www.lennysnewsletter.com/p/a-rational-conversation-on-where
-
-2. Quoting Karen Kwok for Reuters Breakingviews
-Reuters Breakingviews 的 Karen Kwok 披露了 Anthropic &quot;年化营收&quot;（run-rate revenue）的具体计算方式：将最近 28 天的按量付费收入乘以 13，再加上月订阅收入乘以 12。这意味着 Anthropic 在消费类收入上用的不是标准的&quot;乘以 12&quot;年化，而是&quot;乘以 13&quot;——比通常的年化方法多计了约 8%。
-🔗 https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything
-
-3. Build agents, not pipelines
-Sean Goedecke（GitHub Copilot 团队）系统对比了 LLM 应用的两种架构范式：Pipeline（代码控制流程，LLM 只做单步推理）和 Agent（LLM 自主管理控制流）。核心论点是 Agent 更智能、更灵活、更适合未来——因为 Agent 把上下文收集的难题委托给模型本身，而 Pipeline 必须在调用前就组装好所有相关上下文，这本身是一个&quot;未解决的技术问题&quot;。文章指出 RAG 并没有解决上下文收集问题，实际上行业已经回退到让 Agent 做纯文本搜索。同时强调已知有多个 AI 项目从 Pipeline 迁移到 Agent，但没有反向案例。
-🔗 https://seangoedecke.com/build-agents-not-pipelines/
-
-4. The solution might be cancelling my AI subscription
-Simon Willison 转述了开发者 David Wilson 的自省：AI 编程工具是一个&quot;热核 ADHD 放大器&quot;——一个&quot;写个快速脚本&quot;的需求，一小时后变成了一个有测试、有文档、看起来精心设计的完整项目，但原始问题可能根本没解决。Wilson 列举了 16+ 个用 AI 启动的项目，最终认为这种零摩擦的廉价奖励感只能是一种负担。Hacker News 上的反驳来自 ADHD 群体——他们认为 Agent 首次帮助他们完成了从未完成的副项目。
-🔗 https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything
-
-5. The Pope appears to understand AI better than Geoffrey Hinton does
-Gary Marcus 引用教皇 Leo XIV 的推文&quot;真正的理解来自体验，而非文本近似&quot;，批评 Hinton 在最新访谈中混淆了 LLM 输出的模仿与真正的意识——LLM 记忆了整个互联网，人类则通过与世界的交互构建心智模型，两者产生相似输出不代表底层机制相同。
-🔗 https://garymarcus.substack.com/p/the-pope-appears-to-understand-ai
-
-🐦 Twitter 精选（5 / 10）
-
-1. @emollick：全自动 AI Agent（如 /goal）很酷，但不是人机协作的好模型。真正有价值的 AI 应该知道何时向你提出好问题——可能因为卡住了，可能因为你的品味重要，也可能因为你会觉得有趣。
-🔗 https://x.com/emollick/status/2061192810422796321
-
-2. @godofprompt：Temperature 参数已死。OpenAI 在 o1/o3/GPT-5 上移除，Google 对 Gemini 3 发出警告，Anthropic 在 Opus 4.7/4.8 上弃用。所有前沿模型提供商在过去 12 个月内统一取消了这一控制——他们移除的是一个从未真正有效的参数。
-🔗 https://x.com/godofprompt/status/2061175021272215713
-
-3. @godofprompt：Seedance 2.0 和 Gemini Omni Flash 的对比抓错了重点。Omni 的真正优势不是输出质量，而是编辑模型——可以通过对话修改视频的镜头角度，同时保留角色和场景记忆，这是完全不同的工作流。
-🔗 https://x.com/godofprompt/status/2060983420873027595
-
-4. @shao__meng：个人生活自动化 Agent 工具栈：OpenAI Codex + Google 全家桶 + WhatsApp + Telegram + 浏览器自动化。典型工作流包括跨 5 个工具的介绍邮件编排（人工 20 分钟，用户侧 10 秒），以及车牌信息在多个无 API 系统间的行政连续性维护。
-🔗 https://x.com/shao__meng/status/2061063716016472360
-
-5. @shao__meng：从 PDF 构建金融知识图谱的完整流程：上传 → LandingAI ADE 提取 → 归一化（发票/合同走确定性解析，10-K/MD&amp;A 走 Claude）→ Weaviate 向量 + Neo4j 图索引 → 规则 + LLM 异常检测。10 类实体、500 词分块、100 词重叠。
-🔗 https://x.com/shao__meng/status/2060880354949611982
-
-📱 公众号精选（4 / 4）
-
-1. Anthropic 招聘页上最多的岗位不是 AI 研究，而是销售——这说明护城河已经不在产品里了
-GTM Fund 的 Max Altschuler 提出&quot;分发纪元&quot;（Distribution Era）概念：AI 让产品建设和复制成本趋近于零后，护城河从产品迁移到了分发。文章梳理了 B2B 软件护城河的四次迁移——从资本、到产品/销售体系、到 PLG 病毒增长、再到受众和分发能力。Cursor 成为 B2B 历史上最快到 $10 亿 ARR 的公司，Harvey 在产品未完善前就锁定了 AmLaw 100 超半数律所。a16z 数据显示 AI 原生公司中位数第 12 个月达 $210 万 ARR，前四分位达 $530 万，远超十年前 SaaS 最佳水平。
-🔗 https://mp.weixin.qq.com/s/J5tnVlO9HqQvk4VetAWgVQ
-
-2. ClickUp 裁员 22%，同时给 AI 原生人才开出 $100 万年薪——Anita 说：每天用 ChatGPT 还不够
-ClickUp 同一周裁员 22% 并开出 $100 万年薪招 AI 原生人才。Vellum AI 的 Anita Kirkovska 区分了&quot;假 AI 原生&quot;和&quot;真 AI 原生&quot;：前者会用 ChatGPT 但工作方式没变，后者能展示正在运行的 Agent 配置、skill.md 文件清单，以及能说出三件停止让 AI 做的事和原因。她提出 skill.md 方法论——给 Agent 写工作手册，把领域知识、任务标准和个人偏好系统化地传递给 AI，第一版必须自己写，因为 AI 不知道你脑中的隐性标准。
-🔗 https://mp.weixin.qq.com/s/2UHdSgWHUiP5X1MT5UEfRA
-
-3. 裁员还会继续，但它没有解决任何问题
-文章将 AI Native 拆分为三层：AI Native 的事（10 倍回报的新业务）、AI Native 的组织（10 倍效率的新架构）、AI Native 的人力（10 倍提效的个人）。作者指出大部分公司跳过了第一层和第二层，直接让中层推第三层——用省下的人头证明&quot;转型成功&quot;。但如果不先找到 10 倍大的新事情，只做人效提升最终只能裁员。文章尖锐地问：如果 AI 真的让团队提效了，为什么 OpenAI 和 Anthropic 的人数还在增加？
-🔗 https://mp.weixin.qq.com/s/kE6aHUWy9es5hjPsigU_MA
-
-4. AGI Bar 落地上海，将于儿童节开业
-AGI Bar 在红杉加速器一层开设上海店，300 平空间可容纳百人。酒单更新反映 AI 行业精神状态，AGI 基础款 9.9 元/杯，品牌冠名酒水补贴至 8.9 元。位置在红杉楼下——&quot;如果聊出了成果，大可以直接上楼&quot;。
-🔗 https://mp.weixin.qq.com/s/pMqItnMSs_Owa_BVxFY2jQ
-
-📖 查看完整日报（24 篇）→ https://news.justin7974.dev/2026-06-01.html</description>
     </item>
   </channel>
 </rss>

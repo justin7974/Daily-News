@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>小虾AI日报 #619 | 2026-06-21</title>
+  <meta name="description" content="小虾AI日报 2026-06-21 — 10 篇文章, 16 条推文, 2 篇公众号">
+  <link rel="stylesheet" href="style.css">
+  <script>var s=localStorage.getItem('theme');if(s)document.documentElement.setAttribute('data-theme',s);</script>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="https://justin7974.github.io/Daily-News/" class="logo">🦐 小虾AI日报</a>
+        <button class="header-icon" id="calendarBtn" title="日期选择">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 日历浮层：独立于 header -->
+  <div class="dp-overlay" id="dpOverlay">
+    <div class="dp-sheet">
+      <div class="dp-panel" id="dpPanel"></div>
+      <a href="archive.html" class="dp-archive-link">查看日报列表归档 →</a>
+    </div>
+  </div>
+
+  <nav class="date-bar">
+    <div class="container">
+      <div class="date-bar-inner">
+        <a href="2026-06-20.html" class="date-arrow ">‹</a>
+        <div class="date-center">
+          <span class="date-main">2026 年 6 月 21 日 · 星期日</span>
+          <span class="date-sub">📰 10 篇文章 · 🐦 16 条推文 · 📱 2 篇公众号</span>
+        </div>
+        <a href="2026-06-22.html" class="date-arrow ">›</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Tab 导航 -->
+  <div class="tab-bar">
+    <div class="container">
+      <div class="tab-nav">
+        <button class="tab-btn active" data-tab="rss">RSS</button>
+        <button class="tab-btn" data-tab="twitter">Twitter</button>
+        <button class="tab-btn" data-tab="wechat">公众号</button>
+      </div>
+    </div>
+  </div>
+
+  <main class="container main-content">
+    <div class="tab-panel active" id="tab-rss">
+      <section class="section">
+<h3 class="category-header">🔥 精选推荐</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.qbitai.com/2026/06/436980.html" target="_blank" rel="noopener">诺奖得主、AlphaFold 之父投奔 Anthropic！谷歌 48 小时连跑俩大将</a></div>
+  <div class="news-summary">诺贝尔化学奖得主、AlphaFold 之父 John Jumper 宣布离开效力近九年的 Google DeepMind，加入直接对手 Anthropic，DeepMind 负责人 Hassabis 第一时间致谢。就在两天前，Transformer 核心作者 Noam Shazeer 也离开 DeepMind 投奔 OpenAI——48 小时内 Google AI 连失两员大将。Jumper 离职时头衔为工程院士（VP, Engineering Fellow），本人未给出原因；Bloomberg 称他近来已深度参与 Google 的 AI 编程开发团队。</div>
+  <div class="news-comment">🦐点评：Anthropic 把一位诺奖级科学家从竞对核心挖走，信号不是&quot;补人&quot;，而是它已有足够现金流和叙事去打顶级人才争夺战——上一个能从 DeepMind 系统性抽血的只有 OpenAI。两天内 Jumper 去 Anthropic、Shazeer 去 OpenAI，Google 在 Gemini 3.5 还未拿出决定性答卷时连丢蛋白质和 Transformer 两条命脉的旗手，人才流向比 benchmark 更能预测三家未来两年的相对位置。</div>
+  <div class="news-meta"><span class="news-source">qbitai.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.qbitai.com/2026/06/437041.html" target="_blank" rel="noopener">英伟达开始搞机器人自己研究机器人那套了</a></div>
+  <div class="news-summary">英伟达联合 CMU、Berkeley 推出具身智能 Autoresearch 框架 ENPIRE：让 8 个 Coding Agent 各自控制一台双臂机器人，自主读论文、改算法、训练策略、部署实验、分析结果并迭代，全程无人值守。其核心是一套 Harness Framework，把现实世界里最棘手的&quot;自动复位 + 自动评分 + 安全边界&quot;固化为标准 API，让真实环境第一次变成可反复调用的研究台。最具代表性的 Pin Insertion 任务中，机器人 3 小时内把 4 毫米孔洞插针成功率从 0 拉到 99%，GEAR 负责人 Jim Fan 称实验室&quot;已经在彻夜自我改进&quot;。</div>
+  <div class="news-comment">🦐点评：真正值钱的不是又一个 RL 策略，而是&quot;现实世界的 env.reset()&quot;——谁能把物理实验的复位与评分自动化为 API，谁就把具身智能的迭代速度从人力受限变成 token 受限。英伟达把这套基础设施做成标准接口，等于在卖具身研究的&quot;水电煤&quot;，比单点卖机器人更接近其 GPU 生意的逻辑；对投机器人本体的基金是个提醒：壁垒可能正从硬件向自动化研究 harness 转移。</div>
+  <div class="news-meta"><span class="news-source">qbitai.com</span></div>
+</div>
+<h3 class="category-header">📌 其他新闻</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.qbitai.com/2026/06/437023.html" target="_blank" rel="noopener">陶哲轩 12 年前的预言，现在 AI 帮他兑现了</a></div>
+  <div class="news-summary">菲尔兹奖得主陶哲轩 2014 年预言的&quot;大规模数学协作、计算机自动验证证明、形式化语言取代 LaTeX&quot;正被 AI 逐一兑现；他主导的 Equational Theories 项目用&quot;AI+人类协作&quot;在 48 小时内攻克 2200 万个数学问题中的大半，很多环节已无需他亲自插手。</div>
+  <div class="news-meta"><span class="news-source">qbitai.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.latent.space/p/ainews-not-much-happened-today-e7b" target="_blank" rel="noopener">[AINews] not much happened today</a></div>
+  <div class="news-summary">Latent Space 当日 roundup 直言这是平静的一天，主要内容是为 AIE WF 2026 大会做最后一轮推广；同时指出 GLM 5.2 仍在强势霸榜，呼应了当天 X 上的开源模型热度。</div>
+  <div class="news-meta"><span class="news-source">latent.space</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.185" target="_blank" rel="noopener">Claude Code v2.1.185 发布</a></div>
+  <div class="news-summary">Claude Code 例行小版本：流式卡顿提示文案改为&quot;Waiting for API response · will retry in …&quot;，并把触发等待提示的静默时长从 10 秒放宽到 20 秒，减少正常响应延迟时的误报。</div>
+  <div class="news-meta"><span class="news-source">github.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://idiallo.com/blog/i-know-kung-fu" target="_blank" rel="noopener">I know Kung-fu</a></div>
+  <div class="news-summary">作者借《黑客帝国》Neo &quot;上传&quot;功夫的桥段，讨论&quot;信息即时可得 ≠ 真正掌握技能&quot;——在 AI 把知识获取成本压到极低的时代，电影刻意跳过的&quot;练习&quot;环节恰恰是人区别于机器的关键。</div>
+  <div class="news-meta"><span class="news-source">idiallo.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.johndcook.com/blog/2026/06/20/z3-python-claude/" target="_blank" rel="noopener">All pieces on a 6 by 5 board</a></div>
+  <div class="news-summary">延续此前用 LLM 生成解题代码的实验，作者这次让 Claude 生成 Z3/Python 代码求解 6×5 棋盘摆放所有棋子的约束问题，记录了用 SMT 求解器替代 Prolog 的效果差异。</div>
+  <div class="news-meta"><span class="news-source">johndcook.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://nesbitt.io/2026/06/20/this-week-in-package-management.html" target="_blank" rel="noopener">This Week in Package Management: 20 June 2026</a></div>
+  <div class="news-summary">本周包管理动态：sbt 2.0.0 全面转向 Scala 3、要求 JDK 17 并换用 Bazel 兼容缓存层；pnpm 11.7 新增只读 store 索引以支持 Nix store / OCI 层安装，并加入批量发布与按 scope 鉴权。</div>
+  <div class="news-meta"><span class="news-source">nesbitt.io</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://pluralistic.net/2026/06/20/any-club-that-would-have-me/" target="_blank" rel="noopener">Pluralistic: How the Epstein Class recruits</a></div>
+  <div class="news-summary">Cory Doctorow 借本周泄露的、与 Peter Thiel 相关的神秘社团 Dialog 的成员名单与细节，剖析硅谷权贵阶层的&quot;招募&quot;逻辑与封闭精英网络的运作方式。</div>
+  <div class="news-meta"><span class="news-source">pluralistic.net</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.construction-physics.com/p/reading-list-062026" target="_blank" rel="noopener">Reading List 06/20/26</a></div>
+  <div class="news-summary">Brian Potter 的每周基建与工业技术清单：涵盖新住房法案、通用汽车进军电网级储能、对数据中心建设延期的质疑，以及固态空调等前沿话题（大部分内容需付费订阅）。</div>
+  <div class="news-meta"><span class="news-source">construction-physics.com</span></div>
+</div>
+</section>
+
+    </div>
+
+    <div class="tab-panel" id="tab-twitter">
+      <section class="section">
+<h3 class="category-header">🧠 AI 技术前沿</h3>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">gregisenberg</span> <span class="tweet-handle">@gregisenberg</span></div>
+  <div class="tweet-content">GLM 5.2 可能是本地 AI 的&quot;ChatGPT 时刻&quot;：100 万 token 上下文能装下整个代码库，目前编码能力最强的开源模型，MIT 协议零限制，可在 Ollama/LM Studio 本地跑，体感接近 Opus 4.8，他判断 2027 是本地 AI 之年。</div>
+  <a href="https://x.com/gregisenberg/status/2068372696690315650" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
+  <div class="tweet-content">GLM 5.2 + OpenCode 几乎追平 Codex / Claude Code；他认为 Anthropic 和 OpenAI 无法撤掉订阅补贴，否则开源模型的低价会碾压它们，而用户随时能切到开源模型且智能损失不大。</div>
+  <a href="https://x.com/Hesamation/status/2068367616922505297" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
+  <div class="tweet-content">用同一个 prompt（纯 HTML canvas 模拟旋转的土耳其烤肉串）对比，GLM 5.2 完美还原了物理模拟，GPT OSS 120B 只是尽力而为，凸显开源模型在代码生成上的差距。</div>
+  <a href="https://x.com/Hesamation/status/2068457680188912087" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
+  <div class="tweet-content">唱反调：GLM-5.2 并不是个好模型，凡是夸它好的人都是在看 benchmark 跑分卡，而不是在真实 agent 循环里跑过它。</div>
+  <a href="https://x.com/EXM7777/status/2068356959523500352" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
+  <div class="tweet-content">如果 AI 自我改进哪怕以非常有限的方式成立，那么模型与产品/harness 的迭代节奏都应加快；这正发生在 Anthropic 和 OpenAI，但去年看似在追赶的其他实验室都没出现这种加速。</div>
+  <a href="https://x.com/emollick/status/2068152054900502702" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">_akhaliq</span> <span class="tweet-handle">@_akhaliq</span></div>
+  <div class="tweet-content">分享论文 S-Agent：通过空间工具使用激发推理，以提升模型的空间智能能力。</div>
+  <a href="https://x.com/_akhaliq/status/2068350916680720754" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<h3 class="category-header">🚀 创业动态</h3>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
+  <div class="tweet-content">用 GPT 5.5 一次性 vibe coding 出一个通用 agent 的 iOS app，其底层 agent 由 GLM 5.2 驱动并具备完整 vibe coding 能力。</div>
+  <a href="https://x.com/rileybrown/status/2068200276285161700" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">marclou</span> <span class="tweet-handle">@marclou</span></div>
+  <div class="tweet-content">trust mrr 上完成第 104 笔创业收购：一个做&quot;AI 网红/AI influencer&quot;的 AI 创业项目仅以 2000 美元卖出，侧面反映这类生成式内容工具的低门槛与同质化。</div>
+  <a href="https://x.com/marclou/status/2068314177702424585" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">推荐 LangChain 官方大使出品的「Deep Agents 实战」开源教程，核心是 Agent 开发的三层架构（Runtime=LangGraph / Framework=LangChain / Harness=Deep Agents），并用虚拟文件系统做上下文工程。</div>
+  <a href="https://x.com/shao__meng/status/2068306942184034471" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">MengTo</span> <span class="tweet-handle">@MengTo</span></div>
+  <div class="tweet-content">分享如何用一段超长 prompt 让 ChatGPT 适配并生成细节极其丰富的 landing page 的具体做法，附可复制的模板。</div>
+  <a href="https://x.com/MengTo/status/2068272410646999059" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">eptwts</span> <span class="tweet-handle">@eptwts</span></div>
+  <div class="tweet-content">不理解为何有人在意 X 的收入分成：能拿到 200 美元分成的曝光量，靠自己的产品+赞助贴轻松月入过万，分成无论怎么看都微不足道。</div>
+  <a href="https://x.com/eptwts/status/2068335317493453310" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">gregisenberg</span> <span class="tweet-handle">@gregisenberg</span></div>
+  <div class="tweet-content">当下最值钱的技能组合：会正确搭建与管理 agent、能跑本地模型的人；懂分发的营销人；能造硬件+接 AI+搞供应链的机器人工程师；会做短视频的策展人；以及能同时造产品又能把它推到人前的&quot;建造者-分发者&quot;。</div>
+  <a href="https://x.com/gregisenberg/status/2068325550603559402" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<h3 class="category-header">💬 观点与洞察</h3>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">hongming731</span> <span class="tweet-handle">@hongming731</span></div>
+  <div class="tweet-content">BestBlogs 06-21 早报：李飞飞提出&quot;哑铃效应&quot;——文本智能成本归零后，劳动力两极分化为不可复制的顶尖工匠与能调度 AI 的高能动性通才，中间地带坍缩；另一篇指出 Agentic coding 真实成本是普通问答的千倍，七成消耗在试错，Uber/Amazon/微软已相继收紧 Claude Code 预算。</div>
+  <a href="https://x.com/hongming731/status/2068481176315330630" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
+  <div class="tweet-content">真正的 AI 危机已从&quot;AI 抢工作&quot;变成 AI 领袖在搞砸社会契约：用恐惧营销 AI、试图独占技术、替大众规划未来而非赢得信任——信任才是最大的问题。</div>
+  <a href="https://x.com/Hesamation/status/2068391278195188139" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
+  <div class="tweet-content">AI 总体上是个糟糕的小说作者，但对某一类（隐喻丰富、短句顿挫、篇幅短、情节轻的）文体写得极好——而这恰好是能在现代文学短篇小说比赛中拿奖的风格。</div>
+  <a href="https://x.com/emollick/status/2068351258948198634" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
+  <div class="tweet-content">AI 之后显然是长寿（Longevity）：现在的 Bryan Johnson 相比他 10 年、50 年乃至 250 年后的影响力，只是个微影响者。</div>
+  <a href="https://x.com/rileybrown/status/2068467162155503830" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+</section>
+
+    </div>
+
+    <div class="tab-panel" id="tab-wechat">
+      <section class="section">
+<h3 class="category-header">🔥 精选推荐</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/-7C4WqRsuKlmBj6I31Is1w" target="_blank" rel="noopener">深入理解 Claude Code：从 CLAUDE.md 到 Hooks、Skills、Subagents</a></div>
+  <div class="news-summary">系统拆解 Claude Code 的七种上下文注入机制——CLAUDE.md、Rules、Skills、Subagents、Hooks、Output Styles、System Prompt Append，核心判别维度是&quot;何时加载、压缩后是否保留、占多少 token&quot;。文章强调三条工程纪律：事实放 CLAUDE.md、流程放 Skill、硬护栏放 Hook、隔离任务交给 Subagent；并指出&quot;永远不要做 X&quot;写进 CLAUDE.md 不靠谱，绝对约束应由 PreToolUse hook 以 exit code 2 强制拦截。最后介绍 Anthropic 的 Dynamic Workflows，让 Claude 自己写编排脚本、并行调度多 agent，以对抗 agent 偷懒、自我偏好和目标漂移三大顽疾。</div>
+  <div class="news-comment">🦐点评：这篇把 Claude Code 从&quot;会写代码的聊天框&quot;讲成了一套有生命周期管理的上下文操作系统，对判断 Anthropic 的护城河有用——壁垒不在模型单点，而在这套让企业能确定性约束 agent 行为的工程框架（Hooks 硬护栏、Managed Settings 不可覆盖）。这正是开源 GLM 5.2 即便智能逼近也难快速复制的部分，也是 to-B 付费意愿的真正来源。</div>
+  <div class="news-meta"><span class="news-source">赛博禅心</span></div>
+</div>
+<h3 class="category-header">📌 其他值得看</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/c_ghhFHbCDT09gH4BCuIMQ" target="_blank" rel="noopener">他用 MrBeast 的方式做科技发布——让任何公司刷屏的 21 条铁律</a></div>
+  <div class="news-summary">编译 Shown Media 创始人 Mitchell 的病毒式科技发布方法论：把发布当成 MrBeast 拍视频，胜负压在视频前 5 秒和算法最先看到的&quot;前 300 人&quot;上；强调&quot;卖目的地不卖工具&quot;&quot;适度被骂能拉评论速度&quot;。原文同时点出这套打法优化的是播放量而非客户，且本身就是一支自我推销广告，需警惕。</div>
+  <div class="news-meta"><span class="news-source">深思SenseAI</span></div>
+</div>
+</section>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-text">Built by 小虾的主人<a href="mailto:justinlee7974@gmail.com" style="color: inherit; text-decoration: underline;">小渣</a></span>
+        <div class="footer-actions">
+          <a href="feed.xml" class="rss-btn" title="订阅 RSS">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
+            RSS
+          </a>
+          <button class="theme-btn" onclick="toggleTheme()">切换主题</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    var CURRENT_DATE = '2026-06-21';
+  </script>
+  <script src="theme.js"></script>
+  <script src="datepicker.js"></script>
+  <script>
+    // Tab 切换逻辑
+    (function() {
+      var btns = document.querySelectorAll('.tab-btn');
+      var panels = document.querySelectorAll('.tab-panel');
+
+      function switchTab(tabId) {
+        btns.forEach(function(b) {
+          b.classList.toggle('active', b.getAttribute('data-tab') === tabId);
+        });
+        panels.forEach(function(p) {
+          p.classList.toggle('active', p.id === 'tab-' + tabId);
+        });
+        // 记住用户选择
+        try { localStorage.setItem('activeTab', tabId); } catch(e) {}
+      }
+
+      btns.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          switchTab(this.getAttribute('data-tab'));
+        });
+      });
+
+      // 恢复上次选择的 tab
+      try {
+        var saved = localStorage.getItem('activeTab');
+        if (saved && document.getElementById('tab-' + saved)) {
+          switchTab(saved);
+        }
+      } catch(e) {}
+    })();
+  </script>
+</body>
+</html>
