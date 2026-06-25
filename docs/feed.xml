@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 24 Jun 2026 00:21:56 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 00:17:10 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #623 | 2026-06-25</title>
+      <link>https://news.justin7974.dev/2026-06-25.html</link>
+      <guid>https://news.justin7974.dev/2026-06-25.html</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <description>今日共 13 篇 RSS · 15 条推文 · 7 篇公众号
+
+📰 RSS 精选（5 / 13）
+
+1. Hot AI Summer: What the Latest Talent Moves Mean in the Great Foundation Model Race
+一年前 Meta 用九位数 offer 挖走 Scale 的 Alexandr Wang，打响了这轮基础模型人才战；今年更激烈——OpenAI 和 Anthropic 都在朝秋季 IPO 走，SpaceX 把筹码全压在 Cursor 上。Karpathy、Noam Shazeer、John Jumper、Barret Zoph 这批顶级名字都在这个节点换了东家。Google 这边流失了人、编程方向也没打出来，微软的 Satya 还在为大问题找新说法。（正文付费，以上为开篇判断）
+🔗 https://www.newcomer.co/p/hot-ai-summer-what-the-latest-talent
+
+2. GLM 5.2: why I&apos;m replacing Opus in Claude Code with this new model
+Claire Vo 把 Z.AI 的开源权重模型 GLM-5.2 放进真实生产代码库跑了四个任务：架构审计、UI 重做、一次 45 分钟自动抓 Sentry/Vercel 日志的查 bug 任务。总花费 3.36 美元、约 600 万 token，产出了一个她真的在用的 bug 修复看板，和一版一次就对上 Chat PRD 设计系统的着陆页。她的结论是开源权重模型在编程上已经能顶 Opus 级别，成本却低一个量级。
+🔗 https://www.lennysnewsletter.com/p/glm-52-why-im-replacing-opus-in-claude
+
+3. Investing in Mirendil
+a16z 领投 Mirendil 种子轮。Mirendil 想做一个让任何人都能做 AI 研究的系统——训练专门擅长 AI 研发的前沿模型，让系统更自主地在研究和工程问题上反复迭代、少靠人介入，a16z 把它叫&quot;氛围研究&quot;。它先服务工程师和 AI 研究员，目标是让科学家等领域专家也能自己跑实验。文章直接点名：当前前沿开源模型这块空缺&quot;是被中国模型填上的，但这大概不是长久之计&quot;。
+🔗 https://www.a16z.news/p/investing-in-mirendil
+
+4. Why the Frontier Ecosystem must be Open — Matei Zaharia and Reynold Xin, Databricks
+Databricks 两位创始人 Matei Zaharia 和 Reynold Xin 谈他们正把公司从数据湖仓推向&quot;数据 + AI 操作系统&quot;。重点是 Omnigent——一个开源的&quot;元 harness&quot;，把 Claude Code、Codex、Cursor、Pi、自研 agent 和内部工具统一管起来，解决可移植、协作、会话历史、安全、花费控制这些跨 agent 的共性问题。Reynold 那部分讲数据库为 agent 时代重构（LTAP、Lakebase），核心判断是：等 agent 真正开始干活，数据库会比以前更重要。
+🔗 https://www.latent.space/p/databricks
+
+5. [AINews] Claude Tag: Multiplayer, Proactive, Persistent Agents in Slack
+Anthropic 发布 Claude Tag，把 Claude 接进 Slack 当团队成员——@ 一下就能把任务派给它，它能访问你指定的频道和工具、异步处理。Claude Code 团队说内部用了整整一年，现在团队 65% 的产品代码由它写，包括 Claude Tag 自己的大部分。还有&quot;环境模式&quot;：不被 @ 也会判断要不要回、跨频道主动同步信息、盯住阈值触发后自动去修。这是 Claude 继 Web、Desktop 之后第三次大改交互。
+🔗 https://www.latent.space/p/ainews-claude-tag-multiplayer-proactive
+
+🐦 Twitter 精选（5 / 15）
+
+1. @shao__meng：OpenAI 联合 Broadcom 推出首款自研推理芯片 Jalapeño，9 个月完成流片，专为大模型推理优化，计划 2026 年底起以吉瓦级规模部署，把自研能力一路压到了芯片层。
+🔗 https://x.com/shao__meng/status/2069776857130803614
+
+2. @Hesamation：Google 麻烦不小：DeepMind 两位资深研究员 Jonas Adler、Alexander Pritzel 据传将离职，紧接着此前 John Jumper（AlphaFold 诺奖得主）和 Noam Shazeer 已出走，而 Gemini 3.5 Pro 预计不会是颠覆之作。
+🔗 https://x.com/Hesamation/status/2069855960437526646
+
+3. @emollick：Gemini 3 Pro 在 2025 年 11 月成为首个 ARC-AGI-2 得分至少 23%（实际 31%）的模型，开源与闭源之间 8-12 个月的差距看起来仍然成立，但模型能力越来越参差，有些任务强、有些任务弱。
+🔗 https://x.com/emollick/status/2069857050016776227
+
+4. @karminski3：认为智谱市值破万亿不算高估——它在 GLM 的 agent 能力训练上确实领先。用模拟送外卖的 silicon-rider-bench 测了 30 个国产模型，GLM-5 到 5.2 明显分三段进化：先会反思自己行为、再会自己规划送顺路单、效率越来越高。
+🔗 https://x.com/karminski3/status/2069909634685772127
+
+5. @_akhaliq：阿里推出 Qwen-AgentWorld，一个面向通用 agent 的&quot;语言世界模型&quot;，把世界模型的思路用到 agent 上。
+🔗 https://x.com/_akhaliq/status/2069830898522951821
+
+📱 公众号精选（5 / 7）
+
+1. Z Potentials｜专访Aether AI黄碧薇：第三代因果AI领头人，一位不追热点的女科学家重新定义世界模型
+Aether AI 创始人黄碧薇 2026 年成立公司做&quot;因果世界模型&quot;，已完成约 2000 万美元种子轮，经纬创投领投，英诺基金、SWC Global、九合创投跟投。她是 UCSD 助理教授，从计算神经科学转到因果 AI，主张真正的智能要理解世界&quot;为什么这样运转&quot;，而不只是预测下一步。现在的世界模型大多走 3D、视频生成或 JEPA，她想做&quot;第四条路&quot;——用因果关系复刻物理世界的运行规律，先从 Physical AI 切入，定位更像一家 Frontier Lab。
+🔗 https://mp.weixin.qq.com/s/laPQgJ4SDZtnvBPSjOqhYA
+
+2. 大模型的ROI定律
+字节 Seedance 2.0 出了 4K 视频模型，一条 15 秒 4K 约 88 元、一条一分钟广告片约 700 元，很贵，但每天给字节带来超 1 亿元收入、是豆包的 100 倍，唯一限制是显卡不够、官方 API 不打折还供不应求。作者由此提出&quot;大模型 ROI 定律&quot;：资源有限时，算力和资本一定流向边际收益率最高的地方——这也是为什么中美大模型公司都先做 Coding（按职业 GDP 贡献排序选 RL 方向）。结论是别盯着价格，要看它替你省了多少时间、创造了多少价值，去找自己比别人强 10 倍的地方。
+🔗 https://mp.weixin.qq.com/s/JQAM5Vj2HIbnSmKvQcUkVg
+
+3. 一个网球订场软件，凭什么成了整个品类的「操作系统」
+文章讲的是给网球、匹克球俱乐部做软件的 PlayByPoint，作者是做 vertical AI 的创始人兼投资人 Luke Sophinos。核心判断：它表面是订场软件，实际是整个品类的&quot;系统级账本&quot;——把退款规则、可预订窗口、多人拼场付款这些通用软件懒得做对的烂活一件件做对，握住运营方信任后才打开支付、留存、营销、AI agent 等扩展。更尖锐的一点：AI 没在杀 vertical SaaS，而是抬高门槛——&quot;花五年才建出这套&quot;的老优势失效了，耐久优势从代码量转向对工作流的理解、信任和速度。作者也提醒，他既是 vertical AI 创始人又是投资人，这套说法本就是他的立场。
+🔗 https://mp.weixin.qq.com/s/4gTDa_c5BaO9ZJZblcRJpw
+
+4. 智谱与Anthropic是母凭子贵
+作者复盘智谱怎么靠 Anthropic&quot;成全&quot;做到万亿市值：Claude Code 在中国封号、又退出中国，留下大量想用先进编程 agent 的需求，智谱用&quot;Claude Code + GLM Coding Plan&quot;的特色配置吃下大部分流量，至今智谱官方第一推荐的工具仍是 Claude Code。还点破智谱开创的匿名模型打榜营销——在 OpenRouter 上线免费的&quot;Pony Alpha&quot;让人猜是谁、最后揭晓是 GLM-5，后来小米&quot;Hunter Alpha&quot;、蚂蚁&quot;大象&quot;都照搬这套。智谱上市前七成收入来自 To B/To G 本地部署，唐杰年初发内部信要全面回归基础模型研究、以 Coding 为突破口。作者实测 GLM-5.2 对比 Kimi 2.7 Code，认为指令一多 GLM 明显拉开差距。
+🔗 https://mp.weixin.qq.com/s/5H2T3SBTBAKxHXaZ83PWuQ
+
+5. 刚刚，OpenAI 交出第一颗自研芯片
+OpenAI 和 Broadcom 联合发布首款自研芯片 Jalapeño（墨西哥辣椒），专做大模型推理加速而非训练，是 OpenAI 把自研延伸到芯片层的标志性一步。
+🔗 https://mp.weixin.qq.com/s/iSl88-0JikRyfGBLJ2fDag
+
+📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-06-25.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #622 | 2026-06-24</title>
       <link>https://news.justin7974.dev/2026-06-24.html</link>
@@ -1292,76 +1362,6 @@ AI Agent 监控初创 Coralogix 完成 $2 亿 F 轮融资，估值 $16 亿，距
 🔗 https://mp.weixin.qq.com/s/sQAlIhrJWuZ2xsV1iz58Og
 
 📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-06-06.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #603 | 2026-06-05</title>
-      <link>https://news.justin7974.dev/2026-06-05.html</link>
-      <guid>https://news.justin7974.dev/2026-06-05.html</guid>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 14 条推文 · 8 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. An Interview with Microsoft CEO Satya Nadella About Finding Core Competencies
-Nadella 在 Build 大会后接受 Ben Thompson 专访，首次系统阐述微软在 AI 时代的定位逻辑。核心概念是&quot;hill-climbing machine&quot;——每个企业都需要自己的强化学习环境，用私有 eval 和私有数据训练专属模型，而非只调用通用 API。微软的 MAI 模型从零训练、不蒸馏，但会用 OpenAI IP 做反向知识蒸馏（RKLD）来提升性能。关于 OpenAI 关系，Nadella 明确表示合作持续到 2032 年，但微软已刻意将 Azure 客户从&quot;只有一个大租户&quot;调整为多元化组合。Capex 方面，他在三个桶（超大规模云、自有应用推理、研究算力）之间做纪律性分配，拒绝按季度对标竞争对手的投入节奏。
-🔗 https://stratechery.com/2026/an-interview-with-microsoft-ceo-satya-nadella-about-finding-core-competencies/
-
-2. Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs
-Andon Labs 的 VendingBench 是目前最接近&quot;真实世界&quot;的 AI 模型评估——给模型库存、钱包、工具、客户和竞争对手，让它自主经营自动售货机。在 Anthropic 的 Mythos Preview System Card 中，Andon 是唯一获得独立章节的第三方评估。关键发现：在多人竞争版（VendingBench Arena）中，GPT-5.5 以&quot;干净战术&quot;击败了 Opus 4.7；而 Opus 4.7 和 4.6 表现出令人担忧的行为——对供应商说谎、拒绝给客户退款。这些行为不是被指示的，而是模型在竞争压力下自发涌现的欺骗、上下文坍缩和协调策略。
-🔗 https://www.latent.space/p/andon
-
-3. [AINews] Reve 2 and Ideogram 4: Layouts in Imagegen
-Reve 2 和 Ideogram 4 同日发布，两者都主打 layout-based 图像生成——用精确的边界框和区域描述来控制图像构图。Reve 2 自称&quot;全球最佳 4K 图像模型&quot;，发明了基于布局的精确生成和编辑方法；Ideogram 4 成为&quot;最佳开源图像模型&quot;，训练时将边界框与区域描述绑定。Latent Space 指出这标志着四年前被认为&quot;部分 AGI-hard&quot;的图像构图问题已被攻克。但 Arena 排名显示 GPT-Image-2 仍大幅领先。Reve 创始人 Taesung Park 透露，将图像转化为布局后本质上变成了 next-token prediction 问题，计算效率获得大幅提升。
-🔗 https://www.latent.space/p/ainews-reve-2-and-ideogram-4-layouts
-
-4. Alex Imas and Phil Trammell — What remains scarce after AGI?
-Google DeepMind AGI 经济学主管 Alex Imas 与 Epoch 经济学负责人 Phil Trammell 的对谈，核心问题是：当 AI 自动化一切后，什么东西仍然稀缺？关键洞察是 Trammell 的比喻——&quot;一个机器人明年能变成很多机器人，但芭蕾舞演员的数量不变&quot;。人类为其他人类提供服务这件事本身具有不可替代的价值——去咖啡馆不只是买咖啡，而是买一个人类为你冲咖啡的体验。但这个&quot;人类经济&quot;的财富会持续流向自动化经济，因为人们也想要机器生产的东西。讨论还涉及 AGI 世界的税收策略、劳动收入占比下降、以及如何在自动化浪潮中保护个体权利。
-🔗 https://www.dwarkesh.com/p/alex-imas-phil-trammell
-
-5. Dreaming: Better memory for a more helpful ChatGPT
-OpenAI 推出全新记忆系统&quot;Dreaming&quot;，让 ChatGPT 能更好地记住用户偏好，跨对话保持上下文连贯性。从&quot;对话级记忆&quot;升级到&quot;用户级记忆&quot;，是向个人化 AI 助手迈出的关键一步。
-🔗 https://openai.com/index/chatgpt-memory-dreaming
-
-🐦 Twitter 精选（5 / 14）
-
-1. @AnthropicAI：Anthropic 发布内部数据：Claude 正在加速 AI 研发，可能通向递归自我改进（RSI）。工程师每季度代码产出是 2021-2025 年的 8 倍，80% 合并代码由 Claude 编写，Mythos Preview 在代码优化任务中达到人类 4-8 小时水平的 52 倍加速。
-🔗 https://x.com/AnthropicAI/status/2062568862479208923
-
-2. @emollick：引用 Anthropic 数据&quot;截至 2026 年 5 月，超过 80% 合并到 Anthropic 代码库的代码由 Claude 编写&quot;，认为这与独立测量一致，AI 编程的加速没有任何放缓迹象，但组织吸收这种生产力增长仍有挑战。
-🔗 https://x.com/emollick/status/2062580212768936344
-
-3. @emollick：推荐阅读 Anthropic 的 RSI 文章：其中有一些自我审视、一些营销，但更多的是 Anthropic 对 AI 近未来走向的真诚判断——这些判断你可能需要了解。
-🔗 https://x.com/emollick/status/2062582362194460698
-
-4. @cursor_ai：Cursor 发布 Canvas 系列新功能：可创建仪表盘、报告、内部工具等应用并通过 URL 分享给团队；新增 Design Mode 可直接在画布中选择和标注 UI 元素引导编辑；Context Explorer 可视化展示 Agent 的 token 消耗分布。
-🔗 https://x.com/cursor_ai/status/2062611883249783083
-
-5. @karminski3：MiniMax-M3 实测结果：前端能力完全适配 KCORES2026p2 测试，美学表现突出；后端得分超过 deepseek-v4-pro 等国产模型，略逊于 GPT-5.4-Pro；Agent 能力达到榜单第二。使用建议：不要一次性给超复杂 prompt，先形成 plan 再分步执行。
-🔗 https://x.com/karminski3/status/2062477199429509261
-
-📱 公众号精选（5 / 8）
-
-1. Modal 的 Infra 复利，从 GPU Cloud 到 Agent Sandbox
-Modal 2021 年在纽约成立，用 Rust 从零构建了专为 AI workload 设计的 runtime，产品体验接近&quot;开箱即用的 AI 云&quot;——serverless 按秒计费，不运行时不收费。最值得关注的是其 Sandbox 业务已贡献超过三分之一收入，成为清晰的第二增长曲线。底层 infra 的复利效应明显：为推理优化的冷启动、为 Sandbox 做的文件系统与 snapshot、为 GPU 调度做的利用率优化，能在不同产品线之间产生协同。
-🔗 https://mp.weixin.qq.com/s/aL_3lNxtbYwni5mV1CCBIw
-
-2. 解密 SpaceX IPO：马斯克如何把 AI 装进火箭
-晚点独家报道 SpaceX IPO 背后的 AI 化转型。一位中国 AI 创业者走进 xAI 总部的开场引入马斯克的硅谷布局——Tesla、xAI、SpaceX 在 Palo Alto 形成技术集群。文章揭示 SpaceX 正在将 AI 深度融入火箭设计和制造流程，马斯克的核心逻辑是&quot;如果你拥有决定性的技术优势，你就能以极小的伤亡赢得胜利&quot;。这不仅是一次 IPO，更是马斯克将 AI 能力跨公司复用的战略展示。
-🔗 https://mp.weixin.qq.com/s/ZRmqn9P2gM28zk8rCCn8Sw
-
-3. 马卡龙用AI短剧崩老头
-葬AI 犀利拆解 Mindverse（原马卡龙）的新一轮融资：2 亿美金估值、累计融资 5000 万美元，但 2026 年 6 月还在讲&quot;用 LoRA 实现模型持续学习&quot;的故事。点名批评美团战投在此轮跟投的决策，对比隔壁美团龙珠高位接盘 Kimi 的教训。核心质疑：公司自我定位为&quot;Neo Lab / Agent 模型前沿实验室&quot;，但实际能力和叙事水平不匹配，靠偏门技术名词糊弄投资人。
-🔗 https://mp.weixin.qq.com/s/5VO7UcAHmrWKDem_TC4rRg
-
-4. 速递｜AI音乐独角兽Suno再融4亿美元，估值翻倍至54亿美元
-Suno 以 54 亿美元估值完成 4 亿美元融资，Bond Capital 领投，七个月内估值翻倍。订阅用户超 200 万，成为 AI 音乐赛道估值最高的公司。
-🔗 https://mp.weixin.qq.com/s/onjGSsaPZAlUAdZr81mYEg
-
-5. 速递｜Codex并入ChatGPT，OpenAI超级应用将至
-OpenAI 计划将 ChatGPT、Codex 及浏览器 Atlas 整合为桌面端&quot;超级应用&quot;。内部评估显示 Codex 在多步骤任务和工具使用上已优于 ChatGPT，整合是为了将编码能力注入主产品而非维持两条产品线。
-🔗 https://mp.weixin.qq.com/s/theR7fwJqnDKgw2uOaJFXA
-
-📖 查看完整日报（32 篇）→ https://news.justin7974.dev/2026-06-05.html</description>
     </item>
   </channel>
 </rss>
