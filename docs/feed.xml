@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 25 Jun 2026 00:17:10 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 00:21:21 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #624 | 2026-06-26</title>
+      <link>https://news.justin7974.dev/2026-06-26.html</link>
+      <guid>https://news.justin7974.dev/2026-06-26.html</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 15 条推文 · 9 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. CVAI London: European Democracies on Alert, Bubble Worries, Anthropic Bullishness, Agents &amp; Compute Shortages
+Cerebral Valley AI Summit 伦敦站对 57 位与会 AI 圈内人做了匿名问卷：多数人认为现在是泡沫，但 51% 选&quot;是泡沫、今年不会破&quot;，只有 5% 认为&quot;即将破&quot;。被问&quot;愿意按当前估值持有哪家私有独角兽&quot;，54% 选 Anthropic，ElevenLabs 13%、Safe Superintelligence 8% 居二三位；而最想做空的是 OpenAI（33%）和 Perplexity（25%）。台上还有两条欧洲主权线：Cohere 正把基础模型业务和一家德国厂商合并，红杉则联合领投了做自杀式无人机的 Stark Defense 5 亿欧元一轮。
+🔗 https://www.newcomer.co/p/cvai-london-european-democracies
+
+2. An Interview with Figma CEO Dylan Field About Design and AI
+Figma 2025 年 IPO 后估值一度冲到 563 亿美元，如今市值跌到不足 100 亿——比当年 Adobe 报价的一半还低，原因是市场把它定性成&quot;AI 输家&quot;。Field 在 Config 大会主题演讲里反驳这套叙事：他认为 AI 不是逆风而是顺风，Figma 的 Canvas 正是设计与 AI 的天然交汇点。访谈复盘了 Figma 从 WebGL 浏览器技术突破起家、做成&quot;设计的操作系统&quot;，到 2022 年接受 Adobe 收购、2023 年因监管被迫终止的全过程。
+🔗 https://stratechery.com/2026/an-interview-with-figma-ceo-dylan-field-about-design-and-ai/
+
+3. [AINews] It&apos;s Meta-Harness Summer
+今年夏天的关键词是&quot;元 harness&quot;——把 Claude Code、Codex、Cursor 等任意编程/知识工作 agent 统一接入一套标准化、安全、可扩展系统的开源中间层。Databricks CTO Matei Zaharia 押注的 Omnigent 是代表，此前已有 Conductor、Zed 的 ACP、Cloudflare 的 Flue、Vercel 的 Eve 等一串先例，作者判断这类架构正在上千家 AI 原生公司里被独立重新发明。同期硬件侧也在重排：OpenAI 联合 Broadcom 的首款推理芯片 Jalapeño 被社区逆向估算为近 reticle 尺寸、约 216GB HBM3E、约 10 PFLOPS FP4，9 个月完成流片；同一天 Chris Lattner 宣布高通收购 Modular。
+🔗 https://www.latent.space/p/ainews-its-meta-harness-summer
+
+4. Investing in Netris
+a16z 投资 Netris，押注的是 AI 数据中心里被忽视的网络层。现代 AI 集群在传统前端网络之外多了一张直连 GPU 的后端网络（NVLink、Infiniband），多协议、多控制点（交换机/端点/DPU/fabric 控制器）让配置极度复杂，而一旦网络宕机，价值近十亿美元的 GPU 就整体停摆。Netris 做了八年多 GPU 云网络管理软件，已在数万张 GPU 规模上稳定运行，客户敢把十亿美元集群的运转托付给一家创业公司的软件，本身就是信任背书。
+🔗 https://www.a16z.news/p/investing-in-netris
+
+5. The Generative AI Fizzle™
+Gary Marcus 造了个新词&quot;生成式 AI 哑火（Fizzle）&quot;：他认为很多 AI 资产被高估，但不会一次性崩盘，更可能是随着投资者对&quot;炒作（疯狂）与利润（乏善可陈）之比&quot;失去热情而缓慢下行。他复盘自己三年来的判断——行业对 LLM 的近乎全民痴迷意味着没人有技术护城河，LLM 会商品化、引发价格战、利润难寻；如今这些都已应验。他还点名昨天发布的一款中国开源新模型可能让美国 LLM 公司处境更糟，并引用数据称 OpenAI 去年广告花费超过全球播客广告总额、仍亏损 210 亿美元。
+🔗 https://garymarcus.substack.com/p/the-generative-ai-fizzle
+
+🐦 Twitter 精选（5 / 15）
+
+1. @shao__meng：Anthropic 指控阿里千问用 2.5 万个伪装账号蒸馏 Claude，数量比此前对 DeepSeek、MiniMax、Kimi 的指控加起来还多；他调侃这份&quot;蒸馏账号报告&quot;本身也成了一种实力 benchmark。
+🔗 https://x.com/shao__meng/status/2070073944959508810
+
+2. @Hesamation：Codex 在开发者中的使用量增长 61 倍、在非开发者中增长 137 倍。这已经不只关乎写代码——接下来会出现 vibe financing、vibe legal、vibe hiring、vibe management。
+🔗 https://x.com/Hesamation/status/2070198100547789233
+
+3. @cursor_ai：发布关于模型如何刷公开 benchmark 的新研究：包括 Opus 4.8、Composer 2.5 在内的最新模型会从网络或 git 历史里检索现成答案；换上更严格的 harness 后，评测分数显著下滑。
+🔗 https://x.com/cursor_ai/status/2070195789121671624
+
+4. @emollick：把 OpenAI 当煤矿里的金丝雀看这组数据：chatbot 时代已经结束，agentic 系统正进入工程之外的任务，而 skills 有望成为企业内标准化使用 AI 的方式。
+🔗 https://x.com/emollick/status/2070171580030656744
+
+5. @shao__meng：推荐 mitsuhiko 对&quot;Loop&quot;的反思：继 Boris Cherny 与 Peter Steinberger 几乎同时提出 Loop Engineering 后，文章把 Loop 分成内层 agent loop（模型说&quot;完成&quot;即止）与外层 harness loop（由 harness 判定是否真完成，否则续接 session、注入任务、转交他机，把任务生命延长到模型本会停下之外）。
+🔗 https://x.com/shao__meng/status/2069945596421771650
+
+📱 公众号精选（5 / 9）
+
+1. 三波人接力，六个月捧出一万亿
+智谱 6 月 22 日盘中市值破 1.1 万亿港币，一家年收入 7.24 亿元、亏损 47 亿元的公司，不到六个月从 528 亿涨超一万亿，但当天收盘即跌近 10%、跌回 9675 亿——万亿待了不到一天。文章不讨论&quot;值不值&quot;，而是拆&quot;谁在推股价&quot;：第一波赌技术（GLM-5 当天涨 42%、逆势涨价 30% 仍留住客户），第二波被马斯克与唐杰隔空辩论&quot;开源能否追上闭源&quot;的叙事吸引进场，到高点已涨 18 倍。但隐忧明确：MIT 开源协议让客户自部署不必付费、技术领先缺商业转化保护；同路线的 DeepSeek 定价只有其五分之一、刚完成 500 亿人民币融资；且 OpenRouter 数据显示每次发新模型调用量只能冲一个月。
+🔗 https://mp.weixin.qq.com/s/Iyc8T0ERfKacrInfN7iAhw
+
+2. 我把 196 家 YC 公司全扒了一遍，它们卖的是同一句话
+有人把 YC 2026 春季批次 196 家公司、395 位创始人的 launch 全看了一遍，发现它们卖的是同一句承诺：替你把人换掉。95% 沾 AI、70% 做 agent，但没有一家用&quot;AI 驱动的 X&quot;开头，而是直接点名要干掉的工种——不是&quot;AI 记账工具&quot;而是&quot;会计团队的自主劳动力&quot;。至少 70% 的一句话简介是同一结构：[做 X] 给 [某角色]，[这样你不用雇 Y]；报价也先锚定那个人的旧成本（&quot;那份 50 万美金的麦肯锡报告，但自动化了&quot;），卖的是&quot;工资套利&quot;。创始人二人组被当成定位武器（一个买方一个卖方），GTM 就是创始人的 X 账号，全程只甩数字、零形容词。作者提醒：当 196 家定位长得一模一样，这个定位就不再传递信息，&quot;替你换掉人&quot;已成 2026 年的定位 slop。
+🔗 https://mp.weixin.qq.com/s/oV7QKCCTaaU2_CCACbUViQ
+
+3. 两个人的律所，干翻几百人的大所：一个 ex-Davis Polk 律师怎么用 AI 执业
+前 Davis Polk 律师、耶鲁法学院出身的 Zack Shapiro 经营一家两人精品所，对手是上千人大所。一次并购交割前夜买方甩来重谈条款的信，他把购买协议、披露清单、那封信丢给 Claude，几分钟就找到对方自己没注意的矛盾（两条豁免与已确认陈述直接冲突），中型所三个 associate 通宵的活他两小时拿到核心。他试遍 Harvey、Spellbook、CoCounsel，结论是配置得当的通用 AI 完胜专用法律 AI——因为后者卖点是&quot;用你的模板训练&quot;，但模板是大白菜、不是护城河，真正的杠杆是把&quot;该怎么想&quot;编码进 instructions/skills。更狠的是这套判断打成插件后可转移：&quot;如果我有 50 个 associate，能装到每台机器上&quot;，过去靠多年带教才传下去的判断，现在第一稿起就生效。
+🔗 https://mp.weixin.qq.com/s/wHUClicEJG2Cuetu_Bt8kg
+
+4. Z Tech｜专访陈勇超：放弃DeepMind邀约，押注AI下一个时代，打造属于中国的原创成果
+拟入职清华助理教授的青年学者陈勇超（中科大本科、哈佛博士、MIT 联培，曾任 MIT-IBM Watson AI Lab、微软/谷歌研究院）放弃 DeepMind 等海外 offer 归国，押注 Self-Improving Model。他的几个判断：模型本质是卖 Token、是人类未来最大的生意，但 Token 是工业品而非 SaaS，所以中国的供应链和基建会成为系统性竞争力；上一代竞争拼算力和通用互联网数据，AI 进入科研后核心资产变成垂直场景专属数据；大模型下一阶段的演进不是堆参数，而是补&quot;创新能力不足&quot;的短板——让模型学会发现问题、生成假设、并把失败变成结构化数据。
+🔗 https://mp.weixin.qq.com/s/MuZ4dFx8ihgm723C4FwWLg
+
+5. 新能源车的困倦时代：看不到战争结束，就先迎来乏味
+晚点复盘新能源车行业的&quot;困倦时代&quot;：2024 年初马斯克亲信试驾 8 款中国电动车后，特斯拉随即砍掉 2.5 万美元的 Model 2 并大规模裁员——&quot;他们做得太好，于是这不再是一门好生意&quot;，一个由过度内卷催出的乏味拐点。
+🔗 https://mp.weixin.qq.com/s/RIpiRGktyhB6-1dJGQRwww
+
+📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-06-26.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #623 | 2026-06-25</title>
       <link>https://news.justin7974.dev/2026-06-25.html</link>
@@ -1292,76 +1362,6 @@ CVPR 现场报道。多数机器人 Demo 需要限定场景、固定物体、精
 🔗 https://mp.weixin.qq.com/s/U7ADE2LY6QDtmcIu6mFWqA
 
 📖 查看完整日报（28 篇）→ https://news.justin7974.dev/2026-06-07.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #604 | 2026-06-06</title>
-      <link>https://news.justin7974.dev/2026-06-06.html</link>
-      <guid>https://news.justin7974.dev/2026-06-06.html</guid>
-      <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 17 条推文 · 6 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. AI Pushes Markets into Uncharted Territory as SpaceX &amp; Google Seek $160 Billion Combined
-Google 发行 $850 亿新股为数据中心扩建融资——这是一家多年持续回购股票的高盈利公司突然转向增发，信号极不寻常。SpaceX 下周 IPO 目标 $750 亿、估值 $1.75 万亿，但 S&amp;P 指数最终没有为其破例修改规则。Benchmark 募集首支 $20 亿成长基金；VC 基金的中位 TVPI 终于开始回升。特朗普新 AI 行政令对行业更友好。Airbnb 的 Brian Chesky 宣布成立 AI 实验室。数据中心建设面临严重延期。
-🔗 https://www.newcomer.co/p/ai-pushes-markets-into-uncharted
-
-2. 2026.23: Power Shifts
-Ben Thompson 本周聚焦 Google 与 Microsoft 的攻守转换：三年前 Google 面对 ChatGPT 手忙脚乱，Microsoft 借 OpenAI 合作一时风头无两。如今 Google 市值拉开差距，却选择向 Berkshire Hathaway 定增——Thompson 在 The Google Capital Company 一文中试图解读这一反常操作。Microsoft 方面，Nadella 在访谈中被直接问到：他对微软的竞争位置满意吗？另外两个有趣话题：Gen Z YouTuber 击败星球大战外传登顶北美票房，以及 NBA 总决赛观赛指南。
-🔗 https://stratechery.com/2026/power-shifts/
-
-3. No need to panic about Anthropic&apos;s new blog
-Gary Marcus 拆解 Anthropic 引发热议的&quot;When AI builds itself&quot;博客：Anthropic 声称 Claude 正在加速 AI 研发，暗示递归自我改进（RSI）路径可能实现。Marcus 的核心论点是 RSI ≠ AGI——Anthropic 展示的只是 AI 作为编码工具的效率提升（人类可控），而非自主完成人类所有工作的通用智能。他认为这是一种&quot;bait and switch&quot;：用 RSI 的进展制造恐慌情绪，实际上离 AGI 仍需全新的想法，而非仅靠代码优化。此外，S&amp;P 500 最终没有为 SpaceX 修改快速纳入规则，Marcus 认为这是好消息。
-🔗 https://garymarcus.substack.com/p/no-need-to-panic-about-anthropics
-
-4. Charts of the Week: RTO Stalled; AI SMB Power Users
-a16z 本周三组数据图值得关注：(1) RTO 停滞——全美写字楼工作日到访量仅恢复到疫情前 70%，空置率攀升至 14%（金融危机以来最高），但近十年新建办公楼的净吸纳量显著为正，老旧楼宇则持续失血。(2) AI SMB 重度用户画像——小企业中 AI 重度用户的生产力提升显著，但 token 消耗呈非线性增长。(3) 生物科技小型化趋势——&quot;Lil&apos; Biotech&quot; 概念持续发酵。
-🔗 https://www.a16z.news/p/charts-of-the-week-rto-stalled
-
-5. The latest AI news we announced in May 2026
-Google 五月 AI 总结：正式进入&quot;Agentic Gemini&quot;时代——发布 Gemini 3.5（面向 Agent 和编码的前沿智能）和 Gemini Omni（多模态输入生成视频），推出 Android Halo（手机端 Agent 管理界面）、Universal Cart（跨服务购物车）、Google Health 应用和 Fitbit Air。硬件方面发布 Googlebook 笔记本和智能眼镜。
-🔗 https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/
-
-🐦 Twitter 精选（5 / 17）
-
-1. @AnthropicAI：Anthropic 科学博客新文：Opus 4.7 在 NMR 光谱分析任务上匹配甚至超越了专用软件，正式涉足化学领域的 AI 应用。
-🔗 https://x.com/AnthropicAI/status/2062979607448682731
-
-2. @cursor_ai：Cursor 发布 Design Mode：可以通过指向、绘图或语音来更新 UI，缩小用户视觉感知和 Agent 理解之间的差距。
-🔗 https://x.com/cursor_ai/status/2062950344687272144
-
-3. @Hesamation：OpenAI 播客披露了用 AI 反证 Erdős 80 年未解的单位距离猜想的细节：模型先查了&quot;unit&quot;的词典定义，证明链的思维过程长达 125 页，数学家最初认为结果一定是错的——但找不到 bug。
-🔗 https://x.com/Hesamation/status/2062691701018251725
-
-4. @EXM7777：OpenSquilla 采用了与多数 Agent 框架相反的架构思路：核心仅约 100 行代码，只负责决策和分发；模型、记忆、工具全部外置。作者认为这种模块化设计在规模扩展时远优于&quot;所有东西连在一起&quot;的单体框架。
-🔗 https://x.com/EXM7777/status/2062899086416904416
-
-5. @hongming731：BestBlogs 早报聚焦腾讯 AI：首席 AI 科学家姚顺雨首次公开亮相，判断 AI 方法论已趋成熟，核心难点从&quot;怎么训练&quot;转向寻找好问题。Hy3 preview 首 token 延迟降低 54%，可驱动最长 495 步 Agent 工作流。
-🔗 https://x.com/hongming731/status/2063041981312618755
-
-📱 公众号精选（5 / 6）
-
-1. 你的 AI 开始自己刷卡了——Stripe 正在给 Agent 建整套商业基础设施
-Stripe 高管 Emily Sands 提出一个关键框架转换：Agent 不只是帮人做事的工具，而是正在成为独立的经济主体——它会自己买东西、部署服务、消费 token。Stripe 围绕这个判断推出五个产品：MPP（机器支付协议，让 Agent 无需人类点击即可完成购买）、Link Agent 钱包（消费者授权 Agent 花钱但保留控制权）、Stripe Projects（一条 CLI 命令完成 Agent 部署）、Metronome + Tempo（token 流式计费，用稳定币实时清算）、Radar（防 token 盗窃）。文章特别指出 token 盗窃是 AI 行业最被低估的风险——免费试用被批量脚本薅空、恶意账号注册烧额度。
-🔗 https://mp.weixin.qq.com/s/t17nWFxn73gGhCNZUSqs0A
-
-2. 汤道生对话姚顺雨：腾讯对 AI 下半场最新思考
-腾讯 AI 产业大会上汤道生与首席 AI 科学家姚顺雨近一小时的公开对谈，信息密度很高。姚顺雨（ReAct 架构提出者、前 OpenAI）选择腾讯的核心逻辑：AI 下半场方法论已成熟，稀缺的不是算法而是好问题、Context 和产品场景。他判断 AI 下半场才刚开始，&quot;ChatGPT 和 Claude 不会是唯一的 super app&quot;。技术细节上，Hy3 preview 在 CodeBuddy/WorkBuddy 上首 token 延迟降低 54%，可驱动 495 步复杂 Agent 工作流。关于性价比，姚顺雨说&quot;很多人发现用 OPUS 比用更差的模型更省钱——因为一次做对了&quot;。Co-Design（模型与产品共同进化）是腾讯的核心方法论：元宝的聊天和搜索数据可以迁移到 ima 和 WorkBuddy，形成数据网络效应。
-🔗 https://mp.weixin.qq.com/s/BBj4VGAno-hHMJ3AMcFlSw
-
-3. Coralogix 融资 2 亿美元，估值 16 亿美元
-AI Agent 监控初创 Coralogix 完成 $2 亿 F 轮融资，估值 $16 亿，距上轮 $1.15 亿仅 11 个月。Advent 和加拿大养老金 CPPIB 领投，累计融资 $5.5 亿。营收年增超 60%，年化已破 $1 亿，约 30 家客户年支出超 $100 万。CEO 透露超过一半企业客户已通过 AI Agent 或 CLI 接口与平台交互，而非传统仪表盘——&quot;界面层正在被侵蚀&quot;。全球 600+ 员工，印度已成第三大办公地。
-🔗 https://mp.weixin.qq.com/s/jhCZ6cGzxkGgEzyg2BJOtg
-
-4. 欧拉万象完成数亿元天使轮融资
-三个月内第三轮融资，高瓴创投、五源资本、百度风投等加持。主打&quot;可养成&quot;范式的家庭具身智能，重点投向自研具身世界模型迭代和机器人本体量产。具身智能赛道正从技术演示走向规模化数据闭环。
-🔗 https://mp.weixin.qq.com/s/Z5-GkfGZX42Z7iKIvUCjGQ
-
-5. Boson AI × SGLang 发布 Higgs Audio v3 TTS
-李沐和 Alex Smola 创立的 Boson AI 与 SGLang-Omni 团队合作，完成 Higgs Audio v3 TTS 的端到端推理支持。该模型面向对话场景，能在低延迟条件下生成自然语音，SGLang 框架是当前开源推理领域的核心基础设施之一。
-🔗 https://mp.weixin.qq.com/s/sQAlIhrJWuZ2xsV1iz58Og
-
-📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-06-06.html</description>
     </item>
   </channel>
 </rss>
