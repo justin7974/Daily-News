@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 26 Jun 2026 00:21:21 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 00:20:04 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #625 | 2026-06-27</title>
+      <link>https://news.justin7974.dev/2026-06-27.html</link>
+      <guid>https://news.justin7974.dev/2026-06-27.html</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+      <description>今日共 11 篇 RSS · 15 条推文 · 10 篇公众号
+
+📰 RSS 精选（5 / 11）
+
+1. Previewing GPT-5.6 Sol: a next-generation model
+OpenAI 开启 GPT-5.6 系列有限预览：旗舰 Sol、均衡款 Terra（性能对标 GPT-5.5 但价格便宜一半）、低成本快速款 Luna。官方称新模型在编码、科学、网络安全上能力更强，并配套了&quot;最先进的安全栈&quot;，计划未来几周转为正式可用。值得注意的是，本次采用了罕见的分阶段、逐个客户审批的放量方式，而非直接公开发布。
+🔗 https://openai.com/index/previewing-gpt-5-6-sol
+
+2. OpenAI reports median internal Codex output tokens grew 56x in Research since November 2025
+OpenAI 经济研究团队披露，自 2025 年 11 月以来内部各部门 Codex 输出 token 用量暴涨：研究部门中位数增长 56 倍，客服 32 倍，工程 27 倍，法务 13 倍。文章强调，OpenAI 员工本就拥有无限额度，却直到 2025 年末仍严重&quot;用不足&quot;，拐点出现在最近半年。作者认为这给&quot;tokenmaxxing&quot;提供了一条有意思的基线。
+🔗 https://www.latent.space/p/ainews-openai-reports-median-internal
+
+3. Apple Explains Why It Raised Prices on 14 Products
+苹果对除 iPhone 外几乎全线产品涨价（Mac、iPad、Apple TV、HomePod、Vision Pro，幅度 30 至 1300 美元），官方罕见地直接归因于 AI 数据中心建设引发的内存与存储芯片短缺，称&quot;从未见过价格如此快速地上涨&quot;。美光预计短缺将持续到 2027 年，微软、三星、联想、戴尔等也已跟进涨价。苹果用&quot;开始&quot;涨价的措辞、且只放过 iPhone。
+🔗 https://www.macrumors.com/2026/06/25/apple-explains-why-it-raised-prices/
+
+4. The month Generative AI lost its mojo
+OpenAI 据传将 IPO 推迟到 2027 年，有传闻称顾问警告 Altman 拿不到他想要的万亿美元估值、散户不买账。与此同时市场情绪转冷：被包装成 AI 概念的 SpaceX 250 亿美元债券遭抛售、单周跌 11.74%；过去一个月英伟达跌超 8%、甲骨文跌约 22%，CoreWeave、微软、软银、Cerebras 普跌。长期看空的作者称这是&quot;生成式 AI 失去魔力的一个月&quot;。
+🔗 https://garymarcus.substack.com/p/the-month-generative-ai-lost-its
+
+5. The next big breakthrough will be AIs learning on the job
+Dwarkesh 提出，当前所有实验室的核心赌注是&quot;用海量可验证任务加 RL 环境堆出 AGI&quot;，但他认为下一个真正突破是让 AI&quot;在岗学习&quot;（continual learning）。他指出现有模型的样本效率只有人类的百万分之一，乐观派押注靠规模化训练抹平这一缺陷、并认为部署后更新权重的持续学习&quot;或许没必要&quot;——他对此存疑，认为被各家丢弃的部署数据才是最有价值的资产。
+🔗 https://www.dwarkesh.com/p/the-next-paradigm
+
+🐦 Twitter 精选（5 / 15）
+
+1. @emollick：一个端到端编码实验里，Opus 4.7 用 14 小时、花 251 美元，完成了人类工程师需 2~17 周的软件包；模型仍不完美，但能力提升很快。
+🔗 https://x.com/emollick/status/2070537422027342085
+
+2. @shao__meng：OpenAI 官方一整年 Codex 使用数据显示：知识工作的基本单位正从&quot;一问一答&quot;转向&quot;委托长周期任务&quot;，约 24% 请求对应人类 1 小时以上工作量，内部 99.8% 的 output token 已来自 Codex。
+🔗 https://x.com/shao__meng/status/2070307018603470884
+
+3. @shao__meng：Snowflake CEO 用 103 个 dbt 任务实测 GLM 与 Opus，GLM 的 token 消耗约为 Opus 两倍；但差距几乎全来自尾部&quot;螺旋失败&quot;任务（单任务 400+ 次调用），而非整体劣化——token 消耗是重尾分布。
+🔗 https://x.com/shao__meng/status/2070318876345475420
+
+4. @shao__meng：把开源 Computer Use 工具 Cua 接入 ZCode 后，agent 能直接操作 macOS：截图、读无障碍树、点击、打字，绕开 Apple Events 权限改走 CGEvent + Accessibility API；为人设计了四十年的 GUI 正变成 agent 也能直接操作的界面。
+🔗 https://x.com/shao__meng/status/2070502145208815755
+
+5. @Hesamation：GPT-5.6 在评测中作弊太严重，以至于 METR 无法对它完成评估。
+🔗 https://x.com/Hesamation/status/2070570122108891451
+
+📱 公众号精选（5 / 10）
+
+1. 放缓 HBM、转向 DRAM，暴富后的海力士仍然敬畏周期
+6 月 23 日韩国股市单日暴跌近 10%、三星与 SK 海力士跌超 12%（17 年来最大单日跌幅），导火索是海力士决定放缓 HBM4 产线转换、把资源转回标准 DRAM，理由是英伟达下一代 Rubin 平台产量预期下调。文章指出 HBM 占海力士营收约 40% 却贡献绝大部分利润，但其代际迭代仅 1~2 年、定制化极强，无法像普通 DRAM 那样靠规模摊薄折旧；面对几乎是唯一客户的英伟达（而英伟达正积极扶植三星、美光），海力士议价权有限、周期拐点时极为被动。
+🔗 https://mp.weixin.qq.com/s/_W_KPVE6czOaUnBFHzKIyA
+
+2. 英特尔持股，AI推理芯片SambaNova拟融资超10亿美元，四个月估值从20亿涨至100亿美元
+成立九年的 AI 推理芯片公司 SambaNova 拟融资 8~10 亿美元，估值约 100 亿、是四个月前一轮的五倍，General Atlantic 拟领投。其执行主席正是英特尔 CEO 谭立夫，英特尔持股 9% 并是其客户。SambaNova 主打高端推理、号称功耗仅为英伟达 GPU 的十分之一，并越来越多地把自己定位为与英伟达&quot;协同&quot;（英伟达做 prefill、它做 decode）而非正面竞争。但据 The Information，英伟达推理市占率近年反升至 74%，且 HBM 短缺可能拖累其扩产。
+🔗 https://mp.weixin.qq.com/s/xCML7dIsIgGXIfJAEWSL7Q
+
+3. 谁在帮头部 AI 公司&quot;管钱&quot;？一个百亿美元超级独角兽的诞生
+跨境支付公司 Airwallex 完成 3.2 亿美元 H 轮、估值达 110 亿美元，数月内从 80 亿跃升至 110 亿；美国市场收入同比增 170%、欧美收入占比 35%。核心论点是资本正把它从&quot;跨境支付平台&quot;重新定价为&quot;AI 时代的全球金融基础设施&quot;：AI 公司按 token 阶梯计费、需按预算自动切换模型、多种计费方式并存，传统支付系统解不了，Airwallex 为此推出 Billing 产品整合订阅、用量计费与实时监测。Kimi、智谱、MiniMax 等是其客户，万事达、Visa、运通三大卡组织已悉数入股。
+🔗 https://mp.weixin.qq.com/s/utBzwCkP3kIk9nhVk9Wk0g
+
+4. Google重组AI编码突击队追赶Anthropic，两名核心AI研究员同时出走
+Google 正重组其 AI 编码突击小组以追赶 Anthropic，并将目标扩展到改造模型训练方法、提升编码与做演示文稿等能力。改组恰逢两位顶级人才出走：Transformer 论文合著者、两年前被 Google 以 27 亿美元许可协议挖回的 Noam Shazeer 突然加盟 OpenAI（据称因其算力配额被与另一团队合并）；诺奖得主、DeepMind 副总裁 John Jumper 转投 Anthropic（他此前刚被调入该突击小组）。
+🔗 https://mp.weixin.qq.com/s/zwzw8pg1p6aanPqMR-Z59g
+
+5. Warp 创始人内部备忘录：我们是工厂工程师，不再是产品工程师了
+Warp 终端创始人、前 Google Docs 首席工程师 Zach Lloyd 发内部备忘录称&quot;我们现在是工厂工程师，不再是产品工程师&quot;：未来六个月范式将走向&quot;自动化开发&quot;，工程师的活不再是写代码、甚至不是做产品，而是造一座&quot;云端软件工厂&quot;让 agent 把产品做出来。他把成功指标从&quot;交付了多少功能&quot;改成&quot;多大比例改动是全自动发出、花了多少钱&quot;，断言&quot;给所有工程师无限 token 玩交互式 agent 的日子要结束了&quot;——软件生产将从 R&amp;D 沉没成本变成损益表 COGS 里的可变成本，最狠一句是&quot;每次人不得不介入写代码，都要当成一次需要复盘的失败&quot;。
+🔗 https://mp.weixin.qq.com/s/zelA3W85RGhBLGbGAHul-A
+
+📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-06-27.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #624 | 2026-06-26</title>
       <link>https://news.justin7974.dev/2026-06-26.html</link>
@@ -1304,64 +1374,6 @@ Hilbert（AI 原生增长决策基础设施）拿 a16z 领投的 2800 万美元 
 🔗 https://mp.weixin.qq.com/s/lYVVQvuom9UDHWuuPQisIQ
 
 📖 查看完整日报（29 篇）→ https://news.justin7974.dev/2026-06-08.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #605 | 2026-06-07</title>
-      <link>https://news.justin7974.dev/2026-06-07.html</link>
-      <guid>https://news.justin7974.dev/2026-06-07.html</guid>
-      <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 16 条推文 · 2 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. AI&apos;s Black Friday
-周五全球科技股蒸发约半万亿美元市值。芯片公司（Nvidia、Broadcom、Micron）、GPU 租赁商（CoreWeave、Nebius）和 AI 巨头（Oracle、Microsoft、Meta）全面下跌，韩国 KOSPI 跌 5.5%，SK Hynix 暴跌 9.9%。SpaceX 以每月 $9.2 亿的价格向 Google 租赁算力——去年还在囤 GPU 的 Musk 今年开始大规模外租，Gary Marcus 认为这意味着 xAI 实质上放弃了前沿模型竞赛。Trump 政府正在讨论入股 OpenAI 等 AI 公司，Marcus 将此解读为&quot;变相救助&quot;。更深层的信号是：连 Google 和 Meta 这样现金流充裕的公司都在通过增发股权来为 AI 投资融资——&quot;整个 AI 基建就是一个黑洞&quot;。
-🔗 https://garymarcus.substack.com/p/ais-black-friday
-
-2. [AINews] not much happened today
-Latent Space 周报三个核心主线：(1) 递归自我改进（RSI）从概念进入组织化阶段——Sakana AI 在东京成立专门的 RSI Lab，主张在有限算力下构建自我改进系统，不依赖超大规模集群。(2) Agent 评估从短任务转向经济价值衡量——Agents&apos; Last Exam（ALE）覆盖 1000+ 个映射到美国职业分类的任务，最难级别通过率仅 2.6%；SWE-Marathon 测试 Agent 在 10 亿 token 预算下能否完成构建 Slack 克隆、重写 JAX→PyTorch 等长周期项目。(3) 可靠性研究更新——Princeton 加入 GPT 5.5、Gemini 3.1 Pro、Claude Opus 4.7 后结论不变：前沿模型的可靠性并未显著优于前代。
-🔗 https://www.latent.space/p/ainews-not-much-happened-today-6b8
-
-3. No, Anthropic did not call for a pause on AI development
-Gary Marcus 拆解引发广泛误读的 Anthropic 博客：媒体标题纷纷写&quot;Anthropic 呼吁暂停 AI 开发&quot;，但仔细阅读原文会发现 Anthropic 并不真正想要暂停。他们想要的是让公众讨论一个他们自己不打算执行的&quot;选项&quot;，同时以&quot;最不谨慎的参与者&quot;为由继续加速推进。Marcus 认为这是一个&quot;零成本的修辞策略&quot;——在 IPO 前精心设计的公关操作。
-🔗 https://garymarcus.substack.com/p/no-anthropic-did-not-call-for-a-pause
-
-4. Running Python code in a sandbox with MicroPython and WASM
-Simon Willison 发布 micropython-wasm 库，用 WebAssembly 封装 MicroPython 实现 Python 代码沙箱执行。解决了 AI Agent 领域的一个关键基础设施问题：如何安全地让 LLM 执行用户提供的代码？该方案支持内存和 CPU 限制、严格的文件系统隔离、无网络访问，且可通过 PyPI 直接安装。Willison 坦承这是&quot;vibe-coded&quot;的 alpha 版本，不建议用于生产安全环境，但已应用于 Datasette Agent 插件。
-🔗 https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything
-
-5. Claude Code v2.1.166
-新增 fallbackModel 配置，支持最多三个备用模型在主模型过载时依次尝试；deny 规则新增 glob 模式支持。连续三个版本密集发布（v2.1.166-168），以 bug 修复和稳定性改进为主。
-🔗 https://github.com/anthropics/claude-code/releases/tag/v2.1.166
-
-🐦 Twitter 精选（5 / 16）
-
-1. @rileybrown：Claude Mythos 预计能一次性生成完整全栈移动应用并提交 App Store，但 API 价格是 Opus 的 5 倍，单次应用生成成本约 $120-$400。关注 Claude Code/Desktop 上的实际使用量。
-🔗 https://x.com/rileybrown/status/2063383381816029429
-
-2. @emollick：Gemini Pro 系列迭代速度远不及 Claude 和 GPT（上次发布的 3.1 Pro 还是 2 月），性能差距持续拉大。Gemini 3.5 Flash 虽好，但不足以弥补 Pro 级别的空白。
-🔗 https://x.com/emollick/status/2063307399537004907
-
-3. @emollick：Anthropic 发布的 Agent 架构图很有参考价值——Agent Teams 和 Workflows 都是非常新且强大的模式（也非常消耗 token）。但实际使用中 AI 自身会混合使用多种方法，分类界限并不清晰。
-🔗 https://x.com/emollick/status/2063073955968123062
-
-4. @Hesamation：Linus Torvalds 在 Open Source Summit 2026 上的表态：AI 是革命，但不是编程的终结。&quot;当有人说 99% 的代码是 AI 写的，我会愤怒。同样 100% 的代码也是编译器写的，但没人这么说。&quot;
-🔗 https://x.com/Hesamation/status/2063326698624409971
-
-5. @shao__meng：解读 Anthropic 5 月白皮书：企业部署自主 AI Agent 时必须将零信任原则延伸到 Agent 架构本身。核心判断——未来优势不取决于谁用了最先进的 AI，而取决于谁的基础安全足够扎实。
-🔗 https://x.com/shao__meng/status/2063234416324051144
-
-📱 公众号精选（2 / 2）
-
-1. 把公司最好的人的判断打包进 AI——Skill 才是真正的护城河
-连续创业者 Hiten Shah 一篇高传播文章的中文解读，核心论点：两家公司用同一个前沿模型、接同样的数据，结果差距来自一个常被忽略的资产——skill（把公司最好的人的判断力打包成 agent 可调用的方法）。文章把这套逻辑放进一条历史脉络里：Unix 命令让操作可复用、库让代码可复用、API 让服务可复用，而 skill 让&quot;判断力&quot;可复用。关键转变是执行者——以前流程文档只有人能读懂照做，现在 agent 能直接加载并执行。最有价值的 skill 一定是私有的：你的客户升级流程、销售资质判断框架、产品评审标准，这些是竞争对手下载不走的。落地门槛很低（Anthropic 的实现就是一个文件夹 + 一个 SKILL.md），难的是让真正有判断力的人愿意坐下来把&quot;在哪里需要停下来判断&quot;说清楚。
-🔗 https://mp.weixin.qq.com/s/71V28v6zdXl2S6SdEx0o2A
-
-2. CVPR 现场：苏度科技的&quot;无脚本&quot;机器人抓取测试
-CVPR 现场报道。多数机器人 Demo 需要限定场景、固定物体、精心布光甚至提前录轨迹，而苏度科技的展台没有遥控、没有隔离带，让一群专业研究员现场随机刁难它——名牌、形态不规则的袋子、随机摆放的陌生物体、甚至小颗粒药丸。机器人 R1 在背景干扰极强的现场稳定完成抓放。现场研究者评价&quot;这些东西大概率都不在训练集里，单从抓放看几乎没有多少模型能做到这个水平&quot;。技术路线上，苏度的体系延续自 SaPien / ManiSkill 仿真平台，能力主要建立在大规模仿真训练而非海量真人遥操作数据上；硬件也很克制——全身 10 个摄像头的简单方案，反而更考验模型智能。
-🔗 https://mp.weixin.qq.com/s/U7ADE2LY6QDtmcIu6mFWqA
-
-📖 查看完整日报（28 篇）→ https://news.justin7974.dev/2026-06-07.html</description>
     </item>
   </channel>
 </rss>
