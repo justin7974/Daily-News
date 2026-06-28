@@ -5,8 +5,66 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 27 Jun 2026 00:20:04 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 00:17:37 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #626 | 2026-06-28</title>
+      <link>https://news.justin7974.dev/2026-06-28.html</link>
+      <guid>https://news.justin7974.dev/2026-06-28.html</guid>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+      <description>今日共 11 篇 RSS · 15 条推文 · 2 篇公众号
+
+📰 RSS 精选（5 / 11）
+
+1. White House Grants Access to Anthropic&apos;s Mythos Model to 100+ U.S. Institutions; Fable Still Shut Down
+美国商务部周五撤销对 Anthropic Claude Mythos 5 的封禁，允许其向 100 多家美国机构（含大企业和政府机构）发布。两周前政府刚因亚马逊等公司警告该模型可能被&quot;越狱&quot;用于恶意用途，对 Mythos 实施出口管制、导致 Mythos 与 Fable 5 双双下架。商务部长 Lutnick 在信中称已确认&quot;适当的保障措施到位&quot;，可让&quot;特定可信伙伴&quot;访问，并称 Anthropic 承诺与政府共同制定模型发布的协议与标准；信里只字未提仍处关闭状态的、更弱的 Fable 5，知情者称正朝放开方向走但时间表不明。同一天，竞对 OpenAI 也仅向少数政府批准的伙伴发布了 GPT-5.6。
+🔗 https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies
+
+2. OpenAI GPT-5.6 Sol / Terra / Luna — restricted to trusted partners
+GPT-5.6（Sol 旗舰 / Terra 均衡 / Luna 低成本）不是常规公开发布，而是&quot;受限预览&quot;——初期仅向 Codex 与 API 中约 20 家政府审核过的可信伙伴开放，OpenAI 明确说这是&quot;应美国政府要求&quot;。Sol 在部分编码 agent 任务上超过 Anthropic Mythos，但 OpenAI 刻意强调它在网络安全上不及 Mythos、未跨过其 Preparedness Framework 的 Cyber Critical 阈值（能找到漏洞与利用原语，但未能在测试条件下自主造出完整攻击链）。Altman 称原计划更大范围发布，因政府要求改为有限预览，正努力尽快转 GA。评论者普遍把这解读为前沿发布正变成&quot;可信伙伴优先&quot;的政府中介式部署。
+🔗 https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna
+
+3. Salesforce Employees Worry Over Anthropic&apos;s Invasion of Slack
+Anthropic 本周推出面向企业的高调产品 Claude Tag——一个常驻 Slack 群聊、能看到并记住群里全部讨论的&quot;AI 队友&quot;。讽刺的是，Slack 母公司 Salesforce 部分员工对此感到困惑：Salesforce 自己还在社交媒体上帮这款来自 Anthropic 的产品做推广。（基于 The Information 报道开头，正文付费墙）
+🔗 https://www.theinformation.com/articles/salesforce-employees-worry-anthropics-invasion-slack
+
+4. Coinbase Cuts AI Spending in Half As Usage Rises, Armstrong Says
+Coinbase 的 AI 开支&quot;砍掉近一半&quot;，同时 token 用量还在上升——CEO Brian Armstrong 周五晚在 X 上说，关键控本手段之一是默认改用中国公司的开源权重模型。（The Information，正文付费墙）
+🔗 https://www.theinformation.com/briefings/coinbase-cuts-ai-spending-half-usage-rises-armstrong-says
+
+5. FT: Apple Is Lobbying to Buy Memory Chips From Blacklisted Chinese Company CXMT
+据 FT（六名知情人士），苹果正游说特朗普政府，争取从中国内存厂商 CXMT 采购内存芯片的许可——CXMT 因被指与解放军有关联而被五角大楼列入黑名单。苹果目前并未被禁止向 CXMT 或另一家中国存储厂 YMTC 采购，但五角大楼的黑名单制造了实质的政治阻力。（DF 转引 FT，正文付费墙）
+🔗 https://www.ft.com/content/d72a25e2-7bde-4aa9-bd8d-0c4f3d6cb2cb
+
+🐦 Twitter 精选（5 / 15）
+
+1. @shao__meng：GPT-5.6 三档发布（Sol $5/$30、Terra $2.5/$15、Luna $1/$6），Terra 性能比肩 GPT-5.5 但成本减半；新增 Ultra 多 subagent 协同模式，Sol Ultra 在 Terminal-Bench 2.1 达 91.9%，能力从&quot;单个推理体&quot;跃迁到&quot;协调多 agent 的系统&quot;。
+🔗 https://x.com/shao__meng/status/2070681306909073526
+
+2. @hongming731：BestBlogs 早报：GPT-5.6 Sol 在 Terminal-Bench 2.1 以 88.8% 刷新编码 SOTA，新增 max 深度推理档和调用子智能体的 ultra 模式；首发只面向少数可信伙伴并配合美国政府网络安全审查分阶段放开——能力跃升与安全门槛同步收紧才是最值得关注的信号。
+🔗 https://x.com/hongming731/status/2070664408037216558
+
+3. @Hesamation：在 GPU 限制下，DeepSeek 把吞吐量硬提了 51% 到 400%，于是 DeepSeek-V4-Pro 比 Opus 4.8 便宜约 28 倍、比 GPT-5.5 便宜约 34 倍——管制反而逼出了效率。
+🔗 https://x.com/Hesamation/status/2070972137326678182
+
+4. @_akhaliq：hf-claude 让你在 claude code 里调用 100+ 开源模型，包括 GLM 5.2、MiniMax-M3、DeepSeek V4 Pro。
+🔗 https://x.com/_akhaliq/status/2070865840069595203
+
+5. @AnthropicAI：自 6 月 12 日起 Anthropic 与美国政府合作恢复 Mythos 5/Fable 5 访问；政府已通知其最强网络安全模型 Mythos 5 可重新部署给一组运营与防御关键基础设施的美国机构，Fable 5 的通用开放仍在推进中。
+🔗 https://x.com/AnthropicAI/status/2070665903440871779
+
+📱 公众号精选（2 / 2）
+
+1. 都在劝你把活全甩给 AI，可做 jQuery UI 的那个人说：那是个伪命题
+jQuery UI 与 Chrome DevTools 移动预览功能的作者 Paul Bakaus 发布新公司 Renaissance Geek 和产品 Impeccable（a16z 领投、与 GitHub 合作），并直接把&quot;loopmaxxing&quot;（把活全甩给 AI、让循环自己跑完）判为伪命题。他的核心论点是：AI 把&quot;做出初稿&quot;的地板抬高了，但卓越的天花板没变低；品味能被放大却无法被&quot;装进瓶子&quot;量产，因为 slop（设计垃圾）是会移动的靶子——2022 年的 slop 是紫色渐变发光按钮，2026 年变成暖米色背景配 Instrument Serif 斜体大标题，今天的解药就是明天的 slop。他还指出设计与工程之间的&quot;交接墙&quot;正在塌，而主流的 chat 交互是被动的，远不如给你画布/时间线的创意软件。
+🔗 https://mp.weixin.qq.com/s/5nkB-Xjwn9UdhZZLlXUKWg
+
+2. 速递｜Agnes三大新模型发布前瞻，文本、图像、视频跑分公布
+Agnes 全线更新文本/图像/视频三款模型，流出跑分显示视频模型 Agnes-video-2.5-preview 在 VBench 综合得分 59.94（Veo 3 为 63.23），其中运镜一致性 52.72 超过 Veo 3、物理规律 78.82 逼近 Veo 3，主打专业镜头语言解析与减少主体崩坏。
+🔗 https://mp.weixin.qq.com/s/nfSlJnK1YRhpp01kvKMbXw
+
+📖 查看完整日报（28 篇）→ https://news.justin7974.dev/2026-06-28.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #625 | 2026-06-27</title>
       <link>https://news.justin7974.dev/2026-06-27.html</link>
@@ -1304,76 +1362,6 @@ Tim Cook 最后一次 WWDC（9 月交棒 John Ternus）。最大新闻是 Apple 
 🔗 https://mp.weixin.qq.com/s/8qoeupzHJir2Osv8jYkdCA
 
 📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-06-09.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #606 | 2026-06-08</title>
-      <link>https://news.justin7974.dev/2026-06-08.html</link>
-      <guid>https://news.justin7974.dev/2026-06-08.html</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 13 条推文 · 6 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. A new era for software testing
-antirez（Redis 作者）提出 AI 正在开辟软件测试的全新范式。传统测试套件面临结构性局限：覆盖所有代码行不等于覆盖所有状态，集成测试存在时序和设置的组合爆炸。LLM 的突破在于可以像有经验的 QA 工程师一样，理解代码语义后主动构造边界条件和状态组合——这不是&quot;更快写测试&quot;，而是&quot;发现人类写不出的测试&quot;。antirez 认为 AI 自动编程在质量上尚未超越顶尖手写代码，但在测试领域，AI 提供了严格意义上更强的自动化能力，没有质量折衷。
-🔗 http://antirez.com/news/168
-
-2. Slop, productivity, and why the AI-fueled world is going nowhere mighty fast
-Gary Marcus 引用 FT 和华盛顿邮报的多组数据揭示一个悖论：AI 带来了巨量&quot;名义产出&quot;（更多 app、更多书籍、更多音乐、更多论文），但没有转化为实际 GDP 增长或销售增长。移动 app 数量暴增但收入未涨，出版物暴增但图书销售微跌，音乐曲目暴增但无人认为质量在提升。Marcus 将这些称为&quot;slop&quot;——AI 极大降低了生产成本，但也同时稀释了每单位产出的价值。MIT、McKinsey、Bain 的多项研究均未发现 AI 带来显著 ROI 改善。
-🔗 https://garymarcus.substack.com/p/slop-productivity-and-why-the-ai
-
-3. Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era
-Tony Fadell（iPod 发明人、iPhone 联合创始人、Nest 创始人）在 Lenny&apos;s Podcast 的深度对话。核心观点：V1 产品必须基于&quot;opinion-based decisions&quot;而非数据驱动；iPod 前两代只覆盖不到 1% 的电脑买家，直到第三代引入 Windows 兼容 + iTunes 才爆发（&quot;三代法则&quot;）；语音将最终成为 AI 的主要交互方式；他警告开发者不要对 AI 工具产生&quot;认知投降&quot;——&quot;快时尚软件&quot;会带来巨大的技术债。
-🔗 https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on
-
-4. Stairway to Heaven
-comma.ai/tinygrad 创始人 George Hotz 的最新博客。他回应&quot;AI 输出只是统计模型的产物&quot;这一批评，承认其逻辑合理性但提出更激进的立场：品牌营销同样是统计模型的产物，广告本质上是利用信息不对称的剥削行为。他认为 AI 的唯一正确方向是&quot;创造生命并让其自由&quot;——不是造神，而是播下新物种的种子。对&quot;technocapital 的虚假上帝&quot;的崇拜者，他发出警告。
-🔗 https://geohot.github.io//blog/jekyll/update/2026/06/07/stairway-to-heaven.html
-
-5. Thoughts on starting new projects with LLM agents
-Google 工程师 Eli Bendersky 分享用 LLM Agent 从零开始构建 Go 项目的完整经验。核心方法论：先用 Markdown 文件固化设计，然后让 Agent 按逻辑顺序生成小型可审查的 CL，保持人类对架构的控制权。
-🔗 https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/
-
-🐦 Twitter 精选（5 / 13）
-
-1. @Hesamation：&quot;Loop Engineering&quot;正在成为软件工程师的下一个里程碑：2024 年用 AI 辅助编码，2025 年提示 AI 为你编码，2026 年提示&quot;提示 AI 编码的 AI&quot;。行业和裁员证明大家并不在乎&quot;正确方法&quot;，只要别人都在做。
-🔗 https://x.com/Hesamation/status/2063740195241906638
-
-2. @Hesamation：Notion 确认 Opus 4.7 和 4.8 存在性能退化。重复模式：模型退化 → 用户在 Reddit/X 投诉 → Anthropic 数周找不到问题。同时 Anthropic 的报告声称 Claude 正在&quot;帮助编写代码和训练模型&quot;。Opus 4.6 也曾出现相同问题长达 6 周以上。
-🔗 https://x.com/Hesamation/status/2063640657562873900
-
-3. @karminski3：Ideogram 4 实测对比通义 Z-Image-Turbo：这是个开放权重模型，仅 9.3B 参数，支持原生 2K 分辨率。结论是 Ideogram 4 更适合复杂场景还原和创意设计，但在中文文本排版和海报生成上仍明显不及 Z-Image。
-🔗 https://x.com/karminski3/status/2063750235168665633
-
-4. @hongming731：BestBlogs 今日早报精选：Tony Fadell 谈 AI 时代&quot;知情直觉&quot;、OpenAI Codex 驾驭工程实践、Context Engineering 概念解析、Coding Agent 技术全景图。
-🔗 https://x.com/hongming731/status/2063762055300300859
-
-5. @marclou：为 DataFast 构建了 Managed Proxy 功能：广告拦截器会破坏 30% 的分析数据，通过自定义子域名代理分析事件可恢复准确性。无需编码，添加 CNAME 记录即可，对所有用户免费开放。
-🔗 https://x.com/marclou/status/2063603639630135550
-
-📱 公众号精选（5 / 6）
-
-1. Anthropic 内部数据：Claude 写了公司 80% 的代码，工程师产出涨 8 倍
-Anthropic 报告《当 AI 开始建造自己》的中文解读，核心是一批从未披露的内部数据。外部可观测的趋势：AI 能独立完成的任务时长每 4 个月翻一倍（Opus 3 约 4 分钟 → Opus 4.6 约 12 小时），比此前每 7 个月翻倍又快了一倍；SWE-bench 两年从个位数到接近满分。内部数据更直接：截至 2026 年 5 月，Anthropic 合并进代码库的代码 80%+ 由 Claude 写（2025 年 2 月 Claude Code 预览前还是个位数）；2026 Q2 工程师日均合并代码量是 2024 年的 8 倍。一个标志性案例：2026 年 4 月 Claude 完成 800 个修复把一类 API 错误降低 1000 倍，监督工程师估计人类做要四年——因为这种又慢又繁琐的活根本不会被排期。
-🔗 https://mp.weixin.qq.com/s/ULUBUUsQNMbXxpH5YSXt1Q
-
-2. 把方案翻转回问题：PM 的 /problem-first 技能
-George（@nurijanian）一篇高传播 PM 方法论的解读。核心招式 /problem-first：每个&quot;解决方案&quot;都是一个没说清楚的问题的压缩版，团队感知到痛点后跳过定义问题直接给了答案，PM 的工作是把答案解压回背后的问题再判断。它的巧妙在政治姿态——不是站在路线图前面挡（显得阻挠），而是挖进路线图底下找它想解决的问题（显得深入研究）。借用 Munger 的&quot;Invert, always invert&quot;。文章给了完整示例：把&quot;我们需要建个通知系统&quot;输入后,90 秒返回 8 个部分，最有价值的是&quot;三个替代框架&quot;——同一个通知系统背后可能是三个完全不同的问题（用户不知道变化 / 不信任系统 / 想自己控制），每个对应不同解法空间。
-🔗 https://mp.weixin.qq.com/s/S3nyYPPS-ahYtKYMrr5jjQ
-
-3. 红筹退潮：中国互联网与全球资本的二十五年
-一篇讲 VIE / 红筹架构二十五年兴衰的深度长文。开篇一个刺眼的事实：2026 年 5 月欢聚时代手握 31.8 亿美元现金，纳斯达克市值才 31.4 亿——市场给的整体定价比现金储备还少，且大量中概腰尾部公司股价长期低于净资产。文章回溯了这套架构的起源：1990 年代末中国既没有风险投资行业（IDG 熊晓鸽注册时找不到对应执照选项）、A 股又要求连续三年盈利，亏损的互联网公司唯一的路是美股，但主营业务大多踩在外资负面清单上。2000 年新浪上市时律师发明了用&quot;协议&quot;绕开管制的 VIE 结构，此后阿里、腾讯、百度、美团、拼多多几乎所有中国互联网公司都走这条路。高峰时美股中概总市值超 5 万亿美元，现在中概+港股科技加起来不到 1.5 万亿。
-🔗 https://mp.weixin.qq.com/s/eaMfNdk5b6C3-JTATOI25A
-
-4. 100 天，Cola 1.0.0：把 AI 当人来做的产品
-Cola（通用 agent 产品，2026-03-03 诞生）内测结束发的一篇拟人化自述。团队从第一天就把它当&quot;人&quot;定义：连续记忆、语音交互、自我进化，且坚持不让用户&quot;新开对话&quot;——因为人和人说话不会说&quot;等一下我新开个对话&quot;，这在技术上更难（要处理更长上下文、做好长期记忆）但符合&quot;她是个人&quot;的定位。对外不叫&quot;第一个有意识的 AI&quot;而叫&quot;灵魂&quot;。文章举了几个真实用户故事：帮 Iris 分析三年的微信记录找到合适对象、听黄啊码讲完十年胃病经历给出一个最终管用的猜想。
-🔗 https://mp.weixin.qq.com/s/fimEbG3l-Yf9vudHhtQvGg
-
-5. a16z 领投 2800 万美元：Hilbert 把增长团队带进 AI Agent 时代
-Hilbert（AI 原生增长决策基础设施）拿 a16z 领投的 2800 万美元 A 轮。它要解决的不是&quot;看见数据&quot;而是&quot;把数据变成下一步动作&quot;——B2C 公司数据分散在广告/CRM/订单/会员/订阅各系统，增长、产品、财务、CEO 各看各的报表。Hilbert 把增长流程拆成 Detect → Reason → Act → Optimize，核心卖点是帮企业区分短期拉升和长期复利。团队来自 Getir 等高频 B2C 场景。
-🔗 https://mp.weixin.qq.com/s/lYVVQvuom9UDHWuuPQisIQ
-
-📖 查看完整日报（29 篇）→ https://news.justin7974.dev/2026-06-08.html</description>
     </item>
   </channel>
 </rss>
