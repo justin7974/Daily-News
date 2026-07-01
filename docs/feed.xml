@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 30 Jun 2026 00:20:19 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 00:16:13 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #629 | 2026-07-01</title>
+      <link>https://news.justin7974.dev/2026-07-01.html</link>
+      <guid>https://news.justin7974.dev/2026-07-01.html</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 15 条推文 · 6 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. Claude Sonnet 5 成为 Claude Code 默认模型，促销价 $2/$10
+Anthropic 发布 Claude Sonnet 5，即日起成为 Claude Code 默认模型，原生 1M token 上下文窗口。8 月 31 日前促销定价 $2/$10 每百万 token（输入/输出）。官方定位为&quot;迄今最具 agent 能力的 Sonnet&quot;，主打接近 Opus 4.8 的性能、Sonnet 档的价格。
+🔗 https://github.com/anthropics/claude-code/releases/tag/v2.1.197
+
+2. Lenny 用 64 次盲测评 Sonnet 5：Opus 级能力，但没到最强
+Claire Vo 用自建的&quot;How I AI Bench&quot;对 Sonnet 5 跑了 64 次盲测，覆盖 PRD 撰写、bug 修复、设计一次成型、agent 语音。结论：Sonnet 5 接近 Opus 4.8 但更便宜，SweBench Pro agentic coding 得 69%、Terminal Bench 2.1 得 82%，略低于 Opus，但差距小到&quot;大多数人不会察觉&quot;。
+🔗 https://www.lennysnewsletter.com/p/sonnet-5-review-i-ran-64-generations
+
+3. Ed Zitron：AI 产业正在输——连 BIS 都开始警告 capex 泡沫
+国际清算银行（BIS）年报指出：五大 hyperscaler 在 2025–2026 年的 AI 相关资本开支将超 1 万亿美元，已超过其盈利和自由现金流，部分公司靠发债融资。BIS 警告，若回报不及预期，capex 繁荣可能逆转为长期投资萧条，并沿供应链传导。Zitron 借此重申&quot;系统性风险&quot;论——OpenAI 一旦失速，将连锁冲击 NVIDIA、Oracle、微软和 CoreWeave 等 Neocloud。
+🔗 https://www.wheresyoured.at/the-ai-industry-is-losing/
+
+4. Latent Space：本地 AI 正在快速追上，开源与闭源差距在收窄
+在 AI Engineer World&apos;s Fair 上，Osmantic 创始人 Ahmad Osman 主张本地 AI（在自己的电脑、工作站或专用硬件上跑模型）正快速逼近前沿。核心论据是开源 LLM 正成为可信替代品，&quot;开源与闭源前沿模型的差距持续缩小&quot;。他的两场工作坊听众从买第一台 AI 电脑的学生，到考虑模型路由、私有基础设施的企业高管都有。
+🔗 https://www.latent.space/p/ahmad-osman-local-ai
+
+5. HuggingFace：为什么&quot;专业化&quot;不可避免——LeCun 等人的收敛论证
+文章解读 Goldfeder、LeCun、Shwartz-Ziv 等 2026 年论文《AI Must Embrace Specialization》。核心论点：优化理论、进化生物学、竞争市场、机器学习四个领域给出同一个答案——算法靠贴合目标而胜出，规模扩张不改变这一点。这直接反驳&quot;越强越通用&quot;的主流预期，主张专业化是有效 AI 系统的定义性原则。
+🔗 https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable
+
+🐦 Twitter 精选（5 / 15）
+
+1. @cursor_ai：Claude Sonnet 5 已上线 Cursor。在 CursorBench 上从 Sonnet 4.6 的 49% 提升到 57%，是一次实打实的进步。
+🔗 https://x.com/cursor_ai/status/2072020786181988418
+
+2. @shao__meng：美团发布 LongCat-2.0：1.6T 参数 MoE、激活 48B、1M 上下文，用 5–6 万张国产加速卡训练，训练推理全程零英伟达依赖，定位 Agent 加 Coding 优先。
+🔗 https://x.com/shao__meng/status/2071808848089002399
+
+3. @Hesamation：Google 发布 Gemini Omni Flash，尤其擅长视频编辑，定价 $0.1/秒视频输出。
+🔗 https://x.com/Hesamation/status/2072011610802077782
+
+4. @_akhaliq：OSWorld 2.0 发布：针对长时程真实世界任务，评测计算机操作类（computer use）agent 的基准。
+🔗 https://x.com/_akhaliq/status/2071994664673071196
+
+5. @emollick：LLM 最反常识的一点是它极其通用：一个更擅长编码的更大模型，同时也更擅长创意、伦理建议、医学和数学——虽有&quot;锯齿状&quot;例外（比如小说写作），但这个规律惊人地稳定。
+🔗 https://x.com/emollick/status/2071771186569306422
+
+📱 公众号精选（5 / 6）
+
+1. AI 赢家通吃结束了：模型从来不是你的护城河
+Foundation Capital 企业级投资人 Ashu Garg（早期投过 Databricks、Turing）判断：AGI 的赢家通吃时代已经结束，牌桌上从&quot;一个王&quot;变成四个势均力敌的玩家——OpenAI（消费者覆盖最大）、Anthropic（当下最好的模型和 harness）、Google（钱、IP、人才最多）、xAI（算力管够）。后面还跟着中国的开源玩家：DeepSeek 最新模型在 SWE-bench 上与 Opus 只差一根头发，价格约 1/30，最便宜的开源部署可压到 1/100。
+🔗 https://mp.weixin.qq.com/s/aJyJbeqEgATLWz59g2iztA
+
+2. Meta 限制员工使用 Claude Code 和 Codex，避免无意识蒸馏
+据《The Information》，Meta 对其&quot;应用型 AI 工程&quot;部门使用 Anthropic Claude Code 和 OpenAI Codex 施加严格限制。一份五月起草、仍在生效的内部备忘录甚至暂停了部分任务，理由是担心这些外部模型的输出渗入 Meta 自研 MetaCode 的训练数据，可能违反使用协议并引发&quot;与合作公司的严重升级&quot;。而 Meta 一直是 Claude Code 的最大客户之一。
+🔗 https://mp.weixin.qq.com/s/C8MyWJr23TCP6WDqI_ZMwg
+
+3. 空中云汇 Airwallex 3.2 亿美元 H 轮落定，估值 110 亿美元
+全球金融科技平台 Airwallex 空中云汇完成 3.2 亿美元 H 轮融资，投后估值 110 亿美元，由 Lee Fixel 的 Addition 领投，Baillie Gifford、QED、T.Rowe Price 等跟投。距上一轮（2025 年 12 月 3.3 亿美元 G 轮、估值 80 亿）仅隔半年多，估值涨约 40%，本轮同步首发两款 AI 产品。
+🔗 https://mp.weixin.qq.com/s/FMj-SzSmUwW7x-su-KqKag
+
+4. OpenAI 的反思：PRD 没死，PM 别砍
+OpenAI Codex 产品和工程负责人 Andrew Ambrosino 在 Lenny 播客上给&quot;AI Native 组织&quot;热潮泼冷水。Codex 团队内部接近 100% 的人每周用 Codex、周活 500 万还在涨，但他明确反对&quot;文档已死&quot;和&quot;砍掉 PM 全员 builder&quot;：问题不是文档还是原型，而是有没有为要表达的东西选对媒介；砍掉 PM 等于把整个学科积累的最佳实践全扔掉。
+🔗 https://mp.weixin.qq.com/s/lEiDmqDeQVX2QrARD6goHw
+
+5. X 终于有 MCP 了，个人数据每次调用仅 $0.01
+Twitter/X 上线官方 MCP，可让 AI 自动整理、总结和分析你自己的 X 数据；需注册 X API 按量付费，个人数据调用有优惠（$0.01/次，1 美元约调 1000 次），作者拉取三天书签仅花了 $0.1。
+🔗 https://mp.weixin.qq.com/s/C3IjvlViD8B1lzKTah_qGw
+
+📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-07-01.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #628 | 2026-06-30</title>
       <link>https://news.justin7974.dev/2026-06-30.html</link>
@@ -1280,76 +1350,6 @@ DeepSeek 发布全球首个&quot;Agent Harness 研究员&quot;岗位，公式为
 🔗 https://mp.weixin.qq.com/s/AUTXahz-vJXDblYs3-A53Q
 
 📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-06-12.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #609 | 2026-06-11</title>
-      <link>https://news.justin7974.dev/2026-06-11.html</link>
-      <guid>https://news.justin7974.dev/2026-06-11.html</guid>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 18 条推文 · 8 篇公众号
-
-📰 RSS 精选（5 / 12）
-
-1. [AINews] Anthropic Claude Fable 5 — Mythos but Safe, with Controversial Terms
-Opus 4.8 发布仅两周，Anthropic 就推出了 Mythos 级模型 Fable 5，定价约为 Opus 的两倍（$10/$50 per M tokens）。FrontierCode Diamond 基准从 13.4% 跃升至 29.3%，CursorBench 刷新 SOTA 至 72.9%。但发布伴随两项争议政策：一是所有 Mythos 级流量强制 30 天数据留存（ZDR），二是通过隐形 steering vectors 和 PEFT 限制模型在前沿 LLM 开发任务上的表现——用户不会收到任何提示，模型只是&quot;变笨了&quot;。Anthropic 估计这影响不到 0.03% 的流量，但开源社区反应强烈。
-🔗 https://www.latent.space/p/ainews-anthropic-claude-fable-5-mythos
-
-2. Everything is Recorded Now
-a16z 的 David Haber 指出，企业内部正在发生一个不可逆转的变化：几乎所有工作会议默认被录音。AI 需要像新员工一样被&quot;onboard&quot;——不是读文档，而是参加会议、通过耳濡目染学习公司文化和决策上下文。Bridgewater 的全面录音制度多年来被视为怪异，如今 OpenAI 已经在用 agent 代替高管出席会议。一个新的企业软件品类正在出现——以语音而非文本为核心的 system of record，而&quot;口头文化&quot;公司（如 Shopify、OpenAI）将在 AI 时代获得不对称优势。
-🔗 https://www.a16z.news/p/everything-is-recorded-now
-
-3. Breaking news, and how the end might begin
-Gary Marcus 回顾了 5 月 22 日与预测次贷危机的 Steve Eisman（《大空头》原型）的对话。Eisman 认为 AI 泡沫的破裂方式可能类似次贷——当终端买家拒绝为 token 付费时，&quot;整台机器就会死停&quot;。Marcus 判断 OpenAI 最可能先出问题：烧钱最快、资产最少、已开始对投资者做越来越多让步（保底回报率 17.5%、融资条件挂钩 AGI 或 IPO）。Eisman 直言：如果 OpenAI 出事，&quot;不是涟漪，是海啸&quot;——Oracle 在 Q3 财报后因 AI backlog 数字从 230 涨到 330，这种估值结构极度脆弱。
-🔗 https://garymarcus.substack.com/p/breaking-news-and-how-the-end-might
-
-4. Breaking: Google liable for hallucinations
-一项法律判决认定 Google 需为 AI 幻觉内容承担责任。Marcus 认为这可能是&quot;巨大的&quot;先例——如果其他国家效仿，整个生成式 AI 行业都将面临法律风险重估。评论区一位读者精辟总结了这个矛盾：&quot;你不能一边说我们的 AI 是超级智能、胜过一屋子博士，一边又说它会胡编乱造、用户自己负责核实。这是大规模欺骗。&quot;
-🔗 https://garymarcus.substack.com/p/breaking-google-liable-for-hallucinations
-
-5. Gaslighting Openness
-Flask 和 Sentry 创始人 Armin Ronacher 撰文指出，AI 领域正在发生一场关于&quot;开放&quot;的叙事操控。Anthropic 用安全和国家安全语言包装限制，但实质是在公共作品上训练模型后阻止开源社区学习和蒸馏这些系统。Apple 以安全为由延迟欧洲 AI 功能上线，实质是抵抗 DMA 要求的开放。他认为 EU 的 DMA 尽管争议重重，但正是防止&quot;关门打狗&quot;的关键制衡——短期的产品体验损失，换来的是长期的技术准入权。
-🔗 https://lucumr.pocoo.org/2026/6/10/gaslighting/
-
-🐦 Twitter 精选（5 / 18）
-
-1. @Hesamation：Google 发布 DiffusionGemma 扩散式推理模型，可并行生成 256 个 token，H100 上达 1000+ tok/s，RTX 5090 达 700+ tok/s。26B MoE 架构仅 3.8B 活跃参数，18GB 显存即可运行。
-🔗 https://x.com/Hesamation/status/2064761225058136456
-
-2. @cursor_ai：Cursor 代码审查 agent 速度提升 3 倍、成本降低 22%、bug 检出率提高 10%。同时支持用 /review 命令在编辑器内直接触发审查。
-🔗 https://x.com/cursor_ai/status/2064774675021119825
-
-3. @shao__meng：Cohere 发布首个开源编程模型 North Mini Code：MoE 架构（30B 总参数，3B 活跃），128 专家，256K 输入 / 64K 输出上下文，最低硬件需求仅 16GB 显存。
-🔗 https://x.com/shao__meng/status/2064518114835108255
-
-4. @karminski3：Fable 5 xhigh 模式实测：从零写光追渲染器，PBR 和 BRDF 表现出色，但仍存在一些奇怪的 bug，认为&quot;超越人类还为时尚早&quot;。
-🔗 https://x.com/karminski3/status/2064498333117567299
-
-5. @EXM7777：Claude Fable 5 能将数月工程压缩到数天，但核心问题是无法完全信任单次输出——需要多轮验证才能确保质量。
-🔗 https://x.com/EXM7777/status/2064791469861597282
-
-📱 公众号精选（5 / 8）
-
-1. 速递｜AI氛围编程Lovable：成立不到三年，ARR破5亿美元，每周新增百万项目
-欧洲 vibe coding 初创公司 Lovable 年化收入突破 5 亿美元，较 2 月的 4 亿美元继续增长。平台累计构建超 5000 万项目，使用量加速至每周新增 100 万。用户调查显示主要用户为非技术人员——创始人、设计师、销售，构建从电商到 CRM 到 HR 平台的各类工具。去年 8 月该公司曾表示有望 12 个月内 ARR 达 10 亿。
-🔗 https://mp.weixin.qq.com/s/cSvmrvSLvxoYefIeqCegpA
-
-2. 速递｜英伟达领投，AI科学实验室Lila Sciences拟融资20亿美元，估值85亿美元
-AI 科学研究公司 Lila Sciences 正洽谈 B 轮融资约 20 亿美元，融资前估值约 85 亿美元，由 CalPERS 和 NVIDIA NVentures 领投。去年 10 月 A 轮 3.5 亿美元估值 13 亿，不到一年估值翻了 6.5 倍。该公司由 Moderna 孵化器 Flagship Pioneering 创立，利用 AI 加速科学发现。
-🔗 https://mp.weixin.qq.com/s/BoVGv_q5bW1MayrPqCIaOQ
-
-3. 对话蓝色光标 CEO 潘飞：三次内部创业，和一个正在重生的&quot;新蓝标&quot;
-蓝色光标 2025 年 AI 相关收入达 37.25 亿元，毛利率数倍于传统业务；2026 年 Q1 AI 业务 Token 调用量已达去年全年的三倍。每个员工的 Token 费用无上限报销。这家 30 岁营销集团正在从&quot;帮客户买媒体投广告&quot;转型为 AI 原生的内容生产和投放平台——2023 年喊出&quot;All in AI&quot;三年后，终于在财务数据上交出了证明。
-🔗 https://mp.weixin.qq.com/s/i6Jdzf6QDT3tTK1CkRmo4A
-
-4. 腾讯做了一堆情感陪伴Agent
-腾讯发布 Marvis 本地 Agent，以对话框形式运行，能下载公众号文章、清理电脑垃圾等。最有趣的是其&quot;办公室&quot;可视化——多个 Agent 模拟白领工作场景，没活干时还会在电脑上打《王者荣耀》。
-🔗 https://mp.weixin.qq.com/s/io9jgZ_bLWe0t8CvqUf4Jw
-
-5. Claude 最强模型 Fable 5 全解析：Mythos 级别的怪物
-Mythos 和 Fable 底层同一个模型，区别在护栏：Mythos 给政府和特定机构（$25/$125），Fable 面向所有人（$10/$50，刚好比 Opus 4.8 贵一倍）。Pro/Max/Team 用户 6 月 22 日前可用，之后需 usage credits。
-🔗 https://mp.weixin.qq.com/s/v_G9KaCnjkPHeMCJ5E9VPA
-
-📖 查看完整日报（38 篇）→ https://news.justin7974.dev/2026-06-11.html</description>
     </item>
   </channel>
 </rss>
