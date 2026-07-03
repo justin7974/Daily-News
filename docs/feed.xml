@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 02 Jul 2026 07:55:44 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 00:18:24 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #631 | 2026-07-03</title>
+      <link>https://news.justin7974.dev/2026-07-03.html</link>
+      <guid>https://news.justin7974.dev/2026-07-03.html</guid>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <description>今日共 13 篇 RSS · 24 条推文 · 7 篇公众号
+
+📰 RSS 精选（5 / 13）
+
+1. Redeploying Fable 5
+Anthropic 于 6 月 30 日解除对 Fable 5 与 Mythos 5 的出口管制，Fable 5 于 7 月 1 日面向全球恢复（Pro/Max/Team 及部分企业版每周 50% 用量额度用到 7 月 7 日）。触发管制的是亚马逊研究员发现的一个绕过 Fable 5 防护的方法——诱导模型识别软件漏洞、并在一例中生成利用代码；但 Anthropic 测试表明 Opus 4.8、GPT-5.5、Kimi K2.7 等更弱的模型也能识别同样漏洞，属&quot;边界情形&quot;。作为回应，公司训练了新分类器，可拦截该技术 99% 以上，代价是日常编码/调试的误报率上升，被拦请求会转由 Opus 4.8 处理。Anthropic 还联合亚马逊、微软、谷歌等 Glasswing 伙伴起草了一套&quot;越狱严重性&quot;四维评分框架（能力增量、能力广度、武器化难度、可获得性），并承诺向美国政府提供前沿模型的预发布访问与联合评测。
+🔗 https://www.anthropic.com/news/redeploying-fable-5
+
+2. Why is Meta destroying its engineering organization?
+Pragmatic Engineer 的 Gergely Orosz 深度报道 Meta 工程组织的自毁：4 月起产品团队被自上而下要求把 30-50% 工程师（约 4500-6500 人进入 ADO 数据标注组）调去为 Meta 自研编程大模型做数据标注和 RLHF，同时强制记录键鼠操作作为训练数据、把 token 用量纳入绩效，催生&quot;tokenmaxxing&quot;。恶果接踵：5 月 30 日 Instagram 出现&quot;零认证改密码&quot;漏洞（含奥巴马白宫账号被接管），信任与安全团队因抽调和裁员减员约 50%，次日 CISO Guy Rosen 离职；interviewing.io 数据显示 Meta 员工求职量 5 月激增。作者把根源指向扎克伯格与 Alexandr Wang——除裁员外，一切都照搬 Scale AI 打法。
+🔗 https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering
+
+3. Tech Investors Will Be Sweating the Dog Days of Summer in More Ways Than One
+Newcomer 盘点这个夏天 AI 投资的&quot;泡沫焦虑与 FOMO 并存&quot;：国际清算银行（BIS）在升级泡沫预警，杠杆 ETF 保证金交易升温，《华尔街日报》称强劲财报被&quot;注水&quot;。连长期唱多的人也开始不安——Founders Fund 的 Trae Stephens 说&quot;这让我非常想起 2021 年&quot;，Palantir 的 Alex Karp 在 CNBC 抨击企业客户对 AI 成本和基础模型公司的做法极度愤怒、很快会有所行动。但 FOMO 依旧压倒一切（&quot;错过 AI 就像连整个联赛都缺席&quot;）。本周交易面：neocloud 公司 Together AI 完成 8 亿美元 C 轮、估值 83 亿美元，OpenAI 拟给美国政府 5% 股份，Meta 加入 xAI 行列对外卖算力，德国无人机公司 Quantum Systems 大额融资。
+🔗 https://www.newcomer.co/p/tech-investors-will-be-sweating-the
+
+4. The website of the future may assemble itself for every visitor
+Adobe 首席科学家 Carlos Sanchez 在 AIEWF 演示&quot;agentic site&quot;——网站根据访客实时意图动态组装页面，Adobe 称之为&quot;audience of one&quot;（一个人的受众）。系统把浏览行为归入&quot;浏览/研究/准备购买&quot;等意图类别，再用 LLM 从企业现有内容里检索并实时拼装页面（如给一个露营者组装一个&quot;户外做咖啡&quot;版本的咖啡机页面）。关键约束是延迟（要求页面生成不超过 1-2 秒）和成本（当前约每页 1-2 美分推理成本，且&quot;只会更便宜&quot;）。Sanchez 坦言最大难点不是能不能做，而是&quot;很容易造，但很难知道该造什么&quot;，且生成内容可能偏离品牌规范。文中还引出 WebMCP、A2A 等让网站同时服务&quot;人类访客&quot;和&quot;agent 访客&quot;的技术路线。
+🔗 https://www.latent.space/p/the-website-of-the-future
+
+5. [AINews] not much happened today
+AIEWF 第三天的信号密度很高。资本面：Together AI 宣布 8 亿美元 C 轮、估值 83 亿美元。开源模型面：智谱 GLM-5.2 成为首个在 APEX-SWE 某类目（Integration，55.3% Pass@1）登顶的开源模型、Kimi K2.7 紧随，Z.ai 还围绕 GLM-5.2 推出官方开发环境 ZCode。企业 Agent 架构面：Cognition 的 Devin Security Swarm 用&quot;Agentic MapReduce&quot;在代码库里扇出有界 agent、聚合并验证漏洞可利用性，某财富 500 强试点已发现并修复上千个生产漏洞；&quot;wiki 记忆&quot;成为 agent 记忆的实践范式，LangChain 发布 OpenWiki。系统层：NVIDIA 的 Nemotron-TwoTower 用双塔改造把 30B 模型生成速度提升 2.42 倍、保留 98.7% 质量。
+🔗 https://www.latent.space/p/ainews-not-much-happened-today-900
+
+🐦 Twitter 精选（5 / 24）
+
+1. @Hesamation：OpenAI 已发布自研 AI 芯片 Jalapeño、Anthropic 也在加紧自研芯片；他预期大模型竞赛正演变为 AI 芯片竞赛（配图取自 Dario 一月的文章《技术的青春期》）。
+🔗 https://x.com/Hesamation/status/2072782803696054565
+
+2. @emollick：有关 Mythos 与网络安全能力的说法并非炒作——凡是用 Fable 做自主任务的人多半已经意识到这一点。
+🔗 https://x.com/emollick/status/2072778376494895139
+
+3. @emollick：他让 Fable 用 Unity+MCP&quot;做一个 FPS 的独特变体、要让玩家惊呼巧妙&quot;，模型在零素材、图形全靠程序化生成的条件下做出了可玩的 WebGL 游戏。
+🔗 https://x.com/emollick/status/2072749816690483301
+
+4. @emollick：持续学习（continual learning）或是 AI 爆发式普及的最大障碍——只要模型仍然健忘、要靠人类替它学习，普及就会被人类流程卡住，这对递归自我改进也影响重大。
+🔗 https://x.com/emollick/status/2072727258352001341
+
+5. @EXM7777：一项新研究里，一个连单个问题都答不出的小模型同时打赢了 ChatGPT、Gemini 和 Claude——做法是训练一个能在笔记本上跑的小模型专职当&quot;经理&quot;来调度，而非把一切丢给单一最强模型。
+🔗 https://x.com/EXM7777/status/2072667375300936151
+
+📱 公众号精选（5 / 7）
+
+1. 速递｜AI芯片初创Etched获10亿美元订单，累计融资8亿美元，估值50亿美元
+英伟达的 AI 芯片挑战者 Etched&quot;走出隐身&quot;，宣布已拿到 10 亿美元合同订单（内容是芯片+定制机架+软件的&quot;前沿推理集群&quot;），累计融资 8 亿美元、投后估值 50 亿美元（含去年 12 月未公开的 5 亿美元、Stripes 领投）。公司 2022 年由两名哈佛退学生创立，赌的是&quot;AI 终将需要专用推理芯片而非通用 GPU&quot;，早期几乎无人问津、一度按月续命。如今股东名单堪称豪华：Karpathy、Hinton、李飞飞、Arthur Mensch、Druckenmiller、Thiel 等。同期 Cerebras 完成 IPO、Groq 融 6.5 亿美元、OpenAI 也宣布首款 Broadcom 定制芯片。
+🔗 https://mp.weixin.qq.com/s/HrOXUowwhtkfaTpcA9At4Q
+
+2. 速递｜工业AI公司Cognite：31亿美元被施耐德收购800人团队并入Aveva
+施耐德电气同意以 31 亿美元全现金收购工业 AI 公司 Cognite（总部亚利桑那、800+ 员工、去年营收超 1.7 亿美元），并将其并入旗下工业软件业务 Aveva（核心产品是&quot;数字孪生&quot;）。卖方 Aker 现金收益约 14.8 亿美元。背景是欧洲制造业生产率承压——BCG 报告称西欧北欧约有 1 万亿美元制造价值面临外迁风险，工业 AI 被视为弥合差距的关键，西门子等也在加码。分析师对价格有异议（约 18 倍市销率），施耐德股价一度跌 2.9%。
+🔗 https://mp.weixin.qq.com/s/RpTvMvRIkqOSOUEGQCUCjg
+
+3. 深度｜90万人次直播居然是AI导演，互动内容的商业化时代来了
+周二晚一场由 AI 实时&quot;导演&quot;的直播交出亮眼数据：主播女流66、壮壮、YJJ 走进 AI 搭建的&quot;现实游戏世界&quot;闯关，AI 事先扫描三人多年直播内容、把名场面重组成&quot;专属副本&quot;；1 小时 20 分内总曝光 93.5 万、平均在线 2.3 万（近 7 场均值的 4.6 倍），送礼人数约 7 倍、直播收入约 8.12 万元/小时。关键创新是把观众变成&quot;第四位玩家&quot;——拆炸弹环节让主播&quot;装聋作瞎&quot;、观众靠弹幕当唯一通讯员，打赏排名靠前的粉丝头像被 AI 印进游戏道具。幕后公司&quot;大千&quot;（贝果）股东包括蓝驰、创新工场、明势、光合等，直播中已有商家上门谈把商品融进内容。
+🔗 https://mp.weixin.qq.com/s/CKy60ZKAAm3m_pidMCgj2A
+
+4. VC 过去信一个未来，现在他们同时押好几个
+USV 的 Michael Mignano（投过 Granola、Suno、xAI）把 VC 决策拆成三种&quot;你愿意先相信什么&quot;：赌人（信判断力，团队无论做什么都能成，如投 Granola 时啥都没有）、赌地图（信你对某个市场的模型，见遍该方向所有团队挑最好的）、赌势头（信已经发生的事实，纯看数据下注）。文章更狠的一刀在评论区：投资人 Rob Go 指出，过去 VC 多是&quot;对一个未来一以贯之地下注&quot;，如今不确定性太高，开始&quot;同时押注好几个互相矛盾的未来&quot;；Mignano 也承认 USV 必须同时持有多个 thesis 来对冲&quot;单一 thesis 押错就赔光整个品类&quot;的风险。
+🔗 https://mp.weixin.qq.com/s/zmxXsBm1QNvtYQk13CpaFQ
+
+5. 老天保佑Qwen救救阿里巴巴
+一篇半戏谑半正经的长文点评阿里 AI：模型很能打（Qwen 3.7 Max 达 Opus 4.7 水平、稳居&quot;国模第二&quot;，显著领先字节 Seed 2.1 Pro），股价却跌破发行价、市场把它当&quot;老登公司&quot;。文章梳理阿里正在把 AI 业务大整合——成立 Token 事业群（ATH）下辖 Token Foundry（Qwen/Wan 等模型）、MaaS、千问 APP、悟空等事业部，目标是&quot;一家公司、一个模型、一个产品&quot;的「阿里-Qwen-千问」三轴心。核心痛点：千问 APP 推出太晚（豆包 23 年就干、25 年底才上），且执着于跨 App 的 Agent 能力（帮你点奶茶订餐），但&quot;Chatbot 是一阶、Agent 是二阶，漏斗可能筛掉 90% 的人&quot;，一阶还没补全就想靠二阶弯道超车。对比智谱 GLM-5.2 打穿编程场景、市值破万亿港元（约半个阿里），作者认为 2C AI 不挣钱、唯一被验证的挣钱路径是&quot;卷编程、面向生产力&quot;。
+🔗 https://mp.weixin.qq.com/s/C1K7pxuHc6uUW6SNhuAxPQ
+
+📖 查看完整日报（44 篇）→ https://news.justin7974.dev/2026-07-03.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #630 | 2026-07-02</title>
       <link>https://news.justin7974.dev/2026-07-02.html</link>
@@ -1280,76 +1350,6 @@ SpaceX 6 月 12 日登陆纳斯达克，首日市值突破 $2 万亿，创全球
 🔗 https://mp.weixin.qq.com/s/SWVlidgPexyQLJTg7MYU7Q
 
 📖 查看完整日报（31 篇）→ https://news.justin7974.dev/2026-06-14.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #611 | 2026-06-13</title>
-      <link>https://news.justin7974.dev/2026-06-13.html</link>
-      <guid>https://news.justin7974.dev/2026-06-13.html</guid>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 15 条推文 · 11 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. David Sacks&apos; Warning About Anthropic Regulatory Pleas Misses the Mark &amp; SpaceX Asks Investors to Dream Big in Mega IPO
-SpaceX 以 $1.8 万亿估值完成 $750 亿 IPO，成为史上最大 IPO，BlackRock 单笔认购至少 $50 亿，总认购超额 4 倍。Anthropic CEO Dario Amodei 呼吁对训练超过 10²⁵ FLOPs 的基础模型实施类似汽车和飞机级别的政府监管，David Sacks 则批评其为&quot;sophisticated regulatory capture strategy&quot;。OpenAI 正在考虑大幅下调 token 价格以应对竞争压力，Databricks 据报也在筹备新一轮私募融资。AI 创业公司 Poetic 获 Kleiner Perkins 领投的 $5000 万 A 轮。
-🔗 https://www.newcomer.co/p/david-sacks-warning-about-anthropic
-
-2. 2026.24: Hey Siri, Tell Me a Fable
-Ben Thompson 本周回顾三条主线。Apple 终于在 WWDC 2026 交付了真正可用的 Siri AI——演示慢到不可能造假，对比两年前的 vaporware 是实质性进步。Anthropic 的 Fable 5 因暗中限制 AI 研究用途引发社区反弹后一天内撤回政策，Thompson 认为这种行为正是他此前批评 Anthropic 对政府立场时所预见的。第三条线是欧盟与中国贸易摩擦升温，G7 和布鲁塞尔峰会前各方加速博弈。
-🔗 https://stratechery.com/2026/hey-siri-tell-me-a-fable/
-
-3. Charts of the Week: Making the Stuff that Makes the Stuff
-美国制造业出现了一个 &quot;boom-let&quot;——订单和产能数据都在回升，但远不是真正的再工业化。核心瓶颈是 capital stock 问题：各主要工业品类中，进口增速超过了设备和厂房的资本存量增速。设备和结构投资占 GDP 比重自 80 年代以来持续下降，即使近年设备投资增速接近 9%，也主要被 AI 相关需求拉动。非 AI 核心工业机械投资约一半是涡轮机和暖通，另一半可能也与半导体相关。
-🔗 https://www.a16z.news/p/charts-of-the-week-making-the-stuff
-
-4. [AINews] Loopcraft: The Art of Stacking Loops
-Karpathy、Steinberger、Boris Cherny 三人不约而同提出同一主张：不要再亲自 prompt AI agent，而是设计让 agent 自主运行的循环（loop）系统。Karpathy 原话是&quot;我不想当研究员在回路中，我在拖后腿&quot;。Latent Space 将此总结为&quot;Salty Lesson&quot;——对应 Sutton 的 Bitter Lesson：不要自己修问题，把精力放在随 agent 数量扩展的系统上。文章同时汇总了 Fable 5 首周社区反馈：FrontierSWE 排名第一、部分任务可持续工作近 20 小时，但成本高昂、安全回退和输出泄露&quot;neuralese&quot;等问题突出。
-🔗 https://www.latent.space/p/ainews-loopcraft-the-art-of-stacking
-
-5. olmo-eval: An evaluation workbench for the model development loop
-Allen AI 发布 olmo-eval，面向 LLM 开发循环的评测工作台。与一次性跑分不同，它把 benchmark 逻辑和运行策略解耦，支持逐问题级别的检查点对比，帮助分辨真实改进和统计噪声。
-🔗 https://huggingface.co/blog/allenai/olmo-eval
-
-🐦 Twitter 精选（5 / 15）
-
-1. @karminski3：FlashMemory 论文提出神经内存索引器，预判生成时需要的 KV Cache 片段并预加载，将 DeepSeekV4 百万上下文的显存占用从 10GB 压缩到 1.3GB，效果不降反升。
-🔗 https://x.com/karminski3/status/2065258023690600795
-
-2. @karminski3：Kimi K2.7 Code 发布，在 K2.6 基础上针对编程 Agent 专项优化，Kimi Code Bench v2 相比 K2.6 提升 11%。架构不变，属于后训练优化版本，适合编程和需要外部 Agent 验证的任务。
-🔗 https://x.com/karminski3/status/2065572072542392813
-
-3. @shao__meng：K2.7 Code 三项编码基准均有提升但未登顶——与 GPT-5.5、Opus 4.8 差距缩小。亮点是 MCP Mark Verified 达 81.1 超过 Opus 4.8 的 76.4，MCP 工具调用成为差异化优势。
-🔗 https://x.com/shao__meng/status/2065391798961442966
-
-4. @_akhaliq：SpenseGPT 提出实用的 one-shot 剪枝方法，能同时启用稀疏和稠密 GEMM 加速 LLM 推理，兼顾压缩率与实际推理速度。
-🔗 https://x.com/_akhaliq/status/2065506907264045307
-
-5. @emollick：论文发现通用 Frontier LLM 在三项医疗评估中全面优于专用临床 AI 工具（如 OpenEvidence），后者表现仅与 Google 搜索 AI Overview 相当。
-🔗 https://x.com/emollick/status/2065444925483692192
-
-📱 公众号精选（5 / 11）
-
-1. 对谈加速进化程昊：从踢好一场球出发，目标是具身智能的 “安卓”
-晚点访谈加速进化 CEO 程昊。核心判断是：当前具身智能不该过早押注端到端大模型和工厂/家庭泛化场景，而应先用机器人足球这样的最小闭环验证运动、感知、决策和多机协作能力。加速进化的路径是先做机器人本体、操作系统和开发工具，把上层 Agent 与硬件解耦，目标成为具身智能的“安卓”。公司已出货千台级小人形机器人，重点放在教育、科研、赛事和海外市场，而不是短期讲工厂替人故事。
-🔗 https://mp.weixin.qq.com/s/vVZmMEW3fLozZcXITjsZJA
-
-2. 万字长文：做了些爆款 Skills 以后，我对 Skills 的看法
-文章系统复盘 Agent Skill 的产品形态：Skill 不是一个 prompt，而是把流程、工具、模板、经验、gotchas 和审美判断封装成可复用能力包。作者提出 “Thin Harness, Fat Skills”——Agent 底座保持薄，把行业 SOP、脚本、资产、失败经验和 eval 放进按需加载的 Skill 目录。好 Skill 的关键不是把文档写长，而是把真实失败样本、边界条件和稳定产出骨架沉淀下来。
-🔗 https://mp.weixin.qq.com/s/sZXl5kHA9LErEwnegpvgXg
-
-3. a16z 合伙人：从现在起，假设你在公司说的每句话都被录下来了
-文章讨论 AI 录音和转写正在让公司内部沟通默认变成可搜索、可分析、可追踪的数据层。会议纪要、销售电话、客户访谈、内部讨论都会被模型处理，催生以 voice 为中心的新软件品类。与此同时，普通员工的隐私、信任和权力关系被明显低估：当每句话都可能被记录、评分和归档，组织行为会被重新塑形。
-🔗 https://mp.weixin.qq.com/s/YmXF4RmcWsl_7UO-onhtzg
-
-4. 50 年科技 IPO丨晚点小数据
-从 Apple、Nvidia、Amazon、Google、Facebook 到阿里，回看科技公司招股书如何从朴素产品描述演变成改变世界的使命叙事。适合作为科技 IPO 叙事史的轻量索引。
-🔗 https://mp.weixin.qq.com/s/tBw8rb46Q5uL4NjQApgtmw
-
-5. SpaceX 的 24 年：10 段神奇往事，一个硬核传奇
-用 10 个片段回顾 SpaceX 24 年工程史和马斯克的硬核执行路径。与今天 RSS 段的 SpaceX IPO 叙事可以互相补充。
-🔗 https://mp.weixin.qq.com/s/uaUlGYjlzasQfu0oBSUu-g
-
-📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-06-13.html</description>
     </item>
   </channel>
 </rss>
