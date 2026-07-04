@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 03 Jul 2026 00:18:24 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 00:21:58 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #632 | 2026-07-04</title>
+      <link>https://news.justin7974.dev/2026-07-04.html</link>
+      <guid>https://news.justin7974.dev/2026-07-04.html</guid>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 27 条推文 · 10 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. Vercel&apos;s Andrew Qu on why agents are a new kind of software
+Vercel 首席软件官 Andrew Qu 复盘其 agent 框架 eve 的由来：团队做 vibe-coding 产品 v0 时踩了一堆现成工具解决不了的坑——切换模型/供应商、加 fallback、让 agent 运行可恢复（resumable），于是把解法沉淀成可复用的 primitives，最终组装成 eve。他提出 agent 是一种&quot;新软件形态&quot;，filesystem agent、skills、compaction、subagent 这些一年前要自己摸索的最佳实践，正变成开箱即用的框架能力。Qu 还在推 skills.sh（让 agent skill 更易发现复用）和&quot;agent 可读网站&quot;的概念，认为 Vercel 自己也在&quot;变成一个 agent&quot;。
+🔗 https://www.latent.space/p/vercel-agents-new-software
+
+2. AIEWF Daily Dispatch: The great loops debate and the state of AI engineering
+AI Engineer World&apos;s Fair 最后一天以一场&quot;loops 之争&quot;收尾，正好折射整场大会的核心分歧：自主软件工厂现在可行吗，还是工程纪律跟不上野心？挺 loops 的 Geoffrey Huntley（Ralph Loop 作者）和 Keycard CEO 说 loops 已成定局、&quot;我不会再回去手写代码&quot;，验证性才是关键；质疑方 HumanLayer 的 Dex Horthy 反驳&quot;炒作跑在纪律前面&quot;，认为该往下降一个抽象层而非往上升，Subroutine 的 Greg Pstrucha 则质疑 agentic loop 的经济可持续性——&quot;你没法靠买更多 token 把问题编排掉&quot;。Huntley 用了个金句：现在工程师像&quot;火车司机，工作是让机车不脱轨&quot;。
+🔗 https://www.latent.space/p/aiewf-daily-dispatch-locomotives
+
+3. Quoting Josh W. Comeau
+前端名师 Josh W. Comeau 自述第三门课《Whimsical Animations》销量只有以往一次发布的三分之一，两门老课也同样惨淡、营收同比降 50%+，他把主因归给 AI：一是很多人怀疑开发者岗位还能不能存在几个月，不愿再花钱学新技能；二是就算想学，LLM 能提供个性化辅导，付费课程的动力被抽走。他还提到 LLM&quot;未经同意也不付报酬地吞掉并反刍&quot;创作者的作品。多位课程作者证实看到同样趋势。
+🔗 https://simonwillison.net/2026/Jul/3/josh-w-comeau/
+
+4. America: The Next 250 Years
+a16z 的 David Ulevitch 为 America Dynamism 峰会写的纲领性长文。核心数据触目：美国曾在 64 项最关键技术中领先 60 项，如今几乎全部丢掉——中国领先 57 项，美国只剩 7 项。他把 a16z 四年前设 American Dynamism 基金的背景描述为&quot;华盛顿与硅谷长期交恶、离岸外包与监管惰性掏空工业基础、Magnificent Seven 垄断了几乎全部市场回报&quot;，SpaceX、Palantir 当年连竞标政府合同的资格都要力争。文章强调 American Dynamism 不止于国防，而是覆盖电池、电机、化学、材料、采矿的整个&quot;电力-工业栈&quot;。
+🔗 https://www.a16z.news/p/america-250
+
+5. Claude&apos;s Criminally Bad Electron Mac App Is an Inside Job
+John Gruber 追问一个反差：为什么 AI 编码最强的公司之一 Anthropic，自家 Claude Mac 客户端却是个又慢又臃肿的 Electron&quot;废物&quot;。他给出的答案是&quot;内部人作祟&quot;——负责的正是 Electron 的联合创始人兼共有者 Felix Rieseberg，&quot;就像发现大楼里所有螺丝都被锤进墙里，然后查出监工是全球最大锤子厂的老板&quot;。Gruber 引用 Drew Breunig 的诘问：如果 Claude Code 真能按 spec 把原生代码 ship 到各平台，为什么 Anthropic 自己还在用 Electron？
+🔗 https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job
+
+🐦 Twitter 精选（5 / 27）
+
+1. @shao__meng：阿里巴巴官宣内部全面禁用 Claude Code，作者发问：国内其他大厂会不会跟进？
+🔗 https://x.com/shao__meng/status/2072980260048765431
+
+2. @Hesamation：据 Arena 数据，解禁后的 Fable 5 模型本身并未被削弱（NOT nerfed）；但在部分情况下请求仍可能被 rerouting 到 Opus 4.8，用户对此反馈不一。
+🔗 https://x.com/Hesamation/status/2073020685182488711
+
+3. @rileybrown：连用 Fable 多天后感觉它和几周前几乎是同一个模型，察觉不到明显差别——侧面反驳&quot;被削弱&quot;的说法。
+🔗 https://x.com/rileybrown/status/2072868320823394401
+
+4. @gregisenberg：提醒：Fable 5 免费包含仅到 7 月 7 日，之后转按量付费（每百万 token 输入 10 美元/输出 50 美元），是 Anthropic 最贵的模型；且它消耗额度约为 Opus 的 2 倍、最多只能用到每周额度的 50%。
+🔗 https://x.com/gregisenberg/status/2073103521981882861
+
+5. @_akhaliq：分享论文《Program-as-Weights：一种面向模糊函数（fuzzy functions）的编程范式》。
+🔗 https://x.com/_akhaliq/status/2073110969853641163
+
+📱 公众号精选（5 / 10）
+
+1. 当「专业判断」变得几乎免费，你手里还剩下什么
+对 Chamath Palihapitiya 新长文《大下沉》（The Great Descent）的解读。核心论点：继互联网把&quot;信息/知识&quot;的成本打到零之后，AI 正把&quot;专业判断&quot;也变成几乎免费——而后者量级大得多，过去需要执照、事务所、多年训练才能获得的专家判断，即将人人零成本随时召唤。作者用手机的下沉曲线类比，并指出智能比手机快一倍，是因为它同时吃两条下降曲线：硬件越来越便宜 + 模型本身越来越高效。最扎心的题眼是&quot;如果所有人都从同一个供应商租来同一个智能，那就没有人有优势&quot;——通用能力会白菜化，真正的护城河是那些被硬编码进日常运营、藏在老员工脑子里的隐性专属知识。
+🔗 https://mp.weixin.qq.com/s/wrwJD3PzI6BAW91PXk12Gw
+
+2. 你盯着万亿美金的模型大战，可能盯错了那一层
+解读 USV 合伙人 Nick Grossman 的长文《反抗军联盟》（The Rebel Alliance）。他把主流打法称为&quot;肥模型&quot;（Fat Models，模型/API/编排/agent/产品全自己做，OpenAI、Anthropic 各近万亿、谷歌破 4 万亿都在下这个注），但用 IBM 被 PC 拆、微软被 web 拆、苹果被安卓拆、AWS 上长出一批百亿公司的历史，赌 agentic 这一层会重演&quot;一体化赢家最终被上层拆成零件&quot;。他把&quot;模型周围那一圈&quot;拆成正在疯狂招人的几层：编排（Orchestration）、骨架（Harness，如 Claude Code 这类 CLI）、记忆（Memory）、给 agent 用的浏览器/入口、路由、身份与支付，并抛出一个数字：写作时 agent 产生的网络流量已首次历史性超过人类。
+🔗 https://mp.weixin.qq.com/s/hYPLWUr9xHOTsTYuupeeGA
+
+3. 对谈长安智驾陶吉：一段式端到端没有捷径，只有&quot;边开车边换轮子&quot;
+长安汽车首席智驾官陶吉透露，全行业真正量产&quot;一段式端到端&quot;（传感器直接到驾驶行为的一体化模型）的车企和供应商&quot;不到一只手&quot;，长安将在下半年量产，并已把端到端列为智能化未来战略、计划投入百亿研发。作为追赶者，陶吉三年前拒掉具身智能创业融资加入长安（因为自动驾驶仍是实现物理 AI 最快的领域），把团队从 500 人扩到 1500 人、发起&quot;AI 基石计划&quot;和&quot;1:4:N&quot;人才结构。他强调没有捷径：2025 年一季度并行测试一段式和两段式后，才选了基建要求更高、上限也更高的前者；对 VLA 也保持&quot;没被验证超过端到端就不盲目投入&quot;的克制。
+🔗 https://mp.weixin.qq.com/s/_IzQnksKBMzzqHdh7hkeCQ
+
+4. 成立三年，营收超 256 亿元，阿维塔计划赴港 IPO
+阿维塔（长安控股、华为与宁德时代深度参与）6 月 30 日更新递交港交所主板上市申请。三年多时间年销量从 0 冲到 12.3 万辆（2025 年增速 99.2%），2023-2025 营收从 56.5 亿增至 256.3 亿元、年复合增长 113%，毛利率从 −3% 转正至 9.4%，经营现金流转正至 23.2 亿元。其轻资产模式突出：不自建工厂、依托长安制造，3978 名员工（55% 做研发）撑起 256 亿收入，销售费用率三年从 40.8% 降到 12.8%；海外已进 43 国、当地业务已盈利。
+🔗 https://mp.weixin.qq.com/s/yf3ePMHYWtBq9MYvbdsAeg
+
+5. 速递｜NVIDIA参投，开源AI云Together AI融资8亿美元，估值83亿美元，模型使用量一年增三倍
+开源 AI 云（neocloud）Together AI 完成 8 亿美元 C 轮、估值 83 亿美元，Aramco Ventures 领投，Vista、General Catalyst、NVIDIA 等参投；16 个月前 B 轮估值还是 33 亿。公司称截至上季度年度预订额已超 11.5 亿美元，付费客户含 Cursor、Cognition、Decagon。背景是企业越来越多用&quot;能力够用但远比封闭前沿模型便宜&quot;的开源模型，推动过去一年行业开源模型用量增长三倍；同类 neocloud（TensorWave、Upscale AI）近期也密集融资。
+🔗 https://mp.weixin.qq.com/s/k1dZkvb-e0B5K-P3fpIKZw
+
+📖 查看完整日报（49 篇）→ https://news.justin7974.dev/2026-07-04.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #631 | 2026-07-03</title>
       <link>https://news.justin7974.dev/2026-07-03.html</link>
@@ -1280,76 +1350,6 @@ Gary Marcus 逐条拆解 Fable 禁令背后的利益关系：OpenAI 总裁 Greg 
 🔗 https://mp.weixin.qq.com/s/bW86eTfVfO1T0-zxIq5Eyw
 
 📖 查看完整日报（27 篇）→ https://news.justin7974.dev/2026-06-15.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #612 | 2026-06-14</title>
-      <link>https://news.justin7974.dev/2026-06-14.html</link>
-      <guid>https://news.justin7974.dev/2026-06-14.html</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 15 条推文 · 6 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. [AINews] Fable and Mythos officially too dangerous to release
-Fable 5 和 Mythos 5 发布仅三天，美国政府以出口管制指令将其全球下线——历史上首次政府召回已上线的商用大模型。Anthropic 称政府只提供了一个&quot;窄域非通用越狱&quot;的口头证据，内容不过是让模型读代码修 bug，且同等能力在 GPT-5.5 上广泛可得。事件连锁反应已扩散至整个 AI 生态：Cognition/Devin 和 Agent Arena 紧急移除 Fable 依赖，Artificial Analysis 的 Intelligence Frontier 图表首次出现倒退。评测领域同步发生变化——SWE-Bench Pro 因仓库历史泄漏刷分被 DeepSWE 替代，Claude Code + Fable 5 以 77 分居首，Codex + GPT-5.5 以 76 分紧随其后。
-🔗 https://www.latent.space/p/ainews-fable-and-mythos-officially
-
-2. The White House&apos;s shambolic AI policy
-Gary Marcus 剖析美国 AI 政策的内在矛盾：Trump 6 月 2 日行政令要求 AI 公司做发布前安全测试，方向正确但太弱——自愿参与且仅覆盖网络安全，对佛罗里达州首例针对 OpenAI 的州诉讼中列举的虚假广告、未成年人侵害等问题完全不触及。不到两周后，同一个政府又对 Anthropic 采取核选项——用出口管制指令下架整个模型。Marcus 认为更可行的路径是由 NIST 主导的标准化预测试框架，而非&quot;先不管再硬砸&quot;的模式。各州已开始自行立法填补联邦监管真空。
-🔗 https://garymarcus.substack.com/p/the-white-houses-shambolic-ai-policy
-
-3. Dangerous Technology For Americans Only
-Flask 框架作者 Armin Ronacher 从欧洲开发者视角分析 Fable 出口管制的深层含义。他指出美国政府划的线不是&quot;这个技术对所有人都太危险&quot;，而是&quot;只有美国人才配用&quot;——以国籍为边界的管制本质上是技术民族主义，连在美国境内工作的外籍 Anthropic 员工都被禁止接触。Ronacher 认为欧洲的问题不是缺监管而是缺能力：花了数年精力搞 GDPR 和 DMA，但 Mistral 未能成长为真正的 frontier lab，欧洲仍然没有自己的 AI 基础设施。监管不能替代建设。
-🔗 https://lucumr.pocoo.org/2026/6/13/americans-only/
-
-4. Apple&apos;s Private Cloud Compute Is Severely Limited for Third-Party Developers
-Apple 公布 Private Cloud Compute (PCC) 第三方开发者使用条件：仅限 App Store 小企业计划成员、首次下载量低于 200 万次的应用可免费使用 PCC 上的 Apple Foundation Models。一旦超过门槛，开发者有 6 个月迁移期。Gruber 评论称&quot;免费但仅限小开发者&quot;的定位让 PCC 更像是获客工具——大开发者要么自建推理能力，要么等 Apple 公布付费方案。
-🔗 https://developer.apple.com/private-cloud-compute/
-
-5. U.S. Government Directs Anthropic to Shut Down Fable 5 and Mythos 5 Models on National Security Grounds
-Anthropic 官方声明全文：美东时间 5:21PM 收到指令、政府仅提供口头越狱证据、Anthropic 认为同等能力在 GPT-5.5 上广泛可得，呼吁出口管制应基于透明公平的法定程序。
-🔗 https://www.anthropic.com/news/fable-mythos-access
-
-🐦 Twitter 精选（5 / 15）
-
-1. @AnthropicAI：Anthropic 官方声明：美国政府以国家安全为由发布出口管制指令，要求暂停所有外国公民对 Fable 5 和 Mythos 5 的访问，包括境内外外籍人士及 Anthropic 外籍员工。为合规只能对全部客户停用。其他 Claude 模型不受影响。
-🔗 https://x.com/AnthropicAI/status/2065597531644743999
-
-2. @Hesamation：Dario 正在自食其果——Anthropic 把 Mythos 的危险性宣传得太狠，现在美国政府真的把它当核武器对待了。讽刺的是，Fable 5 其实是 Claude 系列里限制最严格的模型。
-🔗 https://x.com/Hesamation/status/2065601209235337706
-
-3. @Hesamation：双标现场：Pliny 越狱 Fable 5 让它教做炸药，政府没反应；亚马逊研究员越狱 Fable 5 用于网络安全研究，政府立刻要求下架。同样的越狱，不同的反应取决于谁在举报。
-🔗 https://x.com/Hesamation/status/2065802532132155808
-
-4. @emollick：一个被广泛接受但有缺陷的假设：不重要的任务用小模型就行。大模型几乎在所有维度上都更强，非关键领域的组织能力和人力储备通常更弱，好 AI 反而能以低成本大幅提升这些领域的产出。
-🔗 https://x.com/emollick/status/2065858389322670201
-
-5. @emollick：如果 Mythos 级别的模型被视为危险品，中国同样不会希望这类模型开源。而且训练 Mythos 级模型的算力消耗大到任何国家政府都会注意到——没有人能偷偷训练这种规模的模型。
-🔗 https://x.com/emollick/status/2065787920473055528
-
-📱 公众号精选（5 / 6）
-
-1. 美国政府，下架了 Fable 5
-历史上首次，政府召回了一个已上线的商用大模型。商务部长 Howard Lutnick 亲签管制令给 Dario Amodei，禁止全球外国人访问 Fable 5 和 Mythos 5。政府的&quot;证据&quot;是有人越狱让模型读代码修 bug——Anthropic 认为这根本不构成安全威胁。Axios 披露内幕：这个模型本来政府就不想让 Anthropic 发出来，管制令还要求 Anthropic 今后逐案申请出口许可证。此前白宫已将 Anthropic 列为&quot;供应链风险&quot;，双方官司还在进行中。
-🔗 https://mp.weixin.qq.com/s/M381PpA7WMeC-_bV9Y1dmg
-
-2. 深度｜马斯克专访：从SpaceX到100万吨火星物资，跨星际文明才是终极目标
-SpaceX 6 月 12 日登陆纳斯达克，首日市值突破 $2 万亿，创全球最大 IPO 纪录。马斯克在 Forbes 专访中首次系统阐述终局蓝图：需要运输约 100 万吨物资到火星才能建立自持文明；预测不到一两年内 AI 将在所有维度毫无争议地超越人类；2031 年数字化科技总和将超过全人类科技总和；全球可能有 1 亿至 10 亿台人形机器人。他还提出了太空 AI 算力的物理极限推演——每年从地球发射 1000 万吨太阳能 AI 卫星可达到 1 太瓦级算力，相当于美国当前总用电量的两倍。
-🔗 https://mp.weixin.qq.com/s/zJMLA--NXPw-Y2lbOQCVnQ
-
-3. 海外模型停服，国产模型开放
-智谱在 Fable 5 全球下架当天发布 GLM-5.2 开源模型，刻意选择在中国时间下午 5:21 上线——对应 Anthropic 收到管制令的美东 5:21PM。GLM-5.2 支持真正可用的 1M 上下文和长程 Coding，在注意力结构层面做了改动以保证超长上下文质量。能力定位大致在 GLM-5.1 和 Fable 5 之间，与 Opus 4.6/4.8 处于同一水位线。MIT 开源协议，API 下周上线。智谱还特意提到 Karpathy 作为 EB-1 绿卡持有者而非美国公民，同样被禁止使用 Fable/Mythos。
-🔗 https://mp.weixin.qq.com/s/KcmVPfpVXAnPP2azGtyqmg
-
-4. Anthropic CEO：AI 是给人类的成人礼
-重读 Dario Amodei 年初长文《技术的青春期》：想象 2027 年突然出现一个 5000 万超级天才组成的虚拟国家，每个比诺贝尔奖得主还聪明，工作速度是人类 10-100 倍。AI 正在帮 Anthropic 写大部分代码，加速反馈回路已闭合。
-🔗 https://mp.weixin.qq.com/s/mmBz-nTKy5UxGmkmAyNnJQ
-
-5. 出口占比超三分之一，中国车市&quot;内冷外热&quot;格局继续强化
-5 月国内乘用车零售同比下滑超两成，燃油车跌近四成；出口同比增超 60%，新能源车出口翻倍。比亚迪前 5 月累计下滑 39.1%，行业利润率降至 3.2% 历史低位。李斌称&quot;进入汽车行业以来最难的一年&quot;。
-🔗 https://mp.weixin.qq.com/s/SWVlidgPexyQLJTg7MYU7Q
-
-📖 查看完整日报（31 篇）→ https://news.justin7974.dev/2026-06-14.html</description>
     </item>
   </channel>
 </rss>
