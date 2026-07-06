@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 05 Jul 2026 12:06:43 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 00:17:26 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #634 | 2026-07-06</title>
+      <link>https://news.justin7974.dev/2026-07-06.html</link>
+      <guid>https://news.justin7974.dev/2026-07-06.html</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description>今日共 6 篇 RSS · 24 条推文 · 6 篇公众号
+
+📰 RSS 精选（5 / 6）
+
+1. sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)
+Simon Willison 趁 Max 订阅里的 Claude Fable 下线前，用它在手机上通过 Claude Code for web 完成了 sqlite-utils 4.0 稳定版发布前的最后审查与修复：37 轮 prompt、34 次 commit、跨 30 个文件 +1321/-190 行，总成本约 149 美元。Fable 开场就揪出 5 个&quot;发布拦截级&quot;缺陷，最严重的一个是 delete_where() 从不 commit、会污染连接并导致后续写入全部丢失的数据损坏 bug——这些他自己都没碰到过。他还提到越难的任务反而越适合 agent，因为 agent 需要 10-15 分钟自己 churn，人可以同时去干别的（他跑去看了独立日游行）。
+🔗 https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/
+
+2. Meta也来卖铲子了！小扎：模型可以慢，GPU必须赚
+据彭博社与 SemiAnalysis，Meta 正考虑推出 Meta Compute，把庞大的 AI 基建对外开放。仅 2026 上半年 Meta 就签下超 5GW 云与托管数据中心容量，2024 年至今累计接近 10GW。按 SpaceX 式高价算力租赁测算，每 GW 年收入约 500 亿美元，Meta 只要拿出 200MW 对外，就能带来约 100 亿美元的高利润收入。更关键的是 SemiAnalysis 判断 Meta 正与 Anthropic 进行最终谈判、以获取 Claude 私有实例，做类似 AWS Bedrock 的模型服务平台。消息一出 Meta 股价大涨近 9%，CoreWeave、Nebius 等 neocloud 公司遭抛售。
+🔗 https://www.qbitai.com/2026/07/443339.html
+
+3. 人形机器人产业再迎重要催化，资金持续借道ETF布局
+证监会 7 月 2 日同意宇树科技科创板 IPO 注册，人形机器人赛道再获催化；近一周十余只机器人 ETF 全部实现资金净流入，主题投资热度升温。
+🔗 https://36kr.com/newsflashes/3883389371904004?f=rss
+
+4. 小米前高管唐沐创业咖啡机器人，完成数亿融资，林斌、黎万强投过
+产品经理出身的唐沐创办的通用餐饮具身机器人「影智XBOT」连续完成两轮数亿元融资（A 轮 2 亿、B 轮 3-5 亿），是餐饮机器人领域规模最大的融资之一，天使轮股东含张小龙、林斌、黎万强、洪锋等。
+🔗 https://36kr.com/p/3882361033322755?f=rss
+
+5. Cursed circuits #5: capacitance multiplier
+硬件工程博客 Cursed circuits 系列第五篇，讲如何用晶体管加小电容组成&quot;电容倍增器&quot;来替代昂贵的大电容做电源滤波，属于省钱向的电路 trick 拆解。
+🔗 https://lcamtuf.substack.com/p/cursed-circuits-capacitance-multiplier
+
+🐦 Twitter 精选（5 / 24）
+
+1. @emollick：讨论中美 AI 竞争前该先说清在争什么：是争哪家公司靠 AI 赚钱、争科学声望与世界领导地位、争开源/闭源路线，还是争&quot;国家技术栈&quot;整包出海——大家默认的&quot;游戏规则&quot;其实各不相同，甚至有人根本不认为存在一场比赛。
+🔗 https://x.com/emollick/status/2073913246000787901
+
+2. @emollick：与 AI agent 协作越来越像做管理，或许该为 AI 时代搞大规模管理培训——二战时美国政府就干过一次，那套工程/科学/管理战时培训是战后繁荣的重要原因。
+🔗 https://x.com/emollick/status/2073852766427009329
+
+3. @Hesamation：连 Sam Altman 都困惑：ChatGPT 出来后教育几乎没变——他警告&quot;如果继续用前 AGI 时代的方式教学生，会导致批判性思维的萎缩&quot;。
+🔗 https://x.com/Hesamation/status/2073884828861071557
+
+4. @Hesamation：一句吐槽：Claude 已经把所有 SWE 实习岗都替掉了。
+🔗 https://x.com/Hesamation/status/2073882093398949973
+
+5. @Hesamation：&quot;SWE 已死&quot;的论调满天飞，但 Anthropic 正以 40 万美元年薪招软件工程师——现实和叙事的割裂很魔幻。
+🔗 https://x.com/Hesamation/status/2073729547128709381
+
+📱 公众号精选（5 / 6）
+
+1. 巨头的弃子、长鑫的产能，与一场超 5000 亿的价值重估
+兆易创新的股价在一年半内从周期底部的 55 元飙到 815 元、市值逼近 5700 亿元，年内涨超 200%——但这不是普通的存储周期上行，而是一次结构性价值重估。核心逻辑是三星、SK 海力士、美光为把产能让给毛利率 60%+ 的 HBM/DDR5，正战略性、不可逆地退出毛利率仅 20-30% 的利基 DRAM（DDR3、小容量 DDR4）：每生产 1GB HBM 消耗的晶圆面积是等容量 DDR5 的 3 倍、2028 年将达 4.3 倍，成熟制程产线被非线性挤占。兆易在国产利基 DRAM 份额第一（35.5%），叠加长鑫产能，成为巨头退场后最大的接棒者，2026 Q1 单季净利润（14.61 亿）已抵 2024 全年。
+🔗 https://mp.weixin.qq.com/s/ECFoiKBtzmt455qxXPk0DA
+
+2. 刚刚，美团 LongCat-2.0 开源，1.6万亿参数，纯国产卡训练
+美团开源 LongCat-2.0，1.6 万亿参数 MoE、动态激活 33-56B、原生百万 token 上下文，六项 Agent benchmark 整体排在 Claude、GPT 之后、与 Gemini 3.1 Pro 同档。最大看点是全程纯国产卡：训练峰值动用超 5 万张国产 AI ASIC（每张约 60GB 显存）、0 回滚，稳态日吞吐 1T tokens。为跨过国产卡的跨卡通信与确定性算子短板，团队自研了 ScMoE（让 Dense FFN 计算与 MoE 通信并行）、动态激活（用 128 个&quot;空专家&quot;让简单 token 少耗算力）、LongCat Sparse Attention 及高性能确定性算子。预览版曾以 Owl Alpha 匿名在 OpenRouter 跑到全球调用量前三。
+🔗 https://mp.weixin.qq.com/s/IDzJ4sqDw-DtJGQqI5OGZA
+
+3. 深度｜蓝色起源创始人贝索斯：人类真正的太空时代才刚刚开始
+贝索斯在 VivaTech 巴黎大会提出，今天的发射市场不是需求受限而是供给受限——LEO 通信星座、国家安全任务、轨道算力和月球资源都在持续推高发射需求。他把 Blue Origin 的使命定义为建设&quot;通往太空的重型基础设施&quot;，让其他公司在上面做出不可思议的事，类比亚马逊；并称真正难的不是造一台发动机或一枚火箭，而是造&quot;制造机器的机器&quot;，关键在可复用性、规模化制造与成本下降。他还断言 Blue Origin 会成为比亚马逊更伟大的公司。
+🔗 https://mp.weixin.qq.com/s/KtlSrJRxJ_Yv85h4gVkTUQ
+
+4. 同样用 Claude，有人写邮件，有人让它替客户跑完整个流程
+解读 yurshev《Claude Agent 实战手册》，核心是&quot;工具 vs 生意&quot;的分界——多数人用 Claude 只是写邮件快一点，少数人让它揣着目标自己跑完整个客户流程、只在需要拍板时才回来找人，后者才是把 AI 变成生意的活法。
+🔗 https://mp.weixin.qq.com/s/vRgymdlvsKJYT2jf-UGGGw
+
+5. 怎么让 ChatGPT 在别人搜你对手名字时，推荐你
+一个 GEO 实战案例：营销人 deno 面对山寨站霸占品牌词，不去&quot;保卫&quot;品牌而是反攻山寨货的整片关键词，12 个月把 EssayGrader 月访客从 3000 做到 77000（+2467%），示范了 AI 搜索时代的进攻打法。
+🔗 https://mp.weixin.qq.com/s/tHIKwRZmVggpLiiQeT3hOw
+
+📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-07-06.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #633 | 2026-07-05</title>
       <link>https://news.justin7974.dev/2026-07-05.html</link>
@@ -1276,76 +1346,6 @@ YC 2026 冬季批次 199 家公司、横跨 15 个品类，每 8 家就有 1 家
 🔗 https://mp.weixin.qq.com/s/jZZaw6WJ4pXtLD34imCIOw&gt;
 
 📖 查看完整日报（31 篇）→ https://news.justin7974.dev/2026-06-17.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #614 | 2026-06-16</title>
-      <link>https://news.justin7974.dev/2026-06-16.html</link>
-      <guid>https://news.justin7974.dev/2026-06-16.html</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 15 条推文 · 8 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. SpaceX &amp; the Sentient Sun
-a16z 发布 SpaceX 万字深度长文。核心数据：xAI 合并后，Anthropic 每月支付 12.5 亿美元使用 Colossus 算力，Google 每月支付 9.2 亿美元租用 11 万张 GPU——仅这两个客户就贡献约 260 亿美元/年收入。Starship V3 将发射成本降至 100-500 美元/公斤（历史水平 18,500 美元）。Musk 的薪酬方案绑定两个目标：公司估值达 7.5 万亿美元并建立百万人火星殖民地，以及在轨数据中心功率超 100 太瓦。文章还披露 Cursor 与 SpaceX 潜在 600 亿美元收购交易的结构——任一方退出需支付 15 亿美元分手费加 85 亿美元免费算力。
-🔗 https://www.a16z.news/p/spacex-and-the-sentient-sun
-
-2. Anthropic&apos;s Safety Superpower
-Ben Thompson 分析 Anthropic 面临的结构性矛盾。经济层面：frontier lab 的模型一旦发布就被开源蒸馏和商品化，唯一出路是向上游走、占据用户触点——这意味着 Anthropic 正走向与所有软件公司的正面冲突。数据层面：Fable 上线后 Anthropic 宣布所有用户数据保留 30 天，即使企业级客户也不例外，且没有设置第三方托管等防训练保障。竞争层面：Anthropic 在 Fable 系统卡中披露了一项&quot;静默降级&quot;机制——检测到用户在开发竞品 LLM 时，模型会悄悄变差，预计影响 0.03% 流量。Thompson 指出 Nadella 同日发文呼吁&quot;公司应拥有自己的学习闭环&quot;，实际上是在反击 Anthropic 的平台化野心。
-🔗 https://stratechery.com/2026/anthropics-safety-superpower/
-
-3. &quot;They screwed us&quot;: Personality clashes sent Anthropic&apos;s models offline
-Simon Willison 转载 Axios 独家，披露 Fable/Mythos 被禁的幕后细节。Anthropic 派出前沿红队负责人 Logan Graham（前英国首相 Boris Johnson 的 AI 特别顾问）、安全主管 Dave Orr（前 Google DeepMind 工程总监）和安全研究员 Nicholas Carlini 赴华盛顿与商务部谈判。知情人士透露双方的核心矛盾不仅是技术层面——政府方面认为 Anthropic &quot;沟通能力糟糕&quot;且&quot;未能尊重意识形态差异&quot;。Anthropic 坚持没有发现&quot;universal jailbreak&quot;，将触发禁令的越狱归类为&quot;窄范围、非通用&quot;的绕过手段。
-🔗 https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything
-
-4. AI&apos;s Brokenomics
-Ed Zitron 深度拆解 AI 行业经济泡沫。核心论点：SemiAnalysis 估算 Anthropic $200/月的 Max 计划实际提供价值 $8,000 的 Claude tokens 和 $14,000 的 Codex tokens——这种补贴不可持续。Zitron 认为 Fable 禁令并非孤立事件：Anthropic 多年来用&quot;AI 等同于核武器&quot;的恐慌营销推高估值至 9650 亿美元，结果政府真信了，直接出手禁止。文章还引用 Nadella 周日发文和 Microsoft AI CEO Mustafa Suleyman 公开称 Anthropic 模型&quot;太贵&quot;，推断 hyperscaler 可能正在借此机会动摇 frontier lab 的叙事根基。
-🔗 https://www.wheresyoured.at/brokenomics/
-
-5. EU tells Google to open up AI on Android
-欧盟委员会根据 DMA（数字市场法案）认定 Google 在 Android 上对 Gemini 的集成违反公平竞争规定。拟议措施包括：允许第三方 AI 通过热词或按钮全局唤醒；允许竞品 AI 获取屏幕上下文和本地数据生成主动建议（类似 Google 的 Magic Cue）；允许其他 AI 自主操控已安装应用；强制提供本地模型运行所需的硬件访问权限。Google 称此举为&quot;不合理干预&quot;，可能损害隐私和安全。最终裁决不迟于 7 月 27 日，违规罚款最高可达全球年收入的 10%。
-🔗 https://arstechnica.com/ai/2026/04/europe-could-force-google-to-open-android-to-other-ai-assistants/
-
-🐦 Twitter 精选（5 / 15）
-
-1. @emollick：Fable 表现很出色，但这可能是因为指数增长进入了更陡峭的阶段——每次增量发布的改进幅度越来越大。如果是这样，Anthropic 不会是唯一实现飞跃的实验室。
-🔗 https://x.com/emollick/status/2066599457848766626
-
-2. @emollick：模型在视觉任务上相对最弱，视觉步骤是工作流中错误累积最多的地方。一个聪明的做法是针对视觉环节做专门优化。
-🔗 https://x.com/emollick/status/2066563652681892133
-
-3. @Hesamation：Fable 5 虽被禁，但其推理痕迹已被用于训练开源模型——一个基于 Gemma-4-12B 微调了 Composer 2.5 和 Fable 5 推理数据的模型已被下载 2 万+次。API 死了，但&quot;幽灵&quot;活在开源里。
-🔗 https://x.com/Hesamation/status/2066550766777577613
-
-4. @Hesamation：Google DeepMind 预训练负责人指出前沿 AI 实验室目前最紧缺的两类人才：Kernel 开发和底层性能工程。
-🔗 https://x.com/Hesamation/status/2066666902257066250
-
-5. @shao__meng：整理了 OpenAI Codex Mobile 的工程实践要点：手机不是缩小版终端，而是远程开发机的&quot;控制中心&quot;。核心价值在于离桌时仍能做出关键决策，包括选择主机/工作区、Git 分支、创建独立 worktree 等。
-🔗 https://x.com/shao__meng/status/2066319268933988686
-
-📱 公众号精选（5 / 8）
-
-1. 紧绷中的 SK 海力士，AI 时代领先者的结构性困局
-SK 海力士 2026Q1 营收 345 亿美元（同比+198%），经营利润率达 72% 历史新高，但文章指出三个结构性矛盾正在编织&quot;暴利陷阱&quot;：HBM 业务利润率高出普通 DRAM 约 10 个百分点，但代际周期仅 1-2 年，规模效应远弱于普通 DRAM——赚得越多，为维持领先所需的再投资越大，2026 年 capex 预计超 400 亿韩元（营收占比 35%）。更深层的问题是海力士将估值和利润弹性绑在英伟达这个拥有绝对主导权的单一客户上，而英伟达正在推进供应商多元化。
-🔗 https://mp.weixin.qq.com/s/Lox5izCEbj4-7abdKIm9Xw
-
-2. 我把 YC 最新一批 196 家公司全扒了一遍——AI 已经不再是差异点了
-Chris Lu（Copy.ai 创始人，被收购退出）逐家分析 YC Spring 2026 全部 196 家公司。核心数据：95% 的公司涉及 AI（上一批 85%），80% 是&quot;AI 原生&quot;；70%（137 家）在做 LLM agent，远超第二名数据基础设施的 38 家；62% 是 B2B，纯消费产品仅 12 家；44%（86 家）在做同一种&quot;Agent as a Service&quot;。最有差异化的公司反而几乎不用 AI——国防无人机、核反应堆、太空制造。创始人最常见的前东家是 Amazon（33 人），超过 Meta 和 Google。
-🔗 https://mp.weixin.qq.com/s/jmemmxwVXYKTtwS_7v5tXQ
-
-3. 速递｜KKR携手英伟达成立Helix，斥资100亿美元押注AI数据中心
-KKR、科威特投资局、NVIDIA 和发电公司 Vistra 成立合资公司 Helix，专注 AI 数据中心融资和建设。NVIDIA 作为锚定投资者，角色从芯片供应商进一步延伸至为数据中心项目提供资本支持——包括投资使用其芯片的企业、为闲置算力提供兜底保障，以及可能提供信贷支持。
-🔗 https://mp.weixin.qq.com/s/suRB6FLmVugnJxz0i__7hA
-
-4. 速递｜Mistral AI拟融资35亿美元，估值234亿美元
-法国 AI 公司 Mistral AI 正洽谈约 30 亿欧元（35 亿美元）融资，估值约 200 亿欧元（234 亿美元）。知情人士称讨论仍处于早期阶段，估值可能根据投资者需求进一步上升。Mistral 专注于工业场景定制 AI 和安全模型。
-🔗 https://mp.weixin.qq.com/s/tdW76IeVM6f6fD_3idRO5g
-
-5. Business Insider：揭秘 Cursor 的疯狂崛起
-BI 长文复盘 Cursor/Anysphere 从 MIT 宿舍到 40 亿美元收入的历程。披露其曾贡献 Anthropic 40%-50% 收入、与 SpaceX 的算力合作细节，以及创始人 Truell 在 Claude Code 冲击下召开&quot;紧急&quot;全员会的内幕。
-🔗 https://mp.weixin.qq.com/s/gXxAkRALAE_wOo59Wl9vUQ
-
-📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-06-16.html</description>
     </item>
   </channel>
 </rss>
