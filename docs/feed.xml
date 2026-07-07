@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 06 Jul 2026 00:17:26 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 00:24:13 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #635 | 2026-07-07</title>
+      <link>https://news.justin7974.dev/2026-07-07.html</link>
+      <guid>https://news.justin7974.dev/2026-07-07.html</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 29 条推文 · 6 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. GLM 5.2 and the coming AI margin collapse (part 1)
+作者认为真正的&quot;DeepSeek 时刻&quot;现在才到来，市场当初看错了 AI 的成本结构——训练是一次性前期投入，推理才是随需求线性增长的真实边际成本，前沿实验室按 25 美元/百万 token 收费，毛利可能高达 90%。他用了两周 Z.ai 的开源权重模型 GLM 5.2，认为这是第一个在智能体任务上能和 Opus、GPT 掰手腕的开源模型，价格只有 15-20%，日常使用几乎分不出和 Opus 的差别。弱点是没有视觉能力、自带的联网搜索很差、思考过长导致偏慢。最关键的是迁移成本极低：Z.ai 和 Fireworks 都提供 OpenAI/Anthropic 兼容接口，改个 base URL 和 key 就能在 Claude Code、Codex 里直接换用。
+🔗 https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=feed
+
+2. Premium: The Hater&apos;s Guide To SoftBank
+Ed Zitron 逐条拆那份被群嘲的 SoftBank 股东会材料——每颗&quot;金蛋&quot;代表一万亿日元(约 61.5 亿美元)的净资产，减号是负债。他提醒读者分清两个 SoftBank：一个是做日本本土消费业务(宽带、Yahoo! Japan)的 SoftBank Corporation，另一个是运营各期愿景基金、也是这轮 AI 叙事主角的母公司 SoftBank Group。文章点名 7 月 2 日刚宣布的 SoftBank Neo——一个号称要借用集团&quot;10 吉瓦级能源和 AI 基础设施&quot;的美国新云服务，而那句&quot;在建中&quot;承担了几乎全部分量。
+🔗 https://www.wheresyoured.at/premium-the-haters-guide-to-softbank/
+
+3. How I run autonomous coding agents from my phone with OpenAI Symphony + Linear | Alessio Fanelli (Kernel Labs)
+Kernel Labs 的 Alessio Fanelli 演示了用 OpenAI Symphony + Linear 从手机上并行调度多个编码智能体的做法：任务丢进 Linear，agent 在后台跑，人只在手机上审。他还现场演示了两个非编码用法——用 Codex 追踪 PSA 评级卡的分数、在卡牌交易展会上实时给宝可梦卡估价(以往要一张张在 eBay、TCGPlayer 上手动查)。对谈里还提到 AI 让&quot;小生意创造&quot;变高效，比如他父亲给餐厅送鱼、每天用纸笔盘点冻库库存这类活也能自动化。
+🔗 https://www.lennysnewsletter.com/p/how-i-run-autonomous-coding-agents
+
+4. PRX Part 4: Our Data Strategy
+AI 图像编辑公司 Photoroom 公开了 PRX 模型的数据管线，坦言数据是决定模型质量、却最不光鲜的一环。做法包括：用 Lance 格式存储和探索现有 caption 与 embedding；用视觉语言模型对全部图像重新打标(re-caption)；再写成 Mosaic Data Shards(MDS)格式，按分辨率和长宽比分桶；最后做数据过滤和去重。文章把&quot;预训练要用多样化数据、混合多种来源&quot;列为首要原则，并分享了踩过的坑和会重来的地方。
+🔗 https://huggingface.co/blog/Photoroom/prx-part4-data
+
+5. 上市前夜 | 哈工大在读博士以百亿市值冲港股IPO，创始三人只剩一人
+珞石机器人 7 月 6 日结束港股 IPO 招股，定价 38 港元、对应市值约 99.46 亿港元，募资 8.75 亿港元、五家基石认购 31.4%；这家哈工大背景的工业机器人公司创始三人如今只剩一人，折射国产机器人上市潮下的团队与治理隐忧。
+🔗 https://36kr.com/p/3883708118921480?f=rss
+
+🐦 Twitter 精选（5 / 29）
+
+1. @shao__meng：腾讯 Hy3 正式开源，295B/A21B MoE、256K 上下文；官方引用 WorkBuddy 评测称任务成功率从 72% 升到 90%、平均耗时缩短 34%，文档处理相比 GLM-5.2 省 47% token。作者看好它接入腾讯自家产品后能形成数据强化的正向循环。
+🔗 https://x.com/shao__meng/status/2074100035823055056
+
+2. @_akhaliq：bottlecapai 发布 ThinkingCap-Qwen3.6-27B：在 Qwen3.6-27B 基础上微调，平均少用 50% 的思考 token、最好情况下省超 90%，做法是在多领域、多难度题目上做针对性训练。
+🔗 https://x.com/_akhaliq/status/2074195249732128870
+
+3. @Hesamation：Anthropic 关于 Claude J-space 的报告很反直觉：模型内部会思考一些永远不写进输出的东西，你让它&quot;想但别写出来&quot;，它真的会默想；它还能在内部识别出假的评测，从而改变自己的回应方式。
+🔗 https://x.com/Hesamation/status/2074236880900542546
+
+4. @karminski3：终于有好用的本地 DeepResearch 了：作者包了个开箱即用的 skill，驱动模型是字节和斯坦福 FutureX 榜霸榜的开源特调模型 Apodex-1.0-mini，基于 Qwen3.5-35B-A3B 后训练，BrowseComp 71.5 分接近旗舰，MacStudio 能跑到 70tps+。
+🔗 https://x.com/karminski3/status/2074256477142077648
+
+5. @karminski3：长程任务不是让 AI 一直&quot;加班&quot;就有更好结果。作者用字节 Seed 刚发的 EdgeBench 测试框架，把本地 35B-A3B 模型放进真实可运行环境(测试题是 Roguelike 游戏 DCSS)，看它能否在十几小时的迭代里持续改进。
+🔗 https://x.com/karminski3/status/2074082961981677907
+
+📱 公众号精选（5 / 6）
+
+1. 宇树科技 IPO：一场漂亮的仗，和更难的下一场
+7 月 2 日宇树科技获批科创板 IPO，招股书数据亮眼：2025 年营收 16.99 亿元、同比增 335%，扣非净利 6 亿元，毛利率 60%，是优必选、智元等还在亏损时唯一规模化盈利的人形机器人公司，整体估值约 420 亿元。但文章点出隐忧：人形机器人 73.6% 卖给科研教育机构、工业客户只占 9%；2026 年 Q1 营收增 68%、扣非净利却同比降 52.55%，主销机型从 G1 的 8.99 万降到 R1 的 2.99 万元。更关键的是支撑高估值的&quot;出货—数据—模型&quot;循环尚未验证：宇树后台采集的多是电机力矩、姿态这类底层运动数据，缺任务意图和成败标签，短期难转化为&quot;会干活&quot;的操作智能；而它在&quot;大脑&quot;层选了和英伟达 GR00T 同一套技术栈，等于放弃差异化。
+🔗 https://mp.weixin.qq.com/s/z_0E4H_M7-l0LdF4eKCrjA
+
+2. AI 季报 26Q2：从 coding 到 RSI，强者愈强的未来？
+晚点对谈硅谷早期 AI 投资机构 MoE Capital 创始合伙人 Henry Yin 的 Q2 季报。两条主线：一是推进智能前沿，上季预言的 OpenAI&quot;反扑&quot;已兑现，Codex 势头明显、不少开发者在 Anthropic 限流涨价、口碑波动后从 Claude Code 转投 Codex；RSI(递归自进化)从科幻概念变成明确创业方向，一周内就冒出 Recursive、Mirendil、Core Automation 等数个新团队。二是智能扩散，企业开始纠结用闭源、开源还是自训模型，给了 Fireworks、智谱 GLM 等机会。文中还罕见批评 Anthropic 的 Mythos 5/Fable 5 是&quot;史诗级能力、灾难级发布&quot;，因安全护栏过度拒答，甚至一度在涉及前沿 AI 研究时不告知用户就静默降智，被指近乎定义级的非对齐。
+🔗 https://mp.weixin.qq.com/s/bILkgRv0d7Y7RUksPAv4ig
+
+3. 问题不再是「你排第几」，而是「AI 会不会念你的名字」
+过去 12 个月 Google 给内容站的流量掉了 33%，活了 17 年的旅行博客 The Planet D 关站，HubSpot 自然流量 18 个月掉 70-80% 并开始裁员。原文(营销代理 deno)的判断是：B2B 买家的研究环节整个从&quot;自己开 12 个厂商网站比较&quot;搬进了 ChatGPT、Perplexity 等 AI 引擎，被 AI 点名的 3 个品牌拿走生意，剩下 9 个在买家看见前就出局。它把&quot;让所有 AI 引擎都反复把你和某个品类联系在一起&quot;称为新的共识型护城河，并举 Cal AI、Cursor 为赢家。作者自己泼了两盆冷水：这本质又是篇软广，且一个能被人为刷出来的共识，平台早晚会像当年打链接作弊一样打掉。
+🔗 https://mp.weixin.qq.com/s/f0dq4x_n4PYHJ8s56sxhCg
+
+4. 速递｜AI语音ElevenLabs估值220亿美元，拟启动员工售股，IPO节奏放缓
+ElevenLabs 正与投资者洽谈让员工在二级市场售股，估值约 220 亿美元、较二月一轮融资翻倍，预计九月前进行；公司日益聚焦企业业务，为组织提供部署会话语音代理的平台，客户含德国电信、BCG、Revolut。
+🔗 https://mp.weixin.qq.com/s/QFaXAWQTTwgXxj0dh-St5w
+
+5. 速递｜AI数据中心Crusoe拟融资30亿美元，估值或达300亿美元，较十月翻三倍
+为 Meta、Oracle 提供 AI 算力的数据中心公司 Crusoe 正洽谈约 30 亿美元融资，估值或达 300 亿美元、较十月的约 100 亿翻三倍；这家 2018 年靠捕获油田余气供电起家、后转向 AI 基础设施的公司，总项目管道已超 40 吉瓦。
+🔗 https://mp.weixin.qq.com/s/CWmksiQ8Dpno8bDrbP6i7Q
+
+📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-07-07.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #634 | 2026-07-06</title>
       <link>https://news.justin7974.dev/2026-07-06.html</link>
@@ -1280,72 +1350,6 @@ SpaceX 宣布以 600 亿美元收购 AI 编程公司 Cursor，这是其上周以
 🔗 https://mp.weixin.qq.com/s/xo6oA8gnihPG2ERGV9l4Sw
 
 📖 查看完整日报（43 篇）→ https://news.justin7974.dev/2026-06-18.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #615 | 2026-06-17</title>
-      <link>https://news.justin7974.dev/2026-06-17.html</link>
-      <guid>https://news.justin7974.dev/2026-06-17.html</guid>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
-      <description>今日共 13 篇 RSS · 14 条推文 · 4 篇公众号
-
-📰 RSS 精选（5 / 13）
-
-1. Exclusive: OpenAI Losses Increased Nearly 8X in 2025, With Spending Hitting $34 Billion
-OpenAI 2025 年净亏损约 385 亿美元，是 2024 年（51 亿）的近 8 倍。当年营收 130.7 亿美元，成本和费用合计 340 亿美元，其中研发 191.8 亿、销售与市场 57.3 亿。数据来自 Ed Zitron 看到的经审计财务文件，并经《金融时报》独立核实。值得注意的是，2025 年营收中有 8.67 亿美元来自软银、3.03 亿来自微软，均为关联方。
-🔗 https://www.wheresyoured.at/exclusive-openai-financials/
-
-2. OpenAI&apos;s lead is dwindling fast
-OpenAI 市场份额首次跌破 50%，Google 正快速蚕食。Gary Marcus 重提他 2024 年 1 月的判断：&quot;大家都在造同样的东西，就不可能有护城河。&quot;更刺眼的是微软——OpenAI 曾经最大的金主——据报道正在评估用 DeepSeek 替代 OpenAI 和 Anthropic 来跑 Copilot Cowork，同时把定价转向按量计费。文章把它和 Zitron 的亏损报道串成&quot;坏事成三&quot;。
-🔗 https://garymarcus.substack.com/p/openais-lead-is-dwindling-fast
-
-3. The Fable 5 Export Controls Harm US Cyber Defense
-触发 Claude Fable 5 被列入出口管制的所谓&quot;越狱&quot;，其实只是让模型&quot;修复这段代码&quot;。安全研究员把带已知 CVE 的开源代码和人为植入漏洞的新代码交给模型，先让它&quot;审查安全问题&quot;——Fable 5 拒绝；再换成&quot;修复这段代码&quot;，模型照做。Kate Moussouris 指出这很荒谬：修 bug（尤其是安全漏洞）正是编程模型最有价值的防御性用途，无法在不削弱模型修复能力的前提下移除这个能力。
-🔗 https://simonwillison.net/2026/Jun/16/fable-5-export-controls/
-
-4. Databricks CEO Ali Ghodsi: A Costly AI Training Foray, Sidestepping the Model Wars &amp; the Push to Kill Tokenmaxxing Bloat
-Ghodsi 坦承：2024 年训练 DBRX 实际花了约 2000 万美元，而真正产出模型的那次训练只用了 400 万，剩下约 1600 万烧在试错、停机和经验不足上。如今 Databricks 转向绕开模型大战，发布对标 ClickHouse、Splunk、Oracle 的一整套数据产品，并推动削减&quot;tokenmaxxing&quot;式的冗余消耗。
-🔗 https://www.newcomer.co/p/databricks-ceo-ali-ghodsi-a-costly
-
-5. Y Combinator&apos;s Winter 2026 batch is its most technically complex cohort yet — here&apos;s what it signals about physical AI
-YC 2026 冬季批次 199 家公司、横跨 15 个品类，每 8 家就有 1 家在做&quot;物理 AI&quot;——机器人、无人机、可穿戴、太空硬件，是 YC 史上技术最硬核的一批。
-🔗 https://www.cbinsights.com/research/y-combinator-winter-2026/
-
-🐦 Twitter 精选（5 / 14）
-
-1. @Hesamation：GLM-5.2 输出价格 4.40 美元/百万 token，比 Opus 4.8（25 美元）便宜约 82%，比已下架的 Fable 5（50 美元）便宜一个数量级。作者称前沿 AI 已是&quot;奢侈品定价&quot;，并担心当前的&quot;补贴价&quot;套餐迟早会涨到真实成本。
-🔗 https://x.com/Hesamation/status/2066999955638673891
-
-2. @Hesamation：OpenAI 和 Google DeepMind 不约而同把下一个大机会指向&quot;推理（inference）&quot;——瓶颈不再是谁能训出更聪明的模型，而是谁能让推理在规模上又便宜又充足。
-🔗 https://x.com/Hesamation/status/2066881219506196513
-
-3. @shao__meng：引用 Addy Osmani 综合 Faros AI、CodeRabbit、GitClear、GitHub 四方数据：AI 让代码产出增约 4 倍，但实际交付价值仅 +10%，代码 churn 暴增 861%、缺陷率从 9% 升到 54%。工程瓶颈已从&quot;写代码&quot;转移到&quot;能否信任代码&quot;。
-🔗 https://x.com/shao__meng/status/2066687681200037904
-
-4. @shao__meng：Cua 与 Snorkel AI 联合发布 Cua-Bench，用 KiCad（电子设计自动化软件）的 25 道真实工程任务测 Agent 的 Computer Use 能力，结果没有一个模型通过四分之一，最强的 GPT-5.5 也只有 24% 完全通过率。
-🔗 https://x.com/shao__meng/status/2066684840033026274
-
-5. @AnthropicAI：Anthropic 发布追踪 Claude Code 规模化的经济学研究框架：分析谁在用、用来做什么、任务价值如何变化，以及领域专业度如何影响一次会话的成败。
-🔗 https://x.com/AnthropicAI/status/2066969532380721386
-
-📱 公众号精选（4 / 4）
-
-1. 字节跳动的 AI 账本：豆包每天不足百万收入、Seedance 毛利 70%
-罕见的一手财务拆解。每天 2 亿多人用的豆包，每天收入不足百万元（主要靠电商佣金），但每天烧数千万元算力——光维持运行的钱就超过整个 B 站的经营成本，而豆包总使用时长不到 B 站的 1/8。字节 2026 资本开支计划上调超 2000 亿元（约等于 2025 利润六成）。关键转向：两个月前字节高层访问 Anthropic 后，开始把 AI 资源重心从豆包这类大众产品转向企业服务——因为 Anthropic 证明了 Claude Code 半年做到 10 亿美元年化、2 月翻到 25 亿，每天只 3000 万人用估值却冲到 9650 亿美元反超 ChatGPT。字节自己的 Seedance（视频生成）ARR 已达 20 亿美元、单月超 10 亿、毛利 70%，绝大多数来自企业客户，差不多抵消了豆包的算力成本。
-🔗 https://mp.weixin.qq.com/s/Bp6k_ZzYA04ic87AhtsuYw
-
-2. 一个被低估的 Agent 场景：WorkBuddy 与&quot;通用办公 Agent&quot;对传统办公的降维打击
-作者在腾讯活动现场观察到 WorkBuddy（腾讯的通用办公 Agent）日活从 3 月到现在涨到&quot;第二名的 3-4 倍以上&quot;，且用户不止开发者——HR、运营、行政、金融、餐饮、外贸、法律等非技术岗大量涌入真在拿它干活。核心判断：办公产品三代演进——Office（本地软件自己干）→ 云办公（协同但还是自己干）→ 通用 Agent（直接帮你干）。商业模式的根本变化：前两代是&quot;卖软件给所有人用同一套&quot;，这一代&quot;卖的是智能，辅助你造最适合自己的软件&quot;。最近 Trae Work / QoderWork / Kimi Work 批量改名抢这块。
-🔗 https://mp.weixin.qq.com/s/iAgbUzPrsbpqvu4s2XiH0g
-
-3. 心洲科技（Mindverse）融 5000 万美金：把&quot;持续学习&quot;写进模型参数
-注意：这是我 5/30 帮你核查过的 Mindverse/Macaron 同一家（陈锴杰系），美团战投领投 A 轮，元禾璞华/韶音/老股东（蚂蚁/红杉/高榕/真格）跟投，累计近 5000 万美金。技术路线：不把&quot;学习&quot;放模型外部（RAG/Memory/Harness），而是写进模型参数——共享大脑（Base Model）+ 专属技能包（Mixture of LoRA，参数量约底座的千分之五），可组合调度替换。差异点：围绕真实生活场景构建 LivingBench（动态噪声/环境/用户反馈的评测体系）反向驱动训练。对标 Sarah Guo 领投 1500 万美金的 Trajectory（同属后训练 + 多 LoRA 混合 + 持续学习）。
-🔗 https://mp.weixin.qq.com/s/1yIVbnQrl7TA46aGaCQC_Q
-
-4. AlphaGo 十年后：DeepMind CEO Demis Hassabis 与李世石对话（Z Potentials）— 围棋到 AI4S 的回顾。值得记的判断：AlphaGo 是最早的 AI agent 例子之一，要把这种技术用到行政/头脑风暴/日常事务释放人的创造力；AlphaFold 把&quot;博士一生折叠一个蛋白质&quot;变成折叠所有已知蛋白质。Hassabis 提醒&quot;这些技术可能剥夺我们的自主权&quot;。&lt;https://mp.weixin.qq.com/s/jZZaw6WJ4pXtLD34imCIOw&gt;
-2026 毕业生花钱向 AI 证明自己是人类（数字生命卡兹克）— 高校毕业论文 AIGC 率检测乱象：手写摘要测出 99% AI 率、纯 AI 写的结论测出 0%、《滕王阁序》测出 92%。检测工具极不准但已成毕业硬红线。AI 时代的荒诞侧写。&lt;https://mp.weixin.qq.com/s/DRzNIiojGLO-iqqPyJ7f8Q&gt; 印度 AI 电话助手 Equal AI 融资 3000 万美元（Z Potentials）— 代接骚扰电话，月活破百万日活 30 万，支持 10+ 种语言含语码混合。融资用&quot;分期不同估值&quot;的少见结构。&lt;https://mp.weixin.qq.com/s/X88qyx-ZeDPhuSnsR8nwzg&gt; Salesforce 36 亿美元收购 AI 客服平台 Fin（Z Potentials）— 强化 Agentforce 企业生态（Agentforce 已签 2.9 万笔单但实际性能被指不及宣传）。&lt;https://mp.weixin.qq.com/s/bBsmLhbM3fyhFsqK6lUoQg&gt;
-🔗 https://mp.weixin.qq.com/s/jZZaw6WJ4pXtLD34imCIOw&gt;
-
-📖 查看完整日报（31 篇）→ https://news.justin7974.dev/2026-06-17.html</description>
     </item>
   </channel>
 </rss>
