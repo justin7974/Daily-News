@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 08 Jul 2026 00:19:53 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 00:23:10 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #637 | 2026-07-09</title>
+      <link>https://news.justin7974.dev/2026-07-09.html</link>
+      <guid>https://news.justin7974.dev/2026-07-09.html</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <description>今日共 11 篇 RSS · 28 条推文 · 8 篇公众号
+
+📰 RSS 精选（5 / 11）
+
+1. [AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI
+Thinky 联合创始人 Lilian Weng 发布长文《Harness Engineering for Self-Improvement》，把&quot;harness 工程&quot;与递归自我改进（RSI）直接挂钩，单条推文两天内 40 万+浏览。她的核心判断是：即便许多 harness 改进最终会被内化进核心模型，&quot;指定目标与上下文&quot;的需求也不会消失。文章梳理了当前已被验证的 harness 设计范式，并回顾了从 ACE 论文到 Meta-Harness 的优化文献。AINews 认为这延续了连 Greg Brockman 都在悄悄背书 agent/harness 工程的趋势。
+🔗 https://www.latent.space/p/ainews-lilian-weng-summarizes-35
+
+2. Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO
+Modal 刚完成 3.55 亿美元 C 轮融资，CTO Akshat Bubna 复盘了&quot;Agent Experience&quot;（AX）为什么现在跑通了。核心论点：旧的云基础设施是为&quot;能读文档、会推理 YAML、看 dashboard&quot;的人类开发者设计的，缺失的上下文由人脑补齐；但 Agent 没有这种能力，它需要能写代码、跑代码、检查输出、改环境、调试重试的紧密反馈闭环。sandbox（隔离沙箱）是这一转变最清晰的体现，Agent 可以随时拉起隔离环境做&quot;编程式基础设施&quot;。
+🔗 https://www.latent.space/p/modal2026
+
+3. Data for Agents
+NVIDIA 在 Hugging Face 撰文，主张 agentic AI 的瓶颈不是模型权重而是数据，合成数据是规模化的关键路径。真实世界不像 benchmark，一个无法从 API 报错或没见过的 workflow 里恢复的 Agent&quot;只是带工具的自动补全&quot;。跨过这道坎所需的数据包括：软件工程轨迹、工具调用失败案例、多步推理、检索、安全、用户模拟、workflow 执行，乃至最终的物理世界交互——这正是 NVIDIA Nemotron 开放数据产品覆盖的范围。
+🔗 https://huggingface.co/blog/nvidia/open-data-for-agents
+
+4. What a harness is and how to build one with Claude Agent SDK
+&quot;不是模型，是 harness&quot;这句话人人在说，却很少有人讲清 harness 到底是什么。Lenny 播客请 ChatPRD 的 Claire Vo 现场用 Claude Agent SDK 搭了一个 Sentry bug 排查 harness：她用 Ink 做终端 UI，为 Sentry/Linear/GitHub/Vercel 写了专用适配器，让 harness 自动完成取证、根因分析和后续工件生成。她还拆解了每个 harness 必备的三个组件，以及何时该搭 harness、何时用 Claude Code/Codex 这类通用工具就够。
+🔗 https://www.lennysnewsletter.com/p/what-a-harness-is-and-how-to-build
+
+5. Introducing GPT-Live
+OpenAI 发布新一代语音模型 GPT-Live 并接入 ChatGPT Voice，主打更自然的实时人机对话——可边听边说、把推理与搜索交给后台前沿模型处理。
+🔗 https://openai.com/index/introducing-gpt-live
+
+🐦 Twitter 精选（5 / 28）
+
+1. @cursor_ai：Cursor 宣布与 SpaceXAI 合作训练出 Grok 4.5，称这是其迄今最强模型，也是第一个不只面向软件工程的模型。
+🔗 https://x.com/cursor_ai/status/2074915744999969059
+
+2. @Hesamation：Grok 4.5 极其便宜：以约 Opus 25% 的价格提供前沿智能水平，仅略高于中国开源模型的价格区间，作者称从未对 Grok 这么惊艳。
+🔗 https://x.com/Hesamation/status/2074929373174444200
+
+3. @Hesamation：OpenAI 新发布的 GPT-Live 修复了旧版语音模式的多个痛点：可边听边说、更好的话轮切换、把推理/搜索/规划放到后台处理、边推理边说话；OpenAI 本就领先，这代差距会更大。
+🔗 https://x.com/Hesamation/status/2074911406902649236
+
+4. @emollick：抢先体验新版 GPT 语音后表示效果很好、更接近科幻电影里与 AI 对话的感觉（因为模型更聪明了），加上 Claude Tag，预示与 AI 协作的新模式正在出现。
+🔗 https://x.com/emollick/status/2074924503470080319
+
+5. @rileybrown：认为 GPT 语音发布与 Thinking Machines 的思路很像：实时语音模型带有可在后台调用工具的交互层，你说话时它能在后台并行做事，不必等它完成。
+🔗 https://x.com/rileybrown/status/2074904734180278757
+
+📱 公众号精选（5 / 8）
+
+1. 企业为什么越来越花钱买闭源模型？Decagon CEO 提出了一个很重要的新观点
+一个反直觉的数据：整个企业市场花在开源模型上的 LLM 支出占比，过去一年从 19% 降到了 11%，而 Decagon 自己 90% 的生产流量却已跑在开源模型上。Decagon CEO Jesse Zhang 给出的框架是——未来不是&quot;开源取代闭源&quot;，而是分工：前沿模型负责 Discovery（探索），开源模型负责 Production（生产）。企业做新 AI 产品时不知道 Agent 该长什么样、workflow 怎么设计，需要最聪明的闭源模型；等产品成熟、评测完善、数据变多，再迁移到&quot;小而快、可微调&quot;的开源模型。Decagon 用开源不是为省钱，而是因为客服 Agent 延迟决定生死，而前沿公司不让你按需微调它们最强的模型。
+🔗 https://mp.weixin.qq.com/s/5ZlY1otE9lYnYRt_wHGWzA
+
+2. Momenta IPO 后专访曹旭东：聪明人如何下笨功夫
+Momenta 港股上市市值超 700 亿港元，2025 年收入超 24 亿元、毛利超 17 亿元，城区 NOA 市占率约 65% 超越华为登顶。曹旭东判断高阶辅助驾驶的竞争 2026 年就会结束，中国最终大概率剩 2-3 家、全球 3-4 家（不含车企自研），而 Momenta 与华为两家份额相加已超 90%。他已停止接高速 NOA 新定点，认为有了城区能力后高速只是产品设置问题。下一个十年，他把&quot;数据驱动&quot;的方法论迁移到具身智能与物理 AI。
+🔗 https://mp.weixin.qq.com/s/wB-ic5WfYQrOry-Yl0Pnaw
+
+3. 速递｜百亿美金独角兽Mercor半年ARR翻倍至20亿美元，60%-70%营收分给承包商
+成立仅三年的 Mercor，6 月毛收入年化已跑赢 20 亿美元，是年初的两倍，增长来自 AI 应用开发者和财富 500 强对&quot;构建/微调模型&quot;的数据需求。公司按小时向物理、金融等领域的专家承包商付费，由他们回答问题、生产训练数据。据 The Information，Mercor 把 60%-70% 的营收分给承包商，推算净收入约 6-8 亿美元，且已在自由现金流层面盈利；对手 Handshake 年初毛年化收入也做到了 10 亿美元。
+🔗 https://mp.weixin.qq.com/s/TNaKH8UWDROFC8FOMwjnBQ
+
+4. Z Tech｜钟元鑫，清华毕业天才少年：原生表征与架构是具身世界模型Scaling的起点
+华为诺亚智驾方向首位天才少年钟元鑫（97 年生、清华+密歇根、Waymo/苹果 Vision Pro 实习经历）2025 年底离职，联合创立日冕（Rimbot）。他判断通用大模型离操控物理世界还很远，具身智能必须独立做基座模型。日冕核心架构 LaMPA 延伸自 LeCun 的 JEPA 体系，加入 Mask 机制和 Block Diffusion，在隐空间做&quot;完形填空&quot;式预测，实测推理比纯自回归快约 10 倍。配套的 E-E-E 表征体系能把不同灵巧手、不同触觉传感器乃至人手视频编码进同一空间混训，数据已达上亿帧、约 90% 为异构人手数据。
+🔗 https://mp.weixin.qq.com/s/SuFR1zwbw7peL-lvkx6cDw
+
+5. 制造现实与机器人叙事：拓普集团在拉锯中的四次估值跃迁
+马斯克晒 Optimus 量产线照片带动拓普涨停站上千亿；晚点复盘拓普十年换四套估值体系（周期股→成长股→Tier 0.5 平台→机器人期权），如今机器人执行器业务全年收入仅 1359 万元、占营收 0.05%，动态 PE 却仍站上 40 倍。
+🔗 https://mp.weixin.qq.com/s/MO48aOru0wwIYWzPPeWKRA
+
+📖 查看完整日报（47 篇）→ https://news.justin7974.dev/2026-07-09.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #636 | 2026-07-08</title>
       <link>https://news.justin7974.dev/2026-07-08.html</link>
@@ -1280,76 +1350,6 @@ Ben Thompson 本周综述，核心是&quot;Anthropic 的安全超能力&quot;：
 🔗 https://mp.weixin.qq.com/s/awcTDNwhx5cVJE3dzCYrWg
 
 📖 查看完整日报（29 篇）→ https://news.justin7974.dev/2026-06-20.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #617 | 2026-06-19</title>
-      <link>https://news.justin7974.dev/2026-06-19.html</link>
-      <guid>https://news.justin7974.dev/2026-06-19.html</guid>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
-      <description>今日共 11 篇 RSS · 15 条推文 · 10 篇公众号
-
-📰 RSS 精选（5 / 11）
-
-1. SpaceX to Acquire AI Coding Startup Cursor for $60 Billion
-SpaceX 刚完成史上最大 IPO 几天后，就宣布以 600 亿美元全股票收购 AI 编程公司 Cursor（母公司 Anysphere）。Cursor 2022 年成立，去年 11 月年化收入破 10 亿美元，但市占率已从 2025 年 6 月的 41% 跌到今年 5 月的约 26%，Anthropic 现已吃下该品类的一半。这笔交易仅稀释 SpaceX IPO 估值的 3.4%，消息当天 SpaceX 股价涨约 16%，市值超越亚马逊和微软、成为美国第四大公司。马斯克年初已把 SpaceX 与 xAI 合并，此次收购意在补强对 Anthropic、OpenAI 编程工具的竞争，交易预计三季度完成、仍需监管批准。
-🔗 https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html
-
-2. The Professor of Outputmaxxing — Anjney Midha, AMP
-核心判断：AI 竞赛的真正瓶颈不是买更多 GPU，而是把已有 GPU 用到极致。前沿实验室 xAI 的 MFU（模型算力利用率）可能不到 10%，而历史上 GPT-3 约 21%、PaLM 约 46%，当前最佳实践已是 60-70%——&quot;在 Google，利用率低于 95% 就算事故&quot;。Anjney Midha（投过 Anthropic、Mistral、Black Forest Labs、Periodic Labs，早年搭建 Discord 开发者平台）认为前沿 AI 越来越是个系统问题：调度、利用率、网络、kernel、数据管线、集群可靠性，而非单纯堆 CapEx。他正在建 AMP 的独立算力网格，愿景是&quot;让 FLOPs 像兆瓦电力一样流动&quot;。
-🔗 https://www.latent.space/p/anj
-
-3. [AINews] Midjourney Medical: scan your organs like you step on a scale
-唯一一家自举（bootstrapped）的前沿实验室 Midjourney 发布第二个产品、进入第二条赛道：Midjourney Scanner，一台全身超声 CT。David Holz 称其为&quot;50 年来第一个全新的全身医学影像模态&quot;——用超声而非 MRI/X 光/CT 辐射成像。硬件规格惊人：358,000 个超声振元、70cm 环形结构、2 PFLOPS 算力、0.5mm 组织分辨率、60 秒内成像数百个切片。有意思的是设备本体&quot;没有 AI&quot;，但超声 CT 重建和下游应用高度依赖 AI；Hacker News 则对其临床成熟度和实际可用性存疑。
-🔗 https://www.latent.space/p/ainews-midjourney-medical-scan-your
-
-4. Tim Cook, in Interview With WSJ: ‘Unfortunately, Price Increases Are Unavoidable’
-苹果将上调产品售价以对冲内存和存储芯片成本的飙升，Tim Cook 在接受《华尔街日报》独家专访时直言&quot;涨价不可避免&quot;，并称正尽力消化转嫁过来的巨额成本上涨。这是内存超级周期（AI 需求挤压 DRAM/NAND 供给）首次明确传导到消费电子终端定价。
-🔗 https://www.wsj.com/tech/apple-price-increases-memory-supply-199845b1?st=qWH3n1&amp;reflink=desktopwebshare_permalink
-
-5. New Media, One Year In
-a16z 复盘其成立一年的 &quot;New Media&quot; 团队，核心打法是 &quot;go-direct as a service&quot;——把直接触达受众的能力做成给被投公司的增值服务。四大动作：自有内容创作（视频/编辑团队）、自有渠道（X、Substack、播客）、从 pitch 到发布的全程服务、加上带结构和 AI 工具的人脉网络。Ben &amp; Marc 的判断是媒体已从&quot;别说错话&quot;的精心打磨，转向&quot;有趣才能赢&quot;的真实直接表达；赢的方式就是 go direct，而 go direct 的前提是 interesting。一位创始人评价&quot;a16z New Media 几周内帮的忙比多数投资人一个周期还多&quot;。
-🔗 https://www.a16z.news/p/new-media-one-year-in
-
-🐦 Twitter 精选（5 / 15）
-
-1. @AnthropicAI：Anthropic 红队 Project Fetch 第二阶段：让 Claude 给机器狗写控制程序，Opus 4.7 单独完成的速度约为去年&quot;人类最强团队+Opus 4.1&quot;的 20 倍——不过机器狗最终还是没能把沙滩球叼回来。
-🔗 https://x.com/AnthropicAI/status/2067651699486200091
-
-2. @bcherny：Claude Code 作者 bcherny 分享：他已把 Claude Code 里的 Artifacts 用于一切——代码可视化讲解、系统图、动效预览、数据分析和团队共享看板，称其彻底改变了自己的工作方式。
-🔗 https://x.com/bcherny/status/2067700226669060207
-
-3. @cursor_ai：Cursor 推出 /automate 技能：用自然语言描述任务，Cursor 自动配置触发条件、指令和工具，让 Agent 替你搭建自动化流程。
-🔗 https://x.com/cursor_ai/status/2067683814516858962
-
-4. @hongming731：OpenAI 为 Codex 上线 Record &amp; Replay：用户只需完整演示一次操作（如在 YouTube Studio 填元数据、传缩略图、保存私密视频），Codex 就能把录制转成可复用技能、在新任务里自主套用，把&quot;写提示词&quot;换成了&quot;做一次示范&quot;。
-🔗 https://x.com/hongming731/status/2067749994904572321
-
-5. @shao__meng：Vercel 开源 Agent 框架 Eve——&quot;Agent 即目录&quot;，把 agent.ts、instructions.md、tools、skills、subagents、channels、schedules 等抽象成标准结构，开发者只写&quot;做什么&quot;，持久会话等生产级能力开箱即用。
-🔗 https://x.com/shao__meng/status/2067405750646055226
-
-📱 公众号精选（5 / 10）
-
-1. Liblib 母公司完成近 3 亿美元融资，国内 AI 应用终于有了&quot;大标的&quot;
-演语科技（Evoken，Liblib AI/LibTV/星流 母公司）完成近 3 亿美元 B+ 轮、估值超 20 亿美元，创下国内 AI 应用赛道融资记录，由 Granite Asia、腾讯、顺为联合领投，高榕、蚂蚁等老股东追投。全公司 ARR 已突破 3 亿美元，Liblib AI 累计用户超 3000 万，估值已超过部分端侧/多模态基模公司。创始人陈冕是字节剪映/CapCut 前全球商业化负责人，以&quot;极快执行+矩阵式产品&quot;建社区壁垒。在中国 AI 应用普遍付费率低、被投资人建议优先出海的背景下，这是少数靠国内创作者生态跑出营收和估值的公司。
-🔗 https://mp.weixin.qq.com/s/rjNfU4EEsCxLxZ8lTw_5lw
-
-2. DeepSeek 融资故事
-一篇关于 DeepSeek 本轮融资的内幕长文：传说中的&quot;四小时会议&quot;用腾讯会议开，梁文锋先讲后答疑，反复强调&quot;只做和提高智能有关的事&quot;&quot;less is more&quot;&quot;克制&quot;&quot;AGI 是唯一目标&quot;。融资 4 月启动，最初要求单笔不低于 50 亿、纯人民币、不可拆分份额，后将基金最小出资额下调到 15 亿；砺思资本（曹曦）从 15 亿加到 30 亿，正心谷意外入局（此前投过 Kimi）。文章最尖锐的一问：DeepSeek 会不会成为红杉、高瓴最大的 miss？张磊曾多次表达会投 50 亿，最终却未出现在名单上。
-🔗 https://mp.weixin.qq.com/s/PcMG9op27uXby_gjUN4nTw
-
-3. 你最赚钱的时候，是你对的、而所有人都觉得你错的时候——红杉合伙人谈投资
-红杉合伙人 Alfred Lin（Airbnb、DoorDash 董事）一篇短文的拆解：最赚钱的位置是&quot;对、且与所有人相反&quot;那一格（Howard Marks 2×2），光对不够，共识里的对只能赚小钱。文中罕见地&quot;温和地点了巴菲特死穴&quot;——过去十年伯克希尔表现约等于标普、都跑输纳指 100，因为芒巴偏爱&quot;不变的生意&quot;而系统性错过科技，打法是&quot;持续不犯蠢&quot;而非科技业那种&quot;持续变聪明、不断重塑自己&quot;。还以 Facebook 上市后在发行价下方晃了整整一年为例，说明&quot;反共识&quot;机会往往明摆着、给你一年时间想清楚，只是没人敢伸手。
-🔗 https://mp.weixin.qq.com/s/SkoAonJ4oRcWupKkhM01Yw
-
-4. 晚点独家丨钉钉新 CEO 陈宇森上任发布第一封全员信
-钉钉新 CEO 陈宇森（长亭科技创始人、网络安全背景）上任一周发出首封全员信，对悟空事业部做全面组织梳理：成立核心平台业务部（朱鸿负责钉钉）、整合悟空与 MuleRun 成立新悟空团队（束骏亮负责）、新设客户发展部/市场部/信息技术部。他把钉钉和悟空定为&quot;双引擎&quot;，要把已有业务全面 AI 化、改造成&quot;Agent 友好的基础设施&quot;。值得注意的是 MuleRun 从 5 月中旬商业化、一个月 ARR 已超 3 亿元人民币；悟空被定位为阿里 to B 领域的重要战略布局，是 CEO 吴泳铭的关注重点。
-🔗 https://mp.weixin.qq.com/s/2IsF4C682LPWPMHJ64NR_w
-
-5. 速递｜AI语音ElevenLabs冲IPO：最新一轮获1100万美元，估值一年翻三倍
-AI 语音公司 ElevenLabs 估值一年翻三倍：波兰国有开发银行旗下投资工具向其投资 1100 万美元，作为&quot;AI Lab Poland&quot;国家计划的一部分。公司近期刚完成 5 亿美元融资，由红杉、a16z、Iconiq 领投，估值达 110 亿美元，计划在两到三年内准备 IPO，并考虑在华沙证券交易所双重上市。ElevenLabs 2022 年成立于波兰、现总部纽约，计划 18 个月内把华沙团队从 60 人扩到 200 人以上。
-🔗 https://mp.weixin.qq.com/s/JhcFdg9c0udxpXADiVyDsQ
-
-📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-06-19.html</description>
     </item>
   </channel>
 </rss>
