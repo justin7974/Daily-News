@@ -5,8 +5,56 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 09 Jul 2026 00:23:10 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 00:16:55 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #638 | 2026-07-10</title>
+      <link>https://news.justin7974.dev/2026-07-10.html</link>
+      <guid>https://news.justin7974.dev/2026-07-10.html</guid>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 28 条推文 · 0 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. The new GPT-5.6 family: Luna, Terra, Sol
+OpenAI 今晨正式放出 GPT-5.6 三档模型 Luna/Terra/Sol（每百万 token 分别 $1/$6、$2.50/$15、$5/$30），全部为 2 月 16 日知识截止、100 万上下文。这次官方主打的不是绝对跑分而是&quot;长程 Agent 效率&quot;：在覆盖 55 个职业领域的 Agents&apos; Last Exam 上，Sol 拿到 53.6，比 Claude Fable 5 高 13.1 分，而 Terra/Luna 以约 1/16 成本也超过 Fable。反过来 Fable 在 SWE-Bench Pro 上以 80% 碾压 Sol 的 64.6%——OpenAI 随即发文称该基准约 30% 任务本身有缺陷。API 侧新增 Programmatic Tool Calling（模型自己写 JS 编排工具调用）和多智能体子代理。
+🔗 https://simonwillison.net/2026/Jul/9/gpt-5-6/
+
+2. SpaceXAI launches Grok 4.5, first Opus-class model post Cursor acquisition
+xAI（&quot;SpaceXAI&quot;）发布 Grok 4.5，定位为其首个专为编码与 Agent 训练的前沿模型，且是与 Cursor 联合训练的产物。马斯克称其&quot;Opus 级别&quot;但更快、更省 token、更便宜，内部对标&quot;大致相当于 Opus 4.7 但快得多&quot;，卖点是&quot;每美元能力&quot;而非榜单登顶。Cursor 称这是自家最强模型、且&quot;首次为编码之外的场景而建&quot;，并在产品内首周开放双倍额度。官方明确 Grok 4.5 与 Composer 系列（1.5T）属不同权重量级。
+🔗 https://www.latent.space/p/ainews-spacexai-launches-grok-45
+
+3. Meta Sets Default for Instagram Accounts to Permit Content Reuse by AI
+Meta 周二发布 AI 图像生成器 Muse Image，附带一个争议功能：允许用户基于他人公开 Instagram 账号的照片生成 AI 图像。据 NYT 报道，这一权限对成年人的公开账号默认开启，需用户手动关闭。换言之，任何成年公开账号的 Ins 照片，都可被他人直接拿去当作 AI 生成素材。
+🔗 https://www.nytimes.com/2026/07/08/technology/meta-instagram-ai.html
+
+4. Adam Mosseri: AI is a tailwind for authenticity
+Instagram 负责人 Adam Mosseri 在 Lenny 播客里谈 2026 年产品团队结构的变化：从&quot;一打人的专业分工小队&quot;转向 4–6 人的精简通才 pod；崛起的是&quot;product staff&quot;角色——把 PM、设计、数据科学、研究揉进一个通才操作者。他仍看好设计师，认为 AI 生成内容对 Instagram 反而是顺风（推高真实创作者身份的价值），并复盘了职业生涯两大失败：Facebook Home 和第一版 Reels。
+🔗 https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for
+
+5. GPT-5.6 Sol vs. Claude Fable: Why OpenAI&apos;s new model crushes my benchmark
+作者用自创的&quot;vibe review&quot;基准逐项实测 GPT-5.6 三档模型，结论是 Sol 已成日常首选工作马（PRD 撰写、原型、Agent 任务），并与 Fable 做性价比对比——一线产品从业者视角的选型参考。
+🔗 https://www.lennysnewsletter.com/p/gpt-56-sol-vs-claude-fable-why-openais
+
+🐦 Twitter 精选（5 / 28）
+
+1. @Hesamation：已宣布的 NVIDIA Grace Blackwell GPU 中 95% 尚未部署：10 万张已上线、30.8 万张安装中、166 万张仍停留在&quot;已宣布&quot;——需求爆棚，但绝大多数卡在机房建设瓶颈上。
+🔗 https://x.com/Hesamation/status/2075303017457303715
+
+2. @Hesamation：写 AI 2027 报告的团队发布了 AI 2040，罕见地建议&quot;不要公开发布前沿开源模型&quot;，理由是恐怖分子等可能利用高能力开源权重设计毁灭级生物武器。
+🔗 https://x.com/Hesamation/status/2075349381289509301
+
+3. @Hesamation：有人让 Claude、Hermes、DeepSeek 互相辩论而不是一味附和用户，作者认为这种&quot;AI 组队互搏&quot;才是 Agent 团队的实际未来——用 Bloome.im 选个任务模板就能拉起一个协作 Agent 群聊。
+🔗 https://x.com/Hesamation/status/2075158844410400997
+
+4. @emollick：给所有从编码扩张到通用知识工作的 AI 实验室提个醒：非程序员不是&quot;更笨的程序员&quot;，把编码 App 的选项砍掉不会让它更适合知识工作，需要的是更多种类的控制与可见性，而不是更少。
+🔗 https://x.com/emollick/status/2075360888375120152
+
+5. @emollick：有点困惑：Claude Cowork 定位是比 Code 更安全（略弱）、防止非程序员闯祸的版本，这他懂；但搞不清 ChatGPT Work 到底是什么、相比在 Codex 上跑他到底得到或失去了什么。
+🔗 https://x.com/emollick/status/2075345621716730049
+
+📖 查看完整日报（38 篇）→ https://news.justin7974.dev/2026-07-10.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #637 | 2026-07-09</title>
       <link>https://news.justin7974.dev/2026-07-09.html</link>
@@ -1288,68 +1336,6 @@ Claude Code 例行小版本：流式卡顿提示文案改为&quot;Waiting for AP
 🔗 https://mp.weixin.qq.com/s/c_ghhFHbCDT09gH4BCuIMQ
 
 📖 查看完整日报（28 篇）→ https://news.justin7974.dev/2026-06-21.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #618 | 2026-06-20</title>
-      <link>https://news.justin7974.dev/2026-06-20.html</link>
-      <guid>https://news.justin7974.dev/2026-06-20.html</guid>
-      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
-      <description>今日共 11 篇 RSS · 15 条推文 · 3 篇公众号
-
-📰 RSS 精选（5 / 11）
-
-1. GLM-5.2 passes vibe check; Z.ai forecasts Open Fable by December
-GLM-5.2 通过了&quot;这就是一个恰好开源的前沿模型&quot;的体感测试，Latent Space 认为开源模型的故事第一次真正变成了前沿故事。多个独立数据点佐证：一向不爱吹捧的 Jeremy Howard 称它&quot;对他的使用至少和 Opus 4.8、GPT-5.5 一样好&quot;，Artificial Analysis 的新知识工作基准把它排在 GPT-5.5 与 Opus 4.8 之间。架构上 GLM-5.2 在 MLA/DSA 之外新增 IndexShare（跨层组复用稀疏注意力的 top-k 索引，降低 1M token 推理成本）。智谱还激进铺开可用性：HF 限时免费、llama.cpp/Unsloth 本地 GGUF 支持。Z.ai 预测年底前会出现一个无法用蒸馏解释的开源 Fable 级模型。
-🔗 https://www.latent.space/p/ainews-glm-gpt-glm-52-passes-vibe
-
-2. Cursor Investors Set for Epic Payout from Musk&apos;s Juggernaut
-SpaceX 行使期权收购 Cursor，造就风险投资史上最大的 M&amp;A 回报：a16z 持股约值 100 亿美元、Thrive 约 42 亿、四位联创各约 27 亿，远超此前纪录（IBM 340 亿收购 Red Hat）。但回报全部以 SpaceX 股票支付，而 SpaceX 市值约 2.5 万亿美元、与亚马逊相当，年收入却仅 350 亿（亚马逊约 8000 亿）——Newcomer 直言&quot;没有任何数学能支撑 SpaceX 的股价，只有希望与梦想&quot;。交易按成交前 7 个交易日均价计、预计三季度完成；Cursor 的投资人与员工就此也被绑进了 SpaceX 的叙事。文中还提到 OpenAI 从 Google 挖走了 Noam Shazeer。
-🔗 https://www.newcomer.co/p/cursor-investors-set-for-epic-payout
-
-3. The data black hole at the center of AI
-核心判断：过去几年 AI 的进步几乎不来自&quot;样本效率&quot;（学会一项能力需要多少数据）的提升，而来自不断拓宽和改良数据分布。RL 本质是一种合成数据生成——砸算力对着 verifier/rubric 跑，找出&quot;好数据&quot;再让模型去拟合；但前提是模型得先有一定先验概率猜对答案，因此每一个领域、每一项技能都需要海量的人类专家轨迹。这类数据极度任务专用且昂贵（去 Mercor、Surge 的招聘页就能感受到，比如雇&quot;文字专家&quot;来转换遗留文档）。结论：智能这座璀璨星系的中心，是一个看不见却维系一切的&quot;数据黑洞&quot;。
-🔗 https://www.dwarkesh.com/p/the-sample-efficiency-black-hole-2
-
-4. Banning Open Source AI Would Be A Mistake
-Nathan Lambert 与 Kevin Xu 合写的檄文（多家主流媒体拒发）：在华盛顿监管 AI 的氛围下——审查模型的行政令、进一步立法的国会提案、政府可能持股前沿实验室、以及上周五禁止外国人访问 Anthropic 最先进模型——他们担心未来动作会有意无意地波及甚至禁掉开源。论点是：开源只是让技术被公开透明地共享、构建和分发的过程，全球 90% 以上软件已建在开源之上、早在 AI 之前就创造了逾 8 万亿美元经济价值，且天然亲教育、亲竞争、亲创新（自由软件运动 1983 年起于 MIT，最初版 Facebook 也完全建在开源栈上）。
-🔗 https://www.interconnects.ai/p/banning-open-source-ai-would-be-a
-
-5. 2026.25: The Stuff of Myth(os)
-Ben Thompson 本周综述，核心是&quot;Anthropic 的安全超能力&quot;：上周五特朗普政府对 Anthropic 最先进模型 Fable 实施出口管制、限制为仅美国公民可用，Anthropic 短期内只能下架。Thompson 的判断是——Anthropic 的悖论在于它对自身&quot;动机纯粹&quot;越来越笃信，但每个动作从外部看都像是自利（其安全立场反而给了它积极偏袒自身业务、甚至挑战美国政府的&quot;许可证&quot;）。本期还覆盖 Fox 以 250 亿美元收购 Roku（市场不看好，认为 Fox 在用对版权方的&quot;压榨&quot;换取作为&quot;租户&quot;的杠杆）、以及 AI 时代电商（Shopify 的韧性、OpenAI 的 ChatGPT 结账实验受挫）等话题。
-🔗 https://stratechery.com/2026/the-stuff-of-mythos/
-
-🐦 Twitter 精选（5 / 15）
-
-1. @Hesamation：OpenRouter 上最常用的 5 个模型里有 4 个是中国模型，DeepSeek 用量遥遥领先；他认为这已不是&quot;中国 vs 美国&quot;之争，而是&quot;开源便宜 vs 闭源溢价&quot;之争。
-🔗 https://x.com/Hesamation/status/2068109681034219657
-
-2. @Hesamation：GLM-5.2 在网页设计上击败 Fable 5 令人难以置信：价格 $4.4 vs $50、便宜 11 倍，而且 GLM 连视觉能力都没有、根本看不见自己设计出的东西，但代码就是能跑、错误更少、会按需调用模板和库。
-🔗 https://x.com/Hesamation/status/2068105264104984961
-
-3. @Hesamation：Google DeepMind 正艰难追赶 Anthropic 和 OpenAI，Gemini 3.5 Pro 似乎不是它需要的&quot;质变&quot;；坐拥无限算力、分发和数据，却造不出比受 GPU 限制的中国实验室明显更强的模型——他真心希望 GDM 能重回领先。
-🔗 https://x.com/Hesamation/status/2068029330492739994
-
-4. @bcherny：Claude Code 的一种酷用法：破译线形文字 A（Linear A），一种 3500 年前克里特岛的古文字；他希望这个结果能经得起同行评审。
-🔗 https://x.com/bcherny/status/2068064304503660962
-
-5. @emollick：已有论文显示用&quot;邪恶&quot;数据训练 AI 会导致普遍失调，所以反过来同样成立是个好消息：在一个领域注入有益的 RL 数据，会让模型在一系列任务上都变得更对齐。
-🔗 https://x.com/emollick/status/2067803678002594021
-
-📱 公众号精选（3 / 3）
-
-1. 你来融资，a16z 却反过来推销你——这家风投把&quot;让创始人变有趣&quot;做成了一门生意
-拆解 a16z &quot;New Media, One Year In&quot;（Erik Torenberg 主笔）。a16z 有个被对手称为&quot;熊抱(Bear Hug)&quot;的操作：你来融资，它把椅子转过来反向&quot;推销&quot;你——告诉你整个 firm 的资源人脉会怎么压上来（也许能和 Marc Andreessen 聊到凌晨两点，第二天一早收到&quot;第一周就要帮你做的 20 件具体事&quot;）。而&quot;New Media&quot;正是它如今重点叫卖的增值服务：自有内容团队、自有渠道（X/Substack/播客）、从 pitch 到发布的全程陪跑。背后的判断是：媒体已从&quot;别说错话&quot;的精心打磨，转向&quot;有趣才能赢&quot;的 go-direct。
-🔗 https://mp.weixin.qq.com/s/km1i92EUBfxWsmfqXN369A
-
-2. OpenAI 新研究：善恶的涌现与人性的底色
-解读 OpenAI 的一篇新论文。业界此前发现&quot;涌现失调(emergent misalignment)&quot;：若在训练中教模型做一件坏事（比如写不安全代码），它会自发泛化到健康、教育、科学、法律等其他领域一起变坏。OpenAI 把问题反过来问：好行为会不会也泛化？他们造了一批贴近现实的对话数据，专门训练并测量诚实、认知谦逊（不确定时能说出&quot;我不确定&quot;）、元认知透明等特质，结论是正向行为同样会跨领域泛化——在一个领域训得诚实、可纠正，模型在别处也会更对齐。
-🔗 https://mp.weixin.qq.com/s/fTh68thVH4_SmhaXrr6uJA
-
-3. 马斯克盛赞、抱抱脸请客、a16z：英吹斯汀
-一篇调侃式行业观察：GLM-5.2 这波&quot;狠狠涨了波脸&quot;，有人在 X 上问马斯克&quot;中国多久追上 Fable&quot;，老马回&quot;明年初&quot;；Hugging Face 限时请客、a16z 老大表示&quot;英吹斯汀(interesting)&quot;，连智谱唐老师都回了个&quot;add oil&quot;，作者感叹这波智谱确实过于猛。
-🔗 https://mp.weixin.qq.com/s/awcTDNwhx5cVJE3dzCYrWg
-
-📖 查看完整日报（29 篇）→ https://news.justin7974.dev/2026-06-20.html</description>
     </item>
   </channel>
 </rss>
