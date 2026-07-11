@@ -5,8 +5,56 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 10 Jul 2026 00:16:55 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 00:19:49 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #639 | 2026-07-11</title>
+      <link>https://news.justin7974.dev/2026-07-11.html</link>
+      <guid>https://news.justin7974.dev/2026-07-11.html</guid>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
+      <description>今日共 11 篇 RSS · 24 条推文 · 0 篇公众号
+
+📰 RSS 精选（5 / 11）
+
+1. [AINews] OpenAI launches GPT 5.6 Sol/Terra/Luna, Codex becomes ChatGPT superapp
+OpenAI 把 Codex 和 ChatGPT Work 合并成一个桌面超级应用——latent.space 判断这是其&quot;超级应用战略的倒数第二步&quot;（最后一块拼图是 agentic 浏览器）。同日发布的 GPT-5.6 三档模型主打单位成本：Terra 略超 Fable 5、Luna 超过 Opus 4.8，都以约 1/3 的时间、约一半的输出 token、约 1/4 的成本做到，并在 Terminal-Bench 2.1、DeepSWE 上刷新 SOTA；新增的 ultra 档默认并行调度 4 个 agent。Meta 同日的 Muse Spark 1.1（首次进入 Meta Model API）在任何别的日子都够当头条，却被 OpenAI 的主线发布盖过。
+🔗 https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna
+
+2. Apple Sues OpenAI, io, and Former Employees, Alleging Theft of Trade Secrets
+苹果正式起诉 OpenAI、其硬件子公司 io Products 及两名前员工，指控他们为 OpenAI 窃取商业机密。被点名的 Tang Tan 曾是苹果产品设计副总裁（主导 iPhone 与 Apple Watch），2024 年 2 月离职追随 Jony Ive；Chang Liu 在苹果做了八年高级系统电气工程师，2026 年 1 月转投 OpenAI。OpenAI 的硬件业务正由前苹果首席设计官 Ive 领衔，去年以 65 亿美元收购 io、连带挖走 50 多名工程师。
+🔗 https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/
+
+3. Shocking No One, Fidji Simo, Would-Be Usurper, Is Out at OpenAI
+OpenAI 二号人物、应用业务负责人 Fidji Simo 将卸任全职职务，转为兼职顾问。据《华尔街日报》，她在周四给员工的信中说，长期病休期间病情恶化、康复周期远超预期。但 WSJ 的标题直接把她定性为&quot;未遂的篡位者&quot;（would-be usurper），暗示这次离场未必只是健康原因。（正文需订阅，本条基于 WSJ 摘要与 gift link 内容。）
+🔗 https://www.wsj.com/tech/openai-top-executive-fidji-simo-to-step-down-c3daca47?st=NfBZTe
+
+4. Premium: The Hater&apos;s Guide To The Memory Crisis
+一句话：AI 正在把所有消费电子的价格顶上去，源头是内存。Ed Zitron 拆了一笔账——一个 NVL72 GB300 机柜塞进 20.7TB HBM 和 17TB LPDDR5X，单柜光内存成本就约 38 万美元；一个 1GW 数据中心要近 5000 个这样的机柜，仅 HBM+LPDDR5X 一项就是 18.9 亿美元。更关键的是英伟达转向 LPDDR5X 后，一跃成为&quot;智能手机大厂级别&quot;的内存买家，而三星、SK 海力士、美光三寡头把产能优先让给高毛利的 HBM，消费级内存于是随便涨价。结果是 Steam Machine 比计划贵 30%、苹果上调 MacBook/iPad 售价、游戏主机集体涨价。
+🔗 https://www.wheresyoured.at/premium-the-haters-guide-to-the-memory-crisis/
+
+5. Political Risk &amp; Threat Analysis Expertise Are Hot Tickets in Silicon Valley as Trump &amp; AI Shake the World Order
+硅谷正在抢一批过去看不上的人：政治学者、外交官、地缘&quot;威胁分析师&quot;。Newcomer 的判断是，当 AI 冲击叠加特朗普式的对抗性经济政策（关税、投资、支付系统全面武器化），&quot;首席地缘经济官&quot;会像当年的首席隐私官一样逐渐成为标配；a16z 已经放下对民主党人的成见，把拜登政府前副国安顾问 Anne Neuberger 招为合伙人。同期看点还有 OpenAI、SpaceX、Meta 新模型掀起的价格战，以及头部 5% 创业公司种子轮估值进入平流层。
+🔗 https://www.newcomer.co/p/political-risk-and-threat-analysis
+
+🐦 Twitter 精选（5 / 24）
+
+1. @_akhaliq：生数科技发布 Vidu S1——一个主打实时、可交互的视频生成模型。
+🔗 https://x.com/_akhaliq/status/2075607448056893935
+
+2. @_akhaliq：新论文 OPSD-V：用在线策略自蒸馏做后训练，让少步自回归视频生成器更快更省。
+🔗 https://x.com/_akhaliq/status/2075607878405075110
+
+3. @Hesamation：称 GPT-5.6 Sol Ultra 调用 64 个子代理，在一小时内给出了一个悬置 50 年猜想的证明（系账号转述，需存疑）。
+🔗 https://x.com/Hesamation/status/2075728547369324832
+
+4. @Hesamation：指出 GPT-5.6 Luna 在 agentic 编码上以极低成本超过 Opus 4.8、逼近 Fable 5，但强调这是基准成绩、实战要打折。
+🔗 https://x.com/Hesamation/status/2075602206997258353
+
+5. @Hesamation：在一道研究级物理题上 GPT-5.6 明显超过 Fable 5，而 Grok 4.5 仅得 15.4 分、表现很差。
+🔗 https://x.com/Hesamation/status/2075510388049739833
+
+📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-07-11.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #638 | 2026-07-10</title>
       <link>https://news.justin7974.dev/2026-07-10.html</link>
@@ -1278,64 +1326,6 @@ catnip.ai 用 10 人团队、64 张 H100、2 个月时间交付业界首个 22B 
 🔗 https://mp.weixin.qq.com/s/ti4wpdHRaPI7squT2LCjdg
 
 📖 查看完整日报（29 篇）→ https://news.justin7974.dev/2026-06-22.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #619 | 2026-06-21</title>
-      <link>https://news.justin7974.dev/2026-06-21.html</link>
-      <guid>https://news.justin7974.dev/2026-06-21.html</guid>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 16 条推文 · 2 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. 诺奖得主、AlphaFold 之父投奔 Anthropic！谷歌 48 小时连跑俩大将
-诺贝尔化学奖得主、AlphaFold 之父 John Jumper 宣布离开效力近九年的 Google DeepMind，加入直接对手 Anthropic，DeepMind 负责人 Hassabis 第一时间致谢。就在两天前，Transformer 核心作者 Noam Shazeer 也离开 DeepMind 投奔 OpenAI——48 小时内 Google AI 连失两员大将。Jumper 离职时头衔为工程院士（VP, Engineering Fellow），本人未给出原因；Bloomberg 称他近来已深度参与 Google 的 AI 编程开发团队。
-🔗 https://www.qbitai.com/2026/06/436980.html
-
-2. 英伟达开始搞机器人自己研究机器人那套了
-英伟达联合 CMU、Berkeley 推出具身智能 Autoresearch 框架 ENPIRE：让 8 个 Coding Agent 各自控制一台双臂机器人，自主读论文、改算法、训练策略、部署实验、分析结果并迭代，全程无人值守。其核心是一套 Harness Framework，把现实世界里最棘手的&quot;自动复位 + 自动评分 + 安全边界&quot;固化为标准 API，让真实环境第一次变成可反复调用的研究台。最具代表性的 Pin Insertion 任务中，机器人 3 小时内把 4 毫米孔洞插针成功率从 0 拉到 99%，GEAR 负责人 Jim Fan 称实验室&quot;已经在彻夜自我改进&quot;。
-🔗 https://www.qbitai.com/2026/06/437041.html
-
-3. 陶哲轩 12 年前的预言，现在 AI 帮他兑现了
-菲尔兹奖得主陶哲轩 2014 年预言的&quot;大规模数学协作、计算机自动验证证明、形式化语言取代 LaTeX&quot;正被 AI 逐一兑现；他主导的 Equational Theories 项目用&quot;AI+人类协作&quot;在 48 小时内攻克 2200 万个数学问题中的大半，很多环节已无需他亲自插手。
-🔗 https://www.qbitai.com/2026/06/437023.html
-
-4. [AINews] not much happened today
-Latent Space 当日 roundup 直言这是平静的一天，主要内容是为 AIE WF 2026 大会做最后一轮推广；同时指出 GLM 5.2 仍在强势霸榜，呼应了当天 X 上的开源模型热度。
-🔗 https://www.latent.space/p/ainews-not-much-happened-today-e7b
-
-5. Claude Code v2.1.185 发布
-Claude Code 例行小版本：流式卡顿提示文案改为&quot;Waiting for API response · will retry in …&quot;，并把触发等待提示的静默时长从 10 秒放宽到 20 秒，减少正常响应延迟时的误报。
-🔗 https://github.com/anthropics/claude-code/releases/tag/v2.1.185
-
-🐦 Twitter 精选（5 / 16）
-
-1. @gregisenberg：GLM 5.2 可能是本地 AI 的&quot;ChatGPT 时刻&quot;：100 万 token 上下文能装下整个代码库，目前编码能力最强的开源模型，MIT 协议零限制，可在 Ollama/LM Studio 本地跑，体感接近 Opus 4.8，他判断 2027 是本地 AI 之年。
-🔗 https://x.com/gregisenberg/status/2068372696690315650
-
-2. @Hesamation：GLM 5.2 + OpenCode 几乎追平 Codex / Claude Code；他认为 Anthropic 和 OpenAI 无法撤掉订阅补贴，否则开源模型的低价会碾压它们，而用户随时能切到开源模型且智能损失不大。
-🔗 https://x.com/Hesamation/status/2068367616922505297
-
-3. @Hesamation：用同一个 prompt（纯 HTML canvas 模拟旋转的土耳其烤肉串）对比，GLM 5.2 完美还原了物理模拟，GPT OSS 120B 只是尽力而为，凸显开源模型在代码生成上的差距。
-🔗 https://x.com/Hesamation/status/2068457680188912087
-
-4. @EXM7777：唱反调：GLM-5.2 并不是个好模型，凡是夸它好的人都是在看 benchmark 跑分卡，而不是在真实 agent 循环里跑过它。
-🔗 https://x.com/EXM7777/status/2068356959523500352
-
-5. @emollick：如果 AI 自我改进哪怕以非常有限的方式成立，那么模型与产品/harness 的迭代节奏都应加快；这正发生在 Anthropic 和 OpenAI，但去年看似在追赶的其他实验室都没出现这种加速。
-🔗 https://x.com/emollick/status/2068152054900502702
-
-📱 公众号精选（2 / 2）
-
-1. 深入理解 Claude Code：从 CLAUDE.md 到 Hooks、Skills、Subagents
-系统拆解 Claude Code 的七种上下文注入机制——CLAUDE.md、Rules、Skills、Subagents、Hooks、Output Styles、System Prompt Append，核心判别维度是&quot;何时加载、压缩后是否保留、占多少 token&quot;。文章强调三条工程纪律：事实放 CLAUDE.md、流程放 Skill、硬护栏放 Hook、隔离任务交给 Subagent；并指出&quot;永远不要做 X&quot;写进 CLAUDE.md 不靠谱，绝对约束应由 PreToolUse hook 以 exit code 2 强制拦截。最后介绍 Anthropic 的 Dynamic Workflows，让 Claude 自己写编排脚本、并行调度多 agent，以对抗 agent 偷懒、自我偏好和目标漂移三大顽疾。
-🔗 https://mp.weixin.qq.com/s/-7C4WqRsuKlmBj6I31Is1w
-
-2. 他用 MrBeast 的方式做科技发布——让任何公司刷屏的 21 条铁律
-编译 Shown Media 创始人 Mitchell 的病毒式科技发布方法论：把发布当成 MrBeast 拍视频，胜负压在视频前 5 秒和算法最先看到的&quot;前 300 人&quot;上；强调&quot;卖目的地不卖工具&quot;&quot;适度被骂能拉评论速度&quot;。原文同时点出这套打法优化的是播放量而非客户，且本身就是一支自我推销广告，需警惕。
-🔗 https://mp.weixin.qq.com/s/c_ghhFHbCDT09gH4BCuIMQ
-
-📖 查看完整日报（28 篇）→ https://news.justin7974.dev/2026-06-21.html</description>
     </item>
   </channel>
 </rss>
