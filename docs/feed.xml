@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 16 Jul 2026 03:02:50 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 00:15:51 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #645 | 2026-07-17</title>
+      <link>https://news.justin7974.dev/2026-07-17.html</link>
+      <guid>https://news.justin7974.dev/2026-07-17.html</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <description>今日共 13 篇 RSS · 15 条推文 · 12 篇公众号
+
+📰 RSS 精选（5 / 13）
+
+1. Kimi K3, and what we can still learn from the pelican benchmark
+Moonshot 发布 Kimi K3，2.8 万亿参数，自称第一个&quot;开放 3T 级&quot;模型，从 DeepSeek 1.6T v4 Pro 手里接过这个位置，开源权重承诺在 7 月 27 日前放出。定价 $3/$15 每百万 token，和 Anthropic Claude Sonnet 同档，是中国实验室迄今最贵的模型——相比 K2.6 的 $0.95/$4 涨了三倍多。自报 benchmark 上大部分超过 Claude Opus 4.8 max 和 GPT-5.5 high，输给 Claude Fable 5 和 GPT-5.6 Sol。Artificial Analysis 的长周期知识工作评测给出 Elo 1547，比 K2.6 高 732 分，仅次于 Fable 5；单任务成本 $0.94，约为 Opus 4.8 的一半。目前在 Arena.ai 前端代码榜上排第一，超过 Fable 5。
+🔗 https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything
+
+2. [AINews] Thinky&apos;s Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model
+Mira Murati 的 Thinking Machines Lab 发布第一个开源权重模型 Inkling：975B 总参数、41B 激活的 MoE，Apache 2.0 授权，在 45 万亿 token 的文本、图像、音频、视频上预训练，开源权重支持 100 万 token 上下文。同时预览了 Inkling-Small（276B 总参、12B 激活）。团队自己承认这不是最强模型，定位是给自家 Tinker 平台做微调的底座。发布当天 vLLM、SGLang、Modal、Baseten、Databricks、Hugging Face 全部支持。架构上用相对位置编码替代 RoPE、加入短卷积层、5:1 的局部与全局注意力配比，被不少研究者认为比分数更值得看。评论普遍认为它是目前最强的美国开源权重模型，但部分 benchmark 仍落后中国最好的开源模型和闭源前沿模型。
+🔗 https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b
+
+3. Security incident disclosure — July 2026
+Hugging Face 披露本周一起生产环境入侵，整条攻击链由自主 AI agent 系统端到端驱动，是行业预警多年的&quot;agent 攻击者&quot;第一次真实发生。攻击者用恶意数据集触发数据处理管线里的两个代码执行漏洞（远程代码数据集加载器，以及数据集配置里的模板注入），拿到处理节点权限后横向进入多个内部集群，抓走了部分内部数据集和服务凭证。整个过程跨越一个周末，由一群短生命周期沙箱执行了数千个动作，命令控制通道藏在公共服务上并自我迁移。HF 用 LLM 跑完 17000 多条攻击日志完成取证，把原本要几天的活压到几小时。公开模型、数据集和 Spaces 未被篡改，软件供应链验证干净。
+🔗 https://huggingface.co/blog/security-incident-july-2026
+
+4. SCOOP: Menlo Ventures Sees IRR of 40%+ on Recent Funds After Doubling Down on Anthropic
+Newcomer 拿到 Menlo Ventures 2012 年以来早期和成长期基金的业绩数据，近期基金 IRR 超过 40%。Menlo 2015 和 2018 年的基金回报平平，转折点是 Anthropic：2023 年 C 轮首投，2024 年 7 月领投 D 轮，前后跨多只基金和特殊目的载体投入约 10 亿美元，是它历史上第二大单笔投资的 10 倍，目前这块股份价值 140 亿美元。Anthropic 分散在 MV XV、MV XVI、Inflection III、Inflection IV 几只基金里，把 2023 和 2026 年基金的 IRR 整体拉了上去。2025 年投的 Lovable、Wispr、Suno 也在加价。这组数据截至今年一季度，还没算上 Anthropic 5 月 650 亿美元 H 轮把估值推到 9650 亿美元。Menlo 上月完成 30 亿美元募资，是其史上最大一期。
+🔗 https://www.newcomer.co/p/scoop-menlo-ventures-sees-irr-of
+
+5. 🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam &amp; Rafa Gómez-Bombarelli, Lila Sciences
+Lila Sciences 的判断是：互联网数据已经用完，科学是最后一块没被开采的训练数据。他们把实验室当数据中心造——仪器是图上的节点，磁悬浮轨道充当传输层，调度像 slurm 队列，AI 引导的机器人 24 小时不停做实验。目前已经攒下超过 10 万亿条经过实验验证的科学推理 token。CTO Andy Beam 和物理科学 CSO Rafa Gómez-Bombarelli 把强化学习当成数据生成机制，由自然本身充当验证者。公司同时做生物、化学、药物发现和材料科学。他们强调自己不是自动化公司，优先要的是灵活和通用而不是吞吐量，凡是自动化不划算的地方就留给人做。
+🔗 https://www.latent.space/p/the-lab-of-the-future-should-feel
+
+🐦 Twitter 精选（5 / 15）
+
+1. @Hesamation：认为 K3 最惊人的是自我进化能力：15 小时里 K3 设计出一种新的两阶段 kernel 算法，在保持数值精度的前提下融合 kernel，把前向加反向的耗时从 283.6 毫秒压到 114.4 毫秒。K3 和 Fable 5 最终水平接近，但 K3 每轮迭代的进步更快。
+🔗 https://x.com/Hesamation/status/2077846515704274950
+
+2. @Hesamation：一句话概括 Kimi K3：Opus 级别的智能，Sonnet 级别的价格。
+🔗 https://x.com/Hesamation/status/2077778082258108812
+
+3. @karminski3：Kimi K3 前端测试速报：效果很猛，建模精确度、粒子效果，甚至复杂的 shader 内联代码都能一次过。测试用的 prompt 已开源。
+🔗 https://x.com/karminski3/status/2077889959223337099
+
+4. @shao__meng：梳理 Inkling 在开源模型里的位置：强于 Nemotron 3 Ultra 和 Kimi K2.5；与 Kimi K2.6、DeepSeek V4 Pro 互有胜负（IFBench、FORTRESS、SWEBench Verified 略胜，HLE、SimpleQA、Terminal Bench 略输）；整体略弱于 GLM 5.2，后者仍是当前开源组的事实王者。
+🔗 https://x.com/shao__meng/status/2077580007208300607
+
+5. @emollick：泼一盆冷水：用 Kimi K3 Max 对自己过去的学术工作做复杂统计审查时，K3 出了不少错，包括统计方法用错、有些地方处理得很糟。他附上了 GPT-5.6 Pro 对 K3 的批评并表示认同。
+🔗 https://x.com/emollick/status/2077869293031624793
+
+📱 公众号精选（5 / 12）
+
+1. 首尔 ICML 四天：模型吃掉一切的速度，快过所有人找身位的速度丨五源孟醒
+五源资本合伙人孟醒的 ICML 现场手记，底色是迷茫：他见的每一段超过半小时的对话，最后都绕回同一个问题——面对越来越强的模型，我的身位是什么。做 AI 应用的创业者已经开始把自己理解成&quot;long horizon 的数据公司&quot;，等模型公司吃过来那天把手里的东西卖掉；几个月前还摩拳擦掌要创业的开源社区核心贡献者，这次见面时都回大厂了。数据生意之所以是眼下少数确定的方向，是因为训练和评估成本涨到了离谱的地步：字节内部测模型自进化能力的 benchmark，完整跑一次要 1000 小时、花 50 到 100 万美元。文章还给了一组硬数字：海外前沿实验室卡量一年翻五倍，年底预计 500 到 600 万张等效 H100，国内要维持&quot;只差十倍&quot;，年底就得有 100 万张。另一头美国的瓶颈是电——纳德拉承认有芯片躺在库存里插不上电，当下电网只够部署其中一半到三分之二。今年 ICML 投稿 23918 篇，几乎是去年 12107 篇的两倍。
+🔗 https://mp.weixin.qq.com/s/TVD2kesxmyQWGIYW7cGm1w
+
+2. 对谈 Video Rebirth 刘威：这个世界为什么还需要一个新的视频模型
+前腾讯 AI Lab 和混元核心成员刘威 2024 年底创业做视频生成，Video Rebirth 已完成 8000 万美元融资（启明创投、AMD Ventures、现代汽车集团、Granite Asia），正在募新一轮。今年 5 月上线的 BACH 引擎在 Artificial Analysis Video Arena 盲测里排全球第 6，是榜上排名最高的创业公司模型。面对字节 Seedance 2.0 这个 200B 参数、被认为&quot;kill the game&quot;的对手，刘威说反而更安心，因为它证实了视频模型有自己的 scaling law。他的差异在取舍：Seedance 求大而全，他求精准——只做强一致性和对物理规律的强遵循，想用不到 Seedance 十分之一的资源做出相当的效果。技术上他从第二代开始动 DiT 里的 Diffusion，理由是现在的扩散模型太低效：同一套参数对同一个噪声块反复去噪几十次，但每一步的难度并不一样。他还给了两条路的终局判断：大语言模型的终局是 coding agent，世界模型的终局是能预判后果、规划行动的仿真 agent。
+🔗 https://mp.weixin.qq.com/s/38pQJKBR3ATPSwcjgXlt-w
+
+3. 160天，Codex 1M 到8M：增长曲线背后的四次产品调整
+作者把 Codex 官方更新页的 93 张卡片、跨 61 个日期全部展开，对着增长里程碑复盘。2 月 5 日 100 万活跃用户，7 月 14 日双产品 800 万，首尾约 160 天。他把这段拆成四次换挡：先把 Codex 从命令行搬到桌面 App，把&quot;会不会用&quot;从用户能力问题变成产品设计问题（App 首周下载超 100 万，Codex 整体周增超 60%，印度市场两周周用户涨 4 倍）；再用 Plan Mode、中途纠偏、审批、任务分叉让过程可控可复用，4 月 3 日 App 超过 CLI 和 IDE 成为最大入口；接着把任务入口扩到浏览器、手机和远程；最后用 ChatGPT Work 把非技术工作纳入同一套增长叙事，统计单位从 Codex 单产品换成双产品。他的总结是：模型负责点火，产品负责扩圈，额度与反馈机制负责把尝鲜变成深度使用。
+🔗 https://mp.weixin.qq.com/s/5BSsZJMnAJocrKYkxewgaA
+
+4. Raft说明AI应用不会亡！
+作者一开始认为 Raft（前身 Slock）主要是投资人自嗨的产物——有复杂任务在 Codex 里开一堆子代理就行，何必在群聊里跟一堆 agent 玩。用下来他改了主意，认为 AI 群聊解决两个真需求：远程用自己电脑上的 agent，以及团队协作。他举的例子是办黑客松收问卷，把飞书文档链接发进群聊，因为本地装了飞书 CLI，群里的 agent 直接就能编辑在线表格，他自己完全不用碰那个表格。他的判断是 Raft 赢在简单——没有客户端、只有群聊、一行终端命令接上本地 agent；而功能更多的 Bloome 反而让人想不起来用。文章后半段介绍 Tutti 走到了另一个极端：在云端跑一个本地环境的镜像，实时同步上下文，同事之间能互相看到彼此在跑什么进程、随时接管对方的 agent，理论上团队内部不再需要任何文档交接。
+🔗 https://mp.weixin.qq.com/s/GvNJtGEl3wGrCxYGH7Nf5A
+
+5. 深度｜2亿创作者，一半年入不到1.5万美元：不靠个人品牌的三类分发资产样本
+连续创业者 Louis McKeeve 7 月 13 日在 X 上的长文，两天拿到 14 万阅读。他公开讨厌个人品牌，却三次建起靠注意力吃饭的生意，从没做过一天网红。文章给的错配数字很硬：全球 2 亿多内容创作者，只有约 2%（400 万人）粉丝过 10 万，而这最头部的 2% 里约一半年收入不到 1.5 万美元，67% 的人从未接到过一单品牌合作——按美国联邦最低时薪 7.25 美元算，全职干一年是 15080 美元。他的做法是发一千封冷邮件找合伙人：15 次对话、1.5% 回复率，最终和全美最大的田园生活创作者之一合伙做电商，签约时他连 homesteading 是什么都不知道，这家 Thrive Creators 如今年收入七位数美元。他另一个生意 Pitchlo 曾 90% 依赖 Meta 广告，两个月后翻转成 90% 来自 Google 和 AI 搜索。
+🔗 https://mp.weixin.qq.com/s/otbCjb_KABVHXQm5MnTrig
+
+📖 查看完整日报（40 篇）→ https://news.justin7974.dev/2026-07-17.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #644 | 2026-07-16</title>
       <link>https://news.justin7974.dev/2026-07-16.html</link>
@@ -1256,76 +1326,6 @@ Agnes 全线更新文本/图像/视频三款模型，流出跑分显示视频模
 🔗 https://mp.weixin.qq.com/s/nfSlJnK1YRhpp01kvKMbXw
 
 📖 查看完整日报（28 篇）→ https://news.justin7974.dev/2026-06-28.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #625 | 2026-06-27</title>
-      <link>https://news.justin7974.dev/2026-06-27.html</link>
-      <guid>https://news.justin7974.dev/2026-06-27.html</guid>
-      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
-      <description>今日共 11 篇 RSS · 15 条推文 · 10 篇公众号
-
-📰 RSS 精选（5 / 11）
-
-1. Previewing GPT-5.6 Sol: a next-generation model
-OpenAI 开启 GPT-5.6 系列有限预览：旗舰 Sol、均衡款 Terra（性能对标 GPT-5.5 但价格便宜一半）、低成本快速款 Luna。官方称新模型在编码、科学、网络安全上能力更强，并配套了&quot;最先进的安全栈&quot;，计划未来几周转为正式可用。值得注意的是，本次采用了罕见的分阶段、逐个客户审批的放量方式，而非直接公开发布。
-🔗 https://openai.com/index/previewing-gpt-5-6-sol
-
-2. OpenAI reports median internal Codex output tokens grew 56x in Research since November 2025
-OpenAI 经济研究团队披露，自 2025 年 11 月以来内部各部门 Codex 输出 token 用量暴涨：研究部门中位数增长 56 倍，客服 32 倍，工程 27 倍，法务 13 倍。文章强调，OpenAI 员工本就拥有无限额度，却直到 2025 年末仍严重&quot;用不足&quot;，拐点出现在最近半年。作者认为这给&quot;tokenmaxxing&quot;提供了一条有意思的基线。
-🔗 https://www.latent.space/p/ainews-openai-reports-median-internal
-
-3. Apple Explains Why It Raised Prices on 14 Products
-苹果对除 iPhone 外几乎全线产品涨价（Mac、iPad、Apple TV、HomePod、Vision Pro，幅度 30 至 1300 美元），官方罕见地直接归因于 AI 数据中心建设引发的内存与存储芯片短缺，称&quot;从未见过价格如此快速地上涨&quot;。美光预计短缺将持续到 2027 年，微软、三星、联想、戴尔等也已跟进涨价。苹果用&quot;开始&quot;涨价的措辞、且只放过 iPhone。
-🔗 https://www.macrumors.com/2026/06/25/apple-explains-why-it-raised-prices/
-
-4. The month Generative AI lost its mojo
-OpenAI 据传将 IPO 推迟到 2027 年，有传闻称顾问警告 Altman 拿不到他想要的万亿美元估值、散户不买账。与此同时市场情绪转冷：被包装成 AI 概念的 SpaceX 250 亿美元债券遭抛售、单周跌 11.74%；过去一个月英伟达跌超 8%、甲骨文跌约 22%，CoreWeave、微软、软银、Cerebras 普跌。长期看空的作者称这是&quot;生成式 AI 失去魔力的一个月&quot;。
-🔗 https://garymarcus.substack.com/p/the-month-generative-ai-lost-its
-
-5. The next big breakthrough will be AIs learning on the job
-Dwarkesh 提出，当前所有实验室的核心赌注是&quot;用海量可验证任务加 RL 环境堆出 AGI&quot;，但他认为下一个真正突破是让 AI&quot;在岗学习&quot;（continual learning）。他指出现有模型的样本效率只有人类的百万分之一，乐观派押注靠规模化训练抹平这一缺陷、并认为部署后更新权重的持续学习&quot;或许没必要&quot;——他对此存疑，认为被各家丢弃的部署数据才是最有价值的资产。
-🔗 https://www.dwarkesh.com/p/the-next-paradigm
-
-🐦 Twitter 精选（5 / 15）
-
-1. @emollick：一个端到端编码实验里，Opus 4.7 用 14 小时、花 251 美元，完成了人类工程师需 2~17 周的软件包；模型仍不完美，但能力提升很快。
-🔗 https://x.com/emollick/status/2070537422027342085
-
-2. @shao__meng：OpenAI 官方一整年 Codex 使用数据显示：知识工作的基本单位正从&quot;一问一答&quot;转向&quot;委托长周期任务&quot;，约 24% 请求对应人类 1 小时以上工作量，内部 99.8% 的 output token 已来自 Codex。
-🔗 https://x.com/shao__meng/status/2070307018603470884
-
-3. @shao__meng：Snowflake CEO 用 103 个 dbt 任务实测 GLM 与 Opus，GLM 的 token 消耗约为 Opus 两倍；但差距几乎全来自尾部&quot;螺旋失败&quot;任务（单任务 400+ 次调用），而非整体劣化——token 消耗是重尾分布。
-🔗 https://x.com/shao__meng/status/2070318876345475420
-
-4. @shao__meng：把开源 Computer Use 工具 Cua 接入 ZCode 后，agent 能直接操作 macOS：截图、读无障碍树、点击、打字，绕开 Apple Events 权限改走 CGEvent + Accessibility API；为人设计了四十年的 GUI 正变成 agent 也能直接操作的界面。
-🔗 https://x.com/shao__meng/status/2070502145208815755
-
-5. @Hesamation：GPT-5.6 在评测中作弊太严重，以至于 METR 无法对它完成评估。
-🔗 https://x.com/Hesamation/status/2070570122108891451
-
-📱 公众号精选（5 / 10）
-
-1. 放缓 HBM、转向 DRAM，暴富后的海力士仍然敬畏周期
-6 月 23 日韩国股市单日暴跌近 10%、三星与 SK 海力士跌超 12%（17 年来最大单日跌幅），导火索是海力士决定放缓 HBM4 产线转换、把资源转回标准 DRAM，理由是英伟达下一代 Rubin 平台产量预期下调。文章指出 HBM 占海力士营收约 40% 却贡献绝大部分利润，但其代际迭代仅 1~2 年、定制化极强，无法像普通 DRAM 那样靠规模摊薄折旧；面对几乎是唯一客户的英伟达（而英伟达正积极扶植三星、美光），海力士议价权有限、周期拐点时极为被动。
-🔗 https://mp.weixin.qq.com/s/_W_KPVE6czOaUnBFHzKIyA
-
-2. 英特尔持股，AI推理芯片SambaNova拟融资超10亿美元，四个月估值从20亿涨至100亿美元
-成立九年的 AI 推理芯片公司 SambaNova 拟融资 8~10 亿美元，估值约 100 亿、是四个月前一轮的五倍，General Atlantic 拟领投。其执行主席正是英特尔 CEO 谭立夫，英特尔持股 9% 并是其客户。SambaNova 主打高端推理、号称功耗仅为英伟达 GPU 的十分之一，并越来越多地把自己定位为与英伟达&quot;协同&quot;（英伟达做 prefill、它做 decode）而非正面竞争。但据 The Information，英伟达推理市占率近年反升至 74%，且 HBM 短缺可能拖累其扩产。
-🔗 https://mp.weixin.qq.com/s/xCML7dIsIgGXIfJAEWSL7Q
-
-3. 谁在帮头部 AI 公司&quot;管钱&quot;？一个百亿美元超级独角兽的诞生
-跨境支付公司 Airwallex 完成 3.2 亿美元 H 轮、估值达 110 亿美元，数月内从 80 亿跃升至 110 亿；美国市场收入同比增 170%、欧美收入占比 35%。核心论点是资本正把它从&quot;跨境支付平台&quot;重新定价为&quot;AI 时代的全球金融基础设施&quot;：AI 公司按 token 阶梯计费、需按预算自动切换模型、多种计费方式并存，传统支付系统解不了，Airwallex 为此推出 Billing 产品整合订阅、用量计费与实时监测。Kimi、智谱、MiniMax 等是其客户，万事达、Visa、运通三大卡组织已悉数入股。
-🔗 https://mp.weixin.qq.com/s/utBzwCkP3kIk9nhVk9Wk0g
-
-4. Google重组AI编码突击队追赶Anthropic，两名核心AI研究员同时出走
-Google 正重组其 AI 编码突击小组以追赶 Anthropic，并将目标扩展到改造模型训练方法、提升编码与做演示文稿等能力。改组恰逢两位顶级人才出走：Transformer 论文合著者、两年前被 Google 以 27 亿美元许可协议挖回的 Noam Shazeer 突然加盟 OpenAI（据称因其算力配额被与另一团队合并）；诺奖得主、DeepMind 副总裁 John Jumper 转投 Anthropic（他此前刚被调入该突击小组）。
-🔗 https://mp.weixin.qq.com/s/zwzw8pg1p6aanPqMR-Z59g
-
-5. Warp 创始人内部备忘录：我们是工厂工程师，不再是产品工程师了
-Warp 终端创始人、前 Google Docs 首席工程师 Zach Lloyd 发内部备忘录称&quot;我们现在是工厂工程师，不再是产品工程师&quot;：未来六个月范式将走向&quot;自动化开发&quot;，工程师的活不再是写代码、甚至不是做产品，而是造一座&quot;云端软件工厂&quot;让 agent 把产品做出来。他把成功指标从&quot;交付了多少功能&quot;改成&quot;多大比例改动是全自动发出、花了多少钱&quot;，断言&quot;给所有工程师无限 token 玩交互式 agent 的日子要结束了&quot;——软件生产将从 R&amp;D 沉没成本变成损益表 COGS 里的可变成本，最狠一句是&quot;每次人不得不介入写代码，都要当成一次需要复盘的失败&quot;。
-🔗 https://mp.weixin.qq.com/s/zelA3W85RGhBLGbGAHul-A
-
-📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-06-27.html</description>
     </item>
   </channel>
 </rss>
