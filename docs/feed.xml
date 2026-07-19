@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 18 Jul 2026 00:22:37 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 00:17:05 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #647 | 2026-07-19</title>
+      <link>https://news.justin7974.dev/2026-07-19.html</link>
+      <guid>https://news.justin7974.dev/2026-07-19.html</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 16 条推文 · 5 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. [AINews] not much happened today
+慢新闻日里最重的信号，是 Kimi K3 发布后的一次&quot;重新定价&quot;——社区把它评为首个在前沿档位真正好用的中国开源模型，编码、agentic、长程知识工作表现都强，讨论焦点从&quot;算力护城河&quot;转向&quot;效率之争&quot;，普遍认为 K3 已经把差距缩到足以逼美国实验室加速出货，Salakhutdinov 都公开向 Moonshot 创始人杨植麟道贺。同日 Databricks 完成 1880 亿美元 Series M，模型路由商 OpenRouter 传出可能被收购。文章还夹带一个反直觉判断：跑 agent 沙箱的真正难点不是&quot;在 K8s 上跑容器&quot;，而是存储和文件系统。
+🔗 https://www.latent.space/p/ainews-not-much-happened-today-830
+
+2. Claude make Fable 5 permanent
+Anthropic 撤回了&quot;把最强模型 Fable 5 从订阅套餐拿走、只留 API&quot;的原计划：7 月 20 日起 Fable 5 纳入所有 Max 和 Team Premium 套餐（限额 50%），Pro/Team Standard 继续按量计费并补偿一次性 $100 额度，$20 套餐仍无缘。Simon Willison 判断这是被 GPT-5.6 Sol、以及 Kimi 3 的竞争逼回来的——没人会为一个&quot;不含最强模型&quot;的 $100/$200 订阅买单。他还点出原计划的真实动因是算力紧张，并猜测 Anthropic 可能得压缩训练来腾出 GPU 保推理供给。
+🔗 https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything
+
+3. Apple Sends Letters to Dozens of Former Employees Now at OpenAI
+据 FT 报道，苹果向约 40 名跳槽到 OpenAI 的前员工发出个人法律函，要求他们保全文件和通讯记录、并配合苹果律师会面——这是苹果上周对 OpenAI 发起诉讼后的又一步激进动作。用个人法律函直接施压已离职员工的做法相当罕见，凸显苹果在 AI 人才战上的强硬姿态。
+🔗 https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166?syn-25a6b1a6=1
+
+4. What&apos;s the deal with all the random weekly quota resets for agents lately?
+订阅制编码 agent（Claude Code、Codex）的周额度重置正变得异常频繁：在 Fable 5/GPT-5.6 发布后的两周里，OpenAI 就把 Codex 周额度重置了 6 次（7/9、7/10 两次、7/14、7/15、7/17），且几乎从不通过官方渠道公告，只有跟着 Tibo 这类工程负责人才知道，甚至出现&quot;重置发生在你自然重置前几小时、白白浪费&quot;的情况。作者算了笔账：$100/月套餐每次重置约值 $25，如今用 Fable 5/Sol 很容易把额度用满。
+🔗 https://minimaxir.com/2026/07/agent-quota-reset/
+
+5. Apple Books and Amazon Are Lousy With AI-Generated Books Ripping Off Legitimate Authors
+华尔街日报记者 Joanna Stern 新书上架仅几天，Apple Books 就被 AI 山寨书刷屏——《Joanna Stern On I Am Not A Robot》(署名 Sophie Mercer)、《I AM NOT A ROBOT》(署名 Finn Tech)、以及署名&quot;Joana Stern&quot;(少一个 n) 的仿冒版层出不穷。文章指出 Apple Books 和 Amazon 的自出版管道都被 AI 生成的仿冒/寄生书籍大量污染，正版作者维权困难。
+🔗 https://thenewthings.com/p/apple-big-ai-book-slop-problem
+
+🐦 Twitter 精选（5 / 16）
+
+1. @shao__meng：Claude Fable 5 订阅一推再推后终于落地：7 月 20 日起 Max 和 Team Premium 用户可用每周 50% 额度，Pro/Team Standard 仍走按量计费（输入 $10、输出 $50 每百万 token）并获一次性 $100 补偿。
+🔗 https://x.com/shao__meng/status/2078304773716193685
+
+2. @shao__meng：对着一份模型榜单发问：怎么没有 DeepSeek V4 Pro 和 MiniMax M3？暗指国产第一梯队手里还有几张牌没打出来。
+🔗 https://x.com/shao__meng/status/2078295435492704414
+
+3. @emollick：让 Kimi K3 用中文挑两首非陈词滥调、适合形容 LLM 的诗，它的思维链里 95.5% 的字符（88% 的词）却是英文——哪怕在为中文读者斟酌中文诗时也是如此。
+🔗 https://x.com/emollick/status/2078621842508587318
+
+4. @emollick：Codex 的电脑操作能力惊艳：让它从没用过 Blender 开始，自己下载、安装并做出一只 3D 水獭动画，全程只需人工点一次 Windows 安装授权。
+🔗 https://x.com/emollick/status/2078318882473796029
+
+5. @steipete：看着 Codex 用浏览器+电脑操作打开 Chrome、进 PR、跟 macOS 文件选择器搏斗，只为上传一张图——既惊叹又心疼：因为 GitHub 没有对应 API，agent 只能硬着头皮点。他让 Codex 跑在虚拟机里以免抢占应用焦点。
+🔗 https://x.com/steipete/status/2078318731785359634
+
+📱 公众号精选（5 / 5）
+
+1. AI 每天生产 1000 万首新歌，Spotify 等平台最终会消亡丨100 个 AI 创业者
+AI 音乐工具 ACE Studio 年化收入已近 2000 万美元、用户以欧美专业音乐人为主（汉斯·季默、Martin Garrix 团队、Stevie Wonder、Teddy Riley 都在用），据称即将完成新一轮融资、近期两轮合计近 5000 万美元，是目前 AI 音乐赛道融资最多的中国团队。创始人郭靖把它定位成面向严肃创作者的&quot;音乐工作站&quot;（区别于 Suno 的傻瓜式一键出歌），并判断 AI 带来的音乐供给爆炸（每天上千万首新歌）会摧毁 Spotify 这类流媒体的存在根基，下一步要做&quot;住在耳朵里、懂你情绪和品味的 music agent&quot;，成为音乐界的抖音。
+🔗 https://mp.weixin.qq.com/s/R8ZelRqcQKZ2RWHlPMQCiw
+
+2. 苏度科技 WAIC 首亮相：现实是机器人的终点，不是训练的边界
+成立仅一年、估值已达 200 亿元的具身智能公司苏度科技在 WAIC 首次亮相，展示了移动操作、双手协作、柔性操作、精密组装等 10 余项技能，据投资人称&quot;从 1 个技能到 10 个只花了 3 个月&quot;。公司走 sim-to-real（仿真训练迁移到真机）路线，曾在 CVPR 现场随机抓取观众手中的物品引发关注。创始人苏昊是复旦浩清特聘教授、通用物理智能研究院首任院长（前 UCSD 终身副教授），韩铮是两次成功退出的连续创业者。韩铮的核心判断：机器人没有大模型那样现成的&quot;互联网数据&quot;，只有把任务可靠性做到 99%+，具身智能公司才谈得上没有泡沫。
+🔗 https://mp.weixin.qq.com/s/-XEZ4-Q_F2Rev5PnaReA5w
+
+3. Kimi K3实测，让我不敢相信这是国产模型
+长期用 Codex 和 Claude Code 的作者实测 Kimi K3 后直呼超预期：直接给了服务器权限，一口气开发并上线了 6 个完整开源项目（覆盖前端、后端架构/数据库、AI 模型调用），基本都是一轮对话出 MVP、2–5 轮打磨上线，其中一个电影 AI 搜索站执行中&quot;思考 58 次、调用 82 次工具&quot;。他判断 Kimi K3 是国产模型的巨大飞跃、能力直逼 Fable 5，让人&quot;再也不怕封号&quot;，唯一担心是 Kimi 是否备足了 GPU 来接住即将涌入的海量用户。
+🔗 https://mp.weixin.qq.com/s/6btuo6dSwb7H62YTtffINg
+
+4. 深度｜WAIC 2026风向变了：魔法原子迎来物理AI&quot;交作业&quot;时刻
+这篇 WAIC 观察提出一个有分水岭意义的判断：机器人商业化的基本单位不是&quot;场景&quot;而是&quot;岗位&quot;，核心也不是&quot;偶尔叠好一个盒子&quot;，而是每天 8 小时、连续三个月把某道工序的良品率稳定在工业级。作者以此框架审视魔法原子——轮式人形 MagicBot D1 在货架间抓取转运、Magic-VLA K02 机械臂做叠盒封胶，背后是自研大脑 Magic-Mix（环境理解、空间推演、动作决策三层），&quot;九大场景&quot;被拆成追觅工厂的物料搬运、无锡马拉松的交通疏导、景区迎宾讲解等具体岗位。展台从&quot;秀肌肉&quot;（后空翻、跑酷）转向&quot;交作业&quot;，被视作具身智能商业化拐点的信号。
+🔗 https://mp.weixin.qq.com/s/tzBi85qYAT_OveTKZMNgiw
+
+5. Fable 5 永久可用了
+转述 Anthropic 官方消息：7 月 20 日起 Fable 5 纳入所有 Max 和 Team Premium 套餐（50% 限额），Pro/Team Standard 继续按量计费并获一次性 $100 补偿；作者一句&quot;k3 牛逼&quot;点破了这次反悔背后的竞争压力。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/6V0FivpyGImLe_fdZxHSfQ
+
+📖 查看完整日报（31 篇）→ https://news.justin7974.dev/2026-07-19.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #646 | 2026-07-18</title>
       <link>https://news.justin7974.dev/2026-07-18.html</link>
@@ -1280,64 +1350,6 @@ OpenAI 再从苹果挖硬件人才：主导苹果 AI 眼镜研发的 Vision Pro 
 🔗 https://mp.weixin.qq.com/s/gbtD_ZnjV5jT5c0a8-2RiA
 
 📖 查看完整日报（32 篇）→ https://news.justin7974.dev/2026-06-30.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #627 | 2026-06-29</title>
-      <link>https://news.justin7974.dev/2026-06-29.html</link>
-      <guid>https://news.justin7974.dev/2026-06-29.html</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
-      <description>今日共 11 篇 RSS · 15 条推文 · 2 篇公众号
-
-📰 RSS 精选（5 / 11）
-
-1. Latest open artifacts (#22): Zyphra, Cohere, and Poolside are expanding the breadth of the ecosystem
-开源模型的格局正在从&quot;少数（多为中国）前沿实验室垄断&quot;裂解成一条由专业玩家组成的长尾。Nathan Lambert 与 Florian Brand 把发布者分成三类：纯模型厂（DeepSeek、智谱、MiniMax，以及 Poolside、Zyphra、Arcee 等西方厂，外加 Cohere、Mistral、Trillion 这类主权 AI 玩家）；动机各异的大厂（阿里 Qwen 用开源给闭源模型引流，NVIDIA 靠繁荣的开源生态拉动 GPU 需求）；以及把小而专模型嵌进自家产品的产品公司（JetBrains、Zed、Krea、Photoroom）。他们的判断是：追逐绝对前沿的公司会减少，而做细分长尾模型的公司会越来越多。NVIDIA 的 Nemotron-3 还改用了专为权重+数据设计的 OpenMDW 许可证。作者认为封禁开源生态既徒劳又危险，只会把 AI 集中到少数人手里。
-🔗 https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside
-
-2. OpenAI Codex lead on the new shape of product work | Andrew Ambrosino
-当写代码的实现成本趋近于零，产品工作的瓶颈就从&quot;构建&quot;整体迁移到&quot;品味与策展&quot;。OpenAI Codex 桌面端负责人 Ambrosino（OpenAI 近 100% 员工每周用 Codex，不只是工程师）认为&quot;品味&quot;正成为 AI-first 职场里最值钱的能力。他描述了一种&quot;区域联防&quot;式的 PM 模式——当人人都能构建，PM 要换打法；团队里工程/设计/产品/数据的角色边界在融合，但彻底取消角色是个大错误；长周期路线图会变成&quot;虚假精确&quot;，所以他刻意把 6–12 个月的目标留得模糊。他还说，Codex 若在去年 11 月而非今年 2 月发布就会失败——时机与成熟度是关键。
-🔗 https://www.lennysnewsletter.com/p/openai-codex-lead-on-the-new-shape
-
-3. China catches up
-Gary Marcus 把自己从 2023 年夏天起反复讲的&quot;no moat → 更多竞争者 → 价格战 → 利润稀薄&quot;逻辑推到了终局：它可能拖垮美国 AI 产业。他认为，在全行业对 token 预算变得价格敏感的背景下，很难看出 Anthropic 和 OpenAI 怎么完成万亿美元 IPO，也很难看出价格战把 token 价格压向零之后，那些巨额数据中心投入怎么收回。他对当前范式的三点批评：用整个互联网做暴力训练既低效又昂贵；系统不可靠，长期收不了溢价；方法易被复制，导致价格战和微薄甚至为负的毛利。他建议美国与其去打一场可能输的&quot;卖最便宜 LLM&quot;的仗，不如转向更适合科学和医疗的新型 AI。
-🔗 https://garymarcus.substack.com/p/china-catches-up
-
-4. Human Agent in the loop
-Simon Willison 转引 Jon Udell 对&quot;human in the loop&quot;的重构：与其让人被嫁接进机器的循环，不如把智能体开发当成&quot;我们自己的循环、把 agent 请进来&quot;——这是对&quot;agent 产出无法被审阅的 PR&quot;的直接反弹（&quot;医生，agent 造出没法 review 的 PR 时很难受。&quot;——&quot;那就别那么干。&quot;）。
-🔗 https://simonwillison.net/2026/Jun/28/jon-udell/
-
-5. PuffPal, an App for Accessing Cannabis Clubs, Leaked 1 Million Users&apos; Passports
-安全研究员 Sammy Azdoufal 发现大麻俱乐部门禁 App PuffPal 把约 98.5 万份护照和身份证件放在无密码、无任何访问控制的公开 URL 上，任何人拿到链接就能看陌生人的证件。正是此前用 Claude Code 揭出 DJI Romo 扫地机、上百万婴儿监视器和摄像头易被入侵的同一位研究员；受害者多为在西班牙逛过大麻俱乐部的人。
-🔗 https://www.theverge.com/tech/947157/passports-data-breach-cannabis-club-systems-nefos-puffpal
-
-🐦 Twitter 精选（5 / 15）
-
-1. @emollick：GLM-5.2 很不错，但还达不到 GPT-5.5/Opus 4.8，离 Mythos 更远；不过它扎实地证明开源模型仍在追赶前沿——开源权重已跨入 GPT-5.2 的能力区间，到那个水平能做的事已经相当可观。
-🔗 https://x.com/emollick/status/2071284966139568440
-
-2. @emollick：所有模型路由器都低估了非数学/编程任务的难度，给它们分配的智能不足。这值得解决，因为创新、营销、定性分析这类&quot;不可验证&quot;的任务，恰恰最能从更聪明的模型中获益。
-🔗 https://x.com/emollick/status/2071265352294584824
-
-3. @bcherny：当工程、产品、设计、数据科学等角色融合成一种新角色，Claude Code 团队浮现出五种原型：Prototyper（出大量新点子、多数不上线）、Builder（把原型快速变成生产级产品/基建）、Sweeper（清理 UI、简化系统、下线冗余、优化性能），以及 Grower 等。
-🔗 https://x.com/bcherny/status/2071379474277613732
-
-4. @shao__meng：LoanLens 是基于 LandingAI 的 AI 审贷初筛系统：从六类借款人文档抽取结构化字段、做欺诈检测与可解释评分。它用 schema 驱动抽取而非普通 OCR，靠六类文档姓名 TF-IDF 一致性比对和护照篡改几何检测识别欺诈，评分刻意透明可审计、无黑盒总分。
-🔗 https://x.com/shao__meng/status/2071212694498410530
-
-5. @_akhaliq：百度的 Unlimited-OCR 现已登上 Hugging Face 模型热度榜第一。
-🔗 https://x.com/_akhaliq/status/2071301912142696850
-
-📱 公众号精选（2 / 2）
-
-1. Z Research｜太空电站首次写入&quot;十五五&quot;规划，三条技术主线与产业图谱全盘梳理
-2026 年 6 月 25 日发改委/能源局《新型能源体系建设&quot;十五五&quot;规划》首次把&quot;太空电站&quot;与可控核聚变、高温超导输电、无线传能并列写入国家能源前沿方向——这是太空电站第一次进入国家级能源顶层规划。文章梳理了长期卡住它的三道门槛（送上去、建起来、发回来）近五年同时出现突破：长征九号明确采用可重复使用方案、近地轨道运力达 150 吨级，2025 年中国航天发射首破 80 次；中国空间站验证了大型机械臂与在轨建造能力；地面光伏产业链（晶硅组件已从 2010 年约 2 美元/瓦降到约 0.1 美元/瓦、中国占全球 90%+ 产能）叠加柔性光伏/钙钛矿，正在改变每公斤发射质量的价值结构；微波无线传能从&quot;理论可行&quot;进入&quot;工程可验证&quot;。文末还点出美国已开始把空间能源与空间计算、AI 基础设施结合。
-🔗 https://mp.weixin.qq.com/s/IkhOR9mecHYwBYnae1oHQQ
-
-2. 下一个消费护城河不是注意力，是环境：那家咖啡不好喝，我为什么还回去
-文章编译 Zomato/District 产品经理 Ashish Singh 的长文，核心判断：当 AI 把&quot;被发现&quot;（分发、推荐、配送、个性化）做得又便宜又普及，&quot;被发现就是优势&quot;的前提就崩了——发现从城墙塌成人人共用的管道，真正难的是让用户一次次本能地选你。作者给出的答案是&quot;依恋&quot;：destination 解决 intent，environment 创造 attachment；一家咖啡馆成了品牌的&quot;物理界面&quot;，40 分钟的停留比一次点击更值钱，因为时间生成记忆、记忆让品牌难以替代。深思在末尾补了一刀：环境恰恰是最难规模化的护城河，当&quot;软件公司开咖啡馆&quot;变成人人抄的剧本，体验空间本身也会变成新的 slop，真正不可复制的是你在某个具体的人心里攒下的那点记忆。
-🔗 https://mp.weixin.qq.com/s/Uvq_U2iKmv2a6PCabQO5Eg
-
-📖 查看完整日报（28 篇）→ https://news.justin7974.dev/2026-06-29.html</description>
     </item>
   </channel>
 </rss>
