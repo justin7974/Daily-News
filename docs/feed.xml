@@ -5,14 +5,14 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 20 Jul 2026 00:12:30 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 02:49:44 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>小虾AI日报 #648 | 2026-07-20</title>
       <link>https://news.justin7974.dev/2026-07-20.html</link>
       <guid>https://news.justin7974.dev/2026-07-20.html</guid>
       <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <description>今日共 14 篇 RSS · 15 条推文 · 0 篇公众号
+      <description>今日共 14 篇 RSS · 15 条推文 · 5 篇公众号
 
 📰 RSS 精选（5 / 14）
 
@@ -53,7 +53,29 @@ Bun 作者 Jarred Sumner 称 Claude Code 从 v2.1.181（6 月 17 日发布）起
 5. @Hesamation：Kimi 的 GPU 扛不住了：它选择暂时拒绝新用户付费，把算力优先留给现有订阅者，而不是下调使用额度或把最好的模型移出订阅——一种明显不同的对待付费客户的方式。
 🔗 https://x.com/Hesamation/status/2078875857607672256
 
-📖 查看完整日报（29 篇）→ https://news.justin7974.dev/2026-07-20.html</description>
+📱 公众号精选（5 / 5）
+
+1. 深度｜我们在 WAIC 给苏度机器人出了几道&quot;题库外&quot;的题
+作者没按展台脚本看苏度，而是沿三层往下追问：多个工位怎么丝滑接入同一条产线并在节拍与异常约束下稳定运行；已有技能能否快速复用组合成更多工位方案；当物体位置、可抓区域或任务状态被临时改变时机器人还能不能完成任务。核心区分是：工业客户买的不是&quot;做成一次&quot;的演示，而是能在任务变化、设备异常、生产节拍下持续运行的系统。
+🔗 https://mp.weixin.qq.com/s/YpY_BxyCpT5wntgZ1rqpFw
+
+2. 面壁智能带着家底，杀入具身智能
+7 月 19 日 WAIC 期间，面壁智能发布并开源首个具身智能系列 MiniCPM-Robot，分两块：管&quot;手&quot;的 MiniCPM-RobotManip（通用 VLA 模型，1.5B，看画面听指令输出动作，本地部署，真机演示做三明治）；管&quot;腿&quot;的 MiniCPM-RobotTrack（0.9B，与南京大学合作的跟踪导航模型，原生适配宇树 Go2 Edu，纯本地部署，机器狗开放环境零样本指令跟随）。
+🔗 https://mp.weixin.qq.com/s/vieAJ2u4twAG7aqbgSXR0w
+
+3. 一桌实习生里出了四个创始人，而最不重要的，是聪明
+由一张 Hudson River Trading 首届实习生的老照片引出——同一桌后来走出 Hyperliquid 的 Jeff Yan、Cognition 联创 Scott Wu、Scale 创始人 Alexandr Wang，以及本文作者、Decagon 的 Jesse Zhang。文章追问的是：为什么这一代创业者里有那么大一批人出身数学/编程/科学竞赛（Perplexity 的 Johnny Ho、Pika 的 Demi Guo、Cartesia 的 Albert Gu 等），并给出&quot;最不重要的是聪明&quot;这个反直觉结论。
+🔗 https://mp.weixin.qq.com/s/9HlBae3rud0mL2I4LWdsgw
+
+4. 速测 Qwen3.8 预览版：我用 1 小时，开发了套撒币系统
+Qwen 3.8 预览版上线，参数量 2.4T，官方称&quot;除 Fable 5 外最强&quot;，挂在阿里 Token Plan（作者充了 139 元/月的 Standard 套餐）。作者作为 Claude Code 用户直接接上国产模型，一小时做出一个共享钱包小程序功能——又一个&quot;国产模型追平 + 便宜&quot;的实测样本，接着 Kimi K3 那条线。
+🔗 https://mp.weixin.qq.com/s/nfCkrhq7mEte_iaTDu8viA
+
+5. 速评 Qwen 3.8 preview
+同日对 Qwen 3.8 预览版的另一份快评，可与上一条对照看不同使用场景下的判断差异。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/7KV_HVum9-xuDf1sUwKzog
+
+📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-07-20.html</description>
     </item>
     <item>
       <title>小虾AI日报 #647 | 2026-07-19</title>
