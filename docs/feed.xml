@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 20 Jul 2026 02:49:44 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 03:40:43 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #650 | 2026-07-22</title>
+      <link>https://news.justin7974.dev/2026-07-22.html</link>
+      <guid>https://news.justin7974.dev/2026-07-22.html</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
+      <description>今日共 11 篇 RSS · 15 条推文 · 8 篇公众号
+
+📰 RSS 精选（5 / 11）
+
+1. OpenAI and Hugging Face partner to address security incident during model evaluation
+OpenAI 与 Hugging Face 联合公布了一起&quot;在 AI 模型评估过程中发生的安全事件&quot;的早期调查结果。官方表述的核心是：事件中被测模型展现出的&quot;高级网络攻击能力&quot;（advanced cyber capabilities）值得警惕，并从中总结了给防御方的经验教训。两家头部机构就同一起 AI 安全事件联合发声、共享调查结论，本身即不多见。（OpenAI 原文受反爬限制未能取到全文，本条基于官方摘要）
+🔗 https://openai.com/index/hugging-face-model-evaluation-security-incident
+
+2. ★ European Commission: &apos;Guidance to Google for AI Interoperability on Android &amp; Sharing of Google Search&apos;
+欧盟委员会依据《数字市场法》(DMA) 向 Google 下达两套具约束力的规范。第一套要求 Google 让竞品 AI 服务在 Android 设备上获得与自家 Gemini &quot;同等&quot;的功能访问权；第二套要求 Google 把只有它能在规模上采集到的搜索数据——用户搜什么词、点了哪些结果、用什么语言和设备——共享给第三方搜索引擎和 AI 聊天机器人。数据名义上匿名化，但搜索词本身往往具个人可识别性，欧盟把&quot;过滤掉密码、用户名等敏感信息&quot;的责任丢给了 Google；Google 可对这类数据访问收费，但价格必须符合 FRAND（公平、合理、非歧视）原则。Gruber 用&quot;其规模之大令人瞠目&quot;来形容。
+🔗 https://daringfireball.net/2026/07/ec_google_guidance_android_ai_and_search_sharing
+
+3. Making a Billion Intelligent Machines
+Applied Intuition 本周推出 Dana——一个用于开发&quot;物理 AI&quot;应用的 agentic 平台。文章借 a16z（Marc Andreessen 亲自署名）之口讲了一个反共识故事：2017 年自动驾驶行业笃信&quot;少数垂直整合公司通吃&quot;，资本涌向全栈 robotaxi；而 Applied Intuition 反其道而行，选择做&quot;没人看得上的工具层&quot;——把开发自动驾驶所需的最佳实践本身做成一家公司卖给全行业。Cruise 等明星全栈项目当年拒绝了它、如今大多已消亡（Cruise 被通用收购后因安全事故关停），Applied Intuition 反而活得更好，并把野心从&quot;造车工具&quot;扩展到&quot;让十亿台机器都装上智能&quot;。
+🔗 https://www.a16z.news/p/making-a-billion-intelligent-machines
+
+4. A Fireside Chat with Cat and Thariq from the Claude Code team
+Simon Willison 在 AI Engineer World&apos;s Fair 与 Anthropic Claude Code 团队的 Cat Wu、Thariq Shihipar 对谈，几个数字很扎眼：Claude Code 团队产品工程的 PR，如今有 65% 由新的协作式 Slack 集成 Claude Tag 完成；Claude Code 的功能先在 Anthropic 内部员工（内部叫 &quot;ant fooding&quot;）中灰度，只有留存达标才对外发布；关键改动仍人工评审，但产品&quot;外层&quot;越来越依赖自动化代码审查。最反直觉的是提示词经验：对 Fable 5 乃至 Opus 4.8，往系统提示里加示例已不再是最佳实践，Claude Code 的系统提示词近期直接砍掉了 80%，一堆&quot;不要做 X&quot;的禁令反而会拉低最新模型的输出质量。
+🔗 https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything
+
+5. Causal Models Need Causal Data — Xaira&apos;s X-Cell model for Drug Discovery
+Latent Space 深访 Xaira Therapeutics 的 Bo Wang（首席 AI 科学家）和 Ci Chu（首席发现官），核心是一个&quot;数据而非参数&quot;的判断：当模型规模超过约 15 亿参数后，训练损失还在降、测试损失却不再改善——说明模型被数据里的信息量卡死了，加参数、加算力都没用。Xaira 的解法是自己造数据：用大规模实验把可用信息量提升约 30 倍，让模型重新回到&quot;随参数和算力扩展&quot;的曲线。其预算结构更像强化学习的 rollout 预算（数据采集数千万美元、算力与研究几百万），而非数据充裕时代的预训练。底层数据资产是 CZI 的 CELLxGENE（1.68 亿细胞、约 4 万亿条目的基因表达矩阵），Bo Wang 此前的 scGPT 正是新模型的起点。
+🔗 https://www.latent.space/p/xaira
+
+🐦 Twitter 精选（5 / 15）
+
+1. @shao__meng：Gemini 悄悄发了 3.6 Flash 和 3.5 Flash-Lite（不是众人等的 3.5 Pro），知识截止 2026 年 3 月，输入价与 3.5 Flash 持平、输出价小降；他自己懒得测，等官方公告。
+🔗 https://x.com/shao__meng/status/2079582206637584676
+
+2. @Hesamation：Gemini 3.6 Flash 的编码指数竟然低于上一代 3.5 Flash，他直呼糟糕透顶——看起来 Google 这次只想着降本提速，而没在提升智能上下功夫。
+🔗 https://x.com/Hesamation/status/2079598769226576365
+
+3. @_akhaliq：Motif-3-Beta 登陆 Hugging Face：约 3140 亿总参数、每 token 激活约 130 亿的稀疏 MoE，384 个专家选 8 个＋1 个共享专家，原生 256K 上下文，多语言通用。
+🔗 https://x.com/_akhaliq/status/2079377502565179556
+
+4. @_akhaliq：苹果发布论文，提出一种无需真实环境、直接合成数据来训练&quot;会调用 API 的 Agent&quot;的方法。
+🔗 https://x.com/_akhaliq/status/2079404587186802703
+
+5. @EXM7777：Kimi K3 有&quot;大模型的味道&quot;：英文写得比 OpenAI、Anthropic 的前沿模型还好，目前 frontend arena 排第一，能在 Claude Code 里流畅跑——他称这是中国的一次大胜。
+🔗 https://x.com/EXM7777/status/2079607082672959924
+
+📱 公众号精选（5 / 8）
+
+1. 硅基流动，All in AI 中间层的赌局
+成立仅 34 个月的硅基流动递交港股招股书，估值约 70-80 亿元，低于已上市的智谱、MiniMax 甚至老前辈商汤。它是行业里稀缺的&quot;独立第三方 MaaS 平台&quot;——不做基座、不做 to-C 应用，只做模型服务的中间管道。但财务是失血式增长：2025 年营收 5533 万、增速 653%，销售成本却涨了 14 倍，毛利率从 39.4% 掉到 -24%；其中面向个人和小团队的公有云 MaaS 占收入 52.9%、毛利率 -119%（卖一块亏一块一毛九），一年烧掉近 3500 万。账面现金加定存 2.7 亿、每月烧 1480 万，只够撑 18 个月；全部算力靠租（自有 PP&amp;E 仅 92.7 万元），上市后还新签了总额 34.91 亿元的 60 个月算力协议。
+🔗 https://mp.weixin.qq.com/s/r0wc3D6gmFu4ecwWO1tSPw
+
+2. 深度｜三所大学的实验：AI建议让准确率从27%跌到9%，自信却从30%升到76%
+法国和意大利三所大学的实验给出一组反向对撞的数字：能求助 AI 后，受试者愿意说&quot;我不知道&quot;的比例从 44% 跌到 3%，回答准确率从 27% 跌到 9%，自信却从 30% 升到 76%。实验被刻意设计成对人类有利——选的是 AI 常答错的电影画面细节（模型只能编造）、且用了一个以出错著称的模型，排除了&quot;合理委托可靠工具&quot;的辩护；结果一部分人原本自己能答对，问了 AI 反而改错。研究者用真金白银激励也只把&quot;承认不知道&quot;从 3% 拉回 8%。主持人 Capraro 的概括是：AI 的&quot;在场&quot;本身就足以瓦解人识别自身无知的能力；文章将其与沃顿&quot;认知投降&quot;（80% 情况下接受 AI 错误答案）相互印证。
+🔗 https://mp.weixin.qq.com/s/s56NwtG12gjL_vRKOpHcpg
+
+3. Z Research｜当AI向太空迁徙：全球太空算力竞赛与产业图谱
+报告的核心判断是：限制 AI 算力继续增长的已经不只是 GPU，而是电力、土地、电网容量和散热——一个 GW 级数据中心从选址供电到并网往往要数年。太空因此进入视野：轨道可持续获取太阳能、不受土地电网约束，遥感通信数据本就产生于太空、可在轨处理减少回传。让设想走向现实的是三件基础设施同步成熟——可复用火箭把近地轨道发射成本压到 Falcon 9 约 2700 美元/公斤（Starship 目标 100-200 美元/公斤）、星载 AI 芯片让卫星从&quot;采集回传&quot;走向&quot;在轨计算&quot;、Starlink 验证了大规模组网。美国最快：NASA 相关空间计算预算从 2023 财年 7690 万美元增至 2025 财年 2.25 亿美元，Starcloud 已于 2026 年发射搭载 NVIDIA H100 的轨道数据中心。
+🔗 https://mp.weixin.qq.com/s/1OkZfHgG1-eWCS5jR3LF3g
+
+4. 聊近期 Agent 模型，以及我的选用建议
+作者把 Chat Memo 的 Agent 端 0-1 全交给 AI 写、自己只做想法和审查，借此实测了 Fable 5、GPT 5.6 Sol、DeepSeek V4、Kimi K3、Qwen3.8-Max 等一线模型。结论偏体感但具体：Fable 5 最值得信赖，不会被用户提示推着走、常给意料外但论证严密的方案，尤其擅长按用户画像设计前端、按第一性原理给干净的后端架构，1M 上下文腐烂控制得好；Opus 4.8 适合已有模块的修补；GPT 5.6 Sol 是新宠、指令遵循和 Skill 触发极稳、额度便宜大碗（Pro 周约 10 亿 token），但太听话、容易钻进你最初的提示方向和现有代码架构、给不出让人醒悟的启发。
+🔗 https://mp.weixin.qq.com/s/M-iLX9qsAYGqnZhOFCsDDg
+
+5. Macaron-V1：RL，让 GLM5.2 再次伟大
+NeoLab 里的 MindLab（成立于去年 12 月）发布 Macaron V1，号称是唯一完成对 GLM-5.1/5.2 后训练的外部团队。技术路线是只训练现有模型约 0.5% 的核心参数（LoRA），并独创 Mixture-of-LoRA（MoL）：在冻结基座上挂多个各自专精 Chat/Agent/Coding/UI 的 LoRA 专家、隔离优化以消除能力互扰，由显式 Router 切换，加新能力只需再挂一个 LoRA。旗舰 Venti 基于 GLM-5.2（748B），并用自研 LongStraw 把上下文扩到 2M；配套还有生成式 UI 架构 UI4A、持久 Python 环境 REPL Harness，以及只在 Actor/Learner 间传 Adapter、支持百万级 Adapter 的 MinT 训练平台。
+🔗 https://mp.weixin.qq.com/s/ciZ_E-aEN3DY6XUfyIjwsw
+
+📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-07-22.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #648 | 2026-07-20</title>
       <link>https://news.justin7974.dev/2026-07-20.html</link>
@@ -1280,76 +1350,6 @@ FaceMind 创始人 Adam Lu（帝国理工本硕、港中文 PhD、MSRA 实习）
 🔗 https://mp.weixin.qq.com/s/IzA_tMntpZhBc6naL9zUSw
 
 📖 查看完整日报（46 篇）→ https://news.justin7974.dev/2026-07-02.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #629 | 2026-07-01</title>
-      <link>https://news.justin7974.dev/2026-07-01.html</link>
-      <guid>https://news.justin7974.dev/2026-07-01.html</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 15 条推文 · 6 篇公众号
-
-📰 RSS 精选（5 / 12）
-
-1. Claude Sonnet 5 成为 Claude Code 默认模型，促销价 $2/$10
-Anthropic 发布 Claude Sonnet 5，即日起成为 Claude Code 默认模型，原生 1M token 上下文窗口。8 月 31 日前促销定价 $2/$10 每百万 token（输入/输出）。官方定位为&quot;迄今最具 agent 能力的 Sonnet&quot;，主打接近 Opus 4.8 的性能、Sonnet 档的价格。
-🔗 https://github.com/anthropics/claude-code/releases/tag/v2.1.197
-
-2. Lenny 用 64 次盲测评 Sonnet 5：Opus 级能力，但没到最强
-Claire Vo 用自建的&quot;How I AI Bench&quot;对 Sonnet 5 跑了 64 次盲测，覆盖 PRD 撰写、bug 修复、设计一次成型、agent 语音。结论：Sonnet 5 接近 Opus 4.8 但更便宜，SweBench Pro agentic coding 得 69%、Terminal Bench 2.1 得 82%，略低于 Opus，但差距小到&quot;大多数人不会察觉&quot;。
-🔗 https://www.lennysnewsletter.com/p/sonnet-5-review-i-ran-64-generations
-
-3. Ed Zitron：AI 产业正在输——连 BIS 都开始警告 capex 泡沫
-国际清算银行（BIS）年报指出：五大 hyperscaler 在 2025–2026 年的 AI 相关资本开支将超 1 万亿美元，已超过其盈利和自由现金流，部分公司靠发债融资。BIS 警告，若回报不及预期，capex 繁荣可能逆转为长期投资萧条，并沿供应链传导。Zitron 借此重申&quot;系统性风险&quot;论——OpenAI 一旦失速，将连锁冲击 NVIDIA、Oracle、微软和 CoreWeave 等 Neocloud。
-🔗 https://www.wheresyoured.at/the-ai-industry-is-losing/
-
-4. Latent Space：本地 AI 正在快速追上，开源与闭源差距在收窄
-在 AI Engineer World&apos;s Fair 上，Osmantic 创始人 Ahmad Osman 主张本地 AI（在自己的电脑、工作站或专用硬件上跑模型）正快速逼近前沿。核心论据是开源 LLM 正成为可信替代品，&quot;开源与闭源前沿模型的差距持续缩小&quot;。他的两场工作坊听众从买第一台 AI 电脑的学生，到考虑模型路由、私有基础设施的企业高管都有。
-🔗 https://www.latent.space/p/ahmad-osman-local-ai
-
-5. HuggingFace：为什么&quot;专业化&quot;不可避免——LeCun 等人的收敛论证
-文章解读 Goldfeder、LeCun、Shwartz-Ziv 等 2026 年论文《AI Must Embrace Specialization》。核心论点：优化理论、进化生物学、竞争市场、机器学习四个领域给出同一个答案——算法靠贴合目标而胜出，规模扩张不改变这一点。这直接反驳&quot;越强越通用&quot;的主流预期，主张专业化是有效 AI 系统的定义性原则。
-🔗 https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable
-
-🐦 Twitter 精选（5 / 15）
-
-1. @cursor_ai：Claude Sonnet 5 已上线 Cursor。在 CursorBench 上从 Sonnet 4.6 的 49% 提升到 57%，是一次实打实的进步。
-🔗 https://x.com/cursor_ai/status/2072020786181988418
-
-2. @shao__meng：美团发布 LongCat-2.0：1.6T 参数 MoE、激活 48B、1M 上下文，用 5–6 万张国产加速卡训练，训练推理全程零英伟达依赖，定位 Agent 加 Coding 优先。
-🔗 https://x.com/shao__meng/status/2071808848089002399
-
-3. @Hesamation：Google 发布 Gemini Omni Flash，尤其擅长视频编辑，定价 $0.1/秒视频输出。
-🔗 https://x.com/Hesamation/status/2072011610802077782
-
-4. @_akhaliq：OSWorld 2.0 发布：针对长时程真实世界任务，评测计算机操作类（computer use）agent 的基准。
-🔗 https://x.com/_akhaliq/status/2071994664673071196
-
-5. @emollick：LLM 最反常识的一点是它极其通用：一个更擅长编码的更大模型，同时也更擅长创意、伦理建议、医学和数学——虽有&quot;锯齿状&quot;例外（比如小说写作），但这个规律惊人地稳定。
-🔗 https://x.com/emollick/status/2071771186569306422
-
-📱 公众号精选（5 / 6）
-
-1. AI 赢家通吃结束了：模型从来不是你的护城河
-Foundation Capital 企业级投资人 Ashu Garg（早期投过 Databricks、Turing）判断：AGI 的赢家通吃时代已经结束，牌桌上从&quot;一个王&quot;变成四个势均力敌的玩家——OpenAI（消费者覆盖最大）、Anthropic（当下最好的模型和 harness）、Google（钱、IP、人才最多）、xAI（算力管够）。后面还跟着中国的开源玩家：DeepSeek 最新模型在 SWE-bench 上与 Opus 只差一根头发，价格约 1/30，最便宜的开源部署可压到 1/100。
-🔗 https://mp.weixin.qq.com/s/aJyJbeqEgATLWz59g2iztA
-
-2. Meta 限制员工使用 Claude Code 和 Codex，避免无意识蒸馏
-据《The Information》，Meta 对其&quot;应用型 AI 工程&quot;部门使用 Anthropic Claude Code 和 OpenAI Codex 施加严格限制。一份五月起草、仍在生效的内部备忘录甚至暂停了部分任务，理由是担心这些外部模型的输出渗入 Meta 自研 MetaCode 的训练数据，可能违反使用协议并引发&quot;与合作公司的严重升级&quot;。而 Meta 一直是 Claude Code 的最大客户之一。
-🔗 https://mp.weixin.qq.com/s/C8MyWJr23TCP6WDqI_ZMwg
-
-3. 空中云汇 Airwallex 3.2 亿美元 H 轮落定，估值 110 亿美元
-全球金融科技平台 Airwallex 空中云汇完成 3.2 亿美元 H 轮融资，投后估值 110 亿美元，由 Lee Fixel 的 Addition 领投，Baillie Gifford、QED、T.Rowe Price 等跟投。距上一轮（2025 年 12 月 3.3 亿美元 G 轮、估值 80 亿）仅隔半年多，估值涨约 40%，本轮同步首发两款 AI 产品。
-🔗 https://mp.weixin.qq.com/s/FMj-SzSmUwW7x-su-KqKag
-
-4. OpenAI 的反思：PRD 没死，PM 别砍
-OpenAI Codex 产品和工程负责人 Andrew Ambrosino 在 Lenny 播客上给&quot;AI Native 组织&quot;热潮泼冷水。Codex 团队内部接近 100% 的人每周用 Codex、周活 500 万还在涨，但他明确反对&quot;文档已死&quot;和&quot;砍掉 PM 全员 builder&quot;：问题不是文档还是原型，而是有没有为要表达的东西选对媒介；砍掉 PM 等于把整个学科积累的最佳实践全扔掉。
-🔗 https://mp.weixin.qq.com/s/lEiDmqDeQVX2QrARD6goHw
-
-5. X 终于有 MCP 了，个人数据每次调用仅 $0.01
-Twitter/X 上线官方 MCP，可让 AI 自动整理、总结和分析你自己的 X 数据；需注册 X API 按量付费，个人数据调用有优惠（$0.01/次，1 美元约调 1000 次），作者拉取三天书签仅花了 $0.1。
-🔗 https://mp.weixin.qq.com/s/C3IjvlViD8B1lzKTah_qGw
-
-📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-07-01.html</description>
     </item>
   </channel>
 </rss>
