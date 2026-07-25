@@ -5,8 +5,56 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 24 Jul 2026 02:39:06 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 00:15:21 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #653 | 2026-07-25</title>
+      <link>https://news.justin7974.dev/2026-07-25.html</link>
+      <guid>https://news.justin7974.dev/2026-07-25.html</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <description>今日共 0 篇 RSS · 15 条推文 · 8 篇公众号
+
+🐦 Twitter 精选（5 / 15）
+
+1. @cursor_ai：Claude Opus 5 已上线 Cursor，在 CursorBench 默认档以 66.7 对 66.5 追平 Fable 5，价格只有一半，且与 Fable 不同，它兼容零数据保留（ZDR）。
+🔗 https://x.com/cursor_ai/status/2080700479940759919
+
+2. @bcherny：相比各项跑分，Anthropic 更看重的是 Opus 5 是其迄今最难被 prompt injection 攻破的模型；叠加模型对齐、注入探针与 Claude Code 的 Auto Mode 多层防御后，注入成功率进一步大幅下降。
+🔗 https://x.com/bcherny/status/2080713091688583312
+
+3. @emollick：提前试用 Opus 5 的评价：短任务上能追平甚至超过 Fable，但长任务显得不够进取、交付的完整度不如 Fable，是个强但有点怪的模型。
+🔗 https://x.com/emollick/status/2080709278441033746
+
+4. @shao__meng：Black Forest Labs 发布 FLUX 3，定位不是文生图/视频而是&quot;真实世界模型&quot;：把图像、视频、音频放进同一套多模态 flow 架构学习世界如何运作，同一底座同时接内容生成与具身/动作预测，分 Video、Image、Action 三条线。
+🔗 https://x.com/shao__meng/status/2080499451576377388
+
+5. @shao__meng：Together 团队在 DeepSWE 基准上对比 Kimi K3 max 与 GPT-5.6 Sol max：单次 pass@1 GPT 略胜（72.7% vs 68.5%），但 pass@2、pass@4 Kimi 反超（89.4%），且更便宜（每 100 美元多解约三倍题目），结论是各有所长、路由+级联更优。
+🔗 https://x.com/shao__meng/status/2080479086481437178
+
+📱 公众号精选（5 / 8）
+
+1. 速递｜估值超百亿美金、红杉领投：AI 推理芯片 Etched 完成 3 亿美元融资
+Etched 完成 3 亿美元 C 轮，估值 103 亿美元，约七个月内从 50 亿翻倍，公司称这是红杉领投的 C 轮里估值最高的一笔，a16z、SK Hynix、Jane Street 及 Peter Thiel、Karpathy 等跟投。三位哈佛辍学生 2022 年创立，专注为 Transformer 架构打造专用推理芯片，芯片已在台积电量产、拿下 10 亿美元订单。其架构从零设计了&quot;低电压 prefill 芯片&quot;与&quot;集群级内存互连&quot;，分别攻推理的预填充与解码两个阶段；创始人强调整套系统可跑任意模型（含 MoE、Mamba），并非只为单一 LLM 定制。
+🔗 https://mp.weixin.qq.com/s/B5yTS5EeDKlW0j5Bgshjkg
+
+2. 深度｜三个月连融 21 亿，智象未来凭何闯入 AI 独角兽俱乐部？
+多模态公司智象未来（HiDream.ai）完成 15 亿元 C 轮，三个月累计融资超 21 亿元，投后估值突破 10 亿美元跻身独角兽；社保基金四川振兴科创基金领投，上影股份、华策影视等影视产业资本入局。其 HiDream-O1-Image-1.5 在 Artificial Analysis 开源图像模型榜列全球第一，闭源模型全球第三、中国第一，超过字节跳动 Seedream 4.0。公司已完成股改、更名为股份有限公司，IPO 路径逐渐清晰，并发布号称&quot;无限时长&quot;、成片可用率 85% 的创作智能体 vivago R1。
+🔗 https://mp.weixin.qq.com/s/qPJPf3ns5e1N8KSUl69HqQ
+
+3. 深度｜Vivix 灵动时刻发布首个实时互动模型：统一多模态参考、交互与流式生成
+Vivix 发布两款约 30B 激活参数的实时互动模型 A1（全双工数字角色）与 W1（互动叙事），主打&quot;边生成边接受用户输入&quot;的因果生成，而非请求-响应式的半双工。团队自建了覆盖 2-step 蒸馏（MJD）、面向 Blackwell NVFP4 的&quot;训练即量化&quot;、以及解耦编解码的 VMI 推理引擎的完整技术栈，在消费级显卡上实现首帧 &lt;0.6 秒、端到端 &lt;1.7 秒、原生打断 300–900 毫秒、实时生成成本低于每小时 1 美元。A1 已上线 API，W1 以 Demo 形式展示。
+🔗 https://mp.weixin.qq.com/s/oZl3DgJMi9eVlCHyFrzJag
+
+4. 对话姚颂：不想 boring，那就继续开心地 suffering
+晚点专访姚颂：2018 年他 26 岁以 3 亿美元卖掉 AI 芯片公司深鉴，之后参与创立商业航天公司东方空间，去年下半年第三次创业成立正行创新（Striding AI），以&quot;物理 AI&quot;切入通用机器人——他强调物理 AI 要加多机协作、路径规划与远程兜底，不等于只做本体的&quot;具身智能&quot;。他自述创业有两条线：做对人类真正重要的事（能源航天、个体健康、社会效率），以及看着一个技术原点变成被很多人用起来的产品；并通过 SEE Fund 天使投资了银河通用、星海图、破壳等一批清华系具身公司。
+🔗 https://mp.weixin.qq.com/s/f1Qtg73wp5uxkqfy1rtAig
+
+5. AI 都用三年了，失业率为什么一点没涨？Anthropic 内部给了答案
+Anthropic 经济研究负责人 Peter McCrory 撰文回应&quot;AI 用了三年为何失业率没涨&quot;：美国 6 月失业率 4.2% 仍是充分就业，黄金年龄段就业率、初请失业金、裁员率均无异常。他认为并非&quot;为时尚早&quot;——约 20% 的美国企业已在至少一项职能上用 AI（信息业达 40%），质量调整后的 AI 产出 2024、2025 两年增速均超 2000%。核心论证是企业招聘本就基于对未来价值的贴现判断，若真信岗位两年后被替代，今天的离职/裁员/招聘数据就该反映，但增速最猛的软件工程招聘反而自 2025 年 5 月回升。唯一的弱信号，是高 AI 暴露岗位上年轻工人的招聘率在走弱。
+🔗 https://mp.weixin.qq.com/s/9rliGyY1mbOrscynmqIXoA
+
+📖 查看完整日报（23 篇）→ https://news.justin7974.dev/2026-07-25.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #652 | 2026-07-24</title>
       <link>https://news.justin7974.dev/2026-07-24.html</link>
@@ -1258,76 +1306,6 @@ Iwo Kadziela 在 Codex 协助下用 445 字节数据生成了一张相当像样�
 🔗 https://mp.weixin.qq.com/s/ZzER8-IyjzsI-3Pg80piFA
 
 📖 查看完整日报（29 篇）→ https://news.justin7974.dev/2026-07-05.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #632 | 2026-07-04</title>
-      <link>https://news.justin7974.dev/2026-07-04.html</link>
-      <guid>https://news.justin7974.dev/2026-07-04.html</guid>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 27 条推文 · 10 篇公众号
-
-📰 RSS 精选（5 / 12）
-
-1. Vercel&apos;s Andrew Qu on why agents are a new kind of software
-Vercel 首席软件官 Andrew Qu 复盘其 agent 框架 eve 的由来：团队做 vibe-coding 产品 v0 时踩了一堆现成工具解决不了的坑——切换模型/供应商、加 fallback、让 agent 运行可恢复（resumable），于是把解法沉淀成可复用的 primitives，最终组装成 eve。他提出 agent 是一种&quot;新软件形态&quot;，filesystem agent、skills、compaction、subagent 这些一年前要自己摸索的最佳实践，正变成开箱即用的框架能力。Qu 还在推 skills.sh（让 agent skill 更易发现复用）和&quot;agent 可读网站&quot;的概念，认为 Vercel 自己也在&quot;变成一个 agent&quot;。
-🔗 https://www.latent.space/p/vercel-agents-new-software
-
-2. AIEWF Daily Dispatch: The great loops debate and the state of AI engineering
-AI Engineer World&apos;s Fair 最后一天以一场&quot;loops 之争&quot;收尾，正好折射整场大会的核心分歧：自主软件工厂现在可行吗，还是工程纪律跟不上野心？挺 loops 的 Geoffrey Huntley（Ralph Loop 作者）和 Keycard CEO 说 loops 已成定局、&quot;我不会再回去手写代码&quot;，验证性才是关键；质疑方 HumanLayer 的 Dex Horthy 反驳&quot;炒作跑在纪律前面&quot;，认为该往下降一个抽象层而非往上升，Subroutine 的 Greg Pstrucha 则质疑 agentic loop 的经济可持续性——&quot;你没法靠买更多 token 把问题编排掉&quot;。Huntley 用了个金句：现在工程师像&quot;火车司机，工作是让机车不脱轨&quot;。
-🔗 https://www.latent.space/p/aiewf-daily-dispatch-locomotives
-
-3. Quoting Josh W. Comeau
-前端名师 Josh W. Comeau 自述第三门课《Whimsical Animations》销量只有以往一次发布的三分之一，两门老课也同样惨淡、营收同比降 50%+，他把主因归给 AI：一是很多人怀疑开发者岗位还能不能存在几个月，不愿再花钱学新技能；二是就算想学，LLM 能提供个性化辅导，付费课程的动力被抽走。他还提到 LLM&quot;未经同意也不付报酬地吞掉并反刍&quot;创作者的作品。多位课程作者证实看到同样趋势。
-🔗 https://simonwillison.net/2026/Jul/3/josh-w-comeau/
-
-4. America: The Next 250 Years
-a16z 的 David Ulevitch 为 America Dynamism 峰会写的纲领性长文。核心数据触目：美国曾在 64 项最关键技术中领先 60 项，如今几乎全部丢掉——中国领先 57 项，美国只剩 7 项。他把 a16z 四年前设 American Dynamism 基金的背景描述为&quot;华盛顿与硅谷长期交恶、离岸外包与监管惰性掏空工业基础、Magnificent Seven 垄断了几乎全部市场回报&quot;，SpaceX、Palantir 当年连竞标政府合同的资格都要力争。文章强调 American Dynamism 不止于国防，而是覆盖电池、电机、化学、材料、采矿的整个&quot;电力-工业栈&quot;。
-🔗 https://www.a16z.news/p/america-250
-
-5. Claude&apos;s Criminally Bad Electron Mac App Is an Inside Job
-John Gruber 追问一个反差：为什么 AI 编码最强的公司之一 Anthropic，自家 Claude Mac 客户端却是个又慢又臃肿的 Electron&quot;废物&quot;。他给出的答案是&quot;内部人作祟&quot;——负责的正是 Electron 的联合创始人兼共有者 Felix Rieseberg，&quot;就像发现大楼里所有螺丝都被锤进墙里，然后查出监工是全球最大锤子厂的老板&quot;。Gruber 引用 Drew Breunig 的诘问：如果 Claude Code 真能按 spec 把原生代码 ship 到各平台，为什么 Anthropic 自己还在用 Electron？
-🔗 https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job
-
-🐦 Twitter 精选（5 / 27）
-
-1. @shao__meng：阿里巴巴官宣内部全面禁用 Claude Code，作者发问：国内其他大厂会不会跟进？
-🔗 https://x.com/shao__meng/status/2072980260048765431
-
-2. @Hesamation：据 Arena 数据，解禁后的 Fable 5 模型本身并未被削弱（NOT nerfed）；但在部分情况下请求仍可能被 rerouting 到 Opus 4.8，用户对此反馈不一。
-🔗 https://x.com/Hesamation/status/2073020685182488711
-
-3. @rileybrown：连用 Fable 多天后感觉它和几周前几乎是同一个模型，察觉不到明显差别——侧面反驳&quot;被削弱&quot;的说法。
-🔗 https://x.com/rileybrown/status/2072868320823394401
-
-4. @gregisenberg：提醒：Fable 5 免费包含仅到 7 月 7 日，之后转按量付费（每百万 token 输入 10 美元/输出 50 美元），是 Anthropic 最贵的模型；且它消耗额度约为 Opus 的 2 倍、最多只能用到每周额度的 50%。
-🔗 https://x.com/gregisenberg/status/2073103521981882861
-
-5. @_akhaliq：分享论文《Program-as-Weights：一种面向模糊函数（fuzzy functions）的编程范式》。
-🔗 https://x.com/_akhaliq/status/2073110969853641163
-
-📱 公众号精选（5 / 10）
-
-1. 当「专业判断」变得几乎免费，你手里还剩下什么
-对 Chamath Palihapitiya 新长文《大下沉》（The Great Descent）的解读。核心论点：继互联网把&quot;信息/知识&quot;的成本打到零之后，AI 正把&quot;专业判断&quot;也变成几乎免费——而后者量级大得多，过去需要执照、事务所、多年训练才能获得的专家判断，即将人人零成本随时召唤。作者用手机的下沉曲线类比，并指出智能比手机快一倍，是因为它同时吃两条下降曲线：硬件越来越便宜 + 模型本身越来越高效。最扎心的题眼是&quot;如果所有人都从同一个供应商租来同一个智能，那就没有人有优势&quot;——通用能力会白菜化，真正的护城河是那些被硬编码进日常运营、藏在老员工脑子里的隐性专属知识。
-🔗 https://mp.weixin.qq.com/s/wrwJD3PzI6BAW91PXk12Gw
-
-2. 你盯着万亿美金的模型大战，可能盯错了那一层
-解读 USV 合伙人 Nick Grossman 的长文《反抗军联盟》（The Rebel Alliance）。他把主流打法称为&quot;肥模型&quot;（Fat Models，模型/API/编排/agent/产品全自己做，OpenAI、Anthropic 各近万亿、谷歌破 4 万亿都在下这个注），但用 IBM 被 PC 拆、微软被 web 拆、苹果被安卓拆、AWS 上长出一批百亿公司的历史，赌 agentic 这一层会重演&quot;一体化赢家最终被上层拆成零件&quot;。他把&quot;模型周围那一圈&quot;拆成正在疯狂招人的几层：编排（Orchestration）、骨架（Harness，如 Claude Code 这类 CLI）、记忆（Memory）、给 agent 用的浏览器/入口、路由、身份与支付，并抛出一个数字：写作时 agent 产生的网络流量已首次历史性超过人类。
-🔗 https://mp.weixin.qq.com/s/hYPLWUr9xHOTsTYuupeeGA
-
-3. 对谈长安智驾陶吉：一段式端到端没有捷径，只有&quot;边开车边换轮子&quot;
-长安汽车首席智驾官陶吉透露，全行业真正量产&quot;一段式端到端&quot;（传感器直接到驾驶行为的一体化模型）的车企和供应商&quot;不到一只手&quot;，长安将在下半年量产，并已把端到端列为智能化未来战略、计划投入百亿研发。作为追赶者，陶吉三年前拒掉具身智能创业融资加入长安（因为自动驾驶仍是实现物理 AI 最快的领域），把团队从 500 人扩到 1500 人、发起&quot;AI 基石计划&quot;和&quot;1:4:N&quot;人才结构。他强调没有捷径：2025 年一季度并行测试一段式和两段式后，才选了基建要求更高、上限也更高的前者；对 VLA 也保持&quot;没被验证超过端到端就不盲目投入&quot;的克制。
-🔗 https://mp.weixin.qq.com/s/_IzQnksKBMzzqHdh7hkeCQ
-
-4. 成立三年，营收超 256 亿元，阿维塔计划赴港 IPO
-阿维塔（长安控股、华为与宁德时代深度参与）6 月 30 日更新递交港交所主板上市申请。三年多时间年销量从 0 冲到 12.3 万辆（2025 年增速 99.2%），2023-2025 营收从 56.5 亿增至 256.3 亿元、年复合增长 113%，毛利率从 −3% 转正至 9.4%，经营现金流转正至 23.2 亿元。其轻资产模式突出：不自建工厂、依托长安制造，3978 名员工（55% 做研发）撑起 256 亿收入，销售费用率三年从 40.8% 降到 12.8%；海外已进 43 国、当地业务已盈利。
-🔗 https://mp.weixin.qq.com/s/yf3ePMHYWtBq9MYvbdsAeg
-
-5. 速递｜NVIDIA参投，开源AI云Together AI融资8亿美元，估值83亿美元，模型使用量一年增三倍
-开源 AI 云（neocloud）Together AI 完成 8 亿美元 C 轮、估值 83 亿美元，Aramco Ventures 领投，Vista、General Catalyst、NVIDIA 等参投；16 个月前 B 轮估值还是 33 亿。公司称截至上季度年度预订额已超 11.5 亿美元，付费客户含 Cursor、Cognition、Decagon。背景是企业越来越多用&quot;能力够用但远比封闭前沿模型便宜&quot;的开源模型，推动过去一年行业开源模型用量增长三倍；同类 neocloud（TensorWave、Upscale AI）近期也密集融资。
-🔗 https://mp.weixin.qq.com/s/k1dZkvb-e0B5K-P3fpIKZw
-
-📖 查看完整日报（49 篇）→ https://news.justin7974.dev/2026-07-04.html</description>
     </item>
   </channel>
 </rss>
