@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 26 Jul 2026 00:14:43 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 00:15:41 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #655 | 2026-07-27</title>
+      <link>https://news.justin7974.dev/2026-07-27.html</link>
+      <guid>https://news.justin7974.dev/2026-07-27.html</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <description>今日共 8 篇 RSS · 26 条推文 · 5 篇公众号
+
+📰 RSS 精选（5 / 8）
+
+1. Anthropic 首位技术 PM Dianne Penn 谈 token maxing 与&quot;锯齿状&quot;能力边界
+Dianne Penn 是 Anthropic 第一位技术产品经理，2023 年加入时整个产品团队只有 5 个工程师，此后她参与了从 Claude 2 到 Fable 的每一代模型，并孵化了 Claude Code、MCP、Skills、computer use、tool use 和 reasoning。这期 Lenny 播客里，她复盘了把 Anthropic 从 underdog 变成&quot;史上增长最快公司&quot;的几个拐点：向 coding 的重注、团队自创的 eval-driven development（评测驱动开发）循环、以及&quot;coding 被解决之后做什么&quot;。她特别强调，Claude 愿意 push back（反驳用户而非一味顺从）是它成功的关键，同时点出人类判断力仍不可替代的边界在哪。
+🔗 https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on
+
+2. 深挖为 token 二道贩子和欺诈供血的&quot;中转市场&quot;
+Matt Lenhard 的调查揭开了一个靠倒卖 LLM token 生长起来的地下市场，且主要集中在中国。中转商（reseller）以远低于官方 API 的价格售卖对某个 LLM 代理的访问权，手段包括滥用免费试用额度、通过没有防护的客服 bot 转发请求，乃至盗刷信用卡和发起 chargeback。他们用的代理软件是开源的 one-api 及其更活跃的分叉 new-api——本是合法的 API 负载均衡工具。买家图的是便宜 token、绕过地域限制，其中一部分则是为了采集数据做模型蒸馏。Simon Willison 由此呼吁 LLM 厂商必须提供严格的按额度熔断：花到设定金额就立即停用。
+🔗 https://simonwillison.net/2026/Jul/26/relay-market/
+
+3. 前英特尔首席科学家做端侧具身大脑，「眸深智能」近亿元 Pre-A 追加融资
+「眸深智能」（Motion Brain）完成近亿元 Pre-A 轮追加融资——这是继 5 月 3 亿元 Pre-A 之后两个月内再获投资，另有近 5 亿元 Pre-A+ 轮正在交割，公司称半年估值增长超 10 倍。团队由复旦大学深度学习实验室主任陈涛、原英特尔中国首席科学家张益民与连续创业者穆泽林共同创办，走的是与主流 VLA 不同的&quot;世界动作模型&quot;（World Motion Model）路线：用&quot;80% 互联网视频 +10% 动捕 +10% 真机数据&quot;的配方，把最贵的真机数据需求降低约 90%。通过模型压缩与国产芯片（海思昇腾、地平线、燧原）适配，端侧推理成本从 20 万元压到 1 万元。2026 上半年营收 3000 万元、预计全年 5000 万元以上，是国内少数已有营收的具身大脑公司；英伟达最新 ARDY 模型还引用了其 MLD 与 MotionGPT 两项技术。
+🔗 https://36kr.com/p/3911162147640456
+
+4. 报道称英伟达正就为 OpenAI 数据中心提供 2500 亿美元担保进行磋商
+据报道，知情人士称英伟达正在洽谈提供约 2500 亿美元的担保，以帮助 OpenAI 从软银正在俄亥俄州开发的 10 吉瓦数据中心枢纽租赁算力。软银创始人孙正义曾表示，该项目成本可能高达约 5000 亿美元。目前交易仍处于磋商阶段，尚未落定。
+🔗 https://36kr.com/newsflashes/3913110255359105
+
+5. 本周数据泄露盘点：澳洲 Origin Energy 事件
+Troy Hunt 复盘澳洲 Origin Energy 泄露事件：公司对外强调&quot;信用卡没事&quot;，黑客称&quot;上报无人理会&quot;，双方最终&quot;达成协议&quot;（或付了赎金、或换取删数据承诺），但都无法保证数据真被销毁，只能按&quot;迟早会泄&quot;的假设去应对。
+🔗 https://www.troyhunt.com/weekly-update-514/
+
+🐦 Twitter 精选（5 / 26）
+
+1. @emollick：他周四刚写完&quot;该用哪些 AI 模型&quot;的指南，周五就得更新——Opus 5 和 Codex 的语音模式同天发布且都很重要。感叹即便是紧盯这个领域的人，也越来越跟不上迭代速度。
+🔗 https://x.com/emollick/status/2081475928086003869
+
+2. @emollick：Fable 帮他做了一个&quot;塞尚印象派城市建造&quot;游戏：AI 自己想出用手势作画、城镇随之生长、街区在演化中获得性格的玩法。展示了模型从&quot;写代码&quot;到&quot;提出创意设计&quot;的跃迁。
+🔗 https://x.com/emollick/status/2081261849543070181
+
+3. @hongming731：BestBlogs 07-27 早报精选：黄仁勋讲述打造 NVIDIA 的&quot;创始人心法&quot;（第一性原理、深入算法域、让组织围绕创始人长处演化）；以及一份 LLM-as-a-Judge 实战指南，梳理 pointwise/pairwise/rubric 三类判分法与位置、冗长、自偏好等失真来源，落点是拆分标准加人工金标集持续校准。
+🔗 https://x.com/hongming731/status/2081524986670723130
+
+4. @EXM7777：他认为 loop 和 graph engineering 虽是 buzzword，但不用就是大错。当年把 Anthropic Skills 接进工作流的人吃到了红利，但那已经不够了；现在跑得快的人靠的是循环和图——上一步的输出决定下一步做什么，让工作无需人工传递就持续推进。
+🔗 https://x.com/EXM7777/status/2081440162316439809
+
+5. @shao__meng：从 Prompt/Context 到 Loop/Graph Engineering，&quot;只用语言指挥 Agent、自己不读不改代码&quot;其实就是工程经理一直以来的工作方式——执行者从人类下属换成 AI Agent，但流程、职责、质量机制是同一套。质量问题仍要靠管理和流程解决，而非幻想 AI 不犯错。
+🔗 https://x.com/shao__meng/status/2081216459364331528
+
+📱 公众号精选（5 / 5）
+
+1. Applied Intuition 发布 Dana：被 Cruise 拒绝的工具商，九年后成为 150 亿美元的机器智能层
+7 月 21 日，Marc Andreessen 与 Erik Torenberg、Elena Burger 联名发表长文《Making a Billion Intelligent Machines》，为 Applied Intuition 当天发布的 Dana 平台作注，一天多阅读量破 28 万。文章真正的主角是一个九年前的少数派判断：2017 年自动驾驶行业共识是&quot;少数垂直整合公司将吃下整个市场&quot;，资本涌向全栈 robotaxi，每家都重复造几乎相同的内部工具。Applied Intuition 的提议是把这些最佳实践本身做成一家公司。头部 L4 玩家（包括 Cruise）当年直接拒绝了它。九年后对账：那批全栈明星多已凋零（Cruise 被通用收购后停摆），而这家被拒的工具商如今估值 150 亿美元。
+🔗 https://mp.weixin.qq.com/s/csGpYdMoK8Z0KesEltKk7w
+
+2. 生成侧狂奔，验证侧纹丝不动：AI 代码正在堆成一片没有压实的填土
+判断来自 Ando 创始人 Sara Du（哈佛辍学、Thiel Fellow，前一家 Alloy Automation 融资超 2700 万美元）：技术债过去按&quot;一个团队打字的速度&quot;累积，现在按&quot;模型推理的速度&quot;累积，两者差着数量级，且差距本身在复利——每一层生成物都成为下一层的地基。她现在做的 Ando 被描述为&quot;给 agent 化团队用的 Slack&quot;，等于指出问题的人正押注解决它。文章追问的下一层是：代码生成被 AI 拿走的同时，这笔债的偿还（验证/审查）机制是不是也被一起拿走了。作者还用旧金山一居室租金同比涨 21.9%、首破 4000 美元，给&quot;这轮繁荣的量级&quot;做锚。
+🔗 https://mp.weixin.qq.com/s/1EBvTm3yQjfCSvYcaIgbDw
+
+3. 晚点周末：琳朝珠宝马朝贤——没有时间加持，一切都是牛鬼蛇神
+晚点人物特写：兰州一家做极致手工中式黄金珠宝的品牌琳朝，代表作&quot;火镰&quot;一只约 15 万元、半天卖掉 600 个近亿元，却因一个月只能做几件而陷入&quot;爆单造不出来&quot;的困境；折射金价大涨背景下老铺黄金、中式珠宝对一线奢侈品的反超。
+🔗 https://mp.weixin.qq.com/s/V0PZT1iGTOlHtKabZEfvVw
+
+4. 实测 TRAE Work 高阶工作流：从 Prompt 到工作流
+一篇上手实测，用三个日常案例（自动日报、网页设计、研究分析）跑通字节 TRAE Work 的 AI 办公工作流，核心观点是&quot;零散 Prompt 收藏夹没用，能把动作串成完整工作流才让 AI 真正可用&quot;。内容偏产品体验、带一定推广色彩。
+🔗 https://mp.weixin.qq.com/s/RFeEZ3VxqxvmWu03_68KMg
+
+5. 一图看懂各种 AI 名词：《AGI 就在下一圈》
+宝玉AI 搬运翻译的一张信息图，用&quot;AGI 就在下一圈（赛道）&quot;的比喻串起各种 AI 名词与概念，适合快速厘清术语关系的入门科普。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/BzfaJmM6Zxj5Nk3Ou44mZw
+
+📖 查看完整日报（39 篇）→ https://news.justin7974.dev/2026-07-27.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #654 | 2026-07-26</title>
       <link>https://news.justin7974.dev/2026-07-26.html</link>
@@ -1248,76 +1318,6 @@ ElevenLabs 正与投资者洽谈让员工在二级市场售股，估值约 220 �
 🔗 https://mp.weixin.qq.com/s/CWmksiQ8Dpno8bDrbP6i7Q
 
 📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-07-07.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #634 | 2026-07-06</title>
-      <link>https://news.justin7974.dev/2026-07-06.html</link>
-      <guid>https://news.justin7974.dev/2026-07-06.html</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description>今日共 6 篇 RSS · 24 条推文 · 6 篇公众号
-
-📰 RSS 精选（5 / 6）
-
-1. sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)
-Simon Willison 趁 Max 订阅里的 Claude Fable 下线前，用它在手机上通过 Claude Code for web 完成了 sqlite-utils 4.0 稳定版发布前的最后审查与修复：37 轮 prompt、34 次 commit、跨 30 个文件 +1321/-190 行，总成本约 149 美元。Fable 开场就揪出 5 个&quot;发布拦截级&quot;缺陷，最严重的一个是 delete_where() 从不 commit、会污染连接并导致后续写入全部丢失的数据损坏 bug——这些他自己都没碰到过。他还提到越难的任务反而越适合 agent，因为 agent 需要 10-15 分钟自己 churn，人可以同时去干别的（他跑去看了独立日游行）。
-🔗 https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/
-
-2. Meta也来卖铲子了！小扎：模型可以慢，GPU必须赚
-据彭博社与 SemiAnalysis，Meta 正考虑推出 Meta Compute，把庞大的 AI 基建对外开放。仅 2026 上半年 Meta 就签下超 5GW 云与托管数据中心容量，2024 年至今累计接近 10GW。按 SpaceX 式高价算力租赁测算，每 GW 年收入约 500 亿美元，Meta 只要拿出 200MW 对外，就能带来约 100 亿美元的高利润收入。更关键的是 SemiAnalysis 判断 Meta 正与 Anthropic 进行最终谈判、以获取 Claude 私有实例，做类似 AWS Bedrock 的模型服务平台。消息一出 Meta 股价大涨近 9%，CoreWeave、Nebius 等 neocloud 公司遭抛售。
-🔗 https://www.qbitai.com/2026/07/443339.html
-
-3. 人形机器人产业再迎重要催化，资金持续借道ETF布局
-证监会 7 月 2 日同意宇树科技科创板 IPO 注册，人形机器人赛道再获催化；近一周十余只机器人 ETF 全部实现资金净流入，主题投资热度升温。
-🔗 https://36kr.com/newsflashes/3883389371904004?f=rss
-
-4. 小米前高管唐沐创业咖啡机器人，完成数亿融资，林斌、黎万强投过
-产品经理出身的唐沐创办的通用餐饮具身机器人「影智XBOT」连续完成两轮数亿元融资（A 轮 2 亿、B 轮 3-5 亿），是餐饮机器人领域规模最大的融资之一，天使轮股东含张小龙、林斌、黎万强、洪锋等。
-🔗 https://36kr.com/p/3882361033322755?f=rss
-
-5. Cursed circuits #5: capacitance multiplier
-硬件工程博客 Cursed circuits 系列第五篇，讲如何用晶体管加小电容组成&quot;电容倍增器&quot;来替代昂贵的大电容做电源滤波，属于省钱向的电路 trick 拆解。
-🔗 https://lcamtuf.substack.com/p/cursed-circuits-capacitance-multiplier
-
-🐦 Twitter 精选（5 / 24）
-
-1. @emollick：讨论中美 AI 竞争前该先说清在争什么：是争哪家公司靠 AI 赚钱、争科学声望与世界领导地位、争开源/闭源路线，还是争&quot;国家技术栈&quot;整包出海——大家默认的&quot;游戏规则&quot;其实各不相同，甚至有人根本不认为存在一场比赛。
-🔗 https://x.com/emollick/status/2073913246000787901
-
-2. @emollick：与 AI agent 协作越来越像做管理，或许该为 AI 时代搞大规模管理培训——二战时美国政府就干过一次，那套工程/科学/管理战时培训是战后繁荣的重要原因。
-🔗 https://x.com/emollick/status/2073852766427009329
-
-3. @Hesamation：连 Sam Altman 都困惑：ChatGPT 出来后教育几乎没变——他警告&quot;如果继续用前 AGI 时代的方式教学生，会导致批判性思维的萎缩&quot;。
-🔗 https://x.com/Hesamation/status/2073884828861071557
-
-4. @Hesamation：一句吐槽：Claude 已经把所有 SWE 实习岗都替掉了。
-🔗 https://x.com/Hesamation/status/2073882093398949973
-
-5. @Hesamation：&quot;SWE 已死&quot;的论调满天飞，但 Anthropic 正以 40 万美元年薪招软件工程师——现实和叙事的割裂很魔幻。
-🔗 https://x.com/Hesamation/status/2073729547128709381
-
-📱 公众号精选（5 / 6）
-
-1. 巨头的弃子、长鑫的产能，与一场超 5000 亿的价值重估
-兆易创新的股价在一年半内从周期底部的 55 元飙到 815 元、市值逼近 5700 亿元，年内涨超 200%——但这不是普通的存储周期上行，而是一次结构性价值重估。核心逻辑是三星、SK 海力士、美光为把产能让给毛利率 60%+ 的 HBM/DDR5，正战略性、不可逆地退出毛利率仅 20-30% 的利基 DRAM（DDR3、小容量 DDR4）：每生产 1GB HBM 消耗的晶圆面积是等容量 DDR5 的 3 倍、2028 年将达 4.3 倍，成熟制程产线被非线性挤占。兆易在国产利基 DRAM 份额第一（35.5%），叠加长鑫产能，成为巨头退场后最大的接棒者，2026 Q1 单季净利润（14.61 亿）已抵 2024 全年。
-🔗 https://mp.weixin.qq.com/s/ECFoiKBtzmt455qxXPk0DA
-
-2. 刚刚，美团 LongCat-2.0 开源，1.6万亿参数，纯国产卡训练
-美团开源 LongCat-2.0，1.6 万亿参数 MoE、动态激活 33-56B、原生百万 token 上下文，六项 Agent benchmark 整体排在 Claude、GPT 之后、与 Gemini 3.1 Pro 同档。最大看点是全程纯国产卡：训练峰值动用超 5 万张国产 AI ASIC（每张约 60GB 显存）、0 回滚，稳态日吞吐 1T tokens。为跨过国产卡的跨卡通信与确定性算子短板，团队自研了 ScMoE（让 Dense FFN 计算与 MoE 通信并行）、动态激活（用 128 个&quot;空专家&quot;让简单 token 少耗算力）、LongCat Sparse Attention 及高性能确定性算子。预览版曾以 Owl Alpha 匿名在 OpenRouter 跑到全球调用量前三。
-🔗 https://mp.weixin.qq.com/s/IDzJ4sqDw-DtJGQqI5OGZA
-
-3. 深度｜蓝色起源创始人贝索斯：人类真正的太空时代才刚刚开始
-贝索斯在 VivaTech 巴黎大会提出，今天的发射市场不是需求受限而是供给受限——LEO 通信星座、国家安全任务、轨道算力和月球资源都在持续推高发射需求。他把 Blue Origin 的使命定义为建设&quot;通往太空的重型基础设施&quot;，让其他公司在上面做出不可思议的事，类比亚马逊；并称真正难的不是造一台发动机或一枚火箭，而是造&quot;制造机器的机器&quot;，关键在可复用性、规模化制造与成本下降。他还断言 Blue Origin 会成为比亚马逊更伟大的公司。
-🔗 https://mp.weixin.qq.com/s/KtlSrJRxJ_Yv85h4gVkTUQ
-
-4. 同样用 Claude，有人写邮件，有人让它替客户跑完整个流程
-解读 yurshev《Claude Agent 实战手册》，核心是&quot;工具 vs 生意&quot;的分界——多数人用 Claude 只是写邮件快一点，少数人让它揣着目标自己跑完整个客户流程、只在需要拍板时才回来找人，后者才是把 AI 变成生意的活法。
-🔗 https://mp.weixin.qq.com/s/vRgymdlvsKJYT2jf-UGGGw
-
-5. 怎么让 ChatGPT 在别人搜你对手名字时，推荐你
-一个 GEO 实战案例：营销人 deno 面对山寨站霸占品牌词，不去&quot;保卫&quot;品牌而是反攻山寨货的整片关键词，12 个月把 EssayGrader 月访客从 3000 做到 77000（+2467%），示范了 AI 搜索时代的进攻打法。
-🔗 https://mp.weixin.qq.com/s/tHIKwRZmVggpLiiQeT3hOw
-
-📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-07-06.html</description>
     </item>
   </channel>
 </rss>
