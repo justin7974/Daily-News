@@ -5,8 +5,56 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 31 Jul 2026 00:16:34 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 00:17:28 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #660 | 2026-08-01</title>
+      <link>https://news.justin7974.dev/2026-08-01.html</link>
+      <guid>https://news.justin7974.dev/2026-08-01.html</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 25 条推文 · 0 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. [AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT-5.4 Intelligence dropped 13x in 4 months
+核心数字：四个月，同等智能的 token 价格降到约 1/13。OpenAI 披露 GPT-5.6 如何优化自身推理服务——用 GPT-5.6 Sol 自主分析生产流量、重写 Triton/Gluon kernel（端到端服务成本降 20%），自己设计并调试 speculative decoding 的 draft model（提效 15%+）。随后大幅降价：Luna 降 80%（$0.20/$1.20 每百万 token）、Terra 降 20%（$2/$12），Sol 新增 2.5x Fast 模式。最扎眼的对比是：三月旗舰 GPT-5.4 full（xhigh 得 51 分）今天由 Luna max 以约十三分之一的价格提供，折合年化约 2000x 的降本速度。
+🔗 https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80
+
+2. The Abrupt Fall of Situational Awareness Is a Warning Sign. So Is Nvidia&apos;s Vendor Financing.
+25 岁的 Leopold Aschenbrenner 的明星 AI 对冲基金 Situational Awareness，因追加保证金被迫把公开持仓打包卖给 Citadel。这只两年从数亿做到 200 多亿美元、峰值净值 450 亿的基金，栽在杠杆上：SanDisk、SK Hynix、CoreWeave 等核心仓虽仍高于一年前，但约 30% 的回撤叠加借钱加仓，直接触发流动性危机。文章把它和英伟达的&quot;供应商融资&quot;并列为同一种风险信号——本周英伟达向 Ilya 的 SSI 承诺 50 亿（多用于买英伟达设备），据报还在谈给 OpenAI 高达 2500 亿美元的贷款担保，16 个月内已投出 900 亿企业风投。作者点名：早年电信巨头 Lucent 正是被这套 vendor financing 拖垮。
+🔗 https://www.newcomer.co/p/the-abrupt-fall-of-situational-awareness
+
+3. Charts of the Week: Moar Machines
+一个供给侧的诚实温度计：数据中心龙头供应商 Vertiv Q2 增收 32.7 亿美元，却仍低于自家指引约 7600 万、低于街测约 1.2 亿，归因&quot;供应链拥堵和多阶段项目执行&quot;。美国普查数据显示，数据中心相关机械（HVAC、涡轮机）订单较上个十年近乎翻倍，HVAC 尤甚；计算机与电子产品的未交付订单 2023 年阶梯式跳升、近期再度陡峭上行。但 backlog ratio（积压/月出货）稳定在约六个月的高位——说明是需求持续跑在供给前面，而非供应链真的断裂。
+🔗 https://www.a16z.news/p/charts-of-the-week-moar-machines
+
+4. Premium: AI Is Getting Way Too Expensive
+Ed Zitron 的判断：泡沫吹得越久，AI 的基本经济账越难算平。他先拆穿&quot;AI 抢工作/提效&quot;叙事是转移视线——连 Anthropic 自己的经济学主管都承认&quot;失业率至今无实质上升&quot;。硬数字是：除 OpenAI 和 Anthropic 外，整个行业收入极小，即便最亲行业的 Exponential View 口径，全行业 TTM 收入也只有约 1100 亿美元，比 OpenAI 三月单轮融资（1220 亿）还少 120 亿，比 2026 Q1 所有 AI 创业公司合计融资额少 1450 亿。核心论点：泡沫拖得越久，建设和部署基建越贵，hyperscaler 和 neocloud 要盈利就得对算力收更高的价，而真正的大客户只有 OpenAI 和 Anthropic 两家。
+🔗 https://www.wheresyoured.at/premium-ai-is-getting-way-too-expensive/
+
+5. Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)
+MCP 2.0（2026-07-28 规范）落地，是 MCP 自 2024 年 11 月问世以来最重大的改动，核心是从&quot;有状态&quot;改为&quot;无状态&quot;：旧版要两次 HTTP 请求（先 initialize 拿 session-id、再调用），新版一次请求（把 method/name 放进 header）即可，服务端不再需要维护会话状态或做会话粘连路由。Simon Willison 说这让客户端和服务端实现都大幅简化、更适合做可扩展 Web 服务，一周内他自己就写了 mcp-explorer、datasette-mcp 等三个工具。他还给出一个反转判断：2025 下半年 MCP 一度被 Skills（终端+curl 即可替代大部分 MCP）盖过，但因为给 agent 直接开 shell 风险太大、又需要很强的模型才能驾驭，MCP 这种&quot;易审计、小模型也能用&quot;的工具形态重新变得有价值。
+🔗 https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything
+
+🐦 Twitter 精选（5 / 25）
+
+1. @shao__meng：DeepSeek-V4-Flash-0731 正式版经后训练发布，Agent 能力全面提升，Benchmark 全面超越自家 V4-Pro-Preview 和 GLM-5.2，DeepSWE 54.5 逼近 Claude Opus-4.8；官方还预告 DeepSeek Harness 即将发布。
+🔗 https://x.com/shao__meng/status/2083105073446756748
+
+2. @Hesamation：直呼新一轮 AI 定价疯狂：DeepSeek V4 Flash 近乎免费，Luna（max）降价 80% 后便宜到离谱、与 GLM 5.2 同级甚至压过 Terra(high) 和 Sol(low)，他已把自己的 Hermes 切换到 Luna Max 试用。
+🔗 https://x.com/Hesamation/status/2083299264185209317
+
+3. @shao__meng：GPT-5.6 全系降价提速——Luna 降 80%、Terra 降 20%、Sol 新增 2.5x Fast 模式；叠加 Auto-review 从 GPT-5.4 换到 5.6 Luna，预计自动代码评审成本约降 10 倍。
+🔗 https://x.com/shao__meng/status/2083006921691509036
+
+4. @_akhaliq：分享 Qwen-UI-Agent 技术报告，指向面向真实世界的下一代 GUI Agent 基础模型。
+🔗 https://x.com/_akhaliq/status/2083258008004354343
+
+5. @_akhaliq：分享论文 Explorative Modeling，提出解锁&quot;第三条预训练轴&quot;与端到端生成。
+🔗 https://x.com/_akhaliq/status/2083256759532019878
+
+📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-08-01.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #659 | 2026-07-31</title>
       <link>https://news.justin7974.dev/2026-07-31.html</link>
@@ -1248,54 +1296,6 @@ Bloomberg 的 Mark Gurman 补充了苹果与 OpenAI 人才战的新细节：苹�
 🔗 https://mp.weixin.qq.com/s/QK61rmL_DknIb5X52FfkVg
 
 📖 查看完整日报（29 篇）→ https://news.justin7974.dev/2026-07-12.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #639 | 2026-07-11</title>
-      <link>https://news.justin7974.dev/2026-07-11.html</link>
-      <guid>https://news.justin7974.dev/2026-07-11.html</guid>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
-      <description>今日共 11 篇 RSS · 24 条推文 · 0 篇公众号
-
-📰 RSS 精选（5 / 11）
-
-1. [AINews] OpenAI launches GPT 5.6 Sol/Terra/Luna, Codex becomes ChatGPT superapp
-OpenAI 把 Codex 和 ChatGPT Work 合并成一个桌面超级应用——latent.space 判断这是其&quot;超级应用战略的倒数第二步&quot;（最后一块拼图是 agentic 浏览器）。同日发布的 GPT-5.6 三档模型主打单位成本：Terra 略超 Fable 5、Luna 超过 Opus 4.8，都以约 1/3 的时间、约一半的输出 token、约 1/4 的成本做到，并在 Terminal-Bench 2.1、DeepSWE 上刷新 SOTA；新增的 ultra 档默认并行调度 4 个 agent。Meta 同日的 Muse Spark 1.1（首次进入 Meta Model API）在任何别的日子都够当头条，却被 OpenAI 的主线发布盖过。
-🔗 https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna
-
-2. Apple Sues OpenAI, io, and Former Employees, Alleging Theft of Trade Secrets
-苹果正式起诉 OpenAI、其硬件子公司 io Products 及两名前员工，指控他们为 OpenAI 窃取商业机密。被点名的 Tang Tan 曾是苹果产品设计副总裁（主导 iPhone 与 Apple Watch），2024 年 2 月离职追随 Jony Ive；Chang Liu 在苹果做了八年高级系统电气工程师，2026 年 1 月转投 OpenAI。OpenAI 的硬件业务正由前苹果首席设计官 Ive 领衔，去年以 65 亿美元收购 io、连带挖走 50 多名工程师。
-🔗 https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/
-
-3. Shocking No One, Fidji Simo, Would-Be Usurper, Is Out at OpenAI
-OpenAI 二号人物、应用业务负责人 Fidji Simo 将卸任全职职务，转为兼职顾问。据《华尔街日报》，她在周四给员工的信中说，长期病休期间病情恶化、康复周期远超预期。但 WSJ 的标题直接把她定性为&quot;未遂的篡位者&quot;（would-be usurper），暗示这次离场未必只是健康原因。（正文需订阅，本条基于 WSJ 摘要与 gift link 内容。）
-🔗 https://www.wsj.com/tech/openai-top-executive-fidji-simo-to-step-down-c3daca47?st=NfBZTe
-
-4. Premium: The Hater&apos;s Guide To The Memory Crisis
-一句话：AI 正在把所有消费电子的价格顶上去，源头是内存。Ed Zitron 拆了一笔账——一个 NVL72 GB300 机柜塞进 20.7TB HBM 和 17TB LPDDR5X，单柜光内存成本就约 38 万美元；一个 1GW 数据中心要近 5000 个这样的机柜，仅 HBM+LPDDR5X 一项就是 18.9 亿美元。更关键的是英伟达转向 LPDDR5X 后，一跃成为&quot;智能手机大厂级别&quot;的内存买家，而三星、SK 海力士、美光三寡头把产能优先让给高毛利的 HBM，消费级内存于是随便涨价。结果是 Steam Machine 比计划贵 30%、苹果上调 MacBook/iPad 售价、游戏主机集体涨价。
-🔗 https://www.wheresyoured.at/premium-the-haters-guide-to-the-memory-crisis/
-
-5. Political Risk &amp; Threat Analysis Expertise Are Hot Tickets in Silicon Valley as Trump &amp; AI Shake the World Order
-硅谷正在抢一批过去看不上的人：政治学者、外交官、地缘&quot;威胁分析师&quot;。Newcomer 的判断是，当 AI 冲击叠加特朗普式的对抗性经济政策（关税、投资、支付系统全面武器化），&quot;首席地缘经济官&quot;会像当年的首席隐私官一样逐渐成为标配；a16z 已经放下对民主党人的成见，把拜登政府前副国安顾问 Anne Neuberger 招为合伙人。同期看点还有 OpenAI、SpaceX、Meta 新模型掀起的价格战，以及头部 5% 创业公司种子轮估值进入平流层。
-🔗 https://www.newcomer.co/p/political-risk-and-threat-analysis
-
-🐦 Twitter 精选（5 / 24）
-
-1. @_akhaliq：生数科技发布 Vidu S1——一个主打实时、可交互的视频生成模型。
-🔗 https://x.com/_akhaliq/status/2075607448056893935
-
-2. @_akhaliq：新论文 OPSD-V：用在线策略自蒸馏做后训练，让少步自回归视频生成器更快更省。
-🔗 https://x.com/_akhaliq/status/2075607878405075110
-
-3. @Hesamation：称 GPT-5.6 Sol Ultra 调用 64 个子代理，在一小时内给出了一个悬置 50 年猜想的证明（系账号转述，需存疑）。
-🔗 https://x.com/Hesamation/status/2075728547369324832
-
-4. @Hesamation：指出 GPT-5.6 Luna 在 agentic 编码上以极低成本超过 Opus 4.8、逼近 Fable 5，但强调这是基准成绩、实战要打折。
-🔗 https://x.com/Hesamation/status/2075602206997258353
-
-5. @Hesamation：在一道研究级物理题上 GPT-5.6 明显超过 Fable 5，而 Grok 4.5 仅得 15.4 分、表现很差。
-🔗 https://x.com/Hesamation/status/2075510388049739833
-
-📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-07-11.html</description>
     </item>
   </channel>
 </rss>
