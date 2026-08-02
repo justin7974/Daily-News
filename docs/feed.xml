@@ -5,8 +5,56 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 01 Aug 2026 00:17:28 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 00:15:43 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #661 | 2026-08-02</title>
+      <link>https://news.justin7974.dev/2026-08-02.html</link>
+      <guid>https://news.justin7974.dev/2026-08-02.html</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <description>今日共 11 篇 RSS · 25 条推文 · 0 篇公众号
+
+📰 RSS 精选（5 / 11）
+
+1. Ten advances in mathematics and theoretical computer science
+OpenAI 用内部版本的下一代模型 Astra，在 10 个&quot;主结果十年无进展&quot;的数学与理论计算机科学难题上给出了新结果，涵盖 von Neumann 代数、球堆积等方向，并在 openai/ten-proofs 仓库公开了 Lean 4 形式化证明、论文，以及一份由模型&quot;复盘证明思路&quot;的 PDF。据 Noam Brown，按 GPT-5.6 Sol 的 token 价格，每道题花费不到 2000 美元。就在几天前，Anthropic 刚用 Claude 花约 10 万美元发现密码学弱点——两家几乎同时在&quot;AI 做真研究&quot;上秀肌肉。
+🔗 https://openai.com/index/ten-advances-in-mathematics
+
+2. [AINews] DeepSeek V4-Flash 0731：仅靠后训练的能力跃升
+DeepSeek 发布 V4-Flash 0731，架构与尺寸完全不变（仍是 284B 总参 / 13B 激活、1M 上下文），仅靠后训练就把 Terminal-Bench 从 4 月 Preview 版的 56.9 拉到 82.7（+25.8），官方称其 Agent 能力已超过 V4-Pro-Preview，并原生支持 Responses API、完整适配 Codex。Latent Space 指出，这标志着 DeepSeek 在沉寂一年多后重新变得相关，时点恰好落在其 700 亿美元 Pre-IPO 融资之后。
+🔗 https://www.latent.space/p/ainews-not-much-happened-today-038
+
+3. Why businesses lie about AI
+Cory Doctorow 拆穿&quot;AI 正在改变一切&quot;这一共识的空心：所谓&quot;主权 AI&quot;其实说不清必要性——如果明天把一国的聊天机器人全部关掉，政府和企业照常运转；真正的数字主权命门是 Office 365、iOS/安卓、约翰迪尔拖拉机这类一旦被远程关停、国家就会瘫痪的依赖。他指出，多数嘴上说&quot;AI 改变一切&quot;的人，被追问后只能承认自己真正的意思是&quot;相信 AI 将来会&quot;，并把 CEO 们的 AI 狂热类比为&quot;顺着老板往下走、一路走到破产&quot;。
+🔗 https://pluralistic.net/2026/08/01/dare-snot/
+
+4. Apple Q3 2026 Results：创纪录财报与库克告别时刻
+苹果 Q3 2026 营收 1094 亿美元、同比 +16%，iPhone +22%、Mac +10.4%、服务 +12%、可穿戴 +6%，仅 iPad -6%，创下第三财季纪录。分析师电话会上出现&quot;大量向 Tim Cook 告别&quot;的环节，暗示这很可能是他最后一次以 CEO 身份出席财报会——在公司业绩与市值双高点交棒。36氪同日的评论把这一刻概括为&quot;最强财报，最弱 AI&quot;。
+🔗 https://sixcolors.com/post/2026/07/apple-announces-record-q3-results/
+
+5. Quoting Greg Brockman：员工反感同事的 ChatGPT 来求助
+OpenAI 总裁 Greg Brockman 观察到：公司内很多人把 ChatGPT 接进了 Slack，但当一个同事的 ChatGPT 主动来找你、请你帮它完成任务时，人们会很反感——哪怕同样的活儿如果是那位同事本人来问，他们会很乐意做。他由此认为，这凸显了人们多么在意人与人之间的关系，希望 AI 是&quot;把时间还给人、或增进相处&quot;，而不是变成把人隔开的一层。
+🔗 https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything
+
+🐦 Twitter 精选（5 / 25）
+
+1. @emollick：就 OpenAI Astra 攻克数学难题给出几点观察：AI 的数学与科学能力突飞猛进，两年前 LLM 还做不好基础运算；据 Noam Brown 单题成本不到 2000 美元；且 OpenAI 这次主动强调模型的正面价值而非只讲风险。
+🔗 https://x.com/emollick/status/2083559601312505863
+
+2. @Hesamation：OpenAI 新模型 Astra 专为长时程硬任务的多智能体编排设计，正押注数学与科研方向；可能命名为 GPT 6，或作为 Sol/Terra/Luna 之外 GPT 5 系列的新模型序列。
+🔗 https://x.com/Hesamation/status/2083351904025776210
+
+3. @hongming731：BestBlogs 08-02 精讲：MiniMax H3 把文本/图像/视频/声音统一进一套理解生成流程，可输出原生双声道 15 秒 2K 视频；OpenAI Astra 在 von Neumann 代数、球堆积等 10 个问题给出新结果并附验证证书，焦点在于这些证明能否经得起独立复核。
+🔗 https://x.com/hongming731/status/2083700397756313634
+
+4. @hongming731：BestBlogs 08-01 精讲：DeepSeek V4-Flash 0731 正式版 API 上线，保留 284B/13B MoE，升级集中在后训练，Agent 基准超过 V4-Pro-Preview 并原生适配 Codex；百万 token 输入/输出定价 0.14/0.28 美元，目前仅 API 更新、App 与网页端未同步。
+🔗 https://x.com/hongming731/status/2083348673325683096
+
+5. @shao__meng：华为开源盘古 openPangu-2.0-Pro，号称首个完全在非英伟达硬件（昇腾 NPU）上训练的 500B+ 级前沿模型（MoE，505B/A18B，512K 上下文）；但公开评测维度几乎与 DeepSeek 不重叠，仅有的交集指标 GPQA-Diamond 87.9 落后于 Kimi K3、GLM-5.2，处于第二梯队。
+🔗 https://x.com/shao__meng/status/2083378163732885902
+
+📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-08-02.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #660 | 2026-08-01</title>
       <link>https://news.justin7974.dev/2026-08-01.html</link>
@@ -1226,76 +1274,6 @@ Lenny 与研究负责人 Noam Segal 的第二届科技从业者情绪调查显�
 🔗 https://mp.weixin.qq.com/s/tUjYMVI2aDwnc7GZvV_Www
 
 📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-07-13.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #640 | 2026-07-12</title>
-      <link>https://news.justin7974.dev/2026-07-12.html</link>
-      <guid>https://news.justin7974.dev/2026-07-12.html</guid>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 13 条推文 · 6 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. AI 2040 and the Cult of Intelligence
-geohot（comma 创始人 George Hotz）开炮反驳&quot;AI 2027/2040&quot;式硬起飞叙事：智能不是万能钥匙，只是当前少数环节的瓶颈——&quot;再高质量的 token 也不能把铅变成金&quot;。他用硬件现实反击：造一颗芯片就是要 3 个月、人几乎不在环里也快不了；海底数据中心的效果图能随手生成，但供应链、发错的零件、reflow 炉里翘曲的芯片（&quot;你考虑过藤壶吗&quot;）才是真约束。他还讥讽 AI 2027 的政策叙事是&quot;带科幻特色的世界政府&quot;，会以对齐之名扩张一个没收你 GPU 的保姆国家。
-🔗 https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html
-
-2. Benedict Evans on the New &apos;Super App&apos; ChatGPT
-科技分析师 Benedict Evans 在 Threads 上直接给合并后的 ChatGPT 超级应用差评：&quot;Wow，一团糟。&quot;他连珠炮式发问：project、task、chat 到底有什么区别？为什么 chat 被塞进一个丑陋的浮动窗口，而 task 和 projects 没有？为什么点&quot;plugins&quot;给我的是&quot;templates&quot;？不用 Slack 或 Google Drive 就不让我走完 setup？这条被 Gruber 转引，成为 OpenAI 合并 ChatGPT Work 与 Codex 后最尖锐的产品批评之一。
-🔗 https://www.threads.com/@benedictevans/post/Dano_uvDr8F
-
-3. [AINews] not much happened today
-在一周密集发模型之后，Latent Space 把 7/11 定为&quot;平静的一天&quot;，但复盘了 GPT-5.6 上线的真实摩擦：普通用户只有一个滑块，API 用户却面对 36 种 GPT-5.6 变体（Luna/Terra/Sol × 多档 effort），社区共识正收敛为&quot;比你在 5.5 上的习惯选低一档&quot;。Sebastian Raschka 等给出实操规则：除非要 Terra Ultra 级性能，用高 effort 的 Luna 通常同等或更好且更便宜。同时 ChatGPT Work/Codex 超级应用上线比预期颠簸，&quot;reset 按钮&quot;被按了两次来补救额度。
-🔗 https://www.latent.space/p/ainews-not-much-happened-today-f5c
-
-4. Gurman on Tang Tan and Paul Meade
-Bloomberg 的 Mark Gurman 补充了苹果与 OpenAI 人才战的新细节：苹果对 OpenAI 的挖角早已警觉——对方系统性地从苹果多个工程团队抽走资深硬件与设计负责人，且愈演愈烈。最近的一次是今年 6 月，OpenAI 挖走了苹果的智能眼镜业务负责人 Paul Meade；而 Meade 一从苹果离职就被立即请出、连过渡期都没给。这与苹果起诉 OpenAI、io 及前设计副总裁 Tang Tan 窃取商业机密的诉讼同期发生。
-🔗 https://www.bloomberg.com/news/articles/2026-07-11/openai-engineer-s-lol-moment-set-stage-for-legal-fight-with-apple
-
-5. In defense of not understanding your codebase
-反驳&quot;必须完全理解自己代码库&quot;的执念：在大公司高流动的巨型系统里，局部的、不完整的理解才是常态和上限；作者借 Naur《编程即理论构建》立论又反对其&quot;看不懂就该推倒重写&quot;的结论，指出大系统根本无法从零重建、被遗弃的代码库也常被人接手复活——在 AI 写代码的时代，这重新定义了&quot;理解&quot;到底意味着什么。
-🔗 https://seangoedecke.com/in-defense-of-not-understanding-your-codebase/
-
-🐦 Twitter 精选（5 / 13）
-
-1. @emollick：把 GPT-5.6 Sol 接进 Codex、交出电脑控制权，让它打《杀戮尖塔 2》的每日挑战（随机规则、无法作弊）；它连续工作 5 小时、做出大量复杂策略选择，最后真的通关了。
-🔗 https://x.com/emollick/status/2075950897029374334
-
-2. @Hesamation：晒出一张 8545 美元的 Anthropic 账单，称同样的活用 OpenRouter 上的 GLM 5.2 只要约 1000 美元；他怀疑等补贴撤掉后，Opus 多花的 7500 美元很难物有所值。
-🔗 https://x.com/Hesamation/status/2076061798902423582
-
-3. @rileybrown：演示 ChatGPT Codex 新能力：可在同一会话里让它同时开出多个浏览器标签页并行干活，比如批量起草多封邮件、每封各占一个标签。
-🔗 https://x.com/rileybrown/status/2076018776617668983
-
-4. @shao__meng：整理了一段 1 分钟视频，归纳 13 类常见 Motion 动效的标准名称（Push Slide、Staggered Entrance、FLIP Reorder 等）；与其向 AI Agent 啰嗦描述动画，不如直接说出动效的名字。
-🔗 https://x.com/shao__meng/status/2075764484027932963
-
-5. @hongming731：BestBlogs 07-12 早报：100 人的 Machinecraft 把三代人积累的报价/图纸/邮件整理成&quot;企业记忆&quot;而非另训一个大模型，用专职 Agent 协作并保留&quot;AI 起草、人工发送&quot;的边界；另聊本地 AI 回归的时机与门槛。
-🔗 https://x.com/hongming731/status/2076086585590997043
-
-📱 公众号精选（5 / 6）
-
-1. 晚点独家｜唐杰内部信称将开启 Touch High（摸高）计划，&quot;不登顶，就是失败&quot;
-晚点独家：智谱创始人唐杰发内部信，宣布延续&quot;反直觉&quot;路线、开启&quot;Touch High（摸高）计划&quot;——继续聚焦 AGI 研究而非短期商业变现，&quot;不登顶，就是失败&quot;。他列出通往 AGI 必须翻越的四座高峰：长程任务、自治智能体系统、完全自我训练、极致安全治理；其中极致安全治理被特别强调，智谱计划投入百亿级资源攻坚&quot;机械可解释性&quot;，把黑盒模型推向神经元级可解释。背景是智谱 1 月以 116.2 港元上市后半年最高涨逾 24 倍、市值一度突破 1.3 万亿港元，7/8 解禁后仍稳。
-🔗 https://mp.weixin.qq.com/s/3CQSkf_kBnXiCDgS4L-Cgg
-
-2. 「给某某做个 AI」这条路死了，活下来的都在吞掉整个行业
-解读 NFX 合伙人 Pete Flint 的判断：种子轮创业者开始用 Tesla/SpaceX 式&quot;垂直整合&quot;来 pitch——不是&quot;给律师做个 AI 工具&quot;，而是&quot;一家 AI 原生的律所&quot;；不是&quot;做个软件采购平台&quot;，而是&quot;最终 own 掉整条供应链&quot;。这套 Elon 玩了十几年的剧本，如今下沉到了最早期阶段。驱动它的是 ChatGPT wrapper 公司（如 Jasper）兴衰留下的教训：套在大模型外面按月收订阅费的&quot;糖纸&quot;，一撕就空。
-🔗 https://mp.weixin.qq.com/s/8JaNd_XOYbBe0M2xrN5SmQ
-
-3. 我来给MiniMax道歉了
-葬AI&quot;大模型公司系列&quot;写到 MiniMax 时收到官方投诉，于是全文以反讽式&quot;滑跪道歉&quot;重写。文章借朋友之口抛出一个业内疑问：为何多位模型测评者都觉得 MiniMax M3 做得不够好，市场却仍把它算作第一梯队？给出的解释是 MiniMax 的&quot;核心科技是叙事能力&quot;，靠讲故事把自己和 Kimi 绑成&quot;强行双骄&quot;；随后作者用反话逐条&quot;赞美&quot;，影射其过去半年的营销动作（如很早接入 OpenClaw 炒作）。
-🔗 https://mp.weixin.qq.com/s/Y4vxlJ_OGsvb99m07NdDag
-
-4. 一文看懂ChatGPT、Codex、Work 的差别
-一句话拆解 OpenAI 三条产品线：Chat 回答问题（读当前对话）、Work 跨应用干活（读邮件/文档/日历/业务系统，交付成品文档表格）、Codex 在代码仓库里开发（交付 diff/测试/PR），三者额度独立、面向三种完全不同的使用方式。
-🔗 https://mp.weixin.qq.com/s/a-RYa9sEG4-YGBP3TAGlnw
-
-5. OpenAI 官方 Prompt 指南
-逐段中英对照翻译 OpenAI 官方 Prompting 指南，作者 Eric Provencher 是 OpenAI 负责 Codex 开发者体验、Repo Prompt 的作者；内容覆盖 prompt 的基本构成（问题/指令/目标）与写好 prompt 的方法，适合作为团队进入 GPT-5.6 时代提示工程的一手参考。
-🔗 https://mp.weixin.qq.com/s/QK61rmL_DknIb5X52FfkVg
-
-📖 查看完整日报（29 篇）→ https://news.justin7974.dev/2026-07-12.html</description>
     </item>
   </channel>
 </rss>
