@@ -5,8 +5,56 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 03 Aug 2026 00:14:02 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 00:15:18 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #663 | 2026-08-04</title>
+      <link>https://news.justin7974.dev/2026-08-04.html</link>
+      <guid>https://news.justin7974.dev/2026-08-04.html</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 26 条推文 · 0 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. The Inference Engineering Masterclass — Philip Kiely &amp; Ali Taha, Baseten
+Baseten 刚完成 130 亿美元 F 轮融资，跻身新一批 AI 基础设施&quot;十角兽&quot;，与英伟达等一同吃到&quot;推理拐点&quot;(Inference Inflection) 的红利。三年前推理工程还算不上一个门类，如今已成为把训练权重转化为&quot;快、稳、便宜&quot;产品的核心学科——这与模型训练是完全不同的优化问题。这期播客系统拆解了自回归和扩散模型两条路线的推理优化方法论。
+🔗 https://www.latent.space/p/inference-eng
+
+2. Why smarter AI models could drive up compute prices 10x
+核心矛盾：Anthropic 收入连续三年 10x（去年底 90 亿美元，今年预计冲到 1000–1500 亿），但实验室算力供给每年只增长 3x。要弥合这个缺口只有三条路——涨毛利、涨算力单价、把更多算力从训练挪到推理，而三件事都已在发生：Anthropic 推理毛利从 40% 升到 80%，算力现货价较年初 2 月低点涨了 40% 以上，OpenAI 推理占比从 2024 年的约 25% 升到 50%+。但实验室极不愿走第三条路——一旦把大部分算力投向推理，等于承认 AI 进展停滞、自己沦为云厂商。
+🔗 https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video
+
+3. Drug Discovery Has No Magic Wands
+insitro 创始人 Daphne Koller 直接拆穿&quot;造出超级智能就能治愈癌症&quot;的叙事：这个承诺建立在一个错误前提上——以为我们已经足够了解人体生物学，只差一个够聪明的推理器。事实是至今只有约 1/4（有估计仅个位数百分比）的疾病有获批疗法，且多数只是延缓而非治愈。她的判断是：在一个我们才刚开始测量、远未理解的生物学上，AI 大概率只会&quot;更快地制造失败&quot;；真正的瓶颈不是模型智能，而是用正确的方式测量生物学。
+🔗 https://www.a16z.news/p/drug-discovery-has-no-magic-wands
+
+4. Two critical updates re: Astra and mathematics
+OpenAI 上周高调发布的 Astra 数学&quot;突破&quot;正在被质疑成色。Anthropic 的数学家 Levent Alpöge 在 24 小时内、用已经公开的 Fable 模型（而非任何新模型）就复现了 OpenAI 结果的一半，暗示 OpenAI 的真正进展可能不是模型能力本身，而是&quot;找到了哪些开放数学问题适合用搜索+验证的方法攻克&quot;。更关键的是 OpenAI 只报了成功案例、没披露尝试失败的题目——Noam Brown 承认还试了其他大问题但没成功。Gary Marcus 称之为&quot;给了分子却不给分母&quot;。
+🔗 https://garymarcus.substack.com/p/two-critical-updates-re-astra-and
+
+5. Introducing our Artifacts Hub and Adoption Dashboard
+Nathan Lambert（前 AI2）推出两个免费数据产品：Artifacts Hub 追踪 Hugging Face 上过去两年 792 个开源模型的趋势（结合 Open Router 的推理 token、Artificial Analysis 的能力评分和自建采用度指标），以及一个按地理和机构划分下载量/衍生模型数的 Adoption Dashboard，重点呈现开源生态里的美中差距。目标是给开源生态一套公开的度量工具。
+🔗 https://www.interconnects.ai/p/introducing-our-artifacts-hub-and
+
+🐦 Twitter 精选（5 / 26）
+
+1. @_akhaliq：一篇新论文提出从 RLVR 到 RLSVR，通过任务变换为开放式 LLM 自我提升诱导出&quot;可自我验证的奖励&quot;，让模型在没有标准答案的开放任务上也能自我改进。
+🔗 https://x.com/_akhaliq/status/2084310082762719418
+
+2. @Hesamation：引述 Google DeepMind 高管：AI 是&quot;人类文明有史以来最大的科学押注&quot;，投入资本已超过阿波罗登月、曼哈顿计划和互联网之和；&quot;收入还撑不起资本开支，这正是科学押注的定义&quot;。
+🔗 https://x.com/Hesamation/status/2084294646604198060
+
+3. @Hesamation：同一位 DeepMind 高管称未来两年 AI 递归自我改进（RSI）&quot;发生的概率高于不发生&quot;，与 Anthropic 联创 Jack Clark&quot;2028 年底前 60% 概率出现 RSI&quot;的预测方向一致；前沿实验室正全力冲向&quot;用 AI 造更好的 AI&quot;。
+🔗 https://x.com/Hesamation/status/2084297961190707471
+
+4. @shao__meng：Qwen 3.8-Max 正式发布，Qwen3.8-Max 与 Qwen3.8-27B 下周都将开源；他吐槽官方对比只放了 Gemini/GPT/Claude，回避了近期几个国产顶尖开源模型。
+🔗 https://x.com/shao__meng/status/2084139327588802764
+
+5. @emollick：用 shader 测试后判断 Qwen 3.8 Max 是个扎实的模型，但按他目前的体验还达不到 Kimi K3 的水平。
+🔗 https://x.com/emollick/status/2084124237053219289
+
+📖 查看完整日报（38 篇）→ https://news.justin7974.dev/2026-08-04.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #662 | 2026-08-03</title>
       <link>https://news.justin7974.dev/2026-08-03.html</link>
@@ -1182,76 +1230,6 @@ Lyzr 完成 1 亿美元融资、估值 5 亿，亮点是它连续三个季度每
 🔗 https://mp.weixin.qq.com/s/Q5f1bntt5UhjTc8K6o1Fkg
 
 📖 查看完整日报（43 篇）→ https://news.justin7974.dev/2026-07-15.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #642 | 2026-07-14</title>
-      <link>https://news.justin7974.dev/2026-07-14.html</link>
-      <guid>https://news.justin7974.dev/2026-07-14.html</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-      <description>今日共 11 篇 RSS · 27 条推文 · 6 篇公众号
-
-📰 RSS 精选（5 / 11）
-
-1. Why aren&apos;t AI companies competing directly with their customers?
-Cory Doctorow 抛出一个尖锐的追问：如果 AI 实验室真有（或即将有）能比人更便宜地干医生、会计、老师工作的系统，为什么要把工具卖给医院和学校，而不是自己开医院、开学校、把利润全吃掉？他认为&quot;卖铲子&quot;的叙事本身自相矛盾——如果你已经挖到金矿，就不会把藏宝图卖给别人。他把这套逻辑归因于 Rushkoff 所说的&quot;go meta&quot;经济：最体面、最聪明的生意永远离真实劳动越远越好（别开出租车，去持有牌照；别持牌照，做网约车；别做网约车，投网约车；别投，买投它的期权）。言下之意，&quot;AGI 即将替代人力&quot;的宏大叙事与&quot;按 token 卖订阅&quot;的生意，不可能同时是真心话。
-🔗 https://pluralistic.net/2026/07/13/go-meta-meta/
-
-2. Control the ideas, not the code
-Redis 作者 antirez 主张：当你掌控软件的&quot;想法&quot;时，逐行读代码已经变得次优甚至无意义。理由有三：LLM 每天能生成 5000 行代码，人不可能逐函数 review；模型擅长写局部最优代码、不擅长大设计，与其扫每一行不如把设计讲清楚、追问&quot;这部分怎么设计的&quot;；工作日只有 8 小时，读代码就挤占了今天最重要的事——想清楚&quot;我在用这软件做什么、要往哪走&quot;和做大量 QA。他用自己的本地推理项目 DwarfStar 说明&quot;一句话出成品&quot;行不通，你仍需理解设计与性能，但坦言在 GPT-5.5、尤其 Fable 与 GPT-5.6 Sol 之后，审阅 AI 代码这件事已是&quot;必须做但基本无意义&quot;。他反问：那些现在反 AI 的人，为什么过去十年对满地的人类 slop 代码毫不震惊？
-🔗 http://antirez.com/news/169
-
-3. The Most Human Technology Ever Made
-a16z 的 Anish A 提出一个反主流的 AI 叙事：关于 AI 的争论几乎全是&quot;省时间&quot;（抢工作还是增效、省了几分钟读写），但更重要的是 AI 属于&quot;画笔那一类&quot;技术——不省时间，却扩展人能表达和创造的边界。他借 Eugenia Kuyda 的话&quot;大多数人不是想省时间，而是想花时间&quot;，认为 AI 让&quot;造东西&quot;变得可及，是最强的反 slop 力量。文中给了两个具体案例：肯塔基一位没有 CS 学位的电工用 AI 做了个售价 12.99 美元的负载计算工具，替代 500 美元的上门服务；一个水管工用 OpenClaw 一下午的成果超过咨询公司几周、直接取消了 4 万美元合同。核心判断：软件即将像 YouTube 让视频无处不在那样无处不在，且大多由&quot;从没自称 builder 的人&quot;造出来。
-🔗 https://www.a16z.news/p/the-most-human-technology-ever-made
-
-4. This solo builder runs 24/7 local AI on his own hardware | Alex Finn
-Lenny 播客访谈个人开发者 Alex Finn，他把&quot;本地 AI 软件工厂&quot;跑成了 24/7：三台 Mac Studio 512GB、一台 DGX Spark、自组 RTX 5090，通过自建 fleet dashboard 协调，靠 Claude Code 的 build-loop + review-loop 在睡觉时也持续出功能。核心论点是&quot;无限的本地推理&quot;改变了用例的成本算术——当推理边际成本趋近于零，你会去做那些按 20 美元云订阅永远不划算的任务（例如让本地模型当安全扫描器持续喂给 Claude Code）。他按任务把 GLM 5.2、Qwen 3.6、Ornith 1.0 分配到不同机器，总共跑 5 个 agent 并内置故障切换。
-🔗 https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local
-
-5. Apple Sues OpenAI, Apple&apos;s Real Problem
-Ben Thompson 分析苹果起诉 OpenAI 窃取商业机密一案：真正有罪的或许只是个别跳槽员工，但苹果此举更像是对自己在 AI 时代掉队的焦虑发泄，真正的问题不在诉讼而在苹果自身。
-🔗 https://stratechery.com/2026/apple-sues-openai-apples-real-problem/
-
-🐦 Twitter 精选（5 / 27）
-
-1. @AnthropicAI：Anthropic 新研究：分析 30 万+ 匿名对话，考察 Claude 表达的 3000 多种价值观（如诚实、温暖）在不同 Claude 模型之间、以及跨语言时如何变化。
-🔗 https://x.com/AnthropicAI/status/2076719540785012872
-
-2. @karminski3：小米在 HuggingFace 悄悄放出 MiMo-V2.5-DFlash：投机解码用的草稿模型是 block-diffusion（一次并行猜一整块 token 再让大模型验证），不同于 EAGLE 的自回归；编程场景接受长度可达 6+，提速约 6 倍。
-🔗 https://x.com/karminski3/status/2076463341426577612
-
-3. @karminski3：有框架宣称用 25GB 内存跑 744B 的 GLM-5.2：把每 token 真正会变的路由专家（约 11GB int4）动态加载、稠密部分常驻内存、剩下 370GB 专家全部流式读磁盘，虽只有 2.2–2.8 tok/forward 但思路值得借鉴。
-🔗 https://x.com/karminski3/status/2076781896307261671
-
-4. @karminski3：AI 生成像素图不够&quot;像素&quot;（边缘模糊、不遵守指定调色板）终于有解：一个纯本地、无需 GPU 的开源工具能重新映射像素、锁定调色板，作者用固定 32 色盘把海绵宝宝 demo 修得锐利许多。
-🔗 https://x.com/karminski3/status/2076803531718439375
-
-5. @_akhaliq：分享论文《Video Generation Models are General-Purpose Vision Learners》，主张视频生成模型可充当通用视觉学习器——呼应今天世界模型/视频路线的讨论热度。
-🔗 https://x.com/_akhaliq/status/2076727488168841609
-
-📱 公众号精选（5 / 6）
-
-1. 当一个年轻人空降：改造腾讯混元的 300 天
-97 年、前 OpenAI 研究员姚顺雨回国后一跃成为腾讯大模型负责人，用 300 天重造了混元。他的&quot;幸运&quot;在于腾讯最高层已把 AI 视为生死之战、提前扫清障碍：原关键负责人悉数离场、他可直接向集团总办汇报、TEG 总裁卢山愿最大放权。三个月内他完成大规模招聘（预训练/后训练/评估/Infra 新负责人到位）、新建 AI Infra 部与 AI Data 部，并提出&quot;守正出奇&quot;——先把训练最基础的事做对：混元 Hy3 Preview 规模克制、用最传统架构、重构 Infra、丢弃大量脏数据，效果超预期并在开源社区获得关注。文章对比陆奇在百度触及核心利益却无共识、两天内股价见顶后离职，点出姚接下来&quot;守正之后如何出奇&quot;才是真正挑战，Hy4 已在路上。
-🔗 https://mp.weixin.qq.com/s/ThmezfV0avDzRSzitupqfw
-
-2. 德赛西威的 AB 面：智能域控龙头的市场地位掩盖了什么？
-德赛西威是国内唯一在智能座舱域控（中国第一 17.9%、全球第一 8.4%）和智驾域控（第三方供应商中国第一 21.2%）双双卡位头部的 Tier 1，营收从五年前的 50 亿级增至 2025 年超 300 亿、净利 25 亿。但它的本质是&quot;工程化落地/系统集成&quot;能力，而非智驾算法的前沿研发。2026 年 Q1 已现负增长（营收 -4%、净利 -20%），是新能源渗透率见顶后的自然结果；更关键的裂痕是智驾业务毛利率从 2025H1 近 20% 快速跌到 2025H2 不足 14%，下滑速度远超趋于成熟的座舱业务，市场开始质疑它究竟是成长股还是价值股。
-🔗 https://mp.weixin.qq.com/s/SvzPoCnEcHGHnm1EvB9K3Q
-
-3. 速递｜苹果接触设备端AI初创PrismML，拟将270亿参数大模型部署至iPhone
-隐身创业公司 PrismML 称已把 Qwen 3.6 压缩到 270 亿参数、跑在 iPhone 17 Pro 上——远超以往手机端通常只有几十亿激活参数的模型，且能执行复杂对话、推理、完全自主 agent 和写代码，开源模型下周二开放下载。苹果正与其接触，意在降低云成本、强化隐私。CEO Babak Hassibi 预测约三年后 95% 的智能需求可在本地（手机/笔记本/家电）满足，只有约 5% 高端内容需上云，称把模型缩小到端侧&quot;从根本上改变了 AI 的经济学&quot;。曾是 OpenAI 首家风投的 Khosla Ventures 已参与其 1625 万美元种子轮。
-🔗 https://mp.weixin.qq.com/s/_r0dIk7rIMTF7iQqpyoUYA
-
-4. Z Tech｜专访张金涛：清华朱军教授的00后博士、Vidu S1负责人，让视频生成走向实时交互
-2026 年视频生成正从&quot;离线生成&quot;转向&quot;实时交互&quot;。生数科技 7 月 3 日发布 Vidu S1 实时交互模型，其全链路负责人是朱军的 00 后博士生张金涛——他从推理优化切入，SageAttention（GitHub 3.5K 星）、TurboDiffusion（3.6K 星）、TurboServe 等系统级工作，支撑了 Vidu S1 的 540P、40FPS 实时生成与无限时长交互。他反复强调&quot;本质&quot;与&quot;极致&quot;，师承朱军&quot;要做就做世界第一&quot;的科研文化，且坚定看好流式视频方向，而非已相对成熟的离线生成。
-🔗 https://mp.weixin.qq.com/s/0m8uSacoP-hKucTcgxdZ8A
-
-5. Seedream 5.0 Pro 测评：图像编辑门槛爆降
-字节新一代图像模型 Seedream 5.0 Pro 综合能力追平 GPT-Image 2.0；真正亮点是可编辑（Interactive Editing）——用打点/画框/涂鸦标记再 @ 进提示词，实现&quot;指哪改哪、其他像素不动&quot;的精细编辑，大幅降低修图门槛。
-🔗 https://mp.weixin.qq.com/s/lO2xhSA20TaZLbMpZRmbxA
-
-📖 查看完整日报（44 篇）→ https://news.justin7974.dev/2026-07-14.html</description>
     </item>
   </channel>
 </rss>
