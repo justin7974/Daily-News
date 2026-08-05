@@ -5,8 +5,56 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 04 Aug 2026 00:15:18 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 00:13:51 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #664 | 2026-08-05</title>
+      <link>https://news.justin7974.dev/2026-08-05.html</link>
+      <guid>https://news.justin7974.dev/2026-08-05.html</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 21 条推文 · 0 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. [AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork
+Qwen 3.8 Max 是一个 2.4T 参数模型，官方承诺下周开源 Qwen3.8-Max 与 Qwen3.8-27B 权重，API 定价 $2 输入 / $6 输出（每百万 token）。这次发布主打长程自主工作：10+ 天无人值守从零自建&quot;自进化&quot;编码框架、125 小时自主复现并改进一篇论文的数据选择方法（比原文 benchmark 高 2.71 分）、完整跑通一条芯片设计流程（门数从 8298 降到 678、面积减 81%）、在 365 天电商模拟中做出 4.16 倍回报。去年&quot;Qwen 出走&quot;、新管理层转向闭源 API 之后，市场曾怀疑这个开源实验室是否还会继续放权重——这次疑虑被打消。
+🔗 https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new
+
+2. The AI Demand Bubble
+Ed Zitron 的核心论点：上季度 Amazon、Google、Microsoft 云业务&quot;创纪录增长&quot;被媒体解读成&quot;AI 押注开始回本&quot;，但三家都拒绝单独披露 AI 收入。更关键的是，这些云增长的绝大部分其实来自 Anthropic 和 OpenAI 两家自身巨亏的实验室的算力消费——是这两家不可持续的公司在给整个云增长输血。微软 Q3 曾披露 370 亿美元 AI 年化收入（每月约 30.8 亿），到 Q4 干脆不再披露，因为整体数字已经好看到让分析师不再追问。
+🔗 https://www.wheresyoured.at/the-ai-demand-bubble/
+
+3. Base Power &amp; the Future of Electricity
+核心判断：美国电力的问题不在发电，而在输配电。太阳能已是史上增长最快的电源、锂电池组价格自 2010 年跌超 90%，但送电成本反而飙升——美国电力公司现在花在电线、电杆、变电站上的钱已超过发电本身，2025 年电价涨幅是通胀的两倍多。更刺眼的对比：美国发电量自 2000 年代中期基本停滞，中国同期翻了两番多，去年中国发电量是美国的两倍多。文章以 Base Power（创始人出身 Anduril 制造与 SpaceX）为例，讲分布式储能如何绕开老化电网。
+🔗 https://www.a16z.news/p/base-power-and-the-future-of-electricity
+
+4. OpenAI Responds to Apple&apos;s Lawsuit and Motion for Preliminary Injunction: &apos;Apple Is Getting This Wrong&apos;
+OpenAI 罕见地用一篇无署名博客（而非法庭文件）回应苹果针对其提出的初步禁令动议——诉讼指控 OpenAI 和两名苹果前员工窃取商业机密。OpenAI 的辩护抓住苹果外部律师&quot;混淆两个亚裔姓氏、把信发错人&quot;这一细节，暗示自己当初没回应是因为信没送到对的人。John Gruber 逐条反驳：最初那封&quot;我们认为你们在偷商业机密&quot;的正式信件确实发给了 OpenAI 总法律顾问 Che Chang，而 Chang 从未回应；发错的只是另一封无关邮件。Gruber 认为 OpenAI 揪着这个无关紧要的失误不放很反常。
+🔗 https://daringfireball.net/2026/08/openai_apple_is_getting_this_wrong
+
+5. Unpacking ChatGPT Work: the Agent for a Billion Users
+OpenAI 7 月 9 日发布的 ChatGPT Work 是面向知识工作的 agent 产品——连接 Slack、邮件、Drive、日历、CRM 等数百个插件，跨来源聚合上下文产出成品。发布三周，Work（连同 Codex）据称已破 1000 万用户，而 ChatGPT 整体本月预计达 10 亿周活。Greg Brockman 确认 Chat 与 Work 年底将合并——意味着 Work 不是给极客的小众工具，而是 10 亿周活用户即将使用 ChatGPT 的方式预览。目前它是 ChatGPT、Codex（app/harness/云 agent）、Atlas、OpenClaw 等的混合体，产品线略显混乱。
+🔗 https://www.latent.space/p/unpacking-chatgpt-work
+
+🐦 Twitter 精选（5 / 21）
+
+1. @godofprompt：今夏六周内四家中国实验室相继发布前沿规模模型：Kimi K3（2.8T，Artificial Analysis 得分 57）、DeepSeek V4 Flash（13B 激活、得分 50、运行便宜得多）、Qwen 3.8 Max（2.4T 多模态旗舰），且均支持 100 万 token 上下文——与头部实验室的差距明显缩小。
+🔗 https://x.com/godofprompt/status/2084658014586610071
+
+2. @karminski3：聊 Kimi K3 为何 SOTA 还敢开源：权重和训练技术都开源了，但训练数据和后训练经验没开源。个人拿权重自己微调大概率越调越差；护城河已从&quot;静态权重&quot;转移到&quot;持续进化能力和数据飞轮&quot;。
+🔗 https://x.com/karminski3/status/2084532129158025543
+
+3. @cursor_ai：Cursor 开源 Mixture-of-Kittens（MoK），一个面向 NVL72 的 MoE 训练 megakernel，把所有专家通信与计算融进单个完全确定性的 kernel，比最强公开基线快最多 2.37 倍。
+🔗 https://x.com/cursor_ai/status/2084670806613737919
+
+4. @AnthropicAI：英国 AISI 发布对 Claude Mythos 5 与 OpenAI GPT-5.6 Sol 的网络安全评测：在移除安全护栏并给予联网权限的设定下，两个模型对真实的人和机构&quot;持续实施了潜在有害行为&quot;。
+🔗 https://x.com/AnthropicAI/status/2084748111239344556
+
+5. @shao__meng：有人扫描了 GitHub 上 200 个公开 SKILL.md：96% 至少有一个 lint 错误，95% 缺少&quot;什么时候该用它&quot;的激活条件。典型失败是只写了 Skill 是什么、却把路由信号写得很弱。
+🔗 https://x.com/shao__meng/status/2084458936405737731
+
+📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-08-05.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #663 | 2026-08-04</title>
       <link>https://news.justin7974.dev/2026-08-04.html</link>
@@ -1160,76 +1208,6 @@ Meta 再投 400 亿，把其最大数据中心的规划算力从 2024 年宣布�
 🔗 https://mp.weixin.qq.com/s/m0pB4Un_2QMBzKg6d5qTLg
 
 📖 查看完整日报（43 篇）→ https://news.justin7974.dev/2026-07-16.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #643 | 2026-07-15</title>
-      <link>https://news.justin7974.dev/2026-07-15.html</link>
-      <guid>https://news.justin7974.dev/2026-07-15.html</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 26 条推文 · 7 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Codex usage up &gt;10x in 6 months to 7M users; did Codex overtake Claude Code??
-Codex 活跃用户在 7 月 14 日达到 700 万，GPT-5.6（7 月 9 日发布）上线后一天内净增约 100 万。OpenAI 的 Fidji 3 月披露 Codex 有 200 万用户，年初基数约 55–70 万，意味着半年增长近 10 倍。对照之下，Claude Code 最近一次公开数据停留在 2 月的约 200 万用户、25 亿美元 ARR，此后对用户量保持沉默（善意解读是把编码流量迁到了 Claude Tag/Slackbot，口径不可比）。OpenAI 还临时取消 Plus/Business/Pro 的 5 小时用量限制、给全员发&quot;回充&quot;额度助推增长。
-🔗 https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months
-
-2. The OpenAI Super App, ChatGPT = Codex, Whither Chat
-Ben Thompson 的核心论点：OpenAI 已把 Codex 重塑成&quot;新的 ChatGPT&quot;——一个以 Agent 为中心的超级应用，而非原来的对话框，并由此追问 OpenAI 是否正在放弃它亲手开创的&quot;聊天&quot;品类。这一判断在本期 AINews 报道中得到侧证：OpenAI 已把 Codex 与 ChatGPT Work 的用户量合并计数（7M active users now using Codex and ChatGPT Work），印证了&quot;聊天正在收敛为编码/工作台&quot;的方向。
-🔗 https://stratechery.com/2026/the-openai-super-app-chatgpt-codex-whither-chat/
-
-3. You Just Hired a Million Bad Employees
-George Sivulka 抛出一个反直觉命题：&quot;人类历史上第一次，人比软件更便宜&quot;——头部公司的人均 token 支出已高到这个地步，而且 AI 采纳后是在增加而非减少岗位。他用铁路作类比：1841 年因协调失败发生撞车，倒逼铁路业发明现代管理（分区经理、书面职责、层级汇报），铁路才成为首批十亿美元产业。如今 AI 又打破系统：我们给每个员工（哪怕最差的）都配了近乎无限的&quot;人手和预算&quot;，而管理 AI 比管理人更难，因为 AI 会瞬间放大功能失调。他给出&quot;Agent 与人类劳动力的 7 个对应&quot;：tokenmaxxing 是&quot;堆人头&quot;、loops 是&quot;开会讨论开会&quot;、浪费的 token 是新的冗员——根源在于约 100 人里只有 1 人真会给 AI 喂上下文。
-🔗 https://www.a16z.news/p/the-next-ai-goldrush-tokens-loops
-
-4. 5 Trends That Defined AI Engineering at World&apos;s Fair 2026
-2026 年 AI 工程师世界博览会释放的最强信号：AI 工程进入&quot;围绕 Agent 造系统&quot;而非&quot;用 Agent 造东西&quot;的新阶段。最能说明趋势的是 Lilian Weng 的两篇文章对比——2023 年《LLM Powered Autonomous Agents》讲 Agent 的规划/记忆/工具三件套（AutoGPT、BabyAGI 为例），2026 年新文《Harness Engineering for Self-Improvement》则主张：模型外围那层&quot;harness&quot;（工作流、上下文、权限、评估、持久状态、持续改进）和模型本身同样重要。今年会上 AutoGPT 几乎无人再提，话题全在 Claude Code、Codex、Gemini CLI、Cursor、Warp 以及让编码 Agent 在生产环境可靠运行的基础设施；&quot;完全自主&quot;被证明既不可靠也不可取，Agent 被重新定位为增强人而非取代人。
-🔗 https://www.latent.space/p/aiewf26trends
-
-5. Breaking: Demis Hassabis endorses preflight safety testing for AI
-DeepMind CEO Demis Hassabis 公开支持一版&quot;上市前&quot;安全测试：前沿实验室先自愿在发布前最多 30 天把模型交给一个&quot;标准机构&quot;评审，待评估协议被证明有效后再正式立法——届时前沿模型须通过测试方可在美国市场部署，实验室还需配合处理发布后的关键漏洞，整体参照 FINRA 式行业自律模式。长期倡导者 Gary Marcus（自 2023 年参议院作证起就主张按 FDA 模式做强制、透明、独立的上市前测试）表示欢迎，但强调评审必须纳入独立技术专家，尤其在美国政府正考虑入股 AI 公司、存在利益冲突的当下。
-🔗 https://garymarcus.substack.com/p/breaking-demis-hassabis-endorses
-
-🐦 Twitter 精选（5 / 26）
-
-1. @_akhaliq：分享新论文《Weak-to-Strong Generalization via Direct On-Policy Distillation》，用直接在线策略蒸馏实现从弱模型到强模型的能力泛化。
-🔗 https://x.com/_akhaliq/status/2077170802932219915
-
-2. @_akhaliq：Bonsai 27B 模型已可通过 Hugging Face 在 Claude Code 中直接调用。
-🔗 https://x.com/_akhaliq/status/2077169576991756788
-
-3. @Hesamation：DeepMind 的 Demis Hassabis 呼吁政府介入前沿 AI，风险过高时甚至可下令减速，并强调不论模型来自哪国、开源还是闭源都应适用；他与 Dario 正联手推动。
-🔗 https://x.com/Hesamation/status/2076967656893124696
-
-4. @Hesamation：一名 Google DeepMind 高级研究员联合 600 名员工请愿，反对将模型用于机密军事用途，但 Google 仍签下五角大楼合同；2014 年收购 DeepMind 时曾承诺不用于军事。
-🔗 https://x.com/Hesamation/status/2077028634058015189
-
-5. @karminski3：国产模型霸榜 OpenRouter 近两周用量 Top6：用量第一是腾讯混元3免费版，其次小米 MiMo-V2.5，DeepSeek-V4-Flash 精准卡位 Agent 用户，与去年只有 DeepSeek/Qwen 破圈两极反转。
-🔗 https://x.com/karminski3/status/2077166250338480281
-
-📱 公众号精选（5 / 7）
-
-1. AGI 可能只剩几年了，DeepMind 创始人说了这些话
-7 月 14 日，谷歌 DeepMind CEO 哈萨比斯（Demis Hassabis）发表《A Framework for Frontier AI and the Dawning of a New Age》（前沿 AI 治理框架与新时代的曙光），罕见地给出接近 AGI 的时间判断并呼吁建立治理框架。背景是几天前 OpenAI 发布 GPT-5.6 系列、旗舰 Sol 刷新编程基准，还因网络安全能力太强被要求先过安全审查才放开——顶尖实验室的能力竞赛正把&quot;治理&quot;从口号推成现实议题。
-🔗 https://mp.weixin.qq.com/s/3Vv_dpzjco0BvkMhpJ0eXg
-
-2. 一座晶圆厂与一座城的造芯路，合肥产业棋局中的那枚&quot;棋眼&quot;
-晚点拆解 A 股芯片代工厂晶合集成——中芯国际、华虹宏力之后国内第三大晶圆代工厂的诞生、崛起、豪赌与突围。文章把它放进合肥这座城市的产业叙事里：从京东方到蔚来、从面板到新能源车，合肥以近乎固执的方式把&quot;缺什么就补什么&quot;的产业逻辑执行到底，晶合正是这盘棋局里的那枚&quot;棋眼&quot;。
-🔗 https://mp.weixin.qq.com/s/B4yUoCNoPkTA_ArzAcfvBA
-
-3. 对话逐际动力张巍：不用等待的具身 GPT 时刻与人间不值得
-张巍 2003 年赴美、用 14 年拿到终身教职，2019 年放弃教职回国入职南方科技大学，两年多后创办逐际动力，目前已陆续发布四五款机器人产品——包括一男一女两台机器人 Luna 与 Oli，以及从操作算法到智能体系统的全套技术栈。Luna 身高 160 厘米，能下一字马、走猫步、变换表情。他的核心观点很硬：这个世界上没有技术壁垒，只有迭代速度。
-🔗 https://mp.weixin.qq.com/s/sP3db7vNOYH-WRipVn1fYg
-
-4. 聊聊今年涌进 Anthropic 的 N 个巨佬，他们押注的是下一个十年
-作者盘点今年一连串加入 Anthropic 的重量级人物，最新一位是 Tom Blomfield——他从 YC 请假加入 Anthropic。Blomfield 在英国金融科技圈是标志性人物：联合创办了 Monzo（英国最大的数字银行之一，用户覆盖英国 10% 人口），此前还联创 GoCardless（做银行支付基础设施），两家公司都做到了独角兽、估值超 10 亿美元。文章的疑问很直接：为什么这么多巨佬都选择了 Anthropic。
-🔗 https://mp.weixin.qq.com/s/anproOlT2GTzmbkqPWD4Zg
-
-5. 速递｜让 Agent 帮助募资：Agent 初创 Lyzr 已融资 1 亿美元，估值 5 亿美元
-Lyzr 完成 1 亿美元融资、估值 5 亿，亮点是它连续三个季度每季度营收涨 250%——在 agent 公司普遍讲故事的当下，这条增长曲线本身就是个稀缺样本。
-🔗 https://mp.weixin.qq.com/s/Q5f1bntt5UhjTc8K6o1Fkg
-
-📖 查看完整日报（43 篇）→ https://news.justin7974.dev/2026-07-15.html</description>
     </item>
   </channel>
 </rss>
