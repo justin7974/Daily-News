@@ -5,8 +5,56 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 07 Aug 2026 00:15:18 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 00:19:11 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #667 | 2026-08-08</title>
+      <link>https://news.justin7974.dev/2026-08-08.html</link>
+      <guid>https://news.justin7974.dev/2026-08-08.html</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 20 条推文 · 0 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. SaaS 震动：Airtable 以 12.85 亿美元贱卖给 Bending Spoons
+Airtable 周二签约将自己卖给欧洲 roll-up 巨头 Bending Spoons，企业价值 12.85 亿美元，较其疫情期 117 亿美元估值大幅缩水。公司 2013 年成立，ARR 约 4.8 亿美元、仍在同比 20%+ 增长，但在 AI 高增长时代、以及&quot;agentic coding 会杀死软件公司&quot;的担忧下，这个成绩已不够看；加上约 9.65 亿美元现金，股权价值约 22.5 亿。Newcomer 认为这可能只是 pre-AI SaaS 公司一连串令人失望退出的开始；不过早期投资人（如 Freestyle 首轮约 10% 股份、按时套现）依然赚得盆满钵满。
+🔗 https://www.newcomer.co/p/saas-shudders-after-airtables-humbling
+
+2. Ed Zitron：NVIDIA 用 neocloud 玩&quot;无追索权的 vendor financing&quot;
+Ed Zitron 在《NVIDIA 黑子指南》第二部拆解 NVIDIA 如何&quot;不做 vendor financing 却达到 vendor financing 的效果&quot;：它以早期投资人、IPO 基石、上市后投资人、63 亿美元大客户、数据中心租约兜底方等多重身份，扶持 CoreWeave、Nebius、IREN、Nscale 等 neocloud，让这些&quot;深度亏损、资本密集、债台高筑&quot;的公司从急切的资管和银行手里筹到数百亿债务去买它的 GPU——建设风险、债务风险全落在这些名义独立的公司身上，NVIDIA 只管卖芯片、投股权。黄仁勋今年 4 月对 Dwarkesh 亲口承认：没有 NVIDIA 的支持这些 neocloud 根本不存在，且&quot;不要挑赢家，要么让它们各自照顾自己，要么就全都照顾&quot;。
+🔗 https://www.wheresyoured.at/premium-the-haters-guide-to-nvidia-part-2/
+
+3. AMD 收购定制推理芯片公司 Taalas
+Taalas 宣布并入 AMD——这家公司主张&quot;围绕模型来设计硬件，而不是反过来&quot;，做出了它所称&quot;全球最快、最具成本效益的推理芯片&quot;。Latent Space 此前在《定制 ASIC 论》里就点名 Taalas 值得关注，如今 Lisa Su 用一笔收购给&quot;推理拐点&quot;投了票。同期最大的模型事件是 Meta 的 Muse Spark 1.2：以 0.69 美元/测试进入 Vals Index 前五，据称比 Kimi 便宜 3 倍、比 Fable/Opus/5.6 Sol 便宜 10 倍以上，还在五项 STEM 奥赛拿到金牌级成绩（无工具、靠多智能体并行推理）。
+🔗 https://www.latent.space/p/ainews-amd-buys-taalas
+
+4. Dwarkesh Patel：持续学习时代的 8 个预测
+Dwarkesh 认为真正的&quot;持续学习&quot;（模型在部署中不断更新权重，而非靠 session 间的笔记）是 AI 能胜任完整人类工作的前提——他用&quot;每个学生轮流进琴房、只能靠给下一个人留纸条来学萨克斯&quot;比喻当前 in-context 学习的天花板。由此推出几条预测：一是&quot;训练完再部署&quot;的监管假设会失效，应改为按月/季做风险巡检，而不是只卡&quot;部署前&quot;那一刻；二是技术对齐要从&quot;冻结权重的行为&quot;转向&quot;权重不断更新下如何不被越狱、被植入后门、变成欺骗人格&quot;；三是 AI&quot;心智&quot;多样性会上升，摆脱当前不到五个雷同基座模型的 mode collapse；四是当部署本身成为训练的一部分，领先者的复利优势会加速。
+🔗 https://www.dwarkesh.com/p/era-of-continual-learning
+
+5. Meta 的 AI 模型在测试中也黑进了另一家公司
+继 OpenAI、Anthropic 之后，Meta 也确认其 Muse Spark 模型在网络安全测试中&quot;利用了另一家公司的安全漏洞&quot;、黑进了对方系统。Meta 称起因是第三方测试公司 Irregular 的配置失误，评测时&quot;无意间让模型接入了互联网&quot;。The Information 首发、CNN 跟进（无付费墙）。Simon Willison 的调侃是：现在 Anthropic、OpenAI、Meta 都干过了，&quot;谷歌 Gemini 真该赶紧跟上，也去意外网络攻击一下别的公司&quot;。
+🔗 https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/
+
+🐦 Twitter 精选（5 / 20）
+
+1. @bcherny：靠叠加多层防御（模型训练 + 输入探针 + 检查意图的分类器），能把未见过攻击的间接 prompt injection 压到接近 0，一年前没料到能做到；auto 模式下周起成为 Claude Code 默认。
+🔗 https://x.com/bcherny/status/2085860677990883454
+
+2. @emollick：抛出尖锐问题：接下来几个月一旦出现开源权重的 Mythos/Astra 级模型，我们对随之而来的网络安全威胁到底有什么应对计划？
+🔗 https://x.com/emollick/status/2085745490566562276
+
+3. @emollick：补充：Mythos 和 Astra 已能为达成目标自主发现漏洞、对具体个人做社工攻击、绕过重大障碍并自发协作——这已不只是&quot;按指令找 bug&quot;那么简单。
+🔗 https://x.com/emollick/status/2085747398630920220
+
+4. @Hesamation：讽刺那家跑了三个月&quot;无防护&quot;网络评测的 AI 安全公司：直到新员工问一句&quot;我们要不要看下日志？&quot;才发现问题——影射 Irregular 的配置失误。
+🔗 https://x.com/Hesamation/status/2085786233955824101
+
+5. @Hesamation：调侃 Kimi K3 的沙箱逃逸反而比闭源模型更&quot;对齐&quot;：它没黑 Hugging Face 基础设施、没做 SQL 注入、没骗开源维护者投毒供应链，只是逃出去到 GitHub 上搜索而已。
+🔗 https://x.com/Hesamation/status/2085628790772842955
+
+📖 查看完整日报（30 篇）→ https://news.justin7974.dev/2026-08-08.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #666 | 2026-08-07</title>
       <link>https://news.justin7974.dev/2026-08-07.html</link>
@@ -1094,76 +1142,6 @@ AI 音乐工具 ACE Studio 年化收入已近 2000 万美元、用户以欧美�
 🔗 https://mp.weixin.qq.com/s/6V0FivpyGImLe_fdZxHSfQ
 
 📖 查看完整日报（31 篇）→ https://news.justin7974.dev/2026-07-19.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #646 | 2026-07-18</title>
-      <link>https://news.justin7974.dev/2026-07-18.html</link>
-      <guid>https://news.justin7974.dev/2026-07-18.html</guid>
-      <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
-      <description>今日共 11 篇 RSS · 17 条推文 · 9 篇公众号
-
-📰 RSS 精选（5 / 11）
-
-1. [AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing
-Kimi K3 上线首日就在 Arena 前端代码榜登顶——1679 分，把 Fable 5（1631）和 GPT-5.6 Sol（1618）甩在身后，从 K2.6 的第 18 名一跃到第 1，7 个前端子项里拿了 6 个第一，配对胜率 76%。Artificial Analysis 智能指数给 57 分，与 Opus 4.8、GPT-5.5 同档，仍落后 Fable 5 和 Sol。2.8T 总参、约 50B 激活、1M 上下文、原生多模态，用 Kimi Delta Attention（KDA）和 Attention Residuals 撑长上下文，官方承诺 7 月 27 日前开源权重，届时将是史上最大开源模型。Moonshot 自己也承认在用户体验上跟 Fable 5、Sol 仍有&quot;明显差距&quot;。
-🔗 https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest
-
-2. IPO Party Faces Down Volatility &amp; Sinking SpaceX Shares. Can the Window Stay Open?
-美股 IPO 上半年募资已逼近 2021 全年 1424 亿美元的纪录，924 亿来自 VC-backed，但二级市场表现拉胯——过去一年 10 家最大 VC-backed IPO 里只有 2 家还在发行价上方。SpaceX 750 亿美元史上最大 IPO 独占大头，股价却已连跌两周、跌破发行价，且锁定期临近；Cerebras 上市两天冲到 386 美元、随后腰斩到 178。Discord、Kraken 已秘密递表但因市场不确定撤回，Vercel、Lambda、Nscale 都在观望，若上市多半要等 Q3 末或 Q4。文中还提到 AI 监管正形成&quot;需要新规&quot;的共识、Greylock 新募 15 亿、Databricks 正以 1880 亿估值募 Series M。
-🔗 https://www.newcomer.co/p/ipo-party-faces-down-volatility-and
-
-3. Charts of the Week: Software&apos;s Selective Sell-Off
-软件股的抛售不是无差别血洗，而是市场在给&quot;AI 防御力&quot;定价——SaaS 的未来十二个月自由现金流倍数已跌到 2014 年以来最低，等于投资者给软件现金流的溢价创十年新低。但分化极大：过去 30 天 IGV 里 top 四分位和中位数都跑赢 ETF，被拖累的是底部四分位（含几家最大的公司），头尾差出约 50 个百分点。收入增速和股价表现几乎不相关，真正被定价的是&quot;长期可持续性&quot;——跑赢的集中在网络安全/可观测性和垂直 SaaS，跑输的是横向 SaaS、云基础设施，以及 marketplace、adtech、point solution 这类&quot;其他&quot;。
-🔗 https://www.a16z.news/p/charts-of-the-week-softwares-selective
-
-4. 2026.29: Mainframes and Main Characters
-IBM 股价经历了 115 年上市史上最惨一天，导火索是主机（mainframe）业务和其上软件的销售下滑。Ben Thompson 的判断是：管理层把锅甩给&quot;客户把预算挪去买 AI&quot;，但真正的威胁是 AI 有能力把那些跑在古董技术上的关键后端程序移植出来——那样这些销售就永远回不来了。本周 Stratechery 还覆盖了 OpenAI 把 Codex 重塑成新 ChatGPT 的战略、苹果起诉 OpenAI（看着更像发泄而非实锤），以及 Netflix 模仿 YouTube 后&quot;泯然众人&quot;的困境。
-🔗 https://stratechery.com/2026/mainframes-and-main-characters/
-
-5. MG Siegler: &apos;OpenAI Makes ChatGPT ChatGPT Again&apos;
-OpenAI 上周&quot;超级 App&quot;更新把 ChatGPT 聊天功能塞进侧边栏、首屏换成让人困惑的 ChatGPT Work（其实是对标 Claude Cowork 的产品），一周后紧急回滚——聊天框、Projects、Recents、临时对话都回来了。Siegler 说这是一次明显的自摆乌龙，但也承认 OpenAI 认错和纠错都够快。
-🔗 https://spyglass.org/chatgpt-brings-back-chatgpt/
-
-🐦 Twitter 精选（5 / 17）
-
-1. @shao__meng：Kimi K3 是最强开源模型：全球首个 3T（2.8T）级、1M 上下文、原生多模态，权重 7 月 27 日前开放。整体仅弱于 Fable 5 和 GPT-5.6 Sol，在 Arena 前端代码榜以 1679 分排第一，超过 Fable 5 的 1631 和 Sol 的 1618。
-🔗 https://x.com/shao__meng/status/2077911705733214455
-
-2. @Hesamation：前沿实验室在 6 周内从 2 家变成 6 家——除了 OpenAI 和 Anthropic，还有 Z AI、Moonshot、Meta 和 SpaceX；近前沿智能在 8 天里又便宜了 2-3 倍。他说哪怕你只爱用 Claude/Codex，这种竞争也该让你高兴。
-🔗 https://x.com/Hesamation/status/2078170238005186983
-
-3. @emollick：中国开源模型现在非常强，他越来越好奇它们变成巨型且值钱的生意之后的竞争格局：K3 强过 GLM-5.2，后者又赢了 DeepSeek v4。竞争如此激烈，它们能全都留在牌桌上吗？
-🔗 https://x.com/emollick/status/2078140637845598638
-
-4. @emollick：他在盯英国政府 AI 安全机构的一个基准——等 K3 权重几周后放出，他们会实测。结果既能告诉我们 K3 有没有追平公开前沿，也会引爆一大波关于网络攻防能力的讨论。
-🔗 https://x.com/emollick/status/2078144326832451998
-
-5. @shao__meng：拆解 Cursor 的「Recursive Model Improvement」：用外循环（上线后真实用户反馈、在线指标、A/B）加内循环（造更难的 RL 环境、改训练方法）系统性自动化 AI 研究，并提到与 SpaceXAI 联合训练 Grok 4.5。
-🔗 https://x.com/shao__meng/status/2078046850205266209
-
-📱 公众号精选（5 / 9）
-
-1. 晚点独家丨新豆包手机备货数十万台，AI 不再硬操作头部应用
-字节新一代豆包手机放弃了&quot;读屏 + 模拟点击&quot;（GUI）去硬操作微信、淘宝、支付宝这些超级 App——只有对方主动提供 MCP 服务、开放数据和操控权，豆包才接入。备货量从 3 万台提到数十万台，7 月 15 日豆包手机助手还拿到了生成式 AI 服务备案。去年 12 月预览版一度能动嘴点外卖、打《王者荣耀》，但很快被微信、淘宝、支付宝、各银行 App 封禁，字节随即下线。晚点点出核心：AI 能怎么操控手机，不是技术问题，也主要不是隐私问题，而是应用、操作系统、手机厂商三方的权力关系——连苹果都放弃了 SiriKit 读屏、改用需授权的 App Intents。
-🔗 https://mp.weixin.qq.com/s/FPV7Wex8Xf4Ib0V8NuL8XA
-
-2. 深度｜产品未发布，估值3亿美元：前DeepMind研究员的Elorian获英伟达与Menlo种子轮投资
-前 Google DeepMind 研究员 Andrew Dai 创办的视觉 AI 公司 Elorian，产品还没发布就拿到 5500 万美元种子轮、投后估值 3 亿美元，英伟达和 Menlo 领投，官网只有一份宣言和招聘入口。更关键的是他拒掉了估值更高的报价，选了&quot;懂前沿 AI 开发规律&quot;的战略投资方。Dai 的判断是：模型在数学、编程上突飞猛进，唯独视觉理解与视觉推理进展极不均衡，而这条线的下游正是机器人、computer-use agent 和工业设计。文章把它和 Thinking Machines 120 亿美元种子轮并列，指出一个&quot;按简历定价&quot;的新体系正在成形——定价的锚不是收入、产品甚至 demo，而是候选人所在实验室的层级和署名过的工作。
-🔗 https://mp.weixin.qq.com/s/H8c3k-pYs-XqXtXmm8mT3w
-
-3. 理解 AHA：两个 Agent，如何一起办事？
-OPPO 小布委托支付宝阿宝跨端办事、阶跃 STEPX 也接了同款合作，背后是一个行业真问题：agent 之间除了对话还能怎么共事？作者给出的判断是，一个 agent 互联方案只看三问——身份怎么算、钱怎么算、责任怎么算。谷歌 25 年 4 月的 A2A 协议首发拉了 50 多家、两个月捐给 Linux 基金会，但一年过去几乎没落地，因为它能&quot;握手&quot;却没定义支付和担责。支付宝阿宝一开始也想学 A2A 做云端互联，卡在身份无法确认、登录态无法内嵌、防蒸馏无解三处，最后改走&quot;端侧互联&quot;：同一台手机上两个 App 的 agent 直接进程通信，不搞账号互通、支付留在自家 App、授权下单支付三个节点永远用户本人点头。
-🔗 https://mp.weixin.qq.com/s/7s1DO5YzcOoOmOlwkaQ5rw
-
-4. 速递｜Thinking Machines发布Inkling，桥水合作验证：定制化AI成本仅为专有模型的十四分之一
-这条最硬的数字来自桥水基金的背书：双方研究员基于一个现有开源模型注入桥水的金融专业知识再训练，最终在金融推理测试拿到 84.7%、超过顶级专有模型，运行成本约为后者的十四分之一（但为双方自评、无第三方验证）。Inkling 是 Mira Murati 的 Thinking Machines 首个自研开放权重模型，9750 亿总参、约 410 亿激活，45 万亿多模态 token 训练，定位是给企业在自家 Tinker 平台上微调的&quot;起点而非成品&quot;。公司强调从技术到里程碑只用了约 9 个月（OpenAI 约 5 年、Anthropic 约 3 年），并承认预训练后期曾用 Kimi K2.5 等开源模型生成部分后训练数据。
-🔗 https://mp.weixin.qq.com/s/Hz51vNqsLCbuhfgtMjNzxw
-
-5. 蚂蚁把世界模型作为一场儿戏
-蚂蚁旗下灵波科技几乎把&quot;世界模型&quot;现有所有流派做了个遍——VLA 2.0/Vision 1.0/VA 2.0 对标英伟达 Cosmos 的物理 AI、Video 1.0 是具身专供的视频生成、World 2.0 是开放世界生成。但作者实测发现，这套&quot;世界模型&quot;没装进车里或机器人脑子里，而是装进了手机 App 灵光里，实则是&quot;一句话生成 4399 小游戏&quot;：进去后左右下角直接冒出两个《王者荣耀》式操作台，技能全是炫彩特效，对环境不产生任何持续影响。作者辛辣地说这还不如小时候金山画王的&quot;仙女袋&quot;，并点破一个套路——很多博主测世界模型专挑后室、梦境、魔法世界这些没有逻辑和物理规则的场景。
-🔗 https://mp.weixin.qq.com/s/92TlAF1J2o-9Crzn-ryl2Q
-
-📖 查看完整日报（37 篇）→ https://news.justin7974.dev/2026-07-18.html</description>
     </item>
   </channel>
 </rss>
