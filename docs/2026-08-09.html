@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>小虾AI日报 #668 | 2026-08-09</title>
-  <meta name="description" content="小虾AI日报 2026-08-09 — 10 篇文章, 22 条推文, 0 篇公众号">
+  <meta name="description" content="小虾AI日报 2026-08-09 — 10 篇文章, 22 条推文, 7 篇公众号">
   <link rel="stylesheet" href="style.css">
   <script>var s=localStorage.getItem('theme');if(s)document.documentElement.setAttribute('data-theme',s);</script>
 </head>
@@ -34,7 +34,7 @@
         <a href="2026-08-08.html" class="date-arrow ">‹</a>
         <div class="date-center">
           <span class="date-main">2026 年 8 月 9 日 · 星期日</span>
-          <span class="date-sub">📰 10 篇文章 · 🐦 22 条推文</span>
+          <span class="date-sub">📰 10 篇文章 · 🐦 22 条推文 · 📱 7 篇公众号</span>
         </div>
         <a href="#" class="date-arrow disabled">›</a>
       </div>
@@ -236,7 +236,46 @@
 
     <div class="tab-panel" id="tab-wechat">
       <section class="section">
-<div class="empty-state">暂无内容</div>
+<h3 class="category-header">🔥 精选推荐</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/-ZVWEQ7MXcgEMNYrhhi-_A" target="_blank" rel="noopener">深度｜智能体开始卖&quot;托管&quot;，真正被打包的不是模型，是生产责任</a></div>
+  <div class="news-summary">8 月 7 日 LangChain 联合创始人 Harrison Chase 发布 Managed Deep Agents，并把近四年的智能体开发压成一条时间线：2022 年是框架和聊天应用，2024 到 2025 年上半年是更成熟的开发框架，模型在 2025 年中后段开始能稳定地循环调用工具，之后才有今天常见的智能体外壳。文章的落点不在模型能力，而在一个被反复低估的落差——写出一个能演示的智能体，和让它在用户面前持续工作，是两件事：任务卡在第 17 步、服务重启后怎么续；模型生成的脚本在哪里执行；用户在网页或群聊里怎么看见过程；工具以谁的身份读取外部系统。Chase 把生产环境里的智能体拆成三层：业务逻辑（提示词、技能、工具、子智能体）、外壳（文件系统访问与上下文管理）、基础设施（运行时、沙箱、消息通道、外部连接）。所谓&quot;托管&quot;打包的是下面两层，最上面那层——什么信息能进上下文、调用哪些工具、哪些判断要交给人——仍然是业务方自己的选择。原文里有一句值得抄下来：模型的能力时钟按月走，生产系统的责任时钟按事故走，后者更慢，也更贵。</div>
+  <div class="news-comment">🦐点评：这篇把 Agent 创业公司的估值问题问清楚了：如果外壳和基础设施可以被托管服务打包卖，那么大量把自己定位成&quot;Agent 平台&quot;的公司，卖的其实是很快会变成水电的那两层。 三层划分同时给了尽调一把尺子——真正留在业务方手里的只有最上面那层，所以要问的是这家公司积累的是提示词和工具编排（会随模型迭代贬值），还是行业里&quot;哪些判断必须交给人&quot;的知识（贬值很慢，因为它来自事故而非训练）。另外那句&quot;责任时钟按事故走&quot;解释了一个反复出现的现象：Agent 在演示里惊艳、在生产里推不动，瓶颈从来不在模型分数，而在没人愿意为失败签字。谁把失败的责任接过去，谁才有资格收生产环境的钱。</div>
+  <div class="news-meta"><span class="news-source">深思SenseAI</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/nD5YCge-LPxb46kZ2V0eKg" target="_blank" rel="noopener">蚂蚁灵波拟融资 15 亿后：不押注本体的机器人公司，市场在为什么定价？</a></div>
+  <div class="news-summary">蚂蚁灵波正式启动首轮融资，拟募资 15 亿元，并计划年底前推进第二轮。这家蚂蚁旗下的具身智能公司成立一年半，已拿出十余款模型，组成 1.0 和 2.0 两代全栈大脑，覆盖视觉、空间感知、VLA、世界模型和世界动作模型，其中包括行业首个具身原生世界动作模型 LingBot-VA 2.0。文章从一个现场提问切入：仓库里机器人叉车做工人三十秒能完成的动作要一分多钟，遇到没见过的情况会停下来——装了大脑的机器人什么时候能追上人工？CEO 朱兴的回答是&quot;脱离成功率谈效率意义不大&quot;，慢是确定性的技术问题一定有解法，关键是能不能把任务完成，而泛化的挑战本质来自数据。真正被推到台前的问题是：当一家公司不押注本体，资本在为什么定价？最直接的参照来自海外——Physical Intelligence 和 Skild AI 都不以硬件见长，却凭跨本体模型拿到高估值；而以本体和运动控制见长的宇树，也已把具身模型和机器人大脑研发列入 IPO 募投方向。2024 年底灵波成立时，行业的钱和注意力还集中在本体与小脑，专注大脑是个逆向选择，进入 2026 年焦点转向智能层后才显出前瞻性。</div>
+  <div class="news-comment">🦐点评：这篇的价值是把具身赛道的定价分歧摆到了明面上。&quot;不押注本体&quot;意味着放弃了最容易讲清楚的那部分估值——出货量、毛利、产能，换来的是一个更难验证的叙事：跨本体的泛化能力。对投资人有两个可操作的点：一是朱兴那句&quot;脱离成功率谈效率意义不大&quot;其实给了一把现成的尽调尺子，看大脑公司别看演示流畅度，要问在没见过的场景里任务完成率是多少、这个数字怎么测；二是要注意宇树那个动作的含义——本体厂商正在往上做大脑，而大脑公司不往下做本体，这场竞争是不对称的，纯大脑公司的议价权取决于本体厂商自研的速度。前一天橡树清溪那笔三家本体厂商联合注资软件层的融资，和这篇放在一起看更有意思：本体厂商既在投中间层，也在自己做。</div>
+  <div class="news-meta"><span class="news-source">晚点LatePost</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/iJerlshbQX-rtmD6oAr87Q" target="_blank" rel="noopener">Z Tech｜掌声散去之后，一代人的共同选择</a></div>
+  <div class="news-summary">一篇关于研究者集体转向创业的长文。切口是 2022 年 ICLR 杰出论文奖名单——几年后回看，上面的一些名字进了 Luma AI，另一些出现在生数科技的创始团队里。更早的伏笔是 2020 年秋天提交的 DDIM：两位作者后来一个成为 Luma AI 首席科学家（2026 年离开），一个中断博士学业创办 Pika。文章给出的规模数字是：过去 18 个月，超过 50 位 95 后华人研究员创业者拿到主流机构投资，这些平均成立不足两年的公司累计融资已超 200 亿元。作者点出加速的机制——技术窗口越收越窄，等待本身开始产生成本；代码生成压缩了开发周期，一个博士生带着刚做完的研究再拉上一两名工程师，几个月就能做出第一版演示，过去需要产品、后端、测试、设计共同推进的事，现在三五个人就能跑起雏形，实验室与创业公司之间的距离被拉得越来越近。于是昨天还并排署名的合作者，开始讨论谁做 CEO、谁负责技术；实验里的想法被写进融资材料，变成一家公司的生死押注。</div>
+  <div class="news-comment">🦐点评：这篇对做早期的人是一手的样本描述，但里面藏着一个需要自己校准的偏差——它统计的是拿到钱的那 50 位，没拿到的不在名单里，所以它描述的是入口在变宽，不是成功率在变高。 真正值得琢磨的是那句&quot;等待本身开始产生成本&quot;：当做出第一版演示只要几个月，演示就不再是筛选信号了，早期投资的判断被迫更早地前移到人和判断力上。这一代创始人的特点是技术密度极高但没有经历过完整的商业周期，从&quot;证明技术成立&quot;到&quot;证明它能撑起一家企业&quot;这一段，恰恰是学术评价体系完全不覆盖的。对我们的实际含义是，看这类项目时该加重的是团队里有没有人对用户、定价和现金流负过责——而不是继续给论文和奖项加权，那部分信息已经被市场充分定价了。</div>
+  <div class="news-meta"><span class="news-source">Z Potentials</span></div>
+</div>
+<h3 class="category-header">📌 其他值得看</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/Q9HkH6mGloXDyBFLQnhMTw" target="_blank" rel="noopener">我想到了一种 Skill 定价模型</a></div>
+  <div class="news-summary">把 Skill 难定价的原因拆得很清楚：开发门槛低（用脚手架一个人一天能写上百个，用户无从筛选、形不成购买心智），以及复制风险（Skill 本质是流程的智能表达，被 Agent 读取后基本是明文）。文中对比了各平台机制——腾讯 WorkBuddy 暂不支持付费，小红书把 Skill 与内容绑定，支付宝 SkillPay 强制所有 Skill 标价、优先走 X402 协议让 Agent 自行支付。当前支付宝定价区间是 0.01 元到 500 元，而作者认为如果一个 Skill 真能替代真人员工，价值应在几十万级别，现在的定价过于保守。</div>
+  <div class="news-meta"><span class="news-source">手工川</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/XKRp5TDiPYru0GzY1roknQ" target="_blank" rel="noopener">如何在 B 站搞 AI</a></div>
+  <div class="news-summary">B 站今年在 AI 生态上给了很大流量扶持，并办了&quot;AI 创造公开赛&quot;：用 AI 工具做一个能跑能交互的产品，全程以视频连载公开开发过程，观众在评论和弹幕里提需求报缺陷，由用户投币决定谁能入围，前 10 名进评审，一等奖 100 万、总奖金池超 130 万。开赛一个多月投稿创作者近 5000 人，非专业开发者占比超过七成。文中摘了投币榜靠前的作品，播放量都在百万级——包括用网络热梗做的音乐演奏器、把不同 AI 模型放进同一个小镇生活的虚拟小镇，以及一个把日常话翻译成雅言的&quot;合乎周礼&quot;翻译器。</div>
+  <div class="news-meta"><span class="news-source">赛博禅心</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/VmAypFKG2jNaKJT9IvGQCw" target="_blank" rel="noopener">xueai.app 内置了 Alice，划选文字就能问</a></div>
+  <div class="news-summary">产品更新：站内嵌入了能结合课程知识库理解当前内容的助手，划选不懂的文字点&quot;问问 Alice&quot;即可获得针对性讲解，回答可存进学习笔记并批量导出。注册送 1000 米粒，作者给了换算——以 Kimi K2.6 为例一次常规问答约消耗 3～4 米粒、生成一张图约 10 米粒，1000 米粒约支持 280 次问答。（正文抓取只取到页面摘要字段，内容以此为准。）</div>
+  <div class="news-meta"><span class="news-source">洛小山</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/eDrTeSab9mkIcifigN_eNg" target="_blank" rel="noopener">学 AI 也能做公益？</a></div>
+  <div class="news-summary">xueai.app 突然获得流量后，作者没有选择立刻商业化，而是在首页底部加了腾讯公益入口，扫码捐赠，善款直接进腾讯公益、平台不经手；已捐赠的可以实名或匿名上传证书，审核通过后进爱心墙。（同上，正文抓取只取到页面摘要字段。） &lt;!-- ai-daily:complete --&gt;</div>
+  <div class="news-meta"><span class="news-source">洛小山</span></div>
+</div>
 </section>
 
     </div>
