@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 10 Aug 2026 13:20:58 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 00:19:18 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #670 | 2026-08-11</title>
+      <link>https://news.justin7974.dev/2026-08-11.html</link>
+      <guid>https://news.justin7974.dev/2026-08-11.html</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
+      <description>今日共 13 篇 RSS · 26 条推文 · 9 篇公众号
+
+📰 RSS 精选（5 / 13）
+
+1. Nvidia May Backstop Up To 25% Of Projects From $500 Billion Alliance With PE Giants
+Nvidia 联合六家私募巨头（Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR）签署初步协议，拟募集 5000 亿美元为 AI 基础设施融资，Nvidia 可能为其中最多 25% 的项目提供兜底担保。协议尚未最终敲定。这意味着芯片供应商开始用自己的资产负债表为下游算力项目背书。
+🔗 https://www.theinformation.com/briefings/nvidia-partners-private-equity-giants-500-billion-ai-compute-financing
+
+2. OpenAI Employees Sell $7 Billion in Tender
+OpenAI 在近期完成的一轮员工要约收购中，以约 70 亿美元回购员工持股，定价对应 3 月融资达成的 8520 亿美元投后估值，回购资金部分来自那轮 1220 亿美元融资。这给早期持有人提供了大规模流动性窗口。
+🔗 https://www.theinformation.com/briefings/openai-employees-sell-7-billion-tender
+
+3. Anthropic in New Datacenter Partnership With Macquarie, GIC
+Anthropic 与澳洲 Macquarie 资管、新加坡主权基金 GIC 成立新实体，专门为 Anthropic 开发、运营并租赁 AI 数据中心以满足 Claude 的算力需求，初期聚焦美国市场。这是一条把重资本压力甩到表外的算力扩张路径。
+🔗 https://www.theinformation.com/briefings/anthropic-new-datacenter-partnership-macquarie-gic
+
+4. Meta is back with Muse Glimmer: local, agentic, multimodal, and open source
+Meta 发布 Muse Glimmer——从更大的 Muse 蒸馏而来的 300 亿参数多模态模型，采用干净的 Apache 2.0 许可，主打本地化 agentic 场景（编程、文档分析、个人助手）。模型在 Hugging Face 上 day-0 全家桶支持（transformers、vLLM、llama.cpp、TRL 微调等），强调隐私、低成本和端侧部署。
+🔗 https://huggingface.co/blog/muse-glimmer
+
+5. Can Agents Use a Computer Yet? We&apos;ve Got the Data
+a16z 用数据回答&quot;AI agent 能不能用电脑干活&quot;：computer-use agent 已开始在生产环境里窄而重复的工作流中站住脚——更新记录系统、在门户间搬数据、处理工单、核对记录，以及大量没有干净 API 的长尾软件。作者认为模型进步速度超出几乎所有人预期，BPO（业务流程外包）正迎来 agentic 新前沿。核心信号是：当最重度的用户不再看排行榜，排行榜就不再是故事本身。
+🔗 https://www.a16z.news/p/can-agents-use-a-computer-yet-weve
+
+🐦 Twitter 精选（5 / 26）
+
+1. @AnthropicAI：让一个未发布的研究版 Claude 挑战黎曼猜想：虽没解出来，但在一个相关问题上取得进展——把满足假设的黎曼ζ函数零点比例下界从 41.6% 提高到了 67.2%。
+🔗 https://x.com/AnthropicAI/status/2086867246073401655
+
+2. @Hesamation：Meta 强势重回开源：将开放 Muse Spark 1.2 的权重，并预告&quot;还有更大的模型即将到来&quot;。
+🔗 https://x.com/Hesamation/status/2086769550331154463
+
+3. @shao__meng：Meta AI 近期有崛起之势：Muse Spark 1.2 与 30B 的 Muse Glimmer 都将开源，像是要和 Qwen、Gemma 争夺端侧小参数开源模型的霸主地位。
+🔗 https://x.com/shao__meng/status/2086780207281910262
+
+4. @emollick：Spark 是个好模型，是过去一年里最强的非中国开源权重模型，但仍不及中国开源模型的前沿，更落后于闭源前沿——能否跟上取决于持续发布新的开源模型。
+🔗 https://x.com/emollick/status/2086793377308156217
+
+5. @Hesamation：要告别 Llama 这个塑造了早期开源 AI 的&quot;小家伙&quot;了；但它的技术印记（RoPE、RMSNorm、SwiGLU、GQA 等）至今仍遍布各种开源模型——Meta 这次是一次强势回归。
+🔗 https://x.com/Hesamation/status/2086795129424052457
+
+📱 公众号精选（5 / 9）
+
+1. Claude Tag 可能是一个 10x Claude Code 级别的产品
+Anthropic 内部正把一个月前悄悄上线的 Claude Tag 当作下一代爆款来建设，对标万亿美元级市场。Tag 相当于一个&quot;数字员工&quot;：以团队成员身份加入公司 Slack、获得全部 context，用户 @claude 即可派活，按用量记在企业账上、与 API 同价。产品团队已有超 65% 的代码由 Tag 完成，部分员工 90% 的工作已从 Claude Code 迁移到 Tag。文章借 Karpathy 的判断，认为 AI 交互正迈入第三阶段：Chat → 本地 Coding Agent → AI Coworker，背后是&quot;单人→多人、被动→主动、同步单次→异步长程&quot;三重迁移；而这一形态要到模型能稳定自主工作数小时（METR 评测显示已达约 16 小时人类专家工作量）才真正成立。
+🔗 https://mp.weixin.qq.com/s/DfQFOgOZxhReNiXbYG8ybA
+
+2. 速递｜法律AI公司Harvey拟融资5亿美元，估值155亿美元，ARR增长超80%至3.5亿美元
+成立四年的法律 AI 公司 Harvey 正洽谈至少 5 亿美元新融资，估值将达 155 亿美元，较五个月前溢价 40%。其年化营收已从今年 1 月的 1.9 亿美元增长超 80% 至 3.5 亿美元以上，Lightspeed 有意领投。融资背景是竞争加剧：斯德哥尔摩的 Legora 产品公开发布仅 18 个月 ARR 就破 1 亿美元；同时 OpenAI、Anthropic 的模型既是 Harvey 的底层依赖、又日益成为竞争对手，一些律所开始倾向自建 AI 应用。Harvey 已在考虑自研内部模型以控成本、降低对两家模型厂的依赖。公司由前律师 Winston Weinberg 与前 DeepMind/Meta 研究员 Gabe Pereyra 创立，投资方包括 Sequoia、a16z、Kleiner Perkins、GV、OpenAI 等。
+🔗 https://mp.weixin.qq.com/s/GJmDYh-HE9tlPizfY3qH5w
+
+3. 独家｜复星锐正领投近亿元融资，玩点旅行要补上旅游AI的&quot;最后一公里&quot;
+玩点旅行完成近亿元 Pre-A+ 轮，复星锐正领投，三个月内连续两轮累计融资近 2 亿元（上一轮 DeepSeek 部分股东也加码）。公司主打旅游行业的企业级 AI Agent 平台 Wanpix.AI（8 月 4 日发布），差异化不在模型而在&quot;把长期旅游电商经验沉淀成 AI 可调用的能力&quot;：已积累 200 多个行业级原子能力、500 万以上动态商品库、1000 万以上多模态资料。创始人黄宇舟曾任阿里飞猪 COO，团队用 3 年把旅游电商做到近百亿规模，平台称典型任务路径可缩短 30%–70%、支持 30 步以上复杂规划。
+🔗 https://mp.weixin.qq.com/s/Ew45g7nNFLUbDL3VGzUxAA
+
+4. 从两款机器人到1000种可能：FrontierX探索 Physical AI 的开放路径
+FrontierX 在 Aura Pioneers 大会上发布机器人操作系统 AuraOS，并公布覆盖云服务、空间/世界模型、语音模型、本体供应链及教育展览等的合作体系。其思路是从&quot;卖产品&quot;转向&quot;做平台&quot;：把感知、移动、交互和不同硬件封装成可调用的系统能力，让开发者不必从造机器人开始就能进入 Physical AI 开发。六支入围团队基于同一台参考本体 Aura（集成摄像头、麦克风、移动底盘和端侧计算），一个月内做出了桌游 DM、陪伴老人的移动小电视等差异化原型。创始人姜易卓曾在阿里做战略（菜鸟出海），联合创始人陈冠中曾在华为负责机器人应用框架、在地平线参与 Agent 机器人平台。
+🔗 https://mp.weixin.qq.com/s/dzfVcRcZVNv7XVAFcLpkVw
+
+5. 速递｜黑石支持的AI电力基础服务商Lancium获英伟达20亿美元投资，估值100亿美元
+英伟达同意向德州 AI 电力基础设施开发商 Lancium（黑石支持、Oracle/OpenAI 园区背后的电力方）投资 20 亿美元、估值约 100 亿，并承诺再追加 10 亿，持股或最终升至约 30%，意在为芯片客户锁定数吉瓦电力；但德州州长刚下令暂停新数据中心并网申请，增添变数。
+🔗 https://mp.weixin.qq.com/s/TM6oewwId_NJlqzms5Kn-Q
+
+📖 查看完整日报（48 篇）→ https://news.justin7974.dev/2026-08-11.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #668 | 2026-08-09</title>
       <link>https://news.justin7974.dev/2026-08-09.html</link>
@@ -1116,76 +1186,6 @@ NeoLab 里的 MindLab（成立于去年 12 月）发布 Macaron V1，号称是�
 🔗 https://mp.weixin.qq.com/s/ciZ_E-aEN3DY6XUfyIjwsw
 
 📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-07-22.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #648 | 2026-07-20</title>
-      <link>https://news.justin7974.dev/2026-07-20.html</link>
-      <guid>https://news.justin7974.dev/2026-07-20.html</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <description>今日共 14 篇 RSS · 15 条推文 · 5 篇公众号
-
-📰 RSS 精选（5 / 14）
-
-1. Alphabet, SpaceX Spur Record U.S. Equity Sales
-Anthropic 最快 9 月就要 IPO。美股今年的股票发行总量正冲向历史纪录，已经超过 2021 年的高点，SpaceX 和 Alphabet 的超大规模发行是主要推手。投行正在游说更多已上市科技公司增发，Intel 是重点对象之一（其股价此前已大幅上涨）。（原文受付费墙限制，本条基于 RSS 摘要）
-🔗 https://www.theinformation.com/articles/alphabet-spacex-spur-record-u-s-equity-sales
-
-2. AI Mania Is Eviscerating Global Decision-Making
-Nik Suresh 记录了他在大企业咨询中看到的 AI 狂热现场。一位高管在为一家年收入 20 亿美元以上的公司制定了完全以 AI 为核心的技术战略之后，才承认自己这辈子从没用过 ChatGPT 或任何 AI 工具。某家设了&quot;token 排行榜&quot;的公司里，工程师的应对方式是：一边干正事，一边让 AI 把整个 Go 仓库重写成 Zig，纯粹为了刷数据保住饭碗。最锋利的一段来自一位供应商高管的坦白——销售话术只是次要因素，真正让人不敢说实话的是：客户高管公开宣称拿到了 100 倍生产力提升，此时供应商如果说这不可能，等于当众打客户高管的脸，会被视为攻击甚至异端，可能直接导致企业合同被取消。
-🔗 https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything
-
-3. ★ Mornings in Cupertino Have the Aroma of Napalm Once Again
-苹果起诉 OpenAI 挖人，Gruber 认为这场诉讼是 John Ternus 在&quot;复刻乔布斯&quot;，而非蒂姆·库克的风格。Tony Fadell 给 Ben Thompson 的邮件把这套打法说穿了：这是苹果吓唬现任和前任员工的惯用手段，当年乔布斯也曾威胁起诉挖走 80-100 名苹果员工的 Nest，他回了一句&quot;留住人才是苹果的工作，不是我的&quot;，之后照挖不误。文章翻出乔布斯 2005 年给 Adobe CEO 和 2007 年给 Palm CEO 的两封邮件，后者赤裸裸写着&quot;我相信你清楚我们两家公司在财务资源上的不对称&quot;。而这类默契的代价是有价目表的：2015 年苹果连同谷歌、Adobe、Intel 等公司为反挖角集体诉讼支付了 4.15 亿美元和解金。
-🔗 https://daringfireball.net/2026/07/mornings_in_cupertino_have_the_aroma_of_napalm_once_again
-
-4. 9to5Mac Uncovers Dozens of Disguised Gambling Apps on the App Store in Brazil
-9to5Mac 查出 App Store 上有 60 多个&quot;马甲应用&quot;：在全球任何地方打开都是正常的导航、旅行、天气类小工具，一旦从巴西 IP 访问就变成在线博彩平台，其中一个已经是天气分类榜首。这些应用大多来自只有单个上架记录的开发者账号，隐私政策雷同甚至完全一致，几乎没有更新记录，体积统一在 15MB 左右，图标普遍是 AI 生成的动物插画。最关键的发现是一个公开的 GitHub 仓库，里面直接写好了给 Cursor agent 的指令：每个应用要有 3-5 个可见界面、用动物主题图标（龙、牛、兔、鼠、虎）、支持远程控制路由到本地应用、内嵌网页或外部网站，并且彼此之间要有足够差异以伪装成独立产品。
-🔗 https://9to5mac.com/2026/07/17/investigation-reveals-dozens-of-disguised-gambling-apps-on-the-app-store-in-brazil/
-
-5. Claude Code uses Bun written in Rust now
-Bun 作者 Jarred Sumner 称 Claude Code 从 v2.1.181（6 月 17 日发布）起就在用 Rust 重写版的 Bun，Linux 上启动快了 10%，&quot;但基本没人注意到，无聊是好事&quot;。Simon Willison 自己动手验证：对 Claude Code 二进制跑 strings 查到 Bun v1.4.0 (macOS arm64)，而 Bun 在 GitHub 上的最新正式发布还停在 5 月 12 日的 v1.3.14，说明 Anthropic 用的是尚未正式发布的预览版；再查 .rs 文件名，抓出 563 个 Rust 源文件路径。也就是说 Rust 版 Bun 已经在数百万台设备上跑生产环境了。
-🔗 https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything
-
-🐦 Twitter 精选（5 / 15）
-
-1. @Hesamation：Kimi K3 把前端编码的帕累托前沿推走了——目前没有任何模型能同时做到更好且更便宜。它拿下 Arena 第一的同时，价格显著低于 Fable 5 和 GPT-5.6，&quot;最强&quot;和&quot;用得起&quot;之间的差距正在朝开源一侧收敛。
-🔗 https://x.com/Hesamation/status/2078759168668831828
-
-2. @shao__meng：Cline 用自家仓库的真实 bug 在同一 harness 下对比 Kimi K3 和 Claude Fable 5：两者都修好了，差别在过程效率——Fable 5 用 3.5 分钟、18 次工具调用，Kimi K3 用了 12 分钟、34 次调用，慢 3.4 倍且多烧 1.7 倍 token，但靠每 token 便宜约 3.3 倍的单价，总费用反而低 2.3 倍（0.92 vs 2.13 美元）。
-🔗 https://x.com/shao__meng/status/2078816763421352236
-
-3. @shao__meng：DeepSeek V4 和 GLM 5.2 之后，这周 Kimi K3 与 Qwen 3.8 接连曝光，直逼 Claude Fable 5 和 GPT-5.6 Sol；他的判断是 SOTA 几乎每周都可能易主，至少开源阵营如此。另外 Gemini 3.5 Pro 原定 7 月 17 日发布，因团队内部评估未过关而推迟。
-🔗 https://x.com/shao__meng/status/2078820921947938873
-
-4. @shao__meng：阿里 Qwen 3.8 即将发布，参数规模 2.4T，仅次于 Claude Fable 5——中国开源模型的参数军备竞赛还在加速。
-🔗 https://x.com/shao__meng/status/2078786413643141146
-
-5. @Hesamation：Kimi 的 GPU 扛不住了：它选择暂时拒绝新用户付费，把算力优先留给现有订阅者，而不是下调使用额度或把最好的模型移出订阅——一种明显不同的对待付费客户的方式。
-🔗 https://x.com/Hesamation/status/2078875857607672256
-
-📱 公众号精选（5 / 5）
-
-1. 深度｜我们在 WAIC 给苏度机器人出了几道&quot;题库外&quot;的题
-作者没按展台脚本看苏度，而是沿三层往下追问：多个工位怎么丝滑接入同一条产线并在节拍与异常约束下稳定运行；已有技能能否快速复用组合成更多工位方案；当物体位置、可抓区域或任务状态被临时改变时机器人还能不能完成任务。核心区分是：工业客户买的不是&quot;做成一次&quot;的演示，而是能在任务变化、设备异常、生产节拍下持续运行的系统。
-🔗 https://mp.weixin.qq.com/s/YpY_BxyCpT5wntgZ1rqpFw
-
-2. 面壁智能带着家底，杀入具身智能
-7 月 19 日 WAIC 期间，面壁智能发布并开源首个具身智能系列 MiniCPM-Robot，分两块：管&quot;手&quot;的 MiniCPM-RobotManip（通用 VLA 模型，1.5B，看画面听指令输出动作，本地部署，真机演示做三明治）；管&quot;腿&quot;的 MiniCPM-RobotTrack（0.9B，与南京大学合作的跟踪导航模型，原生适配宇树 Go2 Edu，纯本地部署，机器狗开放环境零样本指令跟随）。
-🔗 https://mp.weixin.qq.com/s/vieAJ2u4twAG7aqbgSXR0w
-
-3. 一桌实习生里出了四个创始人，而最不重要的，是聪明
-由一张 Hudson River Trading 首届实习生的老照片引出——同一桌后来走出 Hyperliquid 的 Jeff Yan、Cognition 联创 Scott Wu、Scale 创始人 Alexandr Wang，以及本文作者、Decagon 的 Jesse Zhang。文章追问的是：为什么这一代创业者里有那么大一批人出身数学/编程/科学竞赛（Perplexity 的 Johnny Ho、Pika 的 Demi Guo、Cartesia 的 Albert Gu 等），并给出&quot;最不重要的是聪明&quot;这个反直觉结论。
-🔗 https://mp.weixin.qq.com/s/9HlBae3rud0mL2I4LWdsgw
-
-4. 速测 Qwen3.8 预览版：我用 1 小时，开发了套撒币系统
-Qwen 3.8 预览版上线，参数量 2.4T，官方称&quot;除 Fable 5 外最强&quot;，挂在阿里 Token Plan（作者充了 139 元/月的 Standard 套餐）。作者作为 Claude Code 用户直接接上国产模型，一小时做出一个共享钱包小程序功能——又一个&quot;国产模型追平 + 便宜&quot;的实测样本，接着 Kimi K3 那条线。
-🔗 https://mp.weixin.qq.com/s/nfCkrhq7mEte_iaTDu8viA
-
-5. 速评 Qwen 3.8 preview
-同日对 Qwen 3.8 预览版的另一份快评，可与上一条对照看不同使用场景下的判断差异。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/7KV_HVum9-xuDf1sUwKzog
-
-📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-07-20.html</description>
     </item>
   </channel>
 </rss>
