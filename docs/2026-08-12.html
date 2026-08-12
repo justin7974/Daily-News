@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>小虾AI日报 #671 | 2026-08-12</title>
-  <meta name="description" content="小虾AI日报 2026-08-12 — 12 篇文章, 29 条推文, 1 篇公众号">
+  <meta name="description" content="小虾AI日报 2026-08-12 — 12 篇文章, 29 条推文, 9 篇公众号">
   <link rel="stylesheet" href="style.css">
   <script>var s=localStorage.getItem('theme');if(s)document.documentElement.setAttribute('data-theme',s);</script>
 </head>
@@ -34,7 +34,7 @@
         <a href="2026-08-11.html" class="date-arrow ">‹</a>
         <div class="date-center">
           <span class="date-main">2026 年 8 月 12 日 · 星期三</span>
-          <span class="date-sub">📰 12 篇文章 · 🐦 29 条推文 · 📱 1 篇公众号</span>
+          <span class="date-sub">📰 12 篇文章 · 🐦 29 条推文 · 📱 9 篇公众号</span>
         </div>
         <a href="#" class="date-arrow disabled">›</a>
       </div>
@@ -282,10 +282,54 @@
 
     <div class="tab-panel" id="tab-wechat">
       <section class="section">
+<h3 class="category-header">🔥 精选推荐</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/HHYSkw6L59s-G_fQKvrXIw" target="_blank" rel="noopener">深度｜电脑智能体超过人类基准，企业却开始为失败买单</a></div>
+  <div class="news-summary">OSWorld-Verified 的数据显示，领先模型在真实桌面任务上的完成率一年内从约 42% 升到 85%，越过了约 72% 的人类基线——模型已经能看屏幕、点按钮、填表、切换系统，在没有接口的老软件里干真活。但文章的落点是另一面：企业买的从来不是一次基准测试。报销流程走到第七步失败，前六步都不算产出；保险申请显示&quot;已收到&quot;，两天后因为保单号有误停住，而智能体不会知道办公室接到过一通电话。85% 换个口径就是每一百个任务仍有十五个失败，单步任务能接受，七八步串联的流程会把失败率继续放大——每步 85%、连做五步全成的理论概率只剩约 44%（真实系统各步并不独立，这个算法不能当预测，但足以说明基准分为什么不能直接换算成自动化率）。生产团队给出的边界很清楚：最适合交给它的是标准化、重复、路径明确、且能立刻确认结果的活——更新客户记录、处理零售订单、查监管页面、录合同、解工单。</div>
+  <div class="news-comment">🦐点评：这篇把 Agent 类公司的尽调问题问对了：该问的不是模型跑分，是&quot;你的失败发生在第几步、由谁承担&quot;。那句&quot;任务是基准的单位，完整流程才是企业的单位&quot;值得抄下来——它解释了为什么一批演示惊艳的产品卖不进企业。对投资人有两个可操作点：一是看这类公司有没有把&quot;确认结果&quot;做进产品（能立刻验证的场景才是它现在真正能吃的市场，反之是在替客户积累未爆的雷）；二是 85% 到 99% 这一段的钱和 42% 到 85% 完全不是一回事——后者靠模型升级白拿，前者要靠工程、回滚和责任划分一点点啃，而这恰恰是模型公司不会替应用公司做的部分。</div>
+  <div class="news-meta"><span class="news-source">深思SenseAI</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/veLZDwLoIAh0ERJFcqEL-w" target="_blank" rel="noopener">三位哈佛辍学生，如何将专用芯片变成估值百亿美元的 AI 算力公司</a></div>
+  <div class="news-summary">一篇关于 Etched 的研究分享。逻辑起点是推理正在取代训练成为算力主战场：训练负责造模型，推理是每次调用时真正跑的那部分，而随着应用生成的 token 越来越多、智能体反复调用，推理在 AI 成本里的占比持续上升。GPU 的长处是可编程加上成熟生态，但这种灵活性要用芯片面积、功耗和数据搬运来换；Etched 的判断是推理已经足够成熟和可预测，值得做更深的专用化，让每一美元、每一瓦电产出更多有用的 token。资本认了这个判断：2026 年 7 月红杉领投 3 亿美元 C 轮，估值 103 亿美元。三位创始人里，CEO Gavin Uberti 做过 AI 编译器基础设施、给 Apache TVM 写过 Cortex-M 后端，正是写底层代码的经历让他看到通用芯片的大量资源花在搬数据和维持灵活性上；Chris Zhu 主修数学与计算机，两人在 Uberti 休学期间隔天用视频推进这个宿舍里起步的项目；总裁 Robert Wachen 十六岁时被确诊四期骨癌、生存概率不足三成，在保命和保住行走能力之间选了手术，后来仍要接受放疗、花近两年重新学走路。</div>
+  <div class="news-comment">🦐点评：这篇值得看的是它把&quot;专用化&quot;的赌注条件写清楚了——推理要足够成熟和可预测，专用芯片才成立。这跟前几天 AMD 收购 Taalas 那笔是同一道题的两个答案：Taalas 把权重直接刻进硅片，Etched 是为推理这类计算做专用架构，两家都在赌&quot;负载会定型&quot;。对投资人可操作的是盯那个前提本身：如果模型架构继续每几个月换一次，专用化的摊销窗口就永远打不开；反过来，一旦开源权重收敛到少数长期版本，这一批公司的估值逻辑会同时成立。另外别把创始人故事读成加分项——它解释的是这个团队为什么扛得住长周期硬件研发，而不是它的技术判断为什么对。</div>
+  <div class="news-meta"><span class="news-source">投资实习所</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/rNIyJlw3k6ba90EcqTWK0Q" target="_blank" rel="noopener">深度｜17 个月估值 11 亿美元，一家独角兽的豪赌：把 AI 数据中心搬到太空</a></div>
+  <div class="news-summary">Starcloud 在 2026 年 3 月完成 1.7 亿美元 A 轮，Benchmark 与 EQT Ventures 领投，估值 11 亿美元，累计融资 2 亿——从 Y Combinator 路演到独角兽只用了 17 个月，而彼时它还远未进入规模商业化。它要做的是把 AI 数据中心送进近地轨道，选太空的三个理由是持续太阳能、天然散热和不受限的扩展空间；对外讲的四代产品不是四颗卫星，而是一张通往吉瓦级轨道数据中心的技术路线图。文章把它放在更大的背景里：国际能源署预测到 2030 年全球数据中心用电需求将翻倍以上，达到约 945 太瓦时，略高于日本目前一年的总用电量，而人工智能是这一增长的主要驱动力。SpaceX、Blue Origin、Google 也已先后进入这个赛场。</div>
+  <div class="news-comment">🦐点评：这个标的本身可以先不判断，但它标定的东西值得记：当能源、电网和土地成为 AI 的实际约束时，资本已经开始为&quot;绕开约束&quot;的方案付溢价了——17 个月、尚未规模商业化就到 11 亿美元，定价的显然不是收入，是那个约束的严重程度。对我们的用处在于反推：它是一个关于&quot;地面算力扩张会撞墙&quot;的市场共识指标，而这个共识如果成立，受益的远不止太空这一条路——电力、散热、选址、余热利用这些更近的方向会先被重估。真要看这家公司，该问的不是技术浪不浪漫，而是发射成本、在轨维护和延迟这三项里，哪一项的改善速度支撑得起它的路线图。</div>
+  <div class="news-meta"><span class="news-source">Z Potentials</span></div>
+</div>
 <h3 class="category-header">📌 其他值得看</h3>
 <div class="news-item">
-  <div class="news-title"><a href="https://mp.weixin.qq.com/s/iVSEF6ExqofF4Ie4Nr742Q" target="_blank" rel="noopener">微信的这几个AI新功能，正在杀死朋友圈最后一点人味。</a></div>
-  <div class="news-summary">今日预抓取仅返回这一篇候选，标题指向对微信近期几项 AI 功能&quot;稀释朋友圈真实社交感&quot;的批评；但原文已被发布者删除、页面显示&quot;涉嫌侵犯名誉/商誉/隐私/肖像 · 无法查看&quot;，正文无法获取，故不提供摘要与点评。 &lt;!-- ai-daily:complete --&gt;</div>
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/hyZ6mvhG0mPpH-wj9BNXIA" target="_blank" rel="noopener">速递｜前 OpenAI 研究员创办 Applied Compute，四个月估值翻倍至 30 亿美元，成立一年年化收入 5000 万</a></div>
+  <div class="news-summary">成立仅一年，正在洽谈的新一轮估值约 30 亿美元，是四个月前的两倍多；年化收入约 5000 万美元，比去年 11 月增长近四倍，Elad Gil 在洽谈领投。它做的是帮企业用自己的数据定制开源模型——文章点明了这轮增长的背景：越来越多企业想靠定制开源模型压低 AI 成本，而不是继续为闭源模型持续付费，同一趋势也在带动 OpenRouter、Baseten、Fireworks 这类公司。</div>
+  <div class="news-meta"><span class="news-source">Z Potentials</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/uLAauoXgNsJjXb1SCkE3oQ" target="_blank" rel="noopener">速递｜用 Agent 寻找芯片散热材料，AI 材料发现初创 Discovered Materials 获 900 万美元种子轮</a></div>
+  <div class="news-summary">从 Y Combinator 毕业后完成 900 万美元种子轮，Lightspeed India 领投，Peak XV 及 Paul Graham 等天使跟投。做法是用大量 Agent 集群生成候选材料方向，再用自训的基础物理模型跑仿真验证。创始人那句对比很具体：读博期间一天大概只能做 20 次猜测尝试，而现在这些 Agent 在云端 24 小时不停地沿着给定方向持续探索。</div>
+  <div class="news-meta"><span class="news-source">Z Potentials</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/wcfLaePsxihHomRgGQS4gQ" target="_blank" rel="noopener">大模型能干，懂模帝会飞</a></div>
+  <div class="news-summary">借新产品&quot;懂模帝&quot;讲了一个尖锐的观察：AI 应用公司正在集体&quot;跪得太快&quot;——一批转型蹭模型做后训练，另一批改叫各种定语的世界模型公司，反而丢掉了自己唯一的价值也就是场景。他的论点是模型公司不懂场景、朝着编程能力猛卷导致写作能力退步，所以模型优化需要更多真实场景的评测，而这正是应用公司擅长的。产品做的就是收录应用公司在自己场景上的评测集（游戏开发、训模型、让 Agent 运营一家公司、浏览器操作等）。</div>
+  <div class="news-meta"><span class="news-source">葬AI</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/O7vHR8XBwpFqOF_qlp1H4Q" target="_blank" rel="noopener">都能说「I can」，但如何回答「why me」？</a></div>
+  <div class="news-summary">从 MiniMax DevMeetup 的一场分享延伸出来的思考：&quot;Agent 能力越来越强、人人都能造奇观&quot;的时代，人人都能说自己做得到，越来越难回答的是凭什么是你。作者给自己的答案是不执着于每次做出来的产品，而是通过做东西进入生态、获取认可，再与行业一同发展。</div>
+  <div class="news-meta"><span class="news-source">赛博禅心</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/3Zf2ATcqrzT_yCuVmTzPSw" target="_blank" rel="noopener">推荐一款优雅的 Markdown 编辑器，免费开源</a></div>
+  <div class="news-summary">作者自己开发的 ColaMD，开源免费，支持所见即所得、主题切换、富文本复制、PDF 导出，三大系统都有。对我们更相关的是那个设计取向：它对 Agent 友好——当 Claude Code、Codex 这类工具改动正打开的 .md 文件时会实时同步，不用关掉重开也不用手动刷新。</div>
+  <div class="news-meta"><span class="news-source">AGENT橘</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/iVSEF6ExqofF4Ie4Nr742Q" target="_blank" rel="noopener">微信的这几个 AI 新功能，正在杀死朋友圈最后一点人味</a></div>
+  <div class="news-summary">（这篇正文抓取失败，只拿到页面脚本，这里只保留标题和链接。） &lt;!-- ai-daily:complete --&gt;</div>
   <div class="news-meta"><span class="news-source">数字生命卡兹克</span></div>
 </div>
 </section>
