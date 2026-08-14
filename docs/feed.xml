@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 13 Aug 2026 00:21:56 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 00:21:16 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #673 | 2026-08-14</title>
+      <link>https://news.justin7974.dev/2026-08-14.html</link>
+      <guid>https://news.justin7974.dev/2026-08-14.html</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 26 条推文 · 8 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. AI Frenzy Brings Dual Valuation Deals into the Mainstream
+头部基金正在把品牌溢价变现——在同一轮融资里以远低于其他投资人的价格入股，&quot;双重估值&quot;结构正从灰色操作变成常态。以太空数据中心创业公司 Starcloud 为例，Benchmark 单独领投的第一笔 tranche 估值仅 2.5 亿美元，几天后第二笔 tranche 收在 11 亿美元以上、价格翻了四倍多，但对外只公布高估值。AI 训练公司 Mercor 的 CEO Brendan Foody 在 X 上点名，过去半年他见过 Sequoia 至少六次分两段 tranche 投资，&quot;所有人假装只发生了高估值那一笔&quot;，直指其&quot;欺骗性&quot;。
+🔗 https://www.newcomer.co/p/ai-frenzy-brings-dual-valuation-deals
+
+2. Investing in Vals
+a16z 领投模型评测公司 Vals，押注的是&quot;benchmark 失效&quot;这个拐点：前沿模型在公开学术测试上纷纷刷满分，数据集被污染、泄漏进训练语料或被针对性优化，榜单高分和真实多步工作能力已经脱钩。Vals 的做法是和法律、金融、编程等领域专家把真实工作流变成严格测试，用自动评分逼近专家水准，私有测试集限次运行以防作弊，并在模型发布后数小时内产出结果。它还刻意让饱和的评测&quot;退役&quot;——好 benchmark 的使命就是被刷爆后被淘汰。
+🔗 https://www.a16z.news/p/investing-in-vals
+
+3. [AINews] SpaceXAI Grok 4.6 and Grok @Bot
+&quot;AI 队友&quot;这个赛道迎来迄今最重磅的入场者——原 Cursor、现并入 SpaceX 的团队推出 Grok Bot：能登录你各类工具、像你本人一样操作、把成品交回来的 AI 同事，对标此前反响平平的 Claude Tag 和门槛偏高的 Block Buzz。背后是当天发布的 Grok 4.6，一个确认为 1.5 万亿参数、专攻长程 agent 的模型，在私有的 AA-Briefcase 知识工作基准上大幅提分、成本却明显更低，连竞品 Cognition 和马斯克都认它是&quot;世界第二强&quot;、论效率第一。
+🔗 https://www.latent.space/p/ainews-spacexai-grok-46-and-grok
+
+4. What We Learned by Reproducing 2,200 papers from ICML
+1200 多名社区成员带着自己的 coding agent，19 天里复现了 ICML 2026 约三分之一的论文——2226 篇、6816 份 Trackio 日志。起因是评审体系正在被 AI 压垮：ICML 2026 收到 23918 篇投稿、接收 6352 篇（近乎翻倍），部分正是 agent 加速写论文所致，而评审仍是没时间细看的志愿者（一篇拿到 spotlight 的论文，评审自己承认&quot;低置信度是因为我没仔细核对证明&quot;）。Claude Code、Codex、Cursor 这类 agent 现在能在一个下午、并行上千次地读论文、写代码、跑实验并核验结论。
+🔗 https://huggingface.co/blog/icml-2026-open-reproductions
+
+5. This Essay is 10% AI Generated
+文章抛出一个正在成形的社会现象：&quot;100% 由 AI 生成&quot;已经变成网络上给人贴标签、公开羞辱的新&quot;红字&quot;，而 Pangram 这类 AI 写作检测工具正在承担某种&quot;承重&quot;的社会功能。作者 Alex Danco 用&quot;偏好造假&quot;来解释：人们嘴上说讨厌 AI 写作，真实偏好未必如此，而写作与观点的市场终会向读者的真实偏好弯曲。他借 1960 年代福柯、德勒兹、鲍德里亚等&quot;法国理论&quot;对作者身份的解构，讨论当署名与真实作者脱钩后，&quot;作者&quot;到底意味着什么。
+🔗 https://www.a16z.news/p/this-essay-is-10-ai-generated
+
+🐦 Twitter 精选（5 / 26）
+
+1. @shao__meng：Grok 4.6 正式可用（Grok Build、Cursor、Grok Bot 与 API），在 4.5 基础上强化两点：长程 agent 能在多步任务里&quot;待得住&quot;，以及更重的交互/视觉工作；上下文 50 万 token，Artificial Analysis 综合指数 61，官方定位为当前最强也最快的文本模型。
+🔗 https://x.com/shao__meng/status/2087720373949481199
+
+2. @shao__meng：DeepSeek-V4-Pro-0813 又一次静默发布、官方未官宣。据 cline 团队实测，Terminal-Bench 2.1 得分 87.9，仅比 Claude Fable 5 低 0.1 分屈居第二，但价格便宜 57 倍。
+🔗 https://x.com/shao__meng/status/2087722173482115167
+
+3. @shao__meng：DeepSeek V4 Pro 今日低调发布，同时上调了 V4 Pro 和 V4 Flash 的 API 价格，并给出了正式版的 benchmark 表现。
+🔗 https://x.com/shao__meng/status/2087871165402657034
+
+4. @Hesamation：Grok 4.6 在智能、速度和&quot;每次成功的成本&quot;上都领先 DeepSeek V4 Pro；作者强调 cost-per-success 才是关键——纸面更贵的模型，只要能把活干成，实际反而更便宜。
+🔗 https://x.com/Hesamation/status/2087940614142759228
+
+5. @Hesamation：DeepSeek 开源了自家 Harness，已 24K stars。它是个 React web app，从 agent loop、模型、工具到 session 全部做成插件，高度模块化——可以像换零件一样替换任意组件，而不必改源码。
+🔗 https://x.com/Hesamation/status/2087917006448173519
+
+📱 公众号精选（5 / 8）
+
+1. 对谈华为前大模型负责人王云鹤：如果模型吞噬一切，那什么会留下？
+华为前盘古大模型负责人、华为最年轻 23 级、去年&quot;盘古之殇&quot;抄袭争议的当事人王云鹤，今年 3 月离职创办基元律动。他没做和履历更匹配的具身/世界模型，而是选了 Agentic Routing——产品 OpenSquilla 会在一个复杂任务的十几轮对话里逐轮判断该调哪个模型，推理重的给强模型、简单的给便宜模型，用低于全程调顶尖模型的价格拿到接近甚至相同的质量。面对&quot;顶尖模型会吞噬一切、中间层迟早消失&quot;的质疑，他部分同意却称之为&quot;相对傲慢的观点&quot;，认为模型公司的差异化不会很快消失，并想借 Harness 积累多模型博弈信号、重新回到大模型牌桌。
+🔗 https://mp.weixin.qq.com/s/7IHsdIdoA7LkRaM98qWCNg
+
+2. 深度｜Agent时代，存储进入AI推理核心架构，Infra竞争从算力扩展到完整数据路径
+NVIDIA 在定义下一代推理架构时，首次在 GPU 显存与通用存储之间单独划出一层 G3.5、专门承载可复用的推理上下文（交给 BlueField-4 加 NVMe 闪存，构成 CMX 平台）——这是存储第一次在 AI 计算架构里拥有独立层级。驱动力是 Agent 负载：一次任务跨几十次模型调用，KV Cache、向量索引、MoE 专家权重、用户记忆被反复动态访问，GPU 因&quot;等数据&quot;而空转就是烧钱。文章梳理了从 CXL 内存层、CMX 上下文层到 cuFile/SCADA 传输层的分层数据路径，并指出 AI SSD 的真正分歧在于&quot;数据行为该由计算侧还是存储侧定义&quot;（群联、江波龙、寅谱+联芸给出不同深度的解法）。
+🔗 https://mp.weixin.qq.com/s/RoTx44vEVOGXCstpvV0GkA
+
+3. 巨头争抢 AI 办公，不再只拼模型
+办公正在成为 Agent 的下一个主战场。腾讯 WorkBuddy 率先发力，阿里加速整合千问办公，字节强化豆包与飞书融合，海外微软/谷歌/Anthropic/OpenAI 也在把 agent 塞进文档、会议、邮件。核心判断是：下一代入口是&quot;任务本身&quot;，群聊/文件/应用退到后台，比拼重点从&quot;提供的工具数量&quot;转向&quot;任务完成能力&quot;，Gartner 预测到 2028 年三分之一用户操作将交给 AI。参照系是 Claude Code——6 个月做到 10 亿、2026 年 2 月到 25 亿美元年化收入，证明用户愿为&quot;AI 替自己干完活&quot;付费，而这套方法正被搬进办公场景。
+🔗 https://mp.weixin.qq.com/s/CKudo8lKUEWtx1Evt_mAEw
+
+4. 不到一年估值涨四倍，Cognition洽谈400亿美元融资
+Cognition 估值不到一年涨四倍——2025 年 9 月 102 亿、2026 年 5 月 260 亿、今年 8 月正洽谈 400 亿美元新一轮；支撑的不是新产品，而是年化收入正逼近 10 亿美元（一年前才几千万）。融资间隔从 8 个月压缩到 3 个月，涨幅却没收窄。企业客户对 Devin 的月使用量半年保持 50% 环比增长，且 Devin 已能写出 Cognition 自己 90% 以上的代码。产品叙事也从当初&quot;第一位 AI 软件工程师&quot;收敛到&quot;处理人类工程师不愿做的长尾工作&quot;。公司还握着去年从 OpenAI/Google 混战中接手的 Windsurf 主体、约 200 名员工与品牌商标。
+🔗 https://mp.weixin.qq.com/s/uO_TM5PqqFr1cKz3_xjeDw
+
+5. 速递｜AI代码审查平台CodeRabbit融资1.43亿美元，估值15亿美元，NVIDIA参投
+AI 代码审查平台 CodeRabbit 完成 1.43 亿美元融资、估值达 15 亿美元，Atomico 与 Smash Capital 领投，BMW i Ventures、Datadog 参投，NVIDIA 为现有投资方；成立于 2023 年、已有约 1.7 万家客户、每周执行超 200 万次代码审查，正踩在&quot;发现 AI 生成代码缺陷&quot;需求走高的浪潮上。
+🔗 https://mp.weixin.qq.com/s/C_QN-DQ0wXkCl1tvAI5gtw
+
+📖 查看完整日报（46 篇）→ https://news.justin7974.dev/2026-08-14.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #672 | 2026-08-13</title>
       <link>https://news.justin7974.dev/2026-08-13.html</link>
@@ -1134,54 +1204,6 @@ Anthropic 经济研究负责人 Peter McCrory 撰文回应&quot;AI 用了三年�
 🔗 https://mp.weixin.qq.com/s/9rliGyY1mbOrscynmqIXoA
 
 📖 查看完整日报（23 篇）→ https://news.justin7974.dev/2026-07-25.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #652 | 2026-07-24</title>
-      <link>https://news.justin7974.dev/2026-07-24.html</link>
-      <guid>https://news.justin7974.dev/2026-07-24.html</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
-      <description>今日共 0 篇 RSS · 15 条推文 · 11 篇公众号
-
-🐦 Twitter 精选（5 / 15）
-
-1. @Hesamation：引用 Sam Altman：前沿实验室都将在某种程度上变成&quot;推理公司&quot;，此前对&quot;大规模廉价智能&quot;的投入还不够；因此各大厂正急缺优秀的推理工程师。
-🔗 https://x.com/Hesamation/status/2080430648414658604
-
-2. @rileybrown：Claude 语音模式新增外部连接器的工具调用并可选用 Opus，能读邮件、改文档和 Notion，甚至直接在语音里写代码并部署到 Vercel。
-🔗 https://x.com/rileybrown/status/2080152941034447293
-
-3. @karminski3：Kimi-k3 在 EQBench 情商测试上仅以 1 分惜败 fable-5，但在创意写作项目上碾压现有所有模型，作者建议写文场景可以一试。
-🔗 https://x.com/karminski3/status/2080399623051718953
-
-4. @_akhaliq：新论文 SLAI T-Rex 展示在华为昇腾 SuperPOD 上对 DeepSeek-V4 系列做全参数后训练，为国产算力承接大模型后训练再添一个案例。
-🔗 https://x.com/_akhaliq/status/2080289833663029295
-
-5. @emollick：更新了面向普通人的&quot;现在该用哪个 AI&quot;指南，指出面向大众的 Agent 系统已经极其强大，只是命名和功能仍旧混乱难辨。
-🔗 https://x.com/emollick/status/2080354942645117116
-
-📱 公众号精选（5 / 11）
-
-1. 梁文锋和 Mind Lab，看向了同一个问题：持续学习
-Agent 已能连续调用工具、按执行结果反复修改直到完成复杂任务，但&quot;做对一次&quot;不等于&quot;学会&quot;——下次遇到相似问题仍可能重走老路、甚至重复同样的错误。持续学习（continual learning）要解决的正是这个：区别于只保存信息、供下次读取的上下文/记忆，它要从行动和结果里筛出有效经验，再通过训练改变模型以后处理同类任务的方式。DeepSeek 创始人梁文锋近期在闭门会议上说，Agent 之后要解决的就是持续学习，是下一代模型必须具备的能力——&quot;AI 现在不缺品味和直觉，缺的是持续学习的能力&quot;。Mindverse 旗下前沿实验室 Mind Lab 也把它列为主攻方向，年初累计完成 5000 万美元融资（美团战投领投，元禾璞华、韶音、变量及老股东蚂蚁、源一、红杉中国、真格、高榕跟投），近期发布开源模型 Macaron V1（Venti 版 748B、基于 GLM-5.2 后训练），用 LoRA 保存可独立训练更新的专业能力，让筛过的任务经验进入后续训练，长期目标称&quot;经验智能机器&quot;。
-🔗 https://mp.weixin.qq.com/s/DrmF6Gwj5McLeSagXl-taw
-
-2. YC 秋季创业请求清单：12 条民用方向里的一条主线——AI 正在离开屏幕
-Y Combinator 每季发布的&quot;创业请求&quot;（Requests for Startups，合伙人和前沿创始人写下最希望有人做的方向）秋季清单出炉，13 条（本文解读 12 条民用向），开篇框架句已替读者划好重点：&quot;AI 正在进入物理世界&quot;。三条主线自己浮出来：其一&quot;到屏幕之外去&quot;——海上算力（模块化船只组成一朵全球云，绕开数据中心缺电、缺地、以年计的审批，海洋本身是巨型散热器）、真实世界数据（廉价传感器加更强基础模型让高密度采集首次可行，点名机器人巡检的 Gecko Robotics、用气象气球向政府预报系统供数的 Sorcerer；能源、农业、物流、建筑这些最大产业恰恰跑在最薄的数据上）、物理世界的新操作系统（全球 80% 劳动力不坐办公桌，现场要给 AI agent、机器人、戴智能设备的人跨三者派单、保安全、量可靠性）；其二消费者时刻与被遗忘的人群；其三信任层与软件的新胶水。最锋利一句生意经藏在第一条里：这些行业在劳动力上的支出是软件的 10 到 100 倍，而在这里动手的人将握有端到端作业数据，没有任何在位巨头或前沿实验室拥有这些数据。
-🔗 https://mp.weixin.qq.com/s/zedqiOPNbgG4kCFk3mvpZQ
-
-3. 北方华创的隐形枷锁：820 亿在手订单与超 400 天存货周期
-晚点拆解 A 股唯一覆盖工艺最全的平台化半导体设备厂北方华创：2025 年营收 393.5 亿元、同比增长 30.9%，集成电路设备增幅超 50%，刻蚀和薄膜沉积双双破百亿——规模端符合国产替代加速与晶圆厂扩产共振的预期。但增长质量出现背离：毛利率/净利率降到 40.1%/13.7%（较上年分别降 2.8 和约 5.3 个百分点）；合同负债（预收款）从 2023 年的 83.2 亿一路降到 2025 年的 42.9 亿、三年接近腰斩，占营收比从 37.7% 塌到 10.9%；存货从 2024 年末的 236 亿进一步攀到 286 亿，周转超 400 天。文章判断这已超出&quot;新品爬坡&quot;能解释的范围，指向平台化后发者路径的机制性固化：重研发投入、超长存货周转、相对偏低的利润结构被自我路径锁死，增长的现金含量在下降。
-🔗 https://mp.weixin.qq.com/s/Hs1BxgWY8WMaP2VtGiztXA
-
-4. 把千亿参数模型搬到本地，这家&quot;隐身&quot;公司在赌什么
-Z Potentials 从 2026 WAIC 现场观察到：大模型能力正从云端聊天框往端侧走。底层逻辑是工作方式变了——过去用户偶尔发一次推理、云端 GPU 集群够用；现在 Agent 要读本地文件、留历史上下文、调不同工具、跑连续任务、在后台等下一次触发，是&quot;一套智能系统持续运行&quot;。调用越频繁、上下文越长、任务链越复杂，把计算全放云端就越不经济（累积的 Token 费用、个人数据反复往返云端、多步任务里层层叠加的网络延迟）。WAIC 现场密集出现 Agent Computer、AI NAS、个人 AI 中心、企业一体机，背后是一次新的算力分工：规模更大、频率较低的通用推理继续留云端，高频、实时、私密、需长期保持状态的任务，更多沉到用户和数据附近的边缘侧（edge AI）。
-🔗 https://mp.weixin.qq.com/s/pej-Q1krPdo0PzRZ_pTo8A
-
-5. 美方&quot;蒸馏&quot;指控撞上梁文锋四小时投资人会议实录
-歸藏把同一天的两件事摆在一起看：美国特朗普总统助理发表言论、指控中国模型通过&quot;蒸馏&quot;（distillation，用大模型的输出训练自己的模型）来开发；同夜流传梁文锋四小时投资人会议记录。作者认为美方指控可笑、可能是禁止中国开源模型的前兆，网上舆论基本在嘲讽。从流传的发言看 DeepSeek 目标坚定一致：一直以极低价格、极低利润提供高性价比模型；不断接近 AGI；不太在乎做 C 端、客户端、产品这类重人力、复杂、且不在 AGI 主线上的工作。作者判断当下做 AI 产品与互联网时代的惯性相悖，要做好就得聚焦把最核心的做好，其他部分善变——可能等你做好，市场已不需要，或被模型本身吃掉。也提醒这些整理稿不一定代表梁本人想法，梁有必要公开发声：&quot;你不发声，别人就会替你发声&quot;。
-🔗 https://mp.weixin.qq.com/s/lDbXks5_o0gRuzvNr5be4g
-
-📖 查看完整日报（26 篇）→ https://news.justin7974.dev/2026-07-24.html</description>
     </item>
   </channel>
 </rss>
