@@ -5,8 +5,56 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 14 Aug 2026 00:21:16 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 00:11:43 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #674 | 2026-08-15</title>
+      <link>https://news.justin7974.dev/2026-08-15.html</link>
+      <guid>https://news.justin7974.dev/2026-08-15.html</guid>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
+      <description>今日共 13 篇 RSS · 24 条推文 · 0 篇公众号
+
+📰 RSS 精选（5 / 13）
+
+1. GLM-5.3: How Chinese labs keep stride with the frontier
+Z.ai 发布 GLM-5.3，在多项 agentic coding 基准上超过 Moonshot 的 Kimi K3，部分项目追平 Claude Fable 5 / GPT-5.6-Sol——而参数量只有约 750B，是 Kimi K3 的三分之一。Nathan Lambert 强调这不是蒸馏故事：GLM-5.3 与 GLM-5.2 共用同一个基座，全部提升来自后训练的持续加码，Z.ai 官方博客第一句就是&quot;我们做的只有 scaling post-training&quot;。他判断 Z.ai 在后训练上的积累已成为区别于其他中国实验室的强项，且 Zhipu 从 2019 年成立以来做这条模型线的时间比业内几乎所有人都长。
+🔗 https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride
+
+2. Cursor + SpaceXAI: the fastest iterating team wins
+Cursor（Anysphere）正式被 SpaceX 收购并入 SpaceXAI。a16z 借此抛出一个判断：AI coding 可能是这代人最大的市场，目前渗透率大约只有 1%；在&quot;最聪明的团队 / 资源算力最多的团队 / 迭代最快的团队&quot;三选一里，历史经验站在迭代最快的一方。文章回顾 Cursor 从做 AI 邮件客户端和 CAD 工具起步，2023 年转向代码编辑器，靠产品口碑成为史上最快到 1 亿美元 ARR 的软件公司，四个 MIT 辍学生做出全球最热的创业公司之一。
+🔗 https://www.a16z.news/p/cursor-spacexai-fastest-iterating-team
+
+3. Charts of the Week: Head In The Neoclouds
+neocloud（CoreWeave 等）正在重演历史上&quot;旧基础设施被重新定价给新技术&quot;的剧本——就像铁路的通信走廊变成 Sprint、天然气管道变成 WilTel、有线电视同轴电缆升级成宽带。这批公司原本做加密货币挖矿，手里的电力权、机房和 GPU 运维能力，正好接上 AI 算力需求；三家最大的上市 neocloud 收入增速远超当年云计算三巨头的早期。本期还讨论了横向 SaaS 的回归、token 使用的效率前沿、以及实验室之间的人才争夺。
+🔗 https://www.a16z.news/p/charts-of-the-week-head-in-the-neoclouds
+
+4. Thrive Capital Finds its Lane as a New Kind of Venture Investor
+Thrive 的 AI roll-up 载体 Thrive Holdings 以 120 亿美元估值完成 20 亿美元外部融资，投资方包括软银、Altimeter、D1；同时 Josh Kushner 联手 Bob Iger 买下洛杉矶湖人。Thrive 已从&quot;轮次不限、四处挤进别人份额&quot;转型为三条清晰主线：偏传统成长/早期的 Thrive X（90 亿成长 + 10 亿早期）、投资企业内部 AI 转型的 Thrive Holdings（OpenAI 反向持股、员工可参与）、以及体育等另类资产。文中还提到 Kushner 作为 Jared 之弟与特朗普政府的特殊接近性。本周同时有 xAI 联创 Igor Babuschkin 募 11 亿、Accel 募 35 亿早期、Brad Lightcap 离开 OpenAI。
+🔗 https://www.newcomer.co/p/thrive-capital-finds-its-lane-as
+
+5. 2026.33: The CapEx Train Keeps Rolling
+Ben Thompson 提出一个被算力和电力短缺讨论掩盖的问题：如果 AI 真正短缺的是资本怎么办？如果 AI 像看上去那么有价值，它本该自己付得起账，但到现在还没做到。本周 Nvidia 宣布了一种新的融资机制去接入长久期资本，叠加 Google 带头用股权融资，可能搭起通往可持续 AI 收入的桥；但这类金融工程也在为了保住 Nvidia 受威胁的利润率而扩大泡沫的爆炸半径。本期 bundle 另含欧盟强制 AI 输出标注的争论、以及纽约与好莱坞网络效应的对比。
+🔗 https://stratechery.com/2026/the-capex-train-keeps-rolling/
+
+🐦 Twitter 精选（5 / 24）
+
+1. @cursor_ai：Cursor 正式完成被 SpaceX 收购，并入 SpaceXAI 团队，接下来将参与改进 Grok、Grok Build、Grok Bot、Grok API 和 Cursor。
+🔗 https://x.com/cursor_ai/status/2088249881718919393
+
+2. @EXM7777：认为今天标志着 SpaceXAI 正式加入前沿模型竞赛，Grok 4.6 又聪明又快还极其便宜，这是他第一次要在多个重任务工作流里大量使用 Grok。
+🔗 https://x.com/EXM7777/status/2088324525515792523
+
+3. @shao__meng：GLM-5.3 只有 743B、与 5.2 共用基座，全部提升来自后训练规模化（IndexShare、SAO、slime 框架），在复杂编码、长程任务和网络安全上出现了团队自己都没完全预期的能力跃升。
+🔗 https://x.com/shao__meng/status/2088188409336795484
+
+4. @karminski3：GLM-5.3 在 Terminal Bench 3.0 上分数翻了 6 倍，他据此判断该模型在面对黑盒 API、命令行报错、自己写 prompt 的复杂真实环境里，架构规划能力会非常强。
+🔗 https://x.com/karminski3/status/2088236512332902559
+
+5. @Hesamation：指出 GLM 5.3 专门针对编码和网络防御做了训练，而 Anthropic、OpenAI 却把网络防御能力放在安全限制之后。
+🔗 https://x.com/Hesamation/status/2088163385863000394
+
+📖 查看完整日报（37 篇）→ https://news.justin7974.dev/2026-08-15.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #673 | 2026-08-14</title>
       <link>https://news.justin7974.dev/2026-08-14.html</link>
@@ -1156,54 +1204,6 @@ AI4Bio 公司 Fullive.ai 宣布完成种子++轮，招商局创投领投，高�
 🔗 https://mp.weixin.qq.com/s/4R7-VCPmXntuDijCSV2HYA
 
 📖 查看完整日报（29 篇）→ https://news.justin7974.dev/2026-07-26.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #653 | 2026-07-25</title>
-      <link>https://news.justin7974.dev/2026-07-25.html</link>
-      <guid>https://news.justin7974.dev/2026-07-25.html</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description>今日共 0 篇 RSS · 15 条推文 · 8 篇公众号
-
-🐦 Twitter 精选（5 / 15）
-
-1. @cursor_ai：Claude Opus 5 已上线 Cursor，在 CursorBench 默认档以 66.7 对 66.5 追平 Fable 5，价格只有一半，且与 Fable 不同，它兼容零数据保留（ZDR）。
-🔗 https://x.com/cursor_ai/status/2080700479940759919
-
-2. @bcherny：相比各项跑分，Anthropic 更看重的是 Opus 5 是其迄今最难被 prompt injection 攻破的模型；叠加模型对齐、注入探针与 Claude Code 的 Auto Mode 多层防御后，注入成功率进一步大幅下降。
-🔗 https://x.com/bcherny/status/2080713091688583312
-
-3. @emollick：提前试用 Opus 5 的评价：短任务上能追平甚至超过 Fable，但长任务显得不够进取、交付的完整度不如 Fable，是个强但有点怪的模型。
-🔗 https://x.com/emollick/status/2080709278441033746
-
-4. @shao__meng：Black Forest Labs 发布 FLUX 3，定位不是文生图/视频而是&quot;真实世界模型&quot;：把图像、视频、音频放进同一套多模态 flow 架构学习世界如何运作，同一底座同时接内容生成与具身/动作预测，分 Video、Image、Action 三条线。
-🔗 https://x.com/shao__meng/status/2080499451576377388
-
-5. @shao__meng：Together 团队在 DeepSWE 基准上对比 Kimi K3 max 与 GPT-5.6 Sol max：单次 pass@1 GPT 略胜（72.7% vs 68.5%），但 pass@2、pass@4 Kimi 反超（89.4%），且更便宜（每 100 美元多解约三倍题目），结论是各有所长、路由+级联更优。
-🔗 https://x.com/shao__meng/status/2080479086481437178
-
-📱 公众号精选（5 / 8）
-
-1. 速递｜估值超百亿美金、红杉领投：AI 推理芯片 Etched 完成 3 亿美元融资
-Etched 完成 3 亿美元 C 轮，估值 103 亿美元，约七个月内从 50 亿翻倍，公司称这是红杉领投的 C 轮里估值最高的一笔，a16z、SK Hynix、Jane Street 及 Peter Thiel、Karpathy 等跟投。三位哈佛辍学生 2022 年创立，专注为 Transformer 架构打造专用推理芯片，芯片已在台积电量产、拿下 10 亿美元订单。其架构从零设计了&quot;低电压 prefill 芯片&quot;与&quot;集群级内存互连&quot;，分别攻推理的预填充与解码两个阶段；创始人强调整套系统可跑任意模型（含 MoE、Mamba），并非只为单一 LLM 定制。
-🔗 https://mp.weixin.qq.com/s/B5yTS5EeDKlW0j5Bgshjkg
-
-2. 深度｜三个月连融 21 亿，智象未来凭何闯入 AI 独角兽俱乐部？
-多模态公司智象未来（HiDream.ai）完成 15 亿元 C 轮，三个月累计融资超 21 亿元，投后估值突破 10 亿美元跻身独角兽；社保基金四川振兴科创基金领投，上影股份、华策影视等影视产业资本入局。其 HiDream-O1-Image-1.5 在 Artificial Analysis 开源图像模型榜列全球第一，闭源模型全球第三、中国第一，超过字节跳动 Seedream 4.0。公司已完成股改、更名为股份有限公司，IPO 路径逐渐清晰，并发布号称&quot;无限时长&quot;、成片可用率 85% 的创作智能体 vivago R1。
-🔗 https://mp.weixin.qq.com/s/qPJPf3ns5e1N8KSUl69HqQ
-
-3. 深度｜Vivix 灵动时刻发布首个实时互动模型：统一多模态参考、交互与流式生成
-Vivix 发布两款约 30B 激活参数的实时互动模型 A1（全双工数字角色）与 W1（互动叙事），主打&quot;边生成边接受用户输入&quot;的因果生成，而非请求-响应式的半双工。团队自建了覆盖 2-step 蒸馏（MJD）、面向 Blackwell NVFP4 的&quot;训练即量化&quot;、以及解耦编解码的 VMI 推理引擎的完整技术栈，在消费级显卡上实现首帧 &lt;0.6 秒、端到端 &lt;1.7 秒、原生打断 300–900 毫秒、实时生成成本低于每小时 1 美元。A1 已上线 API，W1 以 Demo 形式展示。
-🔗 https://mp.weixin.qq.com/s/oZl3DgJMi9eVlCHyFrzJag
-
-4. 对话姚颂：不想 boring，那就继续开心地 suffering
-晚点专访姚颂：2018 年他 26 岁以 3 亿美元卖掉 AI 芯片公司深鉴，之后参与创立商业航天公司东方空间，去年下半年第三次创业成立正行创新（Striding AI），以&quot;物理 AI&quot;切入通用机器人——他强调物理 AI 要加多机协作、路径规划与远程兜底，不等于只做本体的&quot;具身智能&quot;。他自述创业有两条线：做对人类真正重要的事（能源航天、个体健康、社会效率），以及看着一个技术原点变成被很多人用起来的产品；并通过 SEE Fund 天使投资了银河通用、星海图、破壳等一批清华系具身公司。
-🔗 https://mp.weixin.qq.com/s/f1Qtg73wp5uxkqfy1rtAig
-
-5. AI 都用三年了，失业率为什么一点没涨？Anthropic 内部给了答案
-Anthropic 经济研究负责人 Peter McCrory 撰文回应&quot;AI 用了三年为何失业率没涨&quot;：美国 6 月失业率 4.2% 仍是充分就业，黄金年龄段就业率、初请失业金、裁员率均无异常。他认为并非&quot;为时尚早&quot;——约 20% 的美国企业已在至少一项职能上用 AI（信息业达 40%），质量调整后的 AI 产出 2024、2025 两年增速均超 2000%。核心论证是企业招聘本就基于对未来价值的贴现判断，若真信岗位两年后被替代，今天的离职/裁员/招聘数据就该反映，但增速最猛的软件工程招聘反而自 2025 年 5 月回升。唯一的弱信号，是高 AI 暴露岗位上年轻工人的招聘率在走弱。
-🔗 https://mp.weixin.qq.com/s/9rliGyY1mbOrscynmqIXoA
-
-📖 查看完整日报（23 篇）→ https://news.justin7974.dev/2026-07-25.html</description>
     </item>
   </channel>
 </rss>
