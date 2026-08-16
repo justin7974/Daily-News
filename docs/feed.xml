@@ -5,8 +5,74 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 15 Aug 2026 00:11:43 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 00:14:15 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #675 | 2026-08-16</title>
+      <link>https://news.justin7974.dev/2026-08-16.html</link>
+      <guid>https://news.justin7974.dev/2026-08-16.html</guid>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
+      <description>今日共 7 篇 RSS · 25 条推文 · 4 篇公众号
+
+📰 RSS 精选（5 / 7）
+
+1. React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue
+Astro 作者 Fred Schott 发布 Flue 2（框架首个稳定版），把 React 的组合思路搬进 Agent 框架：一个 agent 就是一个 JavaScript 函数，在每次模型调用前&quot;重新渲染&quot;，并引入 React 式的&quot;Agent Hooks&quot;。Schott 的核心判断是&quot;agent 由它的 harness 定义&quot;——决定能力上限的是框架层而非模型层。Flue 与 Vercel 的 eve 都在今年推出，是开发者 agent 框架早期范式的两个模板。Schott 的公司今年 1 月已被 Cloudflare 收购。
+🔗 https://www.latent.space/p/flue-2
+
+2. 对话郎咸朋：用机器人创业重做一次&quot;百万智驾量产&quot;
+把理想智能驾驶从 0 到 1、做到 150 万辆量产的核心负责人郎咸朋，与华为出身的任庚联合创办具身智能公司昆仑行，成立三个月拿下数十亿人民币融资、跻身独角兽。他抛出两个判断：一是具身智能真正要解决的是&quot;理解&quot;，因此选择物理因果世界模型 + &quot;数据编译&quot;路线，让机器人学到背后的物理规律而非模仿动作；二是具身最终拼的是量产与自我造血，&quot;只靠融资，大家都做不到具身智能实现那一天&quot;。他把当下具身类比 2015—2016 年的自动驾驶：路线未定、Demo 满天飞，真正洗牌要等规模交付开始。
+🔗 https://www.qbitai.com/2026/08/473407.html
+
+3. 源神启动！一张消费级显卡跑&quot;Opus级&quot;Agent，Qwen3.8-27B多项榜单反超Claude
+阿里开源 Qwen3.8-27B（270 亿参数、原生多模态、262K 原生上下文可扩至 100 万 Token）：官方 benchmark 中 SWE-bench Pro 以 8.3 分、QwenSWEBench 以 15.2 分反超 Claude Opus 4.6 Max，社区称消费级显卡即可本地跑&quot;Opus 级&quot;Agent（数据均为厂商自测口径，待第三方复现）。
+🔗 https://www.qbitai.com/2026/08/473669.html
+
+4. 索塔无界：全球首家原生物理世界模型落地商超，具身智能迎来&quot;索塔时刻&quot;
+成立仅 4 个月的索塔无界不造硬件，主打机器人&quot;原生物理大脑&quot;（4D 世界动作模型），与欧洲最大商超集团达成战略合作，计划 3 年内在真实商超场景部署超千台具身机器人（行文偏厂商 PR，落地规模需交叉验证）。
+🔗 https://www.leiphone.com/category/industrynews/aEyXlap53PQXDDYJ.html
+
+5. 鹿明发布MOS2：全球首个双臂负载50kg轮臂式机器人，加速AI Worker进入产业现场
+鹿明机器人发布重载轮臂式具身机器人 Lumos MOS2，面向真实工业场景，主打双臂 50kg 负载，定位工厂现场的&quot;AI Worker&quot;（发布稿性质，性能为官方口径）。
+🔗 https://www.leiphone.com/category/industrynews/24fbshcNUNahZuQz.html
+
+🐦 Twitter 精选（5 / 25）
+
+1. @shao__meng：Qwen3.8-27B 开源，是原生多模态稠密模型，整体表现超过 Qwen3.7-Plus、在真实编程与办公流程上更突出；兼容 vLLM/SGLang，配官方 FP8，社区量化版 17GB 显存即可跑。
+🔗 https://x.com/shao__meng/status/2088437440298307790
+
+2. @Hesamation：就算 Qwen 是靠蒸馏 Claude 才用 27B 做到 Opus-4.6 级智能，为什么 Anthropic 不拿 Haiku 这么做？Haiku 4.5 十个月没更新、像被放弃了——原因也许很简单：小模型再聪明，也卖不上价。
+🔗 https://x.com/Hesamation/status/2088773057598931143
+
+3. @Hesamation：DeepSeek Harness 成为 GitHub 增长最快的仓库，48 小时破 10 万星、比 OpenClaw 还快；社区盛赞其工具、日志、agent loop、子代理全部做成可替换插件，缓存命中率高，上下文管理比 Claude Code 更省。
+🔗 https://x.com/Hesamation/status/2088766395676848558
+
+4. @Hesamation：OpenAI 资深 GPU 系统工程师 Scott Gray 离职，这是重量级技术流失而非又一个普通高管出走；2026 年已是第 13 起重大离职，OpenAI 正变成一艘现实版&quot;忒修斯之船&quot;。
+🔗 https://x.com/Hesamation/status/2088704648639127752
+
+5. @godofprompt：做 CAD 或机械设计的话，Grok 4.6 几乎是作弊码：前沿级智能、价格只是零头，还能少一半步骤完成任务，可以开始把技术和 agentic 工作换成它、看着账单往下掉。
+🔗 https://x.com/godofprompt/status/2088693752747708714
+
+📱 公众号精选（4 / 4）
+
+1. Anthropic收入暴涨14倍，评论员称这是一场会计骗局
+Anthropic 向潜在投资人展示的材料显示 Q2 初步收入超 115 亿美元、同比涨约 14 倍（去年同期 7.87 亿），环比 Q1 的 47.3 亿翻倍有余，并首次实现调整后运营利润转正——恰逢其秘密提交 IPO、三大投行做顾问的节点。评论员 Ed Zitron 发文《Anthropic 的盈利骗局》质疑：这是非 GAAP 的 EBITDA 式利润，且公司自 7 月起要向 SpaceXAI 每月支付 12.5 亿美元（年化 150 亿）算力费，而&quot;盈利&quot;的那个季度恰好用的是产能爬坡期的优惠价；若按同规模估算 AWS/Google 采购，实际算力成本约每年 450 亿美元。他还翻出三份互相矛盾的收入口径（2 月称年化 140 亿、3 月 CEO 称 190 亿、3 月 CFO 法庭证词称&quot;迄今超 50 亿&quot;）。
+🔗 https://mp.weixin.qq.com/s/8g6_F2mwZ012vS1eatkQBA
+
+2. 深度｜Cursor首席人才官Adam Ward独家分享：像挖CEO一样挖工程师，用真诚击败天价Offer
+Cursor 人才负责人 Adam Ward（其联合创办的招聘公司 Growth by Design 于 2024 年被 Cursor 整体收购；此前主导 Pinterest 从 200 到 2000+、Facebook 技术团队从 1000 到 10000 人扩张）在 Lenny 播客拆解 Cursor 的人才密度打法：把招工程师当作挖 CEO，不外包给招聘机构；不做&quot;从 100 人里筛 1 个&quot;的漏斗，而是先锁定全球能做这件事的那 50 个人再全力去找；招聘经理才是决策方，招聘官只是&quot;信心引擎&quot;；面试要问&quot;你共事过谁与设计师协作最好&quot;而非&quot;你认识最好的工程师是谁&quot;。核心主张是&quot;关心是免费的&quot;，靠真诚而非天价 offer 赢下候选人。
+🔗 https://mp.weixin.qq.com/s/sxjE8--f-s7HY0RFNbUhug
+
+3. 如何用 GLM 5.3，开发 DeepSeek Harness 插件
+作者用内测中的 GLM 5.3（约 800B、与 5.2 同基座，体感&quot;弱于 Fable、强于 v4 pro&quot;）为 DeepSeek Harness 补了三个官方缺失的插件（skill 支持、附件上传、inspector），从侧面印证 DSH&quot;一切皆插件&quot;的开放架构确实能让人把它捏成任意 Agent。
+🔗 https://mp.weixin.qq.com/s/HrOgdg7ZBKQlvGM-xPeKtw
+
+4. AI 杀死了我的睡眠
+作者自述用&quot;达芬奇干活法&quot;重度使用 AI：每天花约 1500 美元，同时给 AI 发 5-10 个需求、睡 15-30 分钟再回来盯结果，近乎 24 小时轮转——是一线重度 agent 用户工作方式与烧钱强度的真实切片。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/yqMO4LtvGdlVwdHlNxyr6Q
+
+📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-08-16.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #674 | 2026-08-15</title>
       <link>https://news.justin7974.dev/2026-08-15.html</link>
@@ -1134,76 +1200,6 @@ Troy Hunt 复盘澳洲 Origin Energy 泄露事件：公司对外强调&quot;信�
 🔗 https://mp.weixin.qq.com/s/BzfaJmM6Zxj5Nk3Ou44mZw
 
 📖 查看完整日报（39 篇）→ https://news.justin7974.dev/2026-07-27.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #654 | 2026-07-26</title>
-      <link>https://news.justin7974.dev/2026-07-26.html</link>
-      <guid>https://news.justin7974.dev/2026-07-26.html</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 13 条推文 · 6 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Claude Opus 5：接近 Fable 的表现，价格只有一半
-Opus 5 官方口径说&quot;接近 Fable 5&quot;，但多家独立评测显示它其实反超了。Artificial Analysis 的 AA-Briefcase agent 基准上，Opus 5 领先 Fable 5 近 150 Elo，同时把单任务成本压低 20%。定价与 Opus 4.8 持平（输入每百万 token 5 美元、输出 25 美元），约为 Fable 的一半。争议点在评测本身：Epoch 的 ECI 给 159（Fable 5 是 161），只比 Opus 4.8 高 1 分，被不少人认为严重低估了实际体验；还有人发现 Opus 5 在 FrontierCode 上中等算力档反而比高算力档得分更高，指向评测不稳定而非单调提升。
-🔗 https://www.latent.space/p/ainews-claude-opus-5-fable-level
-
-2. &quot;AI 狂热正在掏空全球决策&quot;
-作者以一线销售和交付的视角写了一篇反狂热长文：他接触的企业 AI 项目基本都在失败，但没人敢承认。承认公司&quot;发疯&quot;的高管会很快被换掉，说实话的员工会被&quot;随机&quot;裁掉，于是董事会、高管、员工、供应商、顾问都有动机粉饰 AI 项目的成功率。很多上市公司对外宣布 AI 带来生产力提升，实际只是买了一批 Copilot 授权就宣布胜利。文中引用 Mitchell Hashimoto 的话：他认识的一些公司正处在&quot;AI 精神错乱&quot;里，已经无法理性讨论。
-🔗 https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/
-
-3. 欧盟认定谷歌违反 DMA，罚款约 8.9 亿欧元
-欧盟委员会认定谷歌两项 DMA 违规，合计罚款约 8.9 亿欧元（合约 10 亿美元）。一是在谷歌搜索里给自家购物、酒店、交通、体育等服务更靠前、更醒目的排序（self-preferencing，罚 4.6 亿欧元）；二是限制 Google Play 上的开发者向用户告知并引导到更便宜的外部购买渠道（anti-steering，罚 4.3 亿欧元）。DMA 要求&quot;守门人&quot;对第三方服务给出透明、公平、非歧视的排序，并允许开发者免费告知用户站外优惠。
-🔗 https://digital-markets-act.ec.europa.eu/commission-fines-google-eur890-million-breaches-digital-markets-act-2026-07-23_en
-
-4. 法院驳回谷歌起诉，判抓取公开搜索结果无罪
-加州北区联邦法院批准了 SerpApi 的驳回动议，驳回谷歌对它的起诉，并拒绝了谷歌想用 DMCA 把&quot;访问公开网页&quot;也纳入自己控制范围的主张。SerpApi 提供搜索结果抓取 API，客户包括开发者、AI 公司和研究者；公司称这是&quot;开放互联网&quot;的胜利，会继续支持依赖公开搜索信息的各方。
-🔗 https://serpapi.com/blog/google-v-serpapi-the-court-granted-our-motion-to-dismiss/
-
-5. 从月之暗面出走，他用 AI 做婚恋匹配，徐新天使投资
-Kimi 前 AI 搜索负责人曾歆勋离职创办&quot;良配&quot;，把 AI 搜索匹配能力嫁接到&quot;找人&quot;上，拿到今日资本徐新 200 万美元天使。徐新看过&quot;AI 找工作&quot;和&quot;AI 找伴侣&quot;两个方向，招聘团队几乎聊遍一家没投，婚恋只投了良配一家；产品上线后用户平均资料长度从行业的 132 字提升到 463 字。
-🔗 https://36kr.com/p/3910880823202948
-
-🐦 Twitter 精选（5 / 13）
-
-1. @shao__meng：Claude Opus 5 发布：智能接近 Fable 5、价格只有一半，且与 Opus 4.8 同价（输入每百万 token 5 美元、输出 25 美元），定位是&quot;每天都能高频用&quot;的高端模型。编码上 Frontier-Bench 刷新 SOTA、比 4.8 提升一倍还更省成本，ARC-AGI-3 得分是第二名的三倍，OSWorld 2.0 以三分之一成本反超 Fable。
-🔗 https://x.com/shao__meng/status/2080839086085177726
-
-2. @shao__meng：介绍&quot;ego lite&quot;——一个 agent 原生的 Chromium 浏览器：它既是你的日常浏览器，又能让 Claude Code、Codex、Cursor 等任意 Agent CLI 通过 ego-browser 驱动，在各自隔离的 Space 里并行干活，不抢用户的标签页、不丢登录态，零配置、数据本地存储。
-🔗 https://x.com/shao__meng/status/2080963123826360716
-
-3. @emollick：他注意到 Claude 似乎不再展示总结版的思维链，认为这是不小的损失：哪怕是摘要过的思考过程，也能帮人诊断模型的错误，而且这些内容本身常常带有洞见。
-🔗 https://x.com/emollick/status/2080829512275624173
-
-4. @shao__meng：马斯克宣布 Grok 4.6 两周内发布、4.7 四周内发布。作者的疑问是：如果 4.7 是对 4.6 的升级替代，那 4.6 的生命周期只有两周；除非两者是不同能力、不同价位的互补款。
-🔗 https://x.com/shao__meng/status/2080845119276929391
-
-5. @gregisenberg：他认为 Jack Dorsey 那款&quot;Slack 杀手&quot;Buzz 最有意思的点是&quot;共享算力&quot;：开源模型已经好到能真用，但最强的那些需要普通人不愿单独购买的昂贵硬件；共享算力让一个人开机跑模型、其他人共用，正好补上这一环。
-🔗 https://x.com/gregisenberg/status/2081088155793465783
-
-📱 公众号精选（5 / 6）
-
-1. ARR 正在同时指三件事：一级市场逼近自己的萨班斯时刻
-一个 ARR，现在至少同时指三种现金流：合同承诺的年度经常性收入（annual recurring revenue）、把最近一个月或一季度收入乘 12 或 4 的&quot;年化运行率&quot;（run rate），以及客户已签约但还没交付确认的 committed ARR。三个数字可以同时为真，又差出一倍以上。最极端的样本是 Mercor：年化收入 24 个月从 100 万冲到 20 亿美元，但六到七成要付给平台上的专家和承包商，净收入只有 6 到 8 亿——同一个 200 亿美元估值，按毛收入是 10 倍、按净收入是 25 到 33 倍。文章翻出 2011 年 Groupon 的先例：招股书把收入口径从毛额改成净额，一季度收入直接跌掉 56%，而利润分文未动。SaaS 早期亲历者 Matthew Cowan 的判断是，这场关于&quot;收入到底怎么报&quot;的危机比二十六年前更严重，多数当事人还没意识到。
-🔗 https://mp.weixin.qq.com/s/ZW4a9TceRcXyqQOBF6xB2A
-
-2. Warp 创始人拆解超增长 AI 创业：1 亿美元 ARR 里可能 9000 万付给了模型商
-Warp 创始人、前 Google Docs 首席工程师 Zach Lloyd 把&quot;12 个月做到 1 亿 ARR&quot;这条最亮眼的曲线翻过来看：这些公司多数在以极低甚至为负的毛利转售推理，1 亿收入里可能有 9000 万付给了 Anthropic、OpenAI 或开源模型云。他的判断是，衡量这类公司创造的价值该看净收入，而不是被 token 成本穿透的总收入；只要你提供的价值只是包在 token 外面一层薄壳，竞争者随时可以少赚一点把你顶掉。第二股压力来自企业客户越来越要求&quot;自带推理&quot;（BYO inference），动机是消耗用量承诺、管控数据流向、以及用上自己微调的模型。他抛出最锋利的一问：如果明天所有客户都要求自带推理，你的平台还值多少钱？Warp 自己的选择是退出 token 转售业务。
-🔗 https://mp.weixin.qq.com/s/-DVnTIElolQyqvmb4xTYbw
-
-3. 离开 Uber 九年后，Kalanick 的 Atoms 获 a16z 领投 17 亿美元，Uber 跟投
-Travis Kalanick 的机器人公司 Atoms 完成 17 亿美元融资，a16z 领投、Ben Horowitz 进董事会，Bain Capital、Fifth Wall 跟投——名单里最重的一个名字，是当年把他赶下台的 Uber。Atoms 不是从零起步：它由 Kalanick 离开 Uber 后经营的幽灵厨房 CloudKitchens 重组而来，今年 3 月改名，并收购了前 Uber 同事 Levandowski 的重工业自动化公司 Pronto，定位是造&quot;机器人的轮距底盘&quot;。没有产品发布会、没有营收披露，17 亿买的是三样东西：一份被验证过两次的&quot;重资产+调度&quot;运营履历、一台已经在产钱的存量业务，以及物理 AI 的时间窗口——同一周 Applied Intuition 估值到 150 亿美元，a16z 还发了《制造十亿台智能机器》。
-🔗 https://mp.weixin.qq.com/s/lv7_F8wUZNxNcQPDlhrB5g
-
-4. Opus 5 官方 Prompt 指南
-赛博禅心逐段中英对照翻译了 Claude Code 负责人 Thariq Shihipar 的官方博客，核心一句是&quot;我们删掉了 Claude Code 里 80% 的系统提示词&quot;，讲 Claude 5 这代模型的上下文工程新规则，并配套翻译了《A field guide to Claude Fable 5》等几篇官方文档。对做 Agent 的团队是一手参考。
-🔗 https://mp.weixin.qq.com/s/afJqCRhBJECw9xMT88vdAg
-
-5. Fullive.ai 完成新一轮融资，招商局创投领投，主攻&quot;模型 × 本体&quot;AI4Bio
-AI4Bio 公司 Fullive.ai 宣布完成种子++轮，招商局创投领投，高瓴创投连续三轮加注，4 个月内连融三轮。资金主要用于首款 AI 睡眠硬件 Somni 的研发与量产，主打&quot;模型 × 本体&quot;路线——把生命建模从静态推进到真实物理世界里的动态响应。
-🔗 https://mp.weixin.qq.com/s/4R7-VCPmXntuDijCSV2HYA
-
-📖 查看完整日报（29 篇）→ https://news.justin7974.dev/2026-07-26.html</description>
     </item>
   </channel>
 </rss>
