@@ -5,7 +5,7 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 16 Aug 2026 00:14:15 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 12:23:05 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>小虾AI日报 #675 | 2026-08-16</title>
@@ -57,7 +57,7 @@ Astro 作者 Fred Schott 发布 Flue 2（框架首个稳定版），把 React �
 
 1. Anthropic收入暴涨14倍，评论员称这是一场会计骗局
 Anthropic 向潜在投资人展示的材料显示 Q2 初步收入超 115 亿美元、同比涨约 14 倍（去年同期 7.87 亿），环比 Q1 的 47.3 亿翻倍有余，并首次实现调整后运营利润转正——恰逢其秘密提交 IPO、三大投行做顾问的节点。评论员 Ed Zitron 发文《Anthropic 的盈利骗局》质疑：这是非 GAAP 的 EBITDA 式利润，且公司自 7 月起要向 SpaceXAI 每月支付 12.5 亿美元（年化 150 亿）算力费，而&quot;盈利&quot;的那个季度恰好用的是产能爬坡期的优惠价；若按同规模估算 AWS/Google 采购，实际算力成本约每年 450 亿美元。他还翻出三份互相矛盾的收入口径（2 月称年化 140 亿、3 月 CEO 称 190 亿、3 月 CFO 法庭证词称&quot;迄今超 50 亿&quot;）。
-🔗 https://mp.weixin.qq.com/s/8g6_F2mwZ012vS1eatkQBA
+🔗 https://mp.weixin.qq.com/s/8g6~F2mwZ012vS1eatkQBA
 
 2. 深度｜Cursor首席人才官Adam Ward独家分享：像挖CEO一样挖工程师，用真诚击败天价Offer
 Cursor 人才负责人 Adam Ward（其联合创办的招聘公司 Growth by Design 于 2024 年被 Cursor 整体收购；此前主导 Pinterest 从 200 到 2000+、Facebook 技术团队从 1000 到 10000 人扩张）在 Lenny 播客拆解 Cursor 的人才密度打法：把招工程师当作挖 CEO，不外包给招聘机构；不做&quot;从 100 人里筛 1 个&quot;的漏斗，而是先锁定全球能做这件事的那 50 个人再全力去找；招聘经理才是决策方，招聘官只是&quot;信心引擎&quot;；面试要问&quot;你共事过谁与设计师协作最好&quot;而非&quot;你认识最好的工程师是谁&quot;。核心主张是&quot;关心是免费的&quot;，靠真诚而非天价 offer 赢下候选人。
@@ -179,15 +179,15 @@ NVIDIA 在定义下一代推理架构时，首次在 GPU 显存与通用存储�
 
 3. 巨头争抢 AI 办公，不再只拼模型
 办公正在成为 Agent 的下一个主战场。腾讯 WorkBuddy 率先发力，阿里加速整合千问办公，字节强化豆包与飞书融合，海外微软/谷歌/Anthropic/OpenAI 也在把 agent 塞进文档、会议、邮件。核心判断是：下一代入口是&quot;任务本身&quot;，群聊/文件/应用退到后台，比拼重点从&quot;提供的工具数量&quot;转向&quot;任务完成能力&quot;，Gartner 预测到 2028 年三分之一用户操作将交给 AI。参照系是 Claude Code——6 个月做到 10 亿、2026 年 2 月到 25 亿美元年化收入，证明用户愿为&quot;AI 替自己干完活&quot;付费，而这套方法正被搬进办公场景。
-🔗 https://mp.weixin.qq.com/s/CKudo8lKUEWtx1Evt_mAEw
+🔗 https://mp.weixin.qq.com/s/CKudo8lKUEWtx1Evt~mAEw
 
 4. 不到一年估值涨四倍，Cognition洽谈400亿美元融资
 Cognition 估值不到一年涨四倍——2025 年 9 月 102 亿、2026 年 5 月 260 亿、今年 8 月正洽谈 400 亿美元新一轮；支撑的不是新产品，而是年化收入正逼近 10 亿美元（一年前才几千万）。融资间隔从 8 个月压缩到 3 个月，涨幅却没收窄。企业客户对 Devin 的月使用量半年保持 50% 环比增长，且 Devin 已能写出 Cognition 自己 90% 以上的代码。产品叙事也从当初&quot;第一位 AI 软件工程师&quot;收敛到&quot;处理人类工程师不愿做的长尾工作&quot;。公司还握着去年从 OpenAI/Google 混战中接手的 Windsurf 主体、约 200 名员工与品牌商标。
-🔗 https://mp.weixin.qq.com/s/uO_TM5PqqFr1cKz3_xjeDw
+🔗 https://mp.weixin.qq.com/s/uO~TM5PqqFr1cKz3~xjeDw
 
 5. 速递｜AI代码审查平台CodeRabbit融资1.43亿美元，估值15亿美元，NVIDIA参投
 AI 代码审查平台 CodeRabbit 完成 1.43 亿美元融资、估值达 15 亿美元，Atomico 与 Smash Capital 领投，BMW i Ventures、Datadog 参投，NVIDIA 为现有投资方；成立于 2023 年、已有约 1.7 万家客户、每周执行超 200 万次代码审查，正踩在&quot;发现 AI 生成代码缺陷&quot;需求走高的浪潮上。
-🔗 https://mp.weixin.qq.com/s/C_QN-DQ0wXkCl1tvAI5gtw
+🔗 https://mp.weixin.qq.com/s/C~QN-DQ0wXkCl1tvAI5gtw
 
 📖 查看完整日报（46 篇）→ https://news.justin7974.dev/2026-08-14.html</description>
     </item>
@@ -253,7 +253,7 @@ Polymarket 预测 Anthropic 或于 10 月底 IPO、有投行估计募资超 600 
 
 4. 从0开始，12步学会用好AI
 面向纯小白的 12 步&quot;用好 AI&quot;上手流程，值得注意的是它给出的默认心法已高度 agent 化：直接用 Codex（或国内 WorkBuddy）、全程语音输入、让 AI 先用苏格拉底提问法问清需求、把整个文件夹丢给它自动完成、最后把跑通的流程沉淀成可复用的 Skill——反映大众 AI 用法正从&quot;聊天问答&quot;转向&quot;托付任务给 agent&quot;。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/62xZggROULpk34p2P7_TnA
+🔗 https://mp.weixin.qq.com/s/62xZggROULpk34p2P7~TnA
 
 📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-08-13.html</description>
     </item>
@@ -307,7 +307,7 @@ Ed Zitron 甩出一组数字给 AI 繁荣泼冷水：据他汇总的 Wells Fargo
 
 1. 深度｜电脑智能体超过人类基准，企业却开始为失败买单
 OSWorld-Verified 的数据显示，领先模型在真实桌面任务上的完成率一年内从约 42% 升到 85%，越过了约 72% 的人类基线——模型已经能看屏幕、点按钮、填表、切换系统，在没有接口的老软件里干真活。但文章的落点是另一面：企业买的从来不是一次基准测试。报销流程走到第七步失败，前六步都不算产出；保险申请显示&quot;已收到&quot;，两天后因为保单号有误停住，而智能体不会知道办公室接到过一通电话。85% 换个口径就是每一百个任务仍有十五个失败，单步任务能接受，七八步串联的流程会把失败率继续放大——每步 85%、连做五步全成的理论概率只剩约 44%（真实系统各步并不独立，这个算法不能当预测，但足以说明基准分为什么不能直接换算成自动化率）。生产团队给出的边界很清楚：最适合交给它的是标准化、重复、路径明确、且能立刻确认结果的活——更新客户记录、处理零售订单、查监管页面、录合同、解工单。
-🔗 https://mp.weixin.qq.com/s/HHYSkw6L59s-G_fQKvrXIw
+🔗 https://mp.weixin.qq.com/s/HHYSkw6L59s-G~fQKvrXIw
 
 2. 三位哈佛辍学生，如何将专用芯片变成估值百亿美元的 AI 算力公司
 一篇关于 Etched 的研究分享。逻辑起点是推理正在取代训练成为算力主战场：训练负责造模型，推理是每次调用时真正跑的那部分，而随着应用生成的 token 越来越多、智能体反复调用，推理在 AI 成本里的占比持续上升。GPU 的长处是可编程加上成熟生态，但这种灵活性要用芯片面积、功耗和数据搬运来换；Etched 的判断是推理已经足够成熟和可预测，值得做更深的专用化，让每一美元、每一瓦电产出更多有用的 token。资本认了这个判断：2026 年 7 月红杉领投 3 亿美元 C 轮，估值 103 亿美元。三位创始人里，CEO Gavin Uberti 做过 AI 编译器基础设施、给 Apache TVM 写过 Cortex-M 后端，正是写底层代码的经历让他看到通用芯片的大量资源花在搬数据和维持灵活性上；Chris Zhu 主修数学与计算机，两人在 Uberti 休学期间隔天用视频推进这个宿舍里起步的项目；总裁 Robert Wachen 十六岁时被确诊四期骨癌、生存概率不足三成，在保命和保住行走能力之间选了手术，后来仍要接受放疗、花近两年重新学走路。
@@ -393,7 +393,7 @@ FrontierX 在 Aura Pioneers 大会上发布机器人操作系统 AuraOS，并公
 
 5. 速递｜黑石支持的AI电力基础服务商Lancium获英伟达20亿美元投资，估值100亿美元
 英伟达同意向德州 AI 电力基础设施开发商 Lancium（黑石支持、Oracle/OpenAI 园区背后的电力方）投资 20 亿美元、估值约 100 亿，并承诺再追加 10 亿，持股或最终升至约 30%，意在为芯片客户锁定数吉瓦电力；但德州州长刚下令暂停新数据中心并网申请，增添变数。
-🔗 https://mp.weixin.qq.com/s/TM6oewwId_NJlqzms5Kn-Q
+🔗 https://mp.weixin.qq.com/s/TM6oewwId~NJlqzms5Kn-Q
 
 📖 查看完整日报（48 篇）→ https://news.justin7974.dev/2026-08-11.html</description>
     </item>
@@ -447,7 +447,7 @@ Jeff Dean 新公司 Discovery Loop 的 BP 曝光，只有极简三页——四�
 
 1. 深度｜智能体开始卖&quot;托管&quot;，真正被打包的不是模型，是生产责任
 8 月 7 日 LangChain 联合创始人 Harrison Chase 发布 Managed Deep Agents，并把近四年的智能体开发压成一条时间线：2022 年是框架和聊天应用，2024 到 2025 年上半年是更成熟的开发框架，模型在 2025 年中后段开始能稳定地循环调用工具，之后才有今天常见的智能体外壳。文章的落点不在模型能力，而在一个被反复低估的落差——写出一个能演示的智能体，和让它在用户面前持续工作，是两件事：任务卡在第 17 步、服务重启后怎么续；模型生成的脚本在哪里执行；用户在网页或群聊里怎么看见过程；工具以谁的身份读取外部系统。Chase 把生产环境里的智能体拆成三层：业务逻辑（提示词、技能、工具、子智能体）、外壳（文件系统访问与上下文管理）、基础设施（运行时、沙箱、消息通道、外部连接）。所谓&quot;托管&quot;打包的是下面两层，最上面那层——什么信息能进上下文、调用哪些工具、哪些判断要交给人——仍然是业务方自己的选择。原文里有一句值得抄下来：模型的能力时钟按月走，生产系统的责任时钟按事故走，后者更慢，也更贵。
-🔗 https://mp.weixin.qq.com/s/-ZVWEQ7MXcgEMNYrhhi-_A
+🔗 https://mp.weixin.qq.com/s/-ZVWEQ7MXcgEMNYrhhi-~A
 
 2. 蚂蚁灵波拟融资 15 亿后：不押注本体的机器人公司，市场在为什么定价？
 蚂蚁灵波正式启动首轮融资，拟募资 15 亿元，并计划年底前推进第二轮。这家蚂蚁旗下的具身智能公司成立一年半，已拿出十余款模型，组成 1.0 和 2.0 两代全栈大脑，覆盖视觉、空间感知、VLA、世界模型和世界动作模型，其中包括行业首个具身原生世界动作模型 LingBot-VA 2.0。文章从一个现场提问切入：仓库里机器人叉车做工人三十秒能完成的动作要一分多钟，遇到没见过的情况会停下来——装了大脑的机器人什么时候能追上人工？CEO 朱兴的回答是&quot;脱离成功率谈效率意义不大&quot;，慢是确定性的技术问题一定有解法，关键是能不能把任务完成，而泛化的挑战本质来自数据。真正被推到台前的问题是：当一家公司不押注本体，资本在为什么定价？最直接的参照来自海外——Physical Intelligence 和 Skild AI 都不以硬件见长，却凭跨本体模型拿到高估值；而以本体和运动控制见长的宇树，也已把具身模型和机器人大脑研发列入 IPO 募投方向。2024 年底灵波成立时，行业的钱和注意力还集中在本体与小脑，专注大脑是个逆向选择，进入 2026 年焦点转向智能层后才显出前瞻性。
@@ -533,7 +533,7 @@ Dwarkesh 认为真正的&quot;持续学习&quot;（模型在部署中不断更�
 
 5. Seedance 2.5 很强，但有三个问题要解决
 和上一篇是同一件事的另一面，给了具体的钱：作者充了 400 块，总共生成不到 10 个视频，满意的只有一个。三个新问题分别是——比 2.0 涨价 50%、长度到 30 秒后修改一次的成本翻倍、支持 50 个参考素材但每次都要整理几十个素材再去抽卡非常枯燥。他的结论是 2.5 面向的是专业影视制作流，需要应用层紧密配合才发挥得出来。
-🔗 https://mp.weixin.qq.com/s/pgz9-EkYRiBhKER7k_i5Zw
+🔗 https://mp.weixin.qq.com/s/pgz9-EkYRiBhKER7k~i5Zw
 
 📖 查看完整日报（42 篇）→ https://news.justin7974.dev/2026-08-08.html</description>
     </item>
@@ -587,7 +587,7 @@ OpenAI 升级 ChatGPT 中的 GPT‑5.6 Sol（准确性与一致性更好），�
 
 1. 晚点独家丨字节讨论训超 5 万亿参数模型，张一鸣：不蒸馏、别被 Coding 这种短期热点影响
 字节正在讨论训练一个参数规模超 5 万亿的模型，超过阿里 Qwen 3.8-Max 的 2.4 万亿和月之暗面 K3 的 2.8 万亿，是国内已知最大规模——但计划仍在早期，不代表一定发布。牵头的是 Seed Foundation 负责人项亮，与预训练数据负责人沈科合作，两人都出自字节&quot;搜广推&quot;体系。背景是 Seed 今年的处境：2 月发布的 Seed 2.0 市场反响有限，同期智谱 GLM-5 被视为国内第一个能与 Anthropic Opus 系列比肩的模型，7 月 Kimi K3 又被多方评测认为接近海外闭源旗舰。有接近 Seed 的人把这次直接把参数推到同行数倍的做法称为&quot;像一场赌博&quot;。两周前的全员会上，张一鸣明确表示一段时间内可以接受模型落后，反对蒸馏——他认为蒸馏短期能改善表现，本质仍是复制 Claude 已有的能力，沿这条路最多逼近、很难超越；同时提醒编程只是眼下热点之一，不该被它牵着走。
-🔗 https://mp.weixin.qq.com/s/_SGStRsaJmpos2_deXUs8A
+🔗 https://mp.weixin.qq.com/s/~SGStRsaJmpos2~deXUs8A
 
 2. 2026上半年：机器人还没落地，数据采集先赚到钱了
 具身智能卡在数据短缺上：机器人训练需要多模态、高保真的物理交互数据，这类数据不存在于互联网，截至 2026 年初可供训练的总量仅约 50 万小时。于是数据采集从研发幕后走到台前，成了可以单独交易的生意，资本也开始单独给它定价——2 月智元孵化的觅蜂科技 6 月完成数亿元天使+轮；3 月光轮智能完成 10 亿元融资成为全球第一个具身数据独角兽，透露一季度拿下 5.5 亿元订单；4 月无问智科完成超亿元融资、一季度订单数亿元；弈人科技连续两轮亿元级融资并宣布 2025 年收入破亿且盈利。文章把采集路线拆成金字塔：真机遥操质量最高成本也最高，无本体动捕成本更低但存在人机差异，第一视角视频最接近人的真实所见却缺触觉与力度信息（开头那个班加罗尔家政人员戴摄像头、脱敏后卖给美国 AI 公司的例子就属这层），越往下越容易规模化、但越需要证明机器人真能用得上。作者点出行业正分化成两类：卖单次数据的赚项目收入，卖持续生产数据能力的积累数据资产。
@@ -595,7 +595,7 @@ OpenAI 升级 ChatGPT 中的 GPT‑5.6 Sol（准确性与一致性更好），�
 
 3. Google 首席科学家、Gemini 项目负责人 Jeff Dean 离职创业，创办 AI 科学发现公司 Discovery Loop
 Jeff Dean 离开谷歌创业，出任新公司 Discovery Loop 的 CEO。同行的还有一批顶尖研究员：谷歌高级研究员 Sanjay Ghemawat、谷歌大脑创始成员之一 Quoc Le、DeepMind 高级研究科学家 Oriol Vinyals。Discovery Loop 注册为公益公司，方向是用 AI 加速科学研究——计划用高性能算法同时启动并迭代数千项实验，实现研究流程的部分自动化；公司还表示对&quot;用 AI 造更强的 AI&quot;（递归自我改进）有兴趣，即把人类迭代环节完全排除出流程。初始融资由 Radical Ventures 和 Khosla Ventures 联合领投，Kleiner Perkins、Lightspeed、Doerr Capital 参与，谷歌母公司 Alphabet 也在出资方之列。Dean 是谷歌第 30 号员工，1999 年入职，主导过搜索的抓取索引与查询服务等核心基础设施，对 Gemini 也有重要影响。
-🔗 https://mp.weixin.qq.com/s/RlcBZN1T2a-1qVkX_1AItQ
+🔗 https://mp.weixin.qq.com/s/RlcBZN1T2a-1qVkX~1AItQ
 
 4. AI 圈也有自己的穷鬼套餐了
 作者用 DeepSeek V4 Flash 加 Qwen3.7-Flash 覆盖了自己所有非编程任务，一天成本不到 1 块钱：前者做主模型，后者只负责识图、把图像转成文字描述喂给没有视觉能力的前者。文中给了具体价格——V4 Flash 官方原价未命中缓存 1 元每百万 token、命中只要 2 分；Qwen3.7-Flash 识图一张只占 1～2k token，100 张约 2 毛，关掉思考只要 1 毛。一句值得记的判断：用大模型识图已经比传统 OCR 还便宜。
