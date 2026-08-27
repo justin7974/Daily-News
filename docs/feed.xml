@@ -5,8 +5,56 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 26 Aug 2026 12:23:05 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 00:18:35 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #686 | 2026-08-27</title>
+      <link>https://news.justin7974.dev/2026-08-27.html</link>
+      <guid>https://news.justin7974.dev/2026-08-27.html</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <description>今日共 11 篇 RSS · 21 条推文 · 0 篇公众号
+
+📰 RSS 精选（5 / 11）
+
+1. Lovable CTO: The Future of SaaS Is Apps That Agents Can Use
+Lovable 正从&quot;用 AI 建 web 应用&quot;转向让开发者构建 CTO Fabian Hedin 所说的&quot;capabilities&quot;——把已发布应用里选定的功能，通过托管的 MCP server 暴露成 agent 可直接调用的工具，于是一个应用同时拥有两套接口：给人用的传统 UI，和可被 ChatGPT、Claude 等 MCP 客户端调用的 agent 接口。Hedin 的判断是未来越来越少人会打开传统 app，&quot;一个入口通向你所有的工作&quot;。这是 Lovable 三年里的又一次跃迁：从原型工具，到用户拿它做出真实营收的产品，再到 CRM、admin 面板等公司内部运营软件。
+🔗 https://www.latent.space/p/lovable-future-of-saas
+
+2. &quot;We have foundation models for language, not for physics&quot; — Anima Anandkumar
+Caltech 的 Anima Anandkumar 用 AI 建了第一个开源天气模型 FourCastNet，用消费级 GPU 就能做出媲美传统物理仿真的短期天气预测，现在把方法推向核聚变、流体、热流等连续物理系统。她的核心判断是：物理这个领域抵抗&quot;大力出奇迹&quot;的 scaling——开源数据集往往只有几万到几十万样本，而物理所需的分辨率会把上下文长度推到千亿甚至万亿量级，靠堆 token 走不通，进步来自往模型里注入结构和归纳偏置。
+🔗 https://www.latent.space/p/anima
+
+3. A16z&apos;s Martin Casado: Bullish on AI Apps, Bearish on Lone Ranger VCs
+Cursor 与 OpenRouter 的收购在四天内接连落地——Cursor 是史上最大的并购退出，OpenRouter 两年回报超 50 倍，两笔 a16z 基础设施团队都有份。带队的 Martin Casado 借此立论：个人 VC 抢单署名是&quot;上个时代的遗物&quot;，现代风投不靠个人决策。他说自己做过近 200 笔交易，&quot;想不出哪一笔是别人没起关键作用的&quot;——从 sourcing、判断、尽调到 closing 都是团队协作，专业化分工才是 AI 应用投资的胜负手。
+🔗 https://www.newcomer.co/p/a16zs-martin-casado-bullish-on-ai
+
+4. Excellent new Bill Gates essay on the urgency of having a coherent AI plan
+Gary Marcus 转述并附议 Bill Gates 的新文：当下的决策具有长久的决定性；AI 放大了生物恐怖、深伪、虚假信息、网络攻击的风险，&quot;连技能有限的罪犯都能规模化地攻击各种目标&quot;，Gates 还担心 AI 会阻碍孩子发展、替代人际关系；社会缺一套系统性的应对计划，且制定计划必须让公民社会而非只有政府和科技公司参与；同时需要建立国内与国际的治理框架，并通过税制改革（重新平衡对劳动与资本的征税）来留住就业。
+🔗 https://garymarcus.substack.com/p/excellent-new-bill-gates-essay-on
+
+5. Faking a brand is easy. Making it stop is hard.
+品牌假冒是种奇怪的盗窃——你什么都没丢，但一个复制品（你的 logo、你的登录页）在互联网别处以你的名义收集密码和付款，而被冒充者往往最后一个才发现。它难打击，是因为假冒跑在别人的平台上、针对别人、用你的名义；单次下架也没用，像九头蛇砍一个长两个：新的仿冒域名、新广告、新克隆账号。文章主张唯一解法是&quot;永远在线的社会工程防御&quot;——同时监控所有触面，并把每个&quot;断头&quot;烧死以防再生。
+🔗 https://www.a16z.news/p/faking-a-brand-is-easy
+
+🐦 Twitter 精选（5 / 21）
+
+1. @_akhaliq：分享论文《Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment》，探索让多个 agent 在开放世界环境里自主完成数学发现。
+🔗 https://x.com/_akhaliq/status/2092702100270497858
+
+2. @Hesamation：GLM 5.3 Flash（代号 Ox Alpha）把智能/成本前沿又推一步：AA 智能分接近 Opus 4.8，却便宜约 45 倍，1M 上下文下注意力算力低 3 倍、KV cache 小 4.4 倍——&quot;智能正在残酷地变便宜&quot;。
+🔗 https://x.com/Hesamation/status/2092622370183729553
+
+3. @shao__meng：Qwen3.8-Flash 发布、Flash-Next 开源，并被官方定义为 Qwen4 架构的早期预览；相对上代旗舰以约 1/3 激活参数、1/3 训练 token、1/9 训练 FLOPs，在 14 个基准中 8 个领先，新配方（Muon + 门控残差）在 4 倍学习率下零 loss 尖峰。
+🔗 https://x.com/shao__meng/status/2092600786207506466
+
+4. @hongming731：转述 OpenAI 首颗自研推理芯片 Jalapeño 首批实测：在 GPT-OSS 120B、DeepSeek R1、Kimi K2.5 三个公开模型上每瓦峰值算力提升 1.5-1.9 倍、端到端延迟降 1.7-3.6 倍，且芯片从设计到流片仅 9 个月、部分 AI 生成算子比人工快 1.5-1.8 倍。
+🔗 https://x.com/hongming731/status/2092401983642870199
+
+5. @AnthropicAI：首次向外部研究者开放用&quot;隐私保护后的真实 Claude 使用数据&quot;研究 AI 社会影响的工具，此前这类研究只能在 AI 实验室内部进行。
+🔗 https://x.com/AnthropicAI/status/2092661573223657834
+
+📖 查看完整日报（32 篇）→ https://news.justin7974.dev/2026-08-27.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #675 | 2026-08-16</title>
       <link>https://news.justin7974.dev/2026-08-16.html</link>
@@ -1130,76 +1178,6 @@ The Information 独家：据三位知情人，Trump 政府即将敲定一套自�
 🔗 https://x.com/shao__meng/status/2081747876993233109
 
 📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-07-28.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #655 | 2026-07-27</title>
-      <link>https://news.justin7974.dev/2026-07-27.html</link>
-      <guid>https://news.justin7974.dev/2026-07-27.html</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
-      <description>今日共 8 篇 RSS · 26 条推文 · 5 篇公众号
-
-📰 RSS 精选（5 / 8）
-
-1. Anthropic 首位技术 PM Dianne Penn 谈 token maxing 与&quot;锯齿状&quot;能力边界
-Dianne Penn 是 Anthropic 第一位技术产品经理，2023 年加入时整个产品团队只有 5 个工程师，此后她参与了从 Claude 2 到 Fable 的每一代模型，并孵化了 Claude Code、MCP、Skills、computer use、tool use 和 reasoning。这期 Lenny 播客里，她复盘了把 Anthropic 从 underdog 变成&quot;史上增长最快公司&quot;的几个拐点：向 coding 的重注、团队自创的 eval-driven development（评测驱动开发）循环、以及&quot;coding 被解决之后做什么&quot;。她特别强调，Claude 愿意 push back（反驳用户而非一味顺从）是它成功的关键，同时点出人类判断力仍不可替代的边界在哪。
-🔗 https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on
-
-2. 深挖为 token 二道贩子和欺诈供血的&quot;中转市场&quot;
-Matt Lenhard 的调查揭开了一个靠倒卖 LLM token 生长起来的地下市场，且主要集中在中国。中转商（reseller）以远低于官方 API 的价格售卖对某个 LLM 代理的访问权，手段包括滥用免费试用额度、通过没有防护的客服 bot 转发请求，乃至盗刷信用卡和发起 chargeback。他们用的代理软件是开源的 one-api 及其更活跃的分叉 new-api——本是合法的 API 负载均衡工具。买家图的是便宜 token、绕过地域限制，其中一部分则是为了采集数据做模型蒸馏。Simon Willison 由此呼吁 LLM 厂商必须提供严格的按额度熔断：花到设定金额就立即停用。
-🔗 https://simonwillison.net/2026/Jul/26/relay-market/
-
-3. 前英特尔首席科学家做端侧具身大脑，「眸深智能」近亿元 Pre-A 追加融资
-「眸深智能」（Motion Brain）完成近亿元 Pre-A 轮追加融资——这是继 5 月 3 亿元 Pre-A 之后两个月内再获投资，另有近 5 亿元 Pre-A+ 轮正在交割，公司称半年估值增长超 10 倍。团队由复旦大学深度学习实验室主任陈涛、原英特尔中国首席科学家张益民与连续创业者穆泽林共同创办，走的是与主流 VLA 不同的&quot;世界动作模型&quot;（World Motion Model）路线：用&quot;80% 互联网视频 +10% 动捕 +10% 真机数据&quot;的配方，把最贵的真机数据需求降低约 90%。通过模型压缩与国产芯片（海思昇腾、地平线、燧原）适配，端侧推理成本从 20 万元压到 1 万元。2026 上半年营收 3000 万元、预计全年 5000 万元以上，是国内少数已有营收的具身大脑公司；英伟达最新 ARDY 模型还引用了其 MLD 与 MotionGPT 两项技术。
-🔗 https://36kr.com/p/3911162147640456
-
-4. 报道称英伟达正就为 OpenAI 数据中心提供 2500 亿美元担保进行磋商
-据报道，知情人士称英伟达正在洽谈提供约 2500 亿美元的担保，以帮助 OpenAI 从软银正在俄亥俄州开发的 10 吉瓦数据中心枢纽租赁算力。软银创始人孙正义曾表示，该项目成本可能高达约 5000 亿美元。目前交易仍处于磋商阶段，尚未落定。
-🔗 https://36kr.com/newsflashes/3913110255359105
-
-5. 本周数据泄露盘点：澳洲 Origin Energy 事件
-Troy Hunt 复盘澳洲 Origin Energy 泄露事件：公司对外强调&quot;信用卡没事&quot;，黑客称&quot;上报无人理会&quot;，双方最终&quot;达成协议&quot;（或付了赎金、或换取删数据承诺），但都无法保证数据真被销毁，只能按&quot;迟早会泄&quot;的假设去应对。
-🔗 https://www.troyhunt.com/weekly-update-514/
-
-🐦 Twitter 精选（5 / 26）
-
-1. @emollick：他周四刚写完&quot;该用哪些 AI 模型&quot;的指南，周五就得更新——Opus 5 和 Codex 的语音模式同天发布且都很重要。感叹即便是紧盯这个领域的人，也越来越跟不上迭代速度。
-🔗 https://x.com/emollick/status/2081475928086003869
-
-2. @emollick：Fable 帮他做了一个&quot;塞尚印象派城市建造&quot;游戏：AI 自己想出用手势作画、城镇随之生长、街区在演化中获得性格的玩法。展示了模型从&quot;写代码&quot;到&quot;提出创意设计&quot;的跃迁。
-🔗 https://x.com/emollick/status/2081261849543070181
-
-3. @hongming731：BestBlogs 07-27 早报精选：黄仁勋讲述打造 NVIDIA 的&quot;创始人心法&quot;（第一性原理、深入算法域、让组织围绕创始人长处演化）；以及一份 LLM-as-a-Judge 实战指南，梳理 pointwise/pairwise/rubric 三类判分法与位置、冗长、自偏好等失真来源，落点是拆分标准加人工金标集持续校准。
-🔗 https://x.com/hongming731/status/2081524986670723130
-
-4. @EXM7777：他认为 loop 和 graph engineering 虽是 buzzword，但不用就是大错。当年把 Anthropic Skills 接进工作流的人吃到了红利，但那已经不够了；现在跑得快的人靠的是循环和图——上一步的输出决定下一步做什么，让工作无需人工传递就持续推进。
-🔗 https://x.com/EXM7777/status/2081440162316439809
-
-5. @shao__meng：从 Prompt/Context 到 Loop/Graph Engineering，&quot;只用语言指挥 Agent、自己不读不改代码&quot;其实就是工程经理一直以来的工作方式——执行者从人类下属换成 AI Agent，但流程、职责、质量机制是同一套。质量问题仍要靠管理和流程解决，而非幻想 AI 不犯错。
-🔗 https://x.com/shao__meng/status/2081216459364331528
-
-📱 公众号精选（5 / 5）
-
-1. Applied Intuition 发布 Dana：被 Cruise 拒绝的工具商，九年后成为 150 亿美元的机器智能层
-7 月 21 日，Marc Andreessen 与 Erik Torenberg、Elena Burger 联名发表长文《Making a Billion Intelligent Machines》，为 Applied Intuition 当天发布的 Dana 平台作注，一天多阅读量破 28 万。文章真正的主角是一个九年前的少数派判断：2017 年自动驾驶行业共识是&quot;少数垂直整合公司将吃下整个市场&quot;，资本涌向全栈 robotaxi，每家都重复造几乎相同的内部工具。Applied Intuition 的提议是把这些最佳实践本身做成一家公司。头部 L4 玩家（包括 Cruise）当年直接拒绝了它。九年后对账：那批全栈明星多已凋零（Cruise 被通用收购后停摆），而这家被拒的工具商如今估值 150 亿美元。
-🔗 https://mp.weixin.qq.com/s/csGpYdMoK8Z0KesEltKk7w
-
-2. 生成侧狂奔，验证侧纹丝不动：AI 代码正在堆成一片没有压实的填土
-判断来自 Ando 创始人 Sara Du（哈佛辍学、Thiel Fellow，前一家 Alloy Automation 融资超 2700 万美元）：技术债过去按&quot;一个团队打字的速度&quot;累积，现在按&quot;模型推理的速度&quot;累积，两者差着数量级，且差距本身在复利——每一层生成物都成为下一层的地基。她现在做的 Ando 被描述为&quot;给 agent 化团队用的 Slack&quot;，等于指出问题的人正押注解决它。文章追问的下一层是：代码生成被 AI 拿走的同时，这笔债的偿还（验证/审查）机制是不是也被一起拿走了。作者还用旧金山一居室租金同比涨 21.9%、首破 4000 美元，给&quot;这轮繁荣的量级&quot;做锚。
-🔗 https://mp.weixin.qq.com/s/1EBvTm3yQjfCSvYcaIgbDw
-
-3. 晚点周末：琳朝珠宝马朝贤——没有时间加持，一切都是牛鬼蛇神
-晚点人物特写：兰州一家做极致手工中式黄金珠宝的品牌琳朝，代表作&quot;火镰&quot;一只约 15 万元、半天卖掉 600 个近亿元，却因一个月只能做几件而陷入&quot;爆单造不出来&quot;的困境；折射金价大涨背景下老铺黄金、中式珠宝对一线奢侈品的反超。
-🔗 https://mp.weixin.qq.com/s/V0PZT1iGTOlHtKabZEfvVw
-
-4. 实测 TRAE Work 高阶工作流：从 Prompt 到工作流
-一篇上手实测，用三个日常案例（自动日报、网页设计、研究分析）跑通字节 TRAE Work 的 AI 办公工作流，核心观点是&quot;零散 Prompt 收藏夹没用，能把动作串成完整工作流才让 AI 真正可用&quot;。内容偏产品体验、带一定推广色彩。
-🔗 https://mp.weixin.qq.com/s/RFeEZ3VxqxvmWu03_68KMg
-
-5. 一图看懂各种 AI 名词：《AGI 就在下一圈》
-宝玉AI 搬运翻译的一张信息图，用&quot;AGI 就在下一圈（赛道）&quot;的比喻串起各种 AI 名词与概念，适合快速厘清术语关系的入门科普。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/BzfaJmM6Zxj5Nk3Ou44mZw
-
-📖 查看完整日报（39 篇）→ https://news.justin7974.dev/2026-07-27.html</description>
     </item>
   </channel>
 </rss>
