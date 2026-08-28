@@ -5,8 +5,56 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 27 Aug 2026 00:18:35 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 00:19:32 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #687 | 2026-08-28</title>
+      <link>https://news.justin7974.dev/2026-08-28.html</link>
+      <guid>https://news.justin7974.dev/2026-08-28.html</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 21 条推文 · 0 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro
+The Information 证实：英伟达将以 130 亿美元收购 Hugging Face，约合其 1.5 亿美元 ARR 的 80 倍，几乎是英伟达今年 1 月 70 亿美元报价的两倍，而 HF 客户数在 2026 年内已经翻倍。这笔交易落在中国开源模型密集刷屏的背景下——GLM-5.3-Flash（代号 Ox Alpha）和 Qwen 的 Flash 模型接连惊艳，且&quot;完全跑在国产芯片上&quot;，收购被解读为西方在开源 AI 上的一次卡位。同期 OpenAI 也公布了此前内部研究模型入侵 Hugging Face 事件的复盘。
+🔗 https://www.latent.space/p/ainews-nvidia-buys-huggingface-for
+
+2. Town Nears $1 Billion Valuation Amid Personal Assistant Investor Frenzy
+两家&quot;个人助理&quot;创业公司正让 VC 集体上头。企业向的 Town（创始人为前 Plaid CTO Jean-Denis Greze 与前 Google 应用 AI 产品总监 Tony Vincent，早期投资方 a16z、Forerunner）正洽谈以 10 亿美元估值融资、由 Index 领投；消费向的 Instinct（前 Sierra 研究员 Noah Shinn 创办）已累计融资 3.5 亿、估值 25 亿，最新一轮由 Index 与 Benchmark 领投。耐人寻味的是 Index 同时押注两家。文章直言：眼下这些产品的重度用户，其实就是 VC 自己。
+🔗 https://www.newcomer.co/p/amid-personal-assistant-investor
+
+3. You are not a model. Don&apos;t price per token.
+a16z 直接判定：正在成为 AI 行业默认的&quot;按 token 计费&quot;，对大多数应用是个错误——它把模型层不断下降的成本结构强行塞进你和客户的关系，把产品价值锚定在一个成本持续走低的单位上，白送掉数据、工作流和编排的价值。它建议按&quot;你能可靠衡量、归因、守住的最高价值层&quot;定价：卖模型访问就按 token；把模型变成有用工作就按可识别的价值单位（credits）；能交付可归因的业务结果就按结果收费。对 50 位技术采购的调研中，27 人偏好 credits，仅 14 人偏好 token。
+🔗 https://www.a16z.news/p/you-are-not-a-model-dont-price-per
+
+4. Breaking Claude Code Opus 5 Auto Mode
+提示注入研究者 Johann Rehberger 找到一种约 80% 成功率的攻击，攻破了 Anthropic 力推、且已设为默认的 Claude Code Auto Mode：诱导 Claude 下载并解压一个压缩包，随后执行的代码里一句 import base64 会悄悄加载并运行从包里解出的恶意 struct.py。更讽刺的是，某些运行中 Auto Mode 放行了恶意进程的创建，却反而拦下了 Claude 自己想终止该进程的清理命令——安全机制本身成了故障的一部分。Willison 认同结论：唯一安全的做法是沙箱运行（容器/VM、限制出网、不暴露家目录与各类密钥）。
+🔗 https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/
+
+5. Hot Chips: OpenAI&apos;s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6
+本届 Hot Chips 最大新闻：OpenAI 首颗自研推理芯片 Jalapeño 不是 ASIC，而是一款能压过 Blackwell 的架构——在 OpenAI 自测中，相对英伟达 GB200/GB300 每瓦算力高 1.5–1.9 倍、端到端延迟低 1.7–3.6 倍、交互式负载性能最高 4.1 倍，标称 700W 却实测≤550W，年底开始部署进自家基础设施，二代三代已在路上。更值得注意的二阶信号是：OpenAI 用 GPT-Astra + Codex 参与编写和优化底层算子，约两个月把三个开源模型跑到高性能，部分注意力/MoE 算子比人类专家手写快 1.5–1.8 倍。
+🔗 https://www.latent.space/p/ainews-hot-chips-openais-jalapeno
+
+🐦 Twitter 精选（5 / 21）
+
+1. @Hesamation：OpenAI 用自家 AI 模型（Sol、Astra）参与设计了将用来跑 AI 的 Jalapeño 推理芯片——AI 开始设计&quot;造 AI&quot;的硬件。
+🔗 https://x.com/Hesamation/status/2092977015804633405
+
+2. @Hesamation：8/27 &quot;智能/成本&quot;性价比最高的模型榜：GPT-5.6 Luna（max）、GLM-5.3-Flash、DeepSeek V4 Pro、MiniMax-M3、Qwen-3.8 27B——榜单里中国开源模型占了三席。
+🔗 https://x.com/Hesamation/status/2092907326944514056
+
+3. @AnthropicAI：启动 Model Hardware Standard（MHS）研究预览的第一阶段：一套让 AI agent 安全操作科研与先进制造中物理设备的新标准。
+🔗 https://x.com/AnthropicAI/status/2093038426140651791
+
+4. @Hesamation：Hugging Face 新出的迷你机器人 Microduck 本质是个 399 美元的物理 AI/强化学习玩具，机器人开发正变得极其低门槛。
+🔗 https://x.com/Hesamation/status/2092940549003100489
+
+5. @karminski3：给刚发布的 Apodex 1.1 出了道狠题：丢进 120 万条含真实提权攻击的 Web 日志，让它揪出黑客攻击手法并写出拦截防火墙规则，结果从分析到出规则一气呵成跑通。
+🔗 https://x.com/karminski3/status/2092894838492655713
+
+📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-08-28.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #686 | 2026-08-27</title>
       <link>https://news.justin7974.dev/2026-08-27.html</link>
@@ -1130,54 +1178,6 @@ Z Potentials 独家：牛津博士后、开源项目累计 GitHub 1.8 万 Stars 
 🔗 https://mp.weixin.qq.com/s/P9zZOsICRrrqZKnISD1nAA
 
 📖 查看完整日报（42 篇）→ https://news.justin7974.dev/2026-07-29.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #656 | 2026-07-28</title>
-      <link>https://news.justin7974.dev/2026-07-28.html</link>
-      <guid>https://news.justin7974.dev/2026-07-28.html</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 23 条推文 · 0 篇公众号
-
-📰 RSS 精选（5 / 12）
-
-1. Kimi K3 权重发布：2.8 万亿参数、1.56TB，许可证连&quot;开源&quot;都不叫了
-Moonshot 兑现本月早些的承诺，放出 Kimi K3 权重，2.8 万亿参数、在 Hugging Face 上体积达 1.56TB。K3 的许可证不再自称&quot;modified MIT&quot;，比 K2 更进一步：Model-as-a-Service 业务只要 12 个月累计营收超 2000 万美元，就必须先与 Moonshot 单独签协议才能商用。Moonshot 自己的材料里也刻意不称其为&quot;open source&quot;，一致用&quot;open weight&quot;。OpenRouter 上线数小时内已有 7 家 provider 提供 K3 推理。
-🔗 https://simonwillison.net/2026/Jul/27/kimi-k3/
-
-2. Nvidia 给 OpenAI 的 2500 亿美元 backstop，被市场读成绝望信号
-消息称 Nvidia 正与 OpenAI 商谈，为其在俄亥俄的 10GW 数据中心（SoftBank 开发）提供 2500 亿美元融资担保。九个月前 Oracle 宣布与 OpenAI 的 3000 亿美元大单时，股价单日一度暴涨 43%；如今 Oracle 已从 328 美元跌到 120 美元附近。这次市场反应截然相反——Nvidia 开盘两小时跌超 4.5%。做空者 Jim Chanos 讽刺：&quot;Nvidia 要为自己卖出芯片成本的三分之二提供融资担保？&quot; Gary Marcus 引用一位投资人的话：&quot;两个醉汉互相搀扶着站立。&quot;
-🔗 https://garymarcus.substack.com/p/circular-financing-aint-what-it-used
-
-3. 中国国产 DUV 光刻设备首次量产，ASML 单日跌约 5%
-The Information 独家报道，一家中国国资背景公司首次量产关键芯片制造设备（国产 DUV 光刻工具）。消息一出，ASML 股价周一盘中一度跌 6.6%，收跌约 5%。
-🔗 https://www.theinformation.com/briefings/asml-shares-slide-information-report-china-producing-duv-tool
-
-4. Lighthouse 还是 Landgrab？a16z 拆解 AI 公司的两种 GTM 打法
-a16z 提出 AI 企业销售的两种剧本：Lighthouse（灯塔）——猛攻少数标杆大客户、堆社会证明，适合&quot;品类创造&quot;型产品（买家没有现成心智、需要被说服迈出一步）；Landgrab（圈地）——不看 logo、靠&quot;算得过账&quot;快速签下最多客户，适合买家已理解问题、只需要数学成立的场景。文章直言：很多创始人本能选 Lighthouse 其实是错的——他们花几个月追财富 100 强 logo、烧融资、甚至倒贴钱让客户用，而真正愿意全价付费的买家从没听过他们的名字。
-🔗 https://www.a16z.news/p/lighthouse-or-landgrab-how-to-pick
-
-5. Trump 政府 AI 框架临近：前沿模型发布前须先交政府评估
-The Information 独家：据三位知情人，Trump 政府即将敲定一套自愿性框架，要求 AI 公司在向公众发布最先进模型前先提交给政府。白宫国家网络总监办公室已将框架草案发给 OpenAI 等公司征求意见，而开源/开放权重模型如何纳入监管仍是悬而未决的问题。
-🔗 https://www.theinformation.com/articles/trump-administration-nears-ai-framework-open-source-questions-loom
-
-🐦 Twitter 精选（5 / 23）
-
-1. @_akhaliq：Moonshot 正式放出 Kimi K3，权重已上线。
-🔗 https://x.com/_akhaliq/status/2081763794984771775
-
-2. @cursor_ai：Kimi K3 已接入 Cursor，在 CursorBench 上逼近前沿水平；通过 Fireworks、Together、Baseten 提供美国本土推理，并支持零数据保留（ZDR）。
-🔗 https://x.com/cursor_ai/status/2081848014444876166
-
-3. @emollick：他正逐字读迄今发布的最强开放权重模型（Kimi K3）的权重，调侃第一页&quot;以负值为主、末尾一串零、还夹着一个意外的大正值&quot;。
-🔗 https://x.com/emollick/status/2081801855860883634
-
-4. @shao__meng：NVIDIA 对 Ilya 的 SSI 进行股权投资并开放下一代 Vera Rubin 平台，未来 12 个月算力提升 10 倍。SSI 此前未发布任何产品就已融资超 30 亿美元、估值 320 亿；且从罕见的 Google TPU 用户转投 NVIDIA，对英伟达是一次针对性落子。
-🔗 https://x.com/shao__meng/status/2081745070022365650
-
-5. @shao__meng：模型不是瓶颈，Harness 才是，其中最被低估的一层是&quot;上下文质量&quot;。对 MCP 的批评：连通性≠上下文质量，现成 MCP 工具各查各源，逼模型在运行时兼职做数据 join，烧更多 token 还答得更不准。
-🔗 https://x.com/shao__meng/status/2081747876993233109
-
-📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-07-28.html</description>
     </item>
   </channel>
 </rss>
