@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 02 Sep 2026 00:20:17 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 00:16:17 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #693 | 2026-09-03</title>
+      <link>https://news.justin7974.dev/2026-09-03.html</link>
+      <guid>https://news.justin7974.dev/2026-09-03.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>今日共 13 篇 RSS · 15 条推文 · 7 篇公众号
+
+📰 RSS 精选（5 / 13）
+
+1. [AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens
+Anthropic 发布 Claude Fable 5.1 与 Mythos 5.1，官方定位为&quot;面向编程和知识工作的全球最先进模型&quot;，发布推文获得 1280 万次浏览。单 token 定价与 5 代持平（输入 $10、输出 $50、缓存写入 $12.5 每百万），但缓存读取价格直降 75% 至 $0.25 每百万，利好长上下文、长会话用户。关键反转在于：据 Artificial Analysis 实测，新模型输出 token 用量增加约 70%（1.7 倍），抵消缓存降价后，单任务综合成本反而上升约 20%。同日 World Labs 的世界模型 Astra 也发布，被 Latent Space 称为迄今最惊艳的世界模型。
+🔗 https://www.latent.space/p/ainews-claude-fablemythos-51-new
+
+2. Fable 5.1, Enterprise Frontier Safeguards
+Ben Thompson 认为 Fable 5.1 发布的真正看点不是跑分，而是 Anthropic 顺势&quot;在过渡期彻底取消&quot;了此前饱受诟病的 Fable 数据保留政策——不是修改，是整个撤销。他还解释了缓存使用量提升为何对用户和 Anthropic 是&quot;双赢&quot;，并把这次调整放在&quot;企业级前沿安全保障&quot;的框架下讨论。
+🔗 https://stratechery.com/2026/fable-5-1-enterprise-frontier-safeguards/
+
+3. Apex: The Spacecraft Platform Company
+Apex 创始人 Ian Cinnamon 在 a16z 撰文提出：新一轮太空竞赛的胜负不再由&quot;首次登月&quot;这类里程碑衡量，而是由&quot;速率&quot;决定——部署、补网、技术刷新的速度。实现这一切需要&quot;星座&quot;（成百上千颗卫星协同），而星座依赖两大工业能力：发射与航天器平台。他判断发射能力已基本就绪，真正的瓶颈是航天器平台，Apex 要做的就是消除这个瓶颈，让星座可被快速规模化部署。
+🔗 https://www.a16z.news/p/apex-the-spacecraft-platform-company
+
+4. Grok Bot vs. OpenClaw: How I replaced my entire agent stack
+Claire Vo 在 Lenny&apos;s Newsletter 分享实操：用了几周 GrokBot 之后，她关掉了此前所有的 OpenClaw，几乎完全迁移到 GrokBot。GrokBot 是 SpaceX AI 团队推出的多智能体平台，定位为&quot;可以交付真实工作的 AI 队友&quot;——用户能像给员工分配任务一样，定义 agent、赋予职责、派活。文章逐个演示了可直接照搬的实用场景，也点出了当前仍缺失的能力。
+🔗 https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced
+
+5. VC isn&apos;t VC anymore — understanding the rise of Cancer Capital
+Anil Dash（曾多次以 CEO 身份募资、并担任董事/顾问）撰长文抨击：头部风投已不再是传统意义的 VC。少数机构借放松的监管，把 VC 与 PE 合并成管理数百亿美元的&quot;全能基金&quot;，靠 2% 管理费旱涝保收（管 500 亿一年就有 10 亿到手），法律上甚至已不算 VC，因而不再受市场、创始人和法律约束，他称之为&quot;癌症资本&quot;。他指出 a16z 本轮中期选举已投入 1.153 亿美元政治献金、接近 2024 年的两倍，超过任何亿万富翁个人捐赠者；权力天平从创始人倒向 VC，&quot;创始人&quot;沦为执行 VC 政治议程的人选。
+🔗 https://anildash.com/2026/09/02/cancer-capital/
+
+🐦 Twitter 精选（5 / 15）
+
+1. @EXM7777：Gemini 3.8 Flash 让所有 AI 实验室真的紧张了：大家意识到 Google 不是在拼最强前沿模型，而是在造驱动大多数 AI agent 的引擎——性能接近 Opus 5、便宜到离谱、速度飙到 300 tps。
+🔗 https://x.com/EXM7777/status/2095235375166058504
+
+2. @emollick：拿到 Gemini 3.8 Flash 早期访问：它确实是一个很好的 Flash 模型，但还不等同于前沿模型；同样提示词下它给出的 shader 版本响应很快，但质量与前沿模型有差距。
+🔗 https://x.com/emollick/status/2095203002210807816
+
+3. @Hesamation：Muse Spark 1.3 成为 Artificial Analysis 智能指数上最强的非 Anthropic 模型：得分与 Fable 5 持平，但输出 token 便宜 12 倍（$4.25/M vs $50/M），仅落后 Opus 5 一分、落后昨天发布的 Fable 5.1 四分。
+🔗 https://x.com/Hesamation/status/2095276123479318914
+
+4. @Hesamation：OpenAI Astra 用了名为&quot;循环深度&quot;（recurrent depth）的新推理技术：不靠堆叠更多 Transformer 层，而是让隐藏状态在同一层里多次循环，部分推理在模型内部完成、而非写成显式思维链。
+🔗 https://x.com/Hesamation/status/2095056395737378915
+
+5. @Hesamation：Qwen 3.8 Max 0902 登顶 WebDev Arena，略微超过 Opus 5；Fable 5.1 的成绩仍在等待。作者感叹：一睡觉就有新模型发布。
+🔗 https://x.com/Hesamation/status/2095062290739405176
+
+📱 公众号精选（5 / 7）
+
+1. 嘉立创：用 2100 万张零散的 PCB 板，拼成一门价值千亿的生意
+靠 2108 万笔零散订单拼出 102.3 亿元营收——PCB 厂商嘉立创 2026 年 8 月上市后市值逼近千亿，商业模式却极度反直觉：2025 年前五大客户合计仅贡献 1.16% 收入，最大单一客户占比 0.28%，收入来自 130 万付费用户、平均每单仅 485 元。它切的是硬件研发最前端、最零散的打样和小批量需求，用&quot;手工拼版 + 系统自动审单 + 算法集约拼板&quot;把打样价压到极低，再一体化整合 EDA 设计软件、立创商城元器件、贴片、3D 打印/CNC。2025 年净利率 12.4%、2026 上半年升至 14.4%，A 股中仅三家英伟达 AI 供应链核心厂商高于它，海外收入占比已超 20%。
+🔗 https://mp.weixin.qq.com/s/XPqVGXtuO6MROJr0EsiIeA
+
+2. 16 人拿到 1000 万美元，想把 AI 视频做成持续运行的世界
+2025 年成立的 Visko 完成 1000 万美元种子前融资，并开放世界模型 Orbis 的公众体验入口。与&quot;渲染一段定长短片&quot;的传统 AI 视频不同，Orbis 把视频做成&quot;持续运行&quot;的画面：按短片段不断向前生成，用户可在运行中随时改提示词（如让车转进城市、把雨夜改成晴天），下一段立即响应。据公司技术报告，Orbis 可实时输出 24fps 的 4K 视频、小时级连续生成无明显画质漂移，并用&quot;固定容量的多尺度记忆&quot;解决长时生成的一致性问题（人物换脸、物体漂移）——但这些结论目前主要来自公司自述，缺乏大规模独立验证。
+🔗 https://mp.weixin.qq.com/s/AfgyFuknOjq67IgfoBQOPA
+
+3. 喝点VC｜a16z全球投资负责人：创始人来硅谷是为了校准速度；未来的创业公司将同时属于多个国家
+a16z 全球投资策略的两位主导者 Angela Strange 与 Gabriel Vasquez 复盘了 a16z 如何从拉美金融科技、一个把 25 位当地顶级 CEO 拉进去的 WhatsApp 群起步，逐步搭起面向全球创始人的跨市场网络。他们提出&quot;无国界创始人&quot;概念：不取决于出生地或注册地，而在于是否从第一天就想建一家全球公司；这类人拥有三项复利优势——进入差异化人才网络、借国家/地区认同建品牌、更早拿下本土大客户。Strange 引用 Nubank 的判断：与其在美国争当用户的第五个金融服务，不如进入只有五家安于现状的银行、仅覆盖 20% 人口的空白市场。
+🔗 https://mp.weixin.qq.com/s/JrGUvp6LcYFxql9STPtjgA
+
+4. 我用 claude-fable-5.1 调研了 517 个高客单价活动
+作者用刚发布的 claude-fable-5.1 把活动行平台上能抓到的 3839 个收费活动全量翻了一遍：其中票价过千的高客单价活动 517 个，但其中 333 个显示付费票&quot;零售出&quot;；能看到成交的 184 个里，前十名拿走了全部可确认票款的 52%。峰会大会与培训课数量接近（187 比 196），票款却差了五倍以上（1180 万 vs 223 万）。原始数据、抓取脚本与全部分析代码已开源。
+🔗 https://mp.weixin.qq.com/s/ExiIKrarNDpjl17Vgrsb6w
+
+5. 豆包有 Agent 了：从刷视频到发公众号，我一次电脑都没开
+字节豆包上线 Agent 能力，作者演示全程只用手机、不开电脑，就让 Agent 完成从刷视频到发公众号的一连串任务，展示了国产消费级 App 的端侧 agent 化。
+🔗 https://mp.weixin.qq.com/s/oV~JoljbS9yyatfrM-CPDA
+
+📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-09-03.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #692 | 2026-09-02</title>
       <link>https://news.justin7974.dev/2026-09-02.html</link>
@@ -1188,54 +1258,6 @@ Nathan Lambert（前 AI2）推出两个免费数据产品：Artifacts Hub 追踪
 🔗 https://x.com/emollick/status/2084124237053219289
 
 📖 查看完整日报（38 篇）→ https://news.justin7974.dev/2026-08-04.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #662 | 2026-08-03</title>
-      <link>https://news.justin7974.dev/2026-08-03.html</link>
-      <guid>https://news.justin7974.dev/2026-08-03.html</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 23 条推文 · 0 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Boris Cherny: Building Claude Code
-Claude Code 作者 Boris Cherny 在 YC Startup School 2026 透露 Opus 5 冒出两个没被专门训练、却自己学会的能力：一是在 Auto Mode 下能连续自主运行数天甚至数周不停、不再需要 slash goal 之类脚手架；二是模型&quot;看起来不再能被 prompt injection&quot;，即便读到网页里&quot;删除用户电脑所有文件&quot;这类指令也不执行。他说 Claude Code 因此删掉了约 80% 的系统提示词——模型不再需要手把手写规则。整场对话的基调是&quot;编程已经基本被解决&quot;，Opus 5 刚把 ARC-AGI-3 从个位数/十几分拉到 30%。
-🔗 https://www.ycrootaccess.com/p/boris-cherny-building-claude-code
-
-2. Latest open artifacts (#23): Laguna S2.1, Inkling, &amp; Kimi K3
-业界曾普遍预测&quot;训练成本每年涨一个数量级 → 头部模型厂必然收敛整合&quot;，Nathan Lambert 这期直接指出预测落空：反而有更多公司在投入数亿到数十亿美元训练强模型，且越来越多选择开源。最典型的是 Thinking Machines——当初没人把它归为开源模型公司，如今其开源模型微调服务（Tinker）年入数亿美元，还产出了全美最强的开源权重模型，领先英伟达 Nemotron 和 Arcee。腾讯 Hy3 把许可证从自定义限制性协议换成 Apache 2，Kimi K3 则采用分成式（revenue-share）许可证；中国实验室保持高频迭代，小米等新玩家也在积累声量。
-🔗 https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21
-
-3. OpenAI&apos;s amazing — but vastly oversold — new model Astra
-Gary Marcus 承认 OpenAI 内测模型 Astra 确实惊人（解决了 10 个数学/理论计算机的悬而未决难题），但抨击围绕它的一片欢呼犯了&quot;合成谬误&quot;（fallacy of composition）：把&quot;在某一类高深数学问题上很强&quot;脑补成&quot;数学都很强、科学都很强、甚至什么都很强&quot;。他逐条点名 Dean Ball 的&quot;很快人人都能用这个做出突破的模型解决生活里任何琐事&quot;、Matt Shumer 的&quot;科学黄金时代&quot;、以及马斯克把它当成&quot;奇点已至&quot;的说法，认为这是 AGI 临近论者一次次重复的同一个逻辑错误。
-🔗 https://garymarcus.substack.com/p/openais-amazing-but-vastly-oversold
-
-4. I&apos;m (mostly) picking models on speed now, not intelligence
-作者第一次不再按&quot;原始智力&quot;挑日常主力模型，而是按速度（tokens/秒）——因为 ~Opus 4.6 级别的模型对大多数日常任务（写代码、做研究、做 slides、跑数据库分析）已经&quot;够聪明了&quot;。他提出&quot;100 tok/s 是新的 100ms&quot;：这个速度下输出比他略读还快，低于 50 tok/s 就明显发慢。他甚至因为 Fable 重新上线后加了护栏、变得太慢，直接切回了 Opus。而 GLM5.2、DeepSeek V4 Flash 等更小的开源权重模型如今都跨过了智力门槛，OpenRouter 上同一模型不同服务商的速度差距巨大（从不到 30 到 129 tok/s）。
-🔗 https://martinalderson.com/posts/speed-vs-intelligence/
-
-5. This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)
-Whatnot（史上增长最快的美国 marketplace，GMV 超 80 亿美元）CPO Tom Verrilli 把产品组织建立在一个反直觉前提上：&quot;我们很遗憾产品经理这个岗位存在&quot;——与其按人数配比堆 PM，不如用更少、更资深、亲自下场做 IC 活的 PM。他谈到 AI 正在重塑 PM 角色、如何用 AI 改造了 Whatnot 的数据科学，以及为什么&quot;招最好的人然后放手不管&quot;这套行不通。
-🔗 https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management
-
-🐦 Twitter 精选（5 / 23）
-
-1. @karpathy：认为&quot;给 LLM 画自行车上鹈鹕 SVG&quot;式的测试已经过时；他给 Opus 5 喂《魔戒》开篇、100 万 token 预算（约 10 美元）让它用 JS 渲染，模型跑了约 2 小时、写了 5500 行代码把故事程序化渲染出来，虽然粗糙但令人惊讶。
-🔗 https://x.com/karpathy/status/2083749667410727319
-
-2. @EXM7777：认为 Anthropic 没做出合格的&quot;日常主力&quot;：Opus 5 在精密任务（世界观构建、3D、前端）极强，但出了这范围几乎不好用，Fable 用于日常又太重；他的解法是在 Claude Code 里代理其他模型——Fable 负责调度分发，实际干活交给 GPT-5.6 Sol 和 Kimi K3。
-🔗 https://x.com/EXM7777/status/2083937869568315529
-
-3. @EXM7777：分享他的研究工作流：用 Exa 替代所有深度研究工具、Firecrawl 处理特定网站与 PDF、/last30days 找当下最佳做法，再架一支子代理舰队验证发现、剔除 slop 并重跑，把 agent 从&quot;垃圾工厂&quot;调教成&quot;窄领域专家&quot;。
-🔗 https://x.com/EXM7777/status/2083914725419806857
-
-4. @EXM7777：给的唯一建议是&quot;屏幕时间&quot;——整天泡在 agent harness 里从零搭项目：自己写 harness、改 agent 配置看行为怎么变、从公开仓库偷 skill 改造进自己工作流、亲身感受 context 从帮忙变成拖累的那一刻。
-🔗 https://x.com/EXM7777/status/2084021168311554068
-
-5. @shao__meng：提出 agent 时代要看&quot;每个 task 的成本&quot;而非&quot;每个 token 的成本&quot;：chatbot 是单轮、可控 input/output，而 agent 一个任务要跑很多轮 loop、tool call、写代码，跑了多少轮、总 token 数、cache 比例才是决定性变量，也给&quot;做 agent 应用怎么选模型&quot;定了计算公式。
-🔗 https://x.com/shao__meng/status/2083740972694053043
-
-📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-08-03.html</description>
     </item>
   </channel>
 </rss>
