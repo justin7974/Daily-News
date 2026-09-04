@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 03 Sep 2026 00:16:17 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 00:16:09 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #694 | 2026-09-04</title>
+      <link>https://news.justin7974.dev/2026-09-04.html</link>
+      <guid>https://news.justin7974.dev/2026-09-04.html</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+      <description>今日共 14 篇 RSS · 15 条推文 · 7 篇公众号
+
+📰 RSS 精选（5 / 14）
+
+1. GPT-6 Astra: an automated AI Engineer you can hire for &lt;$6 an hour
+Latent Space 团队烧掉 200 亿+ token 实测后给出结论：GPT-6 Astra 不只是更强的模型，而是一个能独立干活的&quot;AI 工程师&quot;——它能帮你选型和训练模型、标注数据、盯住流水线、读日志、一次性部署和调试整个系统，还能编排并评估跑着其他模型的子代理，在数十亿 token 的单一线程里保持连贯。按 33 tokens/秒、每百万 token 最高 $50 折算，等于每小时不到 6 美元；作者称自己花约 100 美元、两天就完成了一名初级 AI 工程师的工作量。同日 Astra 在 FrontierMath（97.6%）和 ARC-AGI-3（99.9%）上近乎刷满。
+🔗 https://www.latent.space/p/astra
+
+2. Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab
+Meta 用 Muse Spark 1.3 完成了一次&quot;史诗级翻身&quot;：据 Artificial Analysis，它已是全球第三的模型，coding 和 agentic 能力追平 OpenAI/Anthropic 的前沿梯队（对标 Opus 而非 Fable），扎克伯格承诺后续开放权重。定价上采用一个特殊机制——用户若选择开放数据用于训练，价格再降 90%+。这坐实了 Meta Superintelligence 实验室重新跻身第一梯队。
+🔗 https://www.latent.space/p/ainews-muse-spark-13-matches-gpt
+
+3. The Incumbents Are Coming
+a16z 的 Seema Amble 提出一个反直觉判断：AI 让&quot;记录系统&quot;（system of record）更重要而非更不重要，因为数据和动作越被 agent 调用越值钱。Salesforce 与 Anthropic 合作的 Claudeforce 让用户在 Claude 里直接操作 CRM，是典型信号——通用 agent 成为&quot;干活的前门&quot;，而 Salesforce 仍握着底层数据。她把应用层 agent 分成检索/流程/策略/主理四级，指出在位者正沿这条阶梯从检索向&quot;应用 playbook 做判断&quot;上移（如 Docusign 的 Iris）。但核心论点是&quot;活儿比记录大&quot;：真正的工作横跨多个应用、团队甚至公司，这才是 AI 原生创业公司重新聚合的机会。
+🔗 https://www.a16z.news/p/the-incumbents-are-coming
+
+4. Investors Are Betting on Agents That Shop for You. Here Are the Startups They&apos;re Backing.
+Newcomer 梳理了&quot;代理式商务&quot;（agentic commerce）的创业地图，分成五类：多用途个人助理（Instinct、Town）、导购助手（Daydream）、营销技术/GEO（Profound，C 轮 $9600 万，红杉参投）、智能支付、以及底层交易 rails。Adobe 数据显示 6 月已有 41% 受访者用 AI 购物、53% 的人对 AI 推荐的信任度与品牌官网相当。但风险案例频出：Instinct 的 agent 擅自取消用户航班损失约 300 美元、Phoebe Gates 的 Phia 卷入&quot;cookie 塞单&quot;丑闻。多数投资仍押在&quot;敢把信用卡交给 agent 之前&quot;的基础设施上。
+🔗 https://www.newcomer.co/p/investors-are-betting-on-agents-that
+
+5. India Quotient Shows How the VC Power Law Can Make or Break a Fund
+Newcomer 拿到独家文件，复盘印度基金 India Quotient 如何被单一 winner 绑架：它 2015 年从 2000 万美元的二号基金里投出 ShareChat，到 2022 年账面回报一度达 77 倍，却因 ShareChat 迟迟无法 IPO、只做过小额老股转让，导致二号基金业绩被拖住、三号基金也可能受累。这家管理五只基金、共 3.2 亿美元的小基金以&quot;逆势押注&quot;闻名，但命运几乎完全系于一家公司；期间它还做过一次全组合大幅减记来应对疫情估值的暴涨暴跌。
+🔗 https://www.newcomer.co/p/india-quotient-shows-how-the-vc-power
+
+🐦 Twitter 精选（5 / 15）
+
+1. @shao__meng：英伟达与 Hugging Face 双方 CEO 同步官宣收购，金额 129 亿美元，较 2023 年 D 轮 45 亿估值涨近 3 倍、约合 86 倍收入倍数；交易需过美国 HSR 与欧盟审查，业内预计 2027 年完成交割。
+🔗 https://x.com/shao__meng/status/2095494678955401345
+
+2. @shao__meng：GPT-6 Astra 的差异化在&quot;电脑操作+速度&quot;而非 coding：OSWorld V2 达 72.6%（Sol 65.7%）、单任务耗时从 75 分钟压到 40 分钟；而 coding（DeepSWE 74.1%）只是并列，并没有拉开。
+🔗 https://x.com/shao__meng/status/2095655517016515056
+
+3. @Hesamation：Astra 在各项 benchmark 碾压 Fable 5.1、还刷满 ARC-AGI-3，但 AA 智能指数只有 61 分、与 Sol 和 Grok 4.6 持平，Agentic 指数 51 反低于 Grok 的 59——他称这是见过最大的评测背离。
+🔗 https://x.com/Hesamation/status/2095637731384668260
+
+4. @shao__meng：字节 Seed 与 TokenWave 发布 Self-Developing Agents：多数所谓递归自我改进其实依赖一个外部&quot;黄金验证器&quot;，一旦拿掉外部老师，Agent 能否自己闭合改进环仍是悬而未决的问题，他们试图把半闭环做成全闭环。
+🔗 https://x.com/shao__meng/status/2095473171537514581
+
+5. @shao__meng：清华、腾讯优图、上海 AI Lab 推出 ContextPilot：让 8B Agent 学会主动管理上下文后，用 32K 窗口打败了用 128K 的自己，并指出现有上下文管理存在工具太窄、RL 探索平均主义、信用分配粗糙三大缺陷。
+🔗 https://x.com/shao__meng/status/2095442543546962167
+
+📱 公众号精选（5 / 7）
+
+1. GPT-6 Astra全面解析 - &quot;欢迎来到AGI时代&quot;
+GPT-6 Astra 北京时间凌晨发布，API 编号 gpt-6-astra，上下文 105 万 token、最大输出 128K、知识截止 2026 年 4 月、推理分五档，定价与 Claude Fable 5 一致（每百万输入 $10、输出 $50）但缓存读取更贵，参数估计 5T 级、用超 10 万张卡训练。作者认为它最大的定位是&quot;世界上最好的操作电脑的模型&quot;——不再是纯 coding 特化，而是一个审美与工作能力都极强的博士级员工，能像人一样直接操作那些根本没有 API 的软件和企业内部系统。首发仅向部分组织开放，Pro 订阅用户还要再等几天。
+🔗 https://mp.weixin.qq.com/s/1R4vSUmjFUINxFbfJLOXng
+
+2. 40 亿美元短剧市场爆发，Seko 3.0 把本地化塞进了 AI 工作流
+2026 年海外 AI 短剧市场规模预计超 40 亿美元，单月上新超 3.8 万部、TikTok 短剧单月分账已破 2200 万美元，NBCUniversal、Fox 等传统影视也开始布局竖屏短剧。竞争焦点已从&quot;能不能做&quot;转向&quot;怎么针对不同市场快速做&quot;——欧美、日韩、拉美对人物、场景、语言和文化偏好各异，传统翻译配音难以覆盖。Seko 3.0 把短剧出海拆成多条工作流：已有成片可重绘人物/场景/文字/声音、现有剧本按目标市场改写、只需换语言则保留原片重配音，并新增直接面向海外原生创作短剧的能力。
+🔗 https://mp.weixin.qq.com/s/sM3zgwxxK4-1Ss6wHL6Vvw
+
+3. 一天出现 6.5 万条讨论，AI 公司正在把爆款做成一套系统
+以家用机器人公司 1X 的 NEO 发布为例：当天自然讨论达 6.5 万条、约 4.5 万账号参与、X 账号一夜涨粉 5.6 万。但被忽略的关键是——1X 先买下 Spotlight Takeover 广告位获得数千万次付费曝光，再带出约 2100 万次自然曝光，8700 万发布日曝光里自然只占约四分之一。操盘手 Juan Tena 把&quot;刷屏式发布&quot;拆成五层：一句能被转述的话、一个想展示的产品瞬间、一群受信任的人、一段被压缩的发布时间、以及愿意接力的真实用户。文章指出 1X、Cluely、Lovable 等越来越多 AI 公司都在把发布从一条公告改造成几小时内连续运转的系统。
+🔗 https://mp.weixin.qq.com/s/Ev5dt9PEZihWwgFW80Zegw
+
+4. 近3000家付费客户之后，这家创业公司如何把服装审美写进大模型？
+前天猫 3D 试衣负责人、MuseGate 创始人渠瑜提出：服装行业的第一性是审美，&quot;高审美才是入场券&quot;。通用 SOTA 模型能做到&quot;逼真&quot;却做不好&quot;商业&quot;——它们卡在服装审美这类高度非标、长尾、且不存在于公开语料的 Know-how 上，只能&quot;照猫画虎把衣服换上去&quot;，构图、姿势、材质纹理全无灵魂。突破口在于把依赖人类经验的非标审美拆解、结构化，转成模型可学习执行的算法语言；而随着流行趋势更替加速、品牌拍摄上线窗口不断缩短，供需错位为垂直赛道公司留出巨大机会。文章强调，行业大模型最难复制的壁垒是&quot;数据闭环&quot;。
+🔗 https://mp.weixin.qq.com/s/6CNgQw62vUyWhRVyOfpxRA
+
+5. 人人都能学会的自进化 Agent 搭建指南
+围绕近期走红的 Loop Engineering 概念，讲解如何搭一套&quot;在运行中积累反馈、自我改进&quot;的自进化 Agent 工作流，解决 Workflow/Skill 用久了与实际需求脱节的问题。
+🔗 https://mp.weixin.qq.com/s/2i5rwoEkCD6xDmKTkOTWVA
+
+📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-09-04.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #693 | 2026-09-03</title>
       <link>https://news.justin7974.dev/2026-09-03.html</link>
@@ -1210,54 +1280,6 @@ OpenAI 7 月 9 日发布的 ChatGPT Work 是面向知识工作的 agent 产品�
 🔗 https://x.com/shao__meng/status/2084458936405737731
 
 📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-08-05.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #663 | 2026-08-04</title>
-      <link>https://news.justin7974.dev/2026-08-04.html</link>
-      <guid>https://news.justin7974.dev/2026-08-04.html</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 26 条推文 · 0 篇公众号
-
-📰 RSS 精选（5 / 12）
-
-1. The Inference Engineering Masterclass — Philip Kiely &amp; Ali Taha, Baseten
-Baseten 刚完成 130 亿美元 F 轮融资，跻身新一批 AI 基础设施&quot;十角兽&quot;，与英伟达等一同吃到&quot;推理拐点&quot;(Inference Inflection) 的红利。三年前推理工程还算不上一个门类，如今已成为把训练权重转化为&quot;快、稳、便宜&quot;产品的核心学科——这与模型训练是完全不同的优化问题。这期播客系统拆解了自回归和扩散模型两条路线的推理优化方法论。
-🔗 https://www.latent.space/p/inference-eng
-
-2. Why smarter AI models could drive up compute prices 10x
-核心矛盾：Anthropic 收入连续三年 10x（去年底 90 亿美元，今年预计冲到 1000–1500 亿），但实验室算力供给每年只增长 3x。要弥合这个缺口只有三条路——涨毛利、涨算力单价、把更多算力从训练挪到推理，而三件事都已在发生：Anthropic 推理毛利从 40% 升到 80%，算力现货价较年初 2 月低点涨了 40% 以上，OpenAI 推理占比从 2024 年的约 25% 升到 50%+。但实验室极不愿走第三条路——一旦把大部分算力投向推理，等于承认 AI 进展停滞、自己沦为云厂商。
-🔗 https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video
-
-3. Drug Discovery Has No Magic Wands
-insitro 创始人 Daphne Koller 直接拆穿&quot;造出超级智能就能治愈癌症&quot;的叙事：这个承诺建立在一个错误前提上——以为我们已经足够了解人体生物学，只差一个够聪明的推理器。事实是至今只有约 1/4（有估计仅个位数百分比）的疾病有获批疗法，且多数只是延缓而非治愈。她的判断是：在一个我们才刚开始测量、远未理解的生物学上，AI 大概率只会&quot;更快地制造失败&quot;；真正的瓶颈不是模型智能，而是用正确的方式测量生物学。
-🔗 https://www.a16z.news/p/drug-discovery-has-no-magic-wands
-
-4. Two critical updates re: Astra and mathematics
-OpenAI 上周高调发布的 Astra 数学&quot;突破&quot;正在被质疑成色。Anthropic 的数学家 Levent Alpöge 在 24 小时内、用已经公开的 Fable 模型（而非任何新模型）就复现了 OpenAI 结果的一半，暗示 OpenAI 的真正进展可能不是模型能力本身，而是&quot;找到了哪些开放数学问题适合用搜索+验证的方法攻克&quot;。更关键的是 OpenAI 只报了成功案例、没披露尝试失败的题目——Noam Brown 承认还试了其他大问题但没成功。Gary Marcus 称之为&quot;给了分子却不给分母&quot;。
-🔗 https://garymarcus.substack.com/p/two-critical-updates-re-astra-and
-
-5. Introducing our Artifacts Hub and Adoption Dashboard
-Nathan Lambert（前 AI2）推出两个免费数据产品：Artifacts Hub 追踪 Hugging Face 上过去两年 792 个开源模型的趋势（结合 Open Router 的推理 token、Artificial Analysis 的能力评分和自建采用度指标），以及一个按地理和机构划分下载量/衍生模型数的 Adoption Dashboard，重点呈现开源生态里的美中差距。目标是给开源生态一套公开的度量工具。
-🔗 https://www.interconnects.ai/p/introducing-our-artifacts-hub-and
-
-🐦 Twitter 精选（5 / 26）
-
-1. @_akhaliq：一篇新论文提出从 RLVR 到 RLSVR，通过任务变换为开放式 LLM 自我提升诱导出&quot;可自我验证的奖励&quot;，让模型在没有标准答案的开放任务上也能自我改进。
-🔗 https://x.com/_akhaliq/status/2084310082762719418
-
-2. @Hesamation：引述 Google DeepMind 高管：AI 是&quot;人类文明有史以来最大的科学押注&quot;，投入资本已超过阿波罗登月、曼哈顿计划和互联网之和；&quot;收入还撑不起资本开支，这正是科学押注的定义&quot;。
-🔗 https://x.com/Hesamation/status/2084294646604198060
-
-3. @Hesamation：同一位 DeepMind 高管称未来两年 AI 递归自我改进（RSI）&quot;发生的概率高于不发生&quot;，与 Anthropic 联创 Jack Clark&quot;2028 年底前 60% 概率出现 RSI&quot;的预测方向一致；前沿实验室正全力冲向&quot;用 AI 造更好的 AI&quot;。
-🔗 https://x.com/Hesamation/status/2084297961190707471
-
-4. @shao__meng：Qwen 3.8-Max 正式发布，Qwen3.8-Max 与 Qwen3.8-27B 下周都将开源；他吐槽官方对比只放了 Gemini/GPT/Claude，回避了近期几个国产顶尖开源模型。
-🔗 https://x.com/shao__meng/status/2084139327588802764
-
-5. @emollick：用 shader 测试后判断 Qwen 3.8 Max 是个扎实的模型，但按他目前的体验还达不到 Kimi K3 的水平。
-🔗 https://x.com/emollick/status/2084124237053219289
-
-📖 查看完整日报（38 篇）→ https://news.justin7974.dev/2026-08-04.html</description>
     </item>
   </channel>
 </rss>
