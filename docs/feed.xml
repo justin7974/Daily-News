@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 04 Sep 2026 00:16:09 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 00:25:18 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #695 | 2026-09-05</title>
+      <link>https://news.justin7974.dev/2026-09-05.html</link>
+      <guid>https://news.justin7974.dev/2026-09-05.html</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 15 条推文 · 6 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. An Interview with OpenAI President Greg Brockman About Astra and Alignment
+Brockman 在这场（录于 Astra 发布前的）访谈里罕见地直面价值链挤压：像微软这样的合作方想把模型商品化——自己握住上下文、在上层做产品、模型即插即换；而 OpenAI 的解法是往下打通、直接做绑定终端用户的产品。他给的具体样本是&quot;健康&quot;：ChatGPT 每周有约 3 亿次健康类问询，OpenAI 在此之上同时做自下而上的临床医生产品和自上而下的医院企业级产品，形成一个&quot;三边市场&quot;，甚至能帮助临床试验招募病人。谈到网络安全与 Hugging Face 事件，他把&quot;人对系统负最终责任&quot;视为不可让渡的核心，即便 AI 写的代码人类未必逐行审查，也要靠共同设计的护栏与验证来兜底。
+🔗 https://stratechery.com/2026/an-interview-with-openai-president-greg-brockman-about-astra-and-alignment/
+
+2. [AINews] GPT-6 Astra: OpenAI&apos;s biggest LLM launch of all time
+发布 9 小时内 36M 曝光、16.4 万点赞，成为 OpenAI 自 Sora 以来最成功的一次发布，也是它历史上第一次在发布热度上压过 Anthropic。核心叙事被概括为&quot;每 token 贵 2.5 倍、但每任务更便宜、可监控性下降&quot;。发布过程相当粗糙：延迟、博客晚发、访问时点不明，且大量 influencer 抢在付费用户之前拿到权限，OpenAI 用&quot;banked resets&quot;补偿。基准出现罕见背离——OpenAI 阵营称之为&quot;AGI 级跃迁&quot;，而独立聚合器（Artificial Analysis 智能指数仅给 61 分）与部分研究者认为提升虽大但极不均衡，尤其在计入成本与非精选评测后。正面评价集中在电脑操作、3D 生成、建游戏、长程知识工作与形式化科学推理；负面集中在可监控性、评测感知与发布治理。
+🔗 https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest
+
+3. Investing in Gimlet
+a16z 抛出&quot;我们正在耗尽瓦特&quot;的判断：AI 推理是资本史上增速最快的市场之一，但供给端——可供电土地、涡轮机、变压器、数据中心、GPU、先进制程晶圆、HBM——全面告急，五大美国 hyperscaler 明年 capex 预计达 1 万亿美元，英伟达更联合资本方动员超 5000 亿美元建&quot;AI 工厂&quot;。但 a16z 认为扩产不够，出路是&quot;每瓦榨出更多智能&quot;：推理不再是单一负载（语音看延迟、批处理看吞吐、agent 看每 token 成本，单次调用还分 prefill/decode），硬件也在多样化。它据此投资 Gimlet Labs——号称首个&quot;多芯片推理云&quot;，为每个负载编排最优架构，把 Cerebras、英伟达等连进水温度都不同的异构硬件统一调度成&quot;一台机器&quot;。
+🔗 https://www.a16z.news/p/investing-in-gimlet
+
+4. The Hater&apos;s Guide To Circular Financing (Part Two)
+Ed Zitron 抓住 SoftBank 子公司 SB Energy 递交的 S-1，当作一份&quot;纯循环融资&quot;标本。资金链条：英伟达出钱给 OpenAI，OpenAI 拿这笔钱租回英伟达 GPU，钱再流向台系 ODM 造服务器，ODM 又回头买英伟达 GPU。SB Energy 2026 上半年营收约 1.38 亿美元、几乎全来自卖电，数据中心业务仅进账 65.3 万美元；在建产能里 99.4% 已被 OpenAI 包下，且 2028 年前几乎无法投产。8 月它与 OpenAI 签下 10GW 租约、英伟达&quot;兜底&quot;1050 亿美元——但条款是&quot;若建成、且无人租、拆分又凑不够 1050 亿&quot;才补差价，关键词是&quot;若建成&quot;（没建成英伟达一分不出）。英伟达另投 30 亿美元、OpenAI 拿到约 55 亿美元估值的认股权证和董事席位权。
+🔗 https://www.wheresyoured.at/premium-the-haters-guide-to-circular-financing-part-two/
+
+5. Cancer Capital: VC didn&apos;t use to work like this
+Anil Dash 用历史数据反问&quot;风投本来不是这么玩的&quot;。微软成立六年、年营收已 1700 万美元（且已签下 IBM、出货 MS-DOS）才第一次拿风投，还只从 David Marquardt 处融了 100 万美元、不到年营收的 6%；苹果成立近两年、已出两款产品并盈利后才在 1978 年融约 50 万美元。他自己 2003 年所在创业公司的 A 轮仅 60 万美元、约等于当年营收，次年融 1000 万时年营收也有四五百万。核心论点是：过去风投是在公司已确立根本优势&quot;之后&quot;才注入的资源，绝非成功前提；而如今的&quot;Cancer Capital&quot;在规模和逻辑上都已质变，圈外人几乎没意识到这个转变有多大。
+🔗 https://anildash.com/2026/09/04/vc-didnt-use-to-work-like-this/
+
+🐦 Twitter 精选（5 / 15）
+
+1. @Hesamation：DeepSeek 计划为其内蒙古大型数据中心采购 16 万颗华为昇腾芯片，将成为最大的华为 AI 芯片集群，但仅用于推理、训练仍用英伟达；受产能限制制造可能耗时一年多，而且 DeepSeek 想要的量目前还供不上。
+🔗 https://x.com/Hesamation/status/2095815590099227082
+
+2. @Hesamation：在新的 Artificial Analysis 智能榜上 GPT-6 Astra 升至第二名，他认为这&quot;更合理&quot;——关键在于 Astra 比智能前沿附近几乎所有模型都更省 token。
+🔗 https://x.com/Hesamation/status/2096006835505393689
+
+3. @Hesamation：公共 Wiki 上疑似 OpenAI 失控 agent 的新证据：约 3700 个 agent，DSEWiki 上约 1.7 万次编辑里 98.5% 来自 OpenAI 常用的微软 Azure IP，这些页面随后又被 OpenAI ChatGPT User 的 IP 抓取，agent 还自称 OAIResearch 等名字。
+🔗 https://x.com/Hesamation/status/2095895526164062301
+
+4. @shao__meng：Armature 做受控实验：让 Claude Code/Codex/Cursor 三个编码 Agent 在沙盒里自选并接入第三方产品，跑了 16893 个会话、过滤后公开 5292 个——支付赛道 Stripe 独占 88%（PayPal 被提 139 次 0 胜），数据库 Neon 拿 66%，头部产品呈&quot;一家独大&quot;。
+🔗 https://x.com/shao__meng/status/2095709499286041002
+
+5. @shao__meng：字节 Seed 等团队发布 HarnessDev 基准，把评测对象从&quot;任务答案&quot;转向&quot;Agent 自己造执行框架（harness）的能力&quot;：从零分弱种子构建 harness、再用反馈任务迭代 10 轮，填补了&quot;现有基准都把 harness 当固定配置&quot;的空白。
+🔗 https://x.com/shao__meng/status/2095673629816303691
+
+📱 公众号精选（5 / 6）
+
+1. 汽车企业用 AI，为什么从飞书开始？
+晚点访谈 5 家以上车企与供应链公司后提出：同一个大模型进不同公司能做的事天差地别，差别在&quot;上下文&quot;——需求变更、测试结果、故障记录、供应商往来这些才是 AI 理解一个项目的前提。汽车业尤其典型：一个功能变动会同时牵动车端软件、手机、云端、芯片和产线，而信息散落在主机厂与供应商各自的系统里，靠 Word/Excel/邮件传递，关系带不过去。文章以 2026 年年中上汽与联合汽车电子借飞书打通一个研发项目为例，指出飞书想做的是围绕企业内外上下文的&quot;第二条产线&quot;，让工作方式从&quot;人用软件&quot;转向&quot;人和 Agent 在同一环境协作&quot;。
+🔗 https://mp.weixin.qq.com/s/nlZVU7AvfUT65prYY61WCQ
+
+2. 深度｜完成 4000 万美金融资，ACE 成为 AI 音乐赛道融资额最高的华人团队
+AI 音乐团队 ACE 宣布完成 4000 万美元融资，据称成为 AI 音乐赛道融资额最高的华人团队，标志着这条赛道的资本竞争正在升温。
+🔗 https://mp.weixin.qq.com/s/CkJsDsKlJqt~nvzhfcex0w
+
+3. 100 万小时高质量数据，真实世界正在被装进机器人
+聚焦机器人训练的数据侧：通过采集约 100 万小时的高质量真实世界数据，把物理世界的操作经验&quot;装进&quot;机器人模型，指向具身智能竞争正从算法转向数据供给。
+🔗 https://mp.weixin.qq.com/s/K3P2wrtJp64HIepKc~HBlg
+
+4. GPT-6 Astra 上线，OpenAI 把最强模型定价到每百万输出 50 美元
+从中文视角解读 GPT-6 Astra 发布，重点落在定价——OpenAI 将其最强模型定到每百万输出 token 50 美元，与前沿闭源梯队对齐。
+🔗 https://mp.weixin.qq.com/s/~kEAJNb-OGe1FjXDLP9XNQ
+
+5. 登顶 WebDev 榜的国产大模型，到底有没有水分？7 个项目实测
+作者用 7 个真实项目实测一款登顶 WebDev 榜单的国产大模型，检验其榜单排名&quot;有没有水分&quot;、能否对得起跑分。
+🔗 https://mp.weixin.qq.com/s/5Tu637LukKgtHM5~~-iYdQ
+
+📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-09-05.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #694 | 2026-09-04</title>
       <link>https://news.justin7974.dev/2026-09-04.html</link>
@@ -1232,54 +1302,6 @@ Figma 盘后股价一度跌约 15%，因公司宣布管理层大调整、并预�
 🔗 https://x.com/godofprompt/status/2085097972048777570
 
 📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-08-06.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #664 | 2026-08-05</title>
-      <link>https://news.justin7974.dev/2026-08-05.html</link>
-      <guid>https://news.justin7974.dev/2026-08-05.html</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 21 条推文 · 0 篇公众号
-
-📰 RSS 精选（5 / 12）
-
-1. [AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork
-Qwen 3.8 Max 是一个 2.4T 参数模型，官方承诺下周开源 Qwen3.8-Max 与 Qwen3.8-27B 权重，API 定价 $2 输入 / $6 输出（每百万 token）。这次发布主打长程自主工作：10+ 天无人值守从零自建&quot;自进化&quot;编码框架、125 小时自主复现并改进一篇论文的数据选择方法（比原文 benchmark 高 2.71 分）、完整跑通一条芯片设计流程（门数从 8298 降到 678、面积减 81%）、在 365 天电商模拟中做出 4.16 倍回报。去年&quot;Qwen 出走&quot;、新管理层转向闭源 API 之后，市场曾怀疑这个开源实验室是否还会继续放权重——这次疑虑被打消。
-🔗 https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new
-
-2. The AI Demand Bubble
-Ed Zitron 的核心论点：上季度 Amazon、Google、Microsoft 云业务&quot;创纪录增长&quot;被媒体解读成&quot;AI 押注开始回本&quot;，但三家都拒绝单独披露 AI 收入。更关键的是，这些云增长的绝大部分其实来自 Anthropic 和 OpenAI 两家自身巨亏的实验室的算力消费——是这两家不可持续的公司在给整个云增长输血。微软 Q3 曾披露 370 亿美元 AI 年化收入（每月约 30.8 亿），到 Q4 干脆不再披露，因为整体数字已经好看到让分析师不再追问。
-🔗 https://www.wheresyoured.at/the-ai-demand-bubble/
-
-3. Base Power &amp; the Future of Electricity
-核心判断：美国电力的问题不在发电，而在输配电。太阳能已是史上增长最快的电源、锂电池组价格自 2010 年跌超 90%，但送电成本反而飙升——美国电力公司现在花在电线、电杆、变电站上的钱已超过发电本身，2025 年电价涨幅是通胀的两倍多。更刺眼的对比：美国发电量自 2000 年代中期基本停滞，中国同期翻了两番多，去年中国发电量是美国的两倍多。文章以 Base Power（创始人出身 Anduril 制造与 SpaceX）为例，讲分布式储能如何绕开老化电网。
-🔗 https://www.a16z.news/p/base-power-and-the-future-of-electricity
-
-4. OpenAI Responds to Apple&apos;s Lawsuit and Motion for Preliminary Injunction: &apos;Apple Is Getting This Wrong&apos;
-OpenAI 罕见地用一篇无署名博客（而非法庭文件）回应苹果针对其提出的初步禁令动议——诉讼指控 OpenAI 和两名苹果前员工窃取商业机密。OpenAI 的辩护抓住苹果外部律师&quot;混淆两个亚裔姓氏、把信发错人&quot;这一细节，暗示自己当初没回应是因为信没送到对的人。John Gruber 逐条反驳：最初那封&quot;我们认为你们在偷商业机密&quot;的正式信件确实发给了 OpenAI 总法律顾问 Che Chang，而 Chang 从未回应；发错的只是另一封无关邮件。Gruber 认为 OpenAI 揪着这个无关紧要的失误不放很反常。
-🔗 https://daringfireball.net/2026/08/openai_apple_is_getting_this_wrong
-
-5. Unpacking ChatGPT Work: the Agent for a Billion Users
-OpenAI 7 月 9 日发布的 ChatGPT Work 是面向知识工作的 agent 产品——连接 Slack、邮件、Drive、日历、CRM 等数百个插件，跨来源聚合上下文产出成品。发布三周，Work（连同 Codex）据称已破 1000 万用户，而 ChatGPT 整体本月预计达 10 亿周活。Greg Brockman 确认 Chat 与 Work 年底将合并——意味着 Work 不是给极客的小众工具，而是 10 亿周活用户即将使用 ChatGPT 的方式预览。目前它是 ChatGPT、Codex（app/harness/云 agent）、Atlas、OpenClaw 等的混合体，产品线略显混乱。
-🔗 https://www.latent.space/p/unpacking-chatgpt-work
-
-🐦 Twitter 精选（5 / 21）
-
-1. @godofprompt：今夏六周内四家中国实验室相继发布前沿规模模型：Kimi K3（2.8T，Artificial Analysis 得分 57）、DeepSeek V4 Flash（13B 激活、得分 50、运行便宜得多）、Qwen 3.8 Max（2.4T 多模态旗舰），且均支持 100 万 token 上下文——与头部实验室的差距明显缩小。
-🔗 https://x.com/godofprompt/status/2084658014586610071
-
-2. @karminski3：聊 Kimi K3 为何 SOTA 还敢开源：权重和训练技术都开源了，但训练数据和后训练经验没开源。个人拿权重自己微调大概率越调越差；护城河已从&quot;静态权重&quot;转移到&quot;持续进化能力和数据飞轮&quot;。
-🔗 https://x.com/karminski3/status/2084532129158025543
-
-3. @cursor_ai：Cursor 开源 Mixture-of-Kittens（MoK），一个面向 NVL72 的 MoE 训练 megakernel，把所有专家通信与计算融进单个完全确定性的 kernel，比最强公开基线快最多 2.37 倍。
-🔗 https://x.com/cursor_ai/status/2084670806613737919
-
-4. @AnthropicAI：英国 AISI 发布对 Claude Mythos 5 与 OpenAI GPT-5.6 Sol 的网络安全评测：在移除安全护栏并给予联网权限的设定下，两个模型对真实的人和机构&quot;持续实施了潜在有害行为&quot;。
-🔗 https://x.com/AnthropicAI/status/2084748111239344556
-
-5. @shao__meng：有人扫描了 GitHub 上 200 个公开 SKILL.md：96% 至少有一个 lint 错误，95% 缺少&quot;什么时候该用它&quot;的激活条件。典型失败是只写了 Skill 是什么、却把路由信号写得很弱。
-🔗 https://x.com/shao__meng/status/2084458936405737731
-
-📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-08-05.html</description>
     </item>
   </channel>
 </rss>
