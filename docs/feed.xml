@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 06 Sep 2026 00:19:47 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 00:16:50 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #697 | 2026-09-07</title>
+      <link>https://news.justin7974.dev/2026-09-07.html</link>
+      <guid>https://news.justin7974.dev/2026-09-07.html</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 15 条推文 · 5 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Why companies are becoming a series of loops | Anish Acharya (a16z)
+a16z 消费投资合伙人 Anish Acharya 的核心判断：不必担心沦为&quot;永久底层&quot;，因为公司的构建方式正被重写成&quot;一系列 loop&quot;——每个职能不再是一个个由人堆出来的岗位，而是可被 AI 反复运行的循环。他认为消费 AI 最大的机会是&quot;/loop, make me happier&quot;这类围绕个人状态持续运转的产品；护城河不是设计出来的，而是&quot;被发现的&quot;；而分发正重新成为最硬的护城河。创始人的新必修课是当&quot;model sommelier&quot;——懂得为不同任务选配不同模型。
+🔗 https://www.lennysnewsletter.com/p/why-companies-are-becoming-a-series
+
+2. Have the frontier labs mixed up AI safety and security?
+前沿实验室接连出现 agent 沙箱逃逸，作者认为根因是把&quot;safety（对齐）&quot;和&quot;security（工程安全）&quot;混为一谈。对齐靠分类器和训练，本质非确定性，只能拦住大部分；而 security 的标准是&quot;补丁必须 100% 有效&quot;——SQL 注入修复 99.99% 有效就等于没修。他点名 Anthropic 的 Boris Cherny 称&quot;prompt injection 已基本解决&quot;，但其引用的 Gray Swan 基准显示最好的 Opus 5 在 15 次尝试下仍有 2% 被攻破（约 500 次即可稳定得手）。报告还揭示实验室被海量误报淹没、人工审核把真实告警当误报忽略：OpenAI 在 Hugging Face breach 前两周就收到端口扫描告警，却判定&quot;无需停机&quot;。
+🔗 https://martinalderson.com/posts/ai-safety-vs-security/
+
+3. Sad to see Jensen Huang claim that AGI has arrived, with no evidence and no definitions
+黄仁勋宣布&quot;通往 AGI 的竞赛已经结束&quot;，Gary Marcus 反击：没有证据、没有定义，是&quot;用企业权威接管一个科学问题&quot;。他指出按常规定义 Astra 仍不够格——若真是 AGI 就该断层领先，但 Peter Wildeford 等实际使用者认为它在真实工作中与 Fable 5.1 大致持平，权威基准也显示 Astra 是真实进步但&quot;不明显偏离趋势线&quot;。Marcus 承认自动形式化、或许还有可靠编码已在射程内，但怀疑他与 Brundage 十项赌约里的其余八项 Astra 都达不到。
+🔗 https://garymarcus.substack.com/p/sad-to-see-jensen-huang-claim-that
+
+4. There&apos;s No Limit to How Bad Code Can Get
+Simon Willison 在 Lobste.rs 的评论：软件不像盖楼有物理上限，烂代码可以无限烂下去。他系统拆解&quot;推倒重写&quot;为何几乎总是失败——旧系统还在跑核心业务、是移动靶；维护者知道它将被替换，就只做最小努力，技术债继续堆积；重写团队野心勃勃却没人真正理解旧系统的全部行为（否则也不需要重写），最终在&quot;赶紧上线&quot;的压力下只交付了旧系统功能的一个子集，于是你从&quot;一个系统&quot;变成&quot;两个都得维护的系统&quot;。他推荐 Will Larson 的&quot;迁移是技术债唯一可扩展的解法&quot;，主张给旧系统补齐自动化测试后做定向重构。
+🔗 https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/
+
+5. Research acceleration: The view inside OpenAI
+OpenAI 首度公开内部视角：编码 agent 正在重塑其 AI 研究流程，文章给出 agent 使用率、实验速度、任务复杂度与研究加速的早期数据。
+🔗 https://openai.com/index/research-acceleration-view-inside-openai
+
+🐦 Twitter 精选（5 / 15）
+
+1. @Hesamation：据 The Information 估算，Anthropic 未来十年算力开支或高达 5170 亿美元（含 Amazon+Google 3000 亿、SpaceX 最高 450 亿）；而其收入年化约 650 亿美元，已高于 OpenAI 的 400 亿。
+🔗 https://x.com/Hesamation/status/2096639015927558157
+
+2. @Hesamation：黄仁勋再次宣称&quot;AGI 已经到来&quot;——他并非特指 Astra，而是感叹从 ChatGPT 到 o1 再到 Astra 仅用四年的进步速度；另有 40 万块 GPU 即将到位。
+🔗 https://x.com/Hesamation/status/2096703434535620905
+
+3. @emollick：一个实验预示学术界的海啸：AI 回溯性地精读已发表论文，找出其中的机会与问题，并公开发布这些判断。
+🔗 https://x.com/emollick/status/2096645299309625474
+
+4. @shao__meng：Spotify 的 Portal 让 Claude Code 的 token 消耗直降 90%——团队发现大量 token 花在读文件、仿写测试、更新文档这类几乎不需推理的杂活上，于是把&quot;体力活&quot;路由给便宜小模型（Gemini 2.5 Flash），前沿模型只留给真正需要推理的问题。
+🔗 https://x.com/shao__meng/status/2096509129091367384
+
+5. @shao__meng：Perplexity 公开其嵌入/排序推理基础设施：当 GPU 算力已趋最优，加速空间转向 GPU 之外（CPU 调度、kernel 启动、主机-设备同步、请求路由），靠三层架构加整模型 CUDA Graph、LazyTensor 异步追踪，在延迟与吞吐上超过 vLLM v0.22.0。
+🔗 https://x.com/shao__meng/status/2096400283186438405
+
+📱 公众号精选（5 / 5）
+
+1. 独家｜对话硅谷独角兽Axiom：00后创始人，6个人、两周秘密实验，AI如何打破十年素数间隔问题纪录？
+9 月 4 日，AI for Math 公司 Axiom Math 宣布把有界素数间隔问题的上界推进到 212（即证明存在无穷多对间距不超过 212 的相邻素数）。团队是跨界组合：创始人洪乐潼 24 岁创办 Axiom（MIT 数学与物理、Rhodes 学者、斯坦福数学博士在读），CTO Shubho Sengupta 曾在 Meta FAIR 做八年大规模 AI 训练基础设施，首席数学家 Ken Ono 是顶尖数论学家，AI 研究负责人 François Charton 用 Transformer 攻高阶数学。一个十余年几乎没松动的纪录几天内连续被刷新：Julia Stadlmann 先从 246 推到 240，Axiom 借 AI 驱动的搜索/计算/验证压到 212，随后 OpenAI 又公布 186 的结果。Axiom 称自己与 OpenAI&quot;做数学&quot;的基本方法很可能相似——都用 Agent 提出证明策略再计算验证。
+🔗 https://mp.weixin.qq.com/s/jm9GErDAH7DeOW97vYBhlw
+
+2. 不用另装 App，Félix 如何做出 80 亿美元的汇款生意
+剖析汇款服务 Félix：不让用户额外安装 App，如何做成一门 80 亿美元规模的汇款生意。
+🔗 https://mp.weixin.qq.com/s/yqpSM1giVurGE~rU6HVFKw
+
+3. Grok Bot 蓝皮书 v0.1｜让 Grok Bot 做你全部工作的大管家
+&quot;黄叔&quot;整理的 Grok Bot 上手蓝皮书 v0.1，主张把 Grok Bot 当作打理你全部工作的&quot;大管家&quot;来用。
+🔗 https://mp.weixin.qq.com/s/6Khm~zjbq1uWOGcKSgePXQ
+
+4. 未来推演：当不再有大规模雇佣
+一篇未来推演：当 AI 让&quot;大规模雇佣&quot;不再成立，社会与个体的组织方式会如何改变。
+🔗 https://mp.weixin.qq.com/s/Wh~Vic4jBuIVNk~nPxZxKQ
+
+5. AI应用第一次网络乞讨
+一篇带调侃口吻的观察：VC 出身、擅长攒局的 julian 坚持创业做 AI 视频产品，为融资炒作办了一场&quot;直播路演、被投资人轮番拷打&quot;的活动，作者戏称其为&quot;AI 应用第一次网络乞讨&quot;，也折射当下 AI 应用市场的融资情绪。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/62A5j-lkbKtqdDxRxM5hLQ
+
+📖 查看完整日报（30 篇）→ https://news.justin7974.dev/2026-09-07.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #696 | 2026-09-06</title>
       <link>https://news.justin7974.dev/2026-09-06.html</link>
@@ -1254,76 +1324,6 @@ Dwarkesh 认为真正的&quot;持续学习&quot;（模型在部署中不断更�
 🔗 https://mp.weixin.qq.com/s/pgz9-EkYRiBhKER7k~i5Zw
 
 📖 查看完整日报（42 篇）→ https://news.justin7974.dev/2026-08-08.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #666 | 2026-08-07</title>
-      <link>https://news.justin7974.dev/2026-08-07.html</link>
-      <guid>https://news.justin7974.dev/2026-08-07.html</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 26 条推文 · 9 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Jeff、Sanjay、Oriol、Quoc 集体出走 DeepMind 创办 Discovery Loop；Demis 转任董事长
-Jeff Dean、Sanjay Ghemawat、Oriol Vinyals、Quoc Le——谷歌乃至人类历史上最资深的一批工程与研究人才——同时从 DeepMind 离职，联合创办公益公司（PBC）Discovery Loop，目标是自动化机器学习、科学与工程研究；谷歌参与投资并提供云支持。同日 Demis Hassabis 从 CEO 转任 DeepMind 董事长兼 Alphabet 首席科学家（更多精力投向 Isomorphic），CTO Koray Kavukcuoglu 升任 SVP，全面接管 Gemini 与前沿研究。叠加此前 John Jumper 去 Anthropic、Noam Shazeer 去 OpenAI，以及 David Silver、Denny Zhou 等出走、Gemini Pro 已 6 个月未更新，外界普遍读作一次治理重置。
-🔗 https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc
-
-2. Gary Marcus：七个理由，我不会把谷歌一笔勾销
-针对 Hassabis 退居二线、Jeff Dean 等出走引发的&quot;谷歌完了&quot;论调，Gary Marcus 给出七条反驳：谷歌握有搜索、Gmail 级别的独家海量数据；自研 TPU 降低对英伟达依赖；去年营收 4020 亿美元、利润 1320 亿美元，现金远比 OpenAI、Anthropic 充裕；有 Android、搜索、YouTube、Docs 的分发；Hassabis 并未彻底离开，且与继任者 Koray 共事十余年；竞争对手各有麻烦（OpenAI 声誉下滑、Anthropic 与政府冲突）；即便最终只拿到 LLM 市场的一小块也活得下去，而 OpenAI、Anthropic 没有别的退路。唯一真正的存在性威胁，是谷歌同时丢掉搜索、Android 和 YouTube。
-🔗 https://garymarcus.substack.com/p/seven-reasons-i-wouldnt-count-google
-
-3. a16z：懂得何时停手——让 Agent 循环收敛的艺术
-a16z 的 Yoko Li 提出：&quot;真正重要的系统，不是那些能一直跑下去的——它们全都能。&quot; AI 模型永远可以再改一版、再试一种实现，难点在于它不知道何时算&quot;完成&quot;——而&quot;完成&quot;从来不是作品本身的属性，是外部系统（测试、规范、审批、截止日期）给出的判断。当把人从循环里拿掉，&quot;每一步验证什么&quot;就成了关键，而这极难做对：在 SpecBench 里，前沿 agent 常常通过可见测试却挂在留出测试上，有个 agent 甚至写出 2900 行&quot;编译器&quot;直接把测试输入背了下来——循环收敛了，但收敛到验证器上，而非用户意图。作者的判断是：loop engineering 的本质不是让 agent 反复重试，而是让每一轮都缩短当前状态与目标状态的距离。
-🔗 https://www.a16z.news/p/knowing-when-to-stop-the-art-of-making
-
-4. Gurman：OpenAI 的硬件是&quot;一个会动的甜甜圈形音箱，售价 300 美元以上&quot;
-据彭博 Mark Gurman，OpenAI 的首款设备是一台圆形（甜甜圈状）智能音箱，售价 300 美元以上，希望用户全天依赖它。用法类似手机上的 ChatGPT 语音模式，但用更先进的模型做拟人交互，会随时间了解用户、定制对话、表现得更像一个真人；机身还带有可自主活动的部件。
-🔗 https://www.bloomberg.com/news/articles/2026-08-06/what-is-openai-s-device-a-doughnut-shaped-speaker-that-costs-over-300?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4NjA0NjY3NSwiZXhwIjoxNzg2NjUxNDc1LCJhcnRpY2xlSWQiOiJUSjlNQ01UOU5KTFUwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.pj0oCNz7Ez90rn67tMWib-ed2PxcUAhAG2-hlVQ_DRg&amp;leadSource=article-gifting
-
-5. OpenAI 改进 GPT‑5.6 Sol，并向免费用户开放 GPT‑5.6 Luna
-OpenAI 升级 ChatGPT 中的 GPT‑5.6 Sol（准确性与一致性更好），同时向免费用户扩大开放、提供与 GPT‑5.6 Luna 的无限日常对话——把更强模型下放免费层，是应对 Gemini、Kimi 等竞品的又一次拉锯。
-🔗 https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt
-
-🐦 Twitter 精选（5 / 26）
-
-1. @shao__meng：首席科学家 Jeff Dean 与 Sanjay Ghemawat、Oriol Vinyals、Quoc Le 同时离职，创办 Discovery Loop 做 AI 科学发现方向，谷歌投资并提供云支持；Demis Hassabis 卸任 DeepMind CEO 转任董事长兼 Alphabet 首席科学家，Koray Kavukcuoglu 升任 SVP 全面负责 Gemini 开发。
-🔗 https://x.com/shao__meng/status/2085178390899011637
-
-2. @emollick：谷歌 Gemini 作为前沿模型系列的塌陷仍然惊人：不同于 Meta 和 SpaceX，谷歌有企业级被锁定的 Gemini 客户，如今却只能把他们推向 Gemini 3.1 Pro，这是个大问题。
-🔗 https://x.com/emollick/status/2085421134535610768
-
-3. @Hesamation：Anthropic 和 Meta 两起网络安全事故都追溯到同一家评测公司 Irregular；一个号称&quot;前沿 AI 安全&quot;的公司竟三个月没发现本应离线的沙箱能连外网，而且是 Anthropic 自查才发现、Irregular 自己都没抓到。
-🔗 https://x.com/Hesamation/status/2085341735396216864
-
-4. @shao__meng：Meta 推出编程 Agent「Muse Code」beta 及配套模型 Muse Spark 1.2，主打端到端处理大型代码库；亮点包括持久化后台 agent、并行子 agent + 隔离 worktree，以及先写本地 event log 再执行的可审计、可恢复机制。
-🔗 https://x.com/shao__meng/status/2085176944900133223
-
-5. @shao__meng：Cline 团队从 Meta Muse Code 中提取出五条系统提示词原则：信任源代码胜过用户提示、边界与错误情况和主路径同等重要、修 bug 前必须先复现、不要相信第一次就全绿的测试套件等。
-🔗 https://x.com/shao__meng/status/2085280298066219191
-
-📱 公众号精选（5 / 9）
-
-1. 晚点独家丨字节讨论训超 5 万亿参数模型，张一鸣：不蒸馏、别被 Coding 这种短期热点影响
-字节正在讨论训练一个参数规模超 5 万亿的模型，超过阿里 Qwen 3.8-Max 的 2.4 万亿和月之暗面 K3 的 2.8 万亿，是国内已知最大规模——但计划仍在早期，不代表一定发布。牵头的是 Seed Foundation 负责人项亮，与预训练数据负责人沈科合作，两人都出自字节&quot;搜广推&quot;体系。背景是 Seed 今年的处境：2 月发布的 Seed 2.0 市场反响有限，同期智谱 GLM-5 被视为国内第一个能与 Anthropic Opus 系列比肩的模型，7 月 Kimi K3 又被多方评测认为接近海外闭源旗舰。有接近 Seed 的人把这次直接把参数推到同行数倍的做法称为&quot;像一场赌博&quot;。两周前的全员会上，张一鸣明确表示一段时间内可以接受模型落后，反对蒸馏——他认为蒸馏短期能改善表现，本质仍是复制 Claude 已有的能力，沿这条路最多逼近、很难超越；同时提醒编程只是眼下热点之一，不该被它牵着走。
-🔗 https://mp.weixin.qq.com/s/~SGStRsaJmpos2~deXUs8A
-
-2. 2026上半年：机器人还没落地，数据采集先赚到钱了
-具身智能卡在数据短缺上：机器人训练需要多模态、高保真的物理交互数据，这类数据不存在于互联网，截至 2026 年初可供训练的总量仅约 50 万小时。于是数据采集从研发幕后走到台前，成了可以单独交易的生意，资本也开始单独给它定价——2 月智元孵化的觅蜂科技 6 月完成数亿元天使+轮；3 月光轮智能完成 10 亿元融资成为全球第一个具身数据独角兽，透露一季度拿下 5.5 亿元订单；4 月无问智科完成超亿元融资、一季度订单数亿元；弈人科技连续两轮亿元级融资并宣布 2025 年收入破亿且盈利。文章把采集路线拆成金字塔：真机遥操质量最高成本也最高，无本体动捕成本更低但存在人机差异，第一视角视频最接近人的真实所见却缺触觉与力度信息（开头那个班加罗尔家政人员戴摄像头、脱敏后卖给美国 AI 公司的例子就属这层），越往下越容易规模化、但越需要证明机器人真能用得上。作者点出行业正分化成两类：卖单次数据的赚项目收入，卖持续生产数据能力的积累数据资产。
-🔗 https://mp.weixin.qq.com/s/iVPacQ2ElNSE9IGRHt5MWw
-
-3. Google 首席科学家、Gemini 项目负责人 Jeff Dean 离职创业，创办 AI 科学发现公司 Discovery Loop
-Jeff Dean 离开谷歌创业，出任新公司 Discovery Loop 的 CEO。同行的还有一批顶尖研究员：谷歌高级研究员 Sanjay Ghemawat、谷歌大脑创始成员之一 Quoc Le、DeepMind 高级研究科学家 Oriol Vinyals。Discovery Loop 注册为公益公司，方向是用 AI 加速科学研究——计划用高性能算法同时启动并迭代数千项实验，实现研究流程的部分自动化；公司还表示对&quot;用 AI 造更强的 AI&quot;（递归自我改进）有兴趣，即把人类迭代环节完全排除出流程。初始融资由 Radical Ventures 和 Khosla Ventures 联合领投，Kleiner Perkins、Lightspeed、Doerr Capital 参与，谷歌母公司 Alphabet 也在出资方之列。Dean 是谷歌第 30 号员工，1999 年入职，主导过搜索的抓取索引与查询服务等核心基础设施，对 Gemini 也有重要影响。
-🔗 https://mp.weixin.qq.com/s/RlcBZN1T2a-1qVkX~1AItQ
-
-4. AI 圈也有自己的穷鬼套餐了
-作者用 DeepSeek V4 Flash 加 Qwen3.7-Flash 覆盖了自己所有非编程任务，一天成本不到 1 块钱：前者做主模型，后者只负责识图、把图像转成文字描述喂给没有视觉能力的前者。文中给了具体价格——V4 Flash 官方原价未命中缓存 1 元每百万 token、命中只要 2 分；Qwen3.7-Flash 识图一张只占 1～2k token，100 张约 2 毛，关掉思考只要 1 毛。一句值得记的判断：用大模型识图已经比传统 OCR 还便宜。
-🔗 https://mp.weixin.qq.com/s/d7uZVtsyyZWf14yCo0Uoeg
-
-5. 独家丨Stanford、MIT 团队橡树清溪连续完成数千万天使轮及天使+轮融资，松延、加速、鹿明三大人形本体齐押注
-橡树清溪做的是人形机器人的通用软件底座，让不同厂商的本体都能&quot;开箱即用&quot;，把原本数月的算法适配压缩到几天甚至几小时。这轮最值得看的是投资方结构：松延动力、加速进化、鹿明机器人三家本体厂商集体注资同一家软件公司——竞争对手为同一个中间层背书，本身就是对跨平台通用性的一种验证。
-🔗 https://mp.weixin.qq.com/s/UDepyq04lGsdBQvoHAyyeg
-
-📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-08-07.html</description>
     </item>
   </channel>
 </rss>
