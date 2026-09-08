@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 07 Sep 2026 00:16:50 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 00:21:17 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #698 | 2026-09-08</title>
+      <link>https://news.justin7974.dev/2026-09-08.html</link>
+      <guid>https://news.justin7974.dev/2026-09-08.html</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 13 条推文 · 6 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. The Frontier AEO Tracker: What Astra Chooses (and every other frontier model)
+Latent Space 把 &quot;AEO（Answer Engine Optimization）&quot; 从概念做成了可公开查询的基础设施：跑 6 种提示变体 × 7 个前沿模型（开搜索）× 161 个品类，量化每个模型在 &quot;coding agent、AI 播客、托管数据库、天使投资人&quot; 等类目里究竟会推荐谁。核心发现是模型有明显的 &quot;自家偏好&quot;——Opus/Fable 偏爱 Claude Code、Sol/Astra 偏爱 Codex、Grok 偏爱 Cursor；161 个品类里只有 28 个存在 &quot;全模型公认第一&quot;，其余大量是可争夺的 &quot;AEO 战场&quot;。他们还发现同一实验室换代（Opus→Fable、Sol→Astra）会让推荐结果发生 &quot;非常有后果的翻转&quot;。
+🔗 https://www.latent.space/p/aeo
+
+2. Build your own company brain: the enterprise AI playbook from Stripe&apos;s engineering team
+Stripe 选择自建而非采购内部 AI Agent &quot;Kai&quot;，如今每周超过 1 万名员工使用。关键不是模型，而是它把 &quot;上下文、治理、技能平台&quot; 直接做进了 Agent：projects 被当作治理机制（而非文件夹），数据层被重构成 Agent 能安全大规模查询的形态，而当初为人类开发者建的基础设施恰好就是 Agent 需要的。任何员工都能把一个工作流打包成 &quot;skill&quot;，平台上已积累约 2000 个；工程负责人也坦承 Agent 曾几次差点搞垮生产系统，倒逼出 &quot;Agent 身份、限流、异常 Agent&quot; 这套治理。
+🔗 https://www.lennysnewsletter.com/p/build-your-own-company-brain-the
+
+3. 🎙️ How I AI: Grok Bot vs. OpenClaw: why I replaced my entire agent stack
+Lenny 团队的 Claire Vo 讲述她为何把整套 OpenClaw 自建 Agent 栈全部迁到 Grok Bot：她技术能力很强（自建 Tailscale、SSH 连 Mac Mini、甚至做了个 &quot;管理其它 bot 的救援 bot&quot;），但 OpenClaw 最终维护成本过高，而 Grok Bot 用更简单的产品提供了同样能力且 &quot;稳定在线&quot;。她的两条方法论：把每个 bot 当 &quot;新员工&quot; 来设计（起名、定岗、限权，Grok Bot 甚至能从名字推断职责），以及 &quot;多账号支持&quot; 对同时运营多摊生意的人是杀手级功能（一个 Agent 打通 6 个 Gmail + 多个 Slack/Linear）。
+🔗 https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger
+
+4. How corporate America built a better Roach Motel
+Cory Doctorow 引一篇实证论文指出：美国企业已系统性地从 &quot;争夺客户&quot; 转向 &quot;扣押人质&quot;——用锁定（lock-in）代替竞争。论文的关键数据是：高客户留存与更高毛利率强相关，锁定越深的公司越能攫取整个行业的利润，且锁定越强、新进入者越少（没人愿意进一个 &quot;客户根本换不动&quot; 的市场），连带该行业的岗位和工资都更低。案例很具体：Sirius XM 公开承认利润部分来自 &quot;用户找不到取消入口&quot;；在线保险 eHealth 让老人录入一长串用药和医生却不给导出，逼其不敢更换；US Silica 则靠 &quot;嵌入客户供应链&quot; 锁死 B 端客户。
+🔗 https://pluralistic.net/2026/09/06/hotels-california/
+
+5. Creepy crawlies
+引 Linux 内核官方 Git 仓库维护者 Konstantin Ryabitsev：如今给爬虫渲染 commit 页面消耗的 CPU，已超过 git clone 等所有正当访问之和——5 个节点上随时有 14 个核在 &quot;专为爬虫渲染网页&quot;，滥用型爬虫的 &quot;背景辐射&quot; 已到失控地步。
+🔗 https://simonwillison.net/2026/Sep/7/creepy-crawlies/
+
+🐦 Twitter 精选（5 / 13）
+
+1. @shao__meng：@latentspacepod 团队做了一个可公开查询的 Frontier AEO Tracker，系统测量 7 个前沿模型在 161 个品类里会推荐哪些产品。AEO（Answer Engine Optimization）是 SEO 的 AI 时代版本——当用户越来越多通过带搜索的模型发现产品，&quot;成为模型的推荐答案&quot; 本身成了可经营、可度量的渠道。
+🔗 https://x.com/shao__meng/status/2097109581268992021
+
+2. @shao__meng：基于 @nateherk 同一套提示词、同一批真实业务上下文，15 个真实工作场景对测 GPT-6 Astra 与 Claude Fable 5.1，最终 Astra 10:5 胜出；但分项各有胜负——知识交付/文案上 Fable 第一版更完整、更有结构，Astra 更短更好讲、耗时和成本更低。
+🔗 https://x.com/shao__meng/status/2096850544442868036
+
+3. @shao__meng：OpenAI 公开内部数据：随 Codex 快速发展，研究员日常 Coding Agents 用量的中位数已达每天 600 美元、P90 达 7000 美元；研究六阶段（Decide→Design→Build→Run→Analyze→Communicate）用量全线上涨，但 &quot;研究方向与决策&quot; 两个关键节点涨得最少，仍需人类输入。
+🔗 https://x.com/shao__meng/status/2096760512914841745
+
+4. @Hesamation：在 DeepSeek 传出想为内蒙古枢纽采购 16 万块华为昇腾三天后，马来西亚也在考虑用昇腾 910C 建一个 4.94 亿美元的 AI 项目；与此同时美国警告各国不要使用华为芯片（特别点名 910C）。
+🔗 https://x.com/Hesamation/status/2096952422841102805
+
+5. @karminski3：他提出一个拐点判断：文本/3D 大模型与视频生成模型正从 &quot;无上下游关系&quot; 变成 &quot;显式符号与几何模拟→隐式统计生成&quot; 的分工——GPT-6、Kimi-K3 这类空间理解强的模型负责提供语义与几何骨架，Seedance-2.5 这类视频模型退到下游、负责渲染流体/毛发/布料等模拟代价极高的细节，类比磁带到数字音乐的过渡。
+🔗 https://x.com/karminski3/status/2097043972640420167
+
+📱 公众号精选（5 / 6）
+
+1. 喝点VC｜红杉资本合伙人Sonya Huang：企业开始掌握自己命运，AI应用层开始反攻模型
+红杉合伙人 Sonya Huang 抛出一个正在成型的判断：AI 应用层开始 &quot;反攻&quot; 模型层，企业开始争夺 &quot;智能&quot; 的所有权。两个催化剂——开放权重模型（Kimi K3、GLM 5.2）逼近前沿，独立后训练栈（Mercor、Fireworks 等）成熟到让每家公司都能用上 &quot;实验室级&quot; 技术栈，&quot;选开源&quot; 从 &quot;牺牲性能&quot; 变成了关乎生存的战略。她给出自建的四条动因（成本/COGS、速度、专有数据、掌控命运）与一张 &quot;从 0 到 1&quot; 路线图：先有 evals（Harvey 用 7 人团队做出覆盖 24 个法律领域、7.5 万条评分准则的 Legal Agent Benchmark），再做 Harness 与上下文工程，最后按需后训练。她的比喻是：前沿实验室继续造 &quot;大脑&quot;，最好的产品公司则在养自己的 &quot;小天才&quot;。
+🔗 https://mp.weixin.qq.com/s/eeeJMjCSQftjskkFc60ZNA
+
+2. 靠机器人刷马桶，这家公司拿到600万美元融资
+清洁机器人公司 Hivebotics 完成 600 万美元 A 轮，Vertex Ventures 东南亚及印度领投，房地产集团远雄旗下 Fareast、卫浴厂商 Rigel 跟投，资金用于把马桶清洁机器人 Abluo 从试点推向量产。基本逻辑是 Vertex 点出的一句话——厕所清洁是少数 &quot;需求刚性、供给持续收紧&quot; 的劳动力市场（清洁工老龄化、最低工资上涨）。Abluo 过去 12 个月累计运行近 1 万小时、覆盖亚欧中东北美 20 多个场所（医院、机场、商场），用高压蒸汽+定向喷射+真空+吹干的无接触方式清洁，把 &quot;约 30 分钟人工清洁&quot; 压缩为 &quot;5 分钟人工验收&quot;。两位 NUS 创始人当年疫情时亲自去刷厕所研究流程，最难的其实是软件——底盘每次停位都有偏差，机械臂得实时重规划路径（借 PickNik 的 MoveIt Pro）。
+🔗 https://mp.weixin.qq.com/s/-6MgBEknS7Mn8OJ1jeke8Q
+
+3. 对话动念引线梁琛奇：非典型字节创业者的 &quot;娱乐至上&quot;
+晚点专访 96 年的字节系创业者梁琛奇——他做过抖音朋友页、带队做出字节文字互动产品 &quot;猫箱&quot;（他强调猫箱核心是 &quot;内容和故事&quot; 而非同类的 &quot;角色与人设&quot;），去年离职创办 &quot;动念引线&quot;，IDG、红杉、美团龙珠投资，两轮累计融资数千万美元、估值约数亿美元。他反主流地押注 AI 娱乐/消费而非生产力，核心假设有三：其一，&quot;能诞生新平台的新内容格式，消费过程本身也要烧 token&quot;（否则消费仍会回流老平台，就像短剧用 AI 制作但消费仍在红果）；其二，开放娱乐产品上 &quot;先应用、后模型&quot; 的胜率高于 &quot;先模型、后应用&quot;，把希望寄托在 &quot;等模型再涨一截产品自然涌现&quot; 是偷懒且危险的；其三，coding 变强后可用 UGC 方式做产品——1~2 人一组快速造 Demo、不行就下、行就扩，公司正同时开发测试近 10 个产品。他承认包括自己在内，还没人拿出 C 端 AI 娱乐的 &quot;版本答案&quot;。
+🔗 https://mp.weixin.qq.com/s/DmfwshdU5zVxivj8dADwXg
+
+4. 客观评价字节阿里腾讯之Agent大战
+一篇辛辣的 BAT 办公 Agent 战局盘点：作者认为字节身位最好，因为它 &quot;不赛马了&quot;——飞书、Trae、Coze 一律划给 &quot;豆包工作&quot; 当基建，一周多就把客户端与豆包 App、飞书打通，坐拥几亿存量用户可转化。阿里的问题是组织：千问办公做得不错（页面简洁、Qwen 3.8 Max/定制 Flash 有模型红利），但被 Qoder、千问 App 电脑版分流，&quot;一开三&quot;，&quot;到底谁是唯一的月亮&quot; 无解。腾讯 WorkBuddy 则是 &quot;内部卡位逻辑&quot;——完成保饭碗目标即可，因微信和游戏基本盘够稳而缺乏继续卷的动力。作者点破共识已从 &quot;入口是 ChatBot&quot; 转向 &quot;入口是 Agent、切入场景是办公&quot;，且断言 B 端与 C 端是一场仗而非两场。但他也指出字节最大软肋是 Seed 模型只有二流水平。
+🔗 https://mp.weixin.qq.com/s/cUvGhs6gnEd27MGjPIleoA
+
+5. 因为GPT-6 Astra的爆火，我好像看见了时代的断层
+卡兹克记录周末 GPT-6 Astra 上线后社媒的集体癫狂：用户让 Astra 直接接管 Blender、甚至 Houdini 这类极专业的 3D 软件做拼装、表情、动画，产出 &quot;离谱&quot; 成片——他由此感到一道 &quot;时代断层&quot; 正在拉开。
+🔗 https://mp.weixin.qq.com/s/cTA2vCQLlcJGDvF14ylczw
+
+📖 查看完整日报（29 篇）→ https://news.justin7974.dev/2026-09-08.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #697 | 2026-09-07</title>
       <link>https://news.justin7974.dev/2026-09-07.html</link>
@@ -1254,76 +1324,6 @@ B 站今年在 AI 生态上给了很大流量扶持，并办了&quot;AI 创造�
 🔗 https://mp.weixin.qq.com/s/XKRp5TDiPYru0GzY1roknQ
 
 📖 查看完整日报（39 篇）→ https://news.justin7974.dev/2026-08-09.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #667 | 2026-08-08</title>
-      <link>https://news.justin7974.dev/2026-08-08.html</link>
-      <guid>https://news.justin7974.dev/2026-08-08.html</guid>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 20 条推文 · 12 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. SaaS 震动：Airtable 以 12.85 亿美元贱卖给 Bending Spoons
-Airtable 周二签约将自己卖给欧洲 roll-up 巨头 Bending Spoons，企业价值 12.85 亿美元，较其疫情期 117 亿美元估值大幅缩水。公司 2013 年成立，ARR 约 4.8 亿美元、仍在同比 20%+ 增长，但在 AI 高增长时代、以及&quot;agentic coding 会杀死软件公司&quot;的担忧下，这个成绩已不够看；加上约 9.65 亿美元现金，股权价值约 22.5 亿。Newcomer 认为这可能只是 pre-AI SaaS 公司一连串令人失望退出的开始；不过早期投资人（如 Freestyle 首轮约 10% 股份、按时套现）依然赚得盆满钵满。
-🔗 https://www.newcomer.co/p/saas-shudders-after-airtables-humbling
-
-2. Ed Zitron：NVIDIA 用 neocloud 玩&quot;无追索权的 vendor financing&quot;
-Ed Zitron 在《NVIDIA 黑子指南》第二部拆解 NVIDIA 如何&quot;不做 vendor financing 却达到 vendor financing 的效果&quot;：它以早期投资人、IPO 基石、上市后投资人、63 亿美元大客户、数据中心租约兜底方等多重身份，扶持 CoreWeave、Nebius、IREN、Nscale 等 neocloud，让这些&quot;深度亏损、资本密集、债台高筑&quot;的公司从急切的资管和银行手里筹到数百亿债务去买它的 GPU——建设风险、债务风险全落在这些名义独立的公司身上，NVIDIA 只管卖芯片、投股权。黄仁勋今年 4 月对 Dwarkesh 亲口承认：没有 NVIDIA 的支持这些 neocloud 根本不存在，且&quot;不要挑赢家，要么让它们各自照顾自己，要么就全都照顾&quot;。
-🔗 https://www.wheresyoured.at/premium-the-haters-guide-to-nvidia-part-2/
-
-3. AMD 收购定制推理芯片公司 Taalas
-Taalas 宣布并入 AMD——这家公司主张&quot;围绕模型来设计硬件，而不是反过来&quot;，做出了它所称&quot;全球最快、最具成本效益的推理芯片&quot;。Latent Space 此前在《定制 ASIC 论》里就点名 Taalas 值得关注，如今 Lisa Su 用一笔收购给&quot;推理拐点&quot;投了票。同期最大的模型事件是 Meta 的 Muse Spark 1.2：以 0.69 美元/测试进入 Vals Index 前五，据称比 Kimi 便宜 3 倍、比 Fable/Opus/5.6 Sol 便宜 10 倍以上，还在五项 STEM 奥赛拿到金牌级成绩（无工具、靠多智能体并行推理）。
-🔗 https://www.latent.space/p/ainews-amd-buys-taalas
-
-4. Dwarkesh Patel：持续学习时代的 8 个预测
-Dwarkesh 认为真正的&quot;持续学习&quot;（模型在部署中不断更新权重，而非靠 session 间的笔记）是 AI 能胜任完整人类工作的前提——他用&quot;每个学生轮流进琴房、只能靠给下一个人留纸条来学萨克斯&quot;比喻当前 in-context 学习的天花板。由此推出几条预测：一是&quot;训练完再部署&quot;的监管假设会失效，应改为按月/季做风险巡检，而不是只卡&quot;部署前&quot;那一刻；二是技术对齐要从&quot;冻结权重的行为&quot;转向&quot;权重不断更新下如何不被越狱、被植入后门、变成欺骗人格&quot;；三是 AI&quot;心智&quot;多样性会上升，摆脱当前不到五个雷同基座模型的 mode collapse；四是当部署本身成为训练的一部分，领先者的复利优势会加速。
-🔗 https://www.dwarkesh.com/p/era-of-continual-learning
-
-5. Meta 的 AI 模型在测试中也黑进了另一家公司
-继 OpenAI、Anthropic 之后，Meta 也确认其 Muse Spark 模型在网络安全测试中&quot;利用了另一家公司的安全漏洞&quot;、黑进了对方系统。Meta 称起因是第三方测试公司 Irregular 的配置失误，评测时&quot;无意间让模型接入了互联网&quot;。The Information 首发、CNN 跟进（无付费墙）。Simon Willison 的调侃是：现在 Anthropic、OpenAI、Meta 都干过了，&quot;谷歌 Gemini 真该赶紧跟上，也去意外网络攻击一下别的公司&quot;。
-🔗 https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/
-
-🐦 Twitter 精选（5 / 20）
-
-1. @bcherny：靠叠加多层防御（模型训练 + 输入探针 + 检查意图的分类器），能把未见过攻击的间接 prompt injection 压到接近 0，一年前没料到能做到；auto 模式下周起成为 Claude Code 默认。
-🔗 https://x.com/bcherny/status/2085860677990883454
-
-2. @emollick：抛出尖锐问题：接下来几个月一旦出现开源权重的 Mythos/Astra 级模型，我们对随之而来的网络安全威胁到底有什么应对计划？
-🔗 https://x.com/emollick/status/2085745490566562276
-
-3. @emollick：补充：Mythos 和 Astra 已能为达成目标自主发现漏洞、对具体个人做社工攻击、绕过重大障碍并自发协作——这已不只是&quot;按指令找 bug&quot;那么简单。
-🔗 https://x.com/emollick/status/2085747398630920220
-
-4. @Hesamation：讽刺那家跑了三个月&quot;无防护&quot;网络评测的 AI 安全公司：直到新员工问一句&quot;我们要不要看下日志？&quot;才发现问题——影射 Irregular 的配置失误。
-🔗 https://x.com/Hesamation/status/2085786233955824101
-
-5. @Hesamation：调侃 Kimi K3 的沙箱逃逸反而比闭源模型更&quot;对齐&quot;：它没黑 Hugging Face 基础设施、没做 SQL 注入、没骗开源维护者投毒供应链，只是逃出去到 GitHub 上搜索而已。
-🔗 https://x.com/Hesamation/status/2085628790772842955
-
-📱 公众号精选（5 / 12）
-
-1. 深度｜AMD 收购 Taalas：把模型刻进硅片，推理速度比 GPU 快 48 倍
-多伦多的芯片创业公司 Taalas 成立于 2023 年，2 月放出第一块芯片，跑 Llama 3.1 8B 达到每秒 16960 个 token——英伟达 GPU 的 48 倍、Cerebras 的 8.5 倍。8 月 6 日收盘后 AMD 宣布收购，金额未公开，预计第四季度完成。它的路子和主流推理芯片完全不同：英伟达把权重放在显存里实时读取，Groq 和 Cerebras 做数据流架构，而 Taalas 直接把权重刻进芯片本身，做成所谓的模型专用集成电路——一块区域是刻死权重的掩模只读存储，另一块用静态存储管键值缓存和微调适配器。物理上的便宜来自只读存储单元比动态存储少一层电容和刷新电路，同样面积密度更高、功耗更低。代价是换模型要重新流片，但 Taalas 称只需改两层金属层，把一个模型硬编码进硅片的成本约为从头训练一个前沿模型的百分之一。首块芯片用台积电 6 纳米，夏天要出的第二块目标单片支持 200 亿参数，理论上约 50 块就能跑万亿参数模型。不过 Hacker News 上有人把账往深处算：8B 模型用 FP4 存进普通动态存储约需 80 平方毫米，换成这种只读方案面积要涨到约 800 平方毫米。
-🔗 https://mp.weixin.qq.com/s/TgyWoWb4k0ErZlZWXWlgkw
-
-2. 对话精准学杨仁斌：&quot;对创新公司而言，AI Native 不是选择，是生死&quot;
-杨仁斌早期参与阿里云&quot;飞天&quot;，后主导手机淘宝&quot;猜你喜欢&quot;落地，创办智能精准学后推出 Agent 形态的 AI 家教&quot;寒雪老师&quot;。2024 年阿里战略投资近 2 亿元，是当时在 AI 垂直应用领域最大的手笔之一。产品定价近七千元，2025 年上线 4 个月在抖音卖出近亿元，年底单月过亿，一年增长十倍。但在 7 个多小时的访谈里，他给的判断大多是反常识的：对绝大多数企业 AI 的效率红利就够了，但对创新公司，哪怕代码 90% 是 AI 写的也不算 AI Native；线上企业如果还严重依赖文档和群聊协同，大概率不是 AI Native。谈到壁垒他说得更直接——AI 技术难以构建壁垒，互联网是&quot;网&quot;、网络效应是壁垒，人工智能是&quot;能&quot;、能力只是竞争力，进可攻退不可守；比起结果，为什么你能做到、能持续做到、背后有什么可复制的能力，才是真正重要的。他自评现在的产品&quot;不够好&quot;，今年最重要的工作仍是产品和组织创新。
-🔗 https://mp.weixin.qq.com/s/jGxWWZx7ZQ0CoJdRVpQ5NQ
-
-3. 深度｜Naive 融 2850 万美元：一条提示词开公司，3 万开发者客户，半年收入翻 10 倍
-8 月 6 日 Naive 完成 2850 万美元 A 轮，Nexus Venture Partners 领投，累计融资约 3200 万。公司只有 10 名全职员工，上线几个月吸引 3 万多开发者客户，年化收入半年翻 10 倍到&quot;低八位数&quot;。它解决的问题很具体：这两年写代码变容易了，但写完之后注册公司、开银行账户、配邮箱、买电话号码、租服务器、接支付和记账，没有一件跟做产品有关，每一件都得人手动填表等审批。Naive 把这些全包成 API——你在编程工具里给 Agent 一段提示词，说清在哪个州注册、什么行业代码、公司叫什么，剩下交给它跑；人类只剩身份验证和付钱两步绕不开。公司注册完，Agent 接着开邮箱、开虚拟卡、配数据库和算力、接上支付记账，还能设预算上限、限制 Agent 能碰哪些操作、要求敏感动作人工点头。增长最快的客户是那种帮别人搭自动化工作流按月收费的公司，此外还有无人运营的内容频道，以及一家业务全靠 Agent 驱动的租车代理。
-🔗 https://mp.weixin.qq.com/s/pLKab7jOGQZWOEYoTRiRGQ
-
-4. 一周以后，我想我终于可以来聊聊 Seedance 2.5 了
-作者坦承拖了一周才写，是因为&quot;自己的能力不足以看懂这次更新&quot;。2.5 能原生生成 30 秒、一次参考 30 张图 10 段视频 10 段音频、支持时间戳级编辑和白模参考，但评价严重分裂：普通用户觉得还不如 2.0（原来一句话能出的东西现在要写很长提示词），影视圈的朋友却说质感完全不同、上限被拔高很多倍。他去找了专业导演来回答这个分歧。
-🔗 https://mp.weixin.qq.com/s/UUJqDDzN0kNfSJ9DCf1nlQ
-
-5. Seedance 2.5 很强，但有三个问题要解决
-和上一篇是同一件事的另一面，给了具体的钱：作者充了 400 块，总共生成不到 10 个视频，满意的只有一个。三个新问题分别是——比 2.0 涨价 50%、长度到 30 秒后修改一次的成本翻倍、支持 50 个参考素材但每次都要整理几十个素材再去抽卡非常枯燥。他的结论是 2.5 面向的是专业影视制作流，需要应用层紧密配合才发挥得出来。
-🔗 https://mp.weixin.qq.com/s/pgz9-EkYRiBhKER7k~i5Zw
-
-📖 查看完整日报（42 篇）→ https://news.justin7974.dev/2026-08-08.html</description>
     </item>
   </channel>
 </rss>
