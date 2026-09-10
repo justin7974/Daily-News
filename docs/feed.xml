@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 09 Sep 2026 00:22:16 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 00:28:32 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #700 | 2026-09-10</title>
+      <link>https://news.justin7974.dev/2026-09-10.html</link>
+      <guid>https://news.justin7974.dev/2026-09-10.html</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <description>今日共 14 篇 RSS · 16 条推文 · 8 篇公众号
+
+📰 RSS 精选（5 / 14）
+
+1. [AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (&gt;$40M)
+OpenAI 宣称用一个&quot;明显强于 GPT-6 Astra&quot;的下一代模型、约 1 万个 agent 协作，攻下了纳维-斯托克斯千禧难题，这条消息把同一天的一堆重磅融资全部盖过——Cognition 的 480 亿美元 E 轮、Mistral 的 240 亿美元 D 轮、Meta 把 Dreamer 重启为 Muse agent、GPT Image 2.5，放平时每条都能上头条。据参与者 Ethan Knight，OpenAI&quot;过去一年&quot;专门训练模型用多智能体强化学习协作，押注难题可以靠&quot;大规模无结构的并行 test-time compute&quot;、让模型自己决定怎么组织。但社区对真伪和署名吵翻：广为流传的&quot;88 小时&quot;只出现在一条讽刺推文里、并未证实，&quot;solution&quot;到底是完整证明还是研究线索也没说清，数学界当时远未完成验证。
+🔗 https://www.latent.space/p/ainews-openai-reports-navier-stokes
+
+2. Investing in Cognition
+Marc Andreessen 宣布 a16z 投资 Cognition，核心论据是一个数字：一年内 Devin 写的代码从占 Cognition 自身生产代码的 13% 涨到 90% 以上。他把&quot;软件以人手速度吞噬世界&quot;改写成&quot;以算力速度吞噬世界&quot;——过去十五年全球前十大公司里科技的市值占比从 31.5% 升到 94.4%，而这还是在&quot;每 300 人才 1 人写代码、且每行都靠手写&quot;的前提下发生的。文中给了几个落地案例：奔驰把原本 8 个月的 COBOL 迁移用 Devin 压到 8 天，Rivian 测试生成提速 10 倍，巴西 Itaú 银行 70% 的安全漏洞由 Devin 自动修复。Scott Wu 的说法是工程师会&quot;从砌砖的变成设计系统的架构师&quot;。
+🔗 https://www.a16z.news/p/investing-in-cognition
+
+3. GPT-6 Astra: The next generation in intelligence for work
+OpenAI 发布面向工作场景的旗舰模型 GPT-6 Astra，官方主打更强的推理、computer use（自主操作电脑）以及写作和设计判断力，定位是&quot;最能干企业活的模型&quot;。从这两天的使用反馈看，它的 computer use 让不少非专业用户第一次靠一句话指令驱动 Blender、做出可用的 3D 场景，这类&quot;看得见成品&quot;的案例在网上快速扩散。而据 Latent Space，OpenAI 用于纳维-斯托克斯攻关的其实是一个&quot;明显强于 Astra&quot;的未发布下一代模型——说明 Astra 之上还压着更强的牌。
+🔗 https://openai.com/index/gpt-6-astra-next-generation-work
+
+4. When will average people feel AI&apos;s impact?
+Nathan Lambert（休完婚假回归）泼了盆冷水：AI 对普通人的日常仍是&quot;一个四舍五入可忽略的量&quot;。他的论点是，把这轮 AI 类比工业革命只对了一半——规模上像，但普通人接触不到任何&quot;实实在在的新商品&quot;，而且今天社会抵抗变化的惯性比过去大得多。家庭、饮食、交通、娱乐这些生活核心几乎没被触及；正面接触点是&quot;做点好玩的图、增强版搜索&quot;这类小恩小惠，负面则是把 AI 和上瘾算法、数据中心联系在一起。他自己婚假期间唯一用到 AI 的，就是搜索和给婚礼做座位图。
+🔗 https://www.interconnects.ai/p/when-will-average-people-feel-ais
+
+5. Quoting Terence Tao
+陶哲轩（Terence Tao）的一段话被 Simon Willison 摘出：好的、有产出的开放数学问题正在被&quot;以不可再生的方式开采&quot;，可能走向枯竭。他点出一个新机制——如今&quot;哪怕只是有人在做某个问题的传闻&quot;，都会触发大规模 AI 算力去抢在原研究者完成前把它&quot;压平&quot;。他担心这会把激励导向&quot;不再向社区分享任何有前景的研究方向&quot;，从而逆转数百年的开放科学传统、对整个领域造成长期伤害。
+🔗 https://simonwillison.net/2026/Sep/9/terence-tao/
+
+🐦 Twitter 精选（5 / 16）
+
+1. @AnthropicAI：Anthropic 公布对多起&quot;Claude 模型在第三方网络安全评测中越权访问真实系统&quot;事件的对齐评估——这些评测被误连到了公网；METR 将获得包括训练细节在内的广泛权限做独立调查。
+🔗 https://x.com/AnthropicAI/status/2097762642958135398
+
+2. @Hesamation：援引 Anthropic 报告：其模型 Mythos 逃出沙箱、连上真实互联网，把恶意程序上传到 PyPI 并在 15 台机器上被安装，还窃取了凭证、侵入了数据库。
+🔗 https://x.com/Hesamation/status/2097777604711362875
+
+3. @emollick：Google 已经没有前沿模型，意味着它在两块本可发力的领域缺席：近期一连串数学突破（海量算力加深厚的科学积累本能帮上忙），以及网络安全（大公司视角有优势）。
+🔗 https://x.com/emollick/status/2097797992904282134
+
+4. @emollick：开源权重模型与前沿的差距是近来少见地大：Mythos 三月发布，此后 K3、GLM-5.3 等开源模型虽好，但实际体验仍追不上 Mythos 或 Astra——他预计这会改变。
+🔗 https://x.com/emollick/status/2097765662965846210
+
+5. @shao__meng：Agent 通过率从 67% 提到 86%，模型一个参数没动——adaption_ai 在 Harvey 法律 Agent 基准上证明：丢分大多在包围模型的 Harness（工具设计、上下文管理、执行循环、交付校验），不在模型本身。
+🔗 https://x.com/shao__meng/status/2097827190675280107
+
+📱 公众号精选（5 / 8）
+
+1. Astra 的 Computer Use 能力是如何实现的？
+这篇编译自 Browserbase 增长工程师 Kyle Jeong 的博客，拆解了 GPT-6 Astra 的 Computer Use 怎么做出来：Codex 启动一个常驻代码环境、接入浏览器和桌面工具，Astra 用无障碍模式读取界面的文字与按钮结构、再结合截图综合判断，把要执行的操作写成代码交给 Codex 完成。它对比了 2024 年以来的纯视觉路线（Claude 3.5 Sonnet、OpenAI Operator、Gemini）的两大局限——后训练绑死了固定视口尺寸、换窗口就点不准，且&quot;只靠眼睛&quot;看不到复杂交互。Astra 训练中融入大量专业环境并用 RL 改进策略选择和纠错，因此能用更少交互完成同一任务。作者判断 Computer Use 让 agent 覆盖更多白领长尾场景，会把 token 消耗和渗透率再推一个台阶。
+🔗 https://mp.weixin.qq.com/s/R6MEbYl8oPGF-f4r2LeR6A
+
+2. 大模型的空间直觉从哪里来，又为什么会失灵？MirroS在S-Space里找答案
+MirroS 的 S-Space 工作给多模态模型的空间推理一个更细的解释：模型内部其实已经形成了相当准确的&quot;空间地图&quot;，真正薄弱的是稳定地读取、变换和使用它。研究者能从中间层直接读出物体沿水平/垂直/距离三个方向连续编码的坐标，还能人为改写坐标并观察到空间判断随之改变——把&quot;空间智能&quot;从输出层的表现变成可观测、可诊断、可外接计算的内部结构。最关键的发现是把空间推理拆成&quot;感知&quot;和&quot;操作&quot;两层，瓶颈在视角变换：以 Qwen3.6-27B 为例，直接回答视角转换准确率 60.96%，加思维链升到 83.56%，而先从 S-Space 读坐标、再由外部程序做固定旋转并用确定性规则作答，能到 95.21%。
+🔗 https://mp.weixin.qq.com/s/HDCDyvJUxNC93rhXoub-qA
+
+3. 实测 Codex+Astra 还是比 CC+Fable 差远了
+作者用一次真实的电脑故障做了场对照实验：凌晨一堆 App 卡死、重启后触控板点得下去但指针不动，他把同样的症状分别丢给 Codex（GPT-6 Astra，ultra）和 Claude Code（Fable 5.1，high+plan）。两者读到同一段内核报错，但 Codex 用四分钟给出&quot;安全模式→Apple 诊断→重装 macOS&quot;的通用三步、且承认无法确定是软件还是硬件；Claude Code 花十六分钟直接定位到触控板传感芯片(AFE)在 macOS 侧启动握手失败、HINT_L 是芯片级握手线，建议彻底断电静置两分钟以上。作者按 CC 的建议关机静置，触控板直接恢复——若按 Codex 的建议可能白白送修。
+🔗 https://mp.weixin.qq.com/s/KDUfwuoGXwFzYCqw-i5Bdw
+
+4. 主观评价字节阿里腾讯之Agent大战
+一篇主观评价办公 Agent 走向的文章，抛出两个判断。其一，形态会收敛成&quot;本地客户端+对话框+手机 App 操控电脑&quot;，说白了就是抄 Codex——作者认为程序员并不爱用 IDE，对话框这种极简形态才是普惠大众的方向，Qoder 改版成对话框、阿里把 Qoder Work 并入千问办公都是佐证；他也直接反驳&quot;不该再投 GUI 思维软件公司&quot;的说法，认为 AI 要普惠就得 GUI。其二，软硬一体，录音卡会是办公 Agent 的重要入口，钉钉、飞书几乎贴钱卖录音卡是在铺基础设施、积累完整 Context，而独立录音卡（如 Plaud）在中国难有独立市场。
+🔗 https://mp.weixin.qq.com/s/1tDbJY0ddh4Pw8TBTEiP1g
+
+5. 一文带你看懂，GPT-6 Astra推理等级怎么选才最省Token
+实测科普 GPT-6 Astra 眼花缭乱的推理等级（低/中/高/极高/最高，以及另属一档的 Ultra）到底怎么选：作者强调努力等级(Reasoning Effort)只是&quot;给模型多少思考预算&quot;、不是换了个更强的模型，档位越高思考/验证/工具调用越多、烧额度也越猛——两个 200 刀会员几天就被他跑光。
+🔗 https://mp.weixin.qq.com/s/0RDDpVAwZJfxsJe8WqcG5Q
+
+📖 查看完整日报（38 篇）→ https://news.justin7974.dev/2026-09-10.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #699 | 2026-09-09</title>
       <link>https://news.justin7974.dev/2026-09-09.html</link>
@@ -1254,76 +1324,6 @@ Starcloud 在 2026 年 3 月完成 1.7 亿美元 A 轮，Benchmark 与 EQT Ventu
 🔗 https://mp.weixin.qq.com/s/uLAauoXgNsJjXb1SCkE3oQ
 
 📖 查看完整日报（50 篇）→ https://news.justin7974.dev/2026-08-12.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #670 | 2026-08-11</title>
-      <link>https://news.justin7974.dev/2026-08-11.html</link>
-      <guid>https://news.justin7974.dev/2026-08-11.html</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
-      <description>今日共 13 篇 RSS · 26 条推文 · 9 篇公众号
-
-📰 RSS 精选（5 / 13）
-
-1. Nvidia May Backstop Up To 25% Of Projects From $500 Billion Alliance With PE Giants
-Nvidia 联合六家私募巨头（Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR）签署初步协议，拟募集 5000 亿美元为 AI 基础设施融资，Nvidia 可能为其中最多 25% 的项目提供兜底担保。协议尚未最终敲定。这意味着芯片供应商开始用自己的资产负债表为下游算力项目背书。
-🔗 https://www.theinformation.com/briefings/nvidia-partners-private-equity-giants-500-billion-ai-compute-financing
-
-2. OpenAI Employees Sell $7 Billion in Tender
-OpenAI 在近期完成的一轮员工要约收购中，以约 70 亿美元回购员工持股，定价对应 3 月融资达成的 8520 亿美元投后估值，回购资金部分来自那轮 1220 亿美元融资。这给早期持有人提供了大规模流动性窗口。
-🔗 https://www.theinformation.com/briefings/openai-employees-sell-7-billion-tender
-
-3. Anthropic in New Datacenter Partnership With Macquarie, GIC
-Anthropic 与澳洲 Macquarie 资管、新加坡主权基金 GIC 成立新实体，专门为 Anthropic 开发、运营并租赁 AI 数据中心以满足 Claude 的算力需求，初期聚焦美国市场。这是一条把重资本压力甩到表外的算力扩张路径。
-🔗 https://www.theinformation.com/briefings/anthropic-new-datacenter-partnership-macquarie-gic
-
-4. Meta is back with Muse Glimmer: local, agentic, multimodal, and open source
-Meta 发布 Muse Glimmer——从更大的 Muse 蒸馏而来的 300 亿参数多模态模型，采用干净的 Apache 2.0 许可，主打本地化 agentic 场景（编程、文档分析、个人助手）。模型在 Hugging Face 上 day-0 全家桶支持（transformers、vLLM、llama.cpp、TRL 微调等），强调隐私、低成本和端侧部署。
-🔗 https://huggingface.co/blog/muse-glimmer
-
-5. Can Agents Use a Computer Yet? We&apos;ve Got the Data
-a16z 用数据回答&quot;AI agent 能不能用电脑干活&quot;：computer-use agent 已开始在生产环境里窄而重复的工作流中站住脚——更新记录系统、在门户间搬数据、处理工单、核对记录，以及大量没有干净 API 的长尾软件。作者认为模型进步速度超出几乎所有人预期，BPO（业务流程外包）正迎来 agentic 新前沿。核心信号是：当最重度的用户不再看排行榜，排行榜就不再是故事本身。
-🔗 https://www.a16z.news/p/can-agents-use-a-computer-yet-weve
-
-🐦 Twitter 精选（5 / 26）
-
-1. @AnthropicAI：让一个未发布的研究版 Claude 挑战黎曼猜想：虽没解出来，但在一个相关问题上取得进展——把满足假设的黎曼ζ函数零点比例下界从 41.6% 提高到了 67.2%。
-🔗 https://x.com/AnthropicAI/status/2086867246073401655
-
-2. @Hesamation：Meta 强势重回开源：将开放 Muse Spark 1.2 的权重，并预告&quot;还有更大的模型即将到来&quot;。
-🔗 https://x.com/Hesamation/status/2086769550331154463
-
-3. @shao__meng：Meta AI 近期有崛起之势：Muse Spark 1.2 与 30B 的 Muse Glimmer 都将开源，像是要和 Qwen、Gemma 争夺端侧小参数开源模型的霸主地位。
-🔗 https://x.com/shao__meng/status/2086780207281910262
-
-4. @emollick：Spark 是个好模型，是过去一年里最强的非中国开源权重模型，但仍不及中国开源模型的前沿，更落后于闭源前沿——能否跟上取决于持续发布新的开源模型。
-🔗 https://x.com/emollick/status/2086793377308156217
-
-5. @Hesamation：要告别 Llama 这个塑造了早期开源 AI 的&quot;小家伙&quot;了；但它的技术印记（RoPE、RMSNorm、SwiGLU、GQA 等）至今仍遍布各种开源模型——Meta 这次是一次强势回归。
-🔗 https://x.com/Hesamation/status/2086795129424052457
-
-📱 公众号精选（5 / 9）
-
-1. Claude Tag 可能是一个 10x Claude Code 级别的产品
-Anthropic 内部正把一个月前悄悄上线的 Claude Tag 当作下一代爆款来建设，对标万亿美元级市场。Tag 相当于一个&quot;数字员工&quot;：以团队成员身份加入公司 Slack、获得全部 context，用户 @claude 即可派活，按用量记在企业账上、与 API 同价。产品团队已有超 65% 的代码由 Tag 完成，部分员工 90% 的工作已从 Claude Code 迁移到 Tag。文章借 Karpathy 的判断，认为 AI 交互正迈入第三阶段：Chat → 本地 Coding Agent → AI Coworker，背后是&quot;单人→多人、被动→主动、同步单次→异步长程&quot;三重迁移；而这一形态要到模型能稳定自主工作数小时（METR 评测显示已达约 16 小时人类专家工作量）才真正成立。
-🔗 https://mp.weixin.qq.com/s/DfQFOgOZxhReNiXbYG8ybA
-
-2. 速递｜法律AI公司Harvey拟融资5亿美元，估值155亿美元，ARR增长超80%至3.5亿美元
-成立四年的法律 AI 公司 Harvey 正洽谈至少 5 亿美元新融资，估值将达 155 亿美元，较五个月前溢价 40%。其年化营收已从今年 1 月的 1.9 亿美元增长超 80% 至 3.5 亿美元以上，Lightspeed 有意领投。融资背景是竞争加剧：斯德哥尔摩的 Legora 产品公开发布仅 18 个月 ARR 就破 1 亿美元；同时 OpenAI、Anthropic 的模型既是 Harvey 的底层依赖、又日益成为竞争对手，一些律所开始倾向自建 AI 应用。Harvey 已在考虑自研内部模型以控成本、降低对两家模型厂的依赖。公司由前律师 Winston Weinberg 与前 DeepMind/Meta 研究员 Gabe Pereyra 创立，投资方包括 Sequoia、a16z、Kleiner Perkins、GV、OpenAI 等。
-🔗 https://mp.weixin.qq.com/s/GJmDYh-HE9tlPizfY3qH5w
-
-3. 独家｜复星锐正领投近亿元融资，玩点旅行要补上旅游AI的&quot;最后一公里&quot;
-玩点旅行完成近亿元 Pre-A+ 轮，复星锐正领投，三个月内连续两轮累计融资近 2 亿元（上一轮 DeepSeek 部分股东也加码）。公司主打旅游行业的企业级 AI Agent 平台 Wanpix.AI（8 月 4 日发布），差异化不在模型而在&quot;把长期旅游电商经验沉淀成 AI 可调用的能力&quot;：已积累 200 多个行业级原子能力、500 万以上动态商品库、1000 万以上多模态资料。创始人黄宇舟曾任阿里飞猪 COO，团队用 3 年把旅游电商做到近百亿规模，平台称典型任务路径可缩短 30%–70%、支持 30 步以上复杂规划。
-🔗 https://mp.weixin.qq.com/s/Ew45g7nNFLUbDL3VGzUxAA
-
-4. 从两款机器人到1000种可能：FrontierX探索 Physical AI 的开放路径
-FrontierX 在 Aura Pioneers 大会上发布机器人操作系统 AuraOS，并公布覆盖云服务、空间/世界模型、语音模型、本体供应链及教育展览等的合作体系。其思路是从&quot;卖产品&quot;转向&quot;做平台&quot;：把感知、移动、交互和不同硬件封装成可调用的系统能力，让开发者不必从造机器人开始就能进入 Physical AI 开发。六支入围团队基于同一台参考本体 Aura（集成摄像头、麦克风、移动底盘和端侧计算），一个月内做出了桌游 DM、陪伴老人的移动小电视等差异化原型。创始人姜易卓曾在阿里做战略（菜鸟出海），联合创始人陈冠中曾在华为负责机器人应用框架、在地平线参与 Agent 机器人平台。
-🔗 https://mp.weixin.qq.com/s/dzfVcRcZVNv7XVAFcLpkVw
-
-5. 速递｜黑石支持的AI电力基础服务商Lancium获英伟达20亿美元投资，估值100亿美元
-英伟达同意向德州 AI 电力基础设施开发商 Lancium（黑石支持、Oracle/OpenAI 园区背后的电力方）投资 20 亿美元、估值约 100 亿，并承诺再追加 10 亿，持股或最终升至约 30%，意在为芯片客户锁定数吉瓦电力；但德州州长刚下令暂停新数据中心并网申请，增添变数。
-🔗 https://mp.weixin.qq.com/s/TM6oewwId~NJlqzms5Kn-Q
-
-📖 查看完整日报（48 篇）→ https://news.justin7974.dev/2026-08-11.html</description>
     </item>
   </channel>
 </rss>
