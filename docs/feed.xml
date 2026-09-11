@@ -5,8 +5,56 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 10 Sep 2026 00:28:32 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 00:20:02 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #701 | 2026-09-11</title>
+      <link>https://news.justin7974.dev/2026-09-11.html</link>
+      <guid>https://news.justin7974.dev/2026-09-11.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 14 条推文 · 0 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. Anthropic 发布最详威胁报告，指控中国实验室系统性蒸馏 Claude
+Anthropic 发布了迄今最详细的一份威胁情报报告，矛头直指中国：报告称检测到中国 AI 实验室在系统性&quot;蒸馏&quot;Claude——用它的输出训练自家模型。据流出的细节，针对通义千问（Qwen）的滥用累计达 1.5 亿次交互、峰值每天近 300 万次，动用 3500+ 欺诈账户去套取 Opus 4.6/4.7 的思维链，产物直接喂给 Qwen 3.5/3.6/3.7；阿里维护的近 5000 个账户池同时给 DeepSeek 和小米供流量，三家共用一套基础设施。报告还披露 Anthropic 阻止了一起试图把禽流感改造成人际可传播、&quot;具大流行潜力&quot;毒株的生物研究，以及若干网络攻击、影响力行动和监控用途的滥用。Anthropic 称已挫败报告中的每一起行动，并把部分线索交给了执法机构。
+🔗 https://www.theinformation.com/briefings/anthropic-says-blocked-bioweapons-efforts-detected-chinese-distillation-attacks
+
+2. 一次辞职，把 AI 恐惧从余烬烧成野火
+Nathan Lambert 复盘了&quot;疯狂的一周&quot;：研究员 Jacob Coxon 以安全担忧为由辞职、发帖警告，这本是常见的小事，却被点燃成一场关于人类灭绝风险的全民争论。他给了个比喻——过去几年不断有人为&quot;AI 风险&quot;划火柴，但周围的地是潮的，火星总在小圈子里自生自灭；而 OpenAI-HuggingFace 失控事件、Navier-Stokes 突破把赌注抬高，地面被烤干，一点就着，加上&quot;恐惧最好卖&quot;。Lambert 自己的判断是：完全灭绝的概率低到不值得讨论，但 AI 引发的真实灾难（攻击关键基础设施、生物风险）值得认真辩；他同时直言前沿实验室、尤其 Anthropic 的员工&quot;脱离现实、带着一种宗教般的能量&quot;，这会扭曲他们对当下的判断和表达。
+🔗 https://www.interconnects.ai/p/one-resignation-turned-the-embers
+
+3. OpenAI 暂停新的 Pro 订阅，指向 Astra 算力紧张
+OpenAI 周四宣布暂停 200 美元/月 Pro 套餐的新订阅——这个套餐是使用旗舰模型 Astra 的主要入口，暂停的直接理由是算力扛不住。Codex 负责人 Thibault Sottiaux 公开说系统承压、要先保住现有用户的体验，所以宁可关掉新增付费。这是继此前多起容量告警之后，又一个头部实验室&quot;有钱也买不到算力&quot;的信号；同一天 OpenAI 还在密集发布 Agents API、ChatGPT for Financial Services 等吃算力的新产品，供需缺口只会更紧。
+🔗 https://www.theinformation.com/briefings/openai-pause-new-pro-subscriptions-cites-astra-demand
+
+4. 一支专投 bootstrapped 创始人的基金募了 9.5 亿美元
+在 VC 争抢&quot;零收入也要投&quot;的当口，有一支基金反着来：只投已经做出至少数百万美元收入、而且往往一分机构钱都没拿过的 bootstrapped（自力更生型）创始人，这次又募到了 9.5 亿美元。它的逻辑是这批公司已经用真实营收证明了产品和获客，风险被提前消化掉了。在一级市场普遍为 pre-revenue 的 AI 项目支付高溢价时，这是一条被验证过、但不性感的老策略重新拿到大钱。
+🔗 https://www.theinformation.com/articles/fund-focused-bootstrapped-founders-raises-950-million
+
+5. a16z 领投 Highstock A 轮，用 AI 重做过剩库存生意
+a16z 领投了 Highstock 的 A 轮——它做的是每个消费品牌都有、却没人愿意谈的脏活：处理卖不掉的过剩库存。品牌为了防断货一律乐观备货，结果全球积压着数万亿美元卖不动的货，过去只有两条烂路——低价甩给清货商、眼看它砸自己牌子，或者干脆销毁（很多高端品牌宁可烧掉）。过剩库存是&quot;反标准化&quot;的：一批批零散、没有可比价、每批货的对口买家都不同，以前只能靠人海和关系去撮合。Highstock 用 AI 给这些非标库存做定价和买卖匹配，把它从&quot;要埋掉的问题&quot;变成&quot;能回收价值的资产&quot;，目前已帮品牌把 1000 万磅以上的货挡在了垃圾填埋场外，以美妆个护为起点、正在扩到服装。
+🔗 https://www.a16z.news/p/investing-in-highstock
+
+🐦 Twitter 精选（5 / 14）
+
+1. @AnthropicAI：发布迄今最详细的威胁情报报告，记录人们如何试图滥用 Claude 做网络攻击、影响力行动、监控、生物和武器研发，以及自己如何发现并阻止——称报告中的每一起行动都已被挫败，相关经验用于加固防护，部分线索已通报执法机构和其他 AI 公司。
+🔗 https://x.com/AnthropicAI/status/2098097512544444447
+
+2. @shao__meng：拆读 Anthropic 那份 154 页报告：&quot;中国&quot;出现 100+ 次，重点投诉中国团队&quot;非法蒸馏&quot;。针对通义千问的滥用累计 1.5 亿次交互、峰值每天近 300 万次、3500+ 欺诈账户，套取 Opus 4.6/4.7 思维链去训练 Qwen 3.5/3.6/3.7；阿里的账户池还同时给 DeepSeek 和小米供流量，三家共用一套基础设施。
+🔗 https://x.com/shao__meng/status/2098189500258410656
+
+3. @Hesamation：DeepSeek 新出的 V4.1-Flash 在 DeepSWE v1.1 等基准上把 Opus 5 和 GPT-5.6 Sol 打了下去，而 API 成本只有 Opus 5 的约 2.5%——用了新架构、新预训练方法和更大规模的 RL 后训练。
+🔗 https://x.com/Hesamation/status/2097969004933492893
+
+4. @shao__meng：Browserbase 复盘浏览器 Agent 三年三代路线，宣布放弃&quot;给模型预设工具&quot;、全面转向&quot;让模型直接写代码控制浏览器&quot;（Code Mode），并给出判断：做好 Agent 是 harness（工程）问题、不是模型研究问题，最好的 Agent 本质都是换了外衣的 Coding Agent。
+🔗 https://x.com/shao__meng/status/2097838012260585560
+
+5. @shao__meng：Kiro 团队提出&quot;Frontier Engineering&quot;十条原则（强调不是 vibe coding）：核心是&quot;你是架构师不是打字员&quot;——前沿开发者手写的代码已不到总产出的 1%，其余全来自指导、引导和审查 Agent；工作被压缩成两件事：定义什么算&quot;完成&quot;，以及验证产出是否符合意图。
+🔗 https://x.com/shao__meng/status/2097866663001809379
+
+📖 查看完整日报（26 篇）→ https://news.justin7974.dev/2026-09-11.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #700 | 2026-09-10</title>
       <link>https://news.justin7974.dev/2026-09-10.html</link>
@@ -1254,76 +1302,6 @@ Polymarket 预测 Anthropic 或于 10 月底 IPO、有投行估计募资超 600 
 🔗 https://mp.weixin.qq.com/s/62xZggROULpk34p2P7~TnA
 
 📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-08-13.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #671 | 2026-08-12</title>
-      <link>https://news.justin7974.dev/2026-08-12.html</link>
-      <guid>https://news.justin7974.dev/2026-08-12.html</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 29 条推文 · 9 篇公众号
-
-📰 RSS 精选（5 / 12）
-
-1. Nvidia&apos;s Risky Business
-Ben Thompson 用 1873 年铁路大亨 Jay Cooke 靠&quot;面向散户卖债券&quot;给北太平洋铁路做供应商融资、最终引爆全国性大恐慌的历史，类比 Nvidia 联合六大私募募集 5000 亿美元、并为其中最多 25% 提供残值兜底的新安排。他指出这套结构的高明之处在于不像增发新股那样稀释股东，而是找到愿意承担风险的新资金池、从而保住 Nvidia 的利润率；但 25% 的残值担保实质是变相降价——用 Nvidia 自己的利润去压低下游建数据中心的资金成本。而这背后是 Google TPU、亚马逊 Trainium 的逼近：当资金而非芯片成为建数据中心的约束时，更低的资金成本比 token 效率更重要。文章还捎带指出，DeepMind 高层出走后真正的赢家不是 Anthropic 或 OpenAI，而是 GCP。
-🔗 https://stratechery.com/2026/nvidias-risky-business/
-
-2. Decagon Hit $100 Million Betting Against Forward Deployed Engineers
-Decagon 的 AI 客服年化营收已过 1 亿美元，但创始人 Jesse Zhang 把差异化押在&quot;反对前置部署工程师（FDE）&quot;上——他认为需要把工程师长期塞进客户来定制软件，恰恰证明你的产品不行。这是一个逆势判断：FDE 模式如今被大量 AI 应用公司奉为标配。Decagon 面对的对手资金和规模都远超自己：Bret Taylor 的 Sierra 年化已超 2 亿、融资是它三倍，Salesforce 的 Agentforce ARR 破 10 亿并以 36 亿美元收购了 Intercom（Fin）。Decagon 及其投资人（Bain Capital Ventures、Accel、a16z）坚持，是产品而非庞大的服务团队，帮它拿下了大型航司和信用卡客户。
-🔗 https://www.newcomer.co/p/decagon-hit-100-million-betting-against
-
-3. Some Simple Economics of Open versus Closed AI
-客座作者 Christian Catalini 用经济学家 Petra Moser 对 1851 年万国博览会近 1.5 万项发明的研究给开源/闭源之争降温：有无专利保护并不改变创新的总量，只改变创新的方向——瑞士当年没有专利，创新就涌向靠保密和领先优势就能获利的领域（雀巢 1866 年即诞生于此）。他据此认为，开源权重不会改变 AI 的总投入，只改变&quot;谁来建、建什么、谁拿走回报&quot;：闭源实验室继续推最通用的前沿，开源权重则让实验扩散到能把机器智能与稀缺数据、分销、隐性知识结合的公司。文中直接点名 Dario Amodei 多年反对开源的立场，并指出这套主张&quot;恰好&quot;与 Anthropic 的商业利益完美对齐。
-🔗 https://www.a16z.news/p/some-simple-economics-of-open-versus
-
-4. The BioAI Phase Shift — Matthew McPartlon &amp; Neil Patil, Chai Discovery
-今年 1 月 JPM 医疗大会上一口气宣布了四笔 AI×制药工具交易，成立仅两年、OpenAI 参投、估值已达 40 亿美元的 Chai Discovery 是核心玩家。播客点出一个结构性转变：过去 AI-for-pharma 公司几乎都被迫转去自建药物管线，因为要说服药厂用你的工具，得先拿出经临床验证的靶点，那还不如自己拿着靶点去融资或卖掉；如今工具好到药物设计团队愿意直接信任，这条&quot;卖工具&quot;的路才第一次走通。工具够好带来两件事：把更多更优的候选分子更快推进实验室和动物试验，以及解锁实验室方法做不到的新能力（如精准触发特定机制的抗体设计）。
-🔗 https://www.latent.space/p/chai-discovery
-
-5. Don&apos;t Look Up
-Ed Zitron 甩出一组数字给 AI 繁荣泼冷水：据他汇总的 Wells Fargo、Barclays、UBS 分析师笔记，微软、谷歌、亚马逊 AI 收入的 70% 以上来自 OpenAI 和 Anthropic 两家；UBS 甚至估算明年这两家的算力开支将占 Google Cloud 全部收入的 48%。而规划中的 190GW 算力每年需要 1.62–2.92 万亿美元的 compute 支出，对应的却是一个最乐观情形下年需求仅约 1100 亿美元、且 90% 以上来自这两家&quot;只有被 VC 喂钱才花得起&quot;的公司的行业。他还点名 Nvidia 那笔 5000 亿美元交易里的资产管理人个个在 AI 数据中心/neocloud 有敞口（尤其 Blackstone 早在 CoreWeave 最早期就进场），并直言 1.65 万亿美元的表外义务无人解释。
-🔗 https://www.wheresyoured.at/dont-look-up/
-
-🐦 Twitter 精选（5 / 29）
-
-1. @_akhaliq：分享论文 SWE-Bench ProMax：一个面向&quot;大规模多语言代码重构&quot;的 Agent 评测基准，把 coding agent 的考核从单点修 bug 推向工程级重构。
-🔗 https://x.com/_akhaliq/status/2087026792972308750
-
-2. @Hesamation：Nvidia 已在做 Nemotron 4，据称参数超 1T、几乎是现有最大模型 Nemotron 3 Ultra 的两倍——芯片厂自己下场做开源模型的力度还在加码。
-🔗 https://x.com/Hesamation/status/2087164513405501879
-
-3. @godofprompt：Artificial Analysis 的 AA-Omniscience 基准显示 ChatGPT 幻觉严重：GPT-5.6 系列在答错时&quot;自信瞎猜而非承认不知道&quot;的比例高达 88%–93%（Ultra 最高）；但作者补充，这个差距很大程度取决于你怎么 prompt。
-🔗 https://x.com/godofprompt/status/2087101766416711920
-
-4. @godofprompt：自 2026 年 8 月 2 日起，每个新版 Claude 都会在文本里藏隐形水印，且水印会随复制粘贴迁移、经部分编辑仍可能留存——求职信、帖子、论文、邮件都可能被追溯到机器生成。
-🔗 https://x.com/godofprompt/status/2087230075867693316
-
-5. @godofprompt：Anthropic 出了一份完整指南教你如何为 Claude 构建 skills：一个装着指令的文件夹，构建一次、Claude 在相关时自动加载，省去反复解释你的工作流和风格，但大多数人还不知道它的存在。
-🔗 https://x.com/godofprompt/status/2087245171897594151
-
-📱 公众号精选（5 / 9）
-
-1. 深度｜电脑智能体超过人类基准，企业却开始为失败买单
-OSWorld-Verified 的数据显示，领先模型在真实桌面任务上的完成率一年内从约 42% 升到 85%，越过了约 72% 的人类基线——模型已经能看屏幕、点按钮、填表、切换系统，在没有接口的老软件里干真活。但文章的落点是另一面：企业买的从来不是一次基准测试。报销流程走到第七步失败，前六步都不算产出；保险申请显示&quot;已收到&quot;，两天后因为保单号有误停住，而智能体不会知道办公室接到过一通电话。85% 换个口径就是每一百个任务仍有十五个失败，单步任务能接受，七八步串联的流程会把失败率继续放大——每步 85%、连做五步全成的理论概率只剩约 44%（真实系统各步并不独立，这个算法不能当预测，但足以说明基准分为什么不能直接换算成自动化率）。生产团队给出的边界很清楚：最适合交给它的是标准化、重复、路径明确、且能立刻确认结果的活——更新客户记录、处理零售订单、查监管页面、录合同、解工单。
-🔗 https://mp.weixin.qq.com/s/HHYSkw6L59s-G~fQKvrXIw
-
-2. 三位哈佛辍学生，如何将专用芯片变成估值百亿美元的 AI 算力公司
-一篇关于 Etched 的研究分享。逻辑起点是推理正在取代训练成为算力主战场：训练负责造模型，推理是每次调用时真正跑的那部分，而随着应用生成的 token 越来越多、智能体反复调用，推理在 AI 成本里的占比持续上升。GPU 的长处是可编程加上成熟生态，但这种灵活性要用芯片面积、功耗和数据搬运来换；Etched 的判断是推理已经足够成熟和可预测，值得做更深的专用化，让每一美元、每一瓦电产出更多有用的 token。资本认了这个判断：2026 年 7 月红杉领投 3 亿美元 C 轮，估值 103 亿美元。三位创始人里，CEO Gavin Uberti 做过 AI 编译器基础设施、给 Apache TVM 写过 Cortex-M 后端，正是写底层代码的经历让他看到通用芯片的大量资源花在搬数据和维持灵活性上；Chris Zhu 主修数学与计算机，两人在 Uberti 休学期间隔天用视频推进这个宿舍里起步的项目；总裁 Robert Wachen 十六岁时被确诊四期骨癌、生存概率不足三成，在保命和保住行走能力之间选了手术，后来仍要接受放疗、花近两年重新学走路。
-🔗 https://mp.weixin.qq.com/s/veLZDwLoIAh0ERJFcqEL-w
-
-3. 深度｜17 个月估值 11 亿美元，一家独角兽的豪赌：把 AI 数据中心搬到太空
-Starcloud 在 2026 年 3 月完成 1.7 亿美元 A 轮，Benchmark 与 EQT Ventures 领投，估值 11 亿美元，累计融资 2 亿——从 Y Combinator 路演到独角兽只用了 17 个月，而彼时它还远未进入规模商业化。它要做的是把 AI 数据中心送进近地轨道，选太空的三个理由是持续太阳能、天然散热和不受限的扩展空间；对外讲的四代产品不是四颗卫星，而是一张通往吉瓦级轨道数据中心的技术路线图。文章把它放在更大的背景里：国际能源署预测到 2030 年全球数据中心用电需求将翻倍以上，达到约 945 太瓦时，略高于日本目前一年的总用电量，而人工智能是这一增长的主要驱动力。SpaceX、Blue Origin、Google 也已先后进入这个赛场。
-🔗 https://mp.weixin.qq.com/s/rNIyJlw3k6ba90EcqTWK0Q
-
-4. 速递｜前 OpenAI 研究员创办 Applied Compute，四个月估值翻倍至 30 亿美元，成立一年年化收入 5000 万
-成立仅一年，正在洽谈的新一轮估值约 30 亿美元，是四个月前的两倍多；年化收入约 5000 万美元，比去年 11 月增长近四倍，Elad Gil 在洽谈领投。它做的是帮企业用自己的数据定制开源模型——文章点明了这轮增长的背景：越来越多企业想靠定制开源模型压低 AI 成本，而不是继续为闭源模型持续付费，同一趋势也在带动 OpenRouter、Baseten、Fireworks 这类公司。
-🔗 https://mp.weixin.qq.com/s/hyZ6mvhG0mPpH-wj9BNXIA
-
-5. 速递｜用 Agent 寻找芯片散热材料，AI 材料发现初创 Discovered Materials 获 900 万美元种子轮
-从 Y Combinator 毕业后完成 900 万美元种子轮，Lightspeed India 领投，Peak XV 及 Paul Graham 等天使跟投。做法是用大量 Agent 集群生成候选材料方向，再用自训的基础物理模型跑仿真验证。创始人那句对比很具体：读博期间一天大概只能做 20 次猜测尝试，而现在这些 Agent 在云端 24 小时不停地沿着给定方向持续探索。
-🔗 https://mp.weixin.qq.com/s/uLAauoXgNsJjXb1SCkE3oQ
-
-📖 查看完整日报（50 篇）→ https://news.justin7974.dev/2026-08-12.html</description>
     </item>
   </channel>
 </rss>
