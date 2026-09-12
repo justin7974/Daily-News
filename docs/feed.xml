@@ -5,8 +5,56 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 11 Sep 2026 00:20:02 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 00:14:30 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #702 | 2026-09-12</title>
+      <link>https://news.justin7974.dev/2026-09-12.html</link>
+      <guid>https://news.justin7974.dev/2026-09-12.html</guid>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 14 条推文 · 0 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. Tencent-backed Enflame Triples on Debut as China Pushes for Chip Self-sufficiency
+燧原科技（Enflame）科创板上市首日大涨，开盘价 410 元、较发行价接近翻三倍，IPO 募资约 61.2 亿元人民币（9.11 亿美元）。这家腾讯投资的国产 AI 芯片公司定价火爆，反映资本对英伟达国产替代标的的强烈需求。上市正值中国全力推进芯片自主可控之际。
+🔗 https://www.theinformation.com/briefings/tencent-backed-enflame-triples-debut-china-pushes-chip-self-sufficiency
+
+2. Oracle Keeps a Lid on Capex as Customers Pay Up-Front
+甲骨文在截至 8 月 31 日的季度录得 30% 营收增长，略超 6 月自身指引，盘后股价涨 4.4%。与同行大举扩张资本开支不同，甲骨文对 capex 保持克制，靠客户预付款（up-front）支撑 AI 云需求。Larry Ellison 的软件云业务正明显受益于 AI 算力需求的强劲。
+🔗 https://www.theinformation.com/articles/oracle-keeps-lid-capex-customers-pay-front
+
+3. Exclusive: Salesforce to Drop &apos;Agentforce&apos; Branding From Some Products
+据两位直接知情人士，Salesforce 在下周年度 Dreamforce 大会前，正把部分核心产品名称中的&quot;Agentforce&quot;字样去掉。此前公司曾把 Agentforce 打造成整个产品体系的核心卖点，这次是一次明显的品牌回调。
+🔗 https://www.theinformation.com/briefings/exclusive-salesforce-drop-agentforce-branding-products
+
+4. For Startups Facing the AI Safety Uproar, Cybersecurity Looms Larger than Existential Risk
+本周 AI 安全争议（吹哨人、p(doom) 恐慌）之下，Newcomer 给创业者的实用判断是：把它当成一个网络安全问题。前沿模型极擅长发现与修补（或利用）系统漏洞，网络防御正成为 OpenAI 和 Anthropic 的一条重要新业务线——恰逢它们需要在 IPO 前维持高增长、而编程等成熟品类开始显现天花板。Modal 创始人 Erik Bernhardsson 等已用模型部分替代昂贵的外部安全顾问。文中还提到 Ramp 数据显示 8 月人均 AI 支出环比回落。
+🔗 https://www.newcomer.co/p/for-startups-facing-the-ai-safety
+
+5. Open-Source AI &amp; Open Models Reading List
+Nathan Lambert 整理了近几年关于开放权重模型的最佳文章清单，覆盖开源战略（引用 Bill Gurley、扎克伯格）、开放 vs 封闭的经济学（Christian Catalini）、&quot;开源模型永远在追赶&quot;的性能规律，以及中国模型（Kimi K3、GLM-5.2）对生态的冲击。核心判断是：开放与封闭模型走在不同的指数曲线上，开放模型将作为封闭前沿模型的补充，在企业定制化 Agent 工作流中捕获价值。
+🔗 https://www.interconnects.ai/p/open-source-ai-reading-list
+
+🐦 Twitter 精选（5 / 14）
+
+1. @Hesamation：Kimi K3 发布后月之暗面（Moonshot）增长凶猛：年化销售额两个月内从 3 亿美元飙到 10 亿美元，并预计年底达到 20 亿美元。
+🔗 https://x.com/Hesamation/status/2098351057122271468
+
+2. @shao__meng：OpenAI 把 Codex 的 Agent Harness 产品化为 Agents API：开发者一次调用即可创建由 OpenAI 托管、能在云端连续工作数天的生产级 Agent，编排层交给 OpenAI，开发者只定义差异化能力和运行环境。
+🔗 https://x.com/shao__meng/status/2098226991707357384
+
+3. @shao__meng：公开基准被刷爆后 Cursor 推出私有基准 CursorBench 4.0：Claude Fable 5.1、Opus 5 最贵但确实最强，GPT-6 Astra 拒绝参评，Grok 4.6 表现平平且更贵。基准通过&quot;从真实会话反向出题&quot;并定期换题库防泄漏。
+🔗 https://x.com/shao__meng/status/2098203246246629560
+
+4. @emollick：METR 长任务基准已基本饱和（Epoch 发现 Fable 之前的 Agent 已能完成相当于人类 18 周的工作），Frontier Math、ARC-AGI 也相继饱和，他追问：现在还有什么定量图表能刻画当前的指数级进展曲线。
+🔗 https://x.com/emollick/status/2098534460996075568
+
+5. @Hesamation：有人从某头部中国 LLM 路由商处买到一份 6TB 的数据集，里面含 VPN 配置、SSH 密钥和各类 token，售价五位数——暴露出 AI 中间层的数据安全隐患。
+🔗 https://x.com/Hesamation/status/2098366378348581271
+
+📖 查看完整日报（26 篇）→ https://news.justin7974.dev/2026-09-12.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #701 | 2026-09-11</title>
       <link>https://news.justin7974.dev/2026-09-11.html</link>
@@ -1236,72 +1284,6 @@ AI 代码审查平台 CodeRabbit 完成 1.43 亿美元融资、估值达 15 亿�
 🔗 https://mp.weixin.qq.com/s/C~QN-DQ0wXkCl1tvAI5gtw
 
 📖 查看完整日报（46 篇）→ https://news.justin7974.dev/2026-08-14.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #672 | 2026-08-13</title>
-      <link>https://news.justin7974.dev/2026-08-13.html</link>
-      <guid>https://news.justin7974.dev/2026-08-13.html</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 21 条推文 · 4 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. [AINews] How to steal a Reasoning Trace
-一篇突破当日头条的论文：研究者发现所有前沿厂商的 API 都存在同一个漏洞，可以把 Claude/GPT/Gemini &quot;加密&quot;的隐藏推理链解码出来，并验证还原出的 token 数与账单里的 thinking token 1:1 对得上。手法是把一个合法的签名推理块&quot;重放&quot;给同厂商的更弱模型（如 Claude → Haiku 4.5），再提示它把附带的推理&quot;抄写&quot;出来。危害有两层：一是能把前沿模型的推理蒸馏进开源/更弱模型；二是隐私泄露——对约 7000 条公开分享的 trace 扫描，翻出 62 个 API key、33 个邮箱、33 个密码，其中 64 项只藏在推理块里、在可见会话中根本看不到。漏洞已负责任披露、部分修复，但&quot;关掉 thinking、改用一个 deep_think 工具&quot;的绕过思路说明很难根治。
-🔗 https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace
-
-2. I wrote an AI textbook — how long until AI can do it better?
-Nathan Lambert 抛出一个来自前沿内部的逆向信号：模型在编程和数学上已经超人，却在长篇非虚构写作上停滞——如今公认&quot;写得好&quot;的模型（GPT-4.5、Kimi K2）反而是老模型。他刚写完一本 RLHF 教材（用 LLM 做 LaTeX、文字校对和画图，但正文自己写），结论是模型在长篇技术写作里&quot;增加熵&quot;：单句能对，但整章就会组织混乱、还随手塞进概念错误。他的核心论点是：组织知识本身是一种压缩，压缩是产生洞见的前提；如果模型连把已成型的科学清晰讲出来都做不到，指望它自主解决开放科学问题就为时过早。他仍然乐观，但认为近期 AI 对科学的贡献是&quot;摘低垂果实 + 连接远距离领域&quot;，而非革命性洞见。
-🔗 https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until
-
-3. What It Takes to Get Paid
-a16z 的数据专栏（数据来自做 B2B 催收 agent 的 Stuut），拆解企业收账的经济学：2025 年底美国非金融企业躺着 7.2 万亿美元的应收账款，平均延迟每多一天就是约 1500 亿美元的代价。核心结论是 DSO（应收账款周转天数）这个 CFO 被考核的指标近乎失效——两家 DSO 同样&quot;体面&quot;落在 40 多天的公司，最慢那 10% 的账单可能一家当天到账、另一家拖 599 天。而且钱高度集中：最大的 10% 逾期账单占了约 66% 的逾期金额，所以催收是&quot;搜索问题&quot;而非&quot;苦力活&quot;。另外，一半的付款承诺会被违背，但守信和违约的客户之后都以 41 天中位数付款——承诺几乎不含任何信号，你只能不停地催。
-🔗 https://www.a16z.news/p/what-it-takes-to-get-paid
-
-4. Anthropic&apos;s Watermarking, How It (Probably) Works, Worse Than It Seems
-Ben Thompson 批评 Anthropic 为应对欧盟 AI 法案给 Claude 输出加隐形水印，认为这从根本上（哲学层面）就是个坏主意，且技术上比看起来更脆弱、更没用。（注：原文为付费墙，此处仅基于可见的标题与开篇论点。）
-🔗 https://stratechery.com/2026/anthropics-watermarking-how-it-probably-works-worse-than-it-seems/
-
-5. Anthropic CEO整天神神叨叨，投资人受不了了
-Polymarket 预测 Anthropic 或于 10 月底 IPO、有投行估计募资超 600 亿美元（将成仅次于 SpaceX 857 亿的全球第二大 IPO）；但投资者开始受不了 CEO Dario 整天预警&quot;AI 毁灭世界&quot;，希望他少讲末日、多讲怎么赚钱。
-🔗 https://www.qbitai.com/2026/08/471162.html
-
-🐦 Twitter 精选（5 / 21）
-
-1. @_akhaliq：分享论文 BDH-CQ：用循环隐式推理（recurrent latent reasoning）做上下文学习（in-context learning），把推理放进隐空间循环而非显式展开。
-🔗 https://x.com/_akhaliq/status/2087591432697651424
-
-2. @Hesamation：传 Grok 4.7 将在 3-4 周内发布，模型比 Grok 4.6 更大、且号称在各方面都更强——xAI 的迭代节奏还在加速。
-🔗 https://x.com/Hesamation/status/2087626951481507986
-
-3. @karminski3：实测刚发布的 DeepSeek-V4-Pro-0813 疑似有问题：reasoning_effort=max 时在长程 Agentic Coding 任务下更爱&quot;早停&quot;，50 轮测试里两次在 42-43 轮就停手、成绩甚至没打过 GLM-5.1，怀疑是奖励机制或长上下文注意力衰减。
-🔗 https://x.com/karminski3/status/2087602210649895354
-
-4. @shao__meng：拆解 SpaceXAI 的 Grok Bot：拥有自己的电脑环境、能像真人一样登录 Zendesk/CRM 直接交付&quot;已完成的工作&quot;，异步 7×24 运行、可并行开多个 Bot 分管不同职能，还能&quot;观摩一次&quot;就把流程存成可复用 routine。
-🔗 https://x.com/shao__meng/status/2087358474456051737
-
-5. @shao__meng：用 Codex 后的两声&quot;卧槽&quot;：一是 Computer Use 能力真强，二是 Computer Use 真费 token。
-🔗 https://x.com/shao__meng/status/2087510078962405881
-
-📱 公众号精选（4 / 4）
-
-1. Manus 第二季，浪子回头
-8 月 11 日晚，Manus 官网那句挂了小半年的&quot;已成为 Meta 的一部分&quot;改成了&quot;即将恢复独立运营&quot;——从被 Meta 以超 20 亿美元收购（Meta 史上第三大并购、仅次于 WhatsApp 和 ScaleAI）到确认拆分，不到八个月，中间被中国发改委 4 月 27 日禁止投资、要求撤销交易。戏剧性的是，被审查、收购悬置的这三个月里 Manus 收入反而增长约 5 倍、日营收从 30 万美元涨到近 150 万、一度超过 DeepSeek，ARR 首次突破 3 亿美元，150 人团队零流失。此前保持距离的 VC 如今又开始排队，准备参与其恢复独立后的首轮融资（一度传腾讯将控股）。2.0 版本已开发完，将在交易彻底撤销后发布。
-🔗 https://mp.weixin.qq.com/s/oAnkDPCE1fuDW7rciTYmjg
-
-2. 认识下「微信大模型」：WeLM
-微信（腾讯）亮出自研大模型 WeLM，一次两款、均为 MoE 架构：WeLM-80B（80B 总参数、3B 激活）和 WeLM-617B（617B 总参数、23B 激活）。其中 80B 版本已部署到微信智能体&quot;小微&quot;，支持对话与搜索、操作微信原生功能、并调用小程序服务；617B 版本仍在开发中，主打用相对适中的激活参数增强通用理解与推理。（注：原文为图文帖、正文以图片为主，此处基于文中公开披露的规格与部署信息。）
-🔗 https://mp.weixin.qq.com/s/Y1SjSwr2BFLQeq7JNn-Ppw
-
-3. Seedance 2.5自绝于网民
-实测字节 Seedance 2.5：画质确实解决了 2.0 的大部分老毛病（皮肤像真人、有微表情、多人背景可控、自动生成的 BGM/音效贴合剧情），但价格翻倍到肉疼——即梦上生成 720P/15 秒要 390 积分、做一条 30 秒视频约 390 元，而 Kling 3.0 Omni 同时长约 135 元、MiniMax H3 约 75 元；作者判断在全行业定价腰斩时它独不降，已被价格钉死成&quot;非民用级&quot;生产力工具，而真正看 AI 短剧的观众根本不在意画质。
-🔗 https://mp.weixin.qq.com/s/ZflamTwwX76nXqVvpxE8hg
-
-4. 从0开始，12步学会用好AI
-面向纯小白的 12 步&quot;用好 AI&quot;上手流程，值得注意的是它给出的默认心法已高度 agent 化：直接用 Codex（或国内 WorkBuddy）、全程语音输入、让 AI 先用苏格拉底提问法问清需求、把整个文件夹丢给它自动完成、最后把跑通的流程沉淀成可复用的 Skill——反映大众 AI 用法正从&quot;聊天问答&quot;转向&quot;托付任务给 agent&quot;。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/62xZggROULpk34p2P7~TnA
-
-📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-08-13.html</description>
     </item>
   </channel>
 </rss>
