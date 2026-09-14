@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 13 Sep 2026 00:16:03 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 00:22:48 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #704 | 2026-09-14</title>
+      <link>https://news.justin7974.dev/2026-09-14.html</link>
+      <guid>https://news.justin7974.dev/2026-09-14.html</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 19 条推文 · 9 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. Anthropic, OpenAI, Google Quietly Discussed an AI Safety Standards Body
+Anthropic、OpenAI 和 Google 已就联手组建一个 AI 行业标准机构展开讨论，而且早在 Anthropic CEO Dario Amodei 周六公开呼吁 AI 公司协同做测试与审计之前，这些接触就已在进行。OpenAI CEO Sam Altman 本周在全员会上表态支持设立一个测试与审计组织。换句话说，三家最激进的前沿实验室，正把&quot;谁来定义安全标准&quot;这件事从公开喊话推向制度化的桌面。
+🔗 https://www.theinformation.com/articles/inside-ai-industrys-behind-scenes-push-police
+
+2. Nvidia&apos;s Growing Dependence On a Few Big Customers
+Nvidia 的销售正越来越集中在少数几家大客户身上，而其中一部分客户未来可能削减采购——这正是黄仁勋要通过投资各类 neocloud 和 AI 公司来培育新客户的根本原因。从 Nvidia 历年财报里&quot;贡献超 10% 销售额的客户数量&quot;这项披露，就能清楚看到这条依赖曲线在变陡。
+🔗 https://www.theinformation.com/articles/nvidias-growing-dependence-big-customers
+
+3. Why Amazon and Microsoft Are Taking Communities&apos; Side Against Utilities
+Amazon、Microsoft、Oracle 等 AI 数据中心开发商正在给地方政府和监管方开出更优厚的财务条件以换取新建审批，同时也越来越懂得站到消费者一边、反对那些想让公众分摊新增电力负荷成本的电力公司。但巨头仍面临多年的地方拉锯——不少活动人士对这些钱无动于衷，反而加大反对力度。
+🔗 https://www.theinformation.com/articles/amazon-microsoft-taking-communities-side-utilities
+
+4. AI&apos;s &apos;Pacing&apos; Obsession Misses Real Political Problem
+Dario Amodei 习惯把自己最高风险的表态都通过个人网站 darioamodei.com 的长文发布，这套&quot;媒介即讯息&quot;的打法被证明是极高明的媒体策略。而 The Information 认为，整个行业对&quot;为前沿踩刹车&quot;（pacing）的执念，恰恰掩盖了它背后真正的政治问题。
+🔗 https://www.theinformation.com/articles/ais-pacing-obsession-misses-real-political-problem
+
+5. AI is breaking our proxies for expertise
+近 5000 名数学家（含 25 位菲尔兹奖得主）签署了名为《A Severe Misalignment of AI in Mathematics》的声明。Sean Goedecke 认为不能简单把它当成又一个被自动化的行业在抱怨。他把数学分成两类：外行能感知、因而&quot;高可见度高声望&quot;的&quot;解题&quot;（puzzle-solving），和真正的智力工作即&quot;造概念&quot;（idea-generating）。过去解题之所以有价值，是因为它需要新思想、从而成为新思想有用的证据；而 AI 现在能&quot;硬解&quot;这些难题，等于同时废掉了&quot;解题作为奖励机制&quot;和&quot;解题作为让外行看懂专业价值的信号&quot;这两个功能。
+🔗 https://seangoedecke.com/ai-is-breaking-our-proxies-for-expertise/
+
+🐦 Twitter 精选（5 / 19）
+
+1. @shao__meng：shao__meng 分享 gauri__gupta 为头部 AI 实验室技术面试整理的 MLSys 笔记：按&quot;面试会问什么&quot;把大模型系统知识压成一张地图，涵盖 Flash Attention、MQA/GQA、Activation Checkpointing 等显存与 KV Cache 优化，以及投机解码、ZeRO、DualPipe 等训练/推理核心考点。
+🔗 https://x.com/shao__meng/status/2099281275370754227
+
+2. @shao__meng：shao__meng 介绍宾夕法尼亚大学公开的「World Models」课程讲义：回应&quot;仅靠文本训练 LLM 学不到世界全部知识&quot;的新共识，围绕表征、预测、交互三条主线教模型学会&quot;预测世界下一步&quot;——这也是 LeCun、李飞飞等指向的通往更强智能的路径之一。
+🔗 https://x.com/shao__meng/status/2099275387595592189
+
+3. @shao__meng：shao__meng 拆解 NVIDIA 官方「NIM LLMs Benchmarking 2.0.0」指标体系：围绕 prefill/decode 两阶段，讲清 TTFT（首 token 延迟，主要由 prefill 决定）等延迟指标，并点出并发场景下因 continuous batching，指标表现与单请求串行测试差别很大。
+🔗 https://x.com/shao__meng/status/2099103097348100552
+
+4. @shao__meng：shao__meng 分享阿里巴巴内部打磨两年、现已开源的 AI 代码审查工具 Open Code Review（Go 编写的 CLI，命令 ocr）：用&quot;确定性工程 × Agent&quot;多阶段流水线，解决通用 Agent 做代码审查时漏审、位置漂移、质量不稳三大顽疾，输出行级精确定位的意见。
+🔗 https://x.com/shao__meng/status/2098934481390625058
+
+5. @EXM7777：EXM7777 展示 GPT-Images 2.5 在 AI UGC（用户生成内容）场景的生成效果，认为其能力&quot;相当夸张&quot;，并附上示例视频。
+🔗 https://x.com/EXM7777/status/2099136273323819060
+
+📱 公众号精选（5 / 9）
+
+1. AI 让 Airtable/Miro 估值暴跌，但也让一内容产品年增 2.5 亿美金 ARR
+AI 正在系统性摧毁上个时代的百亿美金 SaaS：最高估值曾达 117 亿美金的 Airtable 以 13 亿卖身，曾达 175 亿美金的 Miro 以 14 亿被同一买家 Bending Spoon 收购，两者估值均缩水约 90%，Canva 也主动把估值从 420 亿下调到 349 亿。作者的判断是，Agent 让&quot;人通过 GUI 操作软件&quot;这件事的价值坍塌，SaaS 从&quot;工作发生的地方&quot;退化为&quot;一个更方便的人类操作界面&quot;，定价权被永久压低。但反例同样鲜明：能成为 AI 工作流基础设施、有网络效应或数据生态的公司（如 Linear 逆势估值翻倍到约 25 亿、Notion 六成 ARR 来自 AI）依然拿到高估值，还有一家内容公司靠 AI 把成本降低近 80 倍、一年 ARR 增长 2.5 亿美金。
+🔗 https://mp.weixin.qq.com/s/r9A-WVxf83Vy3F6uQD4qIQ
+
+2. Gavin Baker：所有人都在等 AI 泡沫，但算力还是不够
+Atreides 创始人兼 CIO Gavin Baker 是 AI 算力的坚定多头：他今年 7-8 月反复追问接触到的 AI 公司&quot;能不能给出一个正在恶化的量化经营指标&quot;，至今没找到。关键反差是——真正高强度用 AI 的人可能还不到千万，但算力供给已经受限；企业内部 AI 使用呈幂律分布，最激进的工程师 token 消耗是中位数的 10-100 倍，他自己的基金 3 到 8 月 token 消耗涨了约 100 倍。他估算 Nebius 部分算力项目回收期仅 9-10 个月，&quot;投入数百亿还能一年内回本&quot;的机会极罕见；真正的约束正从资本转向铜、电力、晶圆和施工等物理世界，到 2028 年前后算力仍可能紧张。他还判断这是个&quot;And 而非 Or&quot;的市场，未必赢家通吃。
+🔗 https://mp.weixin.qq.com/s/mv6EAjQ-oeg44ewQEEqoXQ
+
+3. 让AI替理发店和4S店接电话，这家公司14个月做到200家客户
+马德里公司 HeyDiga 完成 550 万欧元（约 640 万美元）种子轮（6dc 领投，K Fund 等参投），成立仅 14 个月做到 200+ 客户，覆盖西/法/意，每月处理数十万通电话，78% 对话无需人工介入、解决率 85.3%（均为公司自报）。它替理发店、4S 店、诊所、餐厅、房产中介这类&quot;电话仍是主要进单渠道、但接电话的人还在忙别的&quot;的小生意接电话，切的是每天都在漏、老板却说不清漏了多少的钱。关键设计是把同一套能力拆成 DigaLook/DigaMotor/DigaClinic 等五个行业版本，各自对接本地行业软件（官网列出 28 个集成对象，绝大多数是西班牙本地系统）——第二家同行客户可复用第一家的对接工作，这既是它快速铺到 200 家的原因，也是一道很实在的本地化门槛。
+🔗 https://mp.weixin.qq.com/s/Jnby8t31I4QQHq-IZgIoJA
+
+4. 一个27岁的AI研究员从Anthropic辞职了，因为他担心AI会导致人类灭绝
+27 岁、数学背景的英国研究员 Jacob Coxon 从 Anthropic 辞职，发出一条流量破 1 亿的推文：他先后在 OpenAI（GPT-4o 贡献者、GPT-4.5 核心贡献者）和 Anthropic 做最核心的预训练，如今因担心两家正朝&quot;能自我改进的超级智能&quot;狂奔、拿所有人的生命下赌注而离开，甚至打算彻底退出 AI 行业。Anthropic 的对齐负责人公开支持他，称其判断正确、&quot;10 年内发生的概率大于 10%&quot;；另一位安全研究员以个人身份声援，并观察到&quot;公司里职位越高的人反而越担心&quot;。作者由此重读 2015 年 Tim Urban 的《The AI Revolution》，感慨这代人正亲历文明的指数拐点——从 GPT-6 Astra 自主操作陌生软件，到 Claude 用 11 天把费马大定理形式化。
+🔗 https://mp.weixin.qq.com/s/n1mKHUEIRDu7V-WG-wpM2Q
+
+5. 喝点VC｜YC总裁Garry Tan：不要追热点，AI让个人能力放大400倍，创业者要比任何时候都更有野心
+YC 总裁 Garry Tan 在访谈中主张创业者不要追热点，认为 AI 已把个人能力放大约 400 倍，因此这个时代的创业者应比以往任何时候都更有野心。
+🔗 https://mp.weixin.qq.com/s/XyJdXvPTiWUAG~XGSFE~YQ
+
+📖 查看完整日报（40 篇）→ https://news.justin7974.dev/2026-09-14.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #703 | 2026-09-13</title>
       <link>https://news.justin7974.dev/2026-09-13.html</link>
@@ -1214,54 +1284,6 @@ Cursor 人才负责人 Adam Ward（其联合创办的招聘公司 Growth by Desi
 🔗 https://mp.weixin.qq.com/s/yqMO4LtvGdlVwdHlNxyr6Q
 
 📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-08-16.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #674 | 2026-08-15</title>
-      <link>https://news.justin7974.dev/2026-08-15.html</link>
-      <guid>https://news.justin7974.dev/2026-08-15.html</guid>
-      <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
-      <description>今日共 13 篇 RSS · 24 条推文 · 0 篇公众号
-
-📰 RSS 精选（5 / 13）
-
-1. GLM-5.3: How Chinese labs keep stride with the frontier
-Z.ai 发布 GLM-5.3，在多项 agentic coding 基准上超过 Moonshot 的 Kimi K3，部分项目追平 Claude Fable 5 / GPT-5.6-Sol——而参数量只有约 750B，是 Kimi K3 的三分之一。Nathan Lambert 强调这不是蒸馏故事：GLM-5.3 与 GLM-5.2 共用同一个基座，全部提升来自后训练的持续加码，Z.ai 官方博客第一句就是&quot;我们做的只有 scaling post-training&quot;。他判断 Z.ai 在后训练上的积累已成为区别于其他中国实验室的强项，且 Zhipu 从 2019 年成立以来做这条模型线的时间比业内几乎所有人都长。
-🔗 https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride
-
-2. Cursor + SpaceXAI: the fastest iterating team wins
-Cursor（Anysphere）正式被 SpaceX 收购并入 SpaceXAI。a16z 借此抛出一个判断：AI coding 可能是这代人最大的市场，目前渗透率大约只有 1%；在&quot;最聪明的团队 / 资源算力最多的团队 / 迭代最快的团队&quot;三选一里，历史经验站在迭代最快的一方。文章回顾 Cursor 从做 AI 邮件客户端和 CAD 工具起步，2023 年转向代码编辑器，靠产品口碑成为史上最快到 1 亿美元 ARR 的软件公司，四个 MIT 辍学生做出全球最热的创业公司之一。
-🔗 https://www.a16z.news/p/cursor-spacexai-fastest-iterating-team
-
-3. Charts of the Week: Head In The Neoclouds
-neocloud（CoreWeave 等）正在重演历史上&quot;旧基础设施被重新定价给新技术&quot;的剧本——就像铁路的通信走廊变成 Sprint、天然气管道变成 WilTel、有线电视同轴电缆升级成宽带。这批公司原本做加密货币挖矿，手里的电力权、机房和 GPU 运维能力，正好接上 AI 算力需求；三家最大的上市 neocloud 收入增速远超当年云计算三巨头的早期。本期还讨论了横向 SaaS 的回归、token 使用的效率前沿、以及实验室之间的人才争夺。
-🔗 https://www.a16z.news/p/charts-of-the-week-head-in-the-neoclouds
-
-4. Thrive Capital Finds its Lane as a New Kind of Venture Investor
-Thrive 的 AI roll-up 载体 Thrive Holdings 以 120 亿美元估值完成 20 亿美元外部融资，投资方包括软银、Altimeter、D1；同时 Josh Kushner 联手 Bob Iger 买下洛杉矶湖人。Thrive 已从&quot;轮次不限、四处挤进别人份额&quot;转型为三条清晰主线：偏传统成长/早期的 Thrive X（90 亿成长 + 10 亿早期）、投资企业内部 AI 转型的 Thrive Holdings（OpenAI 反向持股、员工可参与）、以及体育等另类资产。文中还提到 Kushner 作为 Jared 之弟与特朗普政府的特殊接近性。本周同时有 xAI 联创 Igor Babuschkin 募 11 亿、Accel 募 35 亿早期、Brad Lightcap 离开 OpenAI。
-🔗 https://www.newcomer.co/p/thrive-capital-finds-its-lane-as
-
-5. 2026.33: The CapEx Train Keeps Rolling
-Ben Thompson 提出一个被算力和电力短缺讨论掩盖的问题：如果 AI 真正短缺的是资本怎么办？如果 AI 像看上去那么有价值，它本该自己付得起账，但到现在还没做到。本周 Nvidia 宣布了一种新的融资机制去接入长久期资本，叠加 Google 带头用股权融资，可能搭起通往可持续 AI 收入的桥；但这类金融工程也在为了保住 Nvidia 受威胁的利润率而扩大泡沫的爆炸半径。本期 bundle 另含欧盟强制 AI 输出标注的争论、以及纽约与好莱坞网络效应的对比。
-🔗 https://stratechery.com/2026/the-capex-train-keeps-rolling/
-
-🐦 Twitter 精选（5 / 24）
-
-1. @cursor_ai：Cursor 正式完成被 SpaceX 收购，并入 SpaceXAI 团队，接下来将参与改进 Grok、Grok Build、Grok Bot、Grok API 和 Cursor。
-🔗 https://x.com/cursor_ai/status/2088249881718919393
-
-2. @EXM7777：认为今天标志着 SpaceXAI 正式加入前沿模型竞赛，Grok 4.6 又聪明又快还极其便宜，这是他第一次要在多个重任务工作流里大量使用 Grok。
-🔗 https://x.com/EXM7777/status/2088324525515792523
-
-3. @shao__meng：GLM-5.3 只有 743B、与 5.2 共用基座，全部提升来自后训练规模化（IndexShare、SAO、slime 框架），在复杂编码、长程任务和网络安全上出现了团队自己都没完全预期的能力跃升。
-🔗 https://x.com/shao__meng/status/2088188409336795484
-
-4. @karminski3：GLM-5.3 在 Terminal Bench 3.0 上分数翻了 6 倍，他据此判断该模型在面对黑盒 API、命令行报错、自己写 prompt 的复杂真实环境里，架构规划能力会非常强。
-🔗 https://x.com/karminski3/status/2088236512332902559
-
-5. @Hesamation：指出 GLM 5.3 专门针对编码和网络防御做了训练，而 Anthropic、OpenAI 却把网络防御能力放在安全限制之后。
-🔗 https://x.com/Hesamation/status/2088163385863000394
-
-📖 查看完整日报（37 篇）→ https://news.justin7974.dev/2026-08-15.html</description>
     </item>
   </channel>
 </rss>
