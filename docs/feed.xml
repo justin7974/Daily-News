@@ -5,8 +5,74 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 14 Sep 2026 00:22:48 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 00:19:08 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #705 | 2026-09-15</title>
+      <link>https://news.justin7974.dev/2026-09-15.html</link>
+      <guid>https://news.justin7974.dev/2026-09-15.html</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+      <description>今日共 13 篇 RSS · 17 条推文 · 4 篇公众号
+
+📰 RSS 精选（5 / 13）
+
+1. Defense Startup Shield AI in Talks for Valuation of at Least $20 Billion
+国防 AI 公司 Shield AI 正洽谈一轮估值至少 200 亿美元的新融资，较五个月前再涨约 60%。这家成立 11 年的公司靠一套名为 Hivemind、用于协同无人机与飞行器的 AI 软件持续拿下军方合同，本轮融资正是踩着这些订单兑现的节奏推进。
+🔗 https://www.theinformation.com/articles/defense-startup-shield-ai-talks-valuation-least-20-billion
+
+2. OpenAI&apos;s &apos;Top Priority&apos; for AI Agents is Automating AI Research, Says Noam Brown
+OpenAI 研究科学家 Noam Brown 直言，尽管 GPT-6 Astra 在设计游戏、转录乐谱等各类专业任务上都有提升，公司训练新模型的头号目标其实是让模型更擅长 AI 研发本身——&quot;第一优先级是递归自我改进（RSI），而且领先第二名相当大的差距&quot;。
+🔗 https://www.theinformation.com/articles/openais-top-priority-ai-agents-automating-ai-research-says-noam-brown
+
+3. Why China&apos;s Answer to Surge AI Got a $1 Billion Valuation On Just $30 Million in Orders
+一家对标 Surge AI 的中国数据标注公司，在仅有约 3000 万美元订单的情况下拿到了 10 亿美元估值。The Information 用这个 30 余倍的&quot;估值/订单&quot;倍数点出：资本对&quot;AI 训练数据&quot;这一环节的下注，已经远远跑在真实营收前面。
+🔗 https://www.theinformation.com/articles/chinas-answer-surge-ai-got-1-billion-valuation-just-30-million-orders
+
+4. Humanity&apos;s Last Invention — Richard Socher of Recursive
+NLP 元老、You.com CEO Richard Socher 从前沿模型业务中拆分出新公司 Recursive，专注递归自我改进（RSI），已完成 46.5 亿美元种子轮、估值约 50 亿美元。他的愿景是造一台&quot;尤里卡机器&quot;——能改进&quot;发明&quot;这一过程本身的超级智能。早期结果包括：一套 AI 研究系统在不到两天内于优化任务上超过了人类及其 agent，并在没有 CUDA 专家团队的情况下改进了 NVIDIA GPU kernel；他还网罗了一批全球顶尖的开放式演化（open-endedness）与自我改进 agent 研究员。
+🔗 https://www.latent.space/p/recursive
+
+5. Pacing the Frontier, AI&apos;s Digital Limits, AI Commissars
+Stratechery 的 Ben Thompson 直接开炮：Dario Amodei&quot;为前沿踩刹车&quot;的提议既不现实，其真实指向更像是对 AI 的政治控制。他把这套&quot;限速 + 设立监督者&quot;的组合形容为可能催生&quot;AI 政委&quot;（AI Commissars）——由少数人掌握&quot;什么该被放行&quot;的裁量权。
+🔗 https://stratechery.com/2026/pacing-the-frontier-ais-digital-limits-ai-commissars/
+
+🐦 Twitter 精选（5 / 17）
+
+1. @Hesamation：援引 Anthropic 新博客的一组数字：工程师如今产出代码是过去的 8 倍，80% 的代码由 Claude 编写，半年内 CI 任务量涨 25 倍、测试涨 10 倍。瓶颈已从&quot;写代码&quot;转向&quot;验证代码&quot;，Thariq 更称测试代码量应是以往的 100 倍。
+🔗 https://x.com/Hesamation/status/2099644937289523317
+
+2. @shao__meng：苹果正式发布由下一代 Apple Intelligence 驱动的对话式 Siri AI，随 iOS 27 推出。两个关键信号：底层模型与 Google Gemini 合作构建，以及 AI 功能首次引入用量限制、未来将收费；能力上主打跨应用个人上下文、屏幕感知与系统级第三方应用操作。
+🔗 https://x.com/shao__meng/status/2099641395355246627
+
+3. @shao__meng：拆解今年 AI 圈最火的 FDE（前线部署工程师）岗位：Vinoo Ganesh（曾在 Palantir、Citadel 三次从零搭 FDE 团队）指出，九成团队把它做成了咨询甚至外包，真正的价值在于把前线认知回流到平台、让下一次部署更快——FDE 应是产品团队的延伸，而非换了头衔的驻场顾问。
+🔗 https://x.com/shao__meng/status/2099646187326648825
+
+4. @shao__meng：从一线视角讲清楚大厂超级 App（美团、淘宝、微信这类）做 AI 入口有多难：主推理模型反而好定，真正难的是最前端的意图识别和十几个自训垂类模型，一轮后训练 2-3 个月、期间基座又升级形成两难；而比技术更难的是大厂跨团队跨部门的权责协调。
+🔗 https://x.com/shao__meng/status/2099425944373198964
+
+5. @shao__meng：基于 METR、GDPval、DeepScholar-Bench 三篇论文，拆解智能体评测的三个要素——任务时长、经济价值与结果可信度，串起斯坦福 CS329A《自我改进 AI 智能体》课程第八讲对长程任务评估的框架。
+🔗 https://x.com/shao__meng/status/2099506609131340162
+
+📱 公众号精选（4 / 4）
+
+1. YC 最科幻的一届：AI 创业开始从模型走向电力、芯片和机器人
+刚结束的 YC Summer 2026 Demo Day 上，投资人讨论最多的一批公司几乎不再有 SaaS、Copilot 或垂直 Agent 的影子，而是集体转向电力、芯片和机器人这些&quot;物理层&quot;。代表项目包括：把数据中心装上驳船、用海水散热、计划 2028 年上天然气版、2032 年转核动力的 Atomarine（靠 LOI 拿到超 40 亿美元客户意向，成为本届估值最高项目之一）；用光交换（OCS）让 1 万张 GPU 集群等效发挥出约 1.25 万张算力的 Dipole Labs；以及把模型权重直接固化进硅片、口号&quot;The model is the chip&quot;的 Lamb Labs。更极端的还有公司开始培养人类脑细胞做 next-token 预测。有意思的是，投资人认为这批&quot;像科幻小说&quot;的公司，估值反而比前几届更实在。
+🔗 https://mp.weixin.qq.com/s/rvBdnRHRFDYoMsubsEQY-Q
+
+2. 那个拍出神作《牌子》的AI导演，带着他的巅峰之作回来了。
+数字生命卡兹克专访了 AI 影像圈公认的头部创作者 DiDi_OK——他正在威尼斯电影节领奖、斩获两项 AI 影像大奖，今年 2 月的作品《牌子》曾在 B 站斩获 2000 万播放、全网近亿。他的新作、也是&quot;主持人平行宇宙&quot;系列的巅峰之作《糖果》用 Seedance 2.5 制作，讲一个&quot;人类能源使用逼近一级文明门槛后、任何起心动念要施暴的人都会当场炸成一堆糖果&quot;的科幻故事。DiDi_OK 本硕都是动画、现就职于全球最大营销集团之一 WPP 的核心制作团队，他把自己多年的核心追求概括为&quot;力道&quot;——如何让脑中的创意以最低损耗传达给观众，而 AI 终于替他抹平了传统动画流程里层层损耗的生产力鸿沟。
+🔗 https://mp.weixin.qq.com/s/4m7ztOZHUF3DxaYPggRl-w
+
+3. 独家｜亿格云完成近亿元B+轮融资，加速构建企业AI治理基础设施
+Z Potentials 独家：企业 AI 治理公司亿格云完成近亿元人民币 B+ 轮（MTR Lab 与北极光创投联合投资），距上一轮仅四个月。其自研&quot;云枢 AIDR&quot;平台把治理对象从&quot;人&quot;扩展到&quot;人 + Agent&quot;，通过&quot;看见、定义、标识、执行、度量&quot;五个环节对企业内的 Agent 做全生命周期管控——押注&quot;每一次生产力跃迁都会催生匹配的治理基础设施&quot;。
+🔗 https://mp.weixin.qq.com/s/ts9I7aG8lWLZsEyisXN4pA
+
+4. Next Token 第二期：iPhone Duo、GPT 6 Astra 和 DeepSeek Flash
+AGENT橘的&quot;Next Token&quot;播客第二期，围绕 iPhone Duo、GPT-6 Astra 与 DeepSeek Flash 三条近期热点做了一轮讨论与点评。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/kaYWRQ~Wm9E-THtVCT1HVA
+
+📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-09-15.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #704 | 2026-09-14</title>
       <link>https://news.justin7974.dev/2026-09-14.html</link>
@@ -1218,72 +1284,6 @@ Gary Marcus 转述并附议 Bill Gates 的新文：当下的决策具有长久�
 🔗 https://x.com/AnthropicAI/status/2092661573223657834
 
 📖 查看完整日报（32 篇）→ https://news.justin7974.dev/2026-08-27.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #675 | 2026-08-16</title>
-      <link>https://news.justin7974.dev/2026-08-16.html</link>
-      <guid>https://news.justin7974.dev/2026-08-16.html</guid>
-      <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
-      <description>今日共 7 篇 RSS · 25 条推文 · 4 篇公众号
-
-📰 RSS 精选（5 / 7）
-
-1. React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue
-Astro 作者 Fred Schott 发布 Flue 2（框架首个稳定版），把 React 的组合思路搬进 Agent 框架：一个 agent 就是一个 JavaScript 函数，在每次模型调用前&quot;重新渲染&quot;，并引入 React 式的&quot;Agent Hooks&quot;。Schott 的核心判断是&quot;agent 由它的 harness 定义&quot;——决定能力上限的是框架层而非模型层。Flue 与 Vercel 的 eve 都在今年推出，是开发者 agent 框架早期范式的两个模板。Schott 的公司今年 1 月已被 Cloudflare 收购。
-🔗 https://www.latent.space/p/flue-2
-
-2. 对话郎咸朋：用机器人创业重做一次&quot;百万智驾量产&quot;
-把理想智能驾驶从 0 到 1、做到 150 万辆量产的核心负责人郎咸朋，与华为出身的任庚联合创办具身智能公司昆仑行，成立三个月拿下数十亿人民币融资、跻身独角兽。他抛出两个判断：一是具身智能真正要解决的是&quot;理解&quot;，因此选择物理因果世界模型 + &quot;数据编译&quot;路线，让机器人学到背后的物理规律而非模仿动作；二是具身最终拼的是量产与自我造血，&quot;只靠融资，大家都做不到具身智能实现那一天&quot;。他把当下具身类比 2015—2016 年的自动驾驶：路线未定、Demo 满天飞，真正洗牌要等规模交付开始。
-🔗 https://www.qbitai.com/2026/08/473407.html
-
-3. 源神启动！一张消费级显卡跑&quot;Opus级&quot;Agent，Qwen3.8-27B多项榜单反超Claude
-阿里开源 Qwen3.8-27B（270 亿参数、原生多模态、262K 原生上下文可扩至 100 万 Token）：官方 benchmark 中 SWE-bench Pro 以 8.3 分、QwenSWEBench 以 15.2 分反超 Claude Opus 4.6 Max，社区称消费级显卡即可本地跑&quot;Opus 级&quot;Agent（数据均为厂商自测口径，待第三方复现）。
-🔗 https://www.qbitai.com/2026/08/473669.html
-
-4. 索塔无界：全球首家原生物理世界模型落地商超，具身智能迎来&quot;索塔时刻&quot;
-成立仅 4 个月的索塔无界不造硬件，主打机器人&quot;原生物理大脑&quot;（4D 世界动作模型），与欧洲最大商超集团达成战略合作，计划 3 年内在真实商超场景部署超千台具身机器人（行文偏厂商 PR，落地规模需交叉验证）。
-🔗 https://www.leiphone.com/category/industrynews/aEyXlap53PQXDDYJ.html
-
-5. 鹿明发布MOS2：全球首个双臂负载50kg轮臂式机器人，加速AI Worker进入产业现场
-鹿明机器人发布重载轮臂式具身机器人 Lumos MOS2，面向真实工业场景，主打双臂 50kg 负载，定位工厂现场的&quot;AI Worker&quot;（发布稿性质，性能为官方口径）。
-🔗 https://www.leiphone.com/category/industrynews/24fbshcNUNahZuQz.html
-
-🐦 Twitter 精选（5 / 25）
-
-1. @shao__meng：Qwen3.8-27B 开源，是原生多模态稠密模型，整体表现超过 Qwen3.7-Plus、在真实编程与办公流程上更突出；兼容 vLLM/SGLang，配官方 FP8，社区量化版 17GB 显存即可跑。
-🔗 https://x.com/shao__meng/status/2088437440298307790
-
-2. @Hesamation：就算 Qwen 是靠蒸馏 Claude 才用 27B 做到 Opus-4.6 级智能，为什么 Anthropic 不拿 Haiku 这么做？Haiku 4.5 十个月没更新、像被放弃了——原因也许很简单：小模型再聪明，也卖不上价。
-🔗 https://x.com/Hesamation/status/2088773057598931143
-
-3. @Hesamation：DeepSeek Harness 成为 GitHub 增长最快的仓库，48 小时破 10 万星、比 OpenClaw 还快；社区盛赞其工具、日志、agent loop、子代理全部做成可替换插件，缓存命中率高，上下文管理比 Claude Code 更省。
-🔗 https://x.com/Hesamation/status/2088766395676848558
-
-4. @Hesamation：OpenAI 资深 GPU 系统工程师 Scott Gray 离职，这是重量级技术流失而非又一个普通高管出走；2026 年已是第 13 起重大离职，OpenAI 正变成一艘现实版&quot;忒修斯之船&quot;。
-🔗 https://x.com/Hesamation/status/2088704648639127752
-
-5. @godofprompt：做 CAD 或机械设计的话，Grok 4.6 几乎是作弊码：前沿级智能、价格只是零头，还能少一半步骤完成任务，可以开始把技术和 agentic 工作换成它、看着账单往下掉。
-🔗 https://x.com/godofprompt/status/2088693752747708714
-
-📱 公众号精选（4 / 4）
-
-1. Anthropic收入暴涨14倍，评论员称这是一场会计骗局
-Anthropic 向潜在投资人展示的材料显示 Q2 初步收入超 115 亿美元、同比涨约 14 倍（去年同期 7.87 亿），环比 Q1 的 47.3 亿翻倍有余，并首次实现调整后运营利润转正——恰逢其秘密提交 IPO、三大投行做顾问的节点。评论员 Ed Zitron 发文《Anthropic 的盈利骗局》质疑：这是非 GAAP 的 EBITDA 式利润，且公司自 7 月起要向 SpaceXAI 每月支付 12.5 亿美元（年化 150 亿）算力费，而&quot;盈利&quot;的那个季度恰好用的是产能爬坡期的优惠价；若按同规模估算 AWS/Google 采购，实际算力成本约每年 450 亿美元。他还翻出三份互相矛盾的收入口径（2 月称年化 140 亿、3 月 CEO 称 190 亿、3 月 CFO 法庭证词称&quot;迄今超 50 亿&quot;）。
-🔗 https://mp.weixin.qq.com/s/8g6~F2mwZ012vS1eatkQBA
-
-2. 深度｜Cursor首席人才官Adam Ward独家分享：像挖CEO一样挖工程师，用真诚击败天价Offer
-Cursor 人才负责人 Adam Ward（其联合创办的招聘公司 Growth by Design 于 2024 年被 Cursor 整体收购；此前主导 Pinterest 从 200 到 2000+、Facebook 技术团队从 1000 到 10000 人扩张）在 Lenny 播客拆解 Cursor 的人才密度打法：把招工程师当作挖 CEO，不外包给招聘机构；不做&quot;从 100 人里筛 1 个&quot;的漏斗，而是先锁定全球能做这件事的那 50 个人再全力去找；招聘经理才是决策方，招聘官只是&quot;信心引擎&quot;；面试要问&quot;你共事过谁与设计师协作最好&quot;而非&quot;你认识最好的工程师是谁&quot;。核心主张是&quot;关心是免费的&quot;，靠真诚而非天价 offer 赢下候选人。
-🔗 https://mp.weixin.qq.com/s/sxjE8--f-s7HY0RFNbUhug
-
-3. 如何用 GLM 5.3，开发 DeepSeek Harness 插件
-作者用内测中的 GLM 5.3（约 800B、与 5.2 同基座，体感&quot;弱于 Fable、强于 v4 pro&quot;）为 DeepSeek Harness 补了三个官方缺失的插件（skill 支持、附件上传、inspector），从侧面印证 DSH&quot;一切皆插件&quot;的开放架构确实能让人把它捏成任意 Agent。
-🔗 https://mp.weixin.qq.com/s/HrOgdg7ZBKQlvGM-xPeKtw
-
-4. AI 杀死了我的睡眠
-作者自述用&quot;达芬奇干活法&quot;重度使用 AI：每天花约 1500 美元，同时给 AI 发 5-10 个需求、睡 15-30 分钟再回来盯结果，近乎 24 小时轮转——是一线重度 agent 用户工作方式与烧钱强度的真实切片。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/yqMO4LtvGdlVwdHlNxyr6Q
-
-📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-08-16.html</description>
     </item>
   </channel>
 </rss>
