@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 15 Sep 2026 00:19:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 00:20:19 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #706 | 2026-09-16</title>
+      <link>https://news.justin7974.dev/2026-09-16.html</link>
+      <guid>https://news.justin7974.dev/2026-09-16.html</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+      <description>今日共 12 篇 RSS · 30 条推文 · 6 篇公众号
+
+📰 RSS 精选（5 / 12）
+
+1. OpenAI in Early Talks for New Funding Round at $1.2 Trillion Valuation
+OpenAI 已与投资人早期接触，新一轮融资估值可能达到 1.2 万亿美元或更高，谈判发生在它把原定 IPO 推迟到明年之际。据报道，公司年化收入在 GPT-5.6 之后越过 400 亿美元、半年内估值跳涨约四成，而去年烧掉约 340 亿美元、主要花在研发和训练上——即便如此仍称&quot;还需要资金&quot;。值得注意的一个细节是，这次是投资人主动找上门，而不是 OpenAI 出去募资。
+🔗 https://www.theinformation.com/briefings/openai-early-talks-new-funding-round-1-2-trillion-valuation
+
+2. Anthropic, OpenAI &apos;Pacing&apos; Spooks Some Startup Customers
+Anthropic 与 OpenAI 公开承诺给 AI 发展&quot;降速&quot;，这番表态还没影响到各自的上市计划，却先在客户端起了作用：硅谷和华盛顿之外的更多人开始警惕 AI 的潜在风险。对那些正努力说服消费者和企业&quot;这技术值得用&quot;的初创公司来说，这不是好消息。一位风险投资人向 The Information 表示，这种情绪转变已经开始产生实际影响。
+🔗 https://www.theinformation.com/articles/anthropic-openai-pacing-spooks-startup-customers
+
+3. OpenAI Ads, Amazon Ads in ChatGPT, Walmart to Accept Apple Pay
+ChatGPT 的广告已经跑出效果，而且正好解掉了 Amazon 在聊天机器人场景里最大的难题。随后 Ben Thompson 谈到 Walmart 最终向 Apple Pay 低头——他的判断是，对抗既定格局太难，连 Walmart 这样的巨头也顶不住。
+🔗 https://stratechery.com/2026/openai-ads-amazon-ads-in-chatgpt-walmart-to-accept-apple-pay/
+
+4. AEF-1 standard emerges for Third Party Evaluators, as xAI, OpenAI, and Anthropic all cosign
+AI Evaluator Forum 发布 AEF-1，第一份面向第三方 AI 评估机构的基准，覆盖访问权限、利益冲突、资金关系、回避与透明度，xAI、OpenAI、Anthropic 三家共同签署。Dario 罕见地亲自撰文提出&quot;嵌入式评估员&quot;构想——让 METR 这类第三方团队像员工一样常驻实验室，配办公桌、门禁和公司电脑，核实安全承诺、报告事故。这是&quot;降速/pacing&quot;叙事从口号走向机制的一步，Anthropic 称自己已单方面开始这么做。
+🔗 https://www.latent.space/p/ainews-aef-1-standard-emerges-for
+
+5. Your Agent Aced the Task. Will It Do It Again?
+一个平均成功率 77.4% 的 agent，在同一任务重复五次里全部成功的比例只有 53%——24.4 分的&quot;一致性缺口&quot;被平均值藏了起来，难任务上这个缺口达到 30 分。IBM 研究团队做了个 Consistency Analyzer，专门去找那些&quot;差一个 token 采样就会走偏&quot;的决策点，再用 altk-evolve 生成一致性指南把缺口补上，且不牺牲整体准确率。他们强调，大多数 benchmark 只报第一个数字，掩盖了生产环境真正在意的稳定性。
+🔗 https://huggingface.co/blog/ibm-research/altk-evolve-consistency
+
+🐦 Twitter 精选（5 / 30）
+
+1. @_akhaliq：生数发布 Vidu S2，主打实时、可交互、可编辑的空间视频生成，并放出论文。
+🔗 https://x.com/_akhaliq/status/2099883001840828920
+
+2. @karminski3：IFM 开源 7B 全注意力 dense 小模型 K2-Horizon-7B：AA Bench 21 分逼近 27B 的 Qwen3.6（22 分），BrowseComp 上碾压上代旗舰 GPT-5/DeepSeek-V4，训练数据、配方、代码全部开源。缺点是全注意力导致长上下文成本很高。
+🔗 https://x.com/karminski3/status/2099991128061919596
+
+3. @shao__meng：转述 LangChain 的语音智能体三维评估框架——执行（是否遵守规范）、结果（用户问题是否真的解决）、体验（通话是否自然）；并强调指令遵从不等于结果有效，两个维度必须独立评估。
+🔗 https://x.com/shao__meng/status/2100010942516064725
+
+4. @shao__meng：介绍一套&quot;云端解析一次、本地无限迭代&quot;的可溯源文档问答方案：LlamaParse 保留页码、本地嵌入加向量索引、强制模型内联引用 [1][2]，把&quot;可信&quot;变成每个论断都能追到具体页码原文的工程要求。
+🔗 https://x.com/shao__meng/status/2099871414602100957
+
+5. @shao__meng：NVIDIA 在 4×B200 上用 NIM 对整套推理栈做协同优化，把 Nemotron 3 Ultra 的系统吞吐从 718 提到 1997 tok/s；在每用户 50 TPS 的同等体验下多服务约 2.78 倍并发用户，前提是固定延迟 SLO 下的测量，不是裸吞吐对比。
+🔗 https://x.com/shao__meng/status/2099868228122280067
+
+📱 公众号精选（5 / 6）
+
+1. Latent Labs：Alphafold 3 发布两年，AI 药物设计进展到了哪一步？
+蛋白质生成模型正把药物发现从&quot;在天然分子库里筛少数有效候选&quot;，变成&quot;按需设计自然界不存在的分子&quot;。文章以 Latent Labs 为样本——创始人 Simon Kohl 是 AlphaFold 2 核心成员，选择押注环肽这一新兴模态并自建湿实验室，累计融资 5000 万美元，Jeff Dean、Aidan Gomez 等天使入局。作者认为结合物发现物理规律明确、反馈快、高度可验证，是 AI 自我改进（RSI）的理想场景；但也点明目前各家的蛋白仍停在&quot;能作为结合物发挥作用&quot;的第一步，离真正成药还很远。
+🔗 https://mp.weixin.qq.com/s/RzSX961IrgxxS2dW8FwMTQ
+
+2. 深度｜a16z对话OpenAI数学家：Astra 4天破解90年数学难题，AI做数学是复兴还是灾难？
+OpenAI 一个未公开的下一代模型组织约 1 万个 agent，在 88 小时内给出纳维-斯托克斯存在性与光滑性问题的一份解答，并生成 166 页 Lean 形式化证明——一道困扰数学界近 90 年的千禧年难题，机器用不到四天出了证明。几天后陶哲轩等 25 位菲尔兹奖得主联名发出罕见严厉声明，担心 AI 批量生产&quot;真/假&quot;命题会&quot;摧毁孕育思想的肥沃土壤&quot;。受访的两位 OpenAI 数学家则更乐观：AI 让过去因时间和试错成本难以触及的问题变得可探索，&quot;文艺复兴&quot;正在发生。
+🔗 https://mp.weixin.qq.com/s/nlMzZbOCkM6acEISMm6nxg
+
+3. 船公司签五年，银行要自己部署，Mistral的客户在买什么
+抛开 Mistral 30 亿欧元融资、超 210 亿欧元估值的新闻，文章去看它三家大客户到底买了什么：汇丰要把模型部署进自己的基础设施并共同开发（客户数据不能外流）、达飞轮船签五年合同处理航运单据、阿斯麦用于日志分析与根因诊断。作者强调企业 AI 采购的验收难点——提取、定位、核查三类任务的难度和验收标准差别很大，业务 KPI 与模型指标之间的转换并不直接，什么叫&quot;做得好&quot;技术团队一个人回答不了。
+🔗 https://mp.weixin.qq.com/s/uFBm3L0gJ9TkGgNNuxPrRg
+
+4. 国内第一个为团队而生的Agent，果然还是在飞书里面来了。
+飞书联合豆包发布&quot;豆包工作伙伴&quot;——不同于服务个人的 agent，它有独立人设、名称和组织身份，可被拉进任意群聊，读文档和代码、参加会议、主动推进工作，成为全公司共享的一个 AI 同事。作者把它类比 Anthropic 6 月发布、被 Karpathy 称为&quot;第三次交互范式&quot;的 Claude Tag，并认为它在飞书里能发挥的作用比 Claude Tag 在 Slack 里更大，因为飞书十年积累的群聊、会议、文档、多维表格数据更丰富。
+🔗 https://mp.weixin.qq.com/s/VYXjhHVPAAeksJHw8rxi5g
+
+5. Vidu S2：实时数字人，实时改视频
+生数上线实时视频模型 S2，输出提到 720p、25-42 FPS，含实时数字人 S2-Avatar（对话中随时换衣服、道具、场景）和实时改视频 S2-Editing（风格迁移、虚拟试穿、人物替换、背景替换），还能生成供头显使用的实时空间视频；靠一层 VLM Agent 维护状态一致性、Frame-Aligned Attention 防穿模。
+🔗 https://mp.weixin.qq.com/s/88ngMTkxNlD-f8WOydOX-Q
+
+📖 查看完整日报（48 篇）→ https://news.justin7974.dev/2026-09-16.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #705 | 2026-09-15</title>
       <link>https://news.justin7974.dev/2026-09-15.html</link>
@@ -1236,54 +1306,6 @@ a16z 直接判定：正在成为 AI 行业默认的&quot;按 token 计费&quot;�
 🔗 https://x.com/karminski3/status/2092894838492655713
 
 📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-08-28.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #686 | 2026-08-27</title>
-      <link>https://news.justin7974.dev/2026-08-27.html</link>
-      <guid>https://news.justin7974.dev/2026-08-27.html</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
-      <description>今日共 11 篇 RSS · 21 条推文 · 0 篇公众号
-
-📰 RSS 精选（5 / 11）
-
-1. Lovable CTO: The Future of SaaS Is Apps That Agents Can Use
-Lovable 正从&quot;用 AI 建 web 应用&quot;转向让开发者构建 CTO Fabian Hedin 所说的&quot;capabilities&quot;——把已发布应用里选定的功能，通过托管的 MCP server 暴露成 agent 可直接调用的工具，于是一个应用同时拥有两套接口：给人用的传统 UI，和可被 ChatGPT、Claude 等 MCP 客户端调用的 agent 接口。Hedin 的判断是未来越来越少人会打开传统 app，&quot;一个入口通向你所有的工作&quot;。这是 Lovable 三年里的又一次跃迁：从原型工具，到用户拿它做出真实营收的产品，再到 CRM、admin 面板等公司内部运营软件。
-🔗 https://www.latent.space/p/lovable-future-of-saas
-
-2. &quot;We have foundation models for language, not for physics&quot; — Anima Anandkumar
-Caltech 的 Anima Anandkumar 用 AI 建了第一个开源天气模型 FourCastNet，用消费级 GPU 就能做出媲美传统物理仿真的短期天气预测，现在把方法推向核聚变、流体、热流等连续物理系统。她的核心判断是：物理这个领域抵抗&quot;大力出奇迹&quot;的 scaling——开源数据集往往只有几万到几十万样本，而物理所需的分辨率会把上下文长度推到千亿甚至万亿量级，靠堆 token 走不通，进步来自往模型里注入结构和归纳偏置。
-🔗 https://www.latent.space/p/anima
-
-3. A16z&apos;s Martin Casado: Bullish on AI Apps, Bearish on Lone Ranger VCs
-Cursor 与 OpenRouter 的收购在四天内接连落地——Cursor 是史上最大的并购退出，OpenRouter 两年回报超 50 倍，两笔 a16z 基础设施团队都有份。带队的 Martin Casado 借此立论：个人 VC 抢单署名是&quot;上个时代的遗物&quot;，现代风投不靠个人决策。他说自己做过近 200 笔交易，&quot;想不出哪一笔是别人没起关键作用的&quot;——从 sourcing、判断、尽调到 closing 都是团队协作，专业化分工才是 AI 应用投资的胜负手。
-🔗 https://www.newcomer.co/p/a16zs-martin-casado-bullish-on-ai
-
-4. Excellent new Bill Gates essay on the urgency of having a coherent AI plan
-Gary Marcus 转述并附议 Bill Gates 的新文：当下的决策具有长久的决定性；AI 放大了生物恐怖、深伪、虚假信息、网络攻击的风险，&quot;连技能有限的罪犯都能规模化地攻击各种目标&quot;，Gates 还担心 AI 会阻碍孩子发展、替代人际关系；社会缺一套系统性的应对计划，且制定计划必须让公民社会而非只有政府和科技公司参与；同时需要建立国内与国际的治理框架，并通过税制改革（重新平衡对劳动与资本的征税）来留住就业。
-🔗 https://garymarcus.substack.com/p/excellent-new-bill-gates-essay-on
-
-5. Faking a brand is easy. Making it stop is hard.
-品牌假冒是种奇怪的盗窃——你什么都没丢，但一个复制品（你的 logo、你的登录页）在互联网别处以你的名义收集密码和付款，而被冒充者往往最后一个才发现。它难打击，是因为假冒跑在别人的平台上、针对别人、用你的名义；单次下架也没用，像九头蛇砍一个长两个：新的仿冒域名、新广告、新克隆账号。文章主张唯一解法是&quot;永远在线的社会工程防御&quot;——同时监控所有触面，并把每个&quot;断头&quot;烧死以防再生。
-🔗 https://www.a16z.news/p/faking-a-brand-is-easy
-
-🐦 Twitter 精选（5 / 21）
-
-1. @_akhaliq：分享论文《Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment》，探索让多个 agent 在开放世界环境里自主完成数学发现。
-🔗 https://x.com/_akhaliq/status/2092702100270497858
-
-2. @Hesamation：GLM 5.3 Flash（代号 Ox Alpha）把智能/成本前沿又推一步：AA 智能分接近 Opus 4.8，却便宜约 45 倍，1M 上下文下注意力算力低 3 倍、KV cache 小 4.4 倍——&quot;智能正在残酷地变便宜&quot;。
-🔗 https://x.com/Hesamation/status/2092622370183729553
-
-3. @shao__meng：Qwen3.8-Flash 发布、Flash-Next 开源，并被官方定义为 Qwen4 架构的早期预览；相对上代旗舰以约 1/3 激活参数、1/3 训练 token、1/9 训练 FLOPs，在 14 个基准中 8 个领先，新配方（Muon + 门控残差）在 4 倍学习率下零 loss 尖峰。
-🔗 https://x.com/shao__meng/status/2092600786207506466
-
-4. @hongming731：转述 OpenAI 首颗自研推理芯片 Jalapeño 首批实测：在 GPT-OSS 120B、DeepSeek R1、Kimi K2.5 三个公开模型上每瓦峰值算力提升 1.5-1.9 倍、端到端延迟降 1.7-3.6 倍，且芯片从设计到流片仅 9 个月、部分 AI 生成算子比人工快 1.5-1.8 倍。
-🔗 https://x.com/hongming731/status/2092401983642870199
-
-5. @AnthropicAI：首次向外部研究者开放用&quot;隐私保护后的真实 Claude 使用数据&quot;研究 AI 社会影响的工具，此前这类研究只能在 AI 实验室内部进行。
-🔗 https://x.com/AnthropicAI/status/2092661573223657834
-
-📖 查看完整日报（32 篇）→ https://news.justin7974.dev/2026-08-27.html</description>
     </item>
   </channel>
 </rss>
