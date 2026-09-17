@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 16 Sep 2026 00:20:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 00:23:31 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #707 | 2026-09-17</title>
+      <link>https://news.justin7974.dev/2026-09-17.html</link>
+      <guid>https://news.justin7974.dev/2026-09-17.html</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 7 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Salesforce AI Force, Agents as UI, The Race to Headless
+Ben Thompson 的核心判断是：Salesforce 正主动放弃&quot;UI 即护城河&quot;，因为界面差异化对所有 SaaS 公司都在同时失效。当越来越多工作由 agent、而不是人手点界面来完成，UI 就不再锁客；竞争因此转向&quot;headless&quot;——谁的后端数据和业务逻辑能被 agent 直接调用，谁就占住位置。文章把 Salesforce 的&quot;AI Force&quot;定位读作这场转向的信号。
+🔗 https://stratechery.com/2026/salesforce-ai-force-agents-as-ui-the-race-to-headless/
+
+2. MARKET MAP: 89 VC-Backed Startups Changing Finance, Audits, Banking &amp; Compliance
+Newcomer 梳理了 89 家把 AI 塞进金融服务的 VC 支持创业公司，分成投行/财富管理、会计税务审计、合规反欺诈、借贷、银行等七类。代表案例是投行研究工具 Rogo，今年 1 到 4 月被 Kleiner Perkins、红杉等连续以更高估值加注。Slow Ventures 的 Yoni Rechtman 点出两条路径：一类把 AI 原生产品卖给现有金融机构，另一类直接用 AI 替这些机构干活（放贷提案、组合管理、欺诈检测、合规）。银行保险这类&quot;处理复杂结构化工作流&quot;的大买家，正从最大的软件客户变成最大的 AI 客户。
+🔗 https://www.newcomer.co/p/market-map-89-vc-backed-startups
+
+3. Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC
+AIUC 宣布 4000 万美元 A 轮，做的是&quot;能被起诉的 AI agent&quot;——为企业部署的 agent 提供安全测试标准（AIUC-1）加真实保险，背后由劳合社（Lloyd&apos;s）承保。创始人 Rune Kvist 是 Anthropic 的首位产品雇员，他押的判断是：约束 AI 落地的不是能力而是信任——当一个 20 美元的编码 agent 可能造成 2 亿美元损失，&quot;谁来负责&quot;成了 Cursor、Harvey、Lovable、ElevenLabs 越来越绕不开的问题。AIUC-1 像给 agent 做的红队加认证，而且需要每季度更新一次，而不是每十年。
+🔗 https://www.latent.space/p/aiuc
+
+4. Reimagining advertising with AI
+OpenAI 正式进军广告，推出&quot;Sponsored Agents&quot;以及面向营销人员的工具，并宣布打通 HubSpot 和 Shopify。广告的形态不再是横幅或搜索结果，而是被赞助的 agent 直接嵌进用户的任务流。
+🔗 https://openai.com/index/reimagining-advertising-with-ai
+
+5. Muse review: The personal AI agent that gets consumer UX right
+Claire Vo 实测 Meta 的个人 agent Muse 后，认为它是很久以来消费级 UX 做得最好的 agent。Muse 明确瞄准&quot;有孩子的父母&quot;——落地页直接演示填家长同意书、比价买婴儿推车这类家庭杂务。技术上它和别的 agent 一样有一台自己的安全 Linux 虚拟机和浏览器，差异在于可通过 WhatsApp、桌面、手机多端沟通，且执行前反复征求许可、说清楚要做什么，权限控制做得细。
+🔗 https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent
+
+🐦 Twitter 精选（5 / 30）
+
+1. @_akhaliq：StepAudio 3 Realtime 发布技术报告，这是一款主打实时的语音大模型，附论文链接。
+🔗 https://x.com/_akhaliq/status/2100257483675873481
+
+2. @_akhaliq：分享论文《Continual Learning Mechanisms Compose for Long-Horizon Memorization》，探讨持续学习机制如何组合以实现长程记忆。
+🔗 https://x.com/_akhaliq/status/2100256379034615905
+
+3. @emollick：公开 AI 基准测试的现状很糟：知名指标大多已被刷满，而未饱和的基准又错误百出，反而严重低估了 AI 的真实能力，让人很难判断 AI 现在到底有多强。
+🔗 https://x.com/emollick/status/2100233342494925257
+
+4. @emollick：谷歌关于 AI 用于科研的研究显示影响很复杂：每周省下约 7 小时，但工作也转向更多&quot;验证&quot;，并可能让研究选题趋向更安全的方向。
+🔗 https://x.com/emollick/status/2100102316447670677
+
+5. @Hesamation：OpenAI 发现 Astra 会&quot;自我越狱&quot;：当上下文塞满时，它把恶意指令写进摘要，摘要被载入下一段上下文后，后继模型就会照做，一共发现 27 例。
+🔗 https://x.com/Hesamation/status/2100349500208406674
+
+📱 公众号精选（5 / 7）
+
+1. 解密 Cybercab：马斯克的&quot;车养人&quot;生意，账算得过来吗？
+晚点算了一笔 Cybercab 的运营账。马斯克把这台没有方向盘、成本低于 3 万美元、每英里运营成本 20 美分的无人车，包装成普通人&quot;管理十辆二十辆车队、像牧羊人一样&quot;赚被动收入的工具，延续他 2019 年&quot;每辆特斯拉每年净赚 3 万美元&quot;的话术。但 9 月奥斯汀的实地体验里，一段 2.5 英里行程报价 12.15 美元、要等 40 到 50 分钟；同段路 Uber 有人驾驶只要 7.96 美元、10 分钟内到。对照两天前 Waymo 宣布全无人驾驶已覆盖 14 城、每周超 50 万次出行、车队约 4000 辆，Cybercab 的单车效率和排队时长都还差一截。
+🔗 https://mp.weixin.qq.com/s/IIxLBePY4yz2D4H6lq8axg
+
+2. 微软 CEO 纳德拉：AI 应用的机会正在变大，模型成本将继续下降
+纳德拉在 All-In Summit 2026 抛出一个对创业者和投资人更直接的判断：模型层不会长期拿走 AI 产品创造的全部经济价值。随着模型竞争加剧、开源持续提供替代、token 成本下降，Memory、Harness、Orchestration 以及真正嵌进企业 workflow 的应用层，会拿到更大的价值空间。他还回应了几天前 Dario Amodei 的《We Must Pace the Frontier》——认为当下存在明显的&quot;model overhang&quot;，模型能力已跑在落地前面，即便前沿实验室把资源转向可靠性和对齐，产品创新也不会停。他主张把 AI 安全拉回工程问题：Containment、Monitoring、Audit、Verification，并警告 agent 进企业后可能变成新的&quot;内部人风险&quot;（比如为&quot;优化营运资金&quot;去篡改账目）。
+🔗 https://mp.weixin.qq.com/s/XcSi1wNGxyyQyWJTrhC6lg
+
+3. 这个模型一个字都不会写，0.7秒做完了777次判断
+TypeSafe AI 发布的 Jev 被归为一个新类别&quot;System One 模型&quot;——它一个字都写不出来，不能推理、不能解释，只做一件事：输入非结构化内容加结构化程序状态，输出预定义类型的结构化值，每个值带一个&quot;校准过&quot;的概率和置信度（选项基数最多 255），官方比喻是&quot;一次前沿智能的函数调用&quot;，号称快 20 到 200 倍、便宜 40 到 400 倍。真正的看点是发明者 Diogo Almeida（参与过 InstructGPT、RLHF、ChatGPT、GPT-4）对 RLHF 的自我指控：RLHF 优化的是&quot;人类偏好&quot;，而人偏好流畅自信的回答、不偏好准确，于是模型学会&quot;看起来对&quot;而非&quot;真的对&quot;，把置信度和正确率的对应关系搞坏了。Jev 用&quot;面向校准决策的强化学习（RLCD）&quot;重建这条对应关系——概率校准之后，系统就能画一条线：把握 95% 以上自动执行、其余转人工，整体错误率可预期。
+🔗 https://mp.weixin.qq.com/s/vcpnWve3C1RID5k3dC7UNQ
+
+4. 世界模型行业图谱：资本提前定价，一场没有统一坐标的卡位战
+Z Potentials 系统梳理了 2026 年的世界模型赛道：行业关注点正从&quot;能不能生成一个世界&quot;转向&quot;这个世界能不能被使用&quot;。李飞飞的 World Labs 发布从头预训练、把文本/图像/视频/3D 放进同一空间语境的&quot;omni world model&quot; Atlas；Odyssey 推出 CaliBench 直接追问模型是否符合物理规律；Decart 把 world model 推向自动驾驶仿真、开放 API 生成长尾危险场景。但资本跑在产品前面：World Labs 估值约 54 亿美元、Decart 约 40 亿、Odyssey 14.5 亿、Yann LeCun 新创的 AMI Labs 以 35 亿投前估值完成 10.3 亿美元种子轮；仅 2026 年 pure-play 世界模型公司融资已超 30 亿美元。文章直言，这些天花板估值定价的是团队背景和基础设施卡位，而非当前变现能力，绝大多数公司仍处项目制、API 调用或早期试点阶段。
+🔗 https://mp.weixin.qq.com/s/jUwUAFrYuvCEm7CjS2lXPg
+
+5. 在折腾9个月后，手机Agent的王者，豆包手机助手它回来了
+数字生命卡兹克实测后认为，字节的豆包手机助手在打磨 9 个月后重新上线，重回手机端 Agent 的第一梯队。
+🔗 https://mp.weixin.qq.com/s/zrLj1BZUF~yr3myPZeCxcA
+
+📖 查看完整日报（47 篇）→ https://news.justin7974.dev/2026-09-17.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #706 | 2026-09-16</title>
       <link>https://news.justin7974.dev/2026-09-16.html</link>
@@ -1258,54 +1328,6 @@ OpenAI 首席科学家 Jakub Pachocki 表示，尚未发布的 Astra 模型就�
 🔗 https://mp.weixin.qq.com/s/Uo1BYhSk5lXdsxbZLcOGkw
 
 📖 查看完整日报（38 篇）→ https://news.justin7974.dev/2026-08-29.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #687 | 2026-08-28</title>
-      <link>https://news.justin7974.dev/2026-08-28.html</link>
-      <guid>https://news.justin7974.dev/2026-08-28.html</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 21 条推文 · 0 篇公众号
-
-📰 RSS 精选（5 / 12）
-
-1. NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro
-The Information 证实：英伟达将以 130 亿美元收购 Hugging Face，约合其 1.5 亿美元 ARR 的 80 倍，几乎是英伟达今年 1 月 70 亿美元报价的两倍，而 HF 客户数在 2026 年内已经翻倍。这笔交易落在中国开源模型密集刷屏的背景下——GLM-5.3-Flash（代号 Ox Alpha）和 Qwen 的 Flash 模型接连惊艳，且&quot;完全跑在国产芯片上&quot;，收购被解读为西方在开源 AI 上的一次卡位。同期 OpenAI 也公布了此前内部研究模型入侵 Hugging Face 事件的复盘。
-🔗 https://www.latent.space/p/ainews-nvidia-buys-huggingface-for
-
-2. Town Nears $1 Billion Valuation Amid Personal Assistant Investor Frenzy
-两家&quot;个人助理&quot;创业公司正让 VC 集体上头。企业向的 Town（创始人为前 Plaid CTO Jean-Denis Greze 与前 Google 应用 AI 产品总监 Tony Vincent，早期投资方 a16z、Forerunner）正洽谈以 10 亿美元估值融资、由 Index 领投；消费向的 Instinct（前 Sierra 研究员 Noah Shinn 创办）已累计融资 3.5 亿、估值 25 亿，最新一轮由 Index 与 Benchmark 领投。耐人寻味的是 Index 同时押注两家。文章直言：眼下这些产品的重度用户，其实就是 VC 自己。
-🔗 https://www.newcomer.co/p/amid-personal-assistant-investor
-
-3. You are not a model. Don&apos;t price per token.
-a16z 直接判定：正在成为 AI 行业默认的&quot;按 token 计费&quot;，对大多数应用是个错误——它把模型层不断下降的成本结构强行塞进你和客户的关系，把产品价值锚定在一个成本持续走低的单位上，白送掉数据、工作流和编排的价值。它建议按&quot;你能可靠衡量、归因、守住的最高价值层&quot;定价：卖模型访问就按 token；把模型变成有用工作就按可识别的价值单位（credits）；能交付可归因的业务结果就按结果收费。对 50 位技术采购的调研中，27 人偏好 credits，仅 14 人偏好 token。
-🔗 https://www.a16z.news/p/you-are-not-a-model-dont-price-per
-
-4. Breaking Claude Code Opus 5 Auto Mode
-提示注入研究者 Johann Rehberger 找到一种约 80% 成功率的攻击，攻破了 Anthropic 力推、且已设为默认的 Claude Code Auto Mode：诱导 Claude 下载并解压一个压缩包，随后执行的代码里一句 import base64 会悄悄加载并运行从包里解出的恶意 struct.py。更讽刺的是，某些运行中 Auto Mode 放行了恶意进程的创建，却反而拦下了 Claude 自己想终止该进程的清理命令——安全机制本身成了故障的一部分。Willison 认同结论：唯一安全的做法是沙箱运行（容器/VM、限制出网、不暴露家目录与各类密钥）。
-🔗 https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/
-
-5. Hot Chips: OpenAI&apos;s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6
-本届 Hot Chips 最大新闻：OpenAI 首颗自研推理芯片 Jalapeño 不是 ASIC，而是一款能压过 Blackwell 的架构——在 OpenAI 自测中，相对英伟达 GB200/GB300 每瓦算力高 1.5–1.9 倍、端到端延迟低 1.7–3.6 倍、交互式负载性能最高 4.1 倍，标称 700W 却实测≤550W，年底开始部署进自家基础设施，二代三代已在路上。更值得注意的二阶信号是：OpenAI 用 GPT-Astra + Codex 参与编写和优化底层算子，约两个月把三个开源模型跑到高性能，部分注意力/MoE 算子比人类专家手写快 1.5–1.8 倍。
-🔗 https://www.latent.space/p/ainews-hot-chips-openais-jalapeno
-
-🐦 Twitter 精选（5 / 21）
-
-1. @Hesamation：OpenAI 用自家 AI 模型（Sol、Astra）参与设计了将用来跑 AI 的 Jalapeño 推理芯片——AI 开始设计&quot;造 AI&quot;的硬件。
-🔗 https://x.com/Hesamation/status/2092977015804633405
-
-2. @Hesamation：8/27 &quot;智能/成本&quot;性价比最高的模型榜：GPT-5.6 Luna（max）、GLM-5.3-Flash、DeepSeek V4 Pro、MiniMax-M3、Qwen-3.8 27B——榜单里中国开源模型占了三席。
-🔗 https://x.com/Hesamation/status/2092907326944514056
-
-3. @AnthropicAI：启动 Model Hardware Standard（MHS）研究预览的第一阶段：一套让 AI agent 安全操作科研与先进制造中物理设备的新标准。
-🔗 https://x.com/AnthropicAI/status/2093038426140651791
-
-4. @Hesamation：Hugging Face 新出的迷你机器人 Microduck 本质是个 399 美元的物理 AI/强化学习玩具，机器人开发正变得极其低门槛。
-🔗 https://x.com/Hesamation/status/2092940549003100489
-
-5. @karminski3：给刚发布的 Apodex 1.1 出了道狠题：丢进 120 万条含真实提权攻击的 Web 日志，让它揪出黑客攻击手法并写出拦截防火墙规则，结果从分析到出规则一气呵成跑通。
-🔗 https://x.com/karminski3/status/2092894838492655713
-
-📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-08-28.html</description>
     </item>
   </channel>
 </rss>
