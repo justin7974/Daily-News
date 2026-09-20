@@ -5,8 +5,70 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 19 Sep 2026 00:20:31 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 00:21:17 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #710 | 2026-09-20</title>
+      <link>https://news.justin7974.dev/2026-09-20.html</link>
+      <guid>https://news.justin7974.dev/2026-09-20.html</guid>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 27 条推文 · 3 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. OpenAI Said to Forecast Nearly $280 Billion in Cash Burn Through End 2030
+OpenAI 向部分投资人透露，预计到 2030 年底累计烧掉约 2780 亿美元现金。据《金融时报》报道，这个数字比它今年初给投资人的预测更高，主因是在云计算和芯片上的投入持续加码——既要训练也要运行模型。这份基于近期一次投资人演示的预测，把 OpenAI 的资本消耗推到了一个新量级。
+🔗 https://www.theinformation.com/briefings/openai-said-forecast-nearly-280-billion-cash-burn-end-2030
+
+2. President Trump Announces &apos;AI Force,&apos; Will Appoint New Czar
+特朗普周六表示将新设一个&quot;AI Force&quot;，定位类似他第一任期创建、隶属国防部专司太空作战的&quot;太空军&quot;，并计划任命一位新的&quot;AI 沙皇&quot;来领导。相关表态发在他的 Truth Social 上，尚无沙皇人选和预算细节。
+🔗 https://www.theinformation.com/briefings/president-trump-announces-ai-force-will-appoint-new-czar
+
+3. Top three ways Dario Amodei has blown his credibility in seven days
+Gary Marcus 列出 Dario Amodei 在呼吁&quot;放慢前沿（pace the frontier）&quot;后一周内自打嘴巴的三件事：一是他点名 METR 和埃森哲作为 Anthropic 的&quot;独立&quot;评估方，但前者深嵌于同一套湾区圈子与理念、后者本就是 Anthropic 的生意伙伴；二是 Anthropic 被曝正低调筹建湿实验室、要让 Claude 指挥实验室机器人做生物实验，却疑似绕开常规的伦理审查（IRB）；三是路透/Techmeme 消息称，Anthropic 正考虑在 IPO 前赶发新模型以对冲 OpenAI 的势头。Marcus 的结论：所谓放慢，最终一切都是为了 IPO。
+🔗 https://garymarcus.substack.com/p/top-three-ways-dario-amodei-has-blown
+
+4. [AINews] Here are 6 Clones of Jev in 2 days
+Jev 发布两天，启动视频拿下 3600 万次观看，在 Vercel AI Gateway 上创下历史最快采用速度（首日触达约 13% 的团队，是 GPT-5.6 系列的 2 倍）。因为没有开源，社区两天内就冒出至少 6 个复刻：多数猜测底座是 ModernBERT 或扩散模型，包括 Bespoke Nimble（LoRA 微调 Qwen3.5-9B、用合成对比数据，基准从 66% 提到 90%，Jev 为 93%）、能在 MacBook 上跑的 Kev-0.5B 等。@abacaj 点出真问题：这些复刻大多在拼速度而非质量，这个品类至今没有统一基准。
+🔗 https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in
+
+5. Why I still haven&apos;t bought into true RSI
+Nathan Lambert 以&quot;AI 温和派&quot;的立场解释为什么他仍不相信真正的递归自我改进（RSI）：湾区前沿实验室的竞争文化会放大一切 AI 焦虑，而 2023-24 年那批高调的安全担忧，其风险并未在预言的时间线上兑现。他更倾向&quot;有损自我改进&quot;——可自动化的研究太窄，撑不起对抗 scaling laws 指数级成本的净加速；并行堆更多 agent 的边际收益递减是真实的；真正约束造强模型的是资源瓶颈和政治，而 AI 对这些几乎无能为力。他特别区分了&quot;大规模推理算力带来的、可预测的短期加速&quot;和&quot;高度不确定的 RSI&quot;，警告别把前者误认成后者。
+🔗 https://www.interconnects.ai/p/where-i-stand-on-rsi
+
+🐦 Twitter 精选（5 / 27）
+
+1. @shao__meng：回看 TypeSafe CEO 一个月前的演讲&quot;Why RLCD beats RLHF&quot;：他认为幻觉是偏好优化的内在产物——奖励模型会惩罚不自信、逼模型假装自信；Jev 的解法是根本不生成自由文本，输出结构预先定义、类型错误在数学上不可能，只输出&quot;我 X% 确信&quot;这种诚实的概率。
+🔗 https://x.com/shao__meng/status/2101118333328495021
+
+2. @shao__meng：拆解 TypeSafe 官方 Jev Skills：核心方法论是&quot;规则、计算、查表都留在代码里，模型只提供可编程的常识判断&quot;，并给出六种判断模式和三个类型化原语（Choice 选项、Noul 条件概率、Score 有序打分）来替代自由文本输出。
+🔗 https://x.com/shao__meng/status/2101458213178904787
+
+3. @shao__meng：英伟达 SoL-Pi 论文：让 AI 自动研究怎么给 AI 省钱，结果省下约一半 token。核心是优化 harness 框架层而非模型层——编码 Agent 正走向 7×24 无人值守、单任务动辄 2–12 小时，token 消耗成了规模化第一瓶颈；自动流水线从 152 个方向里最终只留下 4 个有效机制。
+🔗 https://x.com/shao__meng/status/2101104385384497425
+
+4. @shao__meng：LlamaIndex 发布文档解析评测 ParseBench：100 种方法、2000 页真实企业文档、不用 LLM 当裁判。结论是 LlamaParse 系领跑，图表抽取是最大分水岭（20 多个方法在这项归零），纯文字忠实度已普遍 80+，而溯源定位（grounding）是 VLM 的集体盲区。
+🔗 https://x.com/shao__meng/status/2101454555112514033
+
+5. @shao__meng：谷歌推出 Android Bench 2.0：用 Signal、Bitwarden、WordPress 等真实生产级应用衡量&quot;模型+Agent 组合&quot;（如 GPT+Codex、Claude+Claude Code、Gemini+Antigravity）完成真实 Android 开发的能力，30 个任务覆盖应用迁移、从零构建、架构迁移等。
+🔗 https://x.com/shao__meng/status/2101297657834766834
+
+📱 公众号精选（3 / 3）
+
+1. 深度｜Anthropic设计负责人：模型带路，软件共识瓦解：App从全民同款走向千人千面
+这场访谈最反直觉的判断是：在前沿模型公司，产品团队集体去度假、&quot;什么都不做&quot;也没关系，因为模型自己会持续变强、不断创造新价值。Anthropic 产品设计负责人 Joel Lewenstein 由此把设计工作从&quot;关注像素&quot;推向&quot;战略和寻找机会&quot;，产品哲学是&quot;让模型引领、相信 scaling laws&quot;，用轻量方式不断把模型已有的能力释放出来（他的比喻：远处有座风力发电场，人们却只把烤面包机插在 12V 插座上）。他判断软件&quot;全民同款&quot;的共识正在瓦解，未来每个人可能用上上百个专为自己而生的 App；而 Artifacts 表面只是&quot;把 HTML 挪到右边&quot;，却改变了人与 AI 的相处方式，设计师最后又都回到了 Claude Code。三年间 Anthropic 从&quot;研究所后院搭帐篷的 YC startup&quot;走到了 App Store 前十。
+🔗 https://mp.weixin.qq.com/s/IGv2R7PpbQwXQFbWpl2qnQ
+
+2. CNN：北京这家酒吧，点杯啤酒就能无限用 AI
+译自 CNN 视频报道：北京 AGI Bar 点一杯啤酒就能不限量免费用国产 AI 模型，店里两台英伟达超算加免费的 DeepSeek 高级版成了&quot;新的免费 Wi-Fi&quot;，被当作 AI 融入城市日常的文化符号；受访开发者明确反对中国放慢 AI，并称官媒引述的专家认为美方&quot;放慢&quot;呼吁意在阻止别国缩小差距。
+🔗 https://mp.weixin.qq.com/s/2GzwePvzbPVDbWoDD6BHqA
+
+3. 开源个 Skill，帮你用代码低成本生成产品宣传片
+歸藏开源了一个 Skill，帮你用代码低成本地生成产品宣传片，降低宣传物料的制作门槛。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/xe-EgpX-t5FcI9L~2SAhUg
+
+📖 查看完整日报（40 篇）→ https://news.justin7974.dev/2026-09-20.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #709 | 2026-09-19</title>
       <link>https://news.justin7974.dev/2026-09-19.html</link>
@@ -1266,68 +1328,6 @@ Melio（B2B 支付公司）产品经理 Daniel Blum 用 Claude + Cowork 搭了�
 🔗 https://mp.weixin.qq.com/s/YarPLyamnSqNKIh9RLo9SA
 
 📖 查看完整日报（30 篇）→ https://news.justin7974.dev/2026-09-01.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #690 | 2026-08-31</title>
-      <link>https://news.justin7974.dev/2026-08-31.html</link>
-      <guid>https://news.justin7974.dev/2026-08-31.html</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
-      <description>今日共 9 篇 RSS · 15 条推文 · 3 篇公众号
-
-📰 RSS 精选（5 / 9）
-
-1. AI 的第三纪元：持续在线的 AI 同事崛起（OpenAI 产品负责人 Tara Seshan）
-OpenAI Codex 与 ChatGPT Work 产品负责人 Tara Seshan（Stripe 前五号 PM、Thiel Fellow）提出，AI 正把人从&quot;划桨&quot;（rowing，亲手执行）推向&quot;掌舵&quot;（steering，判断与方向）：执行被 AI 接管后，人的判断力和&quot;野心&quot;（ambition）成为新的差异化变量。她给产品团队的核心方法论是——不要为当下的模型能力做产品，而要为&quot;2-3 个月后&quot;的模型能力做产品。她还把&quot;抬高他人的野心&quot;列为 PM 工作的新重心，OpenAI 内部流行的口头禅是&quot;这是最大化加速了吗？&quot;。（注：正文为付费订阅内容，此处基于公开的节目导读与要点。）
-🔗 https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent
-
-2. 你必须在某件事上赢过模型
-在写代码已降到&quot;一个月一百美元&quot;的当下，作者主张工程师的价值应按&quot;相对替代值&quot;衡量：你做的哪些事是 GPT-5.6 或 Claude Opus 5 做不到、值得多付两三个数量级的？他观察到模型的错误已从幻觉、off-by-one 变成两类——&quot;无知之错&quot;（不知道代码库里有现成模块、改错系统、风格不一致）和&quot;偏执之错&quot;（过度冗余校验、把该直接崩溃的地方做成复杂降级）。能持续赢过模型的只有两点：对代码库和系统的深度熟悉，以及技术沟通——他指出新模型编码更强、写作反而更差（&quot;Claudish&quot;腔），因为好文笔不是可验证域、实验室又一味追能力牺牲了表达。
-🔗 https://seangoedecke.com/you-have-to-beat-the-models-at-something/
-
-3. 1983 年 8 月 30 日，苹果诉 Franklin 案胜诉
-苹果起诉 Franklin 抄袭其 ROM 与操作系统胜诉，首次确立计算机软件受版权保护——此前软件是否适用版权尚无定论；这桩奠基性判例在当下 AI 训练数据版权争议中重新有了参照价值。
-🔗 https://dfarq.homeip.net/apple-prevails-over-franklin-august-30-1983/
-
-4. 太空中的磁芯：1980 年 Spacelab 计算机的磁芯存储模块
-Ken Shirriff 拆解航天飞机货舱里欧洲 Spacelab 实验室所用法制 Mitra 125 minicomputer 的磁芯存储模块，一次面向硬件极客的太空计算考古。
-🔗 http://www.righto.com/2026/08/spacelab-core-memory.html
-
-5. Pebble 新天气 App 与软件更新
-Pebble 创始人 Eric Migicovsky 宣布 Pebble Time 2 邀请函全部发完、现货到位，并推出新天气 App——复活的智能手表小生态持续更新的信号。
-🔗 https://repebble.com/blog/new-pebble-weather-app-software-updates
-
-🐦 Twitter 精选（5 / 15）
-
-1. @Hesamation：苹果 Mac 业务同比增长 29%，它在 AI 硬件竞赛中的位置可能被低估：OpenAI 为 RL 买了数万台 Mac Mini 仍不够用，Anthropic 从 AWS 租 Mac Mini，有创业公司在建 Mac 数据中心，&quot;英伟达视苹果为本地 AI 最大竞争对手&quot;——新款 Mac Mini/Studio 加 Thunderbolt 5 集群，苹果正切入 AI 硬件市场。
-🔗 https://x.com/Hesamation/status/2094073077097185753
-
-2. @shao__meng：Uber 全公司落地 AI Coding Agent 的运营复盘：过去半年 70%+ 的 PR 由本地或云端 Agent 完成，自建 3600 个 Skills、每天 3 万次执行，周活用户涨 7 倍而 AI 总支出自 4 月起基本持平；靠&quot;六因子成本方程&quot;把每千次请求成本从峰值降了 34%。
-🔗 https://x.com/shao__meng/status/2094207625139568933
-
-3. @shao__meng：Google Research 新论文 WikiSkill：在原始经验与可执行 Skills 之间插入一个持久化知识层（Wiki），让 Agent 的经验被持续编译、沉淀为结构化知识，从而支撑 Skills 长期、复利式进化，实验显示带来一致且显著的性能提升。
-🔗 https://x.com/shao__meng/status/2094210820679065961
-
-4. @shao__meng：一次性放出 Google、OpenAI、Anthropic、LangChain 四份关于 AI 原生软件开发的报告（The New SDLC With Vibe Coding / Building an AI-Native Engineering Team / The AI-Native SDLC playbook / The Agent Development Lifecycle），四大玩家同时给出各自的 Agent 开发方法论。
-🔗 https://x.com/shao__meng/status/2094007486974157130
-
-5. @hongming731：BestBlogs 08-30 早报精讲：腾讯开源 Tencent Hy4 preview（总参 770B、激活 49B、上下文超 1M tokens，端到端吞吐较基线提升 31.8%），并复盘 Anthropic 员工内部如何用 Claude——从 Slack 讨论生成待审文档、汇总分散的客户请求，到预审营销法务材料，且都保留人工核验环节。
-🔗 https://x.com/hongming731/status/2093871203983446425
-
-📱 公众号精选（3 / 3）
-
-1. 到底有哪些 AI 会劝你别转 5000 万？
-作者把孙宇晨故事里&quot;要不要转 5000 万美元&quot;的决策题原样发给 9 个主流模型，每题每模型重复 3 次，共跑 54 次。在网上流传的短问题版本里，稳定劝你别转的是 Claude、Kimi、Grok 三个；GPT、DeepSeek、GLM 会摇摆；豆包、Gemini、Qwen 则 3 次都让你转。但把公开叙事中的上下文补全后，19 个有效回答全部改口劝你先别转。作者由此点出真正的问题不是&quot;哪个 AI 更靠谱&quot;，而是&quot;责任清洗&quot;：人先决定想怎么做，再不断换 prompt、换模型、换上下文，直到抽到自己想听的那张牌，最后把自己的选择写成&quot;AI 建议&quot;。文章还引用了 Anthropic 基于约 150 万条真实对话的失权风险研究。
-🔗 https://mp.weixin.qq.com/s/0aRo-Lzggt-tyNVIH5e7Gw
-
-2. AI 客服越来越强，菲律宾外包业为什么还增加了 7 万个岗位
-若 AI 最先替代重复白领工作，菲律宾的客服与 BPO 行业本应最早出现就业下滑，现实却相反：菲律宾 IT-BPM 协会 2025 年数据显示行业收入超 403 亿美元（约占全国 GDP 8%）、直接雇佣约 190 万人，一年反增约 7 万岗位。文章的判断是——AI 没有立刻消灭整个行业，而是在&quot;拆开&quot;每一份工作：把简单请求交给机器，把例外、判断和责任留给人。结果是总人数还能增长，但旧岗位的内容、价值和安全感在同时下降。
-🔗 https://mp.weixin.qq.com/s/XsFcehzynPRgKXkuKzc7ww
-
-3. Z Event｜两周倒计时，ZP 主办外滩大会 AI2C 论坛，最后一批席位开放
-Z Potentials 将于 9 月 11 日在外滩大会主办 AI2C 论坛的报名公告，核心议题&quot;AI 怎么成为下一个消费入口&quot;：AI 搜索内置购物闭环、头部支付网络接入 Agent 交易协议、智能体导购密集上线，一条&quot;AI 成为消费者代理人&quot;的新消费基础设施链路正在成型（注：本文为论坛报名公告）。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/7Aj8JwEfvjR0uBoFB705Gg
-
-📖 查看完整日报（27 篇）→ https://news.justin7974.dev/2026-08-31.html</description>
     </item>
   </channel>
 </rss>
