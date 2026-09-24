@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 22 Sep 2026 00:25:29 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 00:16:14 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #714 | 2026-09-24</title>
+      <link>https://news.justin7974.dev/2026-09-24.html</link>
+      <guid>https://news.justin7974.dev/2026-09-24.html</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 6 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. [AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%
+两家头部实验室同一天降价：Anthropic 发布 Claude Opus 5.5，称大部分任务达到 Fable 5.1 水平、运行成本比 Opus 5 低 40%，标价从每百万 token 5/25 美元降到 4/20 美元；大约一小时后 OpenAI 发布 GPT-6 Sol 和 Luna，标价 2/10 美元和 0.10/0.50 美元，都比上一代便宜约一半。但 Artificial Analysis 算了一笔账：Opus 5.5 在最高挡位下 token 用量大涨，单个任务成本 5.98 美元，和 Opus 5 的 5.86 美元几乎一样，“便宜 40%”只在默认的 medium 挡成立。第三方评测里 Opus 5.5 拿下 CursorBench、Vals Index 等榜首，在 FrontierSWE 上仍落后 GPT-6 Astra（62.3% 对 65.5%）；还有个怪现象，xhigh 挡成本是 medium 的 2.8 倍，分数反而低 3.2 分。AINews 当天就把默认模型换成了 Opus 5.5，理由是写作质量差距明显。
+🔗 https://www.latent.space/p/ainews-claude-opus-55-the-new-default
+
+2. The Year AI Came For Us: Teaching Entrepreneurship Will Never Be The Same
+Steve Blank 在斯坦福教了 15 年的 Lean LaunchPad 课，今年春天被 AI 打乱：第一堂课上 8 支队伍全都直接演示了完整产品，往年要到第 10 周才能看到这种程度。结果这些队伍学到的反而更少。他们拿 AI 代替客户做验证，默认 AI 给的信息是对的；MVP 变成了推销工具而不是实验，受访者在评价产品而不是讲自己的问题；产品越像样，团队越舍不得改方向，往年每队会转向 3-4 次，今年要么转得很晚，要么不转。队伍还发现，很多潜在客户自己也在用同样的 AI 工具，和他们一样快地做出替代品。Blank 的结论是，MVP 作为“学到了什么”的证据已经失效，创业的瓶颈从“造产品的时间和成本”转到了“判断造什么、给谁造”。
+🔗 https://steveblank.com/2026/09/23/the-year-ai-came-for-us-teaching-entrepreneurship-will-never-be-the-same/
+
+3. Historic UN Security Council Briefing on AI
+联合国安理会就 AI 举行通报会，Yoshua Bengio、Sam Altman、Dario Amodei 和 Hugging Face CEO Clement Delangue 接连发言，美联社的标题是：AI 公司负责人警告，若不干预，AI 可能对全人类构成风险。一向批评 AI 公司的 Gary Marcus 这次说，他几乎同意四个人说的所有话，大家都落到同几件事上：上线前安全测试、透明度审计、法律责任、国际合作、立即行动。他唯一的不满是 Altman 和 Amodei 的自我吹捧，尤其是 Amodei 把 Anthropic 当天公布的酶系统发现类比成 CRISPR。他引用 Angela Rasmussen 博士的话：他们找到了序列，大概也表达了蛋白，但还没做像样的功能鉴定，现在就和 CRISPR 比“太早了”。
+🔗 https://garymarcus.substack.com/p/historic-un-security-council-briefing
+
+4. 🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)
+Radical Numerics CEO Eric Nguyen 的判断是：生物安全这场军备竞赛里，防守方目前在输，办法是把前沿推得更快，而不是踩刹车。他在斯坦福时参与主导了基因组语言模型 Evo、参与了 Evo 2，后来 Arc/Stanford 的另一支团队用这些模型生成了完整的噬菌体基因组，并合成出能正常工作的病毒。DNA 只有 4 个字母、序列极长（人类基因组约 30 亿个碱基），长上下文模型是这件事的前提。他们做过一个“用 DNA 思考”的实验：按分数从低到高给模型看一串 RNA 适配体，模型能自己把这条轨迹续下去，生成接近那些被藏起来的高分样本。联合创始团队里另有三位来自 Liquid AI（Michael Poli、Stefano Massaroli、Armin Thomas）。
+🔗 https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric
+
+5. Crusoe Is on Track for $2 Billion in Revenue as the Data Center Backlash Builds
+数据中心建设商兼云服务商 Crusoe 刚以 309 亿美元估值融资 39 亿美元，由 Atreides Management、Valor Equity Partners 和 Mubadala 领投。Newcomer 拿到的财务数据显示，它今年收入有望达到 20 亿美元。与此同时，各地对数据中心的政治反弹在升温，CEO Chase Lochmiller 认为，把宣传沟通做好就能平息这股反对。（正文为付费内容，以上基于公开部分。）
+🔗 https://www.newcomer.co/p/crusoe-is-on-track-for-2-billion
+
+🐦 Twitter 精选（5 / 30）
+
+1. @AnthropicAI：Anthropic 称 Claude 在噬菌体 DNA 里发现了一个此前未知的酶系统，酶基因旁边是一长串重复 DNA，结构有点像 CRISPR。他们还不清楚这个系统具体做什么，但已知有类似特征的少数系统都能剪切、复制、粘贴 DNA。
+🔗 https://x.com/AnthropicAI/status/2102824959827742916
+
+2. @AnthropicAI：这是 Anthropic 新建的分子生物学实验室的第一个成果：Claude 梳理数据和文献、提出假设和候选生物系统，科学家审过后挑最有希望的去验证，湿实验全部由人类科学家完成。他们打算把这套做法扩展到基因组学等更多问题。
+🔗 https://x.com/AnthropicAI/status/2102824961538920822
+
+3. @Hesamation：引用 Anthropic 原文：人只参与了最初的 prompt 和实验室验证，950 个 agent 用 2.1 亿 token 在数据里搜了 21 个小时，其中一个 agent 发现了这个不寻常的结构。
+🔗 https://x.com/Hesamation/status/2102845997814882348
+
+4. @AnthropicAI：刚果（金）暴发一种罕见埃博拉变种疫情，CEPI、世卫组织非洲区域办事处和刚果国家生物医学研究所（INRB）等卫生机构正在用 Claude 加快应对。
+🔗 https://x.com/AnthropicAI/status/2102897863097545197
+
+5. @emollick：转发一张他认为很重要的图：在多个高难度数学和科学基准上拿到 25% 或 75% 分数的成本在崩塌，能力同时还在上升。所以现在为某个具体方案死抠成本，可能是短视的。
+🔗 https://x.com/emollick/status/2102865436459069474
+
+📱 公众号精选（5 / 6）
+
+1. 为什么 CPU 重新变得重要？
+AMD 5 月还预测 2030 年服务器 CPU 市场超过 1200 亿美元，7 月 23 日苏姿丰就把数字上调到 2200 亿美元，中间只隔了两个半月。文章编译自半导体播客 Semi Doped，主线是 agent 正从本地（Claude Code、Codex）搬到云端（Claude Tag、Grok Bot、Muse、Instinct），而 agent “思考—调工具—读结果—再思考”的循环里，除了模型推理，调工具、跑代码、读写文件、管理状态都吃 CPU。供给已经跟不上：Intel CEO 陈立武 9 月 14 日说 CPU 需求太高，只能给一半客户供货；AMD 9 月 21 日涨约 10%，市值过万亿美元。文章把 CPU 分成两种角色：给 GPU 喂活的 Host CPU，以及成机架部署、专门执行 agent 任务的 Agentic CPU，后者会是 CPU 增长的大头。
+🔗 https://mp.weixin.qq.com/s/VYO-phuOq22DROPqy47pEg
+
+2. 一百万块GPU的集群，光在连线上就要烧掉180兆瓦
+一个一百万块 GPU 的集群，光是芯片之间互连的功耗就要 180 兆瓦，接近一座中型燃气电厂的装机容量，这部分电一次矩阵乘法都不参与。文章以 Ayar Labs 为例：公司 9 月追加 1.5 亿美元，E 轮总额到 6.5 亿美元，累计融资约 8.7 亿；3 月那轮估值 37.5 亿美元，据报道一笔老股交易的定价已超过 50 亿美元，英伟达和 AMD 同时在股东名单里。它做的是把芯片间的连线从铜换成光：单通道速率超过 112Gbps 后铜线损耗急剧上升，把光收发器件做进芯片封装（共封装光学）能把电损耗从 22 分贝降到 4 分贝、单端口功耗降七成以上，下一代产品宣称每比特能耗低于 5 皮焦，现在的可插拔光模块约 17.75 皮焦。作者也列出了没答案的部分：收入和量产阶段都没公开，50 亿估值来自老股交易，不是新一轮定价。
+🔗 https://mp.weixin.qq.com/s/DlqbHUh96XwDOOK-naAMhQ
+
+3. Z Potentials｜专访Efflora，蒸馏收归内部、合成数据失效，安全极客去真实世界最深处为AI“探矿”
+Efflora 创始人王泉的判断很尖锐：训下一代模型本质上是 GTM 问题，要么全面 SOTA、要么性价比做到极致，否则排第二第三的模型 token 卖不出去，更致命的是收不回用户数据。Efflora（平等智能）是一家不到 10 人的 AI 数据公司，核心成员来自安全社区“乌云”，今年初拿到王慧文家办 Lollapalooza Capital 领投、蔚来资本跟投的千万元级种子轮。他们的观察是：蒸馏和合成数据正在收归模型公司内部，外部数据商的窗口在“真实的非标场景数据”，比如一个软件从签合同、讨论需求到客户是否验收的完整过程；判断数据好坏的标准，也从“任务够长”变成“任务值得解”。他们现阶段押注网络安全数据，理由是攻防过程天然沉淀了在大量噪声里综合判断、决定下一步的决策数据，而这正是 AI 最弱的能力。
+🔗 https://mp.weixin.qq.com/s/ZXN7uqTNzZCrCBWwAVlV4Q
+
+4. 拉开中国汽车整合大幕的，将是海外新增的那 “1000 万辆车”
+中国乘用车规划产能接近 5000 万辆，国内年销只有 2000-2500 万辆，作者算下来，要让产能利用率回到健康的 80%-85%，中国车还得在海外再多卖 1000 万辆以上。文章从一汽和广汽的重组意向说起：广汽拟发股购买一汽手中的合资整车股权（市场普遍推测是一汽丰田），广汽几乎不用出现金，一汽把非上市的合资股权换成“A+H”上市平台的股份。作者用排除法解释为什么只能做这么浅：集团合并卡在属地、控制权和税收上（东风长安谈了 116 天后“暂不实施”），自主品牌和过剩产能没法定价；合资股权是唯一能作价、能交割、摩擦最小的资产；而广汽 2025 年亏 115 亿元、2026 年上半年亏 59 亿元，是最需要这笔交易的一方。他的结论是，海外新增的 1000 万辆只能由民营车企主扛、新势力辅助，国企集团会继续承担国内价格战的成本，类似的抱团还会出现。（微信原文链接暂时打不开，内容取自网易号转载的同文。）
+🔗 https://mp.weixin.qq.com/s/4VmBWVM1fHEShGm~fGqB0A
+
+5. a16z 开了一所学校，4200 万美元培养硅谷下一代年轻创业者
+a16z 孵化的 Horowitz Andreessen Academy 首期拿到 4200 万美元，其中 a16z 出 3500 万，Udemy 联合创始人 Gagan Biyani 任 CEO，Marc Andreessen 和 Erik Torenberg 进董事会。它不发学位、不授学分，首届 2027 年秋开课、只招约 50 人、首年免学费，录取看重申请人“已经做出了什么”，而不是考试分数。Anthropic、OpenAI、NVIDIA、Google 等 10 家公司是创始合作方，另有 40 多家招聘合作方，每个学生有超过 5 万美元的算力额度。它是一家营利性公司，计划 2028 年推出两年制项目，学费预计接近美国顶尖私立大学。
+🔗 https://mp.weixin.qq.com/s/jfOcLNmEN50sOTEAjvuwVA
+
+📖 查看完整日报（46 篇）→ https://news.justin7974.dev/2026-09-24.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #712 | 2026-09-22</title>
       <link>https://news.justin7974.dev/2026-09-22.html</link>
@@ -1254,76 +1324,6 @@ GPT-6 Astra 北京时间凌晨发布，API 编号 gpt-6-astra，上下文 105 �
 🔗 https://mp.weixin.qq.com/s/2i5rwoEkCD6xDmKTkOTWVA
 
 📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-09-04.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #693 | 2026-09-03</title>
-      <link>https://news.justin7974.dev/2026-09-03.html</link>
-      <guid>https://news.justin7974.dev/2026-09-03.html</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
-      <description>今日共 13 篇 RSS · 15 条推文 · 7 篇公众号
-
-📰 RSS 精选（5 / 13）
-
-1. [AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens
-Anthropic 发布 Claude Fable 5.1 与 Mythos 5.1，官方定位为&quot;面向编程和知识工作的全球最先进模型&quot;，发布推文获得 1280 万次浏览。单 token 定价与 5 代持平（输入 $10、输出 $50、缓存写入 $12.5 每百万），但缓存读取价格直降 75% 至 $0.25 每百万，利好长上下文、长会话用户。关键反转在于：据 Artificial Analysis 实测，新模型输出 token 用量增加约 70%（1.7 倍），抵消缓存降价后，单任务综合成本反而上升约 20%。同日 World Labs 的世界模型 Astra 也发布，被 Latent Space 称为迄今最惊艳的世界模型。
-🔗 https://www.latent.space/p/ainews-claude-fablemythos-51-new
-
-2. Fable 5.1, Enterprise Frontier Safeguards
-Ben Thompson 认为 Fable 5.1 发布的真正看点不是跑分，而是 Anthropic 顺势&quot;在过渡期彻底取消&quot;了此前饱受诟病的 Fable 数据保留政策——不是修改，是整个撤销。他还解释了缓存使用量提升为何对用户和 Anthropic 是&quot;双赢&quot;，并把这次调整放在&quot;企业级前沿安全保障&quot;的框架下讨论。
-🔗 https://stratechery.com/2026/fable-5-1-enterprise-frontier-safeguards/
-
-3. Apex: The Spacecraft Platform Company
-Apex 创始人 Ian Cinnamon 在 a16z 撰文提出：新一轮太空竞赛的胜负不再由&quot;首次登月&quot;这类里程碑衡量，而是由&quot;速率&quot;决定——部署、补网、技术刷新的速度。实现这一切需要&quot;星座&quot;（成百上千颗卫星协同），而星座依赖两大工业能力：发射与航天器平台。他判断发射能力已基本就绪，真正的瓶颈是航天器平台，Apex 要做的就是消除这个瓶颈，让星座可被快速规模化部署。
-🔗 https://www.a16z.news/p/apex-the-spacecraft-platform-company
-
-4. Grok Bot vs. OpenClaw: How I replaced my entire agent stack
-Claire Vo 在 Lenny&apos;s Newsletter 分享实操：用了几周 GrokBot 之后，她关掉了此前所有的 OpenClaw，几乎完全迁移到 GrokBot。GrokBot 是 SpaceX AI 团队推出的多智能体平台，定位为&quot;可以交付真实工作的 AI 队友&quot;——用户能像给员工分配任务一样，定义 agent、赋予职责、派活。文章逐个演示了可直接照搬的实用场景，也点出了当前仍缺失的能力。
-🔗 https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced
-
-5. VC isn&apos;t VC anymore — understanding the rise of Cancer Capital
-Anil Dash（曾多次以 CEO 身份募资、并担任董事/顾问）撰长文抨击：头部风投已不再是传统意义的 VC。少数机构借放松的监管，把 VC 与 PE 合并成管理数百亿美元的&quot;全能基金&quot;，靠 2% 管理费旱涝保收（管 500 亿一年就有 10 亿到手），法律上甚至已不算 VC，因而不再受市场、创始人和法律约束，他称之为&quot;癌症资本&quot;。他指出 a16z 本轮中期选举已投入 1.153 亿美元政治献金、接近 2024 年的两倍，超过任何亿万富翁个人捐赠者；权力天平从创始人倒向 VC，&quot;创始人&quot;沦为执行 VC 政治议程的人选。
-🔗 https://anildash.com/2026/09/02/cancer-capital/
-
-🐦 Twitter 精选（5 / 15）
-
-1. @EXM7777：Gemini 3.8 Flash 让所有 AI 实验室真的紧张了：大家意识到 Google 不是在拼最强前沿模型，而是在造驱动大多数 AI agent 的引擎——性能接近 Opus 5、便宜到离谱、速度飙到 300 tps。
-🔗 https://x.com/EXM7777/status/2095235375166058504
-
-2. @emollick：拿到 Gemini 3.8 Flash 早期访问：它确实是一个很好的 Flash 模型，但还不等同于前沿模型；同样提示词下它给出的 shader 版本响应很快，但质量与前沿模型有差距。
-🔗 https://x.com/emollick/status/2095203002210807816
-
-3. @Hesamation：Muse Spark 1.3 成为 Artificial Analysis 智能指数上最强的非 Anthropic 模型：得分与 Fable 5 持平，但输出 token 便宜 12 倍（$4.25/M vs $50/M），仅落后 Opus 5 一分、落后昨天发布的 Fable 5.1 四分。
-🔗 https://x.com/Hesamation/status/2095276123479318914
-
-4. @Hesamation：OpenAI Astra 用了名为&quot;循环深度&quot;（recurrent depth）的新推理技术：不靠堆叠更多 Transformer 层，而是让隐藏状态在同一层里多次循环，部分推理在模型内部完成、而非写成显式思维链。
-🔗 https://x.com/Hesamation/status/2095056395737378915
-
-5. @Hesamation：Qwen 3.8 Max 0902 登顶 WebDev Arena，略微超过 Opus 5；Fable 5.1 的成绩仍在等待。作者感叹：一睡觉就有新模型发布。
-🔗 https://x.com/Hesamation/status/2095062290739405176
-
-📱 公众号精选（5 / 7）
-
-1. 嘉立创：用 2100 万张零散的 PCB 板，拼成一门价值千亿的生意
-靠 2108 万笔零散订单拼出 102.3 亿元营收——PCB 厂商嘉立创 2026 年 8 月上市后市值逼近千亿，商业模式却极度反直觉：2025 年前五大客户合计仅贡献 1.16% 收入，最大单一客户占比 0.28%，收入来自 130 万付费用户、平均每单仅 485 元。它切的是硬件研发最前端、最零散的打样和小批量需求，用&quot;手工拼版 + 系统自动审单 + 算法集约拼板&quot;把打样价压到极低，再一体化整合 EDA 设计软件、立创商城元器件、贴片、3D 打印/CNC。2025 年净利率 12.4%、2026 上半年升至 14.4%，A 股中仅三家英伟达 AI 供应链核心厂商高于它，海外收入占比已超 20%。
-🔗 https://mp.weixin.qq.com/s/XPqVGXtuO6MROJr0EsiIeA
-
-2. 16 人拿到 1000 万美元，想把 AI 视频做成持续运行的世界
-2025 年成立的 Visko 完成 1000 万美元种子前融资，并开放世界模型 Orbis 的公众体验入口。与&quot;渲染一段定长短片&quot;的传统 AI 视频不同，Orbis 把视频做成&quot;持续运行&quot;的画面：按短片段不断向前生成，用户可在运行中随时改提示词（如让车转进城市、把雨夜改成晴天），下一段立即响应。据公司技术报告，Orbis 可实时输出 24fps 的 4K 视频、小时级连续生成无明显画质漂移，并用&quot;固定容量的多尺度记忆&quot;解决长时生成的一致性问题（人物换脸、物体漂移）——但这些结论目前主要来自公司自述，缺乏大规模独立验证。
-🔗 https://mp.weixin.qq.com/s/AfgyFuknOjq67IgfoBQOPA
-
-3. 喝点VC｜a16z全球投资负责人：创始人来硅谷是为了校准速度；未来的创业公司将同时属于多个国家
-a16z 全球投资策略的两位主导者 Angela Strange 与 Gabriel Vasquez 复盘了 a16z 如何从拉美金融科技、一个把 25 位当地顶级 CEO 拉进去的 WhatsApp 群起步，逐步搭起面向全球创始人的跨市场网络。他们提出&quot;无国界创始人&quot;概念：不取决于出生地或注册地，而在于是否从第一天就想建一家全球公司；这类人拥有三项复利优势——进入差异化人才网络、借国家/地区认同建品牌、更早拿下本土大客户。Strange 引用 Nubank 的判断：与其在美国争当用户的第五个金融服务，不如进入只有五家安于现状的银行、仅覆盖 20% 人口的空白市场。
-🔗 https://mp.weixin.qq.com/s/JrGUvp6LcYFxql9STPtjgA
-
-4. 我用 claude-fable-5.1 调研了 517 个高客单价活动
-作者用刚发布的 claude-fable-5.1 把活动行平台上能抓到的 3839 个收费活动全量翻了一遍：其中票价过千的高客单价活动 517 个，但其中 333 个显示付费票&quot;零售出&quot;；能看到成交的 184 个里，前十名拿走了全部可确认票款的 52%。峰会大会与培训课数量接近（187 比 196），票款却差了五倍以上（1180 万 vs 223 万）。原始数据、抓取脚本与全部分析代码已开源。
-🔗 https://mp.weixin.qq.com/s/ExiIKrarNDpjl17Vgrsb6w
-
-5. 豆包有 Agent 了：从刷视频到发公众号，我一次电脑都没开
-字节豆包上线 Agent 能力，作者演示全程只用手机、不开电脑，就让 Agent 完成从刷视频到发公众号的一连串任务，展示了国产消费级 App 的端侧 agent 化。
-🔗 https://mp.weixin.qq.com/s/oV~JoljbS9yyatfrM-CPDA
-
-📖 查看完整日报（35 篇）→ https://news.justin7974.dev/2026-09-03.html</description>
     </item>
   </channel>
 </rss>
