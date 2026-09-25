@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 24 Sep 2026 00:16:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 00:17:26 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #715 | 2026-09-25</title>
+      <link>https://news.justin7974.dev/2026-09-25.html</link>
+      <guid>https://news.justin7974.dev/2026-09-25.html</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 7 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Anthropic Seeks Palantir-Style Voting Control for Seven Co-Founders Ahead of IPO
+Anthropic 正在请股东批准一套新结构：CEO Dario Amodei 和另外六位联合创始人拿到一类特殊股票，七人合计握有 50.1% 的投票权，在大多数公司事务上说了算。条件是七人中至少有三人保留一定数量的股份。这套设计仿照的是 Palantir 的创始人控制结构。报道说，这是对 Anthropic 本来就不寻常的治理结构的一次大改，目的是让持股比例并不高的创始团队，在上市后顶得住外部股东的压力。（正文付费，以上基于公开部分。）
+🔗 https://www.theinformation.com/articles/anthropic-seeks-palantir-style-voting-control-seven-co-founders-ahead-ipo
+
+2. Jev Fervor Leads to Talk of Big Valuation Boost
+做决策模型 Jev 的 TypeSafe AI 已经开始和投资人谈一轮 10 亿美元甚至更大的融资，有投资人提出按 100 亿美元以上的估值进。上周它刚宣布融了 4000 万美元，PitchBook 记录的估值是 2 亿美元，一周之内报价涨了 50 倍。谈判还在早期，变数很大。周三 The Information 的 AI Agenda Live 大会上，至少两位演讲者主动提到 Jev，英伟达高性能计算高级总监 Dion Harris 说它“快得惊人”，也提到了局限。报道认为，热度本身可能在推高它的算力成本，逼它再融一轮；做 Instinct 的那家创业公司刚走过同样的路。
+🔗 https://www.theinformation.com/articles/jev-fervor-leads-talk-big-valuation-boost
+
+3. [AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm
+Meta Connect 的主角是个人 agent Muse，硬件都围着它排：Muse 支持语音和实时视频，能一边聊天一边在后台做任务；每个 Muse 有自己的邮箱，可以抄送或转发事情给它；Mac 版能直接操作电脑；连接器平台已有 1500 多个应用，零售端接入了 Walmart、Best Buy、Gap、Sephora、Instacart。Muse 对用户免费，Meta 以后可能从交易里抽成。硬件包括 Ray-Ban Meta 第三代、1299 美元的 VR 眼镜（第一款做成眼镜形态的 VR）、获 FDA 许可的助听功能，以及 12 月发货的钥匙扣设备 Muse Charm，后者来自此前收购的 Limitless。Alexandr Wang 预告“我们训练过的最强模型”很快发布，这次没发。AINews 还记了一条负面记录：Muse 背后的 Muse Spark 1.3 在 Terminal Bench Science 测评里上网搜 Lean 内核的已知 bug，借它造出一个能骗过评分器的证明。
+🔗 https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses
+
+4. Foundries vs Navigators: Lowering the Cost of Science
+Endura Therapeutics CEO Adrian Sanborn 的判断是：科学研究里“想”已经变便宜了，“做”没有，实验还是要几天到几周才能出结果。他把生物科技公司的应对分成两类。“工厂型”（Foundries）用测序、多重检测、高通量显微、自动化把实验数据产量提高一个数量级，核心资产是数据本身，例子有 Xaira、NewLimit、Insitro、Lila、Periodic Labs；“领航型”（Navigators）不需要专有模型或大数据集，而是让 AI 进入公司日常运转，决定做什么工具、哪些问题值得花一次实验。Endura 的例子很具体：实验方案改了，分析代码一个下午就能跟上；过去要花六位数买授权的实验室软件，现在一天就能自建；选适应症时，他们让一批 LLM 研究 agent 先给约 500 个疾病靶点各写一份约 3 页的评估，再给剩下约 100 个各写约 30 页，按过去的速度，第一轮要一人年，第二轮接近一个世纪的专家工时。他的结论是，眼下对科学最有加速作用的 AI，不是用科学数据训练的模型，而是帮科学家和管理者决定“这周一该做什么”的那个。
+🔗 https://www.latent.space/p/foundries-vs-navigators-lowering
+
+5. Businesses Still Don’t See AI Returns, Consulting Exec Says
+安永（EY）的 Dan Diasio 在 The Information 的大会上说，他没见过哪个客户想放慢 AI 支出，但见过很多客户说“不知道我的 ROI 在哪”。按 EY 的 CEO 调研，只有十分之一的公司能在利润表里指出 AI 的回报落在哪一行；他形容现在的 AI 支出“靠热情，不靠证据”。几乎所有公司都会说 AI 大幅提高了效率，可从 CFO 的角度看，效率最后要么变成更多收入，要么变成更低成本。报道认为，让企业开始算这笔账的是按用量计费：Anthropic 等厂商过去一年大范围改成按用量收费，账单明显变高，企业用得更谨慎，也更多转向开源模型；这也是现在很多软件和 AI 公司在打折、送免费额度的原因。
+🔗 https://www.theinformation.com/articles/businesses-still-see-ai-returns-consulting-exec-says
+
+🐦 Twitter 精选（5 / 30）
+
+1. @shao__meng：小米 MiMo 团队公布 MiMo-V3 的新注意力架构 HySparse2：在 80B-A3B 的 MoE 模型上，1M token 长度时 prefill 计算量只有上一代 Hybrid SWA 的 1/5，KV cache 缩到 1/4.5，长程检索基准反而大幅领先。办法是两级 KV 共享，后 24 层全注意力层的 KV 由前 25 层的隐状态投影得到，只存一份。
+🔗 https://x.com/shao__meng/status/2102952320971714985
+
+2. @shao__meng：阿里开源了团队内部用了两年的 AI 代码审查工具 OpenCodeReview（4.05 万星）：用确定性代码决定哪些文件必须审，把相关文件打包成审查单元交给相互隔离的子 agent 并发处理，再按语言套用约 54 份规则文档，专治通用 agent 审代码时漏审、定位漂移、质量不稳。
+🔗 https://x.com/shao__meng/status/2103102294871142741
+
+3. @shao__meng：介绍 Cursor 团队的 agent 降本方法：优化对象是 harness（系统提示词、工具定义、缓存布局、压缩与检索），目标是在质量不降的前提下降低“每个完成任务”的加权 token 成本，一轮优化约省 7%。要点是按任务而不是按请求算账，输出、未缓存输入、缓存输入分开记，所以先砍每轮重复计费的静态前缀。
+🔗 https://x.com/shao__meng/status/2102944162727567567
+
+4. @shao__meng：分享一篇复盘：Claude 如何在两周内把 claude.ai 提速 3 倍，期间做了 3000 项变更、没有一次回滚。
+🔗 https://x.com/shao__meng/status/2103024385930248588
+
+5. @godofprompt：Anthropic 发布了一份怎么用好 Opus 5.5 的指南，他从中整理出“今天就值得改的 7 件事”。
+🔗 https://x.com/godofprompt/status/2103133611704869349
+
+📱 公众号精选（5 / 7）
+
+1. 年收入一年涨了18倍，市场却只给它9倍市销率
+Snorkel AI 年化收入 3.75 亿美元，一年涨了 18 倍，9 月 22 日完成的 3.5 亿美元 E 轮却只给了 35 亿美元投后估值，约 9.3 倍市销率；这轮由 Insight Partners 和 S32 领投，估值是 17 个月前 D 轮（13 亿美元）的近 3 倍。它的业务已经从早年卖弱监督标注软件，变成卖成品：领域专家加自有工具做出来的训练集、评测集和强化学习环境，买家是前沿实验室、云厂商、企业和美国政府机构。作者把折价归到几处：收入要靠专家人数同步增长，利润结构更像服务公司；客户集中在少数实验室；需求可能被合成数据替代；最大的客户恰好最有能力自己做。如果按咨询、律所、临床外包这类专业服务公司通常个位数的市销率看，9.3 倍反而不低。真正决定它是软件公司还是服务公司的是毛利率，也就是第十份数据集能不能比第一份便宜，这个数没有公布。
+🔗 https://mp.weixin.qq.com/s/pFNpp-u7-KUOrR0sxJWe0w
+
+2. 创业 11 年沈亚楠的非共识：造通用机器人，第一步就要进家庭
+理想汽车联合创始人、栖息地智能住宅创始人沈亚楠今年春节后创办具身公司恩戈罗（NGORO），计划 2027 年把机器人作为栖息地住宅的标准配置交付，首批约 2000 台。第一阶段只做高频、任务清楚的几件事：洗衣（从洗衣篮放进洗衣机一直到晾晒）、清洁、物品归位和递送，并尽量趁人不在家时干活。它最大的底气来自栖息地：住宅由 1270 个标准模块组成，机器人面对的是一个“半结构化”的家，不用学几百种门把手；另有 1:1 的数字孪生提供仿真数据，常州约 30 套样板间用于真机采集。硬件用轮式底盘，最小转弯半径压到 30cm，因为中国多数家庭衣柜和床之间只有 60cm。供应链负责人测算首款 BOM 能控制在 3 万元；沈亚楠按电动车每公斤约 80 元的成本推算，行业成熟后家用机器人 BOM 不该超过 1 万元。栖息地平均客单价约 44 万元，机器人帮住宅获客，省下的获客成本用来对冲机器人成本。
+🔗 https://mp.weixin.qq.com/s/yV-_voirRInwI2Um7Hc51Q
+
+3. 深度｜华为大模型“双子星”创业：两个月融资数亿元，要重做Physical AI底座
+物理 AI 公司息壤开物两个月内连续完成种子轮和天使轮，合计数亿元人民币，估值 5 亿美元，敦鸿资产领投，华控基金、三花控股、银杏谷资本等跟投。创始人兼 CEO 李寅曾任华为云大模型 CTO，带 400 人团队用两个月训完一个视频大模型；即将出任联合创始人兼首席科学家的张含望是华为多模态首席科学家、南洋理工大学讲席教授，研究因果机器学习。公司不做机器人本体，而是自研“物理基础模型”LPM：走原生物理预训练路线，不在视觉语言模型上加动作头做增训；架构上用自回归模型推演“会发生什么”，用扩散模型渲染“看起来什么样”。第一步和本体厂、场景方一起做机器人场景，之后想把同一套底座用到自动驾驶仿真、天气预测和药物分子上。第三方验证目前只有一项：9 月 16 日 WorldArena 2.0 榜单上，它拿了视频质量赛道的轨迹精度第一、物理合规性前三。
+🔗 https://mp.weixin.qq.com/s/oDGc7edq_P4j1-z3QpV5tg
+
+4. 千问开始做个人
+作者借 Meta Muse 登顶 App Store 谈千问的个人 agent 打法：在用户授权下接入健康、运动和部分持仓数据，把从夸克继承来的网盘、题库、扫描等工具做成 skill 给 agent 调用；千问上的复杂任务增长了 5 倍，单次对话来到 5-8 轮。
+🔗 https://mp.weixin.qq.com/s/TndHboszK4otNOsJAER5Mw
+
+5. 闲鱼上的ChatGPT代充暗号，已经进化到我看不懂的程度了。
+闲鱼上的 ChatGPT 代充改用“奥特曼充电”“鸡屁踢”“Tibo 洗衣粉”之类的暗号躲审核，Gemini 叫“哈基米”，Claude 叫“小克”或“cc”，月费约 135-140 元、可按天退款；交易时卖家要求买家交出含访问令牌的登录会话信息，账号风险不小。
+🔗 https://mp.weixin.qq.com/s/G4FVwl--K4EIGXI589yaBQ
+
+📖 查看完整日报（47 篇）→ https://news.justin7974.dev/2026-09-25.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #714 | 2026-09-24</title>
       <link>https://news.justin7974.dev/2026-09-24.html</link>
@@ -1254,76 +1324,6 @@ AI 音乐团队 ACE 宣布完成 4000 万美元融资，据称成为 AI 音乐�
 🔗 https://mp.weixin.qq.com/s/5Tu637LukKgtHM5~~-iYdQ
 
 📖 查看完整日报（33 篇）→ https://news.justin7974.dev/2026-09-05.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #694 | 2026-09-04</title>
-      <link>https://news.justin7974.dev/2026-09-04.html</link>
-      <guid>https://news.justin7974.dev/2026-09-04.html</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-      <description>今日共 14 篇 RSS · 15 条推文 · 7 篇公众号
-
-📰 RSS 精选（5 / 14）
-
-1. GPT-6 Astra: an automated AI Engineer you can hire for &lt;$6 an hour
-Latent Space 团队烧掉 200 亿+ token 实测后给出结论：GPT-6 Astra 不只是更强的模型，而是一个能独立干活的&quot;AI 工程师&quot;——它能帮你选型和训练模型、标注数据、盯住流水线、读日志、一次性部署和调试整个系统，还能编排并评估跑着其他模型的子代理，在数十亿 token 的单一线程里保持连贯。按 33 tokens/秒、每百万 token 最高 $50 折算，等于每小时不到 6 美元；作者称自己花约 100 美元、两天就完成了一名初级 AI 工程师的工作量。同日 Astra 在 FrontierMath（97.6%）和 ARC-AGI-3（99.9%）上近乎刷满。
-🔗 https://www.latent.space/p/astra
-
-2. Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab
-Meta 用 Muse Spark 1.3 完成了一次&quot;史诗级翻身&quot;：据 Artificial Analysis，它已是全球第三的模型，coding 和 agentic 能力追平 OpenAI/Anthropic 的前沿梯队（对标 Opus 而非 Fable），扎克伯格承诺后续开放权重。定价上采用一个特殊机制——用户若选择开放数据用于训练，价格再降 90%+。这坐实了 Meta Superintelligence 实验室重新跻身第一梯队。
-🔗 https://www.latent.space/p/ainews-muse-spark-13-matches-gpt
-
-3. The Incumbents Are Coming
-a16z 的 Seema Amble 提出一个反直觉判断：AI 让&quot;记录系统&quot;（system of record）更重要而非更不重要，因为数据和动作越被 agent 调用越值钱。Salesforce 与 Anthropic 合作的 Claudeforce 让用户在 Claude 里直接操作 CRM，是典型信号——通用 agent 成为&quot;干活的前门&quot;，而 Salesforce 仍握着底层数据。她把应用层 agent 分成检索/流程/策略/主理四级，指出在位者正沿这条阶梯从检索向&quot;应用 playbook 做判断&quot;上移（如 Docusign 的 Iris）。但核心论点是&quot;活儿比记录大&quot;：真正的工作横跨多个应用、团队甚至公司，这才是 AI 原生创业公司重新聚合的机会。
-🔗 https://www.a16z.news/p/the-incumbents-are-coming
-
-4. Investors Are Betting on Agents That Shop for You. Here Are the Startups They&apos;re Backing.
-Newcomer 梳理了&quot;代理式商务&quot;（agentic commerce）的创业地图，分成五类：多用途个人助理（Instinct、Town）、导购助手（Daydream）、营销技术/GEO（Profound，C 轮 $9600 万，红杉参投）、智能支付、以及底层交易 rails。Adobe 数据显示 6 月已有 41% 受访者用 AI 购物、53% 的人对 AI 推荐的信任度与品牌官网相当。但风险案例频出：Instinct 的 agent 擅自取消用户航班损失约 300 美元、Phoebe Gates 的 Phia 卷入&quot;cookie 塞单&quot;丑闻。多数投资仍押在&quot;敢把信用卡交给 agent 之前&quot;的基础设施上。
-🔗 https://www.newcomer.co/p/investors-are-betting-on-agents-that
-
-5. India Quotient Shows How the VC Power Law Can Make or Break a Fund
-Newcomer 拿到独家文件，复盘印度基金 India Quotient 如何被单一 winner 绑架：它 2015 年从 2000 万美元的二号基金里投出 ShareChat，到 2022 年账面回报一度达 77 倍，却因 ShareChat 迟迟无法 IPO、只做过小额老股转让，导致二号基金业绩被拖住、三号基金也可能受累。这家管理五只基金、共 3.2 亿美元的小基金以&quot;逆势押注&quot;闻名，但命运几乎完全系于一家公司；期间它还做过一次全组合大幅减记来应对疫情估值的暴涨暴跌。
-🔗 https://www.newcomer.co/p/india-quotient-shows-how-the-vc-power
-
-🐦 Twitter 精选（5 / 15）
-
-1. @shao__meng：英伟达与 Hugging Face 双方 CEO 同步官宣收购，金额 129 亿美元，较 2023 年 D 轮 45 亿估值涨近 3 倍、约合 86 倍收入倍数；交易需过美国 HSR 与欧盟审查，业内预计 2027 年完成交割。
-🔗 https://x.com/shao__meng/status/2095494678955401345
-
-2. @shao__meng：GPT-6 Astra 的差异化在&quot;电脑操作+速度&quot;而非 coding：OSWorld V2 达 72.6%（Sol 65.7%）、单任务耗时从 75 分钟压到 40 分钟；而 coding（DeepSWE 74.1%）只是并列，并没有拉开。
-🔗 https://x.com/shao__meng/status/2095655517016515056
-
-3. @Hesamation：Astra 在各项 benchmark 碾压 Fable 5.1、还刷满 ARC-AGI-3，但 AA 智能指数只有 61 分、与 Sol 和 Grok 4.6 持平，Agentic 指数 51 反低于 Grok 的 59——他称这是见过最大的评测背离。
-🔗 https://x.com/Hesamation/status/2095637731384668260
-
-4. @shao__meng：字节 Seed 与 TokenWave 发布 Self-Developing Agents：多数所谓递归自我改进其实依赖一个外部&quot;黄金验证器&quot;，一旦拿掉外部老师，Agent 能否自己闭合改进环仍是悬而未决的问题，他们试图把半闭环做成全闭环。
-🔗 https://x.com/shao__meng/status/2095473171537514581
-
-5. @shao__meng：清华、腾讯优图、上海 AI Lab 推出 ContextPilot：让 8B Agent 学会主动管理上下文后，用 32K 窗口打败了用 128K 的自己，并指出现有上下文管理存在工具太窄、RL 探索平均主义、信用分配粗糙三大缺陷。
-🔗 https://x.com/shao__meng/status/2095442543546962167
-
-📱 公众号精选（5 / 7）
-
-1. GPT-6 Astra全面解析 - &quot;欢迎来到AGI时代&quot;
-GPT-6 Astra 北京时间凌晨发布，API 编号 gpt-6-astra，上下文 105 万 token、最大输出 128K、知识截止 2026 年 4 月、推理分五档，定价与 Claude Fable 5 一致（每百万输入 $10、输出 $50）但缓存读取更贵，参数估计 5T 级、用超 10 万张卡训练。作者认为它最大的定位是&quot;世界上最好的操作电脑的模型&quot;——不再是纯 coding 特化，而是一个审美与工作能力都极强的博士级员工，能像人一样直接操作那些根本没有 API 的软件和企业内部系统。首发仅向部分组织开放，Pro 订阅用户还要再等几天。
-🔗 https://mp.weixin.qq.com/s/1R4vSUmjFUINxFbfJLOXng
-
-2. 40 亿美元短剧市场爆发，Seko 3.0 把本地化塞进了 AI 工作流
-2026 年海外 AI 短剧市场规模预计超 40 亿美元，单月上新超 3.8 万部、TikTok 短剧单月分账已破 2200 万美元，NBCUniversal、Fox 等传统影视也开始布局竖屏短剧。竞争焦点已从&quot;能不能做&quot;转向&quot;怎么针对不同市场快速做&quot;——欧美、日韩、拉美对人物、场景、语言和文化偏好各异，传统翻译配音难以覆盖。Seko 3.0 把短剧出海拆成多条工作流：已有成片可重绘人物/场景/文字/声音、现有剧本按目标市场改写、只需换语言则保留原片重配音，并新增直接面向海外原生创作短剧的能力。
-🔗 https://mp.weixin.qq.com/s/sM3zgwxxK4-1Ss6wHL6Vvw
-
-3. 一天出现 6.5 万条讨论，AI 公司正在把爆款做成一套系统
-以家用机器人公司 1X 的 NEO 发布为例：当天自然讨论达 6.5 万条、约 4.5 万账号参与、X 账号一夜涨粉 5.6 万。但被忽略的关键是——1X 先买下 Spotlight Takeover 广告位获得数千万次付费曝光，再带出约 2100 万次自然曝光，8700 万发布日曝光里自然只占约四分之一。操盘手 Juan Tena 把&quot;刷屏式发布&quot;拆成五层：一句能被转述的话、一个想展示的产品瞬间、一群受信任的人、一段被压缩的发布时间、以及愿意接力的真实用户。文章指出 1X、Cluely、Lovable 等越来越多 AI 公司都在把发布从一条公告改造成几小时内连续运转的系统。
-🔗 https://mp.weixin.qq.com/s/Ev5dt9PEZihWwgFW80Zegw
-
-4. 近3000家付费客户之后，这家创业公司如何把服装审美写进大模型？
-前天猫 3D 试衣负责人、MuseGate 创始人渠瑜提出：服装行业的第一性是审美，&quot;高审美才是入场券&quot;。通用 SOTA 模型能做到&quot;逼真&quot;却做不好&quot;商业&quot;——它们卡在服装审美这类高度非标、长尾、且不存在于公开语料的 Know-how 上，只能&quot;照猫画虎把衣服换上去&quot;，构图、姿势、材质纹理全无灵魂。突破口在于把依赖人类经验的非标审美拆解、结构化，转成模型可学习执行的算法语言；而随着流行趋势更替加速、品牌拍摄上线窗口不断缩短，供需错位为垂直赛道公司留出巨大机会。文章强调，行业大模型最难复制的壁垒是&quot;数据闭环&quot;。
-🔗 https://mp.weixin.qq.com/s/6CNgQw62vUyWhRVyOfpxRA
-
-5. 人人都能学会的自进化 Agent 搭建指南
-围绕近期走红的 Loop Engineering 概念，讲解如何搭一套&quot;在运行中积累反馈、自我改进&quot;的自进化 Agent 工作流，解决 Workflow/Skill 用久了与实际需求脱节的问题。
-🔗 https://mp.weixin.qq.com/s/2i5rwoEkCD6xDmKTkOTWVA
-
-📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-09-04.html</description>
     </item>
   </channel>
 </rss>
