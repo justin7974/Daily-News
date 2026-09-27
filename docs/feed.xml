@@ -5,8 +5,66 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 26 Sep 2026 00:14:18 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 00:09:07 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #717 | 2026-09-27</title>
+      <link>https://news.justin7974.dev/2026-09-27.html</link>
+      <guid>https://news.justin7974.dev/2026-09-27.html</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 2 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. How New Mexico’s Oil Windfall Became a $2 Billion VC Bet
+新墨西哥州 750 亿美元的主权财富基金，在新油气收入膨胀后改变了对创业投资的策略，过去三年向 VC 基金投入约 20 亿美元，这笔&quot;石油美元&quot;正流入硅谷，同时让该州在 AI 热潮中分一杯羹。报道以人工增雨创业公司 Rainmaker 为例：26 岁的创始人 Augustus Doricko 在阿尔伯克基郊外操控无人机，准备在格兰德河一带用碘化银人工催雨；Rainmaker 的多个投资方正是拿了该基金钱的 VC。（正文付费，以上基于公开部分。）
+🔗 https://www.theinformation.com/articles/new-mexicos-oil-windfall-became-2-billion-vc-bet
+
+2. Why Wall Street’s Big, Bad Bears Aren’t Ready to Bet Against AI Yet
+靠做空 2008 年次贷成名的 Steve Eisman 已是 AI 泡沫论的代表性批评者，但他明确说&quot;我还没准备好下大空单&quot;。他紧盯英伟达向 Anthropic、OpenAI 供芯片的关系，直言&quot;整条链依赖两家大亏钱的公司&quot;；并把 OpenAI 迟迟不上市视为可能的做空催化剂——他判断对这类&quot;持续失血、必须不断融资&quot;的公司，叙事极其重要，一旦 OpenAI 继续推迟 IPO，就可能是他出手的信号。（正文付费，以上基于公开部分。）
+🔗 https://www.theinformation.com/articles/wall-streets-big-bad-bears-ready-bet-ai-yet
+
+3. Alexandr Wang: ‘Why I’m Building Muse’
+Scale AI 创始人、现 Meta 超级智能实验室负责人 Alexandr Wang 在 X 发长文解释他为何要打造 Meta 的 AI 助手 Muse。他的愿景是给&quot;地球上每个人一个第二大脑&quot;——一个通用管家，能听懂你只说了一半的话（&quot;我觉得我还能做点别的&quot;），替你补全没说出口的意图，并给出&quot;这就是你梦想的事，我们去做、这么做&quot;的行动方案。同日 KOL 反馈，Meta 的 Muse 已登上 App Store 榜首。（原文为 X 帖子正文。）
+🔗 https://x.com/alexandr_wang/status/2103551714536439951
+
+4. BREAKING: AI agent incident toll has risen to tens of thousands
+Gary Marcus 引用 Axios 记者 Madison Mills 的独家报道称，AI Agent 相关安全事件的数量已达&quot;至少数万起&quot;——此前外界只知 Hugging Face、一家德国网站，以及 OpenAI 承认的&quot;数十起&quot;。他批评美国政府毫无调查、声明或产品召回动作，还援引 Cursor 插件盗走加密钱包等案例，强调这些风险&quot;完全可预见&quot;，并称他自 2023 年起就多次向参议院和公开文章警告 Agent 安全。
+🔗 https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has
+
+5. Microsoft Took the ‘Copilot+ PC’ Brand Out Behind the Shed
+微软与 PC 厂商已悄然弃用 2024 年力推的&quot;Copilot+ PC&quot;品牌：2026 年发布的 Surface 新品不再冠名，高通也把重点从品牌名转回&quot;NPU 体验&quot;，英伟达更刻意不让 RTX Spark 使用该标识。报道称，Recall 安全风波与 Copilot 本身口碑不佳共同拖累了这一品牌，但 45 TOPS NPU 的规格基线仍然保留，只是不再有一个漂亮的营销名。
+🔗 https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding
+
+🐦 Twitter 精选（5 / 30）
+
+1. @_akhaliq：推荐论文 ProgramDistill：把交互式 Web 应用转化为可验证、可复现的&quot;参考引导&quot;软件工程（SWE）任务，为 agent 提供带标准答案的编程评测环境。
+🔗 https://x.com/_akhaliq/status/2103952916545761536
+
+2. @emollick：在回复中补充：评论区总有人提 Mistral，但它似乎已基本放弃做前沿模型，当前模型在开源权重里也离前沿很远。
+🔗 https://x.com/emollick/status/2103855138591129926
+
+3. @emollick：撇开原因不谈，令人震惊的是欧洲至今没有一家前沿 AI 实验室，甚至连接近前沿的实验室、或将来有可能长成前沿实验室的努力都没有。
+🔗 https://x.com/emollick/status/2103842238119743660
+
+4. @emollick：agent 相关事故仍在继续；他指出其中很大一部分是 agent 在测试中为了达成目标而&quot;奖励黑客&quot;（有时甚至真的去入侵），值得警惕。
+🔗 https://x.com/emollick/status/2103709671865602100
+
+5. @Hesamation：让 Opus 5.5 以高思考档位用 manim 做了一支讲解&quot;指针&quot;的动画视频：只给了示例和配色的粗略指令，其余（含配乐）全部由 Opus 完成。
+🔗 https://x.com/Hesamation/status/2103822595993018838
+
+📱 公众号精选（2 / 2）
+
+1. 美国保险公司说，医院的 AI 让它们两年多付了9.42亿美元
+美国蓝十字蓝盾协会（BCBS）9 月 24 日发布三页白皮书称，2023—2025 年医院用 AI 辅助编码把越来越多的住院病例编成复杂病例，导致蓝十字体系两年多付约 9.42 亿美元。文中举例：在诊断增长最快的医院，产妇&quot;急性失血后贫血&quot;病历占比从 2022 年二季度的 4.0% 升到 2025 年一季度的 12.3%，但同期输血比例仅从 0.8% 升到 1.2%，&quot;模式指向 AI 辅助编码&quot;。文章详述 DRG 分档机制——同一台肠道大手术按次要诊断可分为三档，付费差一倍以上；白皮书称两年里多出 55158 个复杂病例，每例平均多付约 1.18 万美元。美国医院协会否认指控，反指保险公司也在用自动化砍账单。
+🔗 https://mp.weixin.qq.com/s/sRrXusyHOd4oZU8oFuJRZQ
+
+2. 深度｜对话OpenAI Codex负责人Tibo：从内部工具杀到顶流，Codex的终极目标不只是Coding Agent
+这是 The Pragmatic Engineer 对 OpenAI 核心产品与平台负责人、Codex 创建工程师之一 Tibo Sottiaux 的访谈译文。Codex 最初只是 OpenAI 内部帮研究员写 Python、搭基建的小型智能体，后与&quot;自主软件工程师&quot;（ASWE）项目合并，成为今天的 Codex。文中复盘了关键工程决策：为什么用 Rust 重写核心智能体、为什么从第一天就开源 CLI 和 SDK、为什么 Codex 不绑定 OpenAI 自家模型，以及如何把本地 Coding Agent 推向云端并与 ChatGPT 统一。他还谈到代码审查的职能变化——正确性与安全审查将更多自动化，人类应把注意力放在产品意图与架构边界上。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/aBFDItu7Qcz0gJANM1A6RQ
+
+📖 查看完整日报（42 篇）→ https://news.justin7974.dev/2026-09-27.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #716 | 2026-09-26</title>
       <link>https://news.justin7974.dev/2026-09-26.html</link>
@@ -1246,76 +1304,6 @@ OpenAI 首度公开内部视角：编码 agent 正在重塑其 AI 研究流程�
 🔗 https://mp.weixin.qq.com/s/62A5j-lkbKtqdDxRxM5hLQ
 
 📖 查看完整日报（30 篇）→ https://news.justin7974.dev/2026-09-07.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #696 | 2026-09-06</title>
-      <link>https://news.justin7974.dev/2026-09-06.html</link>
-      <guid>https://news.justin7974.dev/2026-09-06.html</guid>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 15 条推文 · 5 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot
-Grok Bot 与 OpenClaw 的分野不在能力（两者编程能力相当），而在抽象层级：Grok Bot 是一台&quot;被托管的 Agent 电脑&quot;——像用任意网站一样浏览器登录、两次点击就接好一个插件，无需配 MCP JSON 或粘贴 API 密钥；OpenClaw 则是&quot;用户自持的 Agent 平台&quot;，自由度更高但配置更重。在 Grok Bot 里，编程的原子单位是&quot;Bot&quot;：给每个 Bot 指定角色、接上工具，再组合成它所谓的&quot;群聊&quot;。刚发布的 OpenClaw 2.0 用复用 Claude Code/Codex 登录、图形化浏览器应用大幅收窄了配置差距，但底层区别仍在——Grok Bot 连电脑一起供给并运营，OpenClaw 交给你一个自己决定在哪、怎么跑的 Gateway。
-🔗 https://www.latent.space/p/grok-bot
-
-2. Pluralistic: Google skates
-谷歌广告技术垄断案的&quot;量刑&quot;落地：法官 Leonie Brinkema 裁定谷歌无需剥离其广告交易所——尽管它已被判在广告市场构成非法垄断，处罚实际为零。这是一年内的第二次：2025 年 9 月搜索案的 Mehta 法官同样几乎零救济，不删数据、不拆分 Chrome/Android、连每年付给苹果 200 亿美元买默认搜索位的&quot;贿赂&quot;都不叫停。Doctorow 的框架是：拜登时代那批反垄断执法者（Khan、Chopra、Wu、Kanter）曾让谷歌接连输掉三起联邦案，但大科技随后全力转投特朗普、换取&quot;监管宽容&quot;，如今救济阶段把此前的胜果清了零。他用洛克菲勒与《谢尔曼法》22 年才被启用的历史作类比。
-🔗 https://pluralistic.net/2026/09/05/divorce-court/
-
-3. Adobe Names Anil Chakravarthy as CEO, Replacing Shantanu Narayen
-Adobe 换帅：执掌 18 年的 Narayen 交棒给 Anil Chakravarthy（前 Informatica CEO，加入 Adobe 近七年、现主管客户体验与全球业务），12 月 1 日上任，Narayen 转任执行董事长。背景是&quot;AI 颠覆软件商&quot;的担忧持续压制股价——Adobe 2024 年跌 25%、2025 年再跌 21%、2026 年至今又跌 18%，消息公布后盘后再跌约 2%。更值得注意的是，掌管创意与生产力业务近五年的总裁 David Wadhwani 同时宣布离职。
-🔗 https://www.cnbc.com/2026/09/03/adobe-anil-chakravarthy-ceo.html
-
-4. Latent Powers
-Armin Ronacher 想给一枚廉价的中国 CarPlay 加密狗刷自定义固件，收到货却发现芯片型号与教程里的完全不同——放在过去这就是故事的终点。但靠着反复和 Fable、Sol、Kimi K3 讨论，他搞清了如何刷机、如何把 Rust 写的 CarPlay 实现 CatPlay 编译到这块陌生 SoC 上。文章题眼&quot;潜在能力&quot;指的正是：LLM 让一个非嵌入式专家也能啃下原本需要专门知识、极易把设备刷成砖的硬件活。
-🔗 https://lucumr.pocoo.org/2026/9/5/latent-powers/
-
-5. Introducing GPT-6 Astra for developers
-Simon Willison 记录 GPT-6 Astra 面向开发者的发布，称其在细节把控和理解用户意图上全面提升，尤其擅长生成 3D 模型——花园、船坞、动物、城市景观乃至戴红领巾骑自行车的鹈鹕。
-🔗 https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/
-
-🐦 Twitter 精选（5 / 15）
-
-1. @EXM7777：实际上手 GPT-6 Astra 的一手反馈：是他用过最&quot;舒服&quot;的 OpenAI 模型（有 Opus 4.5 的味道），尤其擅长自设目标、驱动子代理跑长链条任务和操作电脑，写作大幅进步、token 效率高；但前端设计仍不如 Fable。
-🔗 https://x.com/EXM7777/status/2096297561867116995
-
-2. @godofprompt：新论文 Harness-of-Harness 针对&quot;编码 Agent 放久了会变差&quot;的问题：把现有 harness 包进&quot;规划-编码-测试&quot;的短循环并各自校验，在三个基准上三次迭代平均提升 52.25%、最高 82.86%，70 次迭代还独立做出一款可玩的 FPS 游戏。
-🔗 https://x.com/godofprompt/status/2096248697055285714
-
-3. @emollick：他判断前沿模型已是&quot;两家公司的竞赛&quot;——谷歌新出的 flash 模型、Z、Meta 的 Muse Spark 1.3、GLM 5.3 都不错，但没有任何一个接近 Astra 或 Fable。
-🔗 https://x.com/emollick/status/2096312830903337184
-
-4. @Hesamation：关于 Anthropic 疑似攻克了一道千禧年大奖难题的传闻越来越有意思，他贴出陶哲轩几小时前的相关表态作为佐证。
-🔗 https://x.com/Hesamation/status/2096200386327511289
-
-5. @shao__meng：微信开源多模态 Embedding 模型 WeMM-Embedding（基于 Qwen3.5）：2B 版在 MMEB-v2 拿 77.9 超过竞品 8B，9B 版 80.6 登顶，且已在视频号、公众号、朋友圈、电商搜索推荐上线、14 次 A/B 全为正向。
-🔗 https://x.com/shao__meng/status/2096095085977063861
-
-📱 公众号精选（5 / 5）
-
-1. Claude 成了入口，Salesforce 仍握着数据，垂直 AI 还能赢吗？
-8 月 26 日 Salesforce 与 Anthropic 推出 Claudeforce，首款产品&quot;Salesforce in Claude&quot;把客户资料、销售流程、权限和业务规则接进 Claude，预置 37 项销售技能，销售员不打开 Salesforce 也能备会、查商机、更新进度。文章顺着 a16z 合伙人 Seema Amble《The Incumbents Are Coming》的框架指出：老牌软件（Salesforce、Docusign、Klaviyo、Atlassian）握着三样垂直 AI 一时凑不齐的东西——记录、权限、流程状态，因此正从&quot;帮你找答案&quot;快速上移到&quot;替你做事&quot;。但它也划出边界：记录不等于工作，一份合同不等于一桩法律事务、一张工单不等于问题已解决，真正的工作过程往往散落在多个系统之间。结论是：老牌厂商掌握记录、大模型争夺入口，垂直 AI 真正能拿走的是&quot;一项工作从开始到结果的完整过程&quot;。
-🔗 https://mp.weixin.qq.com/s/6wIXXx4SBTKjjIVVHgvBqg
-
-2. 深度｜Sam Altman万字访谈：OpenAI最难的一课，是杀掉像Sora这样的好点子
-在 David Senra 的《Founders》播客里，Sam Altman 反复强调一个反直觉判断：即便 AI 是人类最不可思议的发明，经济和社会的适应速度也远比技术圈想象的慢——他以 Netflix 已在寄 DVD、人们却仍去 Blockbuster 租碟为例，坦承自己当年以为 GPT-4 之后软件生意会立刻被大规模颠覆，结果&quot;在时间线上想错了&quot;。他认为真正的颠覆会来，但更慢、更平顺；同时预言&quot;史上最大的一次小企业创办潮&quot;即将到来，与人相关、非技术化的体验在 AI 之后反而更值钱。他还给出创业者最难的一课——&quot;杀掉好点子，为伟大的点子让路&quot;，连 Sora 这样的好点子也要舍得砍；并盛赞 Shopify 的 Tobi Lütke 是亲自上手、领先其他 CEO 六到八个月的最激进 AI 采用者。
-🔗 https://mp.weixin.qq.com/s/vSZCUILLuIblchhInzCMhw
-
-3. 实测GPT-6 Astra：曾经的那个OpenAI，回来了。
-知名 AI 博主&quot;卡兹克&quot;从产品体验角度实测 GPT-6 Astra，给出的总判断是&quot;曾经的那个 OpenAI，回来了&quot;。
-🔗 https://mp.weixin.qq.com/s/jzf~fmVhZLG~Kv15NooGHg
-
-4. 李飞飞最新洞察：空间智能最终是 4D 的，World Labs 正在押注下一种 Scaling
-编译李飞飞的最新洞察：她认为空间智能的终极形态是&quot;4D&quot;，其创立的 World Labs 正把这一方向当作继大语言模型之后值得押注的&quot;下一种 Scaling&quot;。
-🔗 https://mp.weixin.qq.com/s/X77LoTA2Wqq-nKbMo2OF~Q
-
-5. 从 X 跳槽 OpenAI，他觉得马斯克是“最大的混蛋”，但依然敬佩！
-推荐 B 站播客&quot;创见&quot;对谈：从 X 跳槽 OpenAI 的 ML Infra 工程师赵迪评价马斯克&quot;是最混蛋的人，却能逼你做到不可能的事&quot;，并给出工程师视角的 AGI 判断——能让模型&quot;给我 build 一个应用&quot;就做完且不出错，就已非常接近 AGI。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/ZRzsSH6RnLfqDMJBxf2--A
-
-📖 查看完整日报（30 篇）→ https://news.justin7974.dev/2026-09-06.html</description>
     </item>
   </channel>
 </rss>
