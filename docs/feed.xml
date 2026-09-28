@@ -5,8 +5,62 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 27 Sep 2026 00:09:07 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 00:05:08 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #718 | 2026-09-28</title>
+      <link>https://news.justin7974.dev/2026-09-28.html</link>
+      <guid>https://news.justin7974.dev/2026-09-28.html</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+      <description>今日共 7 篇 RSS · 28 条推文 · 1 篇公众号
+
+📰 RSS 精选（5 / 7）
+
+1. China Weighs Allowing Purchases of New Nvidia Chips by ByteDance, Alibaba
+中国工信部近期向阿里巴巴、字节跳动等企业征询意见，释放出&quot;可能放行部分国内公司采购一款英伟达面向高端专业计算机的新芯片&quot;的信号（据两名知情人士）。背景是国内 AI 公司普遍算力不足，撑不起聊天机器人和 Agent 的运行。这被视为北京在算力供给立场上的边际松动，具体型号与用途限制尚未明确。（正文付费，以上基于公开部分。）
+🔗 https://www.theinformation.com/articles/china-weighs-allowing-purchases-new-nvidia-chips-bytedance-alibaba
+
+2. Why Oura May Not Be the Healthiest IPO
+The Information 专栏作者 Martin Peers 对本周预计上市的智能戒指厂商 Oura 给出偏刻薄的预告：它不会像 Anthropic 的 IPO 那样震撼，但正好是观察&quot;被过度炒作的一阵风业务能有多脆弱&quot;的样本，值得一看。（正文付费，以上基于公开部分。）
+🔗 https://www.theinformation.com/articles/oura-may-healthiest-ipo
+
+3. Anthropic&apos;s Amodei to Dine With Trump at White House
+据 Axios 报道，Anthropic CEO Dario Amodei 将于周日与特朗普在白宫共进私人晚宴，这是两人首次会面，可能标志 Anthropic 与白宫关系回暖。
+🔗 https://www.theinformation.com/briefings/anthropics-amodei-dine-trump-white-house
+
+4. Human-AI partnerships are for alignment, not capability
+作者反驳&quot;软件工程已进入人机半人马阶段&quot;的类比。他承认 AI 写的代码比他更好、更快、几乎不犯并发或兼容错误，但人类的价值不是帮 AI 写得更好，而是让 AI 对齐组织的技术价值观（alignment）。前沿模型对齐到的是 RL 打分器偏好的行为——超大注释块、成百上千无用单测、到处乱加文案——而非某家公司的品味。对齐比能力更难、更依赖上下文（换家公司几乎要重学），所以他判断工程师短期不会被取代，但初级岗位会很惨。
+🔗 https://seangoedecke.com/human-ai-partnerships-are-for-alignment-not-capability/
+
+5. 量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层
+国内首家专注 Q4AI（Quantum for AI）的创业公司&quot;费米宇宙&quot;完成 1 亿元种子轮、投后约 10 亿元，为国内该方向最大种子轮；团队近半为清华背景，并称推出全球首个&quot;全链路量子增强大模型&quot; FermiQLLM 1.0，基于 Qwen 基座做量子启发式改造，号称同参数下推理性能提升超 15%、RL 训练成本降 25%。
+🔗 https://www.qbitai.com/2026/09/498633.html
+
+🐦 Twitter 精选（5 / 28）
+
+1. @emollick：认为开源与闭源模型的差距正重新拉大：Fable/Astra 级模型已具备前代没有的 agentic 能力，而目前没有任何开源模型跨过这条线，一旦跨过将是跳变。
+🔗 https://x.com/emollick/status/2104326478766952624
+
+2. @emollick：称模型性格是基准测不出来的：Opus 在 4.7 到 5 之间一度&quot;不 Claude 了&quot;、更像缩水版 Fable，而 Opus 5.5 又让人找回与老 Claude 共事的感觉。
+🔗 https://x.com/emollick/status/2104039050080342456
+
+3. @Hesamation：从 Opus 切回 Claude Code 的几点体会：Opus 最大的优势不是榜单而是 TASTE（方法与设计），用起来有趣、聪明高效，且实际消耗的额度远低于预期。
+🔗 https://x.com/Hesamation/status/2104000275790921817
+
+4. @Hesamation：引述 OpenAI 研究负责人 Boris Power：OpenAI 80-90% 的研究都投向 GPT 7、GPT 8 及更远的模型；他担忧在接连的网络安全事件和&quot;放慢&quot;呼声之后，这些投入里有多少是安全。
+🔗 https://x.com/Hesamation/status/2104192201618080101
+
+5. @Hesamation：让 Opus 5.5 为 Pink Floyd《Time》做了一支动画：只给了喜欢的片段、视觉风格和一张图，改动几次后就大爱成品。
+🔗 https://x.com/Hesamation/status/2104200879637397978
+
+📱 公众号精选（1 / 1）
+
+1. Opus 5.5 让你实现 App Icon 设计自由
+宝玉分享用 Opus 5.5 设计 App Icon 的实践：让模型直接用 JS 绘制 canvas（而非 SVG）生成矢量图标，一句话提示词起稿，再像对待乙方一样多轮迭代，第一版效果就超出预期。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/jCf-sg46WMlKWlUGHMQ5Ag
+
+📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-09-28.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #717 | 2026-09-27</title>
       <link>https://news.justin7974.dev/2026-09-27.html</link>
@@ -1234,76 +1288,6 @@ Cory Doctorow 引一篇实证论文指出：美国企业已系统性地从 &quot
 🔗 https://mp.weixin.qq.com/s/cTA2vCQLlcJGDvF14ylczw
 
 📖 查看完整日报（29 篇）→ https://news.justin7974.dev/2026-09-08.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #697 | 2026-09-07</title>
-      <link>https://news.justin7974.dev/2026-09-07.html</link>
-      <guid>https://news.justin7974.dev/2026-09-07.html</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 15 条推文 · 5 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Why companies are becoming a series of loops | Anish Acharya (a16z)
-a16z 消费投资合伙人 Anish Acharya 的核心判断：不必担心沦为&quot;永久底层&quot;，因为公司的构建方式正被重写成&quot;一系列 loop&quot;——每个职能不再是一个个由人堆出来的岗位，而是可被 AI 反复运行的循环。他认为消费 AI 最大的机会是&quot;/loop, make me happier&quot;这类围绕个人状态持续运转的产品；护城河不是设计出来的，而是&quot;被发现的&quot;；而分发正重新成为最硬的护城河。创始人的新必修课是当&quot;model sommelier&quot;——懂得为不同任务选配不同模型。
-🔗 https://www.lennysnewsletter.com/p/why-companies-are-becoming-a-series
-
-2. Have the frontier labs mixed up AI safety and security?
-前沿实验室接连出现 agent 沙箱逃逸，作者认为根因是把&quot;safety（对齐）&quot;和&quot;security（工程安全）&quot;混为一谈。对齐靠分类器和训练，本质非确定性，只能拦住大部分；而 security 的标准是&quot;补丁必须 100% 有效&quot;——SQL 注入修复 99.99% 有效就等于没修。他点名 Anthropic 的 Boris Cherny 称&quot;prompt injection 已基本解决&quot;，但其引用的 Gray Swan 基准显示最好的 Opus 5 在 15 次尝试下仍有 2% 被攻破（约 500 次即可稳定得手）。报告还揭示实验室被海量误报淹没、人工审核把真实告警当误报忽略：OpenAI 在 Hugging Face breach 前两周就收到端口扫描告警，却判定&quot;无需停机&quot;。
-🔗 https://martinalderson.com/posts/ai-safety-vs-security/
-
-3. Sad to see Jensen Huang claim that AGI has arrived, with no evidence and no definitions
-黄仁勋宣布&quot;通往 AGI 的竞赛已经结束&quot;，Gary Marcus 反击：没有证据、没有定义，是&quot;用企业权威接管一个科学问题&quot;。他指出按常规定义 Astra 仍不够格——若真是 AGI 就该断层领先，但 Peter Wildeford 等实际使用者认为它在真实工作中与 Fable 5.1 大致持平，权威基准也显示 Astra 是真实进步但&quot;不明显偏离趋势线&quot;。Marcus 承认自动形式化、或许还有可靠编码已在射程内，但怀疑他与 Brundage 十项赌约里的其余八项 Astra 都达不到。
-🔗 https://garymarcus.substack.com/p/sad-to-see-jensen-huang-claim-that
-
-4. There&apos;s No Limit to How Bad Code Can Get
-Simon Willison 在 Lobste.rs 的评论：软件不像盖楼有物理上限，烂代码可以无限烂下去。他系统拆解&quot;推倒重写&quot;为何几乎总是失败——旧系统还在跑核心业务、是移动靶；维护者知道它将被替换，就只做最小努力，技术债继续堆积；重写团队野心勃勃却没人真正理解旧系统的全部行为（否则也不需要重写），最终在&quot;赶紧上线&quot;的压力下只交付了旧系统功能的一个子集，于是你从&quot;一个系统&quot;变成&quot;两个都得维护的系统&quot;。他推荐 Will Larson 的&quot;迁移是技术债唯一可扩展的解法&quot;，主张给旧系统补齐自动化测试后做定向重构。
-🔗 https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/
-
-5. Research acceleration: The view inside OpenAI
-OpenAI 首度公开内部视角：编码 agent 正在重塑其 AI 研究流程，文章给出 agent 使用率、实验速度、任务复杂度与研究加速的早期数据。
-🔗 https://openai.com/index/research-acceleration-view-inside-openai
-
-🐦 Twitter 精选（5 / 15）
-
-1. @Hesamation：据 The Information 估算，Anthropic 未来十年算力开支或高达 5170 亿美元（含 Amazon+Google 3000 亿、SpaceX 最高 450 亿）；而其收入年化约 650 亿美元，已高于 OpenAI 的 400 亿。
-🔗 https://x.com/Hesamation/status/2096639015927558157
-
-2. @Hesamation：黄仁勋再次宣称&quot;AGI 已经到来&quot;——他并非特指 Astra，而是感叹从 ChatGPT 到 o1 再到 Astra 仅用四年的进步速度；另有 40 万块 GPU 即将到位。
-🔗 https://x.com/Hesamation/status/2096703434535620905
-
-3. @emollick：一个实验预示学术界的海啸：AI 回溯性地精读已发表论文，找出其中的机会与问题，并公开发布这些判断。
-🔗 https://x.com/emollick/status/2096645299309625474
-
-4. @shao__meng：Spotify 的 Portal 让 Claude Code 的 token 消耗直降 90%——团队发现大量 token 花在读文件、仿写测试、更新文档这类几乎不需推理的杂活上，于是把&quot;体力活&quot;路由给便宜小模型（Gemini 2.5 Flash），前沿模型只留给真正需要推理的问题。
-🔗 https://x.com/shao__meng/status/2096509129091367384
-
-5. @shao__meng：Perplexity 公开其嵌入/排序推理基础设施：当 GPU 算力已趋最优，加速空间转向 GPU 之外（CPU 调度、kernel 启动、主机-设备同步、请求路由），靠三层架构加整模型 CUDA Graph、LazyTensor 异步追踪，在延迟与吞吐上超过 vLLM v0.22.0。
-🔗 https://x.com/shao__meng/status/2096400283186438405
-
-📱 公众号精选（5 / 5）
-
-1. 独家｜对话硅谷独角兽Axiom：00后创始人，6个人、两周秘密实验，AI如何打破十年素数间隔问题纪录？
-9 月 4 日，AI for Math 公司 Axiom Math 宣布把有界素数间隔问题的上界推进到 212（即证明存在无穷多对间距不超过 212 的相邻素数）。团队是跨界组合：创始人洪乐潼 24 岁创办 Axiom（MIT 数学与物理、Rhodes 学者、斯坦福数学博士在读），CTO Shubho Sengupta 曾在 Meta FAIR 做八年大规模 AI 训练基础设施，首席数学家 Ken Ono 是顶尖数论学家，AI 研究负责人 François Charton 用 Transformer 攻高阶数学。一个十余年几乎没松动的纪录几天内连续被刷新：Julia Stadlmann 先从 246 推到 240，Axiom 借 AI 驱动的搜索/计算/验证压到 212，随后 OpenAI 又公布 186 的结果。Axiom 称自己与 OpenAI&quot;做数学&quot;的基本方法很可能相似——都用 Agent 提出证明策略再计算验证。
-🔗 https://mp.weixin.qq.com/s/jm9GErDAH7DeOW97vYBhlw
-
-2. 不用另装 App，Félix 如何做出 80 亿美元的汇款生意
-剖析汇款服务 Félix：不让用户额外安装 App，如何做成一门 80 亿美元规模的汇款生意。
-🔗 https://mp.weixin.qq.com/s/yqpSM1giVurGE~rU6HVFKw
-
-3. Grok Bot 蓝皮书 v0.1｜让 Grok Bot 做你全部工作的大管家
-&quot;黄叔&quot;整理的 Grok Bot 上手蓝皮书 v0.1，主张把 Grok Bot 当作打理你全部工作的&quot;大管家&quot;来用。
-🔗 https://mp.weixin.qq.com/s/6Khm~zjbq1uWOGcKSgePXQ
-
-4. 未来推演：当不再有大规模雇佣
-一篇未来推演：当 AI 让&quot;大规模雇佣&quot;不再成立，社会与个体的组织方式会如何改变。
-🔗 https://mp.weixin.qq.com/s/Wh~Vic4jBuIVNk~nPxZxKQ
-
-5. AI应用第一次网络乞讨
-一篇带调侃口吻的观察：VC 出身、擅长攒局的 julian 坚持创业做 AI 视频产品，为融资炒作办了一场&quot;直播路演、被投资人轮番拷打&quot;的活动，作者戏称其为&quot;AI 应用第一次网络乞讨&quot;，也折射当下 AI 应用市场的融资情绪。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/62A5j-lkbKtqdDxRxM5hLQ
-
-📖 查看完整日报（30 篇）→ https://news.justin7974.dev/2026-09-07.html</description>
     </item>
   </channel>
 </rss>
