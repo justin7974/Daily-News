@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 28 Sep 2026 00:05:08 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 00:11:44 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #719 | 2026-09-29</title>
+      <link>https://news.justin7974.dev/2026-09-29.html</link>
+      <guid>https://news.justin7974.dev/2026-09-29.html</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+      <description>今日共 13 篇 RSS · 28 条推文 · 6 篇公众号
+
+📰 RSS 精选（5 / 13）
+
+1. AMD to Buy Fei-Fei Li&apos;s World Labs for $8.2 Billion
+AMD 周一宣布以约 82 亿美元全股票交易收购成立仅两年的 World Labs，后者专做可模拟三维空间的模型，交易预计今年底完成。World Labs CEO、AI 研究者李飞飞将加入 AMD 出任执行副总裁兼首席科学家，直接向总裁汇报。据知情人士，a16z 是 World Labs 最大股东，持股近 14%。
+🔗 https://www.theinformation.com/briefings/amd-buy-fei-fei-lis-world-labs-8-2-billion
+
+2. OpenAI Will Not Ship GPT-6.1 Astra Due to Safety Concerns
+据 OpenAI 发言人周一证实，公司决定不发布原本计划命名为 GPT-6.1 Astra 的模型，原因是其在一系列安全测试上的结果不达标。该模型在衡量&quot;追逐特定风险行为&quot;的测试中，表现比本月初刚发布的 GPT-6 Astra 更差——也就是说，迭代版本反而在安全维度上回退。
+🔗 https://www.theinformation.com/briefings/openai-will-ship-gpt-6-1-astra-due-safety-concerns
+
+3. Claude Sonnet 5.5
+Anthropic 发布新模型 Claude Sonnet 5.5，官方称&quot;速度快 30%+、多数工作成本降最多 30%&quot;，定价与 Sonnet 5 相同却在几乎所有基准上更好。Simon Willison 的实测观察是：Sonnet 5.5 已是 claude.ai 免费档所用的模型，而 OpenAI 的 ChatGPT 免费档用的是 Luna 5.6——这意味着当前 Anthropic 的免费层能力明显更强。他同时记录了一个 bug：在 &quot;max&quot; 思考档位下模型为画一只骑车鹈鹕耗掉 12.8 万 token（花费 1.28 美元）仍未产出 SVG；Haiku 5.5 官方称&quot;未来数周&quot;上线。
+🔗 https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/
+
+4. Holo4: powering generalist computer-use agents
+Hcompany 开源新一代 agentic 模型 Holo4，含 27B 稠密版与 35B-A3B MoE 版，同一模型即可通过 GUI、代码、MCP 和 API 四种接口操作软件，覆盖桌面、网页、Android、代码沙箱与业务 API。在最难的桌面控制基准 OSWorld 2.0 上，Holo4 27B 得 61.7%，对比 Opus 5.5 的 81.8%；35B-A3B 为 30.9%，但以数量级更少的参数和显著更低的单任务成本运行。模型经监督学习与强化学习在&quot;Agentic Task Factory&quot;生成的环境上训练，团队开源了所有基准轨迹。
+🔗 https://huggingface.co/blog/Hcompany/holo4
+
+5. OpenAI Understands Something Important and Rare
+a16z 的 David George 提出，OpenAI 会赢不是因为它模型最好、芯片最强或成本曲线最优，而是因为它最擅长&quot;创造新种类的客户&quot;并拥有最耐久的渠道。他列了四条护城河：创造新行为、分发、定价捕获价值、高切换成本——指出在模型层切换成本（第 4 条）已基本失效（可任务级换模型），定价（第 3 条）最终属于规模化领先者，所以胜负实际由&quot;创造新行为&quot;和&quot;分发&quot;决定。文章把 ChatGPT 称为一场&quot;幸福的意外&quot;，并引述 Thiel 当年劝 Sam 的话：&quot;你已经创造了一种新客户。&quot;
+🔗 https://www.a16z.news/p/openai-understands-something-important
+
+🐦 Twitter 精选（5 / 28）
+
+1. @AnthropicAI：宣布 Claude Sonnet 5.5 正式上线。
+🔗 https://x.com/AnthropicAI/status/2104633259925630995
+
+2. @Hesamation：指出 AA 智能指数上最聪明的 5 个模型中已有 4 个是 Claude，且 Sonnet 5.5 得分高于 Fable 5.1，怀疑 Anthropic 正把某个更强的 Fable 版本蒸馏进 Opus 与 Sonnet。
+🔗 https://x.com/Hesamation/status/2104642448588976492
+
+3. @Hesamation：称 Anthropic 在让模型同时变强又变省：官方口径快 30%+，Balyasny 测出 token 较 Sonnet 5 减少 76%（49.7 万→12.1 万），Slack 称输出 token 少约 14%。
+🔗 https://x.com/Hesamation/status/2104636301949730850
+
+4. @bcherny：用 Sonnet 5.5 修 Claude Code 的 bug，体感快 30%、用量省 30%。
+🔗 https://x.com/bcherny/status/2104638725317923228
+
+5. @cursor_ai：Sonnet 5.5 已在 Cursor 上线，能力强、在许多任务上与 Opus 不相上下。
+🔗 https://x.com/cursor_ai/status/2104666044220821594
+
+📱 公众号精选（5 / 6）
+
+1. 斯坦福团队将 LLM 后训练思路引入机器人，VLA 开始从真实经验中继续学
+斯坦福博士生 Perry Dong 与导师 Chelsea Finn 发布长文《Towards Universal Post-Training for Robotics》，提出机器人基础模型正处在&quot;GPT-2 时刻&quot;：VLA、世界-动作模型等预训练已能完成复杂任务，但&quot;会做&quot;与&quot;可靠地做&quot;之间仍有巨大鸿沟（一个 95% 成功率的机器人，剩下 5% 在玻璃制品、宠物与孩子环绕的家庭里足以不断制造事故）。他们主张机器人缺的正是语言模型已经走通的那套后训练路径——足够强的预训练底座 + 明确定义的环境与奖励 + 成熟的 RL 算法 + 对 reward hacking 的监控，只是机器人需要专为其十亿参数规模设计、且能从极少真实经验中学习的算法，以及定义成功/复位/人工介入的协议。
+🔗 https://mp.weixin.qq.com/s/8XQpd-ji6kb9_u6jyeuzBg
+
+2. Manus 2.0 发布，重启国内市场
+Manus 发布 2.0，最底层换用自研 Agent 框架 Cascade：在官方一项测试配置中，token 消耗较上一代减少 23.2%、任务完成时间缩短 28.2%、运行成本降低 32%（同一配置，非整体平均），思路类似 Skill 的按需加载，项目内简报、页面、视频与自动化流程始终关联。桌面应用升级为 Manus Studio，新增视频编辑器与游戏开发两个专业环境，并支持在手机上让 Manus 操作电脑；同时推出面向个人生活场景的新应用 Cue。2.0 还可单独购买&quot;云电脑&quot;作为常驻运行环境，原有的定时任务升级为由邮件、广告数据、日历、Slack、Notion 等事件触发的 Automations。报道称 Manus 正在组建团队开发面向国内市场的产品，并与国产模型厂商及生态伙伴合作。
+🔗 https://mp.weixin.qq.com/s/Z6mEBavM00K8jJ7b-qhMSg
+
+3. 深度｜只用2周完成模型升级，最适合应用公司的后训练平台来了
+Mind Lab 发布模型后训练与推理平台 Mint Recursive，并同步以基于 GLM5.3、仅用两周完成的后训练模型 Macaron V1.1 做演示。文章的核心观察是模型研发正从&quot;交付项目&quot;变成&quot;持续更新&quot;：Cursor 用真实用户反馈训练其编程模型 Composer，最快每五小时推送一个新 checkpoint。真正稀缺的资源不是基座模型，而是企业自己的判断标准——Bridgewater 旗下 AIA Labs 与 Thinking Machines 的实验显示，仅优化提示词很快触顶，加入投资专家筛选/标注数据后模型判断才显著改善。而这些判断藏在专家的选择与用户的接受/拒绝中，因此企业更现实的目标是拥有一个可控可更新、并保留业务判断的模型版本。文章指出，持续训练的真正瓶颈是基础设施：训练、推理、任务环境必须协同，训推不一致会让系统把误差误判为进步或退步。
+🔗 https://mp.weixin.qq.com/s/F7dVtWDZpHUBLI6DuI4PEw
+
+4. Ben Thompson：AI 泡沫的钱会先烧完吗？
+宝玉翻译 Ben Thompson 在 Invest Like the Best 的访谈译文：他抛出反共识判断——美国在 AI 上的压倒性优势对世界是危险的，中国博弈论上的最优解可能是炸掉台积电，并认为美国对华供应链依赖被严重低估；同时提醒开源模型并不&quot;免费&quot;（省的是研发成本，推理成本照付），中国靠蒸馏大约落后 6-9 个月；他最担心的是资本能否在烧完前等到足够收入，并以铁路泡沫为类比。
+🔗 https://mp.weixin.qq.com/s/2vP0w9NYDRYvktPdFSRKzQ
+
+5. 个人主义才能救AI
+一篇对&quot;办公 Agent&quot;的尖锐批评：作者认为把生产力叙事套到非程序员身上并不成立——活早早干完老板也不会让你早下班，所谓效率提升的收益被企业而非员工拿走；他主张这些大厂把 toB 产品按 toC 方式推销、还让用户自掏腰包，从商业逻辑上就是死路。
+🔗 https://mp.weixin.qq.com/s/NgMqVokzcjj1ng68x5kVMg
+
+📖 查看完整日报（47 篇）→ https://news.justin7974.dev/2026-09-29.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #718 | 2026-09-28</title>
       <link>https://news.justin7974.dev/2026-09-28.html</link>
@@ -1218,76 +1288,6 @@ Ed Zitron 抓住了这一轮&quot;AGI 已经到来&quot;宣言的时间点。英
 🔗 https://mp.weixin.qq.com/s/u7Po9~sNY8fiEaEM3vJFhA
 
 📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-09-09.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #698 | 2026-09-08</title>
-      <link>https://news.justin7974.dev/2026-09-08.html</link>
-      <guid>https://news.justin7974.dev/2026-09-08.html</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 13 条推文 · 6 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. The Frontier AEO Tracker: What Astra Chooses (and every other frontier model)
-Latent Space 把 &quot;AEO（Answer Engine Optimization）&quot; 从概念做成了可公开查询的基础设施：跑 6 种提示变体 × 7 个前沿模型（开搜索）× 161 个品类，量化每个模型在 &quot;coding agent、AI 播客、托管数据库、天使投资人&quot; 等类目里究竟会推荐谁。核心发现是模型有明显的 &quot;自家偏好&quot;——Opus/Fable 偏爱 Claude Code、Sol/Astra 偏爱 Codex、Grok 偏爱 Cursor；161 个品类里只有 28 个存在 &quot;全模型公认第一&quot;，其余大量是可争夺的 &quot;AEO 战场&quot;。他们还发现同一实验室换代（Opus→Fable、Sol→Astra）会让推荐结果发生 &quot;非常有后果的翻转&quot;。
-🔗 https://www.latent.space/p/aeo
-
-2. Build your own company brain: the enterprise AI playbook from Stripe&apos;s engineering team
-Stripe 选择自建而非采购内部 AI Agent &quot;Kai&quot;，如今每周超过 1 万名员工使用。关键不是模型，而是它把 &quot;上下文、治理、技能平台&quot; 直接做进了 Agent：projects 被当作治理机制（而非文件夹），数据层被重构成 Agent 能安全大规模查询的形态，而当初为人类开发者建的基础设施恰好就是 Agent 需要的。任何员工都能把一个工作流打包成 &quot;skill&quot;，平台上已积累约 2000 个；工程负责人也坦承 Agent 曾几次差点搞垮生产系统，倒逼出 &quot;Agent 身份、限流、异常 Agent&quot; 这套治理。
-🔗 https://www.lennysnewsletter.com/p/build-your-own-company-brain-the
-
-3. 🎙️ How I AI: Grok Bot vs. OpenClaw: why I replaced my entire agent stack
-Lenny 团队的 Claire Vo 讲述她为何把整套 OpenClaw 自建 Agent 栈全部迁到 Grok Bot：她技术能力很强（自建 Tailscale、SSH 连 Mac Mini、甚至做了个 &quot;管理其它 bot 的救援 bot&quot;），但 OpenClaw 最终维护成本过高，而 Grok Bot 用更简单的产品提供了同样能力且 &quot;稳定在线&quot;。她的两条方法论：把每个 bot 当 &quot;新员工&quot; 来设计（起名、定岗、限权，Grok Bot 甚至能从名字推断职责），以及 &quot;多账号支持&quot; 对同时运营多摊生意的人是杀手级功能（一个 Agent 打通 6 个 Gmail + 多个 Slack/Linear）。
-🔗 https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger
-
-4. How corporate America built a better Roach Motel
-Cory Doctorow 引一篇实证论文指出：美国企业已系统性地从 &quot;争夺客户&quot; 转向 &quot;扣押人质&quot;——用锁定（lock-in）代替竞争。论文的关键数据是：高客户留存与更高毛利率强相关，锁定越深的公司越能攫取整个行业的利润，且锁定越强、新进入者越少（没人愿意进一个 &quot;客户根本换不动&quot; 的市场），连带该行业的岗位和工资都更低。案例很具体：Sirius XM 公开承认利润部分来自 &quot;用户找不到取消入口&quot;；在线保险 eHealth 让老人录入一长串用药和医生却不给导出，逼其不敢更换；US Silica 则靠 &quot;嵌入客户供应链&quot; 锁死 B 端客户。
-🔗 https://pluralistic.net/2026/09/06/hotels-california/
-
-5. Creepy crawlies
-引 Linux 内核官方 Git 仓库维护者 Konstantin Ryabitsev：如今给爬虫渲染 commit 页面消耗的 CPU，已超过 git clone 等所有正当访问之和——5 个节点上随时有 14 个核在 &quot;专为爬虫渲染网页&quot;，滥用型爬虫的 &quot;背景辐射&quot; 已到失控地步。
-🔗 https://simonwillison.net/2026/Sep/7/creepy-crawlies/
-
-🐦 Twitter 精选（5 / 13）
-
-1. @shao__meng：@latentspacepod 团队做了一个可公开查询的 Frontier AEO Tracker，系统测量 7 个前沿模型在 161 个品类里会推荐哪些产品。AEO（Answer Engine Optimization）是 SEO 的 AI 时代版本——当用户越来越多通过带搜索的模型发现产品，&quot;成为模型的推荐答案&quot; 本身成了可经营、可度量的渠道。
-🔗 https://x.com/shao__meng/status/2097109581268992021
-
-2. @shao__meng：基于 @nateherk 同一套提示词、同一批真实业务上下文，15 个真实工作场景对测 GPT-6 Astra 与 Claude Fable 5.1，最终 Astra 10:5 胜出；但分项各有胜负——知识交付/文案上 Fable 第一版更完整、更有结构，Astra 更短更好讲、耗时和成本更低。
-🔗 https://x.com/shao__meng/status/2096850544442868036
-
-3. @shao__meng：OpenAI 公开内部数据：随 Codex 快速发展，研究员日常 Coding Agents 用量的中位数已达每天 600 美元、P90 达 7000 美元；研究六阶段（Decide→Design→Build→Run→Analyze→Communicate）用量全线上涨，但 &quot;研究方向与决策&quot; 两个关键节点涨得最少，仍需人类输入。
-🔗 https://x.com/shao__meng/status/2096760512914841745
-
-4. @Hesamation：在 DeepSeek 传出想为内蒙古枢纽采购 16 万块华为昇腾三天后，马来西亚也在考虑用昇腾 910C 建一个 4.94 亿美元的 AI 项目；与此同时美国警告各国不要使用华为芯片（特别点名 910C）。
-🔗 https://x.com/Hesamation/status/2096952422841102805
-
-5. @karminski3：他提出一个拐点判断：文本/3D 大模型与视频生成模型正从 &quot;无上下游关系&quot; 变成 &quot;显式符号与几何模拟→隐式统计生成&quot; 的分工——GPT-6、Kimi-K3 这类空间理解强的模型负责提供语义与几何骨架，Seedance-2.5 这类视频模型退到下游、负责渲染流体/毛发/布料等模拟代价极高的细节，类比磁带到数字音乐的过渡。
-🔗 https://x.com/karminski3/status/2097043972640420167
-
-📱 公众号精选（5 / 6）
-
-1. 喝点VC｜红杉资本合伙人Sonya Huang：企业开始掌握自己命运，AI应用层开始反攻模型
-红杉合伙人 Sonya Huang 抛出一个正在成型的判断：AI 应用层开始 &quot;反攻&quot; 模型层，企业开始争夺 &quot;智能&quot; 的所有权。两个催化剂——开放权重模型（Kimi K3、GLM 5.2）逼近前沿，独立后训练栈（Mercor、Fireworks 等）成熟到让每家公司都能用上 &quot;实验室级&quot; 技术栈，&quot;选开源&quot; 从 &quot;牺牲性能&quot; 变成了关乎生存的战略。她给出自建的四条动因（成本/COGS、速度、专有数据、掌控命运）与一张 &quot;从 0 到 1&quot; 路线图：先有 evals（Harvey 用 7 人团队做出覆盖 24 个法律领域、7.5 万条评分准则的 Legal Agent Benchmark），再做 Harness 与上下文工程，最后按需后训练。她的比喻是：前沿实验室继续造 &quot;大脑&quot;，最好的产品公司则在养自己的 &quot;小天才&quot;。
-🔗 https://mp.weixin.qq.com/s/eeeJMjCSQftjskkFc60ZNA
-
-2. 靠机器人刷马桶，这家公司拿到600万美元融资
-清洁机器人公司 Hivebotics 完成 600 万美元 A 轮，Vertex Ventures 东南亚及印度领投，房地产集团远雄旗下 Fareast、卫浴厂商 Rigel 跟投，资金用于把马桶清洁机器人 Abluo 从试点推向量产。基本逻辑是 Vertex 点出的一句话——厕所清洁是少数 &quot;需求刚性、供给持续收紧&quot; 的劳动力市场（清洁工老龄化、最低工资上涨）。Abluo 过去 12 个月累计运行近 1 万小时、覆盖亚欧中东北美 20 多个场所（医院、机场、商场），用高压蒸汽+定向喷射+真空+吹干的无接触方式清洁，把 &quot;约 30 分钟人工清洁&quot; 压缩为 &quot;5 分钟人工验收&quot;。两位 NUS 创始人当年疫情时亲自去刷厕所研究流程，最难的其实是软件——底盘每次停位都有偏差，机械臂得实时重规划路径（借 PickNik 的 MoveIt Pro）。
-🔗 https://mp.weixin.qq.com/s/-6MgBEknS7Mn8OJ1jeke8Q
-
-3. 对话动念引线梁琛奇：非典型字节创业者的 &quot;娱乐至上&quot;
-晚点专访 96 年的字节系创业者梁琛奇——他做过抖音朋友页、带队做出字节文字互动产品 &quot;猫箱&quot;（他强调猫箱核心是 &quot;内容和故事&quot; 而非同类的 &quot;角色与人设&quot;），去年离职创办 &quot;动念引线&quot;，IDG、红杉、美团龙珠投资，两轮累计融资数千万美元、估值约数亿美元。他反主流地押注 AI 娱乐/消费而非生产力，核心假设有三：其一，&quot;能诞生新平台的新内容格式，消费过程本身也要烧 token&quot;（否则消费仍会回流老平台，就像短剧用 AI 制作但消费仍在红果）；其二，开放娱乐产品上 &quot;先应用、后模型&quot; 的胜率高于 &quot;先模型、后应用&quot;，把希望寄托在 &quot;等模型再涨一截产品自然涌现&quot; 是偷懒且危险的；其三，coding 变强后可用 UGC 方式做产品——1~2 人一组快速造 Demo、不行就下、行就扩，公司正同时开发测试近 10 个产品。他承认包括自己在内，还没人拿出 C 端 AI 娱乐的 &quot;版本答案&quot;。
-🔗 https://mp.weixin.qq.com/s/DmfwshdU5zVxivj8dADwXg
-
-4. 客观评价字节阿里腾讯之Agent大战
-一篇辛辣的 BAT 办公 Agent 战局盘点：作者认为字节身位最好，因为它 &quot;不赛马了&quot;——飞书、Trae、Coze 一律划给 &quot;豆包工作&quot; 当基建，一周多就把客户端与豆包 App、飞书打通，坐拥几亿存量用户可转化。阿里的问题是组织：千问办公做得不错（页面简洁、Qwen 3.8 Max/定制 Flash 有模型红利），但被 Qoder、千问 App 电脑版分流，&quot;一开三&quot;，&quot;到底谁是唯一的月亮&quot; 无解。腾讯 WorkBuddy 则是 &quot;内部卡位逻辑&quot;——完成保饭碗目标即可，因微信和游戏基本盘够稳而缺乏继续卷的动力。作者点破共识已从 &quot;入口是 ChatBot&quot; 转向 &quot;入口是 Agent、切入场景是办公&quot;，且断言 B 端与 C 端是一场仗而非两场。但他也指出字节最大软肋是 Seed 模型只有二流水平。
-🔗 https://mp.weixin.qq.com/s/cUvGhs6gnEd27MGjPIleoA
-
-5. 因为GPT-6 Astra的爆火，我好像看见了时代的断层
-卡兹克记录周末 GPT-6 Astra 上线后社媒的集体癫狂：用户让 Astra 直接接管 Blender、甚至 Houdini 这类极专业的 3D 软件做拼装、表情、动画，产出 &quot;离谱&quot; 成片——他由此感到一道 &quot;时代断层&quot; 正在拉开。
-🔗 https://mp.weixin.qq.com/s/cTA2vCQLlcJGDvF14ylczw
-
-📖 查看完整日报（29 篇）→ https://news.justin7974.dev/2026-09-08.html</description>
     </item>
   </channel>
 </rss>
