@@ -5,8 +5,74 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 02 Oct 2026 00:12:44 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 00:10:52 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #723 | 2026-10-03</title>
+      <link>https://news.justin7974.dev/2026-10-03.html</link>
+      <guid>https://news.justin7974.dev/2026-10-03.html</guid>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 4 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. AI Data Center Debt Is Showing Up Everywhere
+过去十二个月至少二十笔高收益债发行用于数据中心项目，AI 基建的融资风险已进入更广泛的信用市场。The Information 指出，投资级科技债利差扩大、部分高收益项目债需要更多让步，银行项目贷款也更谨慎。CoreWeave、Fluidstack 等租户把这些项目连接到头部模型与云公司，Google 还为部分 Fluidstack 租约提供信用支持。这类融资通常覆盖机房及配套设施，不覆盖 GPU；部分项目债已进入普通高收益债 ETF，单项持仓占比仍不到 1%。
+🔗 https://www.theinformation.com/articles/ai-data-center-debt-showing-everywhere
+
+2. Anthropic&apos;s IPO Can&apos;t Wait Forever
+Anthropic 据报道把原定十月的上市时间推迟到十一月，融资窗口正在与巨额算力承诺发生碰撞。Newcomer 援引 Reuters 获得的招股书草案称，公司去年收入约 46 亿美元、经营亏损约 80 亿美元，并承诺未来投入约 5180 亿美元于云、计算及基础设施；这些历史数据早于今年二月的 Opus 4.6。OpenAI 则据报道洽谈至少 300 亿美元的新融资，目标估值约 1.4 万亿美元，为 2027 年 IPO 提供资金。Oura、SB Energy 的上市延期提供了市场背景，但模型公司的最新完整财务数据仍未公开；本次读到公开段落，付费后段未获取。
+🔗 https://www.newcomer.co/p/anthropics-ipo-cant-wait-forever
+
+3. Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience
+Airbnb CTO 称，AI 已独立解决约一半客服工单，公司二季度披露的比例接近 45%；安全问题等高风险工单仍保留人工处理。他同时称，60% 的代码由 AI 编写，年度功能与改进交付量增加近 80%，平均工程师的 PR 吞吐提高约 1.6 倍。内部上下文图谱 Everest 将先前项目经验提供给后续团队：杂货服务开发约八九个月，机场接送约六周，但两者并非受控对照实验。Airbnb 在生产中使用至少十个定制模型，按具体任务权衡成本、质量和延迟，并开始让事件触发的异步 Agent 处理值班告警。
+🔗 https://www.latent.space/p/airbnb
+
+4. ★ Apple Is Going to Further Tighten the Screws on Full Disk Access on MacOS, in Response to Agentic AI Apps Running Amok
+Apple 宣布将为 macOS 的 Full Disk Access 增加控制，要求用户通过更明确的操作才能授予这类广泛访问权限。公告指出，一些应用让文件、邮件、消息和浏览历史暴露给开发者，而用户未充分理解其范围；自主 Agent 会放大风险。John Gruber 将此与 Muse、Grok Bot、Claude、Dots 等产品联系起来，但 Apple 本身没有点名。具体控制方式尚未公布，Gruber 担忧正常依赖这项权限的专业工具也会受到影响。
+🔗 https://daringfireball.net/2026/10/apple_full_disk_access
+
+5. AutoSynthData: Generating Training Data for Enterprise Agents
+ServiceNow 的 AutoSynthData 在 EnterpriseOps Gym 的 ITSM 环境中，把目标模型平均 Pass@1 从 18.77% 提升到 27.18%。流程根据目标模型失败和更强教师成功的差异，生成新的任务、初始状态及验证器，再执行正向、反向检查和有限修复。另一组 Hybrid 实验约十八小时生成两千条训练样本，Pass@1 提升 7.2 个百分点，关闭目标模型与参考模型原有差距的 59%。生成器不接收原始评测任务，只接收整理后的能力规格；结果来自受控企业环境，尚不代表真实客户部署的同等收益。
+🔗 https://huggingface.co/blog/ServiceNow-AI/autosynthdata
+
+🐦 Twitter 精选（5 / 30）
+
+1. @shao__meng：转述 Open SWE 973 线程实验：模型路由使中位成本降 64%，PR 合并率无显著差异；主张在运行层路由。
+🔗 https://x.com/shao__meng/status/2105986313510178880
+
+2. @cursor_ai：Cursor 的 Rollouts 定位回归 PR 并建 Issue，可启动云端 Agent 修复；额度含至十月三日。
+🔗 https://x.com/cursor_ai/status/2106066782155157603
+
+3. @shao__meng：Pi 1.0 发布并推出实验项目 Pi Durable；他强调可靠性与扩展性，并介绍规划、实现及切换模型组成的虚拟模型。
+🔗 https://x.com/shao__meng/status/2105919370404974755
+
+4. @shao__meng：转述 Griffin 可边说边听、看并生成整个画面；48% 对话者误判为真人属厂商测试，不等于普遍通过图灵测试。
+🔗 https://x.com/shao__meng/status/2105818253176291778
+
+5. @_akhaliq：分享 Adaptive Reward Routing 论文，以强化学习优化联合音视频扩散的多项奖励；未给实验数字。
+🔗 https://x.com/_akhaliq/status/2106080325386305893
+
+📱 公众号精选（4 / 4）
+
+1. a16z 最新市场洞察：AI 拿走美国 VC 86% 的钱，toB 开始算 ROI，toC Agent 的入口机会......
+美国 AI 融资的金额占比升至 86%，交易笔数占比却仍约 43%，这篇 a16z 解读呈现出资金向头部集中的图景。文章转述 PitchBook-NVCA 数据称，今年上半年 AI 公司获得约 3559 亿美元，全部 VC 投资约 4127 亿美元，一亿美元以上融资占总金额 87.5%。企业端的落差同样显著：69% 的 S&amp;P 500 公司已运行 AI 项目，约 30% 能量化业务影响，只有约 2% 持续追踪明确指标。消费 Agent 则可能改变交易入口：Amazon 对外部购物 Agent 更谨慎，Instacart 更开放，文章将其与广告收入和新增 GMV 的不同权衡联系起来；数字均来自这篇二次解读，未独立核实原报告。
+🔗 https://mp.weixin.qq.com/s/w9yw4b7f8JtKVEwrELyA-g
+
+2. 喝点VC｜a16z最新90页报告解读：AI的钱正流向哪里，利润留给谁
+解读 a16z 报告，区分供应链订单兑现与最终客户回报；强调电力、建设周期、利用率和软件毛利决定利润归属。
+🔗 https://mp.weixin.qq.com/s/a4mJFFkSuLGarqnlc5I9-A
+
+3. 吃瓜：Shivon 和马斯克分手（Opus 5.5 剪辑制作）
+宝玉用 Opus 5.5 找素材、剪视频，配音用 Gemini 3.8 Flash；未核实标题中的私事。
+🔗 https://mp.weixin.qq.com/s/GovQioMtetUaHJ7SHlg37Q
+
+4. RSI 时代的命运与意义
+借战锤、群星等科幻讨论 AI 时代的意义与评价尺度，认为可批量生产的代码会贬值；属思想实验，不是 RSI 技术证据。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/U0LciDoSr2jG-W_W5ETPkg
+
+📖 查看完整日报（44 篇）→ https://news.justin7974.dev/2026-10-03.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #722 | 2026-10-02</title>
       <link>https://news.justin7974.dev/2026-10-02.html</link>
@@ -1254,54 +1320,6 @@ Flask 作者 Armin Ronacher 回应本周疯传的&quot;AI 会毁灭人类&quot;�
 🔗 https://x.com/emollick/status/2098902602758996040
 
 📖 查看完整日报（25 篇）→ https://news.justin7974.dev/2026-09-13.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #702 | 2026-09-12</title>
-      <link>https://news.justin7974.dev/2026-09-12.html</link>
-      <guid>https://news.justin7974.dev/2026-09-12.html</guid>
-      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 14 条推文 · 0 篇公众号
-
-📰 RSS 精选（5 / 12）
-
-1. Tencent-backed Enflame Triples on Debut as China Pushes for Chip Self-sufficiency
-燧原科技（Enflame）科创板上市首日大涨，开盘价 410 元、较发行价接近翻三倍，IPO 募资约 61.2 亿元人民币（9.11 亿美元）。这家腾讯投资的国产 AI 芯片公司定价火爆，反映资本对英伟达国产替代标的的强烈需求。上市正值中国全力推进芯片自主可控之际。
-🔗 https://www.theinformation.com/briefings/tencent-backed-enflame-triples-debut-china-pushes-chip-self-sufficiency
-
-2. Oracle Keeps a Lid on Capex as Customers Pay Up-Front
-甲骨文在截至 8 月 31 日的季度录得 30% 营收增长，略超 6 月自身指引，盘后股价涨 4.4%。与同行大举扩张资本开支不同，甲骨文对 capex 保持克制，靠客户预付款（up-front）支撑 AI 云需求。Larry Ellison 的软件云业务正明显受益于 AI 算力需求的强劲。
-🔗 https://www.theinformation.com/articles/oracle-keeps-lid-capex-customers-pay-front
-
-3. Exclusive: Salesforce to Drop &apos;Agentforce&apos; Branding From Some Products
-据两位直接知情人士，Salesforce 在下周年度 Dreamforce 大会前，正把部分核心产品名称中的&quot;Agentforce&quot;字样去掉。此前公司曾把 Agentforce 打造成整个产品体系的核心卖点，这次是一次明显的品牌回调。
-🔗 https://www.theinformation.com/briefings/exclusive-salesforce-drop-agentforce-branding-products
-
-4. For Startups Facing the AI Safety Uproar, Cybersecurity Looms Larger than Existential Risk
-本周 AI 安全争议（吹哨人、p(doom) 恐慌）之下，Newcomer 给创业者的实用判断是：把它当成一个网络安全问题。前沿模型极擅长发现与修补（或利用）系统漏洞，网络防御正成为 OpenAI 和 Anthropic 的一条重要新业务线——恰逢它们需要在 IPO 前维持高增长、而编程等成熟品类开始显现天花板。Modal 创始人 Erik Bernhardsson 等已用模型部分替代昂贵的外部安全顾问。文中还提到 Ramp 数据显示 8 月人均 AI 支出环比回落。
-🔗 https://www.newcomer.co/p/for-startups-facing-the-ai-safety
-
-5. Open-Source AI &amp; Open Models Reading List
-Nathan Lambert 整理了近几年关于开放权重模型的最佳文章清单，覆盖开源战略（引用 Bill Gurley、扎克伯格）、开放 vs 封闭的经济学（Christian Catalini）、&quot;开源模型永远在追赶&quot;的性能规律，以及中国模型（Kimi K3、GLM-5.2）对生态的冲击。核心判断是：开放与封闭模型走在不同的指数曲线上，开放模型将作为封闭前沿模型的补充，在企业定制化 Agent 工作流中捕获价值。
-🔗 https://www.interconnects.ai/p/open-source-ai-reading-list
-
-🐦 Twitter 精选（5 / 14）
-
-1. @Hesamation：Kimi K3 发布后月之暗面（Moonshot）增长凶猛：年化销售额两个月内从 3 亿美元飙到 10 亿美元，并预计年底达到 20 亿美元。
-🔗 https://x.com/Hesamation/status/2098351057122271468
-
-2. @shao__meng：OpenAI 把 Codex 的 Agent Harness 产品化为 Agents API：开发者一次调用即可创建由 OpenAI 托管、能在云端连续工作数天的生产级 Agent，编排层交给 OpenAI，开发者只定义差异化能力和运行环境。
-🔗 https://x.com/shao__meng/status/2098226991707357384
-
-3. @shao__meng：公开基准被刷爆后 Cursor 推出私有基准 CursorBench 4.0：Claude Fable 5.1、Opus 5 最贵但确实最强，GPT-6 Astra 拒绝参评，Grok 4.6 表现平平且更贵。基准通过&quot;从真实会话反向出题&quot;并定期换题库防泄漏。
-🔗 https://x.com/shao__meng/status/2098203246246629560
-
-4. @emollick：METR 长任务基准已基本饱和（Epoch 发现 Fable 之前的 Agent 已能完成相当于人类 18 周的工作），Frontier Math、ARC-AGI 也相继饱和，他追问：现在还有什么定量图表能刻画当前的指数级进展曲线。
-🔗 https://x.com/emollick/status/2098534460996075568
-
-5. @Hesamation：有人从某头部中国 LLM 路由商处买到一份 6TB 的数据集，里面含 VPN 配置、SSH 密钥和各类 token，售价五位数——暴露出 AI 中间层的数据安全隐患。
-🔗 https://x.com/Hesamation/status/2098366378348581271
-
-📖 查看完整日报（26 篇）→ https://news.justin7974.dev/2026-09-12.html</description>
     </item>
   </channel>
 </rss>
