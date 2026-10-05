@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 04 Oct 2026 00:11:40 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 00:11:38 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #725 | 2026-10-05</title>
+      <link>https://news.justin7974.dev/2026-10-05.html</link>
+      <guid>https://news.justin7974.dev/2026-10-05.html</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 5 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. 最火AI岗位FDE：月薪5万，都干这些…
+多位受访 FDE 表示，沟通需求占工作时间七成以上，企业 AI 的交付成本主要花在理解业务、系统权限和组织协作上。量子位采访了企业、Baseten 与独立接单的 FDE，发现同一个岗位名称已涵盖产品实施、顾问服务和员工培训等不同生意。受访者 Sonic 称，积累模块后，同类场景的接入时间可以从约一个月缩短到一两天；独立 FDE Zaniel 则质疑，代码便宜以后，每家客户的适配成本仍然居高不下。报道因此把争议落在完整交付能否复用，而不是是否拥有一套可复用代码。
+🔗 https://www.qbitai.com/2026/10/501506.html
+
+2. Weekend content through the end of 2026
+独立网站作者 Dave Farquhar 自述，搜索平台截留流量，加上大站借生成式 AI 复制热门文章，让他原有的获客方式失效。请 SEO 专家协助后，他只能止住下滑，无法恢复过去的流量，于是转向较难复制的复古技术内容。新的选题管理方式让他积累了足够存稿，计划年底前在周末发布剩余文章，并从明年一月扩展到每周七天。他还因制作时间高、流量低而减少模型火车内容，体现小型内容业务对投入产出的重新取舍。
+🔗 https://dfarq.homeip.net/weekend-content-through-the-end-of-2026/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=weekend-content-through-the-end-of-2026
+
+3. OpenAI’s Head of ChatGPT: We’re entering a new era of AI (again) | Tibo Sottiaux
+Tibo 访谈介绍 Dots，并谈 Agent 接管互联网操作；仅有公开介绍，完整访谈受付费墙限制。
+🔗 https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering
+
+4. Anthropic’s Big Charity Bill for Shareholders
+公开导语称 Anthropic 半年确认逾 6.6 亿美元慈善配捐股票费用；属非现金费用，全文受限。
+🔗 https://www.theinformation.com/articles/anthropics-big-charity-bill-shareholders
+
+5. GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元
+Meshy 自述不到两年 ARR 从百万增至亿美元，并展示游戏和打印应用；偏品牌宣传，数据未独立核实。
+🔗 https://www.qbitai.com/2026/10/501451.html
+
+🐦 Twitter 精选（5 / 30）
+
+1. @shao__meng：介绍 LiteLLM Lens：聚类 Agent 轨迹问题，数据自托管，供编码工具查询。
+🔗 https://x.com/shao__meng/status/2106709835626734028
+
+2. @shao__meng：整理腾讯、阿里和字节的开源 Sandbox，比较隔离、部署及工具支持，供 Agent 开发者选择。
+🔗 https://x.com/shao__meng/status/2106642658303291636
+
+3. @shao__meng：转述 GRPO 教程：小型 Qwen 模型数学准确率从 15.2% 升至 47%，奖励只看最终答案。
+🔗 https://x.com/shao__meng/status/2106538877695701108
+
+4. @EXM7777：个人认为 Claude Code 浏览器操作弱于 Codex，推荐 Browser Use CLI；未给基准。
+🔗 https://x.com/EXM7777/status/2106746416618209322
+
+5. @godofprompt：分享审计 Agent 请求的提示词：逐段统计 token，按质量代价排序，精简每轮重复发送的上下文。
+🔗 https://x.com/godofprompt/status/2106757494605599037
+
+📱 公众号精选（5 / 5）
+
+1. a16z：押注 AI 头部赢家，让增长跑赢估值
+David George 给当前产品周期打九至十分、资本周期约六分，强调 AI 产业机会与投资价格应分开判断。这位 a16z 成长投资负责人认为，少数公司持续推出新业务，可以反复超过财务模型预设的增长上限，但高估值回报仍取决于未来收入超过今天计入的预期。文章区分供给侧 token 与算力收入、企业客户实际获得的经营回报，并指出行业应用需要处理销售、实施和完整流程交付。资金可能直接提升前沿模型能力，却不能自动改善所有应用公司的客户付费意愿或资本效率。
+🔗 https://mp.weixin.qq.com/s/qutFkF0m8Xn1z000mO2lmQ
+
+2. 深入讨论 Muse：最火的 Personal Agent
+Next Token 讨论把 Muse 的产品优势归于云端执行与普通人易用性，重点是降低委托任务的门槛。嘉宾举例称，连接器按具体任务逐步申请授权，后台执行时仍可持续交流，并用任务列表区分未完成目标与一般记忆。讨论还认为免费云端电脑与充裕资源让 Meta 有条件争取个人 Agent 入口，但这是嘉宾判断，尚不能证明用户留存或商业回报。文中股价变化、日活和成本等说法未经独立核实，不宜据此计算市场规模。
+🔗 https://mp.weixin.qq.com/s/zCpg4ztRHl5AH3LgMqqcxg
+
+3. 喝点VC｜红杉美国：99.9%的脑力劳动将由AI完成，如果AI负责思考，那么我们存在的意义是什么？
+Konstantine Buhler 认为智能价格下降会释放新的认知需求，机器承担的思考量可能远超今天，而不只是替代现有工作。他借工业革命说明，效率提高可能扩大资源使用，编程是较早成熟的应用，更大机会或来自科研、个人助理与新的协作方式。他同时强调，整体经济增长不能保证失去岗位的人及时转型，变化速度会考验培训和社会保障。关于未来机器承担 99.9% 脑力劳动等数字属于作者推演，文章是编译的观点文，不能当就业预测数据。
+🔗 https://mp.weixin.qq.com/s/-hYXNb9muZqtw8jjkpSNIg
+
+4. Anthropic 开班：投入 1 亿美金，培训 1 万名 FDE 工程师
+转述 Anthropic 拟投一亿美元、到 2027 年底培养万名 FDE；企业提名，线下考核后做十二周真实项目。
+🔗 https://mp.weixin.qq.com/s/hFW-evIQJCOizDPVH2T-4g
+
+5. 她凭什么能每月合并 2500 多 Pull Request（PR）？你还 Review PR 吗？
+转述 Lauren Tan 月合并逾两千五百 PR，靠自动验证、代码规矩和抽查；多数是维护，不能等同新功能产出。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/4MLXSsDBhjz4l-vSP3euNQ
+
+📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-10-05.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #724 | 2026-10-04</title>
       <link>https://news.justin7974.dev/2026-10-04.html</link>
@@ -1272,76 +1342,6 @@ AGENT橘的&quot;Next Token&quot;播客第二期，围绕 iPhone Duo、GPT-6 Ast
 🔗 https://mp.weixin.qq.com/s/kaYWRQ~Wm9E-THtVCT1HVA
 
 📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-09-15.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #704 | 2026-09-14</title>
-      <link>https://news.justin7974.dev/2026-09-14.html</link>
-      <guid>https://news.justin7974.dev/2026-09-14.html</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 19 条推文 · 9 篇公众号
-
-📰 RSS 精选（5 / 12）
-
-1. Anthropic, OpenAI, Google Quietly Discussed an AI Safety Standards Body
-Anthropic、OpenAI 和 Google 已就联手组建一个 AI 行业标准机构展开讨论，而且早在 Anthropic CEO Dario Amodei 周六公开呼吁 AI 公司协同做测试与审计之前，这些接触就已在进行。OpenAI CEO Sam Altman 本周在全员会上表态支持设立一个测试与审计组织。换句话说，三家最激进的前沿实验室，正把&quot;谁来定义安全标准&quot;这件事从公开喊话推向制度化的桌面。
-🔗 https://www.theinformation.com/articles/inside-ai-industrys-behind-scenes-push-police
-
-2. Nvidia&apos;s Growing Dependence On a Few Big Customers
-Nvidia 的销售正越来越集中在少数几家大客户身上，而其中一部分客户未来可能削减采购——这正是黄仁勋要通过投资各类 neocloud 和 AI 公司来培育新客户的根本原因。从 Nvidia 历年财报里&quot;贡献超 10% 销售额的客户数量&quot;这项披露，就能清楚看到这条依赖曲线在变陡。
-🔗 https://www.theinformation.com/articles/nvidias-growing-dependence-big-customers
-
-3. Why Amazon and Microsoft Are Taking Communities&apos; Side Against Utilities
-Amazon、Microsoft、Oracle 等 AI 数据中心开发商正在给地方政府和监管方开出更优厚的财务条件以换取新建审批，同时也越来越懂得站到消费者一边、反对那些想让公众分摊新增电力负荷成本的电力公司。但巨头仍面临多年的地方拉锯——不少活动人士对这些钱无动于衷，反而加大反对力度。
-🔗 https://www.theinformation.com/articles/amazon-microsoft-taking-communities-side-utilities
-
-4. AI&apos;s &apos;Pacing&apos; Obsession Misses Real Political Problem
-Dario Amodei 习惯把自己最高风险的表态都通过个人网站 darioamodei.com 的长文发布，这套&quot;媒介即讯息&quot;的打法被证明是极高明的媒体策略。而 The Information 认为，整个行业对&quot;为前沿踩刹车&quot;（pacing）的执念，恰恰掩盖了它背后真正的政治问题。
-🔗 https://www.theinformation.com/articles/ais-pacing-obsession-misses-real-political-problem
-
-5. AI is breaking our proxies for expertise
-近 5000 名数学家（含 25 位菲尔兹奖得主）签署了名为《A Severe Misalignment of AI in Mathematics》的声明。Sean Goedecke 认为不能简单把它当成又一个被自动化的行业在抱怨。他把数学分成两类：外行能感知、因而&quot;高可见度高声望&quot;的&quot;解题&quot;（puzzle-solving），和真正的智力工作即&quot;造概念&quot;（idea-generating）。过去解题之所以有价值，是因为它需要新思想、从而成为新思想有用的证据；而 AI 现在能&quot;硬解&quot;这些难题，等于同时废掉了&quot;解题作为奖励机制&quot;和&quot;解题作为让外行看懂专业价值的信号&quot;这两个功能。
-🔗 https://seangoedecke.com/ai-is-breaking-our-proxies-for-expertise/
-
-🐦 Twitter 精选（5 / 19）
-
-1. @shao__meng：shao__meng 分享 gauri__gupta 为头部 AI 实验室技术面试整理的 MLSys 笔记：按&quot;面试会问什么&quot;把大模型系统知识压成一张地图，涵盖 Flash Attention、MQA/GQA、Activation Checkpointing 等显存与 KV Cache 优化，以及投机解码、ZeRO、DualPipe 等训练/推理核心考点。
-🔗 https://x.com/shao__meng/status/2099281275370754227
-
-2. @shao__meng：shao__meng 介绍宾夕法尼亚大学公开的「World Models」课程讲义：回应&quot;仅靠文本训练 LLM 学不到世界全部知识&quot;的新共识，围绕表征、预测、交互三条主线教模型学会&quot;预测世界下一步&quot;——这也是 LeCun、李飞飞等指向的通往更强智能的路径之一。
-🔗 https://x.com/shao__meng/status/2099275387595592189
-
-3. @shao__meng：shao__meng 拆解 NVIDIA 官方「NIM LLMs Benchmarking 2.0.0」指标体系：围绕 prefill/decode 两阶段，讲清 TTFT（首 token 延迟，主要由 prefill 决定）等延迟指标，并点出并发场景下因 continuous batching，指标表现与单请求串行测试差别很大。
-🔗 https://x.com/shao__meng/status/2099103097348100552
-
-4. @shao__meng：shao__meng 分享阿里巴巴内部打磨两年、现已开源的 AI 代码审查工具 Open Code Review（Go 编写的 CLI，命令 ocr）：用&quot;确定性工程 × Agent&quot;多阶段流水线，解决通用 Agent 做代码审查时漏审、位置漂移、质量不稳三大顽疾，输出行级精确定位的意见。
-🔗 https://x.com/shao__meng/status/2098934481390625058
-
-5. @EXM7777：EXM7777 展示 GPT-Images 2.5 在 AI UGC（用户生成内容）场景的生成效果，认为其能力&quot;相当夸张&quot;，并附上示例视频。
-🔗 https://x.com/EXM7777/status/2099136273323819060
-
-📱 公众号精选（5 / 9）
-
-1. AI 让 Airtable/Miro 估值暴跌，但也让一内容产品年增 2.5 亿美金 ARR
-AI 正在系统性摧毁上个时代的百亿美金 SaaS：最高估值曾达 117 亿美金的 Airtable 以 13 亿卖身，曾达 175 亿美金的 Miro 以 14 亿被同一买家 Bending Spoon 收购，两者估值均缩水约 90%，Canva 也主动把估值从 420 亿下调到 349 亿。作者的判断是，Agent 让&quot;人通过 GUI 操作软件&quot;这件事的价值坍塌，SaaS 从&quot;工作发生的地方&quot;退化为&quot;一个更方便的人类操作界面&quot;，定价权被永久压低。但反例同样鲜明：能成为 AI 工作流基础设施、有网络效应或数据生态的公司（如 Linear 逆势估值翻倍到约 25 亿、Notion 六成 ARR 来自 AI）依然拿到高估值，还有一家内容公司靠 AI 把成本降低近 80 倍、一年 ARR 增长 2.5 亿美金。
-🔗 https://mp.weixin.qq.com/s/r9A-WVxf83Vy3F6uQD4qIQ
-
-2. Gavin Baker：所有人都在等 AI 泡沫，但算力还是不够
-Atreides 创始人兼 CIO Gavin Baker 是 AI 算力的坚定多头：他今年 7-8 月反复追问接触到的 AI 公司&quot;能不能给出一个正在恶化的量化经营指标&quot;，至今没找到。关键反差是——真正高强度用 AI 的人可能还不到千万，但算力供给已经受限；企业内部 AI 使用呈幂律分布，最激进的工程师 token 消耗是中位数的 10-100 倍，他自己的基金 3 到 8 月 token 消耗涨了约 100 倍。他估算 Nebius 部分算力项目回收期仅 9-10 个月，&quot;投入数百亿还能一年内回本&quot;的机会极罕见；真正的约束正从资本转向铜、电力、晶圆和施工等物理世界，到 2028 年前后算力仍可能紧张。他还判断这是个&quot;And 而非 Or&quot;的市场，未必赢家通吃。
-🔗 https://mp.weixin.qq.com/s/mv6EAjQ-oeg44ewQEEqoXQ
-
-3. 让AI替理发店和4S店接电话，这家公司14个月做到200家客户
-马德里公司 HeyDiga 完成 550 万欧元（约 640 万美元）种子轮（6dc 领投，K Fund 等参投），成立仅 14 个月做到 200+ 客户，覆盖西/法/意，每月处理数十万通电话，78% 对话无需人工介入、解决率 85.3%（均为公司自报）。它替理发店、4S 店、诊所、餐厅、房产中介这类&quot;电话仍是主要进单渠道、但接电话的人还在忙别的&quot;的小生意接电话，切的是每天都在漏、老板却说不清漏了多少的钱。关键设计是把同一套能力拆成 DigaLook/DigaMotor/DigaClinic 等五个行业版本，各自对接本地行业软件（官网列出 28 个集成对象，绝大多数是西班牙本地系统）——第二家同行客户可复用第一家的对接工作，这既是它快速铺到 200 家的原因，也是一道很实在的本地化门槛。
-🔗 https://mp.weixin.qq.com/s/Jnby8t31I4QQHq-IZgIoJA
-
-4. 一个27岁的AI研究员从Anthropic辞职了，因为他担心AI会导致人类灭绝
-27 岁、数学背景的英国研究员 Jacob Coxon 从 Anthropic 辞职，发出一条流量破 1 亿的推文：他先后在 OpenAI（GPT-4o 贡献者、GPT-4.5 核心贡献者）和 Anthropic 做最核心的预训练，如今因担心两家正朝&quot;能自我改进的超级智能&quot;狂奔、拿所有人的生命下赌注而离开，甚至打算彻底退出 AI 行业。Anthropic 的对齐负责人公开支持他，称其判断正确、&quot;10 年内发生的概率大于 10%&quot;；另一位安全研究员以个人身份声援，并观察到&quot;公司里职位越高的人反而越担心&quot;。作者由此重读 2015 年 Tim Urban 的《The AI Revolution》，感慨这代人正亲历文明的指数拐点——从 GPT-6 Astra 自主操作陌生软件，到 Claude 用 11 天把费马大定理形式化。
-🔗 https://mp.weixin.qq.com/s/n1mKHUEIRDu7V-WG-wpM2Q
-
-5. 喝点VC｜YC总裁Garry Tan：不要追热点，AI让个人能力放大400倍，创业者要比任何时候都更有野心
-YC 总裁 Garry Tan 在访谈中主张创业者不要追热点，认为 AI 已把个人能力放大约 400 倍，因此这个时代的创业者应比以往任何时候都更有野心。
-🔗 https://mp.weixin.qq.com/s/XyJdXvPTiWUAG~XGSFE~YQ
-
-📖 查看完整日报（40 篇）→ https://news.justin7974.dev/2026-09-14.html</description>
     </item>
   </channel>
 </rss>
