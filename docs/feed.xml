@@ -5,8 +5,70 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 05 Oct 2026 00:11:38 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 00:10:05 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #726 | 2026-10-06</title>
+      <link>https://news.justin7974.dev/2026-10-06.html</link>
+      <guid>https://news.justin7974.dev/2026-10-06.html</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 3 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Top 100 Consumer AI Apps - Seventh Edition
+美国消费者 AI 支出高度集中：a16z 引用的 YipitData 面板中，最上面的 1% 付费者贡献 19.5% 的支出，月均花费 903 美元，付费中位数则为 25 美元。8 月该美国电子收据面板中，4.5% 的合资格消费者拥有 ChatGPT、Gemini 或 Claude 的个人付费订阅，高于一年前的 2.1%。本期首次加入消费支出榜，支出前五十名里有二十九家公司没有进入网页或移动流量榜，桌面工具与消息平台内的 Agent 因而得到不同评价。高支出人群偏爱编程、自动化和创作产品；这组数据来自美国面板，不能等同全球采用率或公司总收入。
+🔗 https://www.a16z.news/p/top-100-consumer-ai-apps-seventh
+
+2. Building advertising for the way people use AI
+OpenAI 将于本月晚些时候在美国测试 ChatGPT 图片生成过程中的视觉广告，广告有明确标签，并与用户生成的图片分开。公司同时接入转化数据和归因伙伴，尝试用地域实验衡量广告是否真正带来新增购买。公告援引 DV Rockerbox 的早期结果称，WeightWatchers 的归因获客成本比其综合付费搜索基准低 15.3%，但这是合作伙伴报告的个案。品牌适配评估也开始引入独立机构，在受控环境下检查广告保护措施，避免向评估方开放真实私人对话。
+🔗 https://openai.com/index/new-chatgpt-ads-format-and-measurement
+
+3. Apple and a Hacker’s Future
+Ben Thompson 自述，常驻运行 Claude 与 Codex 的 Mac Mini 遭入侵后，Claude 在监测任务中发现异常、停止执行命令并协助定位恶意软件。事故令他重新审视 macOS 的权限机制：无显示器的 Agent 主机可能被不可见的图形授权弹窗卡住，人又必须远程进入桌面批准。他认为权限应该围绕 Agent 的授权范围设计，而不是每一个临时生成的程序，并已决定将新服务器改用 Linux。文章进一步把这种体验问题延伸到家庭设备和应用入口，主张 Agent 直接操作与用户定制软件可能削弱传统应用整合方式；这是作者的使用经验和战略判断。
+🔗 https://stratechery.com/2026/apple-and-a-hackers-future/
+
+4. Our approach to EU text provenance rules
+OpenAI 宣布全球 API 客户可为部分模型主动开启文本水印，API 默认仍关闭。未来几周，欧盟地区符合条件的 ChatGPT 与 Codex 文本输出将加入不可见水印。检测器首先接受研究人员和专业机构申请，暂未向所有公众开放。公司将其定位为有局限的文本来源识别技术，与已经公开的音频、图片验证工具区别处理。
+🔗 https://openai.com/index/eu-text-provenance
+
+5. Nvidia Is Rethinking Its Revenue-Sharing Deals with Cloud Firms
+Nvidia 据报重议以信贷支持换 GPU 租赁分成的合作机制，可能影响云商融资；仅读到公开导语，全文受限。
+🔗 https://www.theinformation.com/briefings/nvidia-rethinking-revenue-sharing-deals-cloud-firms
+
+🐦 Twitter 精选（5 / 30）
+
+1. @cursor_ai：Cursor SDK 支持运行中追加指令；下一轮接收新消息，正在执行的子代理转入后台继续工作。
+🔗 https://x.com/cursor_ai/status/2107141004482793827
+
+2. @cursor_ai：Cursor 称后台子代理会在同一次运行中向主代理回传结果，流式输出和等待机制持续到所有子代理完成。
+🔗 https://x.com/cursor_ai/status/2107141021947904430
+
+3. @cursor_ai：Cursor 自定义工具可携带 MCP 的只读与破坏性提示，帮助模型在调用前区分查询和删除操作。
+🔗 https://x.com/cursor_ai/status/2107141038427308473
+
+4. @cursor_ai：Cursor 逐步开放替换系统提示词，规则、Skills 和工具定义仍会加载；作者称按账号逐一启用。
+🔗 https://x.com/cursor_ai/status/2107141054071968154
+
+5. @shao__meng：转述 Uber 的 MCP 网关实践：已托管逾八百服务器、五千工具，以统一目录和代理层管理企业 API。
+🔗 https://x.com/shao__meng/status/2106958442380644497
+
+📱 公众号精选（3 / 3）
+
+1. 深度｜百亿美金AI法律Harvey联创：应用公司不必与大模型比拼资金和算力，但要借助开源建立研究能力
+Harvey 联创 Gabe Pereyra 认为，法律 AI 的研究优势可以来自真实任务评测和专业合成数据，无须复制基础模型公司的预算。由于客户法律材料高度敏感，团队先由律师设计应发现的问题和评分标准，再生成相互关联的虚拟资料室，由专业人员校正。新模型要依次经过通用评测、人工比较、产品流程测试与上线观察，简单任务可先换用开源模型，再扩展模型路由。面对通用助手，Harvey 正把重点移向多人、长周期法律项目的协调与资源管理，而不只帮助单个律师写作；文章为演讲编译。
+🔗 https://mp.weixin.qq.com/s/0JROOP8DEicV_iTdJbl4lw
+
+2. 刚刚，光遗传学获得今年首个诺奖！一家中国公司已将它推进临床
+文章以光遗传学诺奖报道串起中国眼科基因疗法进展；中眸等企业数据仍属早期小样本，疗效未定。
+🔗 https://mp.weixin.qq.com/s/rNlbc3nOqPTi4jEmmHG5xw
+
+3. 我卡住了 si 的脖子（bushi
+作者分享注册 si.bar、指向 agi.bar 并翻新首页，主要是个人站点推广；缺少产品与经营数据。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/vu6wq11IxwGio-UFXID6GQ
+
+📖 查看完整日报（43 篇）→ https://news.justin7974.dev/2026-10-06.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #725 | 2026-10-05</title>
       <link>https://news.justin7974.dev/2026-10-05.html</link>
@@ -1276,72 +1338,6 @@ OpenAI 一个未公开的下一代模型组织约 1 万个 agent，在 88 小时
 🔗 https://mp.weixin.qq.com/s/88ngMTkxNlD-f8WOydOX-Q
 
 📖 查看完整日报（48 篇）→ https://news.justin7974.dev/2026-09-16.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #705 | 2026-09-15</title>
-      <link>https://news.justin7974.dev/2026-09-15.html</link>
-      <guid>https://news.justin7974.dev/2026-09-15.html</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-      <description>今日共 13 篇 RSS · 17 条推文 · 4 篇公众号
-
-📰 RSS 精选（5 / 13）
-
-1. Defense Startup Shield AI in Talks for Valuation of at Least $20 Billion
-国防 AI 公司 Shield AI 正洽谈一轮估值至少 200 亿美元的新融资，较五个月前再涨约 60%。这家成立 11 年的公司靠一套名为 Hivemind、用于协同无人机与飞行器的 AI 软件持续拿下军方合同，本轮融资正是踩着这些订单兑现的节奏推进。
-🔗 https://www.theinformation.com/articles/defense-startup-shield-ai-talks-valuation-least-20-billion
-
-2. OpenAI&apos;s &apos;Top Priority&apos; for AI Agents is Automating AI Research, Says Noam Brown
-OpenAI 研究科学家 Noam Brown 直言，尽管 GPT-6 Astra 在设计游戏、转录乐谱等各类专业任务上都有提升，公司训练新模型的头号目标其实是让模型更擅长 AI 研发本身——&quot;第一优先级是递归自我改进（RSI），而且领先第二名相当大的差距&quot;。
-🔗 https://www.theinformation.com/articles/openais-top-priority-ai-agents-automating-ai-research-says-noam-brown
-
-3. Why China&apos;s Answer to Surge AI Got a $1 Billion Valuation On Just $30 Million in Orders
-一家对标 Surge AI 的中国数据标注公司，在仅有约 3000 万美元订单的情况下拿到了 10 亿美元估值。The Information 用这个 30 余倍的&quot;估值/订单&quot;倍数点出：资本对&quot;AI 训练数据&quot;这一环节的下注，已经远远跑在真实营收前面。
-🔗 https://www.theinformation.com/articles/chinas-answer-surge-ai-got-1-billion-valuation-just-30-million-orders
-
-4. Humanity&apos;s Last Invention — Richard Socher of Recursive
-NLP 元老、You.com CEO Richard Socher 从前沿模型业务中拆分出新公司 Recursive，专注递归自我改进（RSI），已完成 46.5 亿美元种子轮、估值约 50 亿美元。他的愿景是造一台&quot;尤里卡机器&quot;——能改进&quot;发明&quot;这一过程本身的超级智能。早期结果包括：一套 AI 研究系统在不到两天内于优化任务上超过了人类及其 agent，并在没有 CUDA 专家团队的情况下改进了 NVIDIA GPU kernel；他还网罗了一批全球顶尖的开放式演化（open-endedness）与自我改进 agent 研究员。
-🔗 https://www.latent.space/p/recursive
-
-5. Pacing the Frontier, AI&apos;s Digital Limits, AI Commissars
-Stratechery 的 Ben Thompson 直接开炮：Dario Amodei&quot;为前沿踩刹车&quot;的提议既不现实，其真实指向更像是对 AI 的政治控制。他把这套&quot;限速 + 设立监督者&quot;的组合形容为可能催生&quot;AI 政委&quot;（AI Commissars）——由少数人掌握&quot;什么该被放行&quot;的裁量权。
-🔗 https://stratechery.com/2026/pacing-the-frontier-ais-digital-limits-ai-commissars/
-
-🐦 Twitter 精选（5 / 17）
-
-1. @Hesamation：援引 Anthropic 新博客的一组数字：工程师如今产出代码是过去的 8 倍，80% 的代码由 Claude 编写，半年内 CI 任务量涨 25 倍、测试涨 10 倍。瓶颈已从&quot;写代码&quot;转向&quot;验证代码&quot;，Thariq 更称测试代码量应是以往的 100 倍。
-🔗 https://x.com/Hesamation/status/2099644937289523317
-
-2. @shao__meng：苹果正式发布由下一代 Apple Intelligence 驱动的对话式 Siri AI，随 iOS 27 推出。两个关键信号：底层模型与 Google Gemini 合作构建，以及 AI 功能首次引入用量限制、未来将收费；能力上主打跨应用个人上下文、屏幕感知与系统级第三方应用操作。
-🔗 https://x.com/shao__meng/status/2099641395355246627
-
-3. @shao__meng：拆解今年 AI 圈最火的 FDE（前线部署工程师）岗位：Vinoo Ganesh（曾在 Palantir、Citadel 三次从零搭 FDE 团队）指出，九成团队把它做成了咨询甚至外包，真正的价值在于把前线认知回流到平台、让下一次部署更快——FDE 应是产品团队的延伸，而非换了头衔的驻场顾问。
-🔗 https://x.com/shao__meng/status/2099646187326648825
-
-4. @shao__meng：从一线视角讲清楚大厂超级 App（美团、淘宝、微信这类）做 AI 入口有多难：主推理模型反而好定，真正难的是最前端的意图识别和十几个自训垂类模型，一轮后训练 2-3 个月、期间基座又升级形成两难；而比技术更难的是大厂跨团队跨部门的权责协调。
-🔗 https://x.com/shao__meng/status/2099425944373198964
-
-5. @shao__meng：基于 METR、GDPval、DeepScholar-Bench 三篇论文，拆解智能体评测的三个要素——任务时长、经济价值与结果可信度，串起斯坦福 CS329A《自我改进 AI 智能体》课程第八讲对长程任务评估的框架。
-🔗 https://x.com/shao__meng/status/2099506609131340162
-
-📱 公众号精选（4 / 4）
-
-1. YC 最科幻的一届：AI 创业开始从模型走向电力、芯片和机器人
-刚结束的 YC Summer 2026 Demo Day 上，投资人讨论最多的一批公司几乎不再有 SaaS、Copilot 或垂直 Agent 的影子，而是集体转向电力、芯片和机器人这些&quot;物理层&quot;。代表项目包括：把数据中心装上驳船、用海水散热、计划 2028 年上天然气版、2032 年转核动力的 Atomarine（靠 LOI 拿到超 40 亿美元客户意向，成为本届估值最高项目之一）；用光交换（OCS）让 1 万张 GPU 集群等效发挥出约 1.25 万张算力的 Dipole Labs；以及把模型权重直接固化进硅片、口号&quot;The model is the chip&quot;的 Lamb Labs。更极端的还有公司开始培养人类脑细胞做 next-token 预测。有意思的是，投资人认为这批&quot;像科幻小说&quot;的公司，估值反而比前几届更实在。
-🔗 https://mp.weixin.qq.com/s/rvBdnRHRFDYoMsubsEQY-Q
-
-2. 那个拍出神作《牌子》的AI导演，带着他的巅峰之作回来了。
-数字生命卡兹克专访了 AI 影像圈公认的头部创作者 DiDi_OK——他正在威尼斯电影节领奖、斩获两项 AI 影像大奖，今年 2 月的作品《牌子》曾在 B 站斩获 2000 万播放、全网近亿。他的新作、也是&quot;主持人平行宇宙&quot;系列的巅峰之作《糖果》用 Seedance 2.5 制作，讲一个&quot;人类能源使用逼近一级文明门槛后、任何起心动念要施暴的人都会当场炸成一堆糖果&quot;的科幻故事。DiDi_OK 本硕都是动画、现就职于全球最大营销集团之一 WPP 的核心制作团队，他把自己多年的核心追求概括为&quot;力道&quot;——如何让脑中的创意以最低损耗传达给观众，而 AI 终于替他抹平了传统动画流程里层层损耗的生产力鸿沟。
-🔗 https://mp.weixin.qq.com/s/4m7ztOZHUF3DxaYPggRl-w
-
-3. 独家｜亿格云完成近亿元B+轮融资，加速构建企业AI治理基础设施
-Z Potentials 独家：企业 AI 治理公司亿格云完成近亿元人民币 B+ 轮（MTR Lab 与北极光创投联合投资），距上一轮仅四个月。其自研&quot;云枢 AIDR&quot;平台把治理对象从&quot;人&quot;扩展到&quot;人 + Agent&quot;，通过&quot;看见、定义、标识、执行、度量&quot;五个环节对企业内的 Agent 做全生命周期管控——押注&quot;每一次生产力跃迁都会催生匹配的治理基础设施&quot;。
-🔗 https://mp.weixin.qq.com/s/ts9I7aG8lWLZsEyisXN4pA
-
-4. Next Token 第二期：iPhone Duo、GPT 6 Astra 和 DeepSeek Flash
-AGENT橘的&quot;Next Token&quot;播客第二期，围绕 iPhone Duo、GPT-6 Astra 与 DeepSeek Flash 三条近期热点做了一轮讨论与点评。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/kaYWRQ~Wm9E-THtVCT1HVA
-
-📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-09-15.html</description>
     </item>
   </channel>
 </rss>
