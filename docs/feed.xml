@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 06 Oct 2026 00:10:05 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 00:09:24 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #727 | 2026-10-07</title>
+      <link>https://news.justin7974.dev/2026-10-07.html</link>
+      <guid>https://news.justin7974.dev/2026-10-07.html</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 5 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Advancing computer use with Ironclad
+OpenAI 与 Ironclad 的合同工作流评测中，GPT-6 Astra 的平均评分为 55.0%，高于 GPT-5.6 Sol 的 41.6%，估算单次耗时由 37.0 分钟降至 19.2 分钟。双方把合同、采购和审批配置整理成 11 项研究任务，每项按 8—50 个条件评分，并提供可练习的软件环境。训练资料来自过滤后的公开 SEC 合同及合成任务，未使用非公开客户合同。结果只覆盖这些研究任务，耗时为模拟估算，不能当作客户实际节省时间。
+🔗 https://openai.com/index/advancing-computer-use-with-ironclad
+
+2. What is Codemode
+Pi 1.0 用 Codemode 接入 MCP，让模型以 JavaScript 组合工具调用，而无需把所有工具定义和中间结果塞进对话。Armin Ronacher 将它与 Bash 区分：Bash 操作执行环境，Codemode 则在 Agent 控制程序内的独立沙箱运行，能够协调子代理、图片和分类模型。按需发现工具、批量处理和保存中间状态，都是文章展示的实际用法。作者同时指出，MCP 返回结构不稳定、大型二进制数据支持不足和调用恢复，仍会限制这一方式。
+🔗 https://lucumr.pocoo.org/2026/10/6/codemode/
+
+3. [AINews] Reflection Beam - 501B-A23B American Open Model
+Reflection 预告首个模型 Beam：文本 MoE，总参数 5010 亿、激活参数 230 亿，面向编程、Agent 与科学任务，并计划本月以 Apache 2.0 发布权重。Latent Space 汇总的团队说法包括 23.8 万亿预训练 token，以及超过一亿次强化学习任务尝试。其能力大致对标 GLM-5.2，仍落后于文中列举的数款中国前沿开放模型。所谓三至四倍推理效率优势来自公司比较，权重、技术报告及实际服务成本仍待进一步检验。
+🔗 https://www.latent.space/p/ainews-reflection-beam-501b-a23b
+
+4. Credit Crunch
+Ed Zitron 把 AI 基建风险归结为信用条件：长期算力承诺很大，融资却可能越来越贵。文章以 Oracle 相关数据中心债券折价和部分银行收紧项目贷款为例，讨论融资成本如何传到云商与模型公司。作者进一步推演，持续亏损的模型公司即使上市，也未必能取得足够便宜的债务来履行承诺。其关于融资缺口、信用评级及行业崩溃的结论带有强烈看空立场，不能视为已经发生的事实。
+🔗 https://www.wheresyoured.at/credit-crunch/
+
+5. The Cyber Risk Discourse is Broken
+Nathan Lambert 认为，只禁开放权重模型未必降低网络风险，反而可能削弱防御方获得强模型的能力。文章以 Anthropic 对 GLM-5.3 的安全研究为起点，指出闭源 API 的保护也不完善，而隔离网络往往只能部署本地模型。他主张同时比较攻击能力、模型获取方式与防御扩散，讨论发布前安全评估应投入多少资源。对中国模型厂商风险取舍的解释，以及风险会渐进上升而非突变的判断，均属作者观点。
+🔗 https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken
+
+🐦 Twitter 精选（5 / 30）
+
+1. @AnthropicAI：Anthropic 扩大验证计划，让安全人员使用更强 Claude 模型，并新增授权渗透测试与红队工作层级。
+🔗 https://x.com/AnthropicAI/status/2107546569654636883
+
+2. @cursor_ai：Cursor 宣布可从 iOS 应用控制电脑上的 Agent，支持查看进展、回复消息和启动新任务。
+🔗 https://x.com/cursor_ai/status/2107618653701296162
+
+3. @godofprompt：介绍 Hindsight：读取 Git 历史和过去会话，为代码库维护记忆，并向多种编程 Agent 提供上下文。
+🔗 https://x.com/godofprompt/status/2107410820804350427
+
+4. @godofprompt：分享 Addy Osmani 的二十五个工程 Skills，覆盖需求访谈、API 设计、测试、发布和回滚。
+🔗 https://x.com/godofprompt/status/2107482267388104820
+
+5. @_akhaliq：分享 OmniReasoning 论文，研究音频与视觉的联合推理；推文只给题目和链接，未披露实验结果。
+🔗 https://x.com/_akhaliq/status/2107532766858694847
+
+📱 公众号精选（5 / 5）
+
+1. a16z 最新消费洞察：AI 的付费机会，藏在流量外
+a16z 新榜单中，消费者 AI 支出前五十名有二十九家公司没进网页或移动流量榜；数据来自美国个人消费样本，不能当作全球营收。文章进一步检查 n8n 的工作流计次、fal 的生成计费，以及 Suno、ElevenLabs、Plaud 如何围绕实际制作与处理任务收费。对于个人 Agent，文中引用 Instinct 创始人的年化交易额说法，并明确区分交易额与平台收入。报告当时 Instinct 和 Muse 尚未收取相关交易费用，流量、支付规模与已验证商业模式仍是三件不同的事。
+🔗 https://mp.weixin.qq.com/s/m_-fAAFswycC0EhEK87haw
+
+2. 喝点VC｜a16z合伙人谈AI与消费：好产品要让用户&quot;停止做某件事&quot;，信任是AI产品进入主流的分水岭
+Josh Elman 判断消费 AI 产品是否成立，首先问用户开始使用后，停止做了哪件旧事，而不是只问是否愿意尝试。访谈认为早期用户可以先接受实用性，但进入主流市场需要信任，个人 Agent 应先把少数任务做好，再扩展服务。推理带来持续变动成本，免费获取用户之后仍要找到合理收费方式。Elman 同时看好个人 Agent、互动娱乐和语音，但强调长期留存需要关系、历史信息或共同使用形成的价值；本文为访谈编译。
+🔗 https://mp.weixin.qq.com/s/BN4KhBVu5LGEXwcp0GzOfg
+
+3. 聊聊A16Z这两份AI报告，以及一些反常识的真相。
+解读 a16z 报告，强调付费集中、Agent 使用增长与实体基建压力；数据跨不同样本，不能直接比较。
+🔗 https://mp.weixin.qq.com/s/Me1AvtStUdcfmikAGjI4xg
+
+4. 美国开源的新希望，对标智谱的上一代模型
+解读 Reflection Beam 的融资、目标客户及效率主张；提醒权重未发布，算力估算不等于实测成本。
+🔗 https://mp.weixin.qq.com/s/8XWEWz0XeJzEZjZ3Ub4meA
+
+5. Nano Banana 2.1 发布，中文效果大幅改善！
+作者称 Nano Banana 2.1 改善中文文字与排版，支持 4K；属体验分享，未见系统测试。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/D45WfBlwPrXAUdrJz7_31Q
+
+📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-10-07.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #726 | 2026-10-06</title>
       <link>https://news.justin7974.dev/2026-10-06.html</link>
@@ -1268,76 +1338,6 @@ Z Potentials 系统梳理了 2026 年的世界模型赛道：行业关注点正�
 🔗 https://mp.weixin.qq.com/s/zrLj1BZUF~yr3myPZeCxcA
 
 📖 查看完整日报（47 篇）→ https://news.justin7974.dev/2026-09-17.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #706 | 2026-09-16</title>
-      <link>https://news.justin7974.dev/2026-09-16.html</link>
-      <guid>https://news.justin7974.dev/2026-09-16.html</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 30 条推文 · 6 篇公众号
-
-📰 RSS 精选（5 / 12）
-
-1. OpenAI in Early Talks for New Funding Round at $1.2 Trillion Valuation
-OpenAI 已与投资人早期接触，新一轮融资估值可能达到 1.2 万亿美元或更高，谈判发生在它把原定 IPO 推迟到明年之际。据报道，公司年化收入在 GPT-5.6 之后越过 400 亿美元、半年内估值跳涨约四成，而去年烧掉约 340 亿美元、主要花在研发和训练上——即便如此仍称&quot;还需要资金&quot;。值得注意的一个细节是，这次是投资人主动找上门，而不是 OpenAI 出去募资。
-🔗 https://www.theinformation.com/briefings/openai-early-talks-new-funding-round-1-2-trillion-valuation
-
-2. Anthropic, OpenAI &apos;Pacing&apos; Spooks Some Startup Customers
-Anthropic 与 OpenAI 公开承诺给 AI 发展&quot;降速&quot;，这番表态还没影响到各自的上市计划，却先在客户端起了作用：硅谷和华盛顿之外的更多人开始警惕 AI 的潜在风险。对那些正努力说服消费者和企业&quot;这技术值得用&quot;的初创公司来说，这不是好消息。一位风险投资人向 The Information 表示，这种情绪转变已经开始产生实际影响。
-🔗 https://www.theinformation.com/articles/anthropic-openai-pacing-spooks-startup-customers
-
-3. OpenAI Ads, Amazon Ads in ChatGPT, Walmart to Accept Apple Pay
-ChatGPT 的广告已经跑出效果，而且正好解掉了 Amazon 在聊天机器人场景里最大的难题。随后 Ben Thompson 谈到 Walmart 最终向 Apple Pay 低头——他的判断是，对抗既定格局太难，连 Walmart 这样的巨头也顶不住。
-🔗 https://stratechery.com/2026/openai-ads-amazon-ads-in-chatgpt-walmart-to-accept-apple-pay/
-
-4. AEF-1 standard emerges for Third Party Evaluators, as xAI, OpenAI, and Anthropic all cosign
-AI Evaluator Forum 发布 AEF-1，第一份面向第三方 AI 评估机构的基准，覆盖访问权限、利益冲突、资金关系、回避与透明度，xAI、OpenAI、Anthropic 三家共同签署。Dario 罕见地亲自撰文提出&quot;嵌入式评估员&quot;构想——让 METR 这类第三方团队像员工一样常驻实验室，配办公桌、门禁和公司电脑，核实安全承诺、报告事故。这是&quot;降速/pacing&quot;叙事从口号走向机制的一步，Anthropic 称自己已单方面开始这么做。
-🔗 https://www.latent.space/p/ainews-aef-1-standard-emerges-for
-
-5. Your Agent Aced the Task. Will It Do It Again?
-一个平均成功率 77.4% 的 agent，在同一任务重复五次里全部成功的比例只有 53%——24.4 分的&quot;一致性缺口&quot;被平均值藏了起来，难任务上这个缺口达到 30 分。IBM 研究团队做了个 Consistency Analyzer，专门去找那些&quot;差一个 token 采样就会走偏&quot;的决策点，再用 altk-evolve 生成一致性指南把缺口补上，且不牺牲整体准确率。他们强调，大多数 benchmark 只报第一个数字，掩盖了生产环境真正在意的稳定性。
-🔗 https://huggingface.co/blog/ibm-research/altk-evolve-consistency
-
-🐦 Twitter 精选（5 / 30）
-
-1. @_akhaliq：生数发布 Vidu S2，主打实时、可交互、可编辑的空间视频生成，并放出论文。
-🔗 https://x.com/_akhaliq/status/2099883001840828920
-
-2. @karminski3：IFM 开源 7B 全注意力 dense 小模型 K2-Horizon-7B：AA Bench 21 分逼近 27B 的 Qwen3.6（22 分），BrowseComp 上碾压上代旗舰 GPT-5/DeepSeek-V4，训练数据、配方、代码全部开源。缺点是全注意力导致长上下文成本很高。
-🔗 https://x.com/karminski3/status/2099991128061919596
-
-3. @shao__meng：转述 LangChain 的语音智能体三维评估框架——执行（是否遵守规范）、结果（用户问题是否真的解决）、体验（通话是否自然）；并强调指令遵从不等于结果有效，两个维度必须独立评估。
-🔗 https://x.com/shao__meng/status/2100010942516064725
-
-4. @shao__meng：介绍一套&quot;云端解析一次、本地无限迭代&quot;的可溯源文档问答方案：LlamaParse 保留页码、本地嵌入加向量索引、强制模型内联引用 [1][2]，把&quot;可信&quot;变成每个论断都能追到具体页码原文的工程要求。
-🔗 https://x.com/shao__meng/status/2099871414602100957
-
-5. @shao__meng：NVIDIA 在 4×B200 上用 NIM 对整套推理栈做协同优化，把 Nemotron 3 Ultra 的系统吞吐从 718 提到 1997 tok/s；在每用户 50 TPS 的同等体验下多服务约 2.78 倍并发用户，前提是固定延迟 SLO 下的测量，不是裸吞吐对比。
-🔗 https://x.com/shao__meng/status/2099868228122280067
-
-📱 公众号精选（5 / 6）
-
-1. Latent Labs：Alphafold 3 发布两年，AI 药物设计进展到了哪一步？
-蛋白质生成模型正把药物发现从&quot;在天然分子库里筛少数有效候选&quot;，变成&quot;按需设计自然界不存在的分子&quot;。文章以 Latent Labs 为样本——创始人 Simon Kohl 是 AlphaFold 2 核心成员，选择押注环肽这一新兴模态并自建湿实验室，累计融资 5000 万美元，Jeff Dean、Aidan Gomez 等天使入局。作者认为结合物发现物理规律明确、反馈快、高度可验证，是 AI 自我改进（RSI）的理想场景；但也点明目前各家的蛋白仍停在&quot;能作为结合物发挥作用&quot;的第一步，离真正成药还很远。
-🔗 https://mp.weixin.qq.com/s/RzSX961IrgxxS2dW8FwMTQ
-
-2. 深度｜a16z对话OpenAI数学家：Astra 4天破解90年数学难题，AI做数学是复兴还是灾难？
-OpenAI 一个未公开的下一代模型组织约 1 万个 agent，在 88 小时内给出纳维-斯托克斯存在性与光滑性问题的一份解答，并生成 166 页 Lean 形式化证明——一道困扰数学界近 90 年的千禧年难题，机器用不到四天出了证明。几天后陶哲轩等 25 位菲尔兹奖得主联名发出罕见严厉声明，担心 AI 批量生产&quot;真/假&quot;命题会&quot;摧毁孕育思想的肥沃土壤&quot;。受访的两位 OpenAI 数学家则更乐观：AI 让过去因时间和试错成本难以触及的问题变得可探索，&quot;文艺复兴&quot;正在发生。
-🔗 https://mp.weixin.qq.com/s/nlMzZbOCkM6acEISMm6nxg
-
-3. 船公司签五年，银行要自己部署，Mistral的客户在买什么
-抛开 Mistral 30 亿欧元融资、超 210 亿欧元估值的新闻，文章去看它三家大客户到底买了什么：汇丰要把模型部署进自己的基础设施并共同开发（客户数据不能外流）、达飞轮船签五年合同处理航运单据、阿斯麦用于日志分析与根因诊断。作者强调企业 AI 采购的验收难点——提取、定位、核查三类任务的难度和验收标准差别很大，业务 KPI 与模型指标之间的转换并不直接，什么叫&quot;做得好&quot;技术团队一个人回答不了。
-🔗 https://mp.weixin.qq.com/s/uFBm3L0gJ9TkGgNNuxPrRg
-
-4. 国内第一个为团队而生的Agent，果然还是在飞书里面来了。
-飞书联合豆包发布&quot;豆包工作伙伴&quot;——不同于服务个人的 agent，它有独立人设、名称和组织身份，可被拉进任意群聊，读文档和代码、参加会议、主动推进工作，成为全公司共享的一个 AI 同事。作者把它类比 Anthropic 6 月发布、被 Karpathy 称为&quot;第三次交互范式&quot;的 Claude Tag，并认为它在飞书里能发挥的作用比 Claude Tag 在 Slack 里更大，因为飞书十年积累的群聊、会议、文档、多维表格数据更丰富。
-🔗 https://mp.weixin.qq.com/s/VYXjhHVPAAeksJHw8rxi5g
-
-5. Vidu S2：实时数字人，实时改视频
-生数上线实时视频模型 S2，输出提到 720p、25-42 FPS，含实时数字人 S2-Avatar（对话中随时换衣服、道具、场景）和实时改视频 S2-Editing（风格迁移、虚拟试穿、人物替换、背景替换），还能生成供头显使用的实时空间视频；靠一层 VLM Agent 维护状态一致性、Frame-Aligned Attention 防穿模。
-🔗 https://mp.weixin.qq.com/s/88ngMTkxNlD-f8WOydOX-Q
-
-📖 查看完整日报（48 篇）→ https://news.justin7974.dev/2026-09-16.html</description>
     </item>
   </channel>
 </rss>
