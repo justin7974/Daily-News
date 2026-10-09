@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 08 Oct 2026 00:10:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 00:09:56 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #729 | 2026-10-09</title>
+      <link>https://news.justin7974.dev/2026-10-09.html</link>
+      <guid>https://news.justin7974.dev/2026-10-09.html</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 8 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk
+Periodic Labs 把强化学习的反馈接到真实实验室，试图让模型通过预测、合成与材料表征的循环发现新材料。Liam Fedus 和 Ekin Doğuş Çubuk 强调，实验有测量噪声、设备差异与缺失信息，不能照搬数学和编程中容易判定对错的训练方式。模拟与密度泛函计算帮助筛选方向，但最终仍需高通量物理实验检验，样本效率也受设备吞吐约束。半导体、磁性材料与超导体属于团队讨论的目标，访谈没有证明室温超导等目标已经实现。
+🔗 https://www.latent.space/p/periodic
+
+2. You Need a New CFO
+a16z 观察到财务团队开始自己搭建 Agent，CFO 的稀缺能力逐渐转向设计数据、流程与控制系统。作者称 Anthropic 财务团队维护七十多个专用 AI Skills，其中一项可生成九成至九成五完整的月度财务审阅，将数小时工作压至约三十分钟。最精简团队把财务人员占比从传统约 5% 向 2% 的目标调整，文章并未证明这是普遍实现的结果。软件接近正式账簿后，数字溯源、凭证保留和入账审批成为产品核心；案例主要来自作者及其投资组合。
+🔗 https://www.a16z.news/p/you-need-a-new-cfo
+
+3. The model that didn&apos;t exist, so you made it yourself
+Hugging Face 作者用 ML Intern 将 9B 的图像提示词改写器蒸馏为可在 CPU 上运行的 0.8B 模型，项目计算费用约十六美元。作者报告输出格式有效率为 99.7%，这不等同于内容质量或任务准确率；另一个柑橘病害模型在 335 张测试照片上的识别准确率从 14.9% 提升至 52.8%。Agent 负责规划、试跑、训练、评测与发布，启动付费任务前需获得预算。六个项目合计约一百零三美元，仅计 GPU 和 CPU 作业费用，未包括人的时间等完整成本。
+🔗 https://huggingface.co/blog/building-with-ml-intern
+
+4. Disrupting AI-enabled “false front” operations
+OpenAI 称已封禁来自俄罗斯和伊朗的两组隐蔽影响行动，它们借假记者或假智库把地缘政治内容投向真实媒体。伊朗行动使用七个记者身份，俄罗斯行动则似乎让不知情的拉美人员为前台机构工作；AI 既参与内容生成，也被大量用于内部汇报。OpenAI 将两者的传播突破等级分别评为五级和四级，前者是其首次报告的五级案例。该等级反映潜在传播范围，不能当作受众意见已被改变的证明，也并非所有传播内容都由其模型生成。
+🔗 https://openai.com/index/disrupting-ai-enabled-false-front-operations
+
+5. Claude Code v2.1.295
+Claude Code v2.1.295 为命令与 HTTP hooks 加入失败时阻断动作的选项，覆盖启动失败、超时和异常退出，安全检查不再只能在成功运行后发挥作用。更新还修复了工具限制未覆盖后注册工具、以及护栏收到被截断输入却未报错等问题。企业网关新增上游首 token 超时控制、模型路由名单和请求编号，使故障切换与审计更可管理。以上是官方版本说明列出的行为变化，不能据此认定所有部署已经启用这些设置。
+🔗 https://github.com/anthropics/claude-code/releases/tag/v2.1.295
+
+🐦 Twitter 精选（5 / 30）
+
+1. @AnthropicAI：Anthropic 宣布 Cyber Mission，面向关键基础设施和开源软件的安全防护，计划结合前沿模型推进。
+🔗 https://x.com/AnthropicAI/status/2108302539498414208
+
+2. @AnthropicAI：Anthropic 推出 OSS Scanner，免费定期扫描自愿加入的开源项目，并提供漏洞概念验证、解释与修复建议。
+🔗 https://x.com/AnthropicAI/status/2108302543977906649
+
+3. @AnthropicAI：Anthropic 宣布关键基础设施防御计划，将 Claude、驻场工程师及研究支持带给电网、水务等运营商的供应商。
+🔗 https://x.com/AnthropicAI/status/2108302541385499103
+
+4. @AnthropicAI：官方称 Brice Ménard 用 Claude 整合数据并统计补全紫外全天图；填补区域属于推断，并非新观测。
+🔗 https://x.com/AnthropicAI/status/2108290395599667700
+
+5. @shao__meng：介绍腾讯云开源 Octop：面向家庭及小团队的本地多用户、多 Agent 平台，以单进程和 SQLite 保存运行状态。
+🔗 https://x.com/shao__meng/status/2108160838695788654
+
+📱 公众号精选（5 / 8）
+
+1. 微软和 a16z 投了一家 AI 催收公司
+Stuut 宣布完成五千二百五十万美元 B 轮融资，Insight Partners 领投，a16z、微软 M12 等参投，公司称已服务超过一百五十家企业。它从应收账款切入，把联系客户、处理争议、付款匹配与 ERP 核销串起来，订单管理和信用模块仍标为即将推出。供应商案例称 Bishop Lifting 七个月内逾期应收减少 35%、DSO 缩短两天，但缺少对照组，不能将全部改善归因于软件。官网宣传数天上线，而具体案例需五至六周，实施成本和权限配置仍决定实际回报。
+🔗 https://mp.weixin.qq.com/s/PbNLHG1_ZyaoCjmPzYfjkw
+
+2. Personal agent把用户当傻子
+葬AI 根据伊朗旅行和多款助理的体验，质疑 Personal Agent 的订酒店、发邮件等功能能否支撑独立产品。作者认为海外开放邮箱与服务接口提供了使用空间，国内主要生活信息和交易留在 App、小程序里，创业公司较难获得上下文。文章同时承认日程管理及商务场景有局部价值，并肯定 Today AI 的交互体验，但质疑其国内服务覆盖。大厂已有聊天产品能否统一吸收这些功能，是作者提出的竞争判断，单次旅行体验不能代表所有用户。
+🔗 https://mp.weixin.qq.com/s/ry24yiIidTMpKm9ABHWxLg
+
+3. 独家｜厘清智能连续完成两轮数亿元融资，加速建设Physical AI平台级底座
+报道称厘清智能两轮融资数亿元，蚂蚁连续加码；从手套、Ego 数采扩展物理智能平台，属融资宣传，未披露收入。
+🔗 https://mp.weixin.qq.com/s/1pXfIJ9Tf6qyDfHGVtmXKQ
+
+4. ChatGPT 上线【交互 UI】，让每个回答都能交互
+介绍 ChatGPT 交互 UI，以自行车拆解、分账和储蓄计算器展示答案变成工具的体验，付费与免费用户分批开放。
+🔗 https://mp.weixin.qq.com/s/huFcHuwg6mntXaRQAcZpdg
+
+5. Personal Agent 大战：Dots、Muse、Instinct 各自走到了哪一步
+播客比较 Dots、Muse、Instinct 的权限、上下文与硬件入口；交易额和佣金为嘉宾转述，不能据此推算营收。
+🔗 https://mp.weixin.qq.com/s/ZZ5JfOJUxSZumvbCxXMn7g
+
+📖 查看完整日报（48 篇）→ https://news.justin7974.dev/2026-10-09.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #728 | 2026-10-08</title>
       <link>https://news.justin7974.dev/2026-10-08.html</link>
@@ -1268,76 +1338,6 @@ Anthropic 公布：不到四周，Claude 优化了 30 多个开源生物研究�
 🔗 https://mp.weixin.qq.com/s/yPA5zd0Zh-vCQ-KaEpLKgg
 
 📖 查看完整日报（49 篇）→ https://news.justin7974.dev/2026-09-19.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #708 | 2026-09-18</title>
-      <link>https://news.justin7974.dev/2026-09-18.html</link>
-      <guid>https://news.justin7974.dev/2026-09-18.html</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-      <description>今日共 12 篇 RSS · 28 条推文 · 8 篇公众号
-
-📰 RSS 精选（5 / 12）
-
-1. Bridgewater&apos;s Jensen Says Hedge Fund Has &quot;Very Small Position&quot; in AI Build Out Trade
-桥水联席首席投资官 Greg Jensen 表示，AI 基础设施的需求增长已经基本被市场定价，两年前那笔&quot;了不起的交易&quot;红利已经吃完，桥水在这条 AI 建设主线上如今只剩&quot;很小的仓位&quot;，开始把资金转向别处寻找机会。他此前还主张把持有最多 AI 算力的公司当作&quot;系统重要性银行&quot;来监管。
-🔗 https://www.theinformation.com/briefings/bridgewaters-jensen-says-hedge-fund-small-position-ai-build-trade
-
-2. Noam Brown – Agent swarms, alignment, &amp; recursive self-improvement
-OpenAI 的 Noam Brown 拆解多智能体的 scaling 规律：上周他们用一个由 1 万个 agent、耗费 1300 亿 token、跑了 88 小时的系统解出了一道千禧年难题。核心结论是并行化惩罚比想象中小——4 个 agent 能把任务做完的速度翻倍（付 2 倍算力换一半时间），16 个 agent 仍近似线性；数学、深度检索这类任务高度可并行，写小说则几乎不可并行。多 agent 本质是把 test-time compute 从串行改成并行，以突破单线程的延迟瓶颈。
-🔗 https://www.dwarkesh.com/p/noam-brown
-
-3. [AINews] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks&apos; +60% Astra cost)
-一盆冷水：把 Gas Town 炒得最热的 Steve Yegge 关掉了这个项目，并承认每月花数千美元订阅编码 agent，却从没用它真正做成过任何东西。同时 Databricks 把 Astra（GPT-6）推给全体约 3500 名工程师后报告：复杂系统设计类任务确实明显超越 Opus 5 / Sol 5.6，但整体编码支出上涨了 60%。当期还包括 OpenAI 发布模型失准披露框架、小米 MiMo-V2.6 公开 RL 训练成本（Pro 版约 49.3 万美元/天）、DeepMind Institute 成立等。
-🔗 https://www.latent.space/p/ainews-reality-checks-on-ai-news
-
-4. Cooley Partners with OpenAI on Legal Tool For Drafting SEC Filings
-顶级律所 Cooley 与 OpenAI 合作推出 GO Public，能在几分钟内起草 S-1 文件（公司 IPO 前必须提交给 SEC 的招股说明书）——这个流程过去通常要花很久。工具接入了 Cooley 的自有数据，律师用提示词即可撰写和修订 S-1。
-🔗 https://www.theinformation.com/briefings/cooley-partners-openai-legal-tool-drafting-sec-filings
-
-5. Exclusive: OpenAI Hires Global Sales Chief From SpaceX and Two Senior Snowflake Salespeople
-OpenAI 从 SpaceX 挖来 Brian McCarthy 出任全球销售负责人，向新任首席营收官 Dali Rajic 汇报；同时两名 Snowflake 资深销售（其中一位副总裁曾主导 Snowflake 与 OpenAI 的商务合作谈判）也离职加入 OpenAI。此举意在向大型企业客户拓展更多业务。
-🔗 https://www.theinformation.com/briefings/openai-hires-global-sales-chief-spacex-two-senior-snowflake-salespeople
-
-🐦 Twitter 精选（5 / 28）
-
-1. @karminski3：Jev 是个值得重点关注的模型：它放弃自回归架构、无法直接输出文本，只能按预定义 Schema 做结构化决策输出（如判断是否垃圾短信并给出概率），复杂场景则把内容转成文本输入、定义好可选动作后让它自主决策。
-🔗 https://x.com/karminski3/status/2100717944565354595
-
-2. @karminski3：karminski3 认为 Jev 的真正护城河是 RLCD（校准强化学习），让它几乎不会概率失真，但也因此很&quot;刻板&quot;，是个纯用来干活的技术型模型、出不了娱乐化的&quot;节目效果&quot;；头部大厂若下场抄，Jev 目前并不构成绝对的物理壁垒。
-🔗 https://x.com/karminski3/status/2100724328975462779
-
-3. @karminski3：实测 OpenRouter 上的匿名模型 union-alpha，判断它不是 2026 年现阶段的旗舰：构建 3D 场景仍在用 2021 年的 three.js r127（当下模型多已用 r160），因此既不像国产旗舰，也不像 OpenAI/Anthropic 的模型。
-🔗 https://x.com/karminski3/status/2100514500915126661
-
-4. @shao__meng：Anthropic 首次公开内部&quot;仪表盘&quot;：截至 2026 年 7 月，Claude 已能主导 26% 的内部 AI 研发工作（AL4 级），超 90% 研发有 AI 深度参与，任一时刻有 3 万个 agent 同时干活，投入 AI 研发的算力约 6% 用于安全，但距完全自主（AL5）仍有明确距离。
-🔗 https://x.com/shao__meng/status/2100733129166402010
-
-5. @shao__meng：解读 NVIDIA 的 Agora 论文：把整个科研过程变成存在 Git 里、只追加的 DAG，每条结论都是可 checkout 重跑的 commit；13 个 AI agent 无人指挥协作 12 天完成真实可复现研究，补上了多 agent 并行时&quot;各自从零开始、重复搜索&quot;缺失的制度层。
-🔗 https://x.com/shao__meng/status/2100730740153696611
-
-📱 公众号精选（5 / 8）
-
-1. 从记忆到主动智能：OPPO 押注了 AI 手机一个被低估的问题
-OPPO 从&quot;手机要长期服务一个具体的人&quot;出发，把 AI 手机的关键押在&quot;记忆与理解用户&quot;这个被低估的问题上，而不只是叠加几个 Agent 功能。2024 年 10 月，长期研究大模型记忆与长文本的姜昱辰从创业者加入 OPPO，推动其&quot;记忆&quot;系统化产品化；2026 年 9 月 17 日，OPPO 在珠海发布 ColorOS 17，把 AIOS 的下一步落到&quot;主动智能&quot;上。
-🔗 https://mp.weixin.qq.com/s/QC0VvxxU8mzQUTcFjkhCAQ
-
-2. 从 Token-Maxxing，到 Token-Minimizing
-各家近期集中推出 flash 版&quot;口粮模型&quot;——国内 DeepSeek V4.1-Flash、GLM-5.3-Flash，海外 Gemini 3.8 Flash——又快又便宜，让很多&quot;要做但不值得用 Fable 级模型出马&quot;的任务变得值得落地。作者由此点出一个时代切换：从上半年&quot;把 Token 猛猛烧起来&quot;的 Token-Maxxing（国内变体&quot;全民养虾&quot;，Meta 内部甚至设过&quot;Token 天尊&quot;看板），转向如今讲究性价比的 Token-Minimizing。
-🔗 https://mp.weixin.qq.com/s/ANSvcPRazfwQmKkyz-Qdew
-
-3. 大模型需要雷军
-作者借小米澎湃/澎程&quot;给 SUV 加个帐篷&quot;的例子提出：电动车早已过了纯卷参数的阶段，同价位技术指标拉不开差距，胜负手转向产品定义能力；大模型也一样——Fable 5.1 的提升不再让人震撼，国产模型大跃进后大家对参数量和跑分的敏感度也在下降。文中还讽刺 Coding 榜单几乎成了国产模型发布的&quot;护身符&quot;，养活了一批帮忙定向蒸馏、倒卖题目的数据公司，而这些公司又在频繁布道 RSI。
-🔗 https://mp.weixin.qq.com/s/QHBjJRct3OVwkHPzOenLVA
-
-4. 分享一个大幅节省 Codex 额度的邪修方法，不要浪费了你的 ChatGPT Pro 会员
-作者做的 AI 热点资讯产品 AIHOT 突破 100 万月活后，流量、抓取和大模型 API 费用同时飙升（每天光大模型 API 就烧几百块），一边后端疯狂烧钱、一边为优化它又在 Codex 上疯狂烧钱，一个 200 美元的 Pro 会员号几乎被&quot;日抛&quot;、三个号轮着用。文章据此分享如何压榨 ChatGPT Pro 会员额度、给 Codex 用量省钱的实操方法。
-🔗 https://mp.weixin.qq.com/s/abqrwY1T1WieYW5xDFKRRg
-
-5. 独家｜LiberAI 跨越 GPT-6 斩杀线空降 Robodojo 榜一，再获数亿元 Pre-A++ 轮融资
-据 Z Potentials 独家，LiberAI 登顶 Robodojo 榜首并完成新一轮数亿元 Pre-A++ 融资，是本轮具身智能/机器人方向值得记录的一笔融资与榜单信号。
-🔗 https://mp.weixin.qq.com/s/p95HqQZAnSzETwEzja~eSg
-
-📖 查看完整日报（48 篇）→ https://news.justin7974.dev/2026-09-18.html</description>
     </item>
   </channel>
 </rss>
