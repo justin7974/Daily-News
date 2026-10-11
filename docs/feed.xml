@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 10 Oct 2026 00:10:59 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 00:07:23 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #731 | 2026-10-11</title>
+      <link>https://news.justin7974.dev/2026-10-11.html</link>
+      <guid>https://news.justin7974.dev/2026-10-11.html</guid>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 5 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Building AI for Reliable Execution: Lessons From Industrial Robotics
+Standard Bots 将 AI 限定在可验收的工业任务中，而非追求全能机器人：模型识别零件，传统程序处理运动与工作单元逻辑。公司称完成 2 亿美元 C 轮融资、估值 10 亿美元，客户包括 NASA、Amazon 和 Lockheed Martin。其基础模型由客户示范和微调适配，训练在云端、推理在工厂本地，生产中的失败与人工纠正用于修复边缘情况。短周期任务优先满足节拍和可靠性要求，涉及液体、吸附或柔性材料切割的任务则仍难靠模拟器重现。
+🔗 https://www.latent.space/p/standard-bots
+
+2. [AINews] TypeSafe/Jev at &gt;$100M ARR, $7.5B valuation 3 weeks after launch
+TypeSafe/Jev 发布仅三周便被报道达到逾 1 亿美元 ARR、75 亿美元估值，但这些口径来自新闻汇编与公司相关披露，尚无独立核验。创始人称已有 29.4% 的 Fortune 500 企业使用，不能直接等同于付费客户或长期合同。更实质的变化是“决策模型”迅速成为品类：以一次前向计算返回概率、分类或评分，省去生成长文本的成本。汇编列出 OpenAI、Microsoft、Perplexity、Cloudflare 等竞品，同时提醒部分早期评测仍发现复杂决策的一致性不足。
+🔗 https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b
+
+3. Why AlphaFold Didn&apos;t Solve Protein Folding — Pushmeet Kohli, Google DeepMind &amp; Sal Candido, Biohub
+AlphaFold 预测出数据库中的蛋白结构，并不意味着蛋白动态、功能与设计问题已经解决。DeepMind 的 Pushmeet Kohli 指出，原来的目标是复现 PDB 收录的结构，真实蛋白却会随环境改变形态，静态结构不能覆盖其分布。Biohub 的 Sal Candido 强调，扩大模型前先要找到能持续改善结果的数据与 scaling law，虚拟细胞尤其需要新数据。两人认为 AI 已进入药物研发流程，但整体提速十倍或百倍仍取决于具体环节和更好的生物系统模型，不能给出统一兑现时间。
+🔗 https://www.latent.space/p/biohub-deepmind
+
+4. Zuckerberg’s Big Biotech Moment
+Biohub 宣布与美国 NIH、DOE 合作，投入 18 亿美元建设 AI 生物学所需的新技术与科研基础设施。The Information 的公开可读部分还称，Meta、Google DeepMind 与 Isomorphic Labs 同意投入 3 亿美元，Biohub 此前于 4 月承诺 5 亿美元启动 Virtual Biology Initiative。报道将其视为大型科技公司、政府与科研机构进一步联合组织生物研究的信号。上述金额对应不同公告，文章未提供足够信息判断是否相互包含，不宜简单相加；此处仅依据公开可读内容。
+🔗 https://www.theinformation.com/articles/zuckerbergs-big-biotech-moment
+
+5. Software&apos;s centaur age may last decades
+Sean Goedecke 认为，人类工程师与 AI 的组合仍优于各自单独工作，这种阶段可能延续十年甚至更久，属于作者推断。当前 Agent 已能独立生成代码，但输出仍需人审，问题越来越涉及组织技术取舍、过度设计和投入分配。作者指出，全面自动化软件工程可能同时扩大软件需求，即使人类占比下降，总工作量也未必减少。他以国际象棋约二十年的协作阶段作类比，并承认资本投入、技术速度和经济冲击使时间预测高度不确定。
+🔗 https://seangoedecke.com/softwares-centaur-age-may-last-decades/
+
+🐦 Twitter 精选（5 / 30）
+
+1. @shao__meng：转述 Uber 法务 Agent 案例：审核时间降逾20%、决策准确率91%；采用 Word 插件，律师保留决定权。
+🔗 https://x.com/shao__meng/status/2108835904534290445
+
+2. @shao__meng：解释推理的两类瓶颈：Prefill 偏重算力，单请求 Decode 偏重内存带宽，优化方法要分别选择。
+🔗 https://x.com/shao__meng/status/2108839032939819268
+
+3. @shao__meng：分享小米 MiMo-V2.6 技术报告，称以260万美元 RL 算力及三维扩展，把万亿 MoE 推向前沿。
+🔗 https://x.com/shao__meng/status/2108829340704162034
+
+4. @Hesamation：称 Opus 5.5 用量高效，ultracode 能找出内存泄漏根因；但不推荐用它实施代码。
+🔗 https://x.com/Hesamation/status/2109070439666327856
+
+5. @bcherny：建议给 Claude 明确目标、可测量反馈和持续尝试要求，例如把 CI 的 p95 时间降到十分钟以内。
+🔗 https://x.com/bcherny/status/2109027327569203687
+
+📱 公众号精选（5 / 5）
+
+1. 我花了5天时间，对公司进行了一场AI化改造。
+一家三十多人的传媒公司用五天自建 AI 协作中台，真正要解决的是员工写出应用之后的部署、权限和共享问题。卡兹克称，中台复用飞书的数据与权限，把应用发布和 Skill 分发包装为 MCP，让 Claude、Codex 直接接入。内部商务应用可从 Excel 生成邮件草稿并录入项目底表，先由同事测试，再把十五分钟会议的反馈交给模型修订。品牌组件、PPT 模板与 Skill 统一管理，同时支持每人定制首页；作者承认系统仍早期，维护问题尚待验证。
+🔗 https://mp.weixin.qq.com/s/GFKEw4vjTJZUUR8SCddIKQ
+
+2. Z Tech｜专访34岁UCSD正教授商静波：从ACM世界第二到MIT TR35，下一站押注超级智能
+UCSD 教授商静波认为，资源有限时应先在重要且可验证的领域追求超人能力，而非与大厂竞逐通用巨型模型。其 FrontierCS 工作希望让 AI 提出假设、设计实验并发现可复用算法，目标可以是特定问题分布下更短的运行时间，并非宣称改变 NP-hard 的理论复杂度。他提出把确定性逻辑保存为可检查、可修改的程序或决策树，让模型负责其中不确定的判断。高质量反馈与验证能否自动、低成本扩展，是他判断方向的关键；“主流 LLM 路线趋于收敛”等判断均为受访者观点。
+🔗 https://mp.weixin.qq.com/s/Dq6HV0MgP-bGBoyCrrpmMQ
+
+3. 当懂球的 NBA，遇上懂 AI 的阿里
+NBA 与阿里将 AI 用于个性化观赛、篮球助手和赛事消费，体现版权场景与流量入口优势；合作宣传色彩较强。
+🔗 https://mp.weixin.qq.com/s/DjiFrJcTP-9t9Z-pfTEFhA
+
+4. 旅行成为个人 Agent 的高频场景，「豆包工作」把几十小时攻略浓缩成 PPT
+实测豆包工作把北京旅行资料汇入表格和20页 PPT，未展示完成预订；含会员推广，按产品体验降权。
+🔗 https://mp.weixin.qq.com/s/2FW2XkdE5An58jPR0d32HA
+
+5. Cola 新套餐升级方案解读
+Cola 公告升级套餐，以 Auto 路由和月度积分分层定价，取消每日额度限制；性价比说法为服务商自述。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/JuJq2qByOHlR24Tyb70Q3A
+
+📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-10-11.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #730 | 2026-10-10</title>
       <link>https://news.justin7974.dev/2026-10-10.html</link>
@@ -1276,68 +1346,6 @@ Simon Willison 收录的一段一线吐槽：入职某大公司半个月，规�
 🔗 https://mp.weixin.qq.com/s/4F6~1FoqP-gyFtH8Vxef7g
 
 📖 查看完整日报（42 篇）→ https://news.justin7974.dev/2026-09-21.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #710 | 2026-09-20</title>
-      <link>https://news.justin7974.dev/2026-09-20.html</link>
-      <guid>https://news.justin7974.dev/2026-09-20.html</guid>
-      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 27 条推文 · 3 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. OpenAI Said to Forecast Nearly $280 Billion in Cash Burn Through End 2030
-OpenAI 向部分投资人透露，预计到 2030 年底累计烧掉约 2780 亿美元现金。据《金融时报》报道，这个数字比它今年初给投资人的预测更高，主因是在云计算和芯片上的投入持续加码——既要训练也要运行模型。这份基于近期一次投资人演示的预测，把 OpenAI 的资本消耗推到了一个新量级。
-🔗 https://www.theinformation.com/briefings/openai-said-forecast-nearly-280-billion-cash-burn-end-2030
-
-2. President Trump Announces &apos;AI Force,&apos; Will Appoint New Czar
-特朗普周六表示将新设一个&quot;AI Force&quot;，定位类似他第一任期创建、隶属国防部专司太空作战的&quot;太空军&quot;，并计划任命一位新的&quot;AI 沙皇&quot;来领导。相关表态发在他的 Truth Social 上，尚无沙皇人选和预算细节。
-🔗 https://www.theinformation.com/briefings/president-trump-announces-ai-force-will-appoint-new-czar
-
-3. Top three ways Dario Amodei has blown his credibility in seven days
-Gary Marcus 列出 Dario Amodei 在呼吁&quot;放慢前沿（pace the frontier）&quot;后一周内自打嘴巴的三件事：一是他点名 METR 和埃森哲作为 Anthropic 的&quot;独立&quot;评估方，但前者深嵌于同一套湾区圈子与理念、后者本就是 Anthropic 的生意伙伴；二是 Anthropic 被曝正低调筹建湿实验室、要让 Claude 指挥实验室机器人做生物实验，却疑似绕开常规的伦理审查（IRB）；三是路透/Techmeme 消息称，Anthropic 正考虑在 IPO 前赶发新模型以对冲 OpenAI 的势头。Marcus 的结论：所谓放慢，最终一切都是为了 IPO。
-🔗 https://garymarcus.substack.com/p/top-three-ways-dario-amodei-has-blown
-
-4. [AINews] Here are 6 Clones of Jev in 2 days
-Jev 发布两天，启动视频拿下 3600 万次观看，在 Vercel AI Gateway 上创下历史最快采用速度（首日触达约 13% 的团队，是 GPT-5.6 系列的 2 倍）。因为没有开源，社区两天内就冒出至少 6 个复刻：多数猜测底座是 ModernBERT 或扩散模型，包括 Bespoke Nimble（LoRA 微调 Qwen3.5-9B、用合成对比数据，基准从 66% 提到 90%，Jev 为 93%）、能在 MacBook 上跑的 Kev-0.5B 等。@abacaj 点出真问题：这些复刻大多在拼速度而非质量，这个品类至今没有统一基准。
-🔗 https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in
-
-5. Why I still haven&apos;t bought into true RSI
-Nathan Lambert 以&quot;AI 温和派&quot;的立场解释为什么他仍不相信真正的递归自我改进（RSI）：湾区前沿实验室的竞争文化会放大一切 AI 焦虑，而 2023-24 年那批高调的安全担忧，其风险并未在预言的时间线上兑现。他更倾向&quot;有损自我改进&quot;——可自动化的研究太窄，撑不起对抗 scaling laws 指数级成本的净加速；并行堆更多 agent 的边际收益递减是真实的；真正约束造强模型的是资源瓶颈和政治，而 AI 对这些几乎无能为力。他特别区分了&quot;大规模推理算力带来的、可预测的短期加速&quot;和&quot;高度不确定的 RSI&quot;，警告别把前者误认成后者。
-🔗 https://www.interconnects.ai/p/where-i-stand-on-rsi
-
-🐦 Twitter 精选（5 / 27）
-
-1. @shao__meng：回看 TypeSafe CEO 一个月前的演讲&quot;Why RLCD beats RLHF&quot;：他认为幻觉是偏好优化的内在产物——奖励模型会惩罚不自信、逼模型假装自信；Jev 的解法是根本不生成自由文本，输出结构预先定义、类型错误在数学上不可能，只输出&quot;我 X% 确信&quot;这种诚实的概率。
-🔗 https://x.com/shao__meng/status/2101118333328495021
-
-2. @shao__meng：拆解 TypeSafe 官方 Jev Skills：核心方法论是&quot;规则、计算、查表都留在代码里，模型只提供可编程的常识判断&quot;，并给出六种判断模式和三个类型化原语（Choice 选项、Noul 条件概率、Score 有序打分）来替代自由文本输出。
-🔗 https://x.com/shao__meng/status/2101458213178904787
-
-3. @shao__meng：英伟达 SoL-Pi 论文：让 AI 自动研究怎么给 AI 省钱，结果省下约一半 token。核心是优化 harness 框架层而非模型层——编码 Agent 正走向 7×24 无人值守、单任务动辄 2–12 小时，token 消耗成了规模化第一瓶颈；自动流水线从 152 个方向里最终只留下 4 个有效机制。
-🔗 https://x.com/shao__meng/status/2101104385384497425
-
-4. @shao__meng：LlamaIndex 发布文档解析评测 ParseBench：100 种方法、2000 页真实企业文档、不用 LLM 当裁判。结论是 LlamaParse 系领跑，图表抽取是最大分水岭（20 多个方法在这项归零），纯文字忠实度已普遍 80+，而溯源定位（grounding）是 VLM 的集体盲区。
-🔗 https://x.com/shao__meng/status/2101454555112514033
-
-5. @shao__meng：谷歌推出 Android Bench 2.0：用 Signal、Bitwarden、WordPress 等真实生产级应用衡量&quot;模型+Agent 组合&quot;（如 GPT+Codex、Claude+Claude Code、Gemini+Antigravity）完成真实 Android 开发的能力，30 个任务覆盖应用迁移、从零构建、架构迁移等。
-🔗 https://x.com/shao__meng/status/2101297657834766834
-
-📱 公众号精选（3 / 3）
-
-1. 深度｜Anthropic设计负责人：模型带路，软件共识瓦解：App从全民同款走向千人千面
-这场访谈最反直觉的判断是：在前沿模型公司，产品团队集体去度假、&quot;什么都不做&quot;也没关系，因为模型自己会持续变强、不断创造新价值。Anthropic 产品设计负责人 Joel Lewenstein 由此把设计工作从&quot;关注像素&quot;推向&quot;战略和寻找机会&quot;，产品哲学是&quot;让模型引领、相信 scaling laws&quot;，用轻量方式不断把模型已有的能力释放出来（他的比喻：远处有座风力发电场，人们却只把烤面包机插在 12V 插座上）。他判断软件&quot;全民同款&quot;的共识正在瓦解，未来每个人可能用上上百个专为自己而生的 App；而 Artifacts 表面只是&quot;把 HTML 挪到右边&quot;，却改变了人与 AI 的相处方式，设计师最后又都回到了 Claude Code。三年间 Anthropic 从&quot;研究所后院搭帐篷的 YC startup&quot;走到了 App Store 前十。
-🔗 https://mp.weixin.qq.com/s/IGv2R7PpbQwXQFbWpl2qnQ
-
-2. CNN：北京这家酒吧，点杯啤酒就能无限用 AI
-译自 CNN 视频报道：北京 AGI Bar 点一杯啤酒就能不限量免费用国产 AI 模型，店里两台英伟达超算加免费的 DeepSeek 高级版成了&quot;新的免费 Wi-Fi&quot;，被当作 AI 融入城市日常的文化符号；受访开发者明确反对中国放慢 AI，并称官媒引述的专家认为美方&quot;放慢&quot;呼吁意在阻止别国缩小差距。
-🔗 https://mp.weixin.qq.com/s/2GzwePvzbPVDbWoDD6BHqA
-
-3. 开源个 Skill，帮你用代码低成本生成产品宣传片
-歸藏开源了一个 Skill，帮你用代码低成本地生成产品宣传片，降低宣传物料的制作门槛。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/xe-EgpX-t5FcI9L~2SAhUg
-
-📖 查看完整日报（40 篇）→ https://news.justin7974.dev/2026-09-20.html</description>
     </item>
   </channel>
 </rss>
