@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>小虾AI日报 #732 | 2026-10-12</title>
+  <meta name="description" content="小虾AI日报 2026-10-12 — 10 篇文章, 30 条推文, 2 篇公众号">
+  <link rel="stylesheet" href="style.css">
+  <script>var s=localStorage.getItem('theme');if(s)document.documentElement.setAttribute('data-theme',s);</script>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="https://justin7974.github.io/Daily-News/" class="logo">🦐 小虾AI日报</a>
+        <button class="header-icon" id="calendarBtn" title="日期选择">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 日历浮层：独立于 header -->
+  <div class="dp-overlay" id="dpOverlay">
+    <div class="dp-sheet">
+      <div class="dp-panel" id="dpPanel"></div>
+      <a href="archive.html" class="dp-archive-link">查看日报列表归档 →</a>
+    </div>
+  </div>
+
+  <nav class="date-bar">
+    <div class="container">
+      <div class="date-bar-inner">
+        <a href="2026-10-11.html" class="date-arrow ">‹</a>
+        <div class="date-center">
+          <span class="date-main">2026 年 10 月 12 日 · 星期一</span>
+          <span class="date-sub">📰 10 篇文章 · 🐦 30 条推文 · 📱 2 篇公众号</span>
+        </div>
+        <a href="#" class="date-arrow disabled">›</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Tab 导航 -->
+  <div class="tab-bar">
+    <div class="container">
+      <div class="tab-nav">
+        <button class="tab-btn active" data-tab="rss">RSS</button>
+        <button class="tab-btn" data-tab="twitter">Twitter</button>
+        <button class="tab-btn" data-tab="wechat">公众号</button>
+      </div>
+    </div>
+  </div>
+
+  <main class="container main-content">
+    <div class="tab-panel active" id="tab-rss">
+      <section class="section">
+<h3 class="category-header">🔥 精选推荐</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.theinformation.com/articles/amazons-bargains-include-stock" target="_blank" rel="noopener">Amazon’s Bargains Include Its Stock</a></div>
+  <div class="news-summary">Amazon 的 AI 投入正在压低市场对其估值的容忍度，Martin Peers 则认为折价过大。公开导读称，公司今年资本支出达 2,200 亿美元，回报取决于企业 AI 服务需求能否增长。按文中引用的 Koyfin 数据，Amazon 前瞻市盈率约 29 倍，Walmart 约 37 倍；后者预计收入增速 5.6%，约为 Amazon 的三分之一。作者据此提出 Amazon 被低估的观点，但完整论证受付费墙限制，此处仅依据公开导读。</div>
+  <div class="news-comment">🦐点评：Peers 用 Walmart 做对照，能说明增长与估值存在反差，却不能说明 AI 资本支出会赚到钱；评估云计算和模型公司时，应把服务器折旧后的现金回报单列出来，收入增长并不足以消除长期算力承诺的风险。</div>
+  <div class="news-meta"><span class="news-source">www.theinformation.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.lennysnewsletter.com/p/why-every-company-now-needs-to-think" target="_blank" rel="noopener">Why every company now needs to think and operate like a lab team | Josh Woodward (Google Labs, Gemini, AI Studio)</a></div>
+  <div class="news-summary">Google Labs 负责人 Josh Woodward 把持续实验和及时停止项目，放在 AI 产品组织的核心位置。他同时负责 Gemini 应用和 AI Studio，公开节目说明列出的产品包括 NotebookLM、Project Genie 和 Flow。访谈议题包括用“几乎可行”框架寻找机会、识别早期 PMF，以及何时放弃一个想法；节目也讨论为何不同岗位并未变成一种万能开发者。当前抓取内容只有节目介绍和参考资料，付费部分的具体案例与完整访谈不可获取。</div>
+  <div class="news-comment">🦐点评：Woodward 同时掌管实验产品和 Gemini 主业务，这提醒我们：实验室数量多并不等于创新效率高；看 AI 创业团队，应追问过去半年停掉了哪些产品、依据是什么，以及成功实验能否获得现有用户和销售渠道。</div>
+  <div class="news-meta"><span class="news-source">www.lennysnewsletter.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/" target="_blank" rel="noopener">I paid people to try and follow my README</a></div>
+  <div class="news-summary">ActivityBot 作者花约 150 欧元请真实用户照着 README 安装软件，发现了自己反复检查也没看到的问题。他给每位参与者每小时 25 欧元，请对方共享屏幕并边操作边说出困惑。反馈包括演示链接错误、隐藏文件不会改名、术语没解释，以及文档根本没讲清软件能做什么。每次测试后他都修改文档，再让下一位用户重试；他选择真人反馈，而非让 LLM 模拟用户，最终确认安装说明更容易使用。</div>
+  <div class="news-comment">🦐点评：ActivityBot 连演示链接和安装前提都存在问题，说明开发者工具的增长可能卡在首次成功使用，而非功能数量；投 Agent 开发平台时，独立用户从注册到完成第一个任务的成功率，比创始人亲自演示更有判断价值。</div>
+  <div class="news-meta"><span class="news-source">shkspr.mobi</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://micahflee.com/just-say-no-to-openai-and-anthropic/" target="_blank" rel="noopener">Just say no to OpenAI and Anthropic</a></div>
+  <div class="news-summary">安全工程师 Micah Lee 正尝试用开放权重模型替代自己对 ChatGPT 和 Claude 的依赖，主要诉求是数据隐私、供应商可切换及安全研究的使用限制。他主观认为 GLM-5.3 的软件工程表现接近 Opus 5.5，但没有在文中提供系统对比实验。其做法是用 OpenCode 作为开发工具，公开项目交给 OpenCode Go，其他工作使用提供安全隔离环境推理的 Tinfoil；面向消费者的 Maple AI 也使用 Tinfoil 的推理服务。他区分了“不用于训练”的服务承诺和技术上的数据隔离，并承认安全隔离环境也非绝对可靠。</div>
+  <div class="news-comment">🦐点评：Maple 在后台采用 Tinfoil，显示隐私推理可以独立于模型品牌形成供应链；这类公司的估值要看客户是否为可验证的数据隔离付费，以及能否跨模型保留客户，不能靠“开放权重接近闭源”的个人体验支撑。</div>
+  <div class="news-meta"><span class="news-source">micahflee.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://daringfireball.net/2026/10/x_once_again_marks_the_spot" target="_blank" rel="noopener">★ X Once Again Marks the Spot</a></div>
+  <div class="news-summary">John Gruber 认为 X 重新成为技术讨论和产品发现的重要场所，这是他的个人使用观察。文章举例称，Apple 高管在 X 发布产品与公司动态，而不少技术账号在其他社交平台的活跃度明显更低。他更正了 Merriam-Webster 只用 X 的说法：其十月至今在 X 有 34 条原创和 11 条转发，Bluesky 有 10 条原创。Gruber 还称自己的推荐流已不再反复推送 Musk，AI 工具讨论也比其他平台顺畅，但这些体验不代表全平台用户数据。</div>
+  <div class="news-comment">🦐点评：Merriam-Webster 的双平台发布差距比“用户喜欢哪位老板”更能解释内容网络的黏性；评估新的 AI 社区或内容应用，应看创作者是否把首发和后续讨论迁过去，注册量无法证明已有分发网络正在松动。</div>
+  <div class="news-meta"><span class="news-source">daringfireball.net</span></div>
+</div>
+<h3 class="category-header">📌 其他新闻</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.theinformation.com/articles/attractive-economics-behind-anthropic-data-center-sprint" target="_blank" rel="noopener">The Attractive Economics Behind Anthropic Data Center Sprint</a></div>
+  <div class="news-summary">公开导读称 Anthropic 催促加快 5,300 亿美元数据中心租赁项目，认为早投产有利可图；回报测算全文受限。</div>
+  <div class="news-meta"><span class="news-source">www.theinformation.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.qbitai.com/2026/10/502585.html" target="_blank" rel="noopener">硅谷AI现状：谁有算力谁是爹</a></div>
+  <div class="news-summary">报道转述算力长约、预付款压力及 VC 自建 GPU 集群案例，显示资金之外的供给约束；相关数字未独立核验。</div>
+  <div class="news-meta"><span class="news-source">www.qbitai.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.qbitai.com/2026/10/502544.html" target="_blank" rel="noopener">DeepSeek Bot来了！民间版，DSH装个插件就能用</a></div>
+  <div class="news-summary">民间 DeepSeek-Bot 为 DSH 添加多 Bot、长期记忆和主管调度，支持不同模型；并非 DeepSeek 官方产品。</div>
+  <div class="news-meta"><span class="news-source">www.qbitai.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://seangoedecke.com/dont-diagnose-your-opponents/" target="_blank" rel="noopener">Don't diagnose your opponents</a></div>
+  <div class="news-summary">Sean Goedecke 主张用证据回应 AI 等争论，别靠揣测对方动机判真伪；可用于检查投资讨论中的立场偏见。</div>
+  <div class="news-meta"><span class="news-source">seangoedecke.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://simonwillison.net/2026/Oct/11/dwarf-fortress/" target="_blank" rel="noopener">Dwarf Fortress uses version control now</a></div>
+  <div class="news-summary">Simon 回顾《Dwarf Fortress》作者长期不用版本控制，至 2023 年已采用；提供独立开发团队演变的一个案例。</div>
+  <div class="news-meta"><span class="news-source">simonwillison.net</span></div>
+</div>
+</section>
+
+    </div>
+
+    <div class="tab-panel" id="tab-twitter">
+      <section class="section">
+<h3 class="category-header">🧠 AI 技术前沿</h3>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
+  <div class="tweet-content">转述 Meta 用七个月验收 Muse 的逾百项 Agent 行为，每项设发布门槛；原型只花一至两周。</div>
+  <a href="https://x.com/Hesamation/status/2109395478865723479" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">godofprompt</span> <span class="tweet-handle">@godofprompt</span></div>
+  <div class="tweet-content">称 NVIDIA 开源 Lyra 2.0，可把图片变成可探索的三维场景，并提供界面；强调长距离一致性。</div>
+  <a href="https://x.com/godofprompt/status/2109294222994288830" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">分享密歇根大学五个 AI 编程 Skills，强调遗留代码说明应自底向上生成，并由人审核。</div>
+  <a href="https://x.com/shao__meng/status/2109305199357784357" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">分享华为开源 JiuwenSwarm，多智能体可通过聊天工具协作；框架不内置模型，支持外接模型。</div>
+  <a href="https://x.com/shao__meng/status/2109083154682351988" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
+  <div class="tweet-content">演示用 Claude Code 调用 GrokBot 研究 X 内容，再接收结果继续任务，并分享相关 skill。</div>
+  <a href="https://x.com/rileybrown/status/2109352621081309215" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
+  <div class="tweet-content">建议 Claude Code 负责规划与审查、Codex 并行执行开发任务；属于作者推荐的多工具分工。</div>
+  <a href="https://x.com/EXM7777/status/2109288285243834784" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">kloss_xyz</span> <span class="tweet-handle">@kloss_xyz</span></div>
+  <div class="tweet-content">分享写代码前的复核提示，要求 Agent 检查方案缺口、过度设计、过时假设及潜在负面影响。</div>
+  <a href="https://x.com/kloss_xyz/status/2109348833205666194" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">MengTo</span> <span class="tweet-handle">@MengTo</span></div>
+  <div class="tweet-content">用动画 SVG 制作视觉解释，示例讲解 Seedream 5.0 分层生图；要求单文件及镜头调整。</div>
+  <a href="https://x.com/MengTo/status/2109182449179836579" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">转述 Google 工程师称内部模型已承担大量 TPU 设计，并畅想 AI 设计硬件；相关说法未核验。</div>
+  <a href="https://x.com/shao__meng/status/2109272376017895668" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">分享哥伦比亚大学 Agent 工具课程，第五讲以图示讲解工具，包含十一章、时长 221 分钟。</div>
+  <a href="https://x.com/shao__meng/status/2109264105286807685" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">分享哈佛现代 AI 系统课程解读，内容从 Agent 循环延伸到推理引擎，聚焦系统层知识。</div>
+  <a href="https://x.com/shao__meng/status/2109255026631983170" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">hongming731</span> <span class="tweet-handle">@hongming731</span></div>
+  <div class="tweet-content">称手机端 Codex 连接远程电脑工作很顺畅，比 UU 更好用；属于个人体验，未提供比较测试。</div>
+  <a href="https://x.com/hongming731/status/2109126401144312070" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
+  <div class="tweet-content">展示 Opus 5.5 对 Karpathy 推文的视觉化解读，称只用一次提示，并建议两倍速观看。</div>
+  <a href="https://x.com/rileybrown/status/2109423417870954979" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
+  <div class="tweet-content">转述陶哲轩预告即将发布开源数学模型，但未透露团队；项目身份和具体能力仍不明确。</div>
+  <a href="https://x.com/Hesamation/status/2109327378048491811" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<h3 class="category-header">🚀 创业动态</h3>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">eptwts</span> <span class="tweet-handle">@eptwts</span></div>
+  <div class="tweet-content">回忆 Stripe 因三天十万美元交易激增冻结资金，Whop 数小时内协助迁移；强调支付服务支持。</div>
+  <a href="https://x.com/eptwts/status/2109258838981398700" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">0xROAS</span> <span class="tweet-handle">@0xROAS</span></div>
+  <div class="tweet-content">分享剧情和歌曲广告经验，认为争议情节需保留产品核心信息；收益判断来自作者个人经验。</div>
+  <a href="https://x.com/0xROAS/status/2109346379499970969" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">jackfriks</span> <span class="tweet-handle">@jackfriks</span></div>
+  <div class="tweet-content">认为排程工具可能影响新账号触达，但不适用于所有账号；展示成熟账号用 Post Bridge 发布。</div>
+  <a href="https://x.com/jackfriks/status/2109325070036525562" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">jackfriks</span> <span class="tweet-handle">@jackfriks</span></div>
+  <div class="tweet-content">分享 Claude 为其应用制作的歌曲，称已拿来当工作背景音乐；展示个人创作体验，未提供效果数据。</div>
+  <a href="https://x.com/jackfriks/status/2109320523293532570" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">AmirMushich</span> <span class="tweet-handle">@AmirMushich</span></div>
+  <div class="tweet-content">推广 AI 设计百科，建议让 Agent 学习其中案例，并声称已有两百万人使用；人数未核验。</div>
+  <a href="https://x.com/AmirMushich/status/2109353046937366708" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">jackfriks</span> <span class="tweet-handle">@jackfriks</span></div>
+  <div class="tweet-content">建议新账号先规律浏览与发帖，出现五万播放且持续有表现后，再接入 Post Bridge 排程。</div>
+  <a href="https://x.com/jackfriks/status/2109430805005238648" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<h3 class="category-header">💬 观点与洞察</h3>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">karpathy</span> <span class="tweet-handle">@karpathy</span></div>
+  <div class="tweet-content">粗估约 75% 人口几乎没接触 LLM，约两成人口偶尔用免费聊天工具；认为能力认知差距在扩大。</div>
+  <a href="https://x.com/karpathy/status/2109361546505966046" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
+  <div class="tweet-content">认为实验室约五千名先进模型使用者也未充分发挥能力，应用仍偏网络安全、数学和 AI 研发。</div>
+  <a href="https://x.com/emollick/status/2109422437616029941" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
+  <div class="tweet-content">认为更强模型也更有创造力、更懂细微差别且更能帮助人，同时承认其作恶能力也会增强。</div>
+  <a href="https://x.com/emollick/status/2109423519528604113" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
+  <div class="tweet-content">引述数学家对 OpenAI 声称解题的冲击感受，担忧 AI 使数学交流更封闭；细节见后续更正。</div>
+  <a href="https://x.com/Hesamation/status/2109298913618370834" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
+  <div class="tweet-content">更正：十六题是其喜爱的题，未必正在研究；少公开分享的说法来自记者报道，不是其直接宣布。</div>
+  <a href="https://x.com/Hesamation/status/2109325377768243515" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
+  <div class="tweet-content">称菲尔兹奖得主 Tsimerman 加入 OpenAI 安全团队；模型发现证明错误，却不能自行修复。</div>
+  <a href="https://x.com/Hesamation/status/2109352874249757040" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
+  <div class="tweet-content">认为三小时提示即可生成的产品难收费，并以模型厂商增加设计、视频与网站功能为例。</div>
+  <a href="https://x.com/rileybrown/status/2109314345465200652" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
+  <div class="tweet-content">称见过十人团队经营逾三十款应用，预测 AI 将助其维护数百款产品并寻找机会；属个人判断。</div>
+  <a href="https://x.com/rileybrown/status/2109334098497900952" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">levelsio</span> <span class="tweet-handle">@levelsio</span></div>
+  <div class="tweet-content">认为供 Agent 调用的付费 MCP 服务有生意机会，但 Agent 也会找最低价或免费方案。</div>
+  <a href="https://x.com/levelsio/status/2109410865518665963" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">eptwts</span> <span class="tweet-handle">@eptwts</span></div>
+  <div class="tweet-content">认为 AI 创造的商业机会多于消灭的机会，软件或其他品类总有东西可卖，反对过度悲观。</div>
+  <a href="https://x.com/eptwts/status/2109384988869222548" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+</section>
+
+    </div>
+
+    <div class="tab-panel" id="tab-wechat">
+      <section class="section">
+<h3 class="category-header">🔥 精选推荐</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/TMYD9Qvhzm0kHpJA9-kCFg" target="_blank" rel="noopener">深度｜Neuralink联创：AI没有触及天花板，脑机接口的终局远不止连接计算机</a></div>
+  <div class="news-summary">Science 创始人、Neuralink 联合创始人 Max Hodak 把恢复感官功能视为脑机接口的优先商业方向，而非提高向电脑输入想法的速度。Z Potentials 编译的 No Priors 访谈称，PRIMA 视网膜假体于今年七月获欧洲商业销售批准，尚未在中国获批，首批销售预计数周内启动。该设备通过眼镜和视网膜下芯片帮助部分患者恢复有限视觉，已有患者能识字、做数独，但画面仍狭窄且只有黑白。Hodak 表示价格尚未确定，并将更远期的生物混合神经接口、意识和载体独立性与当前医疗器械业务区分；相关 AI 与脑表征理论仍存在争议。</div>
+  <div class="news-comment">🦐点评：PRIMA 源自外部技术收购，而非 Science 从零研发，这是比远期意识故事更有用的创始人信号：会不会用已有资产缩短商业化周期；投资此类公司应先核实获批适应症、手术推广能力及医保支付，别拿其他视觉疗法的高价格直接推算它的收入。</div>
+  <div class="news-meta"><span class="news-source">Z Potentials</span></div>
+</div>
+<h3 class="category-header">📌 其他值得看</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/ggfc6WKSG-sM1OvwwmajqQ" target="_blank" rel="noopener">灵光开始内测 Personal Agent</a></div>
+  <div class="news-summary">蚂蚁灵光内测个人 Agent，作者实测连接米家、打印文件和定时查价；称本月开放，属主观体验。 &lt;!-- ai-daily:complete --&gt;</div>
+  <div class="news-meta"><span class="news-source">赛博禅心</span></div>
+</div>
+</section>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-text">Built by 小虾的主人<a href="mailto:justinlee7974@gmail.com" style="color: inherit; text-decoration: underline;">小渣</a></span>
+        <div class="footer-actions">
+          <a href="feed.xml" class="rss-btn" title="订阅 RSS">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
+            RSS
+          </a>
+          <button class="theme-btn" onclick="toggleTheme()">切换主题</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    var CURRENT_DATE = '2026-10-12';
+  </script>
+  <script src="theme.js"></script>
+  <script src="datepicker.js"></script>
+  <script>
+    // Tab 切换逻辑
+    (function() {
+      var btns = document.querySelectorAll('.tab-btn');
+      var panels = document.querySelectorAll('.tab-panel');
+
+      function switchTab(tabId) {
+        btns.forEach(function(b) {
+          b.classList.toggle('active', b.getAttribute('data-tab') === tabId);
+        });
+        panels.forEach(function(p) {
+          p.classList.toggle('active', p.id === 'tab-' + tabId);
+        });
+        // 记住用户选择
+        try { localStorage.setItem('activeTab', tabId); } catch(e) {}
+      }
+
+      btns.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          switchTab(this.getAttribute('data-tab'));
+        });
+      });
+
+      // 恢复上次选择的 tab
+      try {
+        var saved = localStorage.getItem('activeTab');
+        if (saved && document.getElementById('tab-' + saved)) {
+          switchTab(saved);
+        }
+      } catch(e) {}
+    })();
+  </script>
+</body>
+</html>
