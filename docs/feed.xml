@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 12 Oct 2026 00:07:36 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 00:12:06 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #733 | 2026-10-13</title>
+      <link>https://news.justin7974.dev/2026-10-13.html</link>
+      <guid>https://news.justin7974.dev/2026-10-13.html</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 7 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. How Anthropic’s Dynamic Workflows Coordinate Claude Agents
+Anthropic 的 dynamic workflows 让 Claude 自己编写调度程序，拆分任务、启动子 Agent 并汇总结果，开发者不再必须预先配置完整队伍。AI Engineer 纽约工作坊以股票观察名单演示分阶段扫描与复核，也展示了 Console 中可追查的任务关系。讲者承认示例中的多 Agent 方案成本明显更高，运行中的模型并不知道剩余预算，开发者需在会话层设限。记忆整理功能 dreaming 可辅助复用经验，但自动识别扫描缺陷并修改下一次任务，并不是内置能力。
+🔗 https://www.latent.space/p/claude-dynamic-workflows
+
+2. Andreessen Horowitz, General Catalyst Race to Secure the Chips Their Startups Need
+VC 正把算力供给纳入对创业公司的支持：The Information 公开导读称，a16z 在两年前建立两万张 GPU 的集群后，正洽谈扩大服务，可能借助两家已投资的数据中心公司。报道同时援引知情人士称 General Catalyst 正建设数据中心，为组合公司供应算力。其他基金也通过经纪商寻找紧缺芯片。完整报道受付费墙限制，这些计划的规模、定价和具体条款不可获取。
+🔗 https://www.theinformation.com/articles/andreessen-horowitz-general-catalyst-race-secure-chips-startups-need
+
+3. OpenAI’s Plan To Revive Sora
+Sora 可能通过面向电影制作人的创业公司恢复商业使用，而非直接重启原来的消费应用。The Information 公开导读称，一家由 Jeffrey Katzenberg、前 Sora 研究负责人 Bill Peebles 和前 Dropbox CFO Sujay Jaswa 创办的公司，正与 OpenAI 洽谈获取 Sora、修改模型并销售相关软件或服务。导读回顾，OpenAI 此前削减高耗算力项目时停掉了 Sora 模型和类 TikTok 应用。公司名称、授权条款及最终能否达成协议尚不明确，完整报道不可获取。
+🔗 https://www.theinformation.com/articles/openais-plan-revive-sora
+
+4. How Meta designed Muse: an AI agent people actually want to talk to | Alex Cornell (Design Director)
+Meta Muse 的设计重点，是让普通用户和工程师能用同一个聊天界面完成任务。公开节目介绍称，它用三层状态展示提供不同深度的过程信息，并通过角色形象、个性化建议和生成式信息流呈现结果。Alex Cornell 的演示包括把 Instagram 收藏变成购物目录、记录高尔夫表现，以及把旧博客做成晨间播客。节目也讨论主聊天与侧边聊天的使用分工；本次获取的是节目介绍和演示目录，未获取完整访谈逐字稿。
+🔗 https://www.lennysnewsletter.com/p/how-meta-designed-muse-an-ai-agent
+
+5. Software engineers don&apos;t get to be Luddites about AI
+Sean Goedecke 认为，软件工程师长期以自动化其他行业的劳动创造价值，如今自己的技能被自动化时也应面对同样的变化。他用 VisiCalc 对记账工作的影响，以及纺织机械制造者后来也被更低成本劳动替代的历史作对照。作者支持认真讨论技术的社会后果，但认为仅在本行业受影响后反对自动化，立场并不一致。这是一篇职业与技术观念评论，没有提供工程师就业或 AI 编程生产率的新统计。
+🔗 https://seangoedecke.com/software-engineers-dont-get-to-be-luddites-about-ai/
+
+🐦 Twitter 精选（5 / 30）
+
+1. @AnthropicAI：Anthropic 称近几个月显著降低了针对 Claude 的蒸馏攻击效果，并发布方法说明；推文未给具体指标。
+🔗 https://x.com/AnthropicAI/status/2109795898909950247
+
+2. @Hesamation：转述微软拟让 Maia 300 成为主要推理芯片，减少对 NVIDIA 的依赖；百万颗部署说法尚未核验。
+🔗 https://x.com/Hesamation/status/2109642828435337377
+
+3. @Hesamation：称 Muse Wonder 在智能评分上追平 Sonnet 5.5，认为模型竞争格局改变；排名说法未核验。
+🔗 https://x.com/Hesamation/status/2109699558116585876
+
+4. @emollick：有限试用后认为 Muse Wonder 表现不错，并用自己的着色器测试展示 Meta 的进步；属个人体验。
+🔗 https://x.com/emollick/status/2109714218014667039
+
+5. @_akhaliq：分享 BudgetPix 论文，研究按计算预算调整像素空间图像扩散的 token 化；未给效果数据。
+🔗 https://x.com/_akhaliq/status/2109711696944300535
+
+📱 公众号精选（5 / 7）
+
+1. 3000万美金种子轮，红杉美国领投，让普通人也能像对冲基金一样交易
+Catalyst 据报道获得 Sequoia 领投的三千万美元种子轮融资，想把用户的自然语言投资判断变成可回测、可执行的交易流程。深思SenseAI 综合投资方文章、Fortune 和官网材料称，涉及资金的执行需要用户确认，产品目前仍处于研究预览及候补名单阶段。公司自述重度交易用户试点约两周产生数亿美元交易量，但没有披露用户数量和收入，官网演示也不代表真实业绩。产品当前免费，收费方式、普通用户表现，以及法币提现的完整支持情况仍待后续验证。
+🔗 https://mp.weixin.qq.com/s/zoZ-xxGYL0V4YFj2zdgS6g
+
+2. Muse Wonder 发布：Llama4 之后，Meta 再回舞台
+Meta 发布 Muse Wonder 与 Muse Wonder Full，把长期记忆和遇到障碍后持续尝试列为重点能力。赛博禅心转述官方材料称，Wonder 提供 API，Full 仅供 Muse Code 的两档订阅使用，基准成绩主要来自厂商披露。文章列出的 Wonder API 标价为每百万 token 输入4美元、输出20美元，与文中列出的 Claude Opus 5.5 标价相同，虽引用 Wang 称会显著低于头部模型价格。跨对话记忆、长期编程和生活任务演示已被重点展示，独立真实任务测试仍不足。
+🔗 https://mp.weixin.qq.com/s/GvxfRjOxKKftTs7sNUXEag
+
+3. 对话丘成桐：数学家与一个功利时代
+丘成桐把基础研究的长期环境放在人才、奖项和短期回报之前，主张让年轻学者真正追求问题本身。晚点访谈中，他区分“给出证明”与“形成数学理解”，认为 AI 尚不能原创有意义的问题和新概念，这属于他的判断。与此同时，他承认 AI 会提升数学学科，并担忧国内研究者使用先进工具的差距与获取限制。对海外人才回流，他强调要提供可继续研究的环境，还需处理家庭、医疗和子女教育等实际问题。
+🔗 https://mp.weixin.qq.com/s/b6equutaj9hcsXffQJ5UEA
+
+4. 独家｜半图科技完成新一轮超千万美元融资，以人类行为模型切入3D AI互动
+报道半图科技融资逾千万美元，并称《代号Live》测试次日留存72%；样本与收入未披露，含公司宣传。
+🔗 https://mp.weixin.qq.com/s/oAjMOFboSz4PNMs-9jMRhg
+
+5. AI开始逆向一切，你电脑里的每个软件都要被迫开源了。
+用 ArtCraft、REA 等案例讨论 AI 降低软件重写成本；“被迫开源”是作者夸张表达，功能等价未证实。
+🔗 https://mp.weixin.qq.com/s/jBm4Jw-ES2k-IJ6wl8O0Qg
+
+📖 查看完整日报（47 篇）→ https://news.justin7974.dev/2026-10-13.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #732 | 2026-10-12</title>
       <link>https://news.justin7974.dev/2026-10-12.html</link>
@@ -1268,76 +1338,6 @@ a16z 孵化的 Horowitz Andreessen Academy 首期拿到 4200 万美元，其中 
 🔗 https://mp.weixin.qq.com/s/jfOcLNmEN50sOTEAjvuwVA
 
 📖 查看完整日报（46 篇）→ https://news.justin7974.dev/2026-09-24.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #712 | 2026-09-22</title>
-      <link>https://news.justin7974.dev/2026-09-22.html</link>
-      <guid>https://news.justin7974.dev/2026-09-22.html</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 26 条推文 · 6 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Frontier Overhangs
-Ben Thompson 的判断：Anthropic 反复讲的&quot;给前沿踩刹车&quot;，表面是安全考量，实际同时解决了前沿实验室自己的一堆&quot;积压&quot;——模型进步太快，产品、组织、定价、资本都没跟上。他把这些积压分成五类：能力、产品、定价、资本、安全。放慢模型迭代，实验室就有时间把已有能力变成产品收入，也能顶住 GLM-5.2、Kimi K3 这类便宜开源模型对定价的冲击。他还重申一个观点：真正拉开差距的不是模型本身，而是模型和 harness（调度框架）的整合，这让 Anthropic、OpenAI 这类同时握有模型和产品的公司更占优。
-🔗 https://stratechery.com/2026/frontier-overhangs/
-
-2. The current balance of power in open models
-Nathan Lambert 给美国国会做的证词，结论很直接：开源权重模型这条线，中国已经明显领先。硬数据是 Hugging Face 上中国模型累计下载约 32 亿次，是美国的两倍，Qwen 从 2025 年 7 月起就是下载第一；最新的 GLM-5.2、Kimi K3 在 agent 能力上跨过了一道商用门槛，类似 Claude Code 在 2025 年底跨过的那道。美国唯一还领先的是&quot;完全开源&quot;（权重、训练代码、数据全公开），代表是 Olmo、Marin、Pythia，且全部出自非营利机构。他的落点是：开源模型是一种软实力，开源追上闭源只是时间问题。
-🔗 https://www.interconnects.ai/p/the-current-balance-of-power-in-open
-
-3. SB Energy Faces Investor Skepticism in IPO, Report Says
-SoftBank 控股的 SB Energy 计划 IPO 融资 50 亿到 70 亿美元，钱用来建一个 OpenAI 将长期租用的超大数据中心园区，项目背后还有 1050 亿美元的信贷额度撑着。但据纽约时报，这次 IPO 遇冷，投资人并不买账。这是又一个公开市场对 AI 数据中心融资打问号的信号。
-🔗 https://www.theinformation.com/briefings/sb-energy-faces-investor-skepticism-ipo-report-says
-
-4. How Warp ships 2,000 PRs a month with AI factories
-Warp 把&quot;软件工厂&quot;做成了一个真实的产品概念——由一堆仓库、MCP server、配置和各种 agent（代码审查 agent、自动化）组成，全部用代码定义，一个月产出 2000 多个 PR。CEO Zach Lloyd 给的关键数字戳破了幻想：从任务启动到出 PR 只要 35 分钟，但从 PR 到第一个人来审查要 3.5 小时——瓶颈是人，不是 AI。工厂里还有一个&quot;自我改进&quot;的观察者 agent，会根据失败案例自动改写工厂配置，agent 甚至能做基于 computer use 的验证（录屏证明自己干完了活）。
-🔗 https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with
-
-5. Writing Rust code that&apos;s faster than state-of-the-art libraries by asking agents to make the code faster
-作者用一组可复现的实验证明：现在的 agent 已经能写出比现有 SOTA 库更快的 Rust 代码，前提是给它明确的约束和衡量标准。他让模型从零重写 UMAP（一种降维算法），用 criterion 基准工具在每一轮迭代里量化是否真的变快、变化是不是只是噪声，最终拿到 2 到 20 倍的加速（取决于任务）；而且每换一代更强的模型（从 Opus 4.5 往后），优化效果还在累积变好。他刻意禁止用 unsafe 代码，哪怕这未必是最快的写法。文章附了完整 prompt 和基准结果。
-🔗 https://minimaxir.com/2026/09/agentic-iteration/
-
-🐦 Twitter 精选（5 / 26）
-
-1. @Hesamation：Grok 4.7 评测速览：编码是大升级，用 Grok Build 在 AA 的 Coding Agent 榜排第 4，仅次于 Fable 5.1、Astra、Opus 5；但综合智能指数只涨了 2 分，仍落后于 Sol 和 Opus 5。作者对马斯克&quot;超过现有所有模型&quot;的说法存疑，但认可它在真实工程场景的进步。
-🔗 https://x.com/Hesamation/status/2102090113379430454
-
-2. @shao__meng：InstructGPT 共同作者、RLHF 主要参与者 Diogo Almeida 在 Latent Space 播客聊了 140 多分钟：他认为 ChatGPT 的成功让全行业只剩&quot;自回归聊天&quot;一条路，丢掉了其他模型形态。他离开 OpenAI 创办 TypeSafe，推出不聊天、专供代码调用的&quot;System One 模型&quot;Jev，直指当前 AI 的悖论——能解千禧年数学难题，却自动化不了最普通的日常工作。
-🔗 https://x.com/shao__meng/status/2102182219104342517
-
-3. @shao__meng：TypeSafe CEO 的一个反事实实验：如果大模型没有 KV cache，你会怎么重新设计 coding agent？他认为今天 agent 的很多&quot;标准功能&quot;并不是为用户价值设计的，而是为绕过 KV cache 和按 token 计费打的补丁；换这个角度重新审视，才能分清哪些是真设计、哪些是被成本结构逼出来的。
-🔗 https://x.com/shao__meng/status/2101921711545331832
-
-4. @shao__meng：小米 MiMo 团队负责人罗福莉公布 MiMo-V2.6，可能是开源团队迄今按算力计最大的一次 RL 训练，评测称 SOTA，还罕见公开了训练策略、系统细节和团队组织方式。她的判断是：RL scaling 的瓶颈一半在系统、一半在组织。
-🔗 https://x.com/shao__meng/status/2102184583605469411
-
-5. @shao__meng：腾讯开源记忆系统 T-Mem，并梳理了四代长期记忆架构（Flat RAG、图记忆、agentic 分层记忆、操作系统式记忆内核）。它指出这些架构的检索方法其实一样——都靠相似度取 top-K，导致记忆的&quot;可达性&quot;被相似度封顶，只覆盖了查询和记忆表面词一致的那一半情形。
-🔗 https://x.com/shao__meng/status/2101944326788153739
-
-📱 公众号精选（5 / 6）
-
-1. 阿里达摩院医疗 AI，十年拼出一张图
-9 月 18 日 Science 罕见刊发一篇医疗影像 AI 论文，介绍达摩院的通用医疗影像模型 DAMO RADAR：针对腹部增强 CT，一个模型能识别 18 个腹部器官上的 146 种病症，突破了行业&quot;一病一模&quot;的老路。达摩院医疗 AI 已经做了十年，从单病模型到多病联筛再到通用模型，目标是用一次 CT 发现包括癌症在内的多种重大疾病。最有代表性的突破是胰腺癌筛查——这种癌超过 70% 的患者到晚期才发现、生存率不足 10%，而团队发现在不打造影剂的普通平扫 CT 上，模型识别胰腺肿瘤的能力只比增强 CT 下降一点。文章的落点是：影像 AI 第一次从单点技术变成可规模化的产品，也回应了 Hinton 十年前&quot;5 年内 AI 取代影像科医生&quot;那个落空的预言。
-🔗 https://mp.weixin.qq.com/s/5NWVUZA6GZnaAh-NXpnazA
-
-2. 专访XGEN车昊轩：争夺下一代入口，我想用AI模拟世界造一扇&quot;任意门&quot;
-一支二十多人的中国创业团队 XGEN，两个月就把交互世界模型 JING 做到 WBench 综合榜全球第一（81.0 分），在更看重交互导航的 Navi 子榜以 81.9 分排全球第二、高于 Google DeepMind 的 Genie 3（73.9 分）。创始人车昊轩此前在腾讯、可灵、字节、华为做视觉生成，走的是一条非共识路线：不像李飞飞的 World Labs、杨立昆的 JEPA、或字节的实时视频生成，XGEN 想做的是一个&quot;持续存在、能保存状态和因果&quot;的主观世界——后台持续建模一个不断演化的客观世界，前台只实时生成智能体此刻真正能看到、听到、交互到的部分。它指向两类用途：一是让游戏/教育/培训从&quot;观看&quot;变成&quot;进入&quot;，二是让 AI 在进入真实任务前，先在这个持续运行的世界里试错、积累经验。
-🔗 https://mp.weixin.qq.com/s/MOEsWponIrSRdUtX0zF22A
-
-3. 大企业开始不买第三方AI了，因为对手也在买同一家
-美国公司 Vantora（前身 UP.Labs）拿了 Silversmith Capital 超过 1 亿美元投资，这是它成立四年第一次拿外部钱，此前一直盈利。它的生意很特别：不卖软件，而是给大企业&quot;造创业公司&quot;——进到保时捷、阿拉斯加航空、J.B. Hunt 这些企业内部，找出最贵的运营难题，从零组建一家新公司去解决，大企业既是投资方也是第一个客户，做大后还能把它并购。收入同比增长 79%，已造 17 家。真正的新闻是它借这次融资转型：不再对外卖产品，只服务合作的大企业。CEO 的理由是——财富百强工业企业要对自己的 AI 智能层保持主权控制，没法依赖一个同时把东西卖给竞争对手的第三方。
-🔗 https://mp.weixin.qq.com/s/Nvl7x7GH6GufiZDhlsAnyQ
-
-4. 世界模型是上不了桌的另开一桌
-一篇火药味十足的批评：作者认为 2026 年 9 月可以宣布&quot;世界模型&quot;基本是个被玩坏的概念，一批在大语言模型竞争里挤不上桌的团队，靠给&quot;世界模型&quot;加各种前缀定语（因果、社交、认知、主观……包括刚发布的 XGEN）来融资，实质大多是后训练一个开源视频模型；他也承认其中做 AI 3D 模型的公司（Tripo、Meshy 等）是真有价值的一类。
-🔗 https://mp.weixin.qq.com/s/LFRKxbBLNQi8Shu2ttDWQA
-
-5. 爆火的 Jev 模型还能与具身结合，远比低价决策更有想象空间
-决策模型 Jev（来自 OpenAI 前研究员、InstructGPT 主要作者 Diogo Almeida 创立的 TypeSafe AI，刚完成 DCVC 领投的 4000 万美元种子轮、估值约 2 亿美元）正被开发者接进机器人操作：在一个开源仿真项目里，先用物理模拟把够不着、会撞倒、会滑落的动作排除掉，Jev 只在剩下的可行选项里做单选，比全程用 Claude Opus 5 文本推理更快更省。
-🔗 https://mp.weixin.qq.com/s/jiOUphm1vSkhOrgMzVKDmg
-
-📖 查看完整日报（42 篇）→ https://news.justin7974.dev/2026-09-22.html</description>
     </item>
   </channel>
 </rss>
