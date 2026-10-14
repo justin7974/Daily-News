@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 13 Oct 2026 00:12:06 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 00:10:56 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #734 | 2026-10-14</title>
+      <link>https://news.justin7974.dev/2026-10-14.html</link>
+      <guid>https://news.justin7974.dev/2026-10-14.html</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 8 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Gemini 4 Argon: Built to solve your hardest problems
+Google 将 Gemini 4 Argon 开放给开发者、企业和付费消费者，API 推出期标价为每百万 token 输入2美元、输出10美元，缓存输入优惠95%。官方强调大型代码库重构、专业文档处理和科研任务，并称内部 Agent 代码提交量增加逾35%、代码回滚减少近三分之一。Chrome 团队的案例涉及四千万行代码库中数百个文件的架构重构，将原本数月的工作压缩到数周。上述效率提升和跨行业成绩来自 Google 及其早期合作方披露，尚不能视为所有客户可复制的结果。
+🔗 https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/
+
+2. Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics
+Dyna Robotics 把百万小时人类视频预训练与机器人动作预测结合，目标从短演示转向可持续执行的物理 Agent。联合创始人兼首席科学家 Jason Ma 在访谈中称，机器人曾连续24小时折餐厅餐巾，任务成功率达99.4%，并可在失误后恢复。Dyna-2.1 使用自研轮式半人形硬件及 Agent 调度系统，展示小时级多步骤工作流；部分新任务只需约45分钟示范。公司同时讨论了鼎泰丰等部署场景，但这些性能数字主要来自团队披露，规模交付和跨任务泛化仍需分别验证。
+🔗 https://www.latent.space/p/dyna
+
+3. Redesigning source control at Anthropic
+Anthropic 每日合并的代码改动从5月约2500次升至9月逾三万次，促使公司重做源码控制基础设施。Simon Willison 转述工程文章称，主分支历史接近100GB，压缩工作副本超过25GB，CI 每天约需两千五百万次代码检出。新系统 Scion 由七人团队开发，五个月完成从 Git 的迁移；代码审阅系统名为 Antique。Willison 同时引用团队经验：模型对抗审阅能发现问题，却可能围绕假想风险过度设计，仍需熟练工程师引导。
+🔗 https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/
+
+4. How to tell if a startup has a moat
+Dan Hockenmaier 将创业公司的持久壁垒归为四种会自我强化的优势：转换成本、网络效应、规模经济和数据效应。执行速度、分发能力、品牌及资金可以帮助起步，但不能自动证明业务越做越难被竞争。文中强调，软件迁移最重的成本往往是团队重新学习和重建工作流，AI 降低搬运代码的成本并不会消除这部分负担。评估框架分为识别优势、判断潜在强度、验证是否奏效；本次取得的公开正文主要覆盖第一步，后续详细论证受付费墙限制。
+🔗 https://www.lennysnewsletter.com/p/how-to-tell-if-a-startup-has-a-moat
+
+5. Character.ai Files For Bankruptcy, Citing Costs and Litigation
+The Information 摘要称 Character.ai 申请破产重整，面临法律及运营压力；补抓仍遇付费墙。
+🔗 https://www.theinformation.com/briefings/character-ai-files-bankruptcy-citing-costs-litigation
+
+🐦 Twitter 精选（5 / 30）
+
+1. @AnthropicAI：Anthropic 称日均合并代码从约2500次升至逾三万次，五个月完成自研版本控制系统与 Git 迁移。
+🔗 https://x.com/AnthropicAI/status/2110047081414987957
+
+2. @cursor_ai：Cursor上线Argon，称编程评测与Opus 5.5相当；百万token输入2美元、输出10美元。
+🔗 https://x.com/cursor_ai/status/2110087611763368271
+
+3. @emollick：提前试用后认为 Gemini 4 明显进步，能力进入顶尖档，个性与审美也有区别；属个人判断。
+🔗 https://x.com/emollick/status/2110052331702124894
+
+4. @Hesamation：称 Argon 在其自建战略游戏评测中暂列第一，涉及规划与工具使用；其他模型仍需重跑以排除噪声。
+🔗 https://x.com/Hesamation/status/2110112046842884332
+
+5. @_akhaliq：分享 Embodied Turing Machines 论文，用有状态代码研究机器人的递归自我改进；推文未给性能数据。
+🔗 https://x.com/_akhaliq/status/2110057543305396244
+
+📱 公众号精选（5 / 8）
+
+1. 数百万小时、500 亿参数，自然意志的 Scaling 信仰
+自然意志成立九个月后推出 Natura-1，称其使用百万小时级第一人称视频预训练，参数规模为500亿。晚点采访称，团队把多种模态平等组织在同一模型中，并自建训推框架和含二十多个算子的过滤管线，将数据处理能力视为关键投入。公司自建真机评测中，基础成功率为53.4%，加入记忆和纠错后升至59.1%。报道明确提醒：对照模型的年代、本体配置与能力定位不同，结果不能理解为行业排名；“零样本”仍主要依靠团队声明和连续演示，缺少独立验证。
+🔗 https://mp.weixin.qq.com/s/OxxbZFzR81W-56qN_-HvpQ
+
+2. 融资 2500 万美金，这会是下一个 Higgsfield 吗？
+Melius 公司公告称融资2500万美元，隐身状态结束后两个月的年化收入超过100万美元，产品围绕多模型创意画布和 Agent Mel 展开。深思SenseAI 将其与 Higgsfield 的爆款特效及集中创作者发行路径区分：Melius 从团队工作流切入，还支持在 Slack 内提出需求和审阅素材。三位前 Ramp 工程师曾做效果营销工具，六个多月后废弃代码库并转向创意生成。竞争对手更接近 Flora、Krea 等画布产品；收入和团队使用量来自公司自述，文中列出的 TechCrunch 标题另写融资2000万美元，金额口径未解释。
+🔗 https://mp.weixin.qq.com/s/DlDeJ-8XPKSAt4bsh0kzxA
+
+3. 实测Gemini 4 Argon - Google这跌跌撞撞的背水一战。
+卡兹克试用 Gemini 4 Argon 后认为，其专业知识工作表现与编程产品体验有明显落差。作者引用 Vals 的专业任务成绩，同时指出相同 token 单价不等于相同任务成本，因为模型的思考与输出量不同。其100美元 Ultra 账号在不足十个测试任务后耗尽五小时额度，后端测试因此没有完成；前端和中文写作结果也未达到其预期。结论限于作者的任务集和主观体验，不能据此判定 Argon 在所有专业场景中的能力。
+🔗 https://mp.weixin.qq.com/s/AgiFtvKm1MpJpJ6RV3Xcpw
+
+4. Grok Bot 入门的 10 条必备经验
+分享 Grok Bot 长期任务、记忆与分工经验，建议成熟流程交给 CLI 或脚本，并处理任务完成后的唤醒。
+🔗 https://mp.weixin.qq.com/s/f_zj5KS1KbUtDQoX5syP6g
+
+5. Z Potentials | 被看作小市场的激光雕刻，可能是创客赛道最大的品类：一位连续创业者的非共识下注
+谢信福谈元引科技激光雕刻创业，主张以内容场景扩大用户群，而非只拼参数；融资与产品表现含自述。
+🔗 https://mp.weixin.qq.com/s/GiaNbdZLQJSbleEDKcyhSg
+
+📖 查看完整日报（48 篇）→ https://news.justin7974.dev/2026-10-14.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #733 | 2026-10-13</title>
       <link>https://news.justin7974.dev/2026-10-13.html</link>
@@ -1268,76 +1338,6 @@ Snorkel AI 年化收入 3.75 亿美元，一年涨了 18 倍，9 月 22 日完�
 🔗 https://mp.weixin.qq.com/s/G4FVwl--K4EIGXI589yaBQ
 
 📖 查看完整日报（47 篇）→ https://news.justin7974.dev/2026-09-25.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #714 | 2026-09-24</title>
-      <link>https://news.justin7974.dev/2026-09-24.html</link>
-      <guid>https://news.justin7974.dev/2026-09-24.html</guid>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 6 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. [AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%
-两家头部实验室同一天降价：Anthropic 发布 Claude Opus 5.5，称大部分任务达到 Fable 5.1 水平、运行成本比 Opus 5 低 40%，标价从每百万 token 5/25 美元降到 4/20 美元；大约一小时后 OpenAI 发布 GPT-6 Sol 和 Luna，标价 2/10 美元和 0.10/0.50 美元，都比上一代便宜约一半。但 Artificial Analysis 算了一笔账：Opus 5.5 在最高挡位下 token 用量大涨，单个任务成本 5.98 美元，和 Opus 5 的 5.86 美元几乎一样，“便宜 40%”只在默认的 medium 挡成立。第三方评测里 Opus 5.5 拿下 CursorBench、Vals Index 等榜首，在 FrontierSWE 上仍落后 GPT-6 Astra（62.3% 对 65.5%）；还有个怪现象，xhigh 挡成本是 medium 的 2.8 倍，分数反而低 3.2 分。AINews 当天就把默认模型换成了 Opus 5.5，理由是写作质量差距明显。
-🔗 https://www.latent.space/p/ainews-claude-opus-55-the-new-default
-
-2. The Year AI Came For Us: Teaching Entrepreneurship Will Never Be The Same
-Steve Blank 在斯坦福教了 15 年的 Lean LaunchPad 课，今年春天被 AI 打乱：第一堂课上 8 支队伍全都直接演示了完整产品，往年要到第 10 周才能看到这种程度。结果这些队伍学到的反而更少。他们拿 AI 代替客户做验证，默认 AI 给的信息是对的；MVP 变成了推销工具而不是实验，受访者在评价产品而不是讲自己的问题；产品越像样，团队越舍不得改方向，往年每队会转向 3-4 次，今年要么转得很晚，要么不转。队伍还发现，很多潜在客户自己也在用同样的 AI 工具，和他们一样快地做出替代品。Blank 的结论是，MVP 作为“学到了什么”的证据已经失效，创业的瓶颈从“造产品的时间和成本”转到了“判断造什么、给谁造”。
-🔗 https://steveblank.com/2026/09/23/the-year-ai-came-for-us-teaching-entrepreneurship-will-never-be-the-same/
-
-3. Historic UN Security Council Briefing on AI
-联合国安理会就 AI 举行通报会，Yoshua Bengio、Sam Altman、Dario Amodei 和 Hugging Face CEO Clement Delangue 接连发言，美联社的标题是：AI 公司负责人警告，若不干预，AI 可能对全人类构成风险。一向批评 AI 公司的 Gary Marcus 这次说，他几乎同意四个人说的所有话，大家都落到同几件事上：上线前安全测试、透明度审计、法律责任、国际合作、立即行动。他唯一的不满是 Altman 和 Amodei 的自我吹捧，尤其是 Amodei 把 Anthropic 当天公布的酶系统发现类比成 CRISPR。他引用 Angela Rasmussen 博士的话：他们找到了序列，大概也表达了蛋白，但还没做像样的功能鉴定，现在就和 CRISPR 比“太早了”。
-🔗 https://garymarcus.substack.com/p/historic-un-security-council-briefing
-
-4. 🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)
-Radical Numerics CEO Eric Nguyen 的判断是：生物安全这场军备竞赛里，防守方目前在输，办法是把前沿推得更快，而不是踩刹车。他在斯坦福时参与主导了基因组语言模型 Evo、参与了 Evo 2，后来 Arc/Stanford 的另一支团队用这些模型生成了完整的噬菌体基因组，并合成出能正常工作的病毒。DNA 只有 4 个字母、序列极长（人类基因组约 30 亿个碱基），长上下文模型是这件事的前提。他们做过一个“用 DNA 思考”的实验：按分数从低到高给模型看一串 RNA 适配体，模型能自己把这条轨迹续下去，生成接近那些被藏起来的高分样本。联合创始团队里另有三位来自 Liquid AI（Michael Poli、Stefano Massaroli、Armin Thomas）。
-🔗 https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric
-
-5. Crusoe Is on Track for $2 Billion in Revenue as the Data Center Backlash Builds
-数据中心建设商兼云服务商 Crusoe 刚以 309 亿美元估值融资 39 亿美元，由 Atreides Management、Valor Equity Partners 和 Mubadala 领投。Newcomer 拿到的财务数据显示，它今年收入有望达到 20 亿美元。与此同时，各地对数据中心的政治反弹在升温，CEO Chase Lochmiller 认为，把宣传沟通做好就能平息这股反对。（正文为付费内容，以上基于公开部分。）
-🔗 https://www.newcomer.co/p/crusoe-is-on-track-for-2-billion
-
-🐦 Twitter 精选（5 / 30）
-
-1. @AnthropicAI：Anthropic 称 Claude 在噬菌体 DNA 里发现了一个此前未知的酶系统，酶基因旁边是一长串重复 DNA，结构有点像 CRISPR。他们还不清楚这个系统具体做什么，但已知有类似特征的少数系统都能剪切、复制、粘贴 DNA。
-🔗 https://x.com/AnthropicAI/status/2102824959827742916
-
-2. @AnthropicAI：这是 Anthropic 新建的分子生物学实验室的第一个成果：Claude 梳理数据和文献、提出假设和候选生物系统，科学家审过后挑最有希望的去验证，湿实验全部由人类科学家完成。他们打算把这套做法扩展到基因组学等更多问题。
-🔗 https://x.com/AnthropicAI/status/2102824961538920822
-
-3. @Hesamation：引用 Anthropic 原文：人只参与了最初的 prompt 和实验室验证，950 个 agent 用 2.1 亿 token 在数据里搜了 21 个小时，其中一个 agent 发现了这个不寻常的结构。
-🔗 https://x.com/Hesamation/status/2102845997814882348
-
-4. @AnthropicAI：刚果（金）暴发一种罕见埃博拉变种疫情，CEPI、世卫组织非洲区域办事处和刚果国家生物医学研究所（INRB）等卫生机构正在用 Claude 加快应对。
-🔗 https://x.com/AnthropicAI/status/2102897863097545197
-
-5. @emollick：转发一张他认为很重要的图：在多个高难度数学和科学基准上拿到 25% 或 75% 分数的成本在崩塌，能力同时还在上升。所以现在为某个具体方案死抠成本，可能是短视的。
-🔗 https://x.com/emollick/status/2102865436459069474
-
-📱 公众号精选（5 / 6）
-
-1. 为什么 CPU 重新变得重要？
-AMD 5 月还预测 2030 年服务器 CPU 市场超过 1200 亿美元，7 月 23 日苏姿丰就把数字上调到 2200 亿美元，中间只隔了两个半月。文章编译自半导体播客 Semi Doped，主线是 agent 正从本地（Claude Code、Codex）搬到云端（Claude Tag、Grok Bot、Muse、Instinct），而 agent “思考—调工具—读结果—再思考”的循环里，除了模型推理，调工具、跑代码、读写文件、管理状态都吃 CPU。供给已经跟不上：Intel CEO 陈立武 9 月 14 日说 CPU 需求太高，只能给一半客户供货；AMD 9 月 21 日涨约 10%，市值过万亿美元。文章把 CPU 分成两种角色：给 GPU 喂活的 Host CPU，以及成机架部署、专门执行 agent 任务的 Agentic CPU，后者会是 CPU 增长的大头。
-🔗 https://mp.weixin.qq.com/s/VYO-phuOq22DROPqy47pEg
-
-2. 一百万块GPU的集群，光在连线上就要烧掉180兆瓦
-一个一百万块 GPU 的集群，光是芯片之间互连的功耗就要 180 兆瓦，接近一座中型燃气电厂的装机容量，这部分电一次矩阵乘法都不参与。文章以 Ayar Labs 为例：公司 9 月追加 1.5 亿美元，E 轮总额到 6.5 亿美元，累计融资约 8.7 亿；3 月那轮估值 37.5 亿美元，据报道一笔老股交易的定价已超过 50 亿美元，英伟达和 AMD 同时在股东名单里。它做的是把芯片间的连线从铜换成光：单通道速率超过 112Gbps 后铜线损耗急剧上升，把光收发器件做进芯片封装（共封装光学）能把电损耗从 22 分贝降到 4 分贝、单端口功耗降七成以上，下一代产品宣称每比特能耗低于 5 皮焦，现在的可插拔光模块约 17.75 皮焦。作者也列出了没答案的部分：收入和量产阶段都没公开，50 亿估值来自老股交易，不是新一轮定价。
-🔗 https://mp.weixin.qq.com/s/DlqbHUh96XwDOOK-naAMhQ
-
-3. Z Potentials｜专访Efflora，蒸馏收归内部、合成数据失效，安全极客去真实世界最深处为AI“探矿”
-Efflora 创始人王泉的判断很尖锐：训下一代模型本质上是 GTM 问题，要么全面 SOTA、要么性价比做到极致，否则排第二第三的模型 token 卖不出去，更致命的是收不回用户数据。Efflora（平等智能）是一家不到 10 人的 AI 数据公司，核心成员来自安全社区“乌云”，今年初拿到王慧文家办 Lollapalooza Capital 领投、蔚来资本跟投的千万元级种子轮。他们的观察是：蒸馏和合成数据正在收归模型公司内部，外部数据商的窗口在“真实的非标场景数据”，比如一个软件从签合同、讨论需求到客户是否验收的完整过程；判断数据好坏的标准，也从“任务够长”变成“任务值得解”。他们现阶段押注网络安全数据，理由是攻防过程天然沉淀了在大量噪声里综合判断、决定下一步的决策数据，而这正是 AI 最弱的能力。
-🔗 https://mp.weixin.qq.com/s/ZXN7uqTNzZCrCBWwAVlV4Q
-
-4. 拉开中国汽车整合大幕的，将是海外新增的那 “1000 万辆车”
-中国乘用车规划产能接近 5000 万辆，国内年销只有 2000-2500 万辆，作者算下来，要让产能利用率回到健康的 80%-85%，中国车还得在海外再多卖 1000 万辆以上。文章从一汽和广汽的重组意向说起：广汽拟发股购买一汽手中的合资整车股权（市场普遍推测是一汽丰田），广汽几乎不用出现金，一汽把非上市的合资股权换成“A+H”上市平台的股份。作者用排除法解释为什么只能做这么浅：集团合并卡在属地、控制权和税收上（东风长安谈了 116 天后“暂不实施”），自主品牌和过剩产能没法定价；合资股权是唯一能作价、能交割、摩擦最小的资产；而广汽 2025 年亏 115 亿元、2026 年上半年亏 59 亿元，是最需要这笔交易的一方。他的结论是，海外新增的 1000 万辆只能由民营车企主扛、新势力辅助，国企集团会继续承担国内价格战的成本，类似的抱团还会出现。（微信原文链接暂时打不开，内容取自网易号转载的同文。）
-🔗 https://mp.weixin.qq.com/s/4VmBWVM1fHEShGm~fGqB0A
-
-5. a16z 开了一所学校，4200 万美元培养硅谷下一代年轻创业者
-a16z 孵化的 Horowitz Andreessen Academy 首期拿到 4200 万美元，其中 a16z 出 3500 万，Udemy 联合创始人 Gagan Biyani 任 CEO，Marc Andreessen 和 Erik Torenberg 进董事会。它不发学位、不授学分，首届 2027 年秋开课、只招约 50 人、首年免学费，录取看重申请人“已经做出了什么”，而不是考试分数。Anthropic、OpenAI、NVIDIA、Google 等 10 家公司是创始合作方，另有 40 多家招聘合作方，每个学生有超过 5 万美元的算力额度。它是一家营利性公司，计划 2028 年推出两年制项目，学费预计接近美国顶尖私立大学。
-🔗 https://mp.weixin.qq.com/s/jfOcLNmEN50sOTEAjvuwVA
-
-📖 查看完整日报（46 篇）→ https://news.justin7974.dev/2026-09-24.html</description>
     </item>
   </channel>
 </rss>
