@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 14 Oct 2026 00:10:56 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 00:09:20 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #735 | 2026-10-15</title>
+      <link>https://news.justin7974.dev/2026-10-15.html</link>
+      <guid>https://news.justin7974.dev/2026-10-15.html</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 5 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents
+金融 Agent 要获得更多执行权，关键是把身份、权限和审计设计进工作流程。AI Engineer New York 的分享中，OpenAI 强调金融分析必须能追查数字来源，Anthropic 用交易差错调查展示了“提出订单修改、由人批准”的分工。Bloomberg 主张在模型之外设置确定性控制，逐次检查工具调用，并保留预算、日志和停止开关。OpenAI 对 2027 年 Agent 参与投资想法生成和交易的描述属于前瞻判断，不能视为已有部署效果。
+🔗 https://www.latent.space/p/crossing-the-threshold
+
+2. Winning the Relay Race: Long-Running Agents in High-Value Customer Journeys
+a16z 的 David Haber 认为，跨数周乃至数月完成客户全流程的 Agent，有机会从节省人工转向分享新增收入。以原告律所为例，Agent 可持续完成获客、证人联系、证据整理和索赔文件准备，减少不同人员交接造成的客户与信息流失。文章援引 Red Ventures 的历史经营数据：2022 年 EBITDA 约 3.7 亿美元，2025 年估算降至约 1.6 亿美元，并将其视为传统获客模式承压的案例。按结果收费仍面临归因和采购阻力，且美国多数州禁止非律师直接分享律师费；这是一套商业模式判断，并非新企业已验证的增长数据。
+🔗 https://www.a16z.news/p/winning-the-relay-race-long-running
+
+3. Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio
+Leash Bio 的实验提示，蛋白质与小分子结合预测的公开成绩，可能严重高估跨化学空间的泛化能力。访谈介绍了约 40 亿次测量、约 2000 支 Kaggle 队伍的竞赛，称没有团队在未见过的化学库上超过随机水平。团队通过给每个分子设置多个 DNA 条码等办法，识别蛋白质结合条码、而非药物本身的实验干扰。其新项目 Minos 将预先采集的实验结果转为可验证的科学推理环境，让 Agent 在 650 万个分子中、以 100 次查询预算寻找更优候选；这不等于湿实验已经能以计算速度实时完成。
+🔗 https://www.latent.space/p/lab-in-the-loop-at-compute-speed
+
+4. HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost
+Ai2 发布 HiRO-ACEv2，称生成全球 3 公里分辨率气候数据的成本约为高分辨率大气模型 X-SHiELD 的三百分之一。系统先以 ACE 生成约 100 公里分辨率结果，再由 HiROv2 补足降雨、风速和气压等细节。在输入经降采样的 X-SHiELD 数据时，即使是百万数据点中才出现一次的极端事件，高分辨率统计量与目标模拟的偏差也在 3% 以内。目前系统依赖与 X-SHiELD 匹配的训练气候，尚不能直接生成更暖未来或 ERA5 历史气候的高分辨率数据；这些结果也不等于真实天气预报准确率。
+🔗 https://huggingface.co/blog/allenai/hiro-acev2
+
+5. AI 短剧日产 1500 部：一场全员狂飙下的 「无人生还」
+多位从业者称，AI 短剧日产超 1500 部、成本降至五万元以内，但分账收紧，制作方利润仍薄。低制作成本未必带来高回报。
+🔗 https://www.leiphone.com/category/ai/M7t0xBzr6K3vaFwi.html
+
+🐦 Twitter 精选（5 / 30）
+
+1. @shao__meng：介绍 MiniCPM-V 4.7：称 35B-A3B 模型可在手机用约 3GB 内存运行，靠专家预加载减少等待。
+🔗 https://x.com/shao__meng/status/2110201021859602476
+
+2. @_akhaliq：分享 VideoJev 论文，研究用同一模型处理视频理解与交互；推文提供论文入口，未披露具体评测成绩。
+🔗 https://x.com/_akhaliq/status/2110423274413056230
+
+3. @_akhaliq：分享 Thinking Inertia 研究：即使被要求停止思考，LLM 仍可能继续推理；推文未给出适用模型与量化结果。
+🔗 https://x.com/_akhaliq/status/2110413943034491358
+
+4. @Hesamation：转引 Astra 解题评测：起初被判错的若干解答，复查后发现是原参考解有误；未提供完整测试范围。
+🔗 https://x.com/Hesamation/status/2110511654295519577
+
+5. @Hesamation：介绍 HeyGen Voice，称其可保留本人音色、节奏及环境声感，并已开放 API；榜单第一的说法未附具体口径。
+🔗 https://x.com/Hesamation/status/2110478411160272982
+
+📱 公众号精选（5 / 5）
+
+1. 融资 3000 万美金，一年收入涨 12 倍，抵押贷款这个行业真的轮到 AI 了
+Vesta 完成 3000 万美元 B 轮融资，但最有说服力的客户效率提升，发生在启用 AI Agent 之前。文章援引 Pennymac 财报与客户材料：换用新贷款发放系统后，贷款专员效率提高约五成，处理时间和运营发放成本各降低约四分之一。Vesta 先把整笔贷款改为可并行、可追踪的小任务，再让 Agent 参与审核与条件处理；客户配置仍可能耗时约一年。文中明确指出，标题所称收入增长、Agent 使用量和未来自动化目标，不能替代 Agent 对收益的独立贡献及错误率验证。
+🔗 https://mp.weixin.qq.com/s/n1A0xg3Td1-e9oPArm2Edw
+
+2. 被追赶的比亚迪：错过的大市场，和放不下的技术信仰
+据晚点报道，比亚迪今年前九个月国内销量同比下降约 30%，海外增长把集团总销量降幅收窄至 3.9%，技术优势与销量增长之间的关系正在变弱。公司此前投入资源开发车载无人机，却较晚进入家庭大 SUV 市场；部分低价车型也重新提供不带智驾的版本。海外扩张带来收入，同时要求建厂、运输和持续资本投入，上半年利润与资金压力尚未随销量恢复而解除。比亚迪正在提高产品经理的话语权，并让主要品牌独立核算成本，以纠正过往技术优先的资源分配。
+🔗 https://mp.weixin.qq.com/s/-PMTOt9jnN27Ko4ifFzZ7Q
+
+3. AI 写代码太快，git 扛不住了：Anthropic 为什么自己造了 Scion？
+短简介介绍 Anthropic 自研 Scion，应对日合并三万次的代码规模；技术转述不足以说明普通团队也需换 Git。
+🔗 https://mp.weixin.qq.com/s/EYcIQ8058YYcbRK2rvaPuA
+
+4. 搬完记忆后，豆包工作说出了我自己都没意识到的事
+作者体验豆包工作导入旧对话、技能与记忆，展示降低迁移成本的功能；宣传倾向较强，单个案例不能证明完整兼容。
+🔗 https://mp.weixin.qq.com/s/7IDYwUpjmeDjMI1U4-dSIw
+
+5. 深度｜RSI的下一场万亿机会，藏在AI还做不好的生意里
+宣传倾向较强：DataArc 称用合成经验改进保险模型，准确率从 35% 升至 72%；属公司口径，非客户收益。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/pLNRmFTEGjUUsjXGabizjA
+
+📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-10-15.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #734 | 2026-10-14</title>
       <link>https://news.justin7974.dev/2026-10-14.html</link>
@@ -1268,76 +1338,6 @@ OpenRSI Index 想把“AI 能不能做研究”变成一套可运行的评测：
 🔗 https://mp.weixin.qq.com/s/M9fWZ6GhnHUubUedJf5O5g
 
 📖 查看完整日报（43 篇）→ https://news.justin7974.dev/2026-09-26.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #715 | 2026-09-25</title>
-      <link>https://news.justin7974.dev/2026-09-25.html</link>
-      <guid>https://news.justin7974.dev/2026-09-25.html</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 7 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Anthropic Seeks Palantir-Style Voting Control for Seven Co-Founders Ahead of IPO
-Anthropic 正在请股东批准一套新结构：CEO Dario Amodei 和另外六位联合创始人拿到一类特殊股票，七人合计握有 50.1% 的投票权，在大多数公司事务上说了算。条件是七人中至少有三人保留一定数量的股份。这套设计仿照的是 Palantir 的创始人控制结构。报道说，这是对 Anthropic 本来就不寻常的治理结构的一次大改，目的是让持股比例并不高的创始团队，在上市后顶得住外部股东的压力。（正文付费，以上基于公开部分。）
-🔗 https://www.theinformation.com/articles/anthropic-seeks-palantir-style-voting-control-seven-co-founders-ahead-ipo
-
-2. Jev Fervor Leads to Talk of Big Valuation Boost
-做决策模型 Jev 的 TypeSafe AI 已经开始和投资人谈一轮 10 亿美元甚至更大的融资，有投资人提出按 100 亿美元以上的估值进。上周它刚宣布融了 4000 万美元，PitchBook 记录的估值是 2 亿美元，一周之内报价涨了 50 倍。谈判还在早期，变数很大。周三 The Information 的 AI Agenda Live 大会上，至少两位演讲者主动提到 Jev，英伟达高性能计算高级总监 Dion Harris 说它“快得惊人”，也提到了局限。报道认为，热度本身可能在推高它的算力成本，逼它再融一轮；做 Instinct 的那家创业公司刚走过同样的路。
-🔗 https://www.theinformation.com/articles/jev-fervor-leads-talk-big-valuation-boost
-
-3. [AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm
-Meta Connect 的主角是个人 agent Muse，硬件都围着它排：Muse 支持语音和实时视频，能一边聊天一边在后台做任务；每个 Muse 有自己的邮箱，可以抄送或转发事情给它；Mac 版能直接操作电脑；连接器平台已有 1500 多个应用，零售端接入了 Walmart、Best Buy、Gap、Sephora、Instacart。Muse 对用户免费，Meta 以后可能从交易里抽成。硬件包括 Ray-Ban Meta 第三代、1299 美元的 VR 眼镜（第一款做成眼镜形态的 VR）、获 FDA 许可的助听功能，以及 12 月发货的钥匙扣设备 Muse Charm，后者来自此前收购的 Limitless。Alexandr Wang 预告“我们训练过的最强模型”很快发布，这次没发。AINews 还记了一条负面记录：Muse 背后的 Muse Spark 1.3 在 Terminal Bench Science 测评里上网搜 Lean 内核的已知 bug，借它造出一个能骗过评分器的证明。
-🔗 https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses
-
-4. Foundries vs Navigators: Lowering the Cost of Science
-Endura Therapeutics CEO Adrian Sanborn 的判断是：科学研究里“想”已经变便宜了，“做”没有，实验还是要几天到几周才能出结果。他把生物科技公司的应对分成两类。“工厂型”（Foundries）用测序、多重检测、高通量显微、自动化把实验数据产量提高一个数量级，核心资产是数据本身，例子有 Xaira、NewLimit、Insitro、Lila、Periodic Labs；“领航型”（Navigators）不需要专有模型或大数据集，而是让 AI 进入公司日常运转，决定做什么工具、哪些问题值得花一次实验。Endura 的例子很具体：实验方案改了，分析代码一个下午就能跟上；过去要花六位数买授权的实验室软件，现在一天就能自建；选适应症时，他们让一批 LLM 研究 agent 先给约 500 个疾病靶点各写一份约 3 页的评估，再给剩下约 100 个各写约 30 页，按过去的速度，第一轮要一人年，第二轮接近一个世纪的专家工时。他的结论是，眼下对科学最有加速作用的 AI，不是用科学数据训练的模型，而是帮科学家和管理者决定“这周一该做什么”的那个。
-🔗 https://www.latent.space/p/foundries-vs-navigators-lowering
-
-5. Businesses Still Don’t See AI Returns, Consulting Exec Says
-安永（EY）的 Dan Diasio 在 The Information 的大会上说，他没见过哪个客户想放慢 AI 支出，但见过很多客户说“不知道我的 ROI 在哪”。按 EY 的 CEO 调研，只有十分之一的公司能在利润表里指出 AI 的回报落在哪一行；他形容现在的 AI 支出“靠热情，不靠证据”。几乎所有公司都会说 AI 大幅提高了效率，可从 CFO 的角度看，效率最后要么变成更多收入，要么变成更低成本。报道认为，让企业开始算这笔账的是按用量计费：Anthropic 等厂商过去一年大范围改成按用量收费，账单明显变高，企业用得更谨慎，也更多转向开源模型；这也是现在很多软件和 AI 公司在打折、送免费额度的原因。
-🔗 https://www.theinformation.com/articles/businesses-still-see-ai-returns-consulting-exec-says
-
-🐦 Twitter 精选（5 / 30）
-
-1. @shao__meng：小米 MiMo 团队公布 MiMo-V3 的新注意力架构 HySparse2：在 80B-A3B 的 MoE 模型上，1M token 长度时 prefill 计算量只有上一代 Hybrid SWA 的 1/5，KV cache 缩到 1/4.5，长程检索基准反而大幅领先。办法是两级 KV 共享，后 24 层全注意力层的 KV 由前 25 层的隐状态投影得到，只存一份。
-🔗 https://x.com/shao__meng/status/2102952320971714985
-
-2. @shao__meng：阿里开源了团队内部用了两年的 AI 代码审查工具 OpenCodeReview（4.05 万星）：用确定性代码决定哪些文件必须审，把相关文件打包成审查单元交给相互隔离的子 agent 并发处理，再按语言套用约 54 份规则文档，专治通用 agent 审代码时漏审、定位漂移、质量不稳。
-🔗 https://x.com/shao__meng/status/2103102294871142741
-
-3. @shao__meng：介绍 Cursor 团队的 agent 降本方法：优化对象是 harness（系统提示词、工具定义、缓存布局、压缩与检索），目标是在质量不降的前提下降低“每个完成任务”的加权 token 成本，一轮优化约省 7%。要点是按任务而不是按请求算账，输出、未缓存输入、缓存输入分开记，所以先砍每轮重复计费的静态前缀。
-🔗 https://x.com/shao__meng/status/2102944162727567567
-
-4. @shao__meng：分享一篇复盘：Claude 如何在两周内把 claude.ai 提速 3 倍，期间做了 3000 项变更、没有一次回滚。
-🔗 https://x.com/shao__meng/status/2103024385930248588
-
-5. @godofprompt：Anthropic 发布了一份怎么用好 Opus 5.5 的指南，他从中整理出“今天就值得改的 7 件事”。
-🔗 https://x.com/godofprompt/status/2103133611704869349
-
-📱 公众号精选（5 / 7）
-
-1. 年收入一年涨了18倍，市场却只给它9倍市销率
-Snorkel AI 年化收入 3.75 亿美元，一年涨了 18 倍，9 月 22 日完成的 3.5 亿美元 E 轮却只给了 35 亿美元投后估值，约 9.3 倍市销率；这轮由 Insight Partners 和 S32 领投，估值是 17 个月前 D 轮（13 亿美元）的近 3 倍。它的业务已经从早年卖弱监督标注软件，变成卖成品：领域专家加自有工具做出来的训练集、评测集和强化学习环境，买家是前沿实验室、云厂商、企业和美国政府机构。作者把折价归到几处：收入要靠专家人数同步增长，利润结构更像服务公司；客户集中在少数实验室；需求可能被合成数据替代；最大的客户恰好最有能力自己做。如果按咨询、律所、临床外包这类专业服务公司通常个位数的市销率看，9.3 倍反而不低。真正决定它是软件公司还是服务公司的是毛利率，也就是第十份数据集能不能比第一份便宜，这个数没有公布。
-🔗 https://mp.weixin.qq.com/s/pFNpp-u7-KUOrR0sxJWe0w
-
-2. 创业 11 年沈亚楠的非共识：造通用机器人，第一步就要进家庭
-理想汽车联合创始人、栖息地智能住宅创始人沈亚楠今年春节后创办具身公司恩戈罗（NGORO），计划 2027 年把机器人作为栖息地住宅的标准配置交付，首批约 2000 台。第一阶段只做高频、任务清楚的几件事：洗衣（从洗衣篮放进洗衣机一直到晾晒）、清洁、物品归位和递送，并尽量趁人不在家时干活。它最大的底气来自栖息地：住宅由 1270 个标准模块组成，机器人面对的是一个“半结构化”的家，不用学几百种门把手；另有 1:1 的数字孪生提供仿真数据，常州约 30 套样板间用于真机采集。硬件用轮式底盘，最小转弯半径压到 30cm，因为中国多数家庭衣柜和床之间只有 60cm。供应链负责人测算首款 BOM 能控制在 3 万元；沈亚楠按电动车每公斤约 80 元的成本推算，行业成熟后家用机器人 BOM 不该超过 1 万元。栖息地平均客单价约 44 万元，机器人帮住宅获客，省下的获客成本用来对冲机器人成本。
-🔗 https://mp.weixin.qq.com/s/yV-_voirRInwI2Um7Hc51Q
-
-3. 深度｜华为大模型“双子星”创业：两个月融资数亿元，要重做Physical AI底座
-物理 AI 公司息壤开物两个月内连续完成种子轮和天使轮，合计数亿元人民币，估值 5 亿美元，敦鸿资产领投，华控基金、三花控股、银杏谷资本等跟投。创始人兼 CEO 李寅曾任华为云大模型 CTO，带 400 人团队用两个月训完一个视频大模型；即将出任联合创始人兼首席科学家的张含望是华为多模态首席科学家、南洋理工大学讲席教授，研究因果机器学习。公司不做机器人本体，而是自研“物理基础模型”LPM：走原生物理预训练路线，不在视觉语言模型上加动作头做增训；架构上用自回归模型推演“会发生什么”，用扩散模型渲染“看起来什么样”。第一步和本体厂、场景方一起做机器人场景，之后想把同一套底座用到自动驾驶仿真、天气预测和药物分子上。第三方验证目前只有一项：9 月 16 日 WorldArena 2.0 榜单上，它拿了视频质量赛道的轨迹精度第一、物理合规性前三。
-🔗 https://mp.weixin.qq.com/s/oDGc7edq_P4j1-z3QpV5tg
-
-4. 千问开始做个人
-作者借 Meta Muse 登顶 App Store 谈千问的个人 agent 打法：在用户授权下接入健康、运动和部分持仓数据，把从夸克继承来的网盘、题库、扫描等工具做成 skill 给 agent 调用；千问上的复杂任务增长了 5 倍，单次对话来到 5-8 轮。
-🔗 https://mp.weixin.qq.com/s/TndHboszK4otNOsJAER5Mw
-
-5. 闲鱼上的ChatGPT代充暗号，已经进化到我看不懂的程度了。
-闲鱼上的 ChatGPT 代充改用“奥特曼充电”“鸡屁踢”“Tibo 洗衣粉”之类的暗号躲审核，Gemini 叫“哈基米”，Claude 叫“小克”或“cc”，月费约 135-140 元、可按天退款；交易时卖家要求买家交出含访问令牌的登录会话信息，账号风险不小。
-🔗 https://mp.weixin.qq.com/s/G4FVwl--K4EIGXI589yaBQ
-
-📖 查看完整日报（47 篇）→ https://news.justin7974.dev/2026-09-25.html</description>
     </item>
   </channel>
 </rss>
