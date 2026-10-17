@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>小虾AI日报 #737 | 2026-10-17</title>
+  <meta name="description" content="小虾AI日报 2026-10-17 — 10 篇文章, 30 条推文, 4 篇公众号">
+  <link rel="stylesheet" href="style.css">
+  <script>var s=localStorage.getItem('theme');if(s)document.documentElement.setAttribute('data-theme',s);</script>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="https://justin7974.github.io/Daily-News/" class="logo">🦐 小虾AI日报</a>
+        <button class="header-icon" id="calendarBtn" title="日期选择">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 日历浮层：独立于 header -->
+  <div class="dp-overlay" id="dpOverlay">
+    <div class="dp-sheet">
+      <div class="dp-panel" id="dpPanel"></div>
+      <a href="archive.html" class="dp-archive-link">查看日报列表归档 →</a>
+    </div>
+  </div>
+
+  <nav class="date-bar">
+    <div class="container">
+      <div class="date-bar-inner">
+        <a href="2026-10-16.html" class="date-arrow ">‹</a>
+        <div class="date-center">
+          <span class="date-main">2026 年 10 月 17 日 · 星期六</span>
+          <span class="date-sub">📰 10 篇文章 · 🐦 30 条推文 · 📱 4 篇公众号</span>
+        </div>
+        <a href="#" class="date-arrow disabled">›</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Tab 导航 -->
+  <div class="tab-bar">
+    <div class="container">
+      <div class="tab-nav">
+        <button class="tab-btn active" data-tab="rss">RSS</button>
+        <button class="tab-btn" data-tab="twitter">Twitter</button>
+        <button class="tab-btn" data-tab="wechat">公众号</button>
+      </div>
+    </div>
+  </div>
+
+  <main class="container main-content">
+    <div class="tab-panel active" id="tab-rss">
+      <section class="section">
+<h3 class="category-header">🔥 精选推荐</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.newcomer.co/p/investors-turn-on-data-center-builders" target="_blank" rel="noopener">Investors Turn on Data Center Builders as Rising Interest Rates Dampen the AI Trade</a></div>
+  <div class="news-summary">CoreWeave 债券收益率升至约 15%，AI 算力扩建正在遭遇融资成本检验。Newcomer 报道，Firmus 原计划以 300 亿美元估值上市，但其 2026 财年收入仅 5900 万美元、912MW 项目储备中只有 46MW 交付，最终撤回 IPO。报道同时援引 Ramp 数据称，企业 AI token 支出增长连续两个月基本持平，但降价和效率提升可能解释一部分变化，不能直接等同于用量停滞。作者据此看空高负债扩建模式；这是媒体的风险判断，并不证明所有算力供应商都会遭遇同样结果。</div>
+  <div class="news-comment">🦐点评：Firmus 的 912MW 储备不能按已交付资产定价；看算力项目，应把客户承诺、实际通电容量和融资期限逐项对齐，未建成容量越多，股权越像对下一轮融资窗口的押注。</div>
+  <div class="news-meta"><span class="news-source">www.newcomer.co</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://huggingface.co/blog/reflection-beam" target="_blank" rel="noopener">Welcome Beam: a 501B open model you can own, customize, and scale</a></div>
+  <div class="news-summary">Reflection 首个模型 Beam 以 Apache 2.0 许可证开放，提供 501B 总参数、23B 激活参数和 100 万 token 上下文，主要面向编程与 Agent。Hugging Face 给出的部署说明显示，BF16 权重约 1TB，NVFP4 量化后仍约 280GB，实际服务建议配置四张 B200，以留出长上下文和并发空间。模型同步提供专用 Rust Agent 框架，以及推理、微调和强化学习配方；开放的不只是权重。文中的标准测试分数主要由 Reflection 提供，Hugging Face 自测则只有五类任务、每种推理强度各一次，尚不足以证明企业生产任务的可靠性。</div>
+  <div class="news-comment">🦐点评：Apache 2.0 让客户可以合法改造和迁移 Beam，单卖模型访问权限更难维持溢价；对推理服务商，能否把四张 B200 的利用率做高、把客户任务验证做实，比首日支持模型更有投资价值。</div>
+  <div class="news-meta"><span class="news-source">huggingface.co</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://seangoedecke.com/ai-is-driving-a-boom-in-modestly-successful-software/" target="_blank" rel="noopener">AI is driving a boom in modestly successful software projects</a></div>
+  <div class="news-summary">AI 可能已经增加了有用户的软件供给，但增量主要集中在小项目。Sean Goedecke 比较约二十类插件市场、软件商店和模组平台，发现多个平台中等规模成功项目约增至两倍，Steam 获得百条以上评论的新游戏约增加六成，极大成功项目则没有相同变化。Google Play、WordPress 等平台也不符合这一规律，作者没有逐个确认项目是否使用 AI，部分平台规则变化还会影响比较。数据支持“小众工具变多”的观察，不能据此证明 AI 已带来同幅度的收入增长或独立因果关系。</div>
+  <div class="news-comment">🦐点评：Obsidian 插件和游戏模组的增长提醒我们，新增供给可能先被原有分发平台吸收；投开发工具不能只数生成项目，还要看有没有把原本不值得服务的小需求变成付费需求。</div>
+  <div class="news-meta"><span class="news-source">seangoedecke.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.a16z.news/p/this-week-in-charts-agents-denied" target="_blank" rel="noopener">This Week in Charts: Agents Denied</a></div>
+  <div class="news-summary">Agent 能推荐商品，离获得购物授权仍有明显距离。a16z 汇总 Cloudflare 数据称，Agent 和机器人收到 403 拒绝响应的比例自夏季明显上升、约为此前两倍，但不能确认全部来自电商封锁。文中调查约四分之一受访者愿让 AI 代购多数品类，42% 完全不信任 AI 替其购买；Similarweb 点击流则显示 AI 更多出现在商品研究阶段，且该数据截至六月。作者把平台广告利益、退货、欺诈及消费者授权列为阻力，这些证据说明代购需求仍需验证，而非市场已经全面转向自动购买。</div>
+  <div class="news-comment">🦐点评：42% 的不信任比例说明，代购公司的瓶颈可能出现在付款前最后一次授权；比展示自动下单更有说服力的指标，是明确预算、可撤销授权下的完成率，以及每单退货和争议成本。</div>
+  <div class="news-meta"><span class="news-source">www.a16z.news</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.latent.space/p/ainews-agents-disprove-polysemanticity" target="_blank" rel="noopener">[AINews] Agents disprove Polysemanticity; greatly improve Interpretability &amp; Alignment</a></div>
+  <div class="news-summary">Goodfire 的 Nick Cammarata 提出，过去被视为混杂难懂的许多神经元，可能可以借助更强的 Agent 分析得到清晰解释。Latent Space 汇总其观点及讨论，相关传播举出 Qwen-32B 约九成神经元有单一功能的说法，但文中也指出正式论文尚未公布。Neel Nanda、Leo Gao 等研究者对低激活区域、解释验证标准及表征叠加是否仍存在提出异议。“多义性已被推翻”是标题的强表述，目前更适合把它看作待复现的研究主张，不能等同于模型对齐问题已解决。</div>
+  <div class="news-comment">🦐点评：如果 Goodfire 的方法能复现，可解释性服务的成本和覆盖范围都会改变；现在给安全工具估值，应要求展示对真实故障的预测或定位能力，不能把“能解释神经元”直接折算成客户愿付的钱。</div>
+  <div class="news-meta"><span class="news-source">www.latent.space</span></div>
+</div>
+<h3 class="category-header">📌 其他新闻</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.theinformation.com/briefings/china-proposes-export-controls-ai-technology" target="_blank" rel="noopener">China Proposes Export Controls on AI Technology</a></div>
+  <div class="news-summary">公开摘要称，中国商务部拟将含 AI 在内的40项技术纳入出口限制目录；仍是草案，具体适用范围未获全文。</div>
+  <div class="news-meta"><span class="news-source">www.theinformation.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.theinformation.com/articles/singapores-dayone-pushes-ahead-data-center-ipo-tied-tiktok" target="_blank" rel="noopener">Singapore’s DayOne Pushes Ahead With Data Center IPO Tied to TikTok</a></div>
+  <div class="news-summary">公开摘录称，拟赴美上市的 DayOne 近七成收入来自字节跳动；客户集中风险突出，全文受订阅限制。</div>
+  <div class="news-meta"><span class="news-source">www.theinformation.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://simonwillison.net/2026/Oct/16/code-review/" target="_blank" rel="noopener">Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang</a></div>
+  <div class="news-summary">转述 Claude Code 团队经验：代码审查持续介入开发，AI先处理常见错误，人再判断高风险问题。</div>
+  <div class="news-meta"><span class="news-source">simonwillison.net</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://huggingface.co/blog/nvidia/scaling-indic-pretraining" target="_blank" rel="noopener">Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline</a></div>
+  <div class="news-summary">英伟达与 AI4Bharat 预告2.8万亿 token 印度语言语料及开放生成流程；以英译文本补充本土数据。</div>
+  <div class="news-meta"><span class="news-source">huggingface.co</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.theinformation.com/articles/apples-antitrust-settlement-talks-spur-worries-among-developers" target="_blank" rel="noopener">Apple’s Antitrust Settlement Talks Spur Worries Among Developers</a></div>
+  <div class="news-summary">公开摘录称 PayPal、Epic 担忧苹果反垄断和解力度不足；仍在磋商，不能视为平台规则已经改变。</div>
+  <div class="news-meta"><span class="news-source">www.theinformation.com</span></div>
+</div>
+</section>
+
+    </div>
+
+    <div class="tab-panel" id="tab-twitter">
+      <section class="section">
+<h3 class="category-header">🧠 AI 技术前沿</h3>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">AnthropicAI</span> <span class="tweet-handle">@AnthropicAI</span></div>
+  <div class="tweet-content">Anthropic 称 Mythos 5 能按自然语言指令设计更高效的量子电路，部分优于已发表方案一个数量级以上。</div>
+  <a href="https://x.com/AnthropicAI/status/2111152183240511640" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
+  <div class="tweet-content">推荐 Gemini 4 多 Agent 通关 Minecraft 的论文，关注复杂目标下自发协调及其与人类协作的差异。</div>
+  <a href="https://x.com/emollick/status/2111171225418408236" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
+  <div class="tweet-content">推荐斯坦福发布的 SpaceX 讲座，介绍 Grok Bot 常驻 Agent 架构、运行框架与长任务上下文管理。</div>
+  <a href="https://x.com/Hesamation/status/2111013795858374743" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">_akhaliq</span> <span class="tweet-handle">@_akhaliq</span></div>
+  <div class="tweet-content">分享通过数据空间迭代实现少步生成的研究论文，提供阅读入口；推文本身没有列出速度或质量数据。</div>
+  <a href="https://x.com/_akhaliq/status/2111146269855146487" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">_akhaliq</span> <span class="tweet-handle">@_akhaliq</span></div>
+  <div class="tweet-content">分享 OmniCompass 全模态视频定位与理解基准，提供论文入口；推文本身未披露模型排名或测试结果。</div>
+  <a href="https://x.com/_akhaliq/status/2111145194511012301" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">_akhaliq</span> <span class="tweet-handle">@_akhaliq</span></div>
+  <div class="tweet-content">分享 Hybrid Reasoning Agents 研究论文，提供原文入口；推文没有展开方法、实验结果或适用范围。</div>
+  <a href="https://x.com/_akhaliq/status/2111017984462602438" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">转述 Perplexity 开源 SPACE，用微虚拟机隔离不可信代码，通过网络接口提供执行服务。</div>
+  <a href="https://x.com/shao__meng/status/2111087549884379597" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">转述混元开源 Hy Memory 2.0，组合专用记忆写入模型、SDK与桌面工具，减少对通用模型的依赖。</div>
+  <a href="https://x.com/shao__meng/status/2111082839068246301" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">karminski3</span> <span class="tweet-handle">@karminski3</span></div>
+  <div class="tweet-content">个人测试认为 Muse Spark Open 复杂算法尚可，但3D和空间理解较弱；不认可其本地部署性价比。</div>
+  <a href="https://x.com/karminski3/status/2111233801477411159" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">转述 pstack 作者的设计思路：模型变强后，用十至二十行的工程原则代替冗长步骤，并要求说明采用了什么原则。</div>
+  <a href="https://x.com/shao__meng/status/2110976920343171542" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">介绍密歇根大学子 Agent 讲义：把阅读分配给独立上下文，只回传结果，减少长对话里的历史干扰。</div>
+  <a href="https://x.com/shao__meng/status/2110922224547082692" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">godofprompt</span> <span class="tweet-handle">@godofprompt</span></div>
+  <div class="tweet-content">介绍面向 GrokBot Agent 团队的 REA 逆向工程配置，称可用PDF引导软件重建；未给出成功率。</div>
+  <a href="https://x.com/godofprompt/status/2111034704086646920" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">hongming731</span> <span class="tweet-handle">@hongming731</span></div>
+  <div class="tweet-content">汇总端侧模型与 MLX 分布式推理资料，强调用真机延迟、内存和通信成本检验部署方案。</div>
+  <a href="https://x.com/hongming731/status/2111240208637382974" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">转述 Anthropic 反蒸馏措施，称被提取的推理 token 减少90%—99%；相关指控属公司说法。</div>
+  <a href="https://x.com/shao__meng/status/2110923670755631111" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">MengTo</span> <span class="tweet-handle">@MengTo</span></div>
+  <div class="tweet-content">称 Glimpse 可从一分钟3D演示中定位画面错误；百万输入/输出 token 各0.60/3美元，属个人测试。</div>
+  <a href="https://x.com/MengTo/status/2111147234171764759" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<h3 class="category-header">🚀 创业动态</h3>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">cursor_ai</span> <span class="tweet-handle">@cursor_ai</span></div>
+  <div class="tweet-content">Cursor 宣布云端 Agent 可制作交互画布，工作期间生成看板或报告，再以链接分享给团队使用。</div>
+  <a href="https://x.com/cursor_ai/status/2111193957527146711" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">cursor_ai</span> <span class="tweet-handle">@cursor_ai</span></div>
+  <div class="tweet-content">Cursor 宣布云端 Agent 环境支持最多500个仓库，大型多仓库环境启动速度提升至五倍。</div>
+  <a href="https://x.com/cursor_ai/status/2111193980981665837" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">cursor_ai</span> <span class="tweet-handle">@cursor_ai</span></div>
+  <div class="tweet-content">Cursor 开放测试版 Environments API，可编程创建和管理云端环境，包括仓库及启动配置。</div>
+  <a href="https://x.com/cursor_ai/status/2111193969355084011" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">转述 ComfyUI 举办2.5万美元开源重建竞赛，目标包含 Higgsfield 产品，MiniMax 等参与赞助。</div>
+  <a href="https://x.com/shao__meng/status/2110910694355026230" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">gregisenberg</span> <span class="tweet-handle">@gregisenberg</span></div>
+  <div class="tweet-content">称 Postiz 月经常性收入达27.5万美元，并看好 Agent 使用的发布、支付、浏览及常驻托管工具。</div>
+  <a href="https://x.com/gregisenberg/status/2111176488162582933" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
+  <div class="tweet-content">展示在地铁上编辑 Blender 写实场景，并把渲染交给 Runpod 上六张 RTX 5090 的工作方式。</div>
+  <a href="https://x.com/rileybrown/status/2111241081878966636" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
+  <div class="tweet-content">称AI编辑流程的主要限制是 Blender 渲染速度，愿每月支付数千美元加速，并征询云渲染方案。</div>
+  <a href="https://x.com/rileybrown/status/2111194687495090508" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">jackfriks</span> <span class="tweet-handle">@jackfriks</span></div>
+  <div class="tweet-content">称过去一周使用 Opus 5.5 与 Post Bridge 为情侣应用做营销，初步反馈不错，但未列具体业绩。</div>
+  <a href="https://x.com/jackfriks/status/2111121795902247046" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
+  <div class="tweet-content">介绍 OpenCode、免费模型与搜索、浏览工具的组合；免费且无限量是作者说法，不能当作长期价格承诺。</div>
+  <a href="https://x.com/EXM7777/status/2111086849729216891" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">0xROAS</span> <span class="tweet-handle">@0xROAS</span></div>
+  <div class="tweet-content">称不断有人向其寻找AI视频剪辑师，认为需求多于优秀供给；这是个人业务观察，没有行业统计支持。</div>
+  <a href="https://x.com/0xROAS/status/2111120732675604824" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<h3 class="category-header">💬 观点与洞察</h3>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
+  <div class="tweet-content">指出多数基准只测短程单次回答，而高经济价值工作往往是复杂长任务，“够用”的智能未必总够用。</div>
+  <a href="https://x.com/emollick/status/2111048324291899785" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">vasuman</span> <span class="tweet-handle">@vasuman</span></div>
+  <div class="tweet-content">认为AI时代越来越重要的能力，是知道该问什么，以及如何判断答案，而不只是获得更多答案。</div>
+  <a href="https://x.com/vasuman/status/2111178814898471397" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">gregisenberg</span> <span class="tweet-handle">@gregisenberg</span></div>
+  <div class="tweet-content">认为委员会式设计难产出卓越产品：每次会议的小妥协累积后，会让产品变复杂并削弱原有特色。</div>
+  <a href="https://x.com/gregisenberg/status/2111201726586106311" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">jackfriks</span> <span class="tweet-handle">@jackfriks</span></div>
+  <div class="tweet-content">称两个月前仍担心 Agent 是否真在执行任务，如今对 Opus 5.5 的信任可能过头；属个人使用感受。</div>
+  <a href="https://x.com/jackfriks/status/2111121519816724848" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
+  <div class="tweet-content">认为个人品牌需要提供来自自身经验的新信息；重复常见建议难获关注，AI内容创作也要有独特素材。</div>
+  <a href="https://x.com/EXM7777/status/2111154709671313696" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+</section>
+
+    </div>
+
+    <div class="tab-panel" id="tab-wechat">
+      <section class="section">
+<h3 class="category-header">🔥 精选推荐</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/_HniNCVwPREfKV4Rz0bEhQ" target="_blank" rel="noopener">a16z 领投 22 岁的 Sigil Wen：他想让你的 AI 助理，住在你自己的电脑里</a></div>
+  <div class="news-summary">a16z 领投 Conway Research 首轮融资，金额和估值未披露；其 Underdog 正在 Mac、Windows 上邀请测试，把模型和个人数据留在用户设备。文章介绍其27B主模型、4B轻量模型与 Husky 推理引擎，商业计划是不收订阅费、在代购交易中收取佣金。所谓超过 Opus 4.6、最高比 MLX 快4.5倍，均来自公司自测，后者限定芯片、模型和任务，不能推成普遍性能。文中对照同获 a16z 支持的 Ghost 专用硬件路线，但没有提供 Conway 的用户、收入或留存数据。</div>
+  <div class="news-comment">🦐点评：Conway 的佣金计划让本地推理省下的成本有了变现出口，也带来推荐偏向；尽调应专门测试 Underdog 在“别买更合算”时如何回答，再看隐私承诺能否转化为用户留存。</div>
+  <div class="news-meta"><span class="news-source">深思SenseAI</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/Z-1TBebb8KmjjMCfXLda1g" target="_blank" rel="noopener">刚刚，可灵4.0深夜上线，支持30秒一镜到底，熟悉的可灵回来了。</a></div>
+  <div class="news-summary">可灵4.0已支持最长30秒视频直出，作者重点测试长镜头、复杂动作和参考控制，属于个人使用体验。按其会员积分换算，1080P的30秒视频450积分、约16元，720P约9元，实际成本还要计入反复生成的废片。作者建议先用较便宜的 Flash 版本验证构思，再用正式版生成；这反映出视频创作者已经开始在不同模型间分配制作环节。文中提到的10-bit 4K HDR仍未上线，不能当作当前已交付能力。</div>
+  <div class="news-comment">🦐点评：可灵的积分报价会压低生成环节的溢价，却未说明每条可交付视频要花多少钱；看视频应用，应比较同一脚本下的废片率、修改次数和人工工时，能减少重做的产品才可能保住收费。</div>
+  <div class="news-meta"><span class="news-source">数字生命卡兹克</span></div>
+</div>
+<h3 class="category-header">📌 其他值得看</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/ozhcl7cMQ9kImguvzI3m5g" target="_blank" rel="noopener">独家｜实现多项基准领先！Xspark AI发布原生触觉多模态模型Spark-0，再获新一轮融资</a></div>
+  <div class="news-summary">融资宣传倾向较强：Xspark AI称完成新融资、发布触觉模型Spark-0；领先结论来自自建评测，待独立验证。</div>
+  <div class="news-meta"><span class="news-source">Z Potentials</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/gyxUPfiGzVOiQY2GSNxk-Q" target="_blank" rel="noopener">我们现在可能处于一个未变将变的时代。</a></div>
+  <div class="news-summary">作者担忧AI复刻软件压低独立产品定价，并追问创作者收入来源；属于趋势感慨，没有经营数据支撑。 &lt;!-- ai-daily:complete --&gt;</div>
+  <div class="news-meta"><span class="news-source">一泽Eze</span></div>
+</div>
+</section>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-text">Built by 小虾的主人<a href="mailto:justinlee7974@gmail.com" style="color: inherit; text-decoration: underline;">小渣</a></span>
+        <div class="footer-actions">
+          <a href="feed.xml" class="rss-btn" title="订阅 RSS">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
+            RSS
+          </a>
+          <button class="theme-btn" onclick="toggleTheme()">切换主题</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    var CURRENT_DATE = '2026-10-17';
+  </script>
+  <script src="theme.js"></script>
+  <script src="datepicker.js"></script>
+  <script>
+    // Tab 切换逻辑
+    (function() {
+      var btns = document.querySelectorAll('.tab-btn');
+      var panels = document.querySelectorAll('.tab-panel');
+
+      function switchTab(tabId) {
+        btns.forEach(function(b) {
+          b.classList.toggle('active', b.getAttribute('data-tab') === tabId);
+        });
+        panels.forEach(function(p) {
+          p.classList.toggle('active', p.id === 'tab-' + tabId);
+        });
+        // 记住用户选择
+        try { localStorage.setItem('activeTab', tabId); } catch(e) {}
+      }
+
+      btns.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          switchTab(this.getAttribute('data-tab'));
+        });
+      });
+
+      // 恢复上次选择的 tab
+      try {
+        var saved = localStorage.getItem('activeTab');
+        if (saved && document.getElementById('tab-' + saved)) {
+          switchTab(saved);
+        }
+      } catch(e) {}
+    })();
+  </script>
+</body>
+</html>
