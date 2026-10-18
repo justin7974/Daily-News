@@ -5,8 +5,56 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 17 Oct 2026 00:08:28 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 00:05:52 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #738 | 2026-10-18</title>
+      <link>https://news.justin7974.dev/2026-10-18.html</link>
+      <guid>https://news.justin7974.dev/2026-10-18.html</guid>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 0 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Meta 重返开放模型前列，商用限制仍影响采用
+美国开放权重模型重新接近前沿，但尚未超过最强的中国开放模型。Nathan Lambert 将 Meta 的 Muse Spark Open 与 Reflection Beam 视为这轮变化的关键，前者为 816B 总参数、42B 激活参数，支持百万 token 上下文。按文中比较，Muse Spark Open 接近 DeepSeek V4.1 Flash，但仍落后于 GLM-5.3 和 Kimi K3。作者同时指出，其自定义许可证包含品牌标识、大型商用及衍生使用限制，不能把开放权重等同于宽松开源。
+🔗 https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open
+
+2. 依赖修复评测：通用编程 Agent 与专用产品仍有差距
+Snyk 提出的 VulnBump 在 307 项依赖升级任务中报告：Claude Code 单独完成的通过率为 59.6%，其专用修复 Agent 为 90.2%。任务涉及 43 个仓库、六类包管理器和 2066 个可修复漏洞，要求依赖解析、复扫、构建及原有测试全部通过。同期综述还汇总一项针对 25 种包管理器的测试：默认设置、无锁文件时，只有 Go 和 vcpkg 验证每次下载。上述修复成绩来自安全厂商自己的评测，不能直接外推到任意企业代码库。
+🔗 https://nesbitt.io/2026/10/17/this-week-in-package-management.html
+
+3. Apple HomeView：家庭 AI 终端仍要证明新增使用价值
+John Gruber 对 HomeView 的主要质疑是：家庭为什么需要再添一块常驻屏幕。按其观察，日历、食谱和音乐等演示场景，大多已有手机或 HomePod 可完成；小尺寸方形屏幕也要求用户靠近阅读。桌面版本的电源线与厨房摆放存在冲突，壁挂版本另需付费支架，还缺少底座低音单元。文章是现场观察与个人判断，没有提供销量或长期使用数据。
+🔗 https://daringfireball.net/2026/10/homeview_thoughts_and_observations
+
+4. 广告投放链被用于分发间谍软件，供应商认证暴露缺口
+Cory Doctorow 援引 Citizen Lab 的 AdFection 调查称，Discover-Tech 借助程序化广告系统定位目标并投放无需点击的恶意代码。文中列出的受影响投放基础设施涉及 Google、Facebook 等平台，半岛电视台员工也被列为攻击目标。Discover-Tech 曾取得多家广告平台或行业组织的供应商认证，说明认证与实际攻击防护之间存在差距。作者据此主张限制监控式广告；这一政策主张需与调查所揭示的攻击事实分开理解。
+🔗 https://pluralistic.net/2026/10/17/mercenary-spyware/
+
+5. OpenAI 办公室窃听案提醒：人才争夺也带来内部安全成本
+The Information 的公开节选称，一名前 OpenAI 工程师因涉嫌在会议室安装录音设备被 FBI 逮捕。受访安全顾问认为，企业在高强度招聘时容易压缩背景调查，而低于 100 美元的设备就可能伪装成充电器等日常物件。报道还介绍 Strider Technologies 已累计融资 1.1 亿美元，以 AI 分析邮件等内部通信中的可疑行为。节选并未确认嫌疑人的动机，不能依据国籍推断其受谁指使。
+🔗 https://www.theinformation.com/articles/office-spy-proof
+
+🐦 Twitter 精选（5 / 30）
+
+1. @shao__meng：他介绍 DeepSeek V4.1-Flash-1017 同时改进性能、速度与输出长度，并将搜索和正文抓取接口商业化。
+🔗 https://x.com/shao__meng/status/2111436190612349384
+
+2. @shao__meng：他转述 Claude Code 的评审改造：合并 PR 翻倍、回退率降逾四成，把人工注意力留给风险判断。
+🔗 https://x.com/shao__meng/status/2111274173192638932
+
+3. @shao__meng：他转述 Agent 可靠性框架，优先改代码结构和静态检查，认为单靠规则文件难以强制约束行为。
+🔗 https://x.com/shao__meng/status/2111261981735067819
+
+4. @MengTo：他用 Pika 插件调取图像、视频及编辑工具，在 Codex 内为汽车页面做美术指导，再计划用 Three.js 重建。
+🔗 https://x.com/MengTo/status/2111294425959923839
+
+5. @rileybrown：他展示用 Opus 5.5 单次提示生成的 Blender 视频，说明是在做压力测试，暂不考虑配音和文字质量。
+🔗 https://x.com/rileybrown/status/2111285052617445438
+
+📖 查看完整日报（40 篇）→ https://news.justin7974.dev/2026-10-18.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #737 | 2026-10-17</title>
       <link>https://news.justin7974.dev/2026-10-17.html</link>
@@ -1300,60 +1348,6 @@ Mind Lab 发布模型后训练与推理平台 Mint Recursive，并同步以基�
 🔗 https://mp.weixin.qq.com/s/NgMqVokzcjj1ng68x5kVMg
 
 📖 查看完整日报（47 篇）→ https://news.justin7974.dev/2026-09-29.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #718 | 2026-09-28</title>
-      <link>https://news.justin7974.dev/2026-09-28.html</link>
-      <guid>https://news.justin7974.dev/2026-09-28.html</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-      <description>今日共 7 篇 RSS · 28 条推文 · 1 篇公众号
-
-📰 RSS 精选（5 / 7）
-
-1. China Weighs Allowing Purchases of New Nvidia Chips by ByteDance, Alibaba
-中国工信部近期向阿里巴巴、字节跳动等企业征询意见，释放出&quot;可能放行部分国内公司采购一款英伟达面向高端专业计算机的新芯片&quot;的信号（据两名知情人士）。背景是国内 AI 公司普遍算力不足，撑不起聊天机器人和 Agent 的运行。这被视为北京在算力供给立场上的边际松动，具体型号与用途限制尚未明确。（正文付费，以上基于公开部分。）
-🔗 https://www.theinformation.com/articles/china-weighs-allowing-purchases-new-nvidia-chips-bytedance-alibaba
-
-2. Why Oura May Not Be the Healthiest IPO
-The Information 专栏作者 Martin Peers 对本周预计上市的智能戒指厂商 Oura 给出偏刻薄的预告：它不会像 Anthropic 的 IPO 那样震撼，但正好是观察&quot;被过度炒作的一阵风业务能有多脆弱&quot;的样本，值得一看。（正文付费，以上基于公开部分。）
-🔗 https://www.theinformation.com/articles/oura-may-healthiest-ipo
-
-3. Anthropic&apos;s Amodei to Dine With Trump at White House
-据 Axios 报道，Anthropic CEO Dario Amodei 将于周日与特朗普在白宫共进私人晚宴，这是两人首次会面，可能标志 Anthropic 与白宫关系回暖。
-🔗 https://www.theinformation.com/briefings/anthropics-amodei-dine-trump-white-house
-
-4. Human-AI partnerships are for alignment, not capability
-作者反驳&quot;软件工程已进入人机半人马阶段&quot;的类比。他承认 AI 写的代码比他更好、更快、几乎不犯并发或兼容错误，但人类的价值不是帮 AI 写得更好，而是让 AI 对齐组织的技术价值观（alignment）。前沿模型对齐到的是 RL 打分器偏好的行为——超大注释块、成百上千无用单测、到处乱加文案——而非某家公司的品味。对齐比能力更难、更依赖上下文（换家公司几乎要重学），所以他判断工程师短期不会被取代，但初级岗位会很惨。
-🔗 https://seangoedecke.com/human-ai-partnerships-are-for-alignment-not-capability/
-
-5. 量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层
-国内首家专注 Q4AI（Quantum for AI）的创业公司&quot;费米宇宙&quot;完成 1 亿元种子轮、投后约 10 亿元，为国内该方向最大种子轮；团队近半为清华背景，并称推出全球首个&quot;全链路量子增强大模型&quot; FermiQLLM 1.0，基于 Qwen 基座做量子启发式改造，号称同参数下推理性能提升超 15%、RL 训练成本降 25%。
-🔗 https://www.qbitai.com/2026/09/498633.html
-
-🐦 Twitter 精选（5 / 28）
-
-1. @emollick：认为开源与闭源模型的差距正重新拉大：Fable/Astra 级模型已具备前代没有的 agentic 能力，而目前没有任何开源模型跨过这条线，一旦跨过将是跳变。
-🔗 https://x.com/emollick/status/2104326478766952624
-
-2. @emollick：称模型性格是基准测不出来的：Opus 在 4.7 到 5 之间一度&quot;不 Claude 了&quot;、更像缩水版 Fable，而 Opus 5.5 又让人找回与老 Claude 共事的感觉。
-🔗 https://x.com/emollick/status/2104039050080342456
-
-3. @Hesamation：从 Opus 切回 Claude Code 的几点体会：Opus 最大的优势不是榜单而是 TASTE（方法与设计），用起来有趣、聪明高效，且实际消耗的额度远低于预期。
-🔗 https://x.com/Hesamation/status/2104000275790921817
-
-4. @Hesamation：引述 OpenAI 研究负责人 Boris Power：OpenAI 80-90% 的研究都投向 GPT 7、GPT 8 及更远的模型；他担忧在接连的网络安全事件和&quot;放慢&quot;呼声之后，这些投入里有多少是安全。
-🔗 https://x.com/Hesamation/status/2104192201618080101
-
-5. @Hesamation：让 Opus 5.5 为 Pink Floyd《Time》做了一支动画：只给了喜欢的片段、视觉风格和一张图，改动几次后就大爱成品。
-🔗 https://x.com/Hesamation/status/2104200879637397978
-
-📱 公众号精选（1 / 1）
-
-1. Opus 5.5 让你实现 App Icon 设计自由
-宝玉分享用 Opus 5.5 设计 App Icon 的实践：让模型直接用 JS 绘制 canvas（而非 SVG）生成矢量图标，一句话提示词起稿，再像对待乙方一样多轮迭代，第一版效果就超出预期。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/jCf-sg46WMlKWlUGHMQ5Ag
-
-📖 查看完整日报（36 篇）→ https://news.justin7974.dev/2026-09-28.html</description>
     </item>
   </channel>
 </rss>
