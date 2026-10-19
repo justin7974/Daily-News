@@ -5,8 +5,56 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 18 Oct 2026 00:05:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 00:08:31 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #739 | 2026-10-19</title>
+      <link>https://news.justin7974.dev/2026-10-19.html</link>
+      <guid>https://news.justin7974.dev/2026-10-19.html</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 0 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. AI 热潮可能因利润缩水收场，使用量仍继续增长
+AI 创造价值，并不保证投入最多资本的人拿到回报。Martin Alderson 将五种风险分成两组：模型进步停滞、对齐事故和数据中心禁令，以及开放权重竞争压低利润、效率突破造成算力供给过剩。他认为后两种路径更容易被低估，模型降价可能让用户受益，同时削弱前沿实验室的利润和估值。为区分降价来自效率提升还是供过于求，他建议观察各类 GPU 现货租价是否普遍下跌。以上属于作者的情景推演，并非已经发生的行业结局。
+🔗 https://martinalderson.com/posts/how-the-ai-boom-might-really-end/
+
+2. AI 让文档不再足以证明工作、理解或合规
+LLM 可以生成一份详细报告，却不要求提交者真正理解其中内容，组织过去用写作证明工作的做法因此失效。Sean Goedecke 区分了三类用途：证明履行流程、证明投入劳动，以及证明掌握信息；风险评估模板、咨询长报告和层层汇总的周报都在其中。他认为，低成本生成文本削弱了这些文档原本承担的筛选作用。现场汇报、禁止 AI 代写或改用其他工作评估方式都有成本，作者没有给出一个成熟替代方案。
+🔗 https://seangoedecke.com/writing-is-no-longer-proof-of-work/
+
+3. 微软退出 Nscale 英国数据中心项目，电力交付拖期成为风险
+据 RSS，接电延迟后微软退出 Nscale 英国数据中心项目，给拟议 IPO 增添交付风险。正文未取得。
+🔗 https://www.theinformation.com/briefings/microsoft-pulls-nscale-u-k-data-center-following-delays
+
+4. Neocloud 面临融资考验，Firmus 撤回上市计划
+据 RSS，Firmus 撤回 IPO，报道同时关注 CoreWeave 的债务与 Nscale 运营记录。付费正文未取得。
+🔗 https://www.theinformation.com/articles/neocloud-shakeout-looms-nvidia-lot-lose
+
+5. Anthropic 拟以至少 5% 股份支持公共利益基金
+据 RSS，Anthropic 新设基金将获至少 5% 股份，用于应对 AI 就业影响等问题。报道正文未取得。
+🔗 https://www.theinformation.com/briefings/anthropic-commits-least-5-shares-new-public-benefit-fund
+
+🐦 Twitter 精选（5 / 30）
+
+1. @shao__meng：据其介绍，Harness² 尝试递归优化 Agent 框架，处理陌生任务缺少标准答案、改进难以泛化的问题。
+🔗 https://x.com/shao__meng/status/2111730826308452600
+
+2. @shao__meng：转述播客澄清：GLM 5.3 稀疏注意力缓解的是带宽压力，并不等于大幅减少 KV cache 容量。
+🔗 https://x.com/shao__meng/status/2111815442528669921
+
+3. @shao__meng：分享斯坦福 CS336 推理课程：从低算术强度与内存瓶颈出发，串起压缩参数及 KV cache、投机采样等优化方法。
+🔗 https://x.com/shao__meng/status/2111804476671795223
+
+4. @rileybrown：他称用 Opus 5.5 一条提示完成视频编辑，包括转写分析、获取补充视频、删除口误及构建场景。
+🔗 https://x.com/rileybrown/status/2111925755215040779
+
+5. @emollick：他用 Fable 5.1 把博尔赫斯短篇做成可交互的 3D 体验，希望帮助理解故事，并分享试玩入口。
+🔗 https://x.com/emollick/status/2111700285814940159
+
+📖 查看完整日报（40 篇）→ https://news.justin7974.dev/2026-10-19.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #738 | 2026-10-18</title>
       <link>https://news.justin7974.dev/2026-10-18.html</link>
@@ -1278,76 +1326,6 @@ AGENT橘 与歸藏、杨攀、向阳乔木的聊天实录。归藏等把 Opus 5.
 🔗 https://mp.weixin.qq.com/s/LqvhdJloACBMpAEoGOJZ2w
 
 📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-09-30.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #719 | 2026-09-29</title>
-      <link>https://news.justin7974.dev/2026-09-29.html</link>
-      <guid>https://news.justin7974.dev/2026-09-29.html</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-      <description>今日共 13 篇 RSS · 28 条推文 · 6 篇公众号
-
-📰 RSS 精选（5 / 13）
-
-1. AMD to Buy Fei-Fei Li&apos;s World Labs for $8.2 Billion
-AMD 周一宣布以约 82 亿美元全股票交易收购成立仅两年的 World Labs，后者专做可模拟三维空间的模型，交易预计今年底完成。World Labs CEO、AI 研究者李飞飞将加入 AMD 出任执行副总裁兼首席科学家，直接向总裁汇报。据知情人士，a16z 是 World Labs 最大股东，持股近 14%。
-🔗 https://www.theinformation.com/briefings/amd-buy-fei-fei-lis-world-labs-8-2-billion
-
-2. OpenAI Will Not Ship GPT-6.1 Astra Due to Safety Concerns
-据 OpenAI 发言人周一证实，公司决定不发布原本计划命名为 GPT-6.1 Astra 的模型，原因是其在一系列安全测试上的结果不达标。该模型在衡量&quot;追逐特定风险行为&quot;的测试中，表现比本月初刚发布的 GPT-6 Astra 更差——也就是说，迭代版本反而在安全维度上回退。
-🔗 https://www.theinformation.com/briefings/openai-will-ship-gpt-6-1-astra-due-safety-concerns
-
-3. Claude Sonnet 5.5
-Anthropic 发布新模型 Claude Sonnet 5.5，官方称&quot;速度快 30%+、多数工作成本降最多 30%&quot;，定价与 Sonnet 5 相同却在几乎所有基准上更好。Simon Willison 的实测观察是：Sonnet 5.5 已是 claude.ai 免费档所用的模型，而 OpenAI 的 ChatGPT 免费档用的是 Luna 5.6——这意味着当前 Anthropic 的免费层能力明显更强。他同时记录了一个 bug：在 &quot;max&quot; 思考档位下模型为画一只骑车鹈鹕耗掉 12.8 万 token（花费 1.28 美元）仍未产出 SVG；Haiku 5.5 官方称&quot;未来数周&quot;上线。
-🔗 https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/
-
-4. Holo4: powering generalist computer-use agents
-Hcompany 开源新一代 agentic 模型 Holo4，含 27B 稠密版与 35B-A3B MoE 版，同一模型即可通过 GUI、代码、MCP 和 API 四种接口操作软件，覆盖桌面、网页、Android、代码沙箱与业务 API。在最难的桌面控制基准 OSWorld 2.0 上，Holo4 27B 得 61.7%，对比 Opus 5.5 的 81.8%；35B-A3B 为 30.9%，但以数量级更少的参数和显著更低的单任务成本运行。模型经监督学习与强化学习在&quot;Agentic Task Factory&quot;生成的环境上训练，团队开源了所有基准轨迹。
-🔗 https://huggingface.co/blog/Hcompany/holo4
-
-5. OpenAI Understands Something Important and Rare
-a16z 的 David George 提出，OpenAI 会赢不是因为它模型最好、芯片最强或成本曲线最优，而是因为它最擅长&quot;创造新种类的客户&quot;并拥有最耐久的渠道。他列了四条护城河：创造新行为、分发、定价捕获价值、高切换成本——指出在模型层切换成本（第 4 条）已基本失效（可任务级换模型），定价（第 3 条）最终属于规模化领先者，所以胜负实际由&quot;创造新行为&quot;和&quot;分发&quot;决定。文章把 ChatGPT 称为一场&quot;幸福的意外&quot;，并引述 Thiel 当年劝 Sam 的话：&quot;你已经创造了一种新客户。&quot;
-🔗 https://www.a16z.news/p/openai-understands-something-important
-
-🐦 Twitter 精选（5 / 28）
-
-1. @AnthropicAI：宣布 Claude Sonnet 5.5 正式上线。
-🔗 https://x.com/AnthropicAI/status/2104633259925630995
-
-2. @Hesamation：指出 AA 智能指数上最聪明的 5 个模型中已有 4 个是 Claude，且 Sonnet 5.5 得分高于 Fable 5.1，怀疑 Anthropic 正把某个更强的 Fable 版本蒸馏进 Opus 与 Sonnet。
-🔗 https://x.com/Hesamation/status/2104642448588976492
-
-3. @Hesamation：称 Anthropic 在让模型同时变强又变省：官方口径快 30%+，Balyasny 测出 token 较 Sonnet 5 减少 76%（49.7 万→12.1 万），Slack 称输出 token 少约 14%。
-🔗 https://x.com/Hesamation/status/2104636301949730850
-
-4. @bcherny：用 Sonnet 5.5 修 Claude Code 的 bug，体感快 30%、用量省 30%。
-🔗 https://x.com/bcherny/status/2104638725317923228
-
-5. @cursor_ai：Sonnet 5.5 已在 Cursor 上线，能力强、在许多任务上与 Opus 不相上下。
-🔗 https://x.com/cursor_ai/status/2104666044220821594
-
-📱 公众号精选（5 / 6）
-
-1. 斯坦福团队将 LLM 后训练思路引入机器人，VLA 开始从真实经验中继续学
-斯坦福博士生 Perry Dong 与导师 Chelsea Finn 发布长文《Towards Universal Post-Training for Robotics》，提出机器人基础模型正处在&quot;GPT-2 时刻&quot;：VLA、世界-动作模型等预训练已能完成复杂任务，但&quot;会做&quot;与&quot;可靠地做&quot;之间仍有巨大鸿沟（一个 95% 成功率的机器人，剩下 5% 在玻璃制品、宠物与孩子环绕的家庭里足以不断制造事故）。他们主张机器人缺的正是语言模型已经走通的那套后训练路径——足够强的预训练底座 + 明确定义的环境与奖励 + 成熟的 RL 算法 + 对 reward hacking 的监控，只是机器人需要专为其十亿参数规模设计、且能从极少真实经验中学习的算法，以及定义成功/复位/人工介入的协议。
-🔗 https://mp.weixin.qq.com/s/8XQpd-ji6kb9_u6jyeuzBg
-
-2. Manus 2.0 发布，重启国内市场
-Manus 发布 2.0，最底层换用自研 Agent 框架 Cascade：在官方一项测试配置中，token 消耗较上一代减少 23.2%、任务完成时间缩短 28.2%、运行成本降低 32%（同一配置，非整体平均），思路类似 Skill 的按需加载，项目内简报、页面、视频与自动化流程始终关联。桌面应用升级为 Manus Studio，新增视频编辑器与游戏开发两个专业环境，并支持在手机上让 Manus 操作电脑；同时推出面向个人生活场景的新应用 Cue。2.0 还可单独购买&quot;云电脑&quot;作为常驻运行环境，原有的定时任务升级为由邮件、广告数据、日历、Slack、Notion 等事件触发的 Automations。报道称 Manus 正在组建团队开发面向国内市场的产品，并与国产模型厂商及生态伙伴合作。
-🔗 https://mp.weixin.qq.com/s/Z6mEBavM00K8jJ7b-qhMSg
-
-3. 深度｜只用2周完成模型升级，最适合应用公司的后训练平台来了
-Mind Lab 发布模型后训练与推理平台 Mint Recursive，并同步以基于 GLM5.3、仅用两周完成的后训练模型 Macaron V1.1 做演示。文章的核心观察是模型研发正从&quot;交付项目&quot;变成&quot;持续更新&quot;：Cursor 用真实用户反馈训练其编程模型 Composer，最快每五小时推送一个新 checkpoint。真正稀缺的资源不是基座模型，而是企业自己的判断标准——Bridgewater 旗下 AIA Labs 与 Thinking Machines 的实验显示，仅优化提示词很快触顶，加入投资专家筛选/标注数据后模型判断才显著改善。而这些判断藏在专家的选择与用户的接受/拒绝中，因此企业更现实的目标是拥有一个可控可更新、并保留业务判断的模型版本。文章指出，持续训练的真正瓶颈是基础设施：训练、推理、任务环境必须协同，训推不一致会让系统把误差误判为进步或退步。
-🔗 https://mp.weixin.qq.com/s/F7dVtWDZpHUBLI6DuI4PEw
-
-4. Ben Thompson：AI 泡沫的钱会先烧完吗？
-宝玉翻译 Ben Thompson 在 Invest Like the Best 的访谈译文：他抛出反共识判断——美国在 AI 上的压倒性优势对世界是危险的，中国博弈论上的最优解可能是炸掉台积电，并认为美国对华供应链依赖被严重低估；同时提醒开源模型并不&quot;免费&quot;（省的是研发成本，推理成本照付），中国靠蒸馏大约落后 6-9 个月；他最担心的是资本能否在烧完前等到足够收入，并以铁路泡沫为类比。
-🔗 https://mp.weixin.qq.com/s/2vP0w9NYDRYvktPdFSRKzQ
-
-5. 个人主义才能救AI
-一篇对&quot;办公 Agent&quot;的尖锐批评：作者认为把生产力叙事套到非程序员身上并不成立——活早早干完老板也不会让你早下班，所谓效率提升的收益被企业而非员工拿走；他主张这些大厂把 toB 产品按 toC 方式推销、还让用户自掏腰包，从商业逻辑上就是死路。
-🔗 https://mp.weixin.qq.com/s/NgMqVokzcjj1ng68x5kVMg
-
-📖 查看完整日报（47 篇）→ https://news.justin7974.dev/2026-09-29.html</description>
     </item>
   </channel>
 </rss>
