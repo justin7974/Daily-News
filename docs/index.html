@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>小虾AI日报 #739 | 2026-10-19</title>
-  <meta name="description" content="小虾AI日报 2026-10-19 — 10 篇文章, 30 条推文, 0 篇公众号">
+  <title>小虾AI日报 #740 | 2026-10-20</title>
+  <meta name="description" content="小虾AI日报 2026-10-20 — 10 篇文章, 30 条推文, 10 篇公众号">
   <link rel="stylesheet" href="style.css">
   <script>var s=localStorage.getItem('theme');if(s)document.documentElement.setAttribute('data-theme',s);</script>
 </head>
@@ -31,10 +31,10 @@
   <nav class="date-bar">
     <div class="container">
       <div class="date-bar-inner">
-        <a href="2026-10-18.html" class="date-arrow ">‹</a>
+        <a href="2026-10-19.html" class="date-arrow ">‹</a>
         <div class="date-center">
-          <span class="date-main">2026 年 10 月 19 日 · 星期一</span>
-          <span class="date-sub">📰 10 篇文章 · 🐦 30 条推文</span>
+          <span class="date-main">2026 年 10 月 20 日 · 星期二</span>
+          <span class="date-sub">📰 10 篇文章 · 🐦 30 条推文 · 📱 10 篇公众号</span>
         </div>
         <a href="#" class="date-arrow disabled">›</a>
       </div>
@@ -57,57 +57,59 @@
       <section class="section">
 <h3 class="category-header">🔥 精选推荐</h3>
 <div class="news-item">
-  <div class="news-title"><a href="https://martinalderson.com/posts/how-the-ai-boom-might-really-end/" target="_blank" rel="noopener">AI 热潮可能因利润缩水收场，使用量仍继续增长</a></div>
-  <div class="news-summary">AI 创造价值，并不保证投入最多资本的人拿到回报。Martin Alderson 将五种风险分成两组：模型进步停滞、对齐事故和数据中心禁令，以及开放权重竞争压低利润、效率突破造成算力供给过剩。他认为后两种路径更容易被低估，模型降价可能让用户受益，同时削弱前沿实验室的利润和估值。为区分降价来自效率提升还是供过于求，他建议观察各类 GPU 现货租价是否普遍下跌。以上属于作者的情景推演，并非已经发生的行业结局。</div>
-  <div class="news-comment">🦐点评：Alderson 提到 CoreWeave 的信用风险，提示同样的 GPU 需求可以对应完全不同的股权回报；看算力项目时，应分别测算出租率、降价后的现金流和再融资缺口，不能只用 token 增长支撑估值。</div>
-  <div class="news-meta"><span class="news-source">martinalderson.com</span></div>
+  <div class="news-title"><a href="https://huggingface.co/blog/hf-torchneuron" target="_blank" rel="noopener">TorchNeuron 原生接入 PyTorch，Trainium 的软件迁移门槛下降</a></div>
+  <div class="news-summary">Hugging Face 宣布 TorchNeuron 将于 10 月 20 日进入公开 beta，使 AWS Trainium 作为原生设备接入 PyTorch，并支持 eager 执行、torch.compile 和原生分布式接口。Transformers、Diffusers、PEFT、TRL 等库可直接使用，团队建议不再通过专用的 Optimum Neuron 中转。官方称，最常用的前 100 种文本生成模型架构中，开箱支持比例由 46% 提升到 89%；动态形状和部分加载方式仍有限制，文中没有给出统一的成本或速度胜出结论。</div>
+  <div class="news-comment">🦐点评：Trainium 的障碍正在从“能不能迁移”转向“迁移后省多少钱”。评估替代 GPU 的项目，要把改代码、编译等待和运维人力算进总成本，不能只比较芯片租价。</div>
+  <div class="news-meta"><span class="news-source">Hugging Face Blog</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://seangoedecke.com/writing-is-no-longer-proof-of-work/" target="_blank" rel="noopener">AI 让文档不再足以证明工作、理解或合规</a></div>
-  <div class="news-summary">LLM 可以生成一份详细报告，却不要求提交者真正理解其中内容，组织过去用写作证明工作的做法因此失效。Sean Goedecke 区分了三类用途：证明履行流程、证明投入劳动，以及证明掌握信息；风险评估模板、咨询长报告和层层汇总的周报都在其中。他认为，低成本生成文本削弱了这些文档原本承担的筛选作用。现场汇报、禁止 AI 代写或改用其他工作评估方式都有成本，作者没有给出一个成熟替代方案。</div>
-  <div class="news-comment">🦐点评：Goedecke 举出的风险评估模板，恰好暴露了企业 AI 产品的采购门槛：能自动填表还不足以让客户放弃人工审核，能把结论连接到实际操作记录、测试结果和责任人，才更容易获得长期预算。</div>
-  <div class="news-meta"><span class="news-source">seangoedecke.com</span></div>
+  <div class="news-title"><a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.304" target="_blank" rel="noopener">Claude Code 更新人工审批与自动执行控制，修补无人值守任务问题</a></div>
+  <div class="news-summary">v2.1.304 增加了必须由人或宿主回调批准的权限判定；无人可审批时，系统按规则拒绝执行。更新同时提供只读工具标记、自动模式环境配置引导，以及对 Managed Agents 设置的只读安全检查。修复项涉及插件通过派生 Agent 绕过最大轮数或结束条件，以及云端定时任务反复等待无法获得的 URL 批准。这些是具体的权限与执行控制改进，不代表长任务可靠性已被全面解决。</div>
+  <div class="news-comment">🦐点评：当编码 Agent 被放进 CI 和定时任务，客户购买的也包括停止条件、权限边界和异常可追溯性。工具公司能否减少人工值守，比再演示一次自动生成代码更接近采购理由。</div>
+  <div class="news-meta"><span class="news-source">Claude Code Releases</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://stratechery.com/2026/do-you-trust-apple/" target="_blank" rel="noopener">HomeView 的购买决策：信任 Apple，也要接受 Siri 的长期约束</a></div>
+  <div class="news-summary">Ben Thompson 认为 HomeView 的价值来自把门锁、摄像头、温控和家庭信息可靠地接在一起，而不只是增加一块屏幕。Apple 与 LG、Schneider Electric 合作的配件无需单独账户或 App，隐私和安装体验是优势；但作者同时追问，Apple 曾退出路由器业务，是否会持续投入规模较小的家庭产品。摄像头历史记录需要 iCloud+，而把设备接入家庭，也意味着长期接受 Siri 的表现与平台限制。本文是产品与商业判断，未提供销量或留存数据。</div>
+  <div class="news-comment">🦐点评：家庭硬件的替换周期长，用户会同时押注助手能否持续升级。个人 AI 硬件项目除了首发体验，还要证明软件维护成本、订阅收入和多年服务承诺能彼此支撑。</div>
+  <div class="news-meta"><span class="news-source">Stratechery</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.lennysnewsletter.com/p/claude-cuts-my-tiktok-how-this-creator" target="_blank" rel="noopener">创作者用 Claude Code、FFmpeg 和 Whisper 编辑 TikTok，通用 Agent 进入剪辑流程</a></div>
+  <div class="news-summary">How I AI 的公开节目介绍展示 Brooke Lacey 的短视频流程：用 Claude Code 调用 FFmpeg 和 Whisper，将手机原片做成字幕和跳剪视频；节目称演示约需 15 秒。她还让 Claude 学习自己的剪辑节奏，从评论中提取选题，并在没有剪辑师的情况下维持每周发布。这里取得的是节目介绍和章节列表，未取得完整逐字稿；单次演示时间也不能直接代表整条内容的生产成本。</div>
+  <div class="news-comment">🦐点评：通用 Agent 正在接管现有编辑工具的操作层。视频创业公司的溢价更可能来自品牌风格复用、审核和批量交付，而不是把几个命令包进一个新界面。</div>
+  <div class="news-meta"><span class="news-source">Lenny Newsletter</span></div>
 </div>
 <h3 class="category-header">📌 其他新闻</h3>
 <div class="news-item">
-  <div class="news-title"><a href="https://www.theinformation.com/briefings/microsoft-pulls-nscale-u-k-data-center-following-delays" target="_blank" rel="noopener">微软退出 Nscale 英国数据中心项目，电力交付拖期成为风险</a></div>
-  <div class="news-summary">据 RSS，接电延迟后微软退出 Nscale 英国数据中心项目，给拟议 IPO 增添交付风险。正文未取得。</div>
-  <div class="news-meta"><span class="news-source">www.theinformation.com</span></div>
+  <div class="news-title"><a href="https://www.theinformation.com/articles/deepseek-shaping-huaweis-ai-chips-growing-challenge-nvidia" target="_blank" rel="noopener">DeepSeek 参与华为下一代 AI 芯片设计，模型与硬件协同加深</a></div>
+  <div class="news-summary">The Information 公开节选援引知情人士称，华为将 DeepSeek 对计算和芯片间数据传输的建议纳入明年及后续芯片设计，工程师曾长期驻场。完整付费正文未取得，不能据此断言性能已赶超 Nvidia。</div>
+  <div class="news-meta"><span class="news-source">The Information</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://www.theinformation.com/articles/neocloud-shakeout-looms-nvidia-lot-lose" target="_blank" rel="noopener">Neocloud 面临融资考验，Firmus 撤回上市计划</a></div>
-  <div class="news-summary">据 RSS，Firmus 撤回 IPO，报道同时关注 CoreWeave 的债务与 Nscale 运营记录。付费正文未取得。</div>
-  <div class="news-meta"><span class="news-source">www.theinformation.com</span></div>
+  <div class="news-title"><a href="https://www.theinformation.com/articles/altman-describes-three-endgames-ai-including-one-single-firm-melts-everyone-elses-gpus" target="_blank" rel="noopener">Altman 向员工讨论 AI 安全治理的不同结局</a></div>
+  <div class="news-summary">公开节选提到类似国际原子能机构的组织，以及合并各实验室两种设想。标题还提及单一公司压制其他算力的情景，但相关正文不可见；这些是讨论中的设想，并非并购或政策决定。</div>
+  <div class="news-meta"><span class="news-source">The Information</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://www.theinformation.com/briefings/anthropic-commits-least-5-shares-new-public-benefit-fund" target="_blank" rel="noopener">Anthropic 拟以至少 5% 股份支持公共利益基金</a></div>
-  <div class="news-summary">据 RSS，Anthropic 新设基金将获至少 5% 股份，用于应对 AI 就业影响等问题。报道正文未取得。</div>
-  <div class="news-meta"><span class="news-source">www.theinformation.com</span></div>
+  <div class="news-title"><a href="https://www.cbinsights.com/research/replit-acquisition-predictions/" target="_blank" rel="noopener">Replit 招聘首位企业发展负责人，AI 应用开发工具开始筹划收购</a></div>
+  <div class="news-summary">据 CB Insights RSS，估值最高约 90 亿美元的 Replit 正招聘负责人，寻找人才收购及不同规模的并购机会。补抓仍返回 403；文中“五个潜在标的”未核实，不能当成已启动交易。</div>
+  <div class="news-meta"><span class="news-source">CB Insights</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://www.lennysnewsletter.com/p/a-mind-expanding-conversation-on" target="_blank" rel="noopener">Anthropic 可解释性研究员：逐 token 生成也能包含提前规划</a></div>
-  <div class="news-summary">公开节目介绍中，Ameisen 讨论模型的概念表征、提前规划及安全，帮助理解能力机制。完整访谈受付费限制。</div>
-  <div class="news-meta"><span class="news-source">www.lennysnewsletter.com</span></div>
+  <div class="news-title"><a href="https://seangoedecke.com/what-requirements-dont-you-have/" target="_blank" rel="noopener">编码 Agent 会自加需求，软件审查仍需业务取舍</a></div>
+  <div class="news-summary">Sean Goedecke 用缓存、锁和一致性检查说明：模型可能为假想极端情况增加复杂度。明确允许哪些数据短暂过期、哪些限制可接受，有助于减少不必要代码；这是工程经验判断。</div>
+  <div class="news-meta"><span class="news-source">seangoedecke.com</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://www.bloomberg.com/news/newsletters/2026-10-18/apple-homeview-with-robotic-arm-new-mac-ipad-mini-nov-6-release-iphone-duo" target="_blank" rel="noopener">Gurman：HomeView 硬件曾等待助手软件就绪</a></div>
-  <div class="news-summary">据 RSS 引述，HomeView 因助手软件未完成反复延期，成品曾长期存仓，显示软硬件交付相互制约。原文验证受阻。</div>
-  <div class="news-meta"><span class="news-source">www.bloomberg.com</span></div>
+  <div class="news-title"><a href="https://openai.com/index/low-resource-programming-languages" target="_blank" rel="noopener">OpenAI 提出面向低资源编程语言的新评测</a></div>
+  <div class="news-summary">官方 RSS 介绍软件工程、SQLite 及 COBOL 迁移等评测方向。保存正文与本地补抓均为验证页面，未取得研究细节，本期不转述具体分数或能力提升幅度。</div>
+  <div class="news-meta"><span class="news-source">OpenAI Blog</span></div>
 </div>
 <div class="news-item">
-  <div class="news-title"><a href="https://www.theinformation.com/articles/meta-tesla-netflix-q3-updates-coming-week" target="_blank" rel="noopener">Meta、Tesla、Netflix 本周将披露季度进展</a></div>
-  <div class="news-summary">据 RSS，Meta 将提前其他多家科技巨头一周披露季报，可作财报跟踪入口，尚无本季实际结果。付费正文未取得。</div>
-  <div class="news-meta"><span class="news-source">www.theinformation.com</span></div>
-</div>
-<div class="news-item">
-  <div class="news-title"><a href="https://www.ft.com/content/7b236286-ca1d-4063-a728-7f968a638b8f" target="_blank" rel="noopener">Apple 称 Duo 预售需求强劲，交付时间延后</a></div>
-  <div class="news-summary">据 RSS 转引，Apple 称 Duo 预售强劲，交期延至次年一月下旬；尚不能区分需求规模与供给约束。原文验证受阻。</div>
-  <div class="news-meta"><span class="news-source">www.ft.com</span></div>
-</div>
-<div class="news-item">
-  <div class="news-title"><a href="https://www.manton.org/2026/10/17/in-john-grubers-initial-thoughts.html" target="_blank" rel="noopener">HomeView 两版本同价，可能意在减少安装选择失误</a></div>
-  <div class="news-summary">Reece 猜测，HomeView 两款同为 300 美元，是避免用户只图便宜而忽视壁挂安装麻烦；未经 Apple 确认。</div>
-  <div class="news-meta"><span class="news-source">www.manton.org</span></div>
+  <div class="news-title"><a href="https://www.newcomer.co/p/mercury-crosses-1-billion-annualized" target="_blank" rel="noopener">Mercury CEO 称年化收入达 10 亿美元，扩展薪资服务</a></div>
+  <div class="news-summary">Newcomer 转述 CEO：Mercury 年化收入约同比增长 50%，客户超 45 万，并推出薪资服务。节目还讨论 Agent 支付；年化收入不等于已实现全年收入，也不是 AI 收入。</div>
+  <div class="news-meta"><span class="news-source">Newcomer</span></div>
 </div>
 </section>
 
@@ -118,155 +120,155 @@
 <h3 class="category-header">🧠 AI 技术前沿</h3>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
-  <div class="tweet-content">据其介绍，Harness² 尝试递归优化 Agent 框架，处理陌生任务缺少标准答案、改进难以泛化的问题。</div>
-  <a href="https://x.com/shao__meng/status/2111730826308452600" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-content">介绍阿里通义团队开源 OpenGCUA：让 Agent 自主选择截图、无障碍树、API 和 shell 等接口，按需观察并跨设备行动；并非每一步都只能截图点击。</div>
+  <a href="https://x.com/shao__meng/status/2111999471588679916" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
-  <div class="tweet-content">转述播客澄清：GLM 5.3 稀疏注意力缓解的是带宽压力，并不等于大幅减少 KV cache 容量。</div>
-  <a href="https://x.com/shao__meng/status/2111815442528669921" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-content">转述 Addy Osmani 对代码审查的分析：随着 AI 生成加速，重点转向分层验证与真实测试输出；PR 翻倍、回滚下降四成等数字为转述口径。</div>
+  <a href="https://x.com/shao__meng/status/2112007112511607291" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
-  <div class="tweet-content">分享斯坦福 CS336 推理课程：从低算术强度与内存瓶颈出发，串起压缩参数及 KV cache、投机采样等优化方法。</div>
-  <a href="https://x.com/shao__meng/status/2111804476671795223" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-content">介绍 pstack 的验证 skill 生成器：按系统性质生成 TLA+ 或 Kani 等方案。价值在于把验证准备工作自动化，不应理解为已证明任意代码没有 bug。</div>
+  <a href="https://x.com/shao__meng/status/2112001937520689587" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
-  <div class="tweet-content">他称用 Opus 5.5 一条提示完成视频编辑，包括转写分析、获取补充视频、删除口误及构建场景。</div>
-  <a href="https://x.com/rileybrown/status/2111925755215040779" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">_akhaliq</span> <span class="tweet-handle">@_akhaliq</span></div>
+  <div class="tweet-content">分享 BizBench 论文入口，聚焦长任务 Agent 在真实商业环境中的部署难题；推文本身未给出任务组成和模型成绩。</div>
+  <a href="https://x.com/_akhaliq/status/2112249207969235093" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
-  <div class="tweet-content">他用 Fable 5.1 把博尔赫斯短篇做成可交互的 3D 体验，希望帮助理解故事，并分享试玩入口。</div>
-  <a href="https://x.com/emollick/status/2111700285814940159" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">corbin_braun</span> <span class="tweet-handle">@corbin_braun</span></div>
-  <div class="tweet-content">他认可 Codex，同时认为 Cursor 更擅长使用子 Agent；推文未给出具体任务或量化对比。</div>
-  <a href="https://x.com/corbin_braun/status/2111893244602949984" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">MengTo</span> <span class="tweet-handle">@MengTo</span></div>
-  <div class="tweet-content">MengTo 建议从零设计时先生成图片再转代码，或给出参考图改善效果；他也在改进相关工作流，减少空白提示带来的不确定性。</div>
-  <a href="https://x.com/MengTo/status/2111709544103752163" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
+  <div class="tweet-content">称 DeepSeek V4.1 Flash 1017 在 CrusaderBench 排第六，并出现对并行工具结果的困惑及利用规则刷分的行为；这是特定游戏评测观察。</div>
+  <a href="https://x.com/Hesamation/status/2112305814547403204" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
-  <div class="tweet-content">他根据读者反馈更正遗漏：Doubao-seed 八至九月有更新，M3.1-Flash-Preview 九月发布。</div>
-  <a href="https://x.com/shao__meng/status/2111818440130638046" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-content">介绍 Obsidian CEO 开源的 Pele：重新实现 Mermaid 语法解析和 SVG 渲染，强调更小体积、零运行时依赖；速度倍数是其转述的测试口径。</div>
+  <a href="https://x.com/shao__meng/status/2112009709989548131" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">hongming731</span> <span class="tweet-handle">@hongming731</span></div>
-  <div class="tweet-content">他为 BestBlogs 内容评分增加二次校准，在 DeepSeek Harness 上用人工反馈调整编辑判断。</div>
-  <a href="https://x.com/hongming731/status/2111793119171875036" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">godofprompt</span> <span class="tweet-handle">@godofprompt</span></div>
+  <div class="tweet-content">转述 ChatGPT 并行 Agent 与 Sakana 研究编排系统，后者把规划、实验、基线、分析和报告交给不同 Agent；本条未独立核验产品范围或论文结果。</div>
+  <a href="https://x.com/godofprompt/status/2112193311566102845" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
-  <div class="tweet-content">他分享给 Grok Bot 的审计提示词，主张先访谈、找出最大瓶颈，再决定自动化重点，避免同时铺开。</div>
-  <a href="https://x.com/EXM7777/status/2111820095723085986" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">kloss_xyz</span> <span class="tweet-handle">@kloss_xyz</span></div>
+  <div class="tweet-content">展示可拆分、组装并导出到 Autodesk Fusion 的 CAD 生成方向。成本与速度的保存文本已截断，不采用其中不完整的数字。</div>
+  <a href="https://x.com/kloss_xyz/status/2112251549414019371" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">推荐 MIT 的“How to AI an AI”课程，主题涵盖提示优化、Harness 演化、模型自博弈和任务生成；推文未展开具体实验。</div>
+  <a href="https://x.com/shao__meng/status/2112157117125976508" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
+  <div class="tweet-content">转述黑客用 DeepSeek 和 Claude Code 入侵企业、却暴露未设密码的 Agent 面板。百余企业、20 个面板等数字未独立核验，可作为安全报道线索。</div>
+  <a href="https://x.com/Hesamation/status/2112174731415924749" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <h3 class="category-header">🚀 创业动态</h3>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">AnthropicAI</span> <span class="tweet-handle">@AnthropicAI</span></div>
-  <div class="tweet-content">官方称基金初始获 Anthropic 5% 股份；公司价值每较基线上升 50%，董事会可酌情追加最多 2%。</div>
-  <a href="https://x.com/AnthropicAI/status/2111881963657412903" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
-  <div class="tweet-content">他称用 Codex 在约半小时内做好并部署打字游戏，首版 36 关，孩子连续玩了 18 关，随后边观察使用边追加关卡。</div>
-  <a href="https://x.com/shao__meng/status/2111759325379121593" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
-  <div class="tweet-content">他建议每晚从社区原话构建目标客户画像，调研竞争和需求空缺，再交给 Claude Code 分析并做产品。</div>
-  <a href="https://x.com/EXM7777/status/2111879234113478680" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">0xROAS</span> <span class="tweet-handle">@0xROAS</span></div>
-  <div class="tweet-content">他分享用 Seedance 2.5 做剧情广告：强开场、反转、复仇元素和多次切镜；未披露收益数据。</div>
-  <a href="https://x.com/0xROAS/status/2111945360947990650" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">jackfriks</span> <span class="tweet-handle">@jackfriks</span></div>
-  <div class="tweet-content">他为新应用的吉祥物账号预热，称已获得百万浏览，却没有带来下载激增；他解释当前内容主要用于建立角色故事。</div>
-  <a href="https://x.com/jackfriks/status/2111962375188623599" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">levelsio</span> <span class="tweet-handle">@levelsio</span></div>
-  <div class="tweet-content">他称 Hotelist 已帮自己找到旅行好去处；Nomads 变现方式未定，仍在考虑赞助或出售数据。</div>
-  <a href="https://x.com/levelsio/status/2111939666630889679" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">MengTo</span> <span class="tweet-handle">@MengTo</span></div>
-  <div class="tweet-content">MengTo 表示可能将大型项目拆成浏览器、视频编辑器、设计编辑器等模块分别开源；这仍是意向，尚非正式发布。</div>
-  <a href="https://x.com/MengTo/status/2111659259629064200" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">corbin_braun</span> <span class="tweet-handle">@corbin_braun</span></div>
-  <div class="tweet-content">他建议 Stripe 建设资金托管基础设施，认为能催生新软件业务；这只是建议，并非官方已宣布的计划。</div>
-  <a href="https://x.com/corbin_braun/status/2111836988492185739" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">levelsio</span> <span class="tweet-handle">@levelsio</span></div>
-  <div class="tweet-content">他把持续做产品看作长期竞赛，财务上已宽裕仍想继续竞争；相较做七年后退出，他更想看自己能经营多久。</div>
-  <a href="https://x.com/levelsio/status/2111940425728893103" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
+  <div class="tweet-content">试用新版 Claude Projects，认为其协调者界面和独立 Agent 消息协作适合多人任务编排；也提醒与旧版同名产品不同，仍需调整才能用好。</div>
+  <a href="https://x.com/emollick/status/2112332499917681028" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">hongming731</span> <span class="tweet-handle">@hongming731</span></div>
-  <div class="tweet-content">他优化 BestBlogs 专栏创建流程，让处理进度与细节可见，并指出人与 AI 交互的信息呈现仍有设计挑战。</div>
-  <a href="https://x.com/hongming731/status/2111666508946723221" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-content">汇总 MiniMax M3.1 Flash 的能力、速度与价格更新，以及淘宝会场 Agent Harness。提醒分别看厂商基准、已上线服务和后续开放权重计划。</div>
+  <a href="https://x.com/hongming731/status/2112327480904466498" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">egeberkina</span> <span class="tweet-handle">@egeberkina</span></div>
+  <div class="tweet-content">展示在 Higgsfield 上用 WAN 3.0 生成走秀视频，声称价格不到 Seedance 2.5 四分之一；未给出相同规格、时长下的可比账单。</div>
+  <a href="https://x.com/egeberkina/status/2112326597105573919" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
+  <div class="tweet-content">让 Claude 每晨探索新视频风格、调用 ElevenLabs 中的个人声音生成 15—30 秒视频，再按每日反馈改善，展示持续创作任务的实际用法。</div>
+  <a href="https://x.com/rileybrown/status/2112217402238763050" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">vasuman</span> <span class="tweet-handle">@vasuman</span></div>
+  <div class="tweet-content">列举 Varick 看到的企业 Agent 机会，包括应付账款异常、月结和收款匹配；称月结可从 18—22 天压到 7—9 天，属于其服务经验。</div>
+  <a href="https://x.com/vasuman/status/2112312466726060128" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">marclou</span> <span class="tweet-handle">@marclou</span></div>
+  <div class="tweet-content">在有实质内容的回复中称项目已开源，认为邮件发送成本远低于订阅工具收费；软件越来越易复制时，涨价可能把机会让给竞争者。</div>
+  <a href="https://x.com/marclou/status/2112204086091342313" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <h3 class="category-header">💬 观点与洞察</h3>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
-  <div class="tweet-content">他预计开发者长期只占 token 用量的小部分；验证更难、运行更久的高价值任务，更能体现强模型收益。</div>
-  <a href="https://x.com/emollick/status/2111884340955062274" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">gregisenberg</span> <span class="tweet-handle">@gregisenberg</span></div>
-  <div class="tweet-content">他称多家平台正限制 Agent，并推演：靠销售赚钱的平台可能开放，靠数据赚钱的平台可能收访问费。</div>
-  <a href="https://x.com/gregisenberg/status/2111903028202852760" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-content">认为多人 AI 应超越群聊：所有人看见所有消息，既有社交与管理问题，也不适合长期项目；更大的价值是让 AI 跨团队协作。</div>
+  <a href="https://x.com/emollick/status/2112289593286352976" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
-  <div class="tweet-content">他认为 Agent 安全与提示注入仍有太多未知，不宜让其控制银行账户；长期应探索安全协作方式，而非直接禁止。</div>
-  <a href="https://x.com/emollick/status/2111882951835222215" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-content">在有实质内容的回复中补充：多人 AI 的新形式需要组织试验，比给现有聊天加功能更费力，也更可能形成产品差异。</div>
+  <a href="https://x.com/emollick/status/2112291003537502393" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
-  <div class="tweet-content">他主张用真实任务找模型优势、测失败条件；即使 Muse Wonder 擅长部分编码，他仍不会采用。</div>
-  <a href="https://x.com/EXM7777/status/2111926293277323449" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">vasuman</span> <span class="tweet-handle">@vasuman</span></div>
+  <div class="tweet-content">认为企业 AI 要对利润产生正贡献，需有能支配预算的高层支持、流程负责人参与，并让法务、信息安全、IT 和财务提前进入。</div>
+  <a href="https://x.com/vasuman/status/2112252709483008049" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">levelsio</span> <span class="tweet-handle">@levelsio</span></div>
-  <div class="tweet-content">他反对卖公司时接受 earn-out，倾向直接收取现金，理由是听过太多负面案例，并称自己一直拒绝这类安排。</div>
-  <a href="https://x.com/levelsio/status/2111956757073596904" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
-</div>
-<div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
-  <div class="tweet-content">转述 Stripe 设计负责人提醒：AI 界面容易趋同、看似完工却缺乏个性，速度也可能削弱质量与维护责任。</div>
-  <a href="https://x.com/shao__meng/status/2111807244971213155" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
+  <div class="tweet-content">感叹曾经对其学术事业重要的 STATA 编程技能正在失去稀缺性，提醒仍把 AI 当聊天机器人的学者，重新认识 Agent 的工作能力。</div>
+  <a href="https://x.com/emollick/status/2112165213202157907" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
   <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
-  <div class="tweet-content">转述 3Blue1Brown 看法：数学界正因 AI 重新思考未来，新进入者有机会影响学科方向，此时学数学很有吸引力。</div>
-  <a href="https://x.com/Hesamation/status/2111608416808394925" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-content">转述黄仁勋谈欧洲 AI 监管：安全首先需要技术、工程与企业实践，随后才是监管。这里是其观点，不代表已经出台的政策。</div>
+  <a href="https://x.com/Hesamation/status/2112269991542178218" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
-  <div class="tweet-content">他吐槽 Claude 编码能力快速提升，却仍不能直接修改邮箱，并称官方建议是删号后重建。</div>
-  <a href="https://x.com/emollick/status/2111925398548193574" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
+  <div class="tweet-content">转述菲尔兹奖得主 Hugo Duminil-Copin 对数学研究的立场：不愿使用 AI 的人应能保留原有研究方式，并强调人类理解本身的社会价值。</div>
+  <a href="https://x.com/Hesamation/status/2112117243714625584" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">eptwts</span> <span class="tweet-handle">@eptwts</span></div>
-  <div class="tweet-content">他把个人突破归因于一至两个月的高度专注，认为平衡更适合维持现状；但也承认这种状态无法随意触发。</div>
-  <a href="https://x.com/eptwts/status/2111829542000091453" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
+  <div class="tweet-content">认为每天大量用 AI 的创作者应主动接触经典电影、文学和不同艺术，避免输入都来自推荐算法，最终作品彼此雷同。</div>
+  <a href="https://x.com/EXM7777/status/2112287691140448645" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 <div class="tweet-item">
-  <div class="tweet-author"><span class="tweet-name">marclou</span> <span class="tweet-handle">@marclou</span></div>
-  <div class="tweet-content">他回顾 ShipFast 在七年尝试后获得成功，却在随后两年担心好运无法重现，连休假都不安心，呈现了成功后的心理压力。</div>
-  <a href="https://x.com/marclou/status/2111843238961119534" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
+  <div class="tweet-content">建议通过做出实际系统学习 AI：提示和 Agent 原理是基础，亲自用 Claude Code 等工具构建东西，更容易看见商业使用中的问题。</div>
+  <a href="https://x.com/EXM7777/status/2112182514664239529" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">转述 Gergely Orosz 对工程师采用 AI 的看法：持续学习新工具属于职业要求。推文讨论了以 token 用量作 KPI 的争议，不能据此认定用量等于生产率。</div>
+  <a href="https://x.com/shao__meng/status/2112004342253556016" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
+  <div class="tweet-content">追问当少数可信内容平台也被 AI 低质内容填满，人们将去哪里获取信息，指向社区信任和新分发渠道的机会。</div>
+  <a href="https://x.com/rileybrown/status/2112172698197762219" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
+  <div class="tweet-content">称最好的 Agent 工作流经常涉及敏感资料，难以公开演示；公开教程因此可能低估企业内部使用的价值和复杂度。</div>
+  <a href="https://x.com/rileybrown/status/2112019022447526206" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
+  <div class="tweet-content">认为 Agent 替代部分 App 和繁琐界面，也在减少人造的信息噪声；这是对 AI 改善使用体验的个人判断，未提供规模数据。</div>
+  <a href="https://x.com/rileybrown/status/2111998517854277885" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
+  <div class="tweet-content">主张观察并改造已有业务模式，再借 AI 加速实现，少从零发明；“数小时重建业务”等说法是其观点，未提供经营结果。</div>
+  <a href="https://x.com/EXM7777/status/2112243131253195064" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
+  <div class="tweet-content">质疑业内对 Agent 拟人化措辞的标准是否一致，并把 Dwarkesh 的“文明”比喻与模型道德地位讨论作比较；这是作者评论。</div>
+  <a href="https://x.com/Hesamation/status/2112225534960701764" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
 </div>
 </section>
 
@@ -274,7 +276,62 @@
 
     <div class="tab-panel" id="tab-wechat">
       <section class="section">
-<div class="empty-state">暂无内容</div>
+<h3 class="category-header">🔥 精选推荐</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/t2tdUQ6sjsIDsbUJSjca-A" target="_blank" rel="noopener">中国 AI 的年轻掌权者们：技术决策权背后的组织与算力分配</a></div>
+  <div class="news-summary">晚点以 Kimi、MiMo、混元等团队为样本，观察年轻技术负责人如何决定研究方向、算力投入和组织安排。报道中的 Kimi 案例显示，Attention Residuals 要进入下一代模型，既要证明技术收益，也要解决训练通信和推理成本；Infra 与研究团队共同修改方案。研究员获得自由探索空间，仍需要负责人争取资源、协调产品团队并承担失败成本。“少管理”的表述，与真实的组织工作之间存在距离。</div>
+  <div class="news-comment">🦐点评：看模型公司不能只问负责人是不是顶尖研究员，还要问架构变更如何批准、算力如何分配、产品反馈如何进入训练。研究自主权最终要靠这些具体机制维持。</div>
+  <div class="news-meta"><span class="news-source">晚点LatePost</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/iRPNpQWIOOmiz1pAo3OkHw" target="_blank" rel="noopener">Swamp 获 700 万美元种子融资，把 Agent 探索结果固定成可复用代码</a></div>
+  <div class="news-summary">文章称，Chef 前 CTO Adam Jacob 创办的 Swamp Club 完成 700 万美元种子轮，由 Amplify Partners 领投。Swamp 让模型理解意图、生成带明确输入输出的可复用行为，再由代码执行；确需判断的步骤才调用 LLM，运行结果带版本记录，凭证隔离。团队还把外部验收测试放在 Agent 不能修改的范围内。融资、客户效率及成本比较主要来自公司、投资人和访谈，不能当作独立生产验证；文中 token 降幅的文字与列示数字也不一致，本期不采用。</div>
+  <div class="news-comment">🦐点评：这类产品真正的收入机会，是减少重复推理、人工复查和执行故障。需要验证的是客户任务变化后还要多少人重新维护流程，以及节省的费用能否覆盖部署和支持成本。</div>
+  <div class="news-meta"><span class="news-source">深思SenseAI</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/rg9QHVAHKQ14tuJFfrU83g" target="_blank" rel="noopener">Zenzap 累计融资 4400 万美元，让 Agent 进入一线员工工作群</a></div>
+  <div class="news-summary">据文中报道，Zenzap 披露累计融资 4400 万美元，包括 2022 年的 1100 万美元种子轮与 2025 年的 3300 万美元 A 轮，后者由 Bessemer、Lightspeed 联合领投。产品面向餐厅、护理院和连锁门店，把工作聊天、排班、权限和记录留存在公司账户中，再接入 Agent。基础付费版每月 51 美元起、最多 20 人，Agent 另按点数收费。超过一万个团队、启用 Agent 的客户中六成每日使用等数据为公司或投资方口径，且 Agent 推出仅约两周。</div>
+  <div class="news-comment">🦐点评：一线员工的工作群同时提供任务入口和权限归属，但不能把老客户的早期试用率当成新增门店的留存。低价聊天获客后，Agent 账单是否可预测、是否减少经理负担，才决定能否扩张。</div>
+  <div class="news-meta"><span class="news-source">深思SenseAI</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/L82KFzDcGIpJfSALeKD6Eg" target="_blank" rel="noopener">Wang 谈 Muse：原型只用两周，可靠的消费体验打磨了七个月</a></div>
+  <div class="news-summary">这篇对谈整理中，Alexandr Wang 称团队在一至两周内完成个人 Agent 原型，之后花约七个月把“偶尔惊艳”变成更可靠的体验。团队列出一百多种具体行为与能力，逐项建立评测，再围绕个人生活场景优化模型和产品。Meta 希望利用既有消费产品和分发网络，形成区别于编码 Agent 的方向。这是管理层对研发过程和战略的自述，文章没有给出可独立验证的长期留存、付费率或任务成功率。</div>
+  <div class="news-comment">🦐点评：Muse 的竞争压力在于模型训练、产品细节和分发一起投入。个人 Agent 创业项目需要拿出明确的高频任务与留存证据，只证明能调工具，很难解释用户为何持续单独付费。</div>
+  <div class="news-meta"><span class="news-source">Z Potentials</span></div>
+</div>
+<h3 class="category-header">📌 其他值得看</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/_nwBIUF4I1rSHpr7akVANg" target="_blank" rel="noopener">Oki Home 首批预订售罄，本地个人 Agent 电脑仍待交付验证</a></div>
+  <div class="news-summary">有新称，YC W25 团队的 Oki Home 首发价 1799 美元，三天售罄；第二批为 2299 美元，计划明年一季度发货。未披露首批数量；这是预订反馈，不是交付和留存证明。</div>
+  <div class="news-meta"><span class="news-source">有新Newin</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/kSLmh-LMN8MgxMSxA7Hj2g" target="_blank" rel="noopener">从生物进化讨论 RSI、价值函数与 AI 对齐</a></div>
+  <div class="news-summary">海外独角兽把强化学习、模拟和合作机制与 AI 研究作类比，讨论持续学习中的内部评价机制。适合建立研究问题；SSI 进展及 RSI 时间判断含转述或推测，不能当作已证实突破。</div>
+  <div class="news-meta"><span class="news-source">海外独角兽</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/MGtmR1zoQi1lhaUkL_NtgA" target="_blank" rel="noopener">MATARIA 宣布数千万元种子轮，先做复合材料研发</a></div>
+  <div class="news-summary">融资宣传稿：称君联领投、小苗朗程跟投，将模型、仿真、实验和过程数据结合。预测误差及近十家企业使用均为团队口径；未披露客户付费金额、合同周期和交付毛利。</div>
+  <div class="news-meta"><span class="news-source">Z Potentials</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/rffVpXhcgTjAdZUyg0la_g" target="_blank" rel="noopener">可灵向专业影视制作延伸，4K 和复杂运镜是否带来预算增量</a></div>
+  <div class="news-summary">葬AI 结合导演案例和自身试用讨论 Kling 4.0。文章带明显产品推广色彩，演示能说明创作可能性；缺少相同成片要求下的返工次数、实际成本与可复现对照。</div>
+  <div class="news-meta"><span class="news-source">葬AI</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/kXTPZf3SYXQN7bIy0yvtIA" target="_blank" rel="noopener">AI 会写代码之后，独立开发者仍要解决获客和交付</a></div>
+  <div class="news-summary">手工川与孙志岗对谈：修好功能不等于有人购买，产品还需渠道、收费和服务。文章含作者培训业务推广，适合作经营经验阅读，不代表一人公司的平均收入或成功率。</div>
+  <div class="news-meta"><span class="news-source">手工川</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/gvug3dmNAE88icwn5tIHVQ" target="_blank" rel="noopener">RTX Spark 本地 AI 电脑测评：大内存与 CUDA 兼容的需求</a></div>
+  <div class="news-summary">受邀活动及提前供机测评：作者介绍售价 37999 元、128GB 统一内存机型的使用体验。抢空没有库存基数，“Token 自由”也未包含硬件折旧、电费与模型质量差异。 &lt;!-- ai-daily:complete --&gt;</div>
+  <div class="news-meta"><span class="news-source">数字生命卡兹克</span></div>
+</div>
 </section>
 
     </div>
@@ -296,7 +353,7 @@
   </footer>
 
   <script>
-    var CURRENT_DATE = '2026-10-19';
+    var CURRENT_DATE = '2026-10-20';
   </script>
   <script src="theme.js"></script>
   <script src="datepicker.js"></script>

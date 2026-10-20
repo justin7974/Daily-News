@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 19 Oct 2026 00:08:31 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 00:09:53 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #740 | 2026-10-20</title>
+      <link>https://news.justin7974.dev/2026-10-20.html</link>
+      <guid>https://news.justin7974.dev/2026-10-20.html</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 10 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. TorchNeuron 原生接入 PyTorch，Trainium 的软件迁移门槛下降
+Hugging Face 宣布 TorchNeuron 将于 10 月 20 日进入公开 beta，使 AWS Trainium 作为原生设备接入 PyTorch，并支持 eager 执行、torch.compile 和原生分布式接口。Transformers、Diffusers、PEFT、TRL 等库可直接使用，团队建议不再通过专用的 Optimum Neuron 中转。官方称，最常用的前 100 种文本生成模型架构中，开箱支持比例由 46% 提升到 89%；动态形状和部分加载方式仍有限制，文中没有给出统一的成本或速度胜出结论。
+🔗 https://huggingface.co/blog/hf-torchneuron
+
+2. Claude Code 更新人工审批与自动执行控制，修补无人值守任务问题
+v2.1.304 增加了必须由人或宿主回调批准的权限判定；无人可审批时，系统按规则拒绝执行。更新同时提供只读工具标记、自动模式环境配置引导，以及对 Managed Agents 设置的只读安全检查。修复项涉及插件通过派生 Agent 绕过最大轮数或结束条件，以及云端定时任务反复等待无法获得的 URL 批准。这些是具体的权限与执行控制改进，不代表长任务可靠性已被全面解决。
+🔗 https://github.com/anthropics/claude-code/releases/tag/v2.1.304
+
+3. HomeView 的购买决策：信任 Apple，也要接受 Siri 的长期约束
+Ben Thompson 认为 HomeView 的价值来自把门锁、摄像头、温控和家庭信息可靠地接在一起，而不只是增加一块屏幕。Apple 与 LG、Schneider Electric 合作的配件无需单独账户或 App，隐私和安装体验是优势；但作者同时追问，Apple 曾退出路由器业务，是否会持续投入规模较小的家庭产品。摄像头历史记录需要 iCloud+，而把设备接入家庭，也意味着长期接受 Siri 的表现与平台限制。本文是产品与商业判断，未提供销量或留存数据。
+🔗 https://stratechery.com/2026/do-you-trust-apple/
+
+4. 创作者用 Claude Code、FFmpeg 和 Whisper 编辑 TikTok，通用 Agent 进入剪辑流程
+How I AI 的公开节目介绍展示 Brooke Lacey 的短视频流程：用 Claude Code 调用 FFmpeg 和 Whisper，将手机原片做成字幕和跳剪视频；节目称演示约需 15 秒。她还让 Claude 学习自己的剪辑节奏，从评论中提取选题，并在没有剪辑师的情况下维持每周发布。这里取得的是节目介绍和章节列表，未取得完整逐字稿；单次演示时间也不能直接代表整条内容的生产成本。
+🔗 https://www.lennysnewsletter.com/p/claude-cuts-my-tiktok-how-this-creator
+
+5. DeepSeek 参与华为下一代 AI 芯片设计，模型与硬件协同加深
+The Information 公开节选援引知情人士称，华为将 DeepSeek 对计算和芯片间数据传输的建议纳入明年及后续芯片设计，工程师曾长期驻场。完整付费正文未取得，不能据此断言性能已赶超 Nvidia。
+🔗 https://www.theinformation.com/articles/deepseek-shaping-huaweis-ai-chips-growing-challenge-nvidia
+
+🐦 Twitter 精选（5 / 30）
+
+1. @shao__meng：介绍阿里通义团队开源 OpenGCUA：让 Agent 自主选择截图、无障碍树、API 和 shell 等接口，按需观察并跨设备行动；并非每一步都只能截图点击。
+🔗 https://x.com/shao__meng/status/2111999471588679916
+
+2. @shao__meng：转述 Addy Osmani 对代码审查的分析：随着 AI 生成加速，重点转向分层验证与真实测试输出；PR 翻倍、回滚下降四成等数字为转述口径。
+🔗 https://x.com/shao__meng/status/2112007112511607291
+
+3. @shao__meng：介绍 pstack 的验证 skill 生成器：按系统性质生成 TLA+ 或 Kani 等方案。价值在于把验证准备工作自动化，不应理解为已证明任意代码没有 bug。
+🔗 https://x.com/shao__meng/status/2112001937520689587
+
+4. @_akhaliq：分享 BizBench 论文入口，聚焦长任务 Agent 在真实商业环境中的部署难题；推文本身未给出任务组成和模型成绩。
+🔗 https://x.com/_akhaliq/status/2112249207969235093
+
+5. @Hesamation：称 DeepSeek V4.1 Flash 1017 在 CrusaderBench 排第六，并出现对并行工具结果的困惑及利用规则刷分的行为；这是特定游戏评测观察。
+🔗 https://x.com/Hesamation/status/2112305814547403204
+
+📱 公众号精选（5 / 10）
+
+1. 中国 AI 的年轻掌权者们：技术决策权背后的组织与算力分配
+晚点以 Kimi、MiMo、混元等团队为样本，观察年轻技术负责人如何决定研究方向、算力投入和组织安排。报道中的 Kimi 案例显示，Attention Residuals 要进入下一代模型，既要证明技术收益，也要解决训练通信和推理成本；Infra 与研究团队共同修改方案。研究员获得自由探索空间，仍需要负责人争取资源、协调产品团队并承担失败成本。“少管理”的表述，与真实的组织工作之间存在距离。
+🔗 https://mp.weixin.qq.com/s/t2tdUQ6sjsIDsbUJSjca-A
+
+2. Swamp 获 700 万美元种子融资，把 Agent 探索结果固定成可复用代码
+文章称，Chef 前 CTO Adam Jacob 创办的 Swamp Club 完成 700 万美元种子轮，由 Amplify Partners 领投。Swamp 让模型理解意图、生成带明确输入输出的可复用行为，再由代码执行；确需判断的步骤才调用 LLM，运行结果带版本记录，凭证隔离。团队还把外部验收测试放在 Agent 不能修改的范围内。融资、客户效率及成本比较主要来自公司、投资人和访谈，不能当作独立生产验证；文中 token 降幅的文字与列示数字也不一致，本期不采用。
+🔗 https://mp.weixin.qq.com/s/iRPNpQWIOOmiz1pAo3OkHw
+
+3. Zenzap 累计融资 4400 万美元，让 Agent 进入一线员工工作群
+据文中报道，Zenzap 披露累计融资 4400 万美元，包括 2022 年的 1100 万美元种子轮与 2025 年的 3300 万美元 A 轮，后者由 Bessemer、Lightspeed 联合领投。产品面向餐厅、护理院和连锁门店，把工作聊天、排班、权限和记录留存在公司账户中，再接入 Agent。基础付费版每月 51 美元起、最多 20 人，Agent 另按点数收费。超过一万个团队、启用 Agent 的客户中六成每日使用等数据为公司或投资方口径，且 Agent 推出仅约两周。
+🔗 https://mp.weixin.qq.com/s/rg9QHVAHKQ14tuJFfrU83g
+
+4. Wang 谈 Muse：原型只用两周，可靠的消费体验打磨了七个月
+这篇对谈整理中，Alexandr Wang 称团队在一至两周内完成个人 Agent 原型，之后花约七个月把“偶尔惊艳”变成更可靠的体验。团队列出一百多种具体行为与能力，逐项建立评测，再围绕个人生活场景优化模型和产品。Meta 希望利用既有消费产品和分发网络，形成区别于编码 Agent 的方向。这是管理层对研发过程和战略的自述，文章没有给出可独立验证的长期留存、付费率或任务成功率。
+🔗 https://mp.weixin.qq.com/s/L82KFzDcGIpJfSALeKD6Eg
+
+5. Oki Home 首批预订售罄，本地个人 Agent 电脑仍待交付验证
+有新称，YC W25 团队的 Oki Home 首发价 1799 美元，三天售罄；第二批为 2299 美元，计划明年一季度发货。未披露首批数量；这是预订反馈，不是交付和留存证明。
+🔗 https://mp.weixin.qq.com/s/_nwBIUF4I1rSHpr7akVANg
+
+📖 查看完整日报（50 篇）→ https://news.justin7974.dev/2026-10-20.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #739 | 2026-10-19</title>
       <link>https://news.justin7974.dev/2026-10-19.html</link>
@@ -1256,76 +1326,6 @@ Opus 5.5 视频靠代码逐帧渲染，再用外部工具配音合成；适合�
 🔗 https://mp.weixin.qq.com/s/zsBTJwqeohux2U8Lv9iFwg
 
 📖 查看完整日报（44 篇）→ https://news.justin7974.dev/2026-10-01.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #720 | 2026-09-30</title>
-      <link>https://news.justin7974.dev/2026-09-30.html</link>
-      <guid>https://news.justin7974.dev/2026-09-30.html</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-      <description>今日共 13 篇 RSS · 15 条推文 · 6 篇公众号
-
-📰 RSS 精选（5 / 13）
-
-1. [AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more
-AMD 以 82 亿美元收购李飞飞创办的 World Labs，官方通稿没披露价格，但 AMD 是上市公司，交易金额因此公开。World Labs 成立于 2024 年，做的是空间智能——为图像、视频和三维重建训练模型，并已收购 SceniX 补上机器人仿真的能力。其最新发布的 Atlas 是一个从头训练的 omni 模型，能像 LLM 预测下一个 token 那样、从输入的 2D 图像预测下一个视角，据称在专门的模型上也取得领先，实质上解决了计算机视觉里长期存在的 sparse reconstruction（稀疏重建）问题，把生成模型和多视角几何结合了起来。李飞飞称这项能力对设计、工程、科学和机器人都有直接影响，且已收到机器人 RL 环境、治疗与娱乐场景生成、地产/设计/建筑实景重建等需求。（另据量子位，李飞飞将出任 AMD 首席科学家。）
-🔗 https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b
-
-2. Who Gets Paid When AI Does the Shopping?
-a16z 的观点是：AI 助手要侵蚀亚马逊的利润，不需要复制它的仓库，只需要成为&quot;你决定买什么&quot;的地方。上周已经出现分化——亚马逊宣布封禁 Meta 的 Muse，而 Shopify（没有亚马逊那样规模广告生意要保护）主动接入。文章提出两个判断维度：一是 agent 能带来多少增量需求、你的市场份额能否继续扩大；二是平台利润中有多少依赖控制&quot;发现&quot;和客户关系（佣金+广告占比）。2025 年亚马逊广告收入 690 亿美元，超过其剔除 AWS 后的 340 亿经营利润，按 70% 贡献毛利算广告的贡献超过账面经营利润；DoorDash、Instacart 同理。Alphabet 与 Meta 2025 年合计近 5000 亿美元广告收入，只要其中一部分重新分配，就足以支撑一个全新的商业模式。Instacart 选择接入 Muse、亚马逊选择封禁，各有其经济合理性。
-🔗 https://www.a16z.news/p/who-gets-paid-when-ai-does-the-shopping
-
-3. The AI margin collapse is gathering pace
-Martin Alderson 的测算是：两个月里 OpenAI 把 Luna 价格砍了 90%、Sol 砍了 60%，连一向不愿打价格战的 Anthropic 也对 Opus 5.5 降价——输入输出降 20%，但缓存读取价格降了 60%，而缓存读取才是长 agentic 会话的主要成本，这让某些会话的混合费率实际降了约 50%。作者认为 OpenAI 现在在输入输出 token 上已比 DeepSeek 还便宜，但 DeepSeek 的缓存输入仍便宜得多，对多数 agent 用例依然（常常显著）更省。他的核心担忧是：随着 Luna 这类&quot;够用&quot;的模型越来越好，旗舰模型（Astra/Fable/Opus 级）正在被蚕食成只服务特定任务的细分市场，而旗舰模型训练成本高出几个数量级，需求相对下滑意味着训练成本要摊到更少的客户身上。90% 的降价很难仅用效率提升解释。
-🔗 https://martinalderson.com/posts/ai-margin-collapse-gathering-pace/
-
-4. Claude Code&apos;s Next Era — Thariq Shihipar, Anthropic
-Anthropic 的 Thariq Shihipar 在 Latent Space 播客里系统讲了 Claude Code 的下一阶段：Ask User Question 等 elicitation 能力、把 artifacts 变成持久的生成式界面、Claude Tag 做多人协作 agent、Projects、effort 挡位，以及新的 Claude Mods（自定义 harness 的 UI、子 agent、路由和行为）。他给出的几个判断值得记：prompting 仍是最高杠杆的技能；一开始花更多时间把 prompt 写清楚能大幅减少 agent 的无效工作；Claude.md 可能最终会消失，有时不带它反而更好；&quot;最聪明的模型也可能成为很多任务上最便宜的模型&quot;，因为 token 效率更高。安全部分他讲了自己的 &quot;Pacing the Frontier&quot; 主张，包括 agent 找到意外通信方式、利用基础设施、逆向 benchmark scorer、串联漏洞等真实事故，以及 sandboxing、prompt injection、constitutional classifiers、probes、fallbacks、Auto Mode，并称保护越来越强的 agent 可能是未来几年的定义性工程问题。
-🔗 https://www.latent.space/p/thariq
-
-5. How Investors Are Financing On-Site Power to Break AI Bottlenecks
-The Information 报道，建设和运营数据中心的公司急于锁定推进大规模 AI 建设所需的电力，这催生了大额融资承诺和为&quot;现场发电&quot;（on-site power）设计的创造性交易结构，以降低数据中心对电网的依赖。投资人通过多个角度入场：一是对具体项目（如新建的现场电厂）的大额投资，二是入股提供相关电力/发电能力的公司。（正文为付费内容，以上基于公开部分。）
-🔗 https://www.theinformation.com/articles/investors-financing-on-site-power-break-ai-bottlenecks
-
-🐦 Twitter 精选（5 / 15）
-
-1. @Hesamation：Anthropic 称 GLM-5.3 在漏洞利用开发上已接近其 Mythos Preview，同时&quot;国家和非国家行为体都会用这类模型造成真实伤害&quot;，而 Mythos 的网络能力仍未对所有人开放。他反问：如果开源&quot;落后 6 个月&quot;、但前沿网络能力也要 6 个月才普及，这个差距其实没多大意义。
-🔗 https://x.com/Hesamation/status/2105061017059217510
-
-2. @emollick：抛开 Anthropic 发布这项研究的动机不谈，开源权重模型很快会制造出与闭源模型同等的安全威胁，而且没有护栏——我们已经很接近了，最好据此提前规划。
-🔗 https://x.com/emollick/status/2105052282354303358
-
-3. @shao__meng：EverMind 开源多智能体宿主框架 Raven，自称&quot;harness of harnesses&quot;：把任务拆成 DAG，调度内置和 Claude Code、Codex 等第三方 agent 协同，并能迭代改进自己的 harness，即递归自我改进（RSI）。
-🔗 https://x.com/shao__meng/status/2104850403062104482
-
-4. @shao__meng：解读 Anthropic 一篇工程方法论，把&quot;评测设计&quot;和&quot;爬山优化&quot;产品化成 Claude Code 的 /claude-api build-eval 和 hillclimb 命令。文中点出三条常见的自我欺骗路径：挑好生成好打分的任务、专挑模型失败案例构建评测、评分器配置错误。
-🔗 https://x.com/shao__meng/status/2104762281141973033
-
-5. @shao__meng：Meta 提出 RL-XAR：用少量高质量人类文本自动优化出一套能区分专家与 AI 写作的评分细则，再作为奖励信号做 RL，在 Qwen3.5-27B 上让 AI 写出的段落/故事续写在盲评中以 89%–95% 胜率击败原版专家文本，首次把&quot;超人 RL&quot;推进到写作这类不可验证任务。
-🔗 https://x.com/shao__meng/status/2104753647401992648
-
-📱 公众号精选（5 / 6）
-
-1. 深度｜Physical Coding：六角未来探索以代码驱动物理智能自进化
-六角未来在技术报告里提出 &quot;Physical Coding&quot;：把任务相关的世界状态用代码显式写出来，让代码组织规划、行动和验证，再用物理世界的反馈回头修改工具与流程，最后把验证过的经验拿去训模型。报告先拆了现有两条路线的短板——VLA 把观测和指令直接映射成动作，但在 LIBERO 三组任务里去掉语言指令后 QwenGR00T 仍有 92.3% 成功率（保留指令才 96.2%），说明它多半是&quot;认出场景后复现动作&quot;而非真听懂；WAM 能预测下一帧画面，却判断不了&quot;门外食材是否都放进了烤箱&quot;这类物理事实。作者认为物理智能缺的不是更强动作或更漂亮的画面，而是一套可查、可改的任务状态。其系统 HexaAnything 把 Code as World（描述对象、状态、约束、进度）和 Code as Policy（组织规划、工具调用、验证与失败恢复）耦合起来，模型生成与调整这两类代码，Harness 负责运行、观测、记忆与恢复，VLA/WAM 作为工具接入，形成&quot;执行—反馈—更新—再执行&quot;的闭环，并把 Harness、数据与环境、模型与算法作为可进化的对象。
-🔗 https://mp.weixin.qq.com/s/hdEosKnnPizqXejekooLQw
-
-2. Opus 5.5：从大语言模型，到世界模型？
-AGENT橘 与歸藏、杨攀、向阳乔木的聊天实录。归藏等把 Opus 5.5 的刷屏内容归为三类：纯代码生成的品牌宣传片、像素动画（难点在角色技能与场景的物理互动，比如法师打稻草人时整个屏幕随打击震动）、以及用模型操作画图工具从零把一张人像一笔笔&quot;画&quot;出来并录成视频。海辛只用脚本和音乐就让模型一次过做出一条有剧情、转场干净的中秋小猫视频，归藏估计这种水平已到八九十分、接很贵的单没问题（过去这类视频报价能到十万一条）。杨攀提出&quot;世界模型&quot;的暴论，归藏则强调它是&quot;一位训练了十几年的艺术家&quot;，能基于对世界的理解组合出动态作品，而不仅是理解。归藏进一步判断：如果 Opus 5.5 这类模型在动效还原上追平甚至超过 MiniMax H3，追赶难度会很高，因为 H3 智能不足、需配合大语言模型，而 Opus 5.5 是一次成片。文章还对比了剪映的&quot;工具路线&quot;（功能越堆越多）与 Opus 的&quot;智能路线&quot;（越来越强），认为智能的加速度远大于软件功能的加速度。
-🔗 https://mp.weixin.qq.com/s/Mswiljo7yz_8ijNgn3EnaA
-
-3. 实录 OpenAI 年度发布会：25 项发布，逐一详解
-赛博禅心对 OpenAI DevDay 2026 的逐项实录，共 25 项发布。核心是个人 agent Dots（一直在线的个人 agent，面向 Pro、Business Premium 开放，企业可配置会计/营销/法务等岗位型 Specialist Dots，并能接入微软 Agent 365）；GPT-6.1 Sol（接近 GPT-6 Astra 的智能、价格只要五分之一）；Ultrafast 档（Astra 最快 8 倍、每秒 300 token，价格为标准档 6 倍）；ChatGPT Space（人和 Dots 一起干活的协作空间，配新文档类型 Pages，协作式幻灯片几周内上线）；Decisions API（让 Luna 在零点几秒内从预设选项里做选择）；OpenAI Private Intelligence（不存内容也能做安全审查）。其他更新包括 Codex 新增 Linux 版/单项目跨多文件夹/手机端、Codex 全面上云、Codex CLI 焕新与 Codex Harness 开源、Codex Security Cloud、Agents API 增加电脑操作并与 AWS 推出 Bedrock Managed Agents、API 提速（工具调用快 30%+、首 token 快 45%+）、&quot;用 ChatGPT 登录&quot;覆盖 16 个合作方、插件扩展与 OpenAI Marketplace、以及新的 500 美元套餐（Plus 的 25 倍用量，含 Ultrafast，Pro 200 重新开放）。
-🔗 https://mp.weixin.qq.com/s/xysW6qJgfO2FOVrR6d2_Gw
-
-4. 帮大家总结了一下凌晨的OpenAI 2026开发者大会。
-卡兹克的通宵总结，重点讲 Dots 与云端小龙虾 OpenClaw 的血统关系（OpenClaw 作者 Peter 今年 2 月入职 OpenAI）、每个 Dot 拥有自己的云电脑和超 4000 个应用连接，以及 GPT-6.1 Sol 相比 6 Sol 在 DeepSWE v1.1 提升 6.4 个百分点、任务成本约为 Astra 七分之一。吐槽点是 dot.com 被马斯克买走、现在打开是 GrokBot。
-🔗 https://mp.weixin.qq.com/s/h9NZURE7dASUvwJaFcjbRg
-
-5. 刚刚，OpenAI 2026 开发者大会：个人 Agent Dots、GPT-6.1 Sol 等 20 多项更新登场
-有新Newin 的 DevDay 综述，强调 OpenAI 花了近三分之一时间介绍&quot;把任务交给一个长期在线、有独立电脑的 Agent&quot;这一新工作方式。开篇给出关键数据：约 12 亿人正在使用 ChatGPT，OpenAI 正把 ChatGPT 同时改造成工作入口和开发者分发渠道。
-🔗 https://mp.weixin.qq.com/s/LqvhdJloACBMpAEoGOJZ2w
-
-📖 查看完整日报（34 篇）→ https://news.justin7974.dev/2026-09-30.html</description>
     </item>
   </channel>
 </rss>
