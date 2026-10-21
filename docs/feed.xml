@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 20 Oct 2026 00:09:53 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 00:08:42 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #741 | 2026-10-21</title>
+      <link>https://news.justin7974.dev/2026-10-21.html</link>
+      <guid>https://news.justin7974.dev/2026-10-21.html</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 7 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. SF Compute：算力交易的壁垒在交付，GPU 小时并非标准商品
+SF Compute 从转租集群起步，逐渐补齐云服务运营能力，因为交易的买方需要拿到真正可用的算力。CEO Evan Conrad 在访谈中解释，中断容忍度、存储恢复速度、GPU 代际和网络配置都会改变合约价格，也会把流动性分散到不同规格。平台希望用可编程订单匹配这些差异，同时建立远期价格曲线；集群融资周期通常长达三至五年。访谈还讨论了动态划分 InfiniBand 网络等能力，说明交易撮合与底层工程交付紧密相连。
+🔗 https://www.latent.space/p/sfcompute2
+
+2. IBM 用提示词记忆改善客服 Agent，旧模型也能提升重复成功率
+IBM 的 ALTK-Evolve 不更新模型权重，而是从训练任务的成功与失败中提炼行为规则，再加入客服 Agent 的系统提示。GPT-4.1 在零售留出测试集上，四次尝试全部成功的任务比例由 57.5% 提升到 67.5%；航空任务则是精简规则比全量规则更可靠。代价主要是输入 token 增加：零售全量规则方案每次对话成本由 0.084 美元升到 0.139 美元，统计同时包含 Agent 和模拟用户。作者的榜单比较使用完整任务集及 10 月 12 日快照，不能与留出测试结果混作同一指标。
+🔗 https://huggingface.co/blog/ibm-research/altk-evolve-bc
+
+3. TorchTPU 让 PyTorch 原生使用 TPU，替代算力的软件阻力继续下降
+Hugging Face 宣布 Transformers、Diffusers 和 Kernels 通过 TorchTPU 原生支持 TPU，开发者可使用熟悉的 PyTorch 代码及 eager、编译和分布式执行。此前需要的 Optimum TPU 中转不再是必需，图像和视频管线也可接入。团队称已运行的 TPU 测试中 96.5% 通过，并披露已报告 34 个问题、其中 19 个修复。文中的内核加速倍数以 TPU 默认实现为基准，不能据此推断 TPU 相对 NVIDIA GPU 的成本优势。
+🔗 https://huggingface.co/blog/hf-torchtpu
+
+4. DeepSeek 开放推理栈：开源竞争从模型权重延伸到服务效率
+Interconnects 将 DeepInfer 列为近几个月重要的开源产物：头部实验室把内部推理工具交给社区，第三方服务商有机会缩小与原厂的成本差距。文章同时梳理 DeepSeek V4.1 Flash 1017、Reflection 的 Beam 等模型，强调性能、token 效率和宽松许可证需要共同比较。作者认为开源生态正面对更强的跨境与采购限制，并区分中国政策提案与已经生效的法律。有关 DeepSeek 毛利和监管影响的描述属于作者估计与解读，本期取得的是付费墙前的可见正文。
+🔗 https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek
+
+5. NVIDIA 把生成式手术仿真推进到临床录像场景
+NVIDIA 发布 Cosmos3-H-Dreams，用临床胆囊切除术的同步视频与机器人运动数据训练交互式生成仿真。系统基于 160 亿参数模型，接收双臂位姿、夹爪及能量控制等 28 维动作，并提供四步和两步蒸馏模型，在单张 RTX PRO 6000 上交互运行。官方明确指出，画面逼真只能作为验证起点，尚不能证明组织形变和接触力学准确。覆盖完整手术、外科医生评估和自主策略训练仍属于后续研究方向。
+🔗 https://huggingface.co/blog/nvidia/cosmos3-h-dreams
+
+🐦 Twitter 精选（5 / 30）
+
+1. @shao__meng：介绍 DeepInfer：把注意力、矩阵乘法和通信等内核整合为推理引擎；称本次聚焦离线推理，采用 Apache 2.0 许可。
+🔗 https://x.com/shao__meng/status/2112478119814947218
+
+2. @karminski3：实测称 DeepSeek 新版后端编码能力提升，但行动更保守、预算控制有波动；需调整 Harness，不能只换模型。
+🔗 https://x.com/karminski3/status/2112362936899616823
+
+3. @Hesamation：转述一项多步进攻性网络安全任务：DeepSeek V4.1 Flash 1017 胜过 GPT 6 Sol；仅代表该任务结果。
+🔗 https://x.com/Hesamation/status/2112474544237642176
+
+4. @AnthropicAI：Anthropic 发布 Claude 设计蝎毒蛋白结合物的探索性研究，目标是寻找治疗线索；本条未宣称已经制成抗毒药。
+🔗 https://x.com/AnthropicAI/status/2112579251555721573
+
+5. @_akhaliq：分享 OpenVLHarness 论文，主题为结合多模态记忆的真实世界视觉 Agent 工具使用；推文未给出具体成绩。
+🔗 https://x.com/_akhaliq/status/2112566784343876081
+
+📱 公众号精选（5 / 7）
+
+1. Tipsy：高客单价 AI 陪伴，收入故事仍需拆开验证
+作者援引 Sensor Tower 估计，Tipsy 8 月月收入约 1700 万美元、DAU 不足 50 万，并估算 ARPPU 为 90—100 美元；这些并非公司审计披露。体验分析认为，女性向角色扮演、连续剧情和关系记忆，提高了用户“继续读下去”的付费动力，产品更接近个性化小说与互动游戏。文章同时指出，6 月底以来的激进买量可能拖累整体留存和利润，付费用户留存不能代替全体用户留存。作者质疑其数十亿美元估值，认为一对一内容消费尚未形成语音房式的多人付费网络效应。
+🔗 https://mp.weixin.qq.com/s/SkQ3DzaNCwtdTPQLvG8y8g
+
+2. RSI 与持续学习的分界：扩大实验规模，还要提高有效成果密度
+作者区分两条路径：RSI 自动化智能生产过程，持续学习则要把交互中的经验转成可泛化能力。文中进一步拆开“每位研究员能管理多少 GPU 小时”和“每个 GPU 小时产出多少有效成果”，强调前者提升并不证明后者同步提升。以固定预算内自动修改训练代码、评估并保留或撤销的实验循环为例，可靠 verifier、小规模结果向大规模迁移以及研究方向判断，构成主要瓶颈。文章还梳理 fast weights、LoRA 和 meta-learning 等路线；关于前沿实验室进展及中美差距的描述应视为作者观察与推演。
+🔗 https://mp.weixin.qq.com/s/IIm-Yznjt7C0zjhU5rPrEg
+
+3. MemT 原生记忆：压缩长期状态，同时承担信息损失
+据文中转述的 MemT 1.0 技术报告，系统在部分 Transformer 层旁加入记忆块，保持主干权重不变，让模型学习写入、擦除与读取固定大小状态。作者举出的较小模型记忆约占 40 MiB，减少反复携带历史原文的开销。报告称，在 SWE-bench Verified 上三次尝试全部成功的比例从 54.0% 提升至 61.6%；这不是通常的单次成功率。文章也保留了精度代价：一项记忆测试比较中压缩记忆为 50.6，携带原文为 68.6，因此不能视为已经替代检索和文档记忆。
+🔗 https://mp.weixin.qq.com/s/NwahBeV6vHPlVDGQR0GuDg
+
+4. Apate 用语音 Agent 消耗诈骗者时间，安全场景已有付费买家
+文章介绍 Apate.ai 用大量不同身份的语音 Agent 与诈骗者周旋，让对方把时间耗在无法完成的交易上。文中转述公司口径，累计对话约 250 万次、消耗诈骗者约 17 年时间，并称电信商 TPG 已转接近 59 万通可疑来电。文章还提到公司于 8 月获得 815 万美元种子融资，并已有银行、电信运营商客户。相关规模与效果数据主要来自公司和媒体转述，不能把合作银行整体诈骗损失下降直接归因为这一产品。
+🔗 https://mp.weixin.qq.com/s/nwG769DlbIncKxOyZvSNqg
+
+5. YITA 伊塔动力融资超亿元，切入关节模组与力控臂
+融资稿称 YITA 完成超亿元种子及种子+轮融资，布局行星关节与力控臂。数千万元合作属意向，性能及降本数据为公司口径。
+🔗 https://mp.weixin.qq.com/s/grvBKd-NZyuzNqKgYBT6KQ
+
+📖 查看完整日报（47 篇）→ https://news.justin7974.dev/2026-10-21.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #740 | 2026-10-20</title>
       <link>https://news.justin7974.dev/2026-10-20.html</link>
@@ -1260,72 +1330,6 @@ MiniMax M3.1-Flash 预览版支持百万上下文与原生多模态，展示修 
 🔗 https://mp.weixin.qq.com/s/djFFK5bQDxciTR-U6z384g
 
 📖 查看完整日报（44 篇）→ https://news.justin7974.dev/2026-10-02.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #721 | 2026-10-01</title>
-      <link>https://news.justin7974.dev/2026-10-01.html</link>
-      <guid>https://news.justin7974.dev/2026-10-01.html</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 4 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week
-Computer Use 的进步来自故障恢复和执行方式改变，而不只是更快地点击屏幕。OpenAI 的 Ari Weinstein 介绍，Agent 会结合截图、无障碍信息、DOM 和生成的代码批量操作，并称自己原需两小时的订餐任务由 Agent 十五分钟完成。团队表示，Sol 在 Computer Use 上的任务成本约为 Astra 的七分之一，开发者现可通过 Agents API 使用同一套执行能力。API 团队还介绍了快速决策、异步工具调用和缓存优化；这些是厂商访谈中的能力与案例，不能等同于跨场景独立测试。
-🔗 https://www.latent.space/p/devday-2026
-
-2. Early Optimism Reigns on Agentic Commerce + Personal Agents at the Machine Earning AI Summit
-常驻个人 Agent 今天每天约花十美元运行，Sapiom 创始人 Ilan Zerbib 认为，成本还需大幅下降才能规模化。Newcomer 的峰会报道同时给出商业应用案例：Gusto CFO 称预测工作由十四天缩至七天，Browserbase 称已有客户让 Agent 完成三十万美元的信用卡采购。OnePay 用独立支出额度限制 Agent，Browserbase 则建设允许浏览、禁止购买的策略引擎。a16z 的 Anish Acharya 判断，通用助手会调用行业专用 Agent；与会者对真实支付授权、用户接受度和责任归属仍有明显分歧。
-🔗 https://www.newcomer.co/p/machine-earning-ai-summit-takeaways
-
-3. Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning
-Hugging Face 上已有八千多个 TTS 模型，但评测没有跟上，Artificial Analysis 的九十二个模型中仅十六个开放权重。新 Open TTS Leaderboard 用识别错误率、说话人相似度和速度等客观指标，将评测周期从数周缩短至数小时。它支持多语言、声音克隆以及 GPU、CPU 首段音频延迟比较，英文表现不能直接代表其他语言。作者明确说明，这些指标无法代替人类对自然度、表现力和听感的判断。
-🔗 https://huggingface.co/blog/open-tts-leaderboard
-
-4. OpenAI Dev Day 2026: The releases that actually matter
-Claire Vo 用 Astra Ultrafast 实时修改三维游戏世界，一次实验花了约九十七美元：低延迟体验很强，成本仍然显眼。她还用 Decisions API 挑选没人表情尴尬的播客缩略图，测试人机共同绘图，并讨论 Spaces 的协作与 Sites 的内部工具分享。对 Dots，她保留完整评价，承认早期产品仍有粗糙之处。这份实测把发布能力和日常使用感受区分开来，显示速度、权限与费用都在影响产品选择。
-🔗 https://www.lennysnewsletter.com/p/openai-dev-day-2026-the-releases
-
-5. Jev: 8 real use cases for the fastest, cheapest model I’ve ever used | John Lindquist
-Jev 的价值在于从给定选项中快速决策，而非像聊天模型一样自由生成内容。John Lindquist 展示实时语音待办、带置信度的数据去重、多级应用路由、Agent 协同和演讲反馈等八类用例。多个决策调用可以串联，用于复杂分类；棋类对比则展示速度、成本和推理能力之间的取舍。节目也讨论它的局限，以及何时仍应使用完整生成模型；可读内容为节目说明和演示目录，未含逐字实录。
-🔗 https://www.lennysnewsletter.com/p/jev-8-real-use-cases-for-the-fastest
-
-🐦 Twitter 精选（5 / 30）
-
-1. @Hesamation：所引评测每任务成本：Argon 1.99美元、Astra 3.26、Opus 5.98；Argon 最低。
-🔗 https://x.com/Hesamation/status/2105397445463302165
-
-2. @Hesamation：判断 Sol Ultrafast 用 NVIDIA GPU；每秒750 token的 Cerebras 版尚未广泛开放。
-🔗 https://x.com/Hesamation/status/2105119011562295306
-
-3. @_akhaliq：Audio8 ASR Infinite 用滚动 KV Cache 保持内存与延迟恒定，每秒解码 12.5 次。
-🔗 https://x.com/_akhaliq/status/2105138799147982883
-
-4. @_akhaliq：分享 LongLive-Plug 论文，主题是视频生成的一次性通用蒸馏；推文附论文链接，未提供具体性能数据。
-🔗 https://x.com/_akhaliq/status/2105432314633490445
-
-5. @_akhaliq：分享 Omni-IO Skills 论文，介绍原生全模态 Agent harness；推文未展开实验结论。
-🔗 https://x.com/_akhaliq/status/2105431737262350346
-
-📱 公众号精选（4 / 4）
-
-1. 从编程到个人助理：更强大的 AI，更透明的你
-ZCode 上传项目数据的风险不只在当前代码，也在完整 Git 历史：报道中的开发者发现约四点二万个文件被打包，超过八成为历史修改记录。智谱承认索引功能曾默认触发上传，随后修复、开源，并宣布删除涉事云端数据、补偿用户。晚点同时梳理 Grok Build 上传、公开分享泄露和提示注入等案例，指出“不用于训练”并不排除日志、安全审查及第三方处理。其对七款产品协议的阅读显示，Agent 权限扩大与用户承担操作后果常常并存；具体条款和事故描述均为报道所述。
-🔗 https://mp.weixin.qq.com/s/TMGKfSIBVjj4psLghLkMjw
-
-2. Claude Opus 5.5 是怎么做出视频的
-Opus 5.5 视频靠代码逐帧渲染，再用外部工具配音合成；适合动效和讲解，写实画面与审美仍有短板。
-🔗 https://mp.weixin.qq.com/s/ZFNcR1BSQy9-s2lDtd97fw
-
-3. 最近对 AI 行业的一些碎碎念
-作者认为个人 Agent 切换伴随隐私暴露，易强化巨头集中，并质疑热门赛道估值差异；属观点随笔。
-🔗 https://mp.weixin.qq.com/s/G0WF3dNZ07d-tz2qfPP_cA
-
-4. 深度｜当机器人拜师学苏绣，临界点把灵巧手送上了一场高难度考试
-临界点展示灵巧手学苏绣，复杂劈丝仍需人扶手；偏品牌展示，未提供成功率、效率或商业交付数据。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/zsBTJwqeohux2U8Lv9iFwg
-
-📖 查看完整日报（44 篇）→ https://news.justin7974.dev/2026-10-01.html</description>
     </item>
   </channel>
 </rss>
