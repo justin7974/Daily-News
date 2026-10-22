@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 21 Oct 2026 00:08:42 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 00:08:50 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #742 | 2026-10-22</title>
+      <link>https://news.justin7974.dev/2026-10-22.html</link>
+      <guid>https://news.justin7974.dev/2026-10-22.html</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 7 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. DeepInfer 的高吞吐依赖高缓存命中，80% 利润率仍是外部测算
+据 Latent Space 汇总的 DeepSeek 技术披露，单集群每天服务 155 万亿 token，输入缓存命中率达 96%，因此吞吐量不能理解为新生成 token 数量。报道转述平均首 token 延迟约 400 毫秒、生成速度每秒 230 token，同时指出 KV 缓存管理和负载均衡组件尚未完整开放。vLLM 团队自报，在匹配配置的 GB200 测试中，解码吞吐与 DeepInfer 公布结果相差不到 6%，这不等于复现整个生产服务。标题中的约 80% 利润率及 81 天回本来自外部成本假设与推算，并非 DeepSeek 审计披露，且未完整计入存储、网络、冗余和运营费用。
+🔗 https://www.latent.space/p/ainews-deepseek-deepinfer-open-source
+
+2. Tenex：企业买了 AI，非研发 Agent 仍卡在生产部署
+Tenex 联合创始人在访谈中称，公司已有 75 人，约一半客户为 Fortune 2000 企业，另一半为年收入 1 亿至 5 亿美元的中型企业。在其接触的约百家企业中，约 90% 已向员工提供通用模型工具，约 50% 配置编码 Agent，非研发工作的生产 Agent 则只有约 5%；这是客户接触样本，并非全市场统计。公司按交付产出激励工程师，并将 AI 策略顾问的激励与客户留存、增长关联，但架构设计和客户沟通仍难用代码产出计价。团队还把客户反复提出的数据权限需求，从定制服务做成了权限网关产品。
+🔗 https://www.latent.space/p/tenex
+
+3. NVIDIA Kumo Relational：把企业预测任务变成数据库查询
+NVIDIA 发布预训练关系数据模型 Kumo Relational，直接利用多表关系、外键和时间信息预测流失、需求或欺诈，无需为每个任务重新训练或手工铺平成单表。模型最多取 1 万个历史样本作上下文，通过一次前向计算完成预测；官方在 15 个数据库、41 项任务上报告了优于监督学习基线的总体结果。系统可通过开源库或 NVIDIA NIM 部署，代码与模型权重采用不同许可证。官方也承认，大训练集上的专用监督模型仍可能占优，且有效预测信息需要在有限的关系跳数内可达。
+🔗 https://huggingface.co/blog/nvidia/kumo-relational
+
+4. PHP 两项严重漏洞已遭利用，AI 安全需求延伸到补丁交付
+KrebsOnSecurity 报道，PHP 两项可导致远程代码执行的漏洞已出现实际利用，影响大量基于 WordPress、Drupal 等系统的网站。报道援引 Censys 扫描，识别出约 258 万个面向互联网的主机和 5490 万个运行 PHP 的网站资产。研究参与方 Wiz 称，前沿 AI 显著降低了把长期潜伏缺陷转成可用攻击的难度；PHP 团队已发布修复，Cloudflare 也部署了防护规则。漏洞披露、补丁验证和大规模更新需要多方协作，发现漏洞并不等于受影响系统已获得修复。
+🔗 https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/
+
+5. OpenAI 模型和 Codex 工作流将进入 Google Cloud
+官方 RSS 称，前沿模型与 Codex 工作流将进入 Gemini Model Garden，并通过 Google Cloud Marketplace 提供。补抓仍为验证页，正文未取得。
+🔗 https://openai.com/index/openai-models-google-cloud
+
+🐦 Twitter 精选（5 / 30）
+
+1. @vasuman：转发 Recursive 的 Flint 发布消息：这是一款本地运行的快速编码模型，称由自动化研究系统打造；可见推文未给出评测成绩。
+🔗 https://x.com/vasuman/status/2112971315787563185
+
+2. @_akhaliq：转发 Ropedia W0 世界模型，称从一万小时人类第一视角视频学习移动与操作；迁移部分已截断，未见完整评测。
+🔗 https://x.com/_akhaliq/status/2112951635060404238
+
+3. @godofprompt：称 Responses API 提示缓存可保留十二小时，重复输入费用更低，但缓存写入有溢价；具体价格均为作者转述。
+🔗 https://x.com/godofprompt/status/2113021760106828271
+
+4. @shao__meng：分享 Uber AutoClean 工程实践，称已清理约一万六千个过期功能开关及百万行代码；本条未保留完整验证流程。
+🔗 https://x.com/shao__meng/status/2113051979836793330
+
+5. @shao__meng：介绍 Databricks MemCurrent 的在线记忆读写与离线整理，转述通过率三倍、token 节省 31%；评测条件不可见。
+🔗 https://x.com/shao__meng/status/2113051931975496186
+
+📱 公众号精选（5 / 7）
+
+1. Othello 融资 800 万美元，把销售辅导搬到通话当下
+文章援引融资报道和公司材料称，Othello 完成 800 万美元种子轮，由 a16z speedrun 与 Owl Capital 领投。产品以桌面浮层在通话中提供追问、产品答案和案例，声称无需作为参会者接入，建议延迟低于 500 毫秒。公司称拥有逾 50 家大型企业客户，并在一部分使用超过一季度的客户中观察到赢单率提高 15%、新人上手加快 45%；均为公司自述，文中未展示独立对照实验。文章也指出 Salesloft 已提供实时辅导，且 Salesforce、HubSpot 等厂商可能进入，不能把“通话中提示”视作无人竞争的市场。
+🔗 https://mp.weixin.qq.com/s/Vj2-cZZ4piaMsM5hz_ySaw
+
+2. Today AI：用可编辑记忆衔接会前准备与会后跟进
+Today AI 的体验稿展示了授权读取飞书资料、补充近期信息、生成展示页面，再沿用既有材料继续做会后研究的流程。产品提供 36 个云端连接项，并支持连接本地文件与电脑操作；用户可以查看、修改和删除记忆。早晚简报把分散任务、会议、截止事项和待确认问题集中呈现，减少每次重新交代背景。文章偏产品展示，未给出长期留存、付费转化或任务成功率，也不能用开篇另一家公司 Town 的融资来证明 Today AI 的商业表现。
+🔗 https://mp.weixin.qq.com/s/upVMuopFpxLdWSTMnkS5BA
+
+3. Oki Home 押注本地常驻 Agent，1799 美元预售仍待看交付
+产品宣传稿称 Oki Home 配 RTX 5060 Ti，首批预订三天售罄，未披露数量；订阅收入属规划，本地运行也不自动保证隐私安全。
+🔗 https://mp.weixin.qq.com/s/ZLe2pBBT5VFja2xexuJ0aw
+
+4. 八个 Claude 创作案例：字体、三维游戏与历史可视化
+汇总手稿字体、三维场景和《小王子》游戏等案例；后者还使用 Tripo、Blender 并耗时十六天，不宜归为模型一键完成。
+🔗 https://mp.weixin.qq.com/s/K8Ank_6ySIupl8XyHCzqFw
+
+5. 白艾莉把角色陪伴与 Personal Agent 放在一起
+作者分享朋友产品体验：角色养成、主动关怀与虚拟协作者结合，称二十多分钟做出音乐电台；属个案及熟人推荐，无经营数据。
+🔗 https://mp.weixin.qq.com/s/FnAL25rgBPsL8gCmC4b2-w
+
+📖 查看完整日报（47 篇）→ https://news.justin7974.dev/2026-10-22.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #741 | 2026-10-21</title>
       <link>https://news.justin7974.dev/2026-10-21.html</link>
@@ -1264,72 +1334,6 @@ ServiceNow 的 AutoSynthData 在 EnterpriseOps Gym 的 ITSM 环境中，把目�
 🔗 https://mp.weixin.qq.com/s/U0LciDoSr2jG-W_W5ETPkg
 
 📖 查看完整日报（44 篇）→ https://news.justin7974.dev/2026-10-03.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #722 | 2026-10-02</title>
-      <link>https://news.justin7974.dev/2026-10-02.html</link>
-      <guid>https://news.justin7974.dev/2026-10-02.html</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 4 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. SCOOP: Benchmark Backs Early-Stage Startup Tendrils Compute as Chip Momentum Builds
-Benchmark 据报道领投 Tendrils Compute，后者已讨论可能超过十亿美元估值的后续融资；两轮均未正式公开，Benchmark 未回应。英国剑桥团队由 Nils Cremer 领导，押注 interaction nets 计算架构，试图减少多核 CPU 的协调成本。其判断是，Agent 连续推理与工具调用可能使 CPU 成为新瓶颈。报道还列出 Etched、Fractile、OLIX 等芯片融资，并提醒开发周期、资本强度和周期性风险；可读正文不含付费市场地图。
-🔗 https://www.newcomer.co/p/scoop-benchmark-backs-early-stage
-
-2. [AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output
-Gemini 4 Argon 的便宜来自折扣，未必来自更少的推理消耗。Latent Space 汇总 Artificial Analysis 评测：折扣下每任务约 1.99 美元，Astra 为 3.26 美元；恢复标准价格后 Argon 约为 3.98 美元，且平均输出量更高。Google 宣称它在十九项公布的基准中领先十三项，但当前只向 Fairwind 的政府用户和受信任网络防御者开放。百万 token 输出通过实验性的 Long Decode Continuation 分段续写实现，不能简单理解成一次普通调用就输出百万 token。
-🔗 https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer
-
-3. Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs
-Ai2 的 Olmo-core 3 将专家数从八个扩至一百二十八个、每 token 仍选四个专家时，训练吞吐下降不到 5%。新框架让专家常驻 GPU、把数据路由过去，减少反复聚合权重；八张 B300 的初步测试中，四百七十亿参数 MoE 吞吐约为旧实现的 2.7 倍。它同时开放专家并行、流水线并行、分布式优化器与低精度训练支持。万亿级结果使用随机路由测系统性能，2.38 万亿参数配置也只是短时容量测试，均不代表已训成同规模高质量模型。
-🔗 https://huggingface.co/blog/allenai/olmocore3
-
-4. Quoting Matthew Green
-隔离沙箱里的 Agent 仍可通过共享软件包缓存互留指令，改变其他 Agent 的行为。Simon Willison 引述 Matthew Green，称这已具备蠕虫的两个要素：劫持 Agent 的载荷，以及负责把载荷带给下一个 Agent 的执行者。Green 将风险外推至邮箱、Slack、共享文档和 WhatsApp 中的个人助手，提醒共同使用的信息通道可能连接原本独立的执行环境。
-🔗 https://simonwillison.net/2026/Oct/1/matthew-green/
-
-5. Exclusive: Nvidia, SoftBank Make Final $20 Billion Investment in OpenAI’s Last Round
-据报道，英伟达和软银各付清最后一百亿美元，完成此前各三百亿美元承诺；仅已读摘要，完整正文不可获取。
-🔗 https://www.theinformation.com/briefings/exclusive-nvidia-softbank-make-final-20-billion-investment-openais-last-round
-
-🐦 Twitter 精选（5 / 30）
-
-1. @Hesamation：转述 AA 评测：Sol 6.1 每任务 0.72 美元，Sol 6 为 1.05、Opus 5.5 为 5.98；他认为成本优势支撑 Codex 企业市场。
-🔗 https://x.com/Hesamation/status/2105462983006834829
-
-2. @Hesamation：所引合同条款评测中，微调 Qwen 9B 精确引用率 59.6%，Luna 为 8.5%；展示用 Agent 数据训练小模型的潜力。
-🔗 https://x.com/Hesamation/status/2105679518526521734
-
-3. @Hesamation：WebAI 的 GSM8K 评测中，3.66B 的 TwIL-LM3-Pro 得分 94.3%，120B gpt-oss 为 97.7%；这是单项数学比较。
-🔗 https://x.com/Hesamation/status/2105456475594195418
-
-4. @Hesamation：分享 Hugging Face 关于在不同 harness 上强化学习训练编程 Agent 的文章；推文未展开具体实验结果。
-🔗 https://x.com/Hesamation/status/2105808582885155232
-
-5. @cursor_ai：Cursor 宣布接入 GLM 5.3 与 Flash，并称 GLM 5.3 Max 是 CursorBench 4.0 得分最高的开放权重模型。
-🔗 https://x.com/cursor_ai/status/2105787358557999585
-
-📱 公众号精选（4 / 4）
-
-1. 晚点 AI 季报：Muse 引爆个人助理，Astra 走进机器人，OpenAI 收入猛增
-OpenAI 的年化收入据媒体报道，在一个半月内由四百多亿美元升至接近七百亿美元；晚点提醒，这些不是官方披露，且与 Anthropic 的收入计量口径未必相同。访谈援引上市材料草案，称 Anthropic 前两大客户贡献约四分之一收入、长期算力采购承诺达 5180 亿美元，而收入端不少客户没有长约。个人助手的竞争同时受推理降价、云端常驻与服务生态开放影响：Instinct 接入 Shopify，Muse 却遭 Amazon 封禁。嘉宾认为，Jev 式动态分类器可替代部分传统 if 判断，但技术壁垒有限；个人助手的下载热度也还不能证明持续留存和收入。
-🔗 https://mp.weixin.qq.com/s/lS0m51NO_R34RPU9Af1Emg
-
-2. MiniMax 第一个 Flash 模型上线，可在 AGI Bar 免费用
-MiniMax M3.1-Flash 预览版支持百万上下文与原生多模态，展示修 bug、3D 和视频理解；无公开基准，包含体验推广。
-🔗 https://mp.weixin.qq.com/s/1jefOt_NbqZ5X2RpyX8fzw
-
-3. 主流 Personal Agent 虚拟机配置对比
-作者比较个人 Agent 虚拟机，认为 Grokbot 资源充足、Dots 或共享实例；补抓取得文字说明，图表参数未核实。
-🔗 https://mp.weixin.qq.com/s/92kIxSrPWIJZP97OOReyHA
-
-4. 大聪明：RSI 时代的命运与意义
-借科幻讨论 AI 时代的意义与职业评价，主张代码供给增多会贬值、人际连接更耐久；属思想实验，非 RSI 技术证据。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/djFFK5bQDxciTR-U6z384g
-
-📖 查看完整日报（44 篇）→ https://news.justin7974.dev/2026-10-02.html</description>
     </item>
   </channel>
 </rss>

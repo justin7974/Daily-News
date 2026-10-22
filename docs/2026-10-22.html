@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>小虾AI日报 #742 | 2026-10-22</title>
+  <meta name="description" content="小虾AI日报 2026-10-22 — 10 篇文章, 30 条推文, 7 篇公众号">
+  <link rel="stylesheet" href="style.css">
+  <script>var s=localStorage.getItem('theme');if(s)document.documentElement.setAttribute('data-theme',s);</script>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="https://justin7974.github.io/Daily-News/" class="logo">🦐 小虾AI日报</a>
+        <button class="header-icon" id="calendarBtn" title="日期选择">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 日历浮层：独立于 header -->
+  <div class="dp-overlay" id="dpOverlay">
+    <div class="dp-sheet">
+      <div class="dp-panel" id="dpPanel"></div>
+      <a href="archive.html" class="dp-archive-link">查看日报列表归档 →</a>
+    </div>
+  </div>
+
+  <nav class="date-bar">
+    <div class="container">
+      <div class="date-bar-inner">
+        <a href="2026-10-21.html" class="date-arrow ">‹</a>
+        <div class="date-center">
+          <span class="date-main">2026 年 10 月 22 日 · 星期四</span>
+          <span class="date-sub">📰 10 篇文章 · 🐦 30 条推文 · 📱 7 篇公众号</span>
+        </div>
+        <a href="#" class="date-arrow disabled">›</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Tab 导航 -->
+  <div class="tab-bar">
+    <div class="container">
+      <div class="tab-nav">
+        <button class="tab-btn active" data-tab="rss">RSS</button>
+        <button class="tab-btn" data-tab="twitter">Twitter</button>
+        <button class="tab-btn" data-tab="wechat">公众号</button>
+      </div>
+    </div>
+  </div>
+
+  <main class="container main-content">
+    <div class="tab-panel active" id="tab-rss">
+      <section class="section">
+<h3 class="category-header">🔥 精选推荐</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.latent.space/p/ainews-deepseek-deepinfer-open-source" target="_blank" rel="noopener">DeepInfer 的高吞吐依赖高缓存命中，80% 利润率仍是外部测算</a></div>
+  <div class="news-summary">据 Latent Space 汇总的 DeepSeek 技术披露，单集群每天服务 155 万亿 token，输入缓存命中率达 96%，因此吞吐量不能理解为新生成 token 数量。报道转述平均首 token 延迟约 400 毫秒、生成速度每秒 230 token，同时指出 KV 缓存管理和负载均衡组件尚未完整开放。vLLM 团队自报，在匹配配置的 GB200 测试中，解码吞吐与 DeepInfer 公布结果相差不到 6%，这不等于复现整个生产服务。标题中的约 80% 利润率及 81 天回本来自外部成本假设与推算，并非 DeepSeek 审计披露，且未完整计入存储、网络、冗余和运营费用。</div>
+  <div class="news-comment">🦐点评：如果 vLLM 公布的接近结果能复现，单靠推理内核领先获得长期溢价会更难。推理服务商的估值应更多取决于流量是否足够集中、缓存能否重复利用，以及客户迁移后每个成功任务的总成本；把高缓存工作负载的利润外推到所有客户，容易高估盈利能力。</div>
+  <div class="news-meta"><span class="news-source">www.latent.space</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.latent.space/p/tenex" target="_blank" rel="noopener">Tenex：企业买了 AI，非研发 Agent 仍卡在生产部署</a></div>
+  <div class="news-summary">Tenex 联合创始人在访谈中称，公司已有 75 人，约一半客户为 Fortune 2000 企业，另一半为年收入 1 亿至 5 亿美元的中型企业。在其接触的约百家企业中，约 90% 已向员工提供通用模型工具，约 50% 配置编码 Agent，非研发工作的生产 Agent 则只有约 5%；这是客户接触样本，并非全市场统计。公司按交付产出激励工程师，并将 AI 策略顾问的激励与客户留存、增长关联，但架构设计和客户沟通仍难用代码产出计价。团队还把客户反复提出的数据权限需求，从定制服务做成了权限网关产品。</div>
+  <div class="news-comment">🦐点评：Tenex 的权限网关说明，服务公司有机会从重复项目中长出软件收入，但 75 人团队的交付效率不能直接当成 SaaS 的规模效应。看同类项目，应该追问第二个客户需要重写多少权限规则、收入增长是否仍依赖顾问人数，以及产品能否脱离原交付团队独立销售。</div>
+  <div class="news-meta"><span class="news-source">www.latent.space</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://huggingface.co/blog/nvidia/kumo-relational" target="_blank" rel="noopener">NVIDIA Kumo Relational：把企业预测任务变成数据库查询</a></div>
+  <div class="news-summary">NVIDIA 发布预训练关系数据模型 Kumo Relational，直接利用多表关系、外键和时间信息预测流失、需求或欺诈，无需为每个任务重新训练或手工铺平成单表。模型最多取 1 万个历史样本作上下文，通过一次前向计算完成预测；官方在 15 个数据库、41 项任务上报告了优于监督学习基线的总体结果。系统可通过开源库或 NVIDIA NIM 部署，代码与模型权重采用不同许可证。官方也承认，大训练集上的专用监督模型仍可能占优，且有效预测信息需要在有限的关系跳数内可达。</div>
+  <div class="news-comment">🦐点评：Kumo 把预测接口交给 Agent 后，通用特征工程和逐项建模服务会面临价格压力。更有价值的公司可能掌握业务标签、干预结果和客户愿意执行的决策流程；尽调时应看预测带来了多少额外回款或减少了多少损失，而不只比较离线分数。</div>
+  <div class="news-meta"><span class="news-source">huggingface.co</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/" target="_blank" rel="noopener">PHP 两项严重漏洞已遭利用，AI 安全需求延伸到补丁交付</a></div>
+  <div class="news-summary">KrebsOnSecurity 报道，PHP 两项可导致远程代码执行的漏洞已出现实际利用，影响大量基于 WordPress、Drupal 等系统的网站。报道援引 Censys 扫描，识别出约 258 万个面向互联网的主机和 5490 万个运行 PHP 的网站资产。研究参与方 Wiz 称，前沿 AI 显著降低了把长期潜伏缺陷转成可用攻击的难度；PHP 团队已发布修复，Cloudflare 也部署了防护规则。漏洞披露、补丁验证和大规模更新需要多方协作，发现漏洞并不等于受影响系统已获得修复。</div>
+  <div class="news-comment">🦐点评：PHP 这类遍布主机商和中小网站的软件，让安全预算有机会从“找出更多问题”转向“替客户完成修复”。能控制托管、部署或更新入口的团队更容易收费；纯扫描工具若持续增加告警，却无法证明关键资产的暴露时间缩短，客户未必愿意扩预算。</div>
+  <div class="news-meta"><span class="news-source">krebsonsecurity.com</span></div>
+</div>
+<h3 class="category-header">📌 其他新闻</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://openai.com/index/openai-models-google-cloud" target="_blank" rel="noopener">OpenAI 模型和 Codex 工作流将进入 Google Cloud</a></div>
+  <div class="news-summary">官方 RSS 称，前沿模型与 Codex 工作流将进入 Gemini Model Garden，并通过 Google Cloud Marketplace 提供。补抓仍为验证页，正文未取得。</div>
+  <div class="news-meta"><span class="news-source">openai.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://openai.com/index/chatgpt-ads-expands-26-new-countries" target="_blank" rel="noopener">ChatGPT 广告扩展 26 个新国家，累计服务超 10 万广告主</a></div>
+  <div class="news-summary">官方 RSS 标题披露扩展 26 个新国家、已有超 10 万广告主使用；不能据此推算收入、活跃客户或投放回报。补抓未取得正文。</div>
+  <div class="news-meta"><span class="news-source">openai.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.theinformation.com/briefings/meta-creates-new-share-class-pave-way-ai-related-fundraising" target="_blank" rel="noopener">Meta 新设无投票权股份，为 AI 融资保留控制权</a></div>
+  <div class="news-summary">The Information 公开节选称，Meta 新设 Class C 无投票权普通股，以支持 AI 投资并保留 Zuckerberg 控制权；未取得付费正文及融资细则。</div>
+  <div class="news-meta"><span class="news-source">www.theinformation.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.a16z.news/p/why-hardware-specialization-is-back" target="_blank" rel="noopener">异构推理的机会：在电力约束下组合不同加速器</a></div>
+  <div class="news-summary">Gimlet 创始人在 a16z 撰文，主张分配推理阶段到不同芯片以提高每瓦性能；其 2—10 倍性能收益为自家分析，含业务推广。</div>
+  <div class="news-meta"><span class="news-source">www.a16z.news</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still" target="_blank" rel="noopener">Claude Duet 实测反馈：设计精致，仍未成为日常首选</a></div>
+  <div class="news-summary">Claire Vo 的节目说明指出，Duet 主动提醒不足、延迟偏高，且缺少桌面和多人协作支持。取得的是说明与章节，非完整实测转录。</div>
+  <div class="news-meta"><span class="news-source">www.lennysnewsletter.com</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/" target="_blank" rel="noopener">东南亚数字经济预计达 3680 亿美元，AI 交易意愿上升</a></div>
+  <div class="news-summary">Google、淡马锡与贝恩报告预计，2026 年区域数字经济 GMV 增长 17%；调查中 75% 愿让 Agent 比价并交易，属于意愿而非实际采用率。</div>
+  <div class="news-meta"><span class="news-source">blog.google</span></div>
+</div>
+</section>
+
+    </div>
+
+    <div class="tab-panel" id="tab-twitter">
+      <section class="section">
+<h3 class="category-header">🧠 AI 技术前沿</h3>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">vasuman</span> <span class="tweet-handle">@vasuman</span></div>
+  <div class="tweet-content">转发 Recursive 的 Flint 发布消息：这是一款本地运行的快速编码模型，称由自动化研究系统打造；可见推文未给出评测成绩。</div>
+  <a href="https://x.com/vasuman/status/2112971315787563185" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">_akhaliq</span> <span class="tweet-handle">@_akhaliq</span></div>
+  <div class="tweet-content">转发 Ropedia W0 世界模型，称从一万小时人类第一视角视频学习移动与操作；迁移部分已截断，未见完整评测。</div>
+  <a href="https://x.com/_akhaliq/status/2112951635060404238" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">godofprompt</span> <span class="tweet-handle">@godofprompt</span></div>
+  <div class="tweet-content">称 Responses API 提示缓存可保留十二小时，重复输入费用更低，但缓存写入有溢价；具体价格均为作者转述。</div>
+  <a href="https://x.com/godofprompt/status/2113021760106828271" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">分享 Uber AutoClean 工程实践，称已清理约一万六千个过期功能开关及百万行代码；本条未保留完整验证流程。</div>
+  <a href="https://x.com/shao__meng/status/2113051979836793330" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">介绍 Databricks MemCurrent 的在线记忆读写与离线整理，转述通过率三倍、token 节省 31%；评测条件不可见。</div>
+  <a href="https://x.com/shao__meng/status/2113051931975496186" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">分享用决策模型做 LLM 评测的方法，重点是阈值调优和概率校准；所保存转推已截断，未提供完整结论。</div>
+  <a href="https://x.com/shao__meng/status/2113052005690384401" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">分享 DeepSeek 在知乎发布的 DeepInfer 技术报告，强调公开了大量内部设计细节；本条未保留具体技术展开。</div>
+  <a href="https://x.com/shao__meng/status/2113051858608717928" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">转述 Jediah Katz 的判断：模型正吸收编码补丁，但开拓新任务、控制安全与提高效率，仍需要 Harness。</div>
+  <a href="https://x.com/shao__meng/status/2113051746855694625" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">MengTo</span> <span class="tweet-handle">@MengTo</span></div>
+  <div class="tweet-content">开源把应用转成 HTML 演示的 Skill，可缩放、循环、拖动进度和跳转步骤，并为减少动态效果的设置提供静止展示。</div>
+  <a href="https://x.com/MengTo/status/2112843787777249661" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">gregisenberg</span> <span class="tweet-handle">@gregisenberg</span></div>
+  <div class="tweet-content">围绕 Railway 事件讨论 AI 密钥失窃风险，建议分 Agent 管理密钥、设预算和用量告警，并提出密钥盘点工具机会。</div>
+  <a href="https://x.com/gregisenberg/status/2113044829957459984" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<h3 class="category-header">🚀 创业动态</h3>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
+  <div class="tweet-content">转发 Claude Duet 研究预览公告：以新 App 提供主动式 Agent；保存文本已截断，未包含完整功能与开放范围。</div>
+  <a href="https://x.com/Hesamation/status/2112996824227143941" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
+  <div class="tweet-content">称十五人工程团队 Keenable 在一项基于分析师、律师任务的搜索测试中胜过 Exa；属作者转述，未展示完整评测。</div>
+  <a href="https://x.com/EXM7777/status/2113021017828598105" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
+  <div class="tweet-content">转发 Whop D 轮融资消息：融资两亿美元、估值五十一亿美元，由红杉与 Shopify 支持；本条未披露完整条款。</div>
+  <a href="https://x.com/EXM7777/status/2112937191789961250" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
+  <div class="tweet-content">分享用实时语音调度 Agent 的体验，称戴着耳机、手机放口袋也能完成讨厌的任务，减少了盯屏幕的需要。</div>
+  <a href="https://x.com/rileybrown/status/2113032164111528366" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">marclou</span> <span class="tweet-handle">@marclou</span></div>
+  <div class="tweet-content">发布邮件订阅产品更新，加入自定义字段、点击统计、嵌入表单及 beehiiv 导入等功能，称使用 Opus 5.5 完成。</div>
+  <a href="https://x.com/marclou/status/2112917332045816316" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">marclou</span> <span class="tweet-handle">@marclou</span></div>
+  <div class="tweet-content">在实质回复中称，取消免费计划减少八成垃圾发送者，再以账号预热、邮箱检查、异常封禁和 AI 审阅邮件防滥用。</div>
+  <a href="https://x.com/marclou/status/2112911843027042322" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">称为回答非技术朋友的问题而更频繁打开 WorkBuddy，并非自己已经深度使用；观察到身边这类用户使用增多。</div>
+  <a href="https://x.com/shao__meng/status/2113051835477221813" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">levelsio</span> <span class="tweet-handle">@levelsio</span></div>
+  <div class="tweet-content">分享在 macOS 上经 CrossOver 为《GTA：圣安地列斯》制作自定义任务的提示词，要求逐步验证并先备份再修改。</div>
+  <a href="https://x.com/levelsio/status/2112944980842946816" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<h3 class="category-header">💬 观点与洞察</h3>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">kloss_xyz</span> <span class="tweet-handle">@kloss_xyz</span></div>
+  <div class="tweet-content">梳理 Grok Bot、Muse、Dots 与 Claude Duet，认为四家实验室的竞争正转向后台自主执行和减少打扰；属作者判断。</div>
+  <a href="https://x.com/kloss_xyz/status/2113000484894327100" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
+  <div class="tweet-content">认为 AI 编码工具带来了明显改善，但产品进步仍会受其他环节限制，不能把写代码提速直接等同于产品整体提速。</div>
+  <a href="https://x.com/emollick/status/2112968222538686592" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">emollick</span> <span class="tweet-handle">@emollick</span></div>
+  <div class="tweet-content">称接触的企业正疲于应对 AI 防御发现问题带来的补丁频率，并预计消费者也会需要更频繁、迅速地更新软件。</div>
+  <a href="https://x.com/emollick/status/2112918582598459644" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">levelsio</span> <span class="tweet-handle">@levelsio</span></div>
+  <div class="tweet-content">明确不认同漏洞意味着 PHP 将终结，认为 AI 辅助攻击会扩展到各语言、框架和服务器，攻防双方将持续升级。</div>
+  <a href="https://x.com/levelsio/status/2113024336097591766" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">eptwts</span> <span class="tweet-handle">@eptwts</span></div>
+  <div class="tweet-content">以 Flint 为例预测，高频编码任务会因成本和代码敏感性转向本地模型；同时指出当前仍受小模型质量限制。</div>
+  <a href="https://x.com/eptwts/status/2112954473953865761" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">Hesamation</span> <span class="tweet-handle">@Hesamation</span></div>
+  <div class="tweet-content">引述 Altman 对递归自我改进应设速度限制的看法，并追问：若突破限制就能赢得竞赛，谁会遵守？长推后段缺失。</div>
+  <a href="https://x.com/Hesamation/status/2113026001911320646" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">EXM7777</span> <span class="tweet-handle">@EXM7777</span></div>
+  <div class="tweet-content">认为 AI 顾问仍有机会：市场需要既能理解工具，又能沟通并把 AI 用进真实业务流程的人；可见文字未给收入案例。</div>
+  <a href="https://x.com/EXM7777/status/2112967402992570452" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">corbin_braun</span> <span class="tweet-handle">@corbin_braun</span></div>
+  <div class="tweet-content">区分软件初建与维护阶段：前期开发成本仍高，而进入维护和改进期后，认为两百美元的 Cursor 或 Codex 套餐很划算。</div>
+  <a href="https://x.com/corbin_braun/status/2112999343745896533" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">rileybrown</span> <span class="tweet-handle">@rileybrown</span></div>
+  <div class="tweet-content">在实质回复中认同管理多个 Agent 越来越难，但坦言尚不清楚监督这些 Agent 的产品应该长什么样。</div>
+  <a href="https://x.com/rileybrown/status/2112949656972149005" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">shao__meng</span> <span class="tweet-handle">@shao__meng</span></div>
+  <div class="tweet-content">转述 Kun Chen 的观点：不能混淆软件价格与市场规模、软件与代码、工程师与写代码的人，借此反驳“软件已死”。</div>
+  <a href="https://x.com/shao__meng/status/2113051903278080511" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">AnthropicAI</span> <span class="tweet-handle">@AnthropicAI</span></div>
+  <div class="tweet-content">Anthropic 发布年度公共利益报告，介绍五项支柱及相关行动；这是公司自述，可用于观察其公共利益公司治理。</div>
+  <a href="https://x.com/AnthropicAI/status/2112966949273801086" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+<div class="tweet-item">
+  <div class="tweet-author"><span class="tweet-name">AnthropicAI</span> <span class="tweet-handle">@AnthropicAI</span></div>
+  <div class="tweet-content">Anthropic 宣布前哈佛科学学院院长、实验物理学家 Christopher Stubbs 加入长期利益信托，曾参与安全和军控咨询。</div>
+  <a href="https://x.com/AnthropicAI/status/2112946750264676743" target="_blank" rel="noopener" class="tweet-link">查看推文 →</a>
+</div>
+</section>
+
+    </div>
+
+    <div class="tab-panel" id="tab-wechat">
+      <section class="section">
+<h3 class="category-header">🔥 精选推荐</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/Vj2-cZZ4piaMsM5hz_ySaw" target="_blank" rel="noopener">Othello 融资 800 万美元，把销售辅导搬到通话当下</a></div>
+  <div class="news-summary">文章援引融资报道和公司材料称，Othello 完成 800 万美元种子轮，由 a16z speedrun 与 Owl Capital 领投。产品以桌面浮层在通话中提供追问、产品答案和案例，声称无需作为参会者接入，建议延迟低于 500 毫秒。公司称拥有逾 50 家大型企业客户，并在一部分使用超过一季度的客户中观察到赢单率提高 15%、新人上手加快 45%；均为公司自述，文中未展示独立对照实验。文章也指出 Salesloft 已提供实时辅导，且 Salesforce、HubSpot 等厂商可能进入，不能把“通话中提示”视作无人竞争的市场。</div>
+  <div class="news-comment">🦐点评：Othello 所称的 500 毫秒决定建议来不来得及，但投资回报还取决于销售是否采纳、采纳后是否多赢订单。应要求按客户和销售资历分组，检查真实新增毛利能否覆盖软件费；两千万小时通话数据的授权和训练用途，也比单纯的数据规模更值得核实。</div>
+  <div class="news-meta"><span class="news-source">深思SenseAI</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/upVMuopFpxLdWSTMnkS5BA" target="_blank" rel="noopener">Today AI：用可编辑记忆衔接会前准备与会后跟进</a></div>
+  <div class="news-summary">Today AI 的体验稿展示了授权读取飞书资料、补充近期信息、生成展示页面，再沿用既有材料继续做会后研究的流程。产品提供 36 个云端连接项，并支持连接本地文件与电脑操作；用户可以查看、修改和删除记忆。早晚简报把分散任务、会议、截止事项和待确认问题集中呈现，减少每次重新交代背景。文章偏产品展示，未给出长期留存、付费转化或任务成功率，也不能用开篇另一家公司 Town 的融资来证明 Today AI 的商业表现。</div>
+  <div class="news-comment">🦐点评：Today AI 接入飞书并记住页面偏好，只有在用户持续让它处理下一场会议时才会形成迁移成本。评估此类个人助理，可以看四周后还有多少会议无需重述背景、多少主动通知被用户采纳；连接项数量很容易追平，维护正确且不过时的工作状态更难。</div>
+  <div class="news-meta"><span class="news-source">有新Newin</span></div>
+</div>
+<h3 class="category-header">📌 其他值得看</h3>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/ZLe2pBBT5VFja2xexuJ0aw" target="_blank" rel="noopener">Oki Home 押注本地常驻 Agent，1799 美元预售仍待看交付</a></div>
+  <div class="news-summary">产品宣传稿称 Oki Home 配 RTX 5060 Ti，首批预订三天售罄，未披露数量；订阅收入属规划，本地运行也不自动保证隐私安全。</div>
+  <div class="news-meta"><span class="news-source">Z Potentials</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/K8Ank_6ySIupl8XyHCzqFw" target="_blank" rel="noopener">八个 Claude 创作案例：字体、三维游戏与历史可视化</a></div>
+  <div class="news-summary">汇总手稿字体、三维场景和《小王子》游戏等案例；后者还使用 Tripo、Blender 并耗时十六天，不宜归为模型一键完成。</div>
+  <div class="news-meta"><span class="news-source">数字生命卡兹克</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/FnAL25rgBPsL8gCmC4b2-w" target="_blank" rel="noopener">白艾莉把角色陪伴与 Personal Agent 放在一起</a></div>
+  <div class="news-summary">作者分享朋友产品体验：角色养成、主动关怀与虚拟协作者结合，称二十多分钟做出音乐电台；属个案及熟人推荐，无经营数据。</div>
+  <div class="news-meta"><span class="news-source">向阳乔木推荐看</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/krd3TSTj4x7-3nGlUKoKCg" target="_blank" rel="noopener">阶跃手机上手：硬件体验好，跨应用执行仍不足</a></div>
+  <div class="news-summary">作者认可机身手感和灯屏，但称尚不能直接操作第三方 App 或汇总发票；每月赠送百亿 token 为文中口径，未核实使用条件。</div>
+  <div class="news-meta"><span class="news-source">赛博禅心</span></div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://mp.weixin.qq.com/s/I9_5oXjK6Ubst5O-uKgkuA" target="_blank" rel="noopener">用 AI 改造电视启动器，只保留常用应用</a></div>
+  <div class="news-summary">作者基于 CleanFrame 与 cleanyourtv 制作 guizang TV，保留常用应用、投屏及设备入口，并加入壁纸轮播；展示 AI 辅助改造既有硬件界面的用法。 &lt;!-- ai-daily:complete --&gt;</div>
+  <div class="news-meta"><span class="news-source">歸藏的AI工具箱</span></div>
+</div>
+</section>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-text">Built by 小虾的主人<a href="mailto:justinlee7974@gmail.com" style="color: inherit; text-decoration: underline;">小渣</a></span>
+        <div class="footer-actions">
+          <a href="feed.xml" class="rss-btn" title="订阅 RSS">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
+            RSS
+          </a>
+          <button class="theme-btn" onclick="toggleTheme()">切换主题</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    var CURRENT_DATE = '2026-10-22';
+  </script>
+  <script src="theme.js"></script>
+  <script src="datepicker.js"></script>
+  <script>
+    // Tab 切换逻辑
+    (function() {
+      var btns = document.querySelectorAll('.tab-btn');
+      var panels = document.querySelectorAll('.tab-panel');
+
+      function switchTab(tabId) {
+        btns.forEach(function(b) {
+          b.classList.toggle('active', b.getAttribute('data-tab') === tabId);
+        });
+        panels.forEach(function(p) {
+          p.classList.toggle('active', p.id === 'tab-' + tabId);
+        });
+        // 记住用户选择
+        try { localStorage.setItem('activeTab', tabId); } catch(e) {}
+      }
+
+      btns.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          switchTab(this.getAttribute('data-tab'));
+        });
+      });
+
+      // 恢复上次选择的 tab
+      try {
+        var saved = localStorage.getItem('activeTab');
+        if (saved && document.getElementById('tab-' + saved)) {
+          switchTab(saved);
+        }
+      } catch(e) {}
+    })();
+  </script>
+</body>
+</html>
