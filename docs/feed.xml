@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 22 Oct 2026 00:08:50 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 00:10:15 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #743 | 2026-10-23</title>
+      <link>https://news.justin7974.dev/2026-10-23.html</link>
+      <guid>https://news.justin7974.dev/2026-10-23.html</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 5 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Salesforce 拟向外部 Agent 收费，企业软件开始争夺机器调用收入
+The Information 报道，Salesforce 计划最早于下月要求企业注册外部 AI Agent，把 Agent 更新或分析数据的动作纳入可计费交互，为收费做准备。此举覆盖使用 Claude 等外部工具工作的客户，让未购买 Salesforce 自家 AI 产品的调用也可能产生收入。补抓的公开节选称，目前尚未开始收取这类费用，价格也未公布；新客户在价格公布后有三个月注册宽限，现有客户则到续约时才受新定价影响。注册同时用于赋予 Agent 独立身份和更窄的数据权限。
+🔗 https://www.theinformation.com/articles/salesforce-customers-brace-new-fees-use-claude-apps
+
+2. Modal 自报年化收入突破 10 亿美元，沙箱已贡献约三分之一收入
+Modal CEO Erik Bernhardsson 在 Latent Space 访谈中介绍，客户按需使用 GPU，而供给通常按固定数量、固定期限采购；Modal 汇集不同客户的需求，以弹性调度减少闲置。文中称公司完成 7.5 亿美元 D 轮、估值 160 亿美元，年化收入突破 10 亿美元，累计创建近 30 亿个沙箱；这些为公司披露，年化口径不等于已确认全年收入。编码、后台 Agent 和强化学习推动沙箱业务增长至约三分之一收入。CEO 也承认，若 GPU 市场价格下降，提前锁定的高价容量可能成为负担。
+🔗 https://www.latent.space/p/modal-d
+
+3. ThinkingBox：用数据库最终状态训练 Agent，重复成功比偶尔成功更难
+微软与 Hugging Face 把“数据库最终是否被正确修改”变成强化学习奖励，在独立于测试集的任务上训练 Qwen3.8-27B。经过 50 步 GRPO，507 项测试的平均成功率从 51.70% 升至 60.78%；每项重复 20 次且全部通过的任务，从 38 项增至 107 项。不过至少成功一次的任务反而从 453 项降至 446 项。作者同时估算单次成功尝试成本由 0.177 美元降至 0.139 美元。上述结果来自特定评测，20 次全通过并不保证生产环境永不出错。
+🔗 https://huggingface.co/blog/microsoft/thinkingbox-training
+
+4. PHP2Shell：AI 找洞之外，更难的是两个月的联合修复
+Latent Space 汇总 PHP2Shell 的多方披露：Calif/OpenAI 与 Wiz 分别报告了 PHP 内核的严重内存问题，涉及内存耗尽及致命错误处理；研究者展示了对部分主流 CMS 的远程执行或内存泄露攻击。参与方称，修复涉及 PHP 引擎修改、补丁验证，以及维护者、云厂商和安全机构约两个月的协作。Cloudflare 在正式补丁前部署临时 WAF 规则，并强调仍需更新 PHP。文章也区分了研究者的利用演示、观察到的攻击流量与已确认入侵，不能把所有相关网站停机归因于成功攻击。
+🔗 https://www.latent.space/p/ainews-openais-patch-the-planet-program
+
+5. Datadog 据报出价近 40 亿美元收购 Upwind，交易尚未达成
+The Information 称 Datadog 曾提出近 40 亿美元报价；Upwind 尚未接受，正推进约 3 亿美元融资、估值约 38 亿美元。收购报价不等于退出，且相对融资估值溢价有限。
+🔗 https://www.theinformation.com/articles/datadog-offered-buy-security-startup-upwind-nearly-4-billion
+
+🐦 Twitter 精选（5 / 30）
+
+1. @AnthropicAI：Anthropic 与 Theorem 合作，用 Claude 在数周内为逾百个真实开源库证明特定安全性质；这是公司研究披露，证明某类性质不等于软件完全无漏洞。
+🔗 https://x.com/AnthropicAI/status/2113390212911083894
+
+2. @bcherny：Boris Cherny 称，Agent Skills 从 Claude Code 内部实验发展为行业采用的标准，因此捐赠给 AAIF，与 MCP 一同治理；可观察技能分发是否加快跨平台流动。
+🔗 https://x.com/bcherny/status/2113333859907747871
+
+3. @shao__meng：介绍 TokenGate 长上下文剪枝：转述论文称首 token 延迟可改善 1.4—11.3 倍、峰值显存降低；适用模型和测试条件未完整保留，不能外推到全部生产负载。
+🔗 https://x.com/shao__meng/status/2113276570437902760
+
+4. @shao__meng：区分两类缓存：Prompt Caching 重用相同前缀的计算，Semantic Caching 直接重用语义相近问题的答案；后者还要处理过期、阈值和错误复用。
+🔗 https://x.com/shao__meng/status/2113273550295757124
+
+5. @shao__meng：整理 Stanford Agent 工程课：优化前先有数据、系统和指标，通常先优化上下文，再考虑改权重；同时衡量成功率、成本与延迟，避免只优化表面分数。
+🔗 https://x.com/shao__meng/status/2113105750818164882
+
+📱 公众号精选（5 / 5）
+
+1. Hone 融资 6000 万美元，让常驻 Agent 对业务结果负责
+文章援引 Index 与创始人材料称，Hone 成立五个月，完成 6000 万美元种子轮，Benchmark、Index 领投，估值 2.85 亿美元。产品 Engine 接受提高留存、降低采购成本等目标，学习企业系统和约束，再持续执行并从结果中改进；敏感操作需批准，动作留有记录。团队成员来自 Cognition、Harvey、Mercor 等公司，早期使用者包括 AI 企业。文章主要依据公司与投资人论述，未披露规模收入、长期留存或业务改善的对照结果；报道所述融资于 10 月初宣布，并非当天新交易。
+🔗 https://mp.weixin.qq.com/s/2t1BUaKVjmWDwa8o5EETyQ
+
+2. AI 招聘转向具体岗位与工业经验，顶尖薪酬和普遍扩招开始分离
+晚点采访学生、研究员、猎头和招聘负责人，发现基础模型团队配齐后，招聘更关注候选人补足哪类能力，校招名额、面试入口与转正机会都在收紧。大规模训练、强化学习、推理和基础设施经验仍有溢价，论文和头部公司实习经历却不再保证录用。报道还指出，后训练、Agent 和数据基础设施仍有需求；新人能否接触算力、核心项目与成果部署，比简历上的团队名字更能决定后续成长。这是多方采访呈现的结构变化，并非全市场招聘数量统计。
+🔗 https://mp.weixin.qq.com/s/JwbGMwZG_0GozP0-nkygRQ
+
+3. ChatGPT 与 Codex 的产品方向：常驻 Dots 与插件收入分成
+Z Potentials 编译 10 月 4 日 Tibo Sottiaux 在 DevDay 的访谈。受访者描述以长期记忆、Codex 执行能力及持续运行组成 Dots，并希望逐步减少模型选择和多 Agent 配置负担。另一条线是开放生态：Sign in with ChatGPT、插件发现与收入分成，让第三方产品通过使用效果和留存获得推荐。访谈提到首发从 primary Dots 开始，后续多 Dots 属当时规划；不能把访谈里的未来安排当作今日已全面开放的功能。译稿未给出分成比例、结算规则或第三方实际收入。
+🔗 https://mp.weixin.qq.com/s/EpjrXZA4zgzglRMpozYwqQ
+
+4. PHP 漏洞复盘：发现更快，补丁协作仍受人力限制
+卡兹克串联 PHP 漏洞发现、提前曝光和补丁分发过程，强调修复验证的人手瓶颈。涉及停站与泄漏的细节为二手叙述；与 RSS 同题，可作中文补充，不能将候选漏洞数当已验证漏洞数。
+🔗 https://mp.weixin.qq.com/s/7T8zD-uSeKjk15PuXIAZUw
+
+5. 阶跃手机实测：应用接入名称不等于任务能完成
+作者称外卖未完成、机酒预订仍需跳回 App，打车相对可用，并质疑 A2A 的合作依赖。属单机体验和评论，没有统一任务集；文中“90% 失败”不能当总体成功率，未证实的人事指控不采纳。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/bvhcEdbdA2ZPtIFEDnX2EQ
+
+📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-10-23.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #742 | 2026-10-22</title>
       <link>https://news.justin7974.dev/2026-10-22.html</link>
@@ -1268,72 +1338,6 @@ IROS 2026 显示机器人研发工具已有具体采购价值，但这与生产�
 🔗 https://mp.weixin.qq.com/s/q8DyzpOKmPWYC-JtPES2ag
 
 📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-10-04.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #723 | 2026-10-03</title>
-      <link>https://news.justin7974.dev/2026-10-03.html</link>
-      <guid>https://news.justin7974.dev/2026-10-03.html</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 4 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. AI Data Center Debt Is Showing Up Everywhere
-过去十二个月至少二十笔高收益债发行用于数据中心项目，AI 基建的融资风险已进入更广泛的信用市场。The Information 指出，投资级科技债利差扩大、部分高收益项目债需要更多让步，银行项目贷款也更谨慎。CoreWeave、Fluidstack 等租户把这些项目连接到头部模型与云公司，Google 还为部分 Fluidstack 租约提供信用支持。这类融资通常覆盖机房及配套设施，不覆盖 GPU；部分项目债已进入普通高收益债 ETF，单项持仓占比仍不到 1%。
-🔗 https://www.theinformation.com/articles/ai-data-center-debt-showing-everywhere
-
-2. Anthropic&apos;s IPO Can&apos;t Wait Forever
-Anthropic 据报道把原定十月的上市时间推迟到十一月，融资窗口正在与巨额算力承诺发生碰撞。Newcomer 援引 Reuters 获得的招股书草案称，公司去年收入约 46 亿美元、经营亏损约 80 亿美元，并承诺未来投入约 5180 亿美元于云、计算及基础设施；这些历史数据早于今年二月的 Opus 4.6。OpenAI 则据报道洽谈至少 300 亿美元的新融资，目标估值约 1.4 万亿美元，为 2027 年 IPO 提供资金。Oura、SB Energy 的上市延期提供了市场背景，但模型公司的最新完整财务数据仍未公开；本次读到公开段落，付费后段未获取。
-🔗 https://www.newcomer.co/p/anthropics-ipo-cant-wait-forever
-
-3. Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience
-Airbnb CTO 称，AI 已独立解决约一半客服工单，公司二季度披露的比例接近 45%；安全问题等高风险工单仍保留人工处理。他同时称，60% 的代码由 AI 编写，年度功能与改进交付量增加近 80%，平均工程师的 PR 吞吐提高约 1.6 倍。内部上下文图谱 Everest 将先前项目经验提供给后续团队：杂货服务开发约八九个月，机场接送约六周，但两者并非受控对照实验。Airbnb 在生产中使用至少十个定制模型，按具体任务权衡成本、质量和延迟，并开始让事件触发的异步 Agent 处理值班告警。
-🔗 https://www.latent.space/p/airbnb
-
-4. ★ Apple Is Going to Further Tighten the Screws on Full Disk Access on MacOS, in Response to Agentic AI Apps Running Amok
-Apple 宣布将为 macOS 的 Full Disk Access 增加控制，要求用户通过更明确的操作才能授予这类广泛访问权限。公告指出，一些应用让文件、邮件、消息和浏览历史暴露给开发者，而用户未充分理解其范围；自主 Agent 会放大风险。John Gruber 将此与 Muse、Grok Bot、Claude、Dots 等产品联系起来，但 Apple 本身没有点名。具体控制方式尚未公布，Gruber 担忧正常依赖这项权限的专业工具也会受到影响。
-🔗 https://daringfireball.net/2026/10/apple_full_disk_access
-
-5. AutoSynthData: Generating Training Data for Enterprise Agents
-ServiceNow 的 AutoSynthData 在 EnterpriseOps Gym 的 ITSM 环境中，把目标模型平均 Pass@1 从 18.77% 提升到 27.18%。流程根据目标模型失败和更强教师成功的差异，生成新的任务、初始状态及验证器，再执行正向、反向检查和有限修复。另一组 Hybrid 实验约十八小时生成两千条训练样本，Pass@1 提升 7.2 个百分点，关闭目标模型与参考模型原有差距的 59%。生成器不接收原始评测任务，只接收整理后的能力规格；结果来自受控企业环境，尚不代表真实客户部署的同等收益。
-🔗 https://huggingface.co/blog/ServiceNow-AI/autosynthdata
-
-🐦 Twitter 精选（5 / 30）
-
-1. @shao__meng：转述 Open SWE 973 线程实验：模型路由使中位成本降 64%，PR 合并率无显著差异；主张在运行层路由。
-🔗 https://x.com/shao__meng/status/2105986313510178880
-
-2. @cursor_ai：Cursor 的 Rollouts 定位回归 PR 并建 Issue，可启动云端 Agent 修复；额度含至十月三日。
-🔗 https://x.com/cursor_ai/status/2106066782155157603
-
-3. @shao__meng：Pi 1.0 发布并推出实验项目 Pi Durable；他强调可靠性与扩展性，并介绍规划、实现及切换模型组成的虚拟模型。
-🔗 https://x.com/shao__meng/status/2105919370404974755
-
-4. @shao__meng：转述 Griffin 可边说边听、看并生成整个画面；48% 对话者误判为真人属厂商测试，不等于普遍通过图灵测试。
-🔗 https://x.com/shao__meng/status/2105818253176291778
-
-5. @_akhaliq：分享 Adaptive Reward Routing 论文，以强化学习优化联合音视频扩散的多项奖励；未给实验数字。
-🔗 https://x.com/_akhaliq/status/2106080325386305893
-
-📱 公众号精选（4 / 4）
-
-1. a16z 最新市场洞察：AI 拿走美国 VC 86% 的钱，toB 开始算 ROI，toC Agent 的入口机会......
-美国 AI 融资的金额占比升至 86%，交易笔数占比却仍约 43%，这篇 a16z 解读呈现出资金向头部集中的图景。文章转述 PitchBook-NVCA 数据称，今年上半年 AI 公司获得约 3559 亿美元，全部 VC 投资约 4127 亿美元，一亿美元以上融资占总金额 87.5%。企业端的落差同样显著：69% 的 S&amp;P 500 公司已运行 AI 项目，约 30% 能量化业务影响，只有约 2% 持续追踪明确指标。消费 Agent 则可能改变交易入口：Amazon 对外部购物 Agent 更谨慎，Instacart 更开放，文章将其与广告收入和新增 GMV 的不同权衡联系起来；数字均来自这篇二次解读，未独立核实原报告。
-🔗 https://mp.weixin.qq.com/s/w9yw4b7f8JtKVEwrELyA-g
-
-2. 喝点VC｜a16z最新90页报告解读：AI的钱正流向哪里，利润留给谁
-解读 a16z 报告，区分供应链订单兑现与最终客户回报；强调电力、建设周期、利用率和软件毛利决定利润归属。
-🔗 https://mp.weixin.qq.com/s/a4mJFFkSuLGarqnlc5I9-A
-
-3. 吃瓜：Shivon 和马斯克分手（Opus 5.5 剪辑制作）
-宝玉用 Opus 5.5 找素材、剪视频，配音用 Gemini 3.8 Flash；未核实标题中的私事。
-🔗 https://mp.weixin.qq.com/s/GovQioMtetUaHJ7SHlg37Q
-
-4. RSI 时代的命运与意义
-借战锤、群星等科幻讨论 AI 时代的意义与评价尺度，认为可批量生产的代码会贬值；属思想实验，不是 RSI 技术证据。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/U0LciDoSr2jG-W_W5ETPkg
-
-📖 查看完整日报（44 篇）→ https://news.justin7974.dev/2026-10-03.html</description>
     </item>
   </channel>
 </rss>
