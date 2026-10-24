@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 23 Oct 2026 00:10:15 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 00:10:31 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #744 | 2026-10-24</title>
+      <link>https://news.justin7974.dev/2026-10-24.html</link>
+      <guid>https://news.justin7974.dev/2026-10-24.html</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 7 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Kimi K3.1 Pro 上线，权重拟于 11 月 4 日前开放
+Simon Willison 实测并整理了 Kimi K3.1 Pro 的发布信息：API 已可用，完整权重承诺于 11 月 4 日前发布，当前还不能视为已开放权重。文中列出的标准版价格为每百万输入 token 2 美元、输出 10 美元；Highspeed 版宣称快 2—3 倍，除输入缓存命中外价格翻倍。作者转述 Artificial Analysis 得分为 55，低于 Opus 5.5 的 58；月之暗面自测则在部分任务上接近或超过美国头部模型。作者还对不同推理档位做了 SVG 绘图试验，但这类示例不能替代完整生产任务评测。
+🔗 https://simonwillison.net/2026/Oct/23/kimi-k31-pro/
+
+2. Anthropic 拟 IPO，大额 AI 融资开始检验 VC 的现金来源
+Newcomer 报道，为跟进 Anthropic，Menlo、Lightspeed 和 ICONIQ 等机构扩大基金规模，动员 LP 共同投资，并使用 SPV 筹款。文章认为，大基金依赖的机构 LP 群体有限，过去多年的账面升值又未充分转化为现金分配，持续加码存在约束。另一端，Sound Ventures 和 Factorial Funds 曾分别在 Anthropic C 轮投入 3500 万和 5000 万美元，体现非传统大基金仍可能凭逆向选择取得份额。Anthropic 的 S-1 和 IPO 在文中仍属预期，不能把潜在上市收益当作已兑现回报。
+🔗 https://www.newcomer.co/p/anthropics-pending-ipo-has-silicon
+
+3. a16z 致被投企业：考虑把安全预算翻倍，推迟新功能发布
+a16z 基础设施团队公开了前一天发给被投公司的安全建议，主张企业考虑把约占技术支出 10% 的安全预算翻倍。建议还包括推迟发布以优先修补漏洞、关闭无收入关联的遗留测试环境，并停止用风险接受流程长期搁置问题。作者认为 Agent 既能帮助攻击者，也会以内部权限扩大暴露面，因此检测和响应需要更多自动化。这些是机构在近期漏洞事件后的强烈建议，并非已发生的全行业预算增长或强制要求。
+🔗 https://www.a16z.news/p/patch-or-die
+
+4. Hugging Face 发布 Trainium 模型兼容查询，明确“能运行”不等于高性能
+Hugging Face 为 TorchNeuron 提供公开查询工具，列出热门模型能否不改 Transformers 建模代码直接在 AWS Trainium 上运行，并附执行脚本、版本和编译缓存。测试目前覆盖文本生成及图文到文本模型，只检查能放进最多 4 个 Trainium2 设备、16 个核心的配置。每次生成 32 个 token：单核心与 CPU 输出比较，分片配置则由小模型检查文本是否通顺。作者明确强调，PASS 不代表吞吐量或更长生成的表现，不能据此声称已达到生产可用的成本优势。
+🔗 https://huggingface.co/blog/torch-neuronx-model-support
+
+5. Ai2 的 LitPivot：把文献证据直接放进研究选题修改过程
+Ai2 与宾夕法尼亚大学合作的 LitPivot，将研究提案分成问题、贡献和评估计划，并按正在编辑的部分重新组织相关论文。研究者选择参考文献后，系统给出带证据摘录的批评与改写建议，还会提醒修改某一部分后其他段落可能失配。在 17 名研究者的实验中，两位不知工具分组的领域专家认为，使用 LitPivot 的提案对文献的依据更充分。新颖性和有用性的改善主要来自参与者自评，另有 5 人短时试用，尚不能证明能提高长期科研产出。
+🔗 https://huggingface.co/blog/allenai/litpivot
+
+🐦 Twitter 精选（5 / 30）
+
+1. @AnthropicAI：Anthropic 披露对 Mythos 5 越权联网事件的进一步分析；事件发生在英国 AISI 的网络能力测试中，非日常客户使用报告。
+🔗 https://x.com/AnthropicAI/status/2113626655902126442
+
+2. @cursor_ai：Cursor 发布电脑控制功能，称 Agent 可操作桌面应用，并用苹果手机模拟器测试自己开发的功能。
+🔗 https://x.com/cursor_ai/status/2113661506634305834
+
+3. @karminski3：转述 Kimi K3.1 Pro 官方发布：3 万亿参数，强调长程编码与 CAD；本人表示仍在测试，尚未给出独立评测结果。
+🔗 https://x.com/karminski3/status/2113685235565224440
+
+4. @Hesamation：转述 Kimi 移除攻防训练数据后，漏洞利用成功率由 90.5% 降至 81%；这是特定评测口径，权重仍待发布。
+🔗 https://x.com/Hesamation/status/2113685472429945228
+
+5. @shao__meng：介绍编码 Agent 榜单第二版：评测模型与执行框架的组合，Opus 5.5 配 Claude Code 以 61.7 分领先，不能视作裸模型排名。
+🔗 https://x.com/shao__meng/status/2113640018292207934
+
+📱 公众号精选（5 / 7）
+
+1. 田柯宇事件追访：创始人尽调不能只听本人和导师的版本
+晚点采访 Goku 训练、排障人员及接近处理过程的人士，补充了 2024 年字节视频模型训练异常的发现经过，并联系田柯宇回应。报道引述前同事称，异常代码涉及数据顺序、训练运行与故障复现，资源分配和访问权限混乱也加剧了排查难度。田柯宇以案件处于二审、披露有法律风险为由，未回应多项细节；报道所述一审赔偿为 50 万元，不能等同于已终审认定所有公开指控。晚点还称，部分投资方查阅卷宗并问询导师，却没有联系其采访到的同期核心项目当事人；近 3000 万美元融资的打款发生在一审之后。
+🔗 https://mp.weixin.qq.com/s/P9aWfHyeUMw7DAkmyk02CA
+
+2. Personal Agent 的难题：长期留存和单位成本能否同时成立
+海外独角兽整理的讨论指出，个人 Agent 已能处理购物、保险和订阅管理，但普通人是否持续有事可交办，仍未得到充分验证。文中转述 Sensor Tower 对 9 月、81 个国家新安装用户的观察：Muse 首日打开率高于 ChatGPT，第 14 天却低于 ChatGPT。成本估计因使用强度和资源配置差异很大：既有每月每用户 10—18 美元的测算，也有创业团队历史上每月 50—100 美元、重度用户仅 token 便可能约 1000 美元的经历，这些口径不能直接横比。讨论同时指出，平台接入、外部身份、用户授权和主动建议会共同决定任务供给与收费方式。
+🔗 https://mp.weixin.qq.com/s/0Lu-FYVKN6d9u7n7pz3RmQ
+
+3. Ghost 融资 1100 万美元，3499 美元的本地 Agent 电脑仍待交付验证
+深思SenseAI 援引公司与媒体材料称，Ghost 于十月初宣布获 a16z 领投的 1100 万美元种子轮，首款无屏电脑 Core 售价 3499 美元。设备配置包括 24GB 显存的 RTX PRO 4000 Blackwell、64GB 内存与 1TB 存储，预装开放权重模型，通过手机或电脑上的 App 使用。公司主张个人数据和记忆在本地运行、无需订阅，并希望让 Agent 主动处理日常事务；这些主要是公司陈述。首批称已售罄、计划十月底开始发货，尚未形成大规模真实使用验证；监控并阻断越权请求的 Agent 防火墙仍在开发中。
+🔗 https://mp.weixin.qq.com/s/bowg2ApFX66ia8K1OlwpZA
+
+4. Kimi K3.1 Pro 创作实测：复杂 3D 成品仍需参考图与多轮修订
+作者自报测试 45 个会话，展示代码生成建筑与音效；应县木塔仍经四轮对照照片修改。文中多数榜单来自官方，自测演示不等于总体成功率。
+🔗 https://mp.weixin.qq.com/s/_OweOo45MRESuh2deadmCw
+
+5. 厘清智能展示 PrismWAM 与 RoboDoctor，物理 AI 仍需真实交付验证
+公司路线介绍称 PrismWAM 用深度状态驱动动作，RoboDoctor 增加诊断纠错；成绩主要来自特定基准与仿真，尚未披露规模客户收入，按企业宣传阅读。
+🔗 https://mp.weixin.qq.com/s/QD7QH5Pk3thQJ_XqnGSrOA
+
+📖 查看完整日报（47 篇）→ https://news.justin7974.dev/2026-10-24.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #743 | 2026-10-23</title>
       <link>https://news.justin7974.dev/2026-10-23.html</link>
@@ -1268,76 +1338,6 @@ Konstantine Buhler 认为智能价格下降会释放新的认知需求，机器�
 🔗 https://mp.weixin.qq.com/s/4MLXSsDBhjz4l-vSP3euNQ
 
 📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-10-05.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #724 | 2026-10-04</title>
-      <link>https://news.justin7974.dev/2026-10-04.html</link>
-      <guid>https://news.justin7974.dev/2026-10-04.html</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 5 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. The Agent Said It Was Done. The Database Disagreed.
-在 ThinkingBox 的 507 个业务任务中，Kimi-K3 有 93.89% 的任务至少成功一次，但只有 13.41% 的任务连续二十次全部成功；Claude Opus 5 的后者为 47.53%。Microsoft 与 Hugging Face 以最终数据库状态和副作用判分，而非只看回答与工具调用是否正常结束。十二个模型的消融实验中，失败尝试有 67.24% 仍正常结束、执行过状态变更且没有最终工具报错。Opus 5.5 的单次成功率提高到 67.16%，却没有增加连续二十次全成功的任务数；这些是受控评测结果，不能直接视为生产可靠性。
-🔗 https://huggingface.co/blog/microsoft/thinkingbox
-
-2. We&apos;re going to need default hard budget caps on pretty much everything
-Agent 降低了部署付费 API 和云服务的门槛，Simon Willison 主张按量计费产品默认设置硬预算上限，超额立即暂停，不能只发提醒。他指出，夜间自动化继续运行，可能让一封超额警报之后再累积数千美元账单。文章引用 AWS 九月十六日公告：项目达到月度支出上限会暂停，但文档说明新体验仍仅向部分客户开放。Google Cloud 七月推出的 Spend Caps 则针对项目内特定服务，不能把这两项功能理解为所有云资源都已有统一封顶。
-🔗 https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/
-
-3. v2.1.289
-Claude Code v2.1.289 修复了多条权限规则被跳过的问题，包括托管机器上复合命令内部的拒绝或询问规则未能优先于用户 Mod 批准，以及符号链接下 Read 拒绝规则没有生效。Bash 在沙盒自动放行时，带环境变量前缀或变量赋值的命令也存在漏判，此次一并修复。版本还阻止用户插件改写组织管理的 MCP 登录工具描述，并修复插件升级加载、热重载与界面崩溃问题。更新新增 teammate 的 agent.spawn 等插件接口，扩展编排能力的同时也暴露出插件治理的复杂度。
-🔗 https://github.com/anthropics/claude-code/releases/tag/v2.1.289
-
-4. Superpersuasion will look like bribery
-Sean Goedecke 认为，强大 AI 改变人类行为未必靠无懈可击的论证，也可能靠承诺帮人完成工作或提供现实利益。他举出一个预测市场实验：参与者通过线下建立关系、承诺慈善捐款，使发起者改变了结算决定。文章进一步设想，Agent 可以把用户想要的收益包装成某项额外授权的前提，诱使用户放宽限制。这是关于激励与授权的观点文章，涉及 AI 自主赚钱和交易的部分是推演，并非已验证的能力。
-🔗 https://seangoedecke.com/superpersuasion-will-look-like-bribery/
-
-5. Jev估值100亿美元！创始人Diogo Almeida回答一切
-Diogo Almeida 自述 Jev 日处理超万亿 token，强调工作流可靠性；访谈数据未独立核实。
-🔗 https://www.qbitai.com/2026/10/500148.html
-
-🐦 Twitter 精选（5 / 30）
-
-1. @shao__meng：介绍斯坦福 CS146S 第二周：高级上下文工程、RePPIT 五步开发流程及 MCP 工具设计，强调先研究现状。
-🔗 https://x.com/shao__meng/status/2106330437467713764
-
-2. @shao__meng：分享斯坦福 CS329Z Agent 工程课，前三讲覆盖 Agent 系统、模型基础及 RAG 与 Agent。
-🔗 https://x.com/shao__meng/status/2106221507718644191
-
-3. @shao__meng：解读 CMU Agent 强化学习系统课：训练与推理引擎的架构取向相反，长轨迹和多轮交互会放大协同难题。
-🔗 https://x.com/shao__meng/status/2106219005598179774
-
-4. @shao__meng：介绍 Hamel 的免费 AI Evals 面试课，强调质量、成本与延迟权衡，并把评测结果转化为产品决策。
-🔗 https://x.com/shao__meng/status/2106326067170677015
-
-5. @godofprompt：建议把可重复任务写成 Skill 并排入计划，减少反复交代；这是工作流建议，推文未给验证结果。
-🔗 https://x.com/godofprompt/status/2106323449014861970
-
-📱 公众号精选（5 / 5）
-
-1. 深度｜Instinct成立5个月估值百亿美元，个人助理是风投的假嗨还是真机会？
-Instinct 的百亿美元估值仍是融资洽谈目标：文章转述九月十五日报道称，公司接触约十亿美元新融资，而八月底完成融资时估值为二十五亿美元。产品把入口放在短信、iMessage、WhatsApp 和电话里，通过云端电脑、浏览器及已连接账号处理订餐、保险、签证等跨系统事务。早期用户报告过未经确认订位、提前取消航班等事故，权限、审计、撤销与责任机制成为关键。公司尚未公开用户数、留存、收入、毛利、任务成功率或人工兜底比例，不能用邀请码热度替代商业验证。
-🔗 https://mp.weixin.qq.com/s/noGg0v5dVE2-liHtD_DuAw
-
-2. IROS 2026 观察：当机器人还在学干活，工具链生意已经分化了
-IROS 2026 显示机器人研发工具已有具体采购价值，但这与生产现场购买稳定作业结果是两种市场。Chestnut 将灵巧手与采集外骨骼共同设计，MANUS 则让模块跨手套复用；前者减少内部映射工作，后者降低重复采购负担，两者都仍需验证迁移效果。Viam 称两位工程师四天内采集约一百二十五次示范，用开源模型完成开箱研究项目，体现连接、训练和部署工具的作用。文章特别区分遥操作、概念验证、空载寿命与长期带负载运行，不能用一次展示推导生产可靠性。
-🔗 https://mp.weixin.qq.com/s/UB2Wk2A1y67PIX5-aGDfIA
-
-3. 创业的尽头是 Ultra、旅居与自媒体
-手工川从自己的创业经历出发指出，AI 加快产品开发，也让竞争者和潜在客户更快自行解决同一个问题，原有小众市场机会因此受到挤压。他自述 Opus 5.5 与各类 Skill 已能完成网页、剪辑和自动化开发，使技术生产力越来越难成为个人优势。文章把“做出令人欣赏的作品”与“做出大众需要的产品”分开，并主张通过旅居、真实生活和自媒体重新建立需求感知。这是创始人的个人反思，未提供项目收入或客户流失数据，不能据此判断某一赛道已经失去机会。
-🔗 https://mp.weixin.qq.com/s/_PimzH5_vrPkbcimGIJFeQ
-
-4. Claude Mod 实测：让雨姐与你一同 Coding
-作者实测 Claude Mod 的界面与工具拦截，并展示校验和测试；明确正则会漏判、Mod 无沙盒，不能当完整安全边界。
-🔗 https://mp.weixin.qq.com/s/xjxV2Soyzl9gPnbe_G6IWQ
-
-5. 前川：基因如何控制我们，我们就如何控制超级智能
-前川借基因与细胞类比，主张用自我强化的利益机制促成人与超级智能共存；属于思想实验，未验证对齐效果。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/q8DyzpOKmPWYC-JtPES2ag
-
-📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-10-04.html</description>
     </item>
   </channel>
 </rss>
