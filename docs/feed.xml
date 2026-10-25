@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 24 Oct 2026 00:10:31 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 00:09:39 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #745 | 2026-10-25</title>
+      <link>https://news.justin7974.dev/2026-10-25.html</link>
+      <guid>https://news.justin7974.dev/2026-10-25.html</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 5 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Kimi 接近前沿模型，但降 token 单价未必降低任务成本
+Kimi K3.1 Pro 在 Artificial Analysis 智能指数上取得 55 分，距离 Opus 5.5 的 58 分已较接近；API 已上线，权重仍承诺在 11 月 4 日前发布。Latent Space 汇总的规格为总参数 2.8T、激活参数 104B、上下文 100 万 token，不能把激活规模当作完整部署规模。标准 API 每百万输入、输出 token 分别为 2、10 美元，Highspeed 宣称速度提高 2—3 倍、价格翻倍。同一汇总中，WebDev 单任务成本较 K3 下降 29%，但通用智能评测成本大致不变，网络安全任务成本反升 15%，显示价格下降与实际工作成本并不同步。
+🔗 https://latent.space/p/ainews-kimi-31/
+
+2. CoreWeave 的压力测试：算力需求旺盛，融资能力仍可能先出问题
+The Information 的公开可见正文称，CoreWeave 股价在 12 天内接近腰斩，当周又从约 60 美元跌至约 54 美元。报道将压力归于市场对利率上行、持续举债能力和既有债务负担的担忧，不能据此直接认定公司已发生偿付危机。黄仁勋强调 Neocloud 需求旺盛，也未扭转该周跌势。作者同时指出，SpaceX 出售多余 AI 算力既是需求信号，也可能形成有更强资金支持的竞争供给。
+🔗 https://www.theinformation.com/articles/neoclouds-gathering-storm
+
+3. Arda 融资 1.6 亿美元，制造换线与数据中心配套出现不同机会
+Brian Potter 的周度阅读清单可见部分转述，前 OpenAI 研究负责人 Bob McGrew 的制造自动化公司 Arda 融资 1.6 亿美元。McGrew 称，设计变更后，工人一天可完成再培训，自动化系统的调整却常需三至六个月，公司希望用软件和 AI 缩短装配线构建时间。清单还列出 Heron Power 为 Vantage 签订 1GW 制造产能协议，以及 TrendForce 对光纤现货价格可能升至 2025 年水平 2.8—5 倍或更高的预测。后者属于供需预测，非已兑现涨价；阅读清单另有付费部分，本次未取得。
+🔗 https://www.construction-physics.com/p/reading-list-102426
+
+4. Steve Blank：欧洲技术主权可能从政策口号变成采购条件
+Steve Blank 根据在伦敦接触政策人士的经历判断，欧洲客户正在重新评估对美国关键软件和 AI 服务的依赖。其论述以他转述的 Starshield 对乌限制报道为起点，再延伸到 Microsoft、OpenAI、Anthropic 等供应商可能限制服务的风险；这些是作者的报道引用与推演。Blank 认为，AI 降低复制软件功能的成本，而地缘风险提高客户切换意愿，使本土替代更容易进入讨论。对欧洲政府和防务客户，供应商需要回答“谁掌握关闭服务的开关”；文中没有给出已完成采购迁移的金额。
+🔗 https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call/
+
+5. 运行 Agent 生成的代码，Linux 现成工具已能约束资源和时长
+Martin Alderson 展示了用 systemd 为 Agent 及其子进程设置内存、CPU 和最长运行时间的方法。示例可把 Claude Code 限制在 4GB 内存、两个 CPU 核心，或让独立运行的 OpenCode 任务最多执行 30 分钟。定时器还能补跑关机期间错过的任务，路径单元则可在目录出现文件时触发处理。作者特别提醒，共享后台服务可能绕过任务时限；这些功能仅适用于 Linux，文中也没有把资源限制当成完整安全沙箱。
+🔗 https://martinalderson.com/posts/interesting-systemd-features/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=feed
+
+🐦 Twitter 精选（5 / 30）
+
+1. @karminski3：实测 DeepSeek 新版 Flash：编码进步明显，但 Agent 过度节省行动成本；接入既有框架需重新适配。
+🔗 https://x.com/karminski3/status/2113979126256402587
+
+2. @karminski3：补充实测：让框架负责循环计数并注入实时状态，避免模型漏查或把首次检查结果一直当作权威。
+🔗 https://x.com/karminski3/status/2113979202173272068
+
+3. @Hesamation：Kimi 在其 CrusaderBench 测试中接近头部模型；推理档位并不一致，不能当成严格同条件排名。
+🔗 https://x.com/Hesamation/status/2113792783748088106
+
+4. @godofprompt：介绍 Claude 云端会话：每任务独立机器，可关闭电脑后继续运行，再迁回本地；用量仍计入原套餐。
+🔗 https://x.com/godofprompt/status/2113948958259380263
+
+5. @shao__meng：转述 Claude 工程负责人的方法：给模型完整数据和工具，让它自主挑问题，以对抗评审和外部证据约束。
+🔗 https://x.com/shao__meng/status/2113970197161988276
+
+📱 公众号精选（5 / 5）
+
+1. Mecka 从机器人训练数据走向部署与持续后训练
+Mecka 希望从出售训练数据，延伸到机器人现场部署和持续改进，创始人 Josh Gao 将目标角色称为现代机器人系统集成商。报道援引公司披露：10 月完成 6000 万美元 B 轮融资，截至 6 月 ARR 已超过 1 亿美元；这些经营数字未在本次独立核验。其数据生产覆盖数千户家庭和数千家企业，并自行研发触觉手套、传感设备，承担上传、质检与处理。Gao 强调多样性和目标场景数据的重要性，认为早期部署更适合有明确 SOP 的任务，成熟的现场数据反馈机制仍需时间建立。
+🔗 https://mp.weixin.qq.com/s/_c5VaPPt93zHzKV1OAw0PQ
+
+2. Rosie 融资 700 万美元，用 AI 协调真人育儿与家务
+西雅图的 Rosie 以月度会员出售真人育儿与家务服务，报道称累计两轮融资 700 万美元，由 Bling Capital 和 Reach Capital 领投。公司披露已服务 250 多个家庭、交付超过 1.7 万小时，八个月内年化收入达到七位数。AI 系统 Jetson 在幕后记录偏好、匹配服务者并协调排期，目标是降低家庭管理帮手的负担。会员每月 8、16、24 小时分别收费 280、525、750 美元，西雅图服务者基础时薪为 22—24 美元；扩城后的运营复制仍待验证。
+🔗 https://mp.weixin.qq.com/s/Ls1244dkVubZ1vdXk9pM1Q
+
+3. Kimi K3.1 Pro 的 3D 与视频动效实测
+作者测试果冻物理、机械键盘等生成任务，主观认为 3D 提升明显、视频动效仍有差距；属案例体验，权重尚待发布。
+🔗 https://mp.weixin.qq.com/s/PIP2Tu15tbNd_bgrf0o1KA
+
+4. 白艾莉从工具 Agent 转向 AI 角色与二创生态
+团队自述从办公工具转向角色内容，称已积累近 1200 份二创并开放视觉素材；含活动推广，尚无付费留存数据验证 PMF。
+🔗 https://mp.weixin.qq.com/s/kFbwHO7-S8Gu4ElSArRrUw
+
+5. Einsia AI 推出研究品牌，量化回测仍需拆解口径
+品牌宣传介绍 Quant Arena 与私有策略，94% 收益来自历史回测，非实盘；策略未公开，榜单代表配置也非全部配置最优结果。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/PgDS782fXIJSg5pbuaH1BA
+
+📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-10-25.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #744 | 2026-10-24</title>
       <link>https://news.justin7974.dev/2026-10-24.html</link>
@@ -1268,76 +1338,6 @@ Harvey 联创 Gabe Pereyra 认为，法律 AI 的研究优势可以来自真实�
 🔗 https://mp.weixin.qq.com/s/vu6wq11IxwGio-UFXID6GQ
 
 📖 查看完整日报（43 篇）→ https://news.justin7974.dev/2026-10-06.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #725 | 2026-10-05</title>
-      <link>https://news.justin7974.dev/2026-10-05.html</link>
-      <guid>https://news.justin7974.dev/2026-10-05.html</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 5 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. 最火AI岗位FDE：月薪5万，都干这些…
-多位受访 FDE 表示，沟通需求占工作时间七成以上，企业 AI 的交付成本主要花在理解业务、系统权限和组织协作上。量子位采访了企业、Baseten 与独立接单的 FDE，发现同一个岗位名称已涵盖产品实施、顾问服务和员工培训等不同生意。受访者 Sonic 称，积累模块后，同类场景的接入时间可以从约一个月缩短到一两天；独立 FDE Zaniel 则质疑，代码便宜以后，每家客户的适配成本仍然居高不下。报道因此把争议落在完整交付能否复用，而不是是否拥有一套可复用代码。
-🔗 https://www.qbitai.com/2026/10/501506.html
-
-2. Weekend content through the end of 2026
-独立网站作者 Dave Farquhar 自述，搜索平台截留流量，加上大站借生成式 AI 复制热门文章，让他原有的获客方式失效。请 SEO 专家协助后，他只能止住下滑，无法恢复过去的流量，于是转向较难复制的复古技术内容。新的选题管理方式让他积累了足够存稿，计划年底前在周末发布剩余文章，并从明年一月扩展到每周七天。他还因制作时间高、流量低而减少模型火车内容，体现小型内容业务对投入产出的重新取舍。
-🔗 https://dfarq.homeip.net/weekend-content-through-the-end-of-2026/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=weekend-content-through-the-end-of-2026
-
-3. OpenAI’s Head of ChatGPT: We’re entering a new era of AI (again) | Tibo Sottiaux
-Tibo 访谈介绍 Dots，并谈 Agent 接管互联网操作；仅有公开介绍，完整访谈受付费墙限制。
-🔗 https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering
-
-4. Anthropic’s Big Charity Bill for Shareholders
-公开导语称 Anthropic 半年确认逾 6.6 亿美元慈善配捐股票费用；属非现金费用，全文受限。
-🔗 https://www.theinformation.com/articles/anthropics-big-charity-bill-shareholders
-
-5. GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元
-Meshy 自述不到两年 ARR 从百万增至亿美元，并展示游戏和打印应用；偏品牌宣传，数据未独立核实。
-🔗 https://www.qbitai.com/2026/10/501451.html
-
-🐦 Twitter 精选（5 / 30）
-
-1. @shao__meng：介绍 LiteLLM Lens：聚类 Agent 轨迹问题，数据自托管，供编码工具查询。
-🔗 https://x.com/shao__meng/status/2106709835626734028
-
-2. @shao__meng：整理腾讯、阿里和字节的开源 Sandbox，比较隔离、部署及工具支持，供 Agent 开发者选择。
-🔗 https://x.com/shao__meng/status/2106642658303291636
-
-3. @shao__meng：转述 GRPO 教程：小型 Qwen 模型数学准确率从 15.2% 升至 47%，奖励只看最终答案。
-🔗 https://x.com/shao__meng/status/2106538877695701108
-
-4. @EXM7777：个人认为 Claude Code 浏览器操作弱于 Codex，推荐 Browser Use CLI；未给基准。
-🔗 https://x.com/EXM7777/status/2106746416618209322
-
-5. @godofprompt：分享审计 Agent 请求的提示词：逐段统计 token，按质量代价排序，精简每轮重复发送的上下文。
-🔗 https://x.com/godofprompt/status/2106757494605599037
-
-📱 公众号精选（5 / 5）
-
-1. a16z：押注 AI 头部赢家，让增长跑赢估值
-David George 给当前产品周期打九至十分、资本周期约六分，强调 AI 产业机会与投资价格应分开判断。这位 a16z 成长投资负责人认为，少数公司持续推出新业务，可以反复超过财务模型预设的增长上限，但高估值回报仍取决于未来收入超过今天计入的预期。文章区分供给侧 token 与算力收入、企业客户实际获得的经营回报，并指出行业应用需要处理销售、实施和完整流程交付。资金可能直接提升前沿模型能力，却不能自动改善所有应用公司的客户付费意愿或资本效率。
-🔗 https://mp.weixin.qq.com/s/qutFkF0m8Xn1z000mO2lmQ
-
-2. 深入讨论 Muse：最火的 Personal Agent
-Next Token 讨论把 Muse 的产品优势归于云端执行与普通人易用性，重点是降低委托任务的门槛。嘉宾举例称，连接器按具体任务逐步申请授权，后台执行时仍可持续交流，并用任务列表区分未完成目标与一般记忆。讨论还认为免费云端电脑与充裕资源让 Meta 有条件争取个人 Agent 入口，但这是嘉宾判断，尚不能证明用户留存或商业回报。文中股价变化、日活和成本等说法未经独立核实，不宜据此计算市场规模。
-🔗 https://mp.weixin.qq.com/s/zCpg4ztRHl5AH3LgMqqcxg
-
-3. 喝点VC｜红杉美国：99.9%的脑力劳动将由AI完成，如果AI负责思考，那么我们存在的意义是什么？
-Konstantine Buhler 认为智能价格下降会释放新的认知需求，机器承担的思考量可能远超今天，而不只是替代现有工作。他借工业革命说明，效率提高可能扩大资源使用，编程是较早成熟的应用，更大机会或来自科研、个人助理与新的协作方式。他同时强调，整体经济增长不能保证失去岗位的人及时转型，变化速度会考验培训和社会保障。关于未来机器承担 99.9% 脑力劳动等数字属于作者推演，文章是编译的观点文，不能当就业预测数据。
-🔗 https://mp.weixin.qq.com/s/-hYXNb9muZqtw8jjkpSNIg
-
-4. Anthropic 开班：投入 1 亿美金，培训 1 万名 FDE 工程师
-转述 Anthropic 拟投一亿美元、到 2027 年底培养万名 FDE；企业提名，线下考核后做十二周真实项目。
-🔗 https://mp.weixin.qq.com/s/hFW-evIQJCOizDPVH2T-4g
-
-5. 她凭什么能每月合并 2500 多 Pull Request（PR）？你还 Review PR 吗？
-转述 Lauren Tan 月合并逾两千五百 PR，靠自动验证、代码规矩和抽查；多数是维护，不能等同新功能产出。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/4MLXSsDBhjz4l-vSP3euNQ
-
-📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-10-05.html</description>
     </item>
   </channel>
 </rss>
