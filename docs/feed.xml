@@ -5,8 +5,70 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 25 Oct 2026 00:09:39 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 00:07:53 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #746 | 2026-10-26</title>
+      <link>https://news.justin7974.dev/2026-10-26.html</link>
+      <guid>https://news.justin7974.dev/2026-10-26.html</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 8 篇 RSS · 30 条推文 · 3 篇公众号
+
+📰 RSS 精选（5 / 8）
+
+1. 模型降价最高达八成，缓存成本比输入报价更影响 Agent 账单
+按 Max Woolf 整理的价格时间线，OpenAI 与 Anthropic 近几个月多次降价，部分型号降幅达八成，缓存读取价格的下调尤其影响长会话 Agent 的实际成本。作者统计，OpenRouter 上同一 DeepSeek Flash 更新版本已有 29 家服务商提供推理，认为开放权重与低切换成本持续约束大厂定价。他同时指出，单价下降未必拉高每个客户的支出，自己便因效率提升而下调订阅档位。文中关于降价动机、竞争均衡和未来价格的结论属于作者分析，并非厂商披露的成本数据。
+🔗 https://minimaxir.com/2026/10/cheap-llms/
+
+2. Anthropic 或最快周一公开 IPO 文件，收入质量与控制权待揭晓
+The Information 称，Anthropic 或最快于 10 月 26 日公开 IPO 申报材料，尚不能视为已经提交公开文件。公开节选列出的关键问题包括盈利与现金流、Google 和 Amazon 的算力收费及持股，以及 API、订阅和渠道转售各自的收入构成。报道还提到，公司曾设计让七名联合创始人合计保有 50.1% 投票权的方案，并考虑超出通常 180 天的锁定期。相关条款仍待正式文件确认，本次未取得付费全文。
+🔗 https://www.theinformation.com/articles/anthropics-big-reveal
+
+3. Kimi 高分与长任务体验分化，网络安全讨论转向真实损失
+Lambert 与 Florian Brand 在播客中指出，Kimi K3.1 Pro 的综合榜单成绩很强，但探索性更高、耗时更长的任务表现并不一致，短程评测不足以解释真实体验。两人也讨论了大模型权重规模对推理部署的负担；节目所述权重发布时间仍是 11 月 4 日前。他们把网络安全中的漏洞发现、实际利用和最终损失分开，认为能力进步不能直接等同于灾难已发生。关于 PHP 漏洞、模型防护与开闭源风险的判断属于嘉宾讨论，当前文本在节目后半段截断。
+🔗 https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber
+
+4. 数据中心延期赔偿升至每日 500 万美元以上，催生专门保险
+Marsh 数字基础设施业务负责人称，数据中心新合同中的延期赔偿要求，数月内从每日 100 万美元升到 500 万美元以上。其团队今年春天曾为一个吉瓦级项目的首期交付设计专门的延期保险。租户要求供电和设施按时可用，并以可能损失的收入解释更高索赔要求。本次只取得公开节选，不能据此推定保险已覆盖全部违约责任或开发商已实际赔付。
+🔗 https://www.theinformation.com/articles/data-center-late-fees-hit-5-million-per-day-spawning-new-insurance
+
+5. Rob Snyder 用 PULL 框架判断真实购买需求
+补抓取得公开介绍：PULL 围绕客户项目、必须解决的原因、可选方案及其局限验证需求；付费逐字稿未取得。
+🔗 https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf
+
+🐦 Twitter 精选（5 / 30）
+
+1. @shao__meng：转述 Block 的 Dessa：纯语音训练、可同时听说，声称能在 M4 Max 本地实时运行；尚非独立性能验证。
+🔗 https://x.com/shao__meng/status/2114217554948333812
+
+2. @karminski3：认为所测模型的常规编码能力不错，主要问题仍在任务规划和 Agent 调用；这是作者对实测的补充。
+🔗 https://x.com/karminski3/status/2114164159399297114
+
+3. @godofprompt：转述 Anthropic 的大任务建议：先访谈并写完整规格，再开新会话实施；文件需说明问题、用户与完成标准。
+🔗 https://x.com/godofprompt/status/2114418290881941824
+
+4. @EXM7777：建议先盘点工具接口，再让 Hermes 访谈业务流程并整理项目与文档，用完整上下文建立个人工作区。
+🔗 https://x.com/EXM7777/status/2114460995066474940
+
+5. @shao__meng：分享用 vLLM 服务、估算、调优和排障开源模型的主题，强调以实测支持决策；原推未展开具体结果。
+🔗 https://x.com/shao__meng/status/2114338390225326148
+
+📱 公众号精选（3 / 3）
+
+1. Azoma 融资 1120 万美元，品牌开始为 AI 购物推荐付费
+报道称 Azoma 完成 1120 万美元 A 轮融资，收入一年增近十倍，客户包括欧莱雅、联合利华和玛氏；这些均为文章引用的公司口径。其对 3800 万条引用的研究发现，不同 AI 助手依赖的媒体、零售商、品牌官网等来源差异显著，统一“可见度”分数可能掩盖变化。公司从生成商品图转向测量、优化和销量归因，企业年费通常为六至七位数美元。按效果收费仍是长期设想，推荐变化与增量销售之间的因果关系尚未解决。
+🔗 https://mp.weixin.qq.com/s/eTCvRxB8EtcsSxE6psSP3Q
+
+2. OpenRouter 创始人谈专用模型：企业需要成本、权限与责任可控
+这篇编译来自 10 月 3 日的 a16z 圆桌，非当天新访谈；Alex Atallah 在文中谈及 Stripe 收购后保留 OpenRouter 品牌、产品和路线图自主权。Atallah 与 Replit 的 Amjad Masad 认为，企业愿意探索多模型组合，以减少供应商依赖并降低成本。两人讨论让垂直 Agent 分担具体责任，用小型决策模型检查工具调用，同时保留数据隔离和结构性防护。文中“前沿质量、约一半成本”的融合模型效果属于受访者自述，并非统一条件下的独立评测。
+🔗 https://mp.weixin.qq.com/s/AaKoY-c7_CYzJB9U1sRg_w
+
+3. 元宝搜索实测：正文与权威来源有帮助，学术检索仍弱
+作者以 31 条查询实测元宝搜索，称权威信息较强、学术较弱；含邀请码推广，且自动化请求占比不等于 AI 流量占比。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/8tL4PIngo7k0_OhmFTgFJg
+
+📖 查看完整日报（41 篇）→ https://news.justin7974.dev/2026-10-26.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #745 | 2026-10-25</title>
       <link>https://news.justin7974.dev/2026-10-25.html</link>
@@ -1276,68 +1338,6 @@ Josh Elman 判断消费 AI 产品是否成立，首先问用户开始使用后�
 🔗 https://mp.weixin.qq.com/s/D45WfBlwPrXAUdrJz7_31Q
 
 📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-10-07.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #726 | 2026-10-06</title>
-      <link>https://news.justin7974.dev/2026-10-06.html</link>
-      <guid>https://news.justin7974.dev/2026-10-06.html</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 3 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Top 100 Consumer AI Apps - Seventh Edition
-美国消费者 AI 支出高度集中：a16z 引用的 YipitData 面板中，最上面的 1% 付费者贡献 19.5% 的支出，月均花费 903 美元，付费中位数则为 25 美元。8 月该美国电子收据面板中，4.5% 的合资格消费者拥有 ChatGPT、Gemini 或 Claude 的个人付费订阅，高于一年前的 2.1%。本期首次加入消费支出榜，支出前五十名里有二十九家公司没有进入网页或移动流量榜，桌面工具与消息平台内的 Agent 因而得到不同评价。高支出人群偏爱编程、自动化和创作产品；这组数据来自美国面板，不能等同全球采用率或公司总收入。
-🔗 https://www.a16z.news/p/top-100-consumer-ai-apps-seventh
-
-2. Building advertising for the way people use AI
-OpenAI 将于本月晚些时候在美国测试 ChatGPT 图片生成过程中的视觉广告，广告有明确标签，并与用户生成的图片分开。公司同时接入转化数据和归因伙伴，尝试用地域实验衡量广告是否真正带来新增购买。公告援引 DV Rockerbox 的早期结果称，WeightWatchers 的归因获客成本比其综合付费搜索基准低 15.3%，但这是合作伙伴报告的个案。品牌适配评估也开始引入独立机构，在受控环境下检查广告保护措施，避免向评估方开放真实私人对话。
-🔗 https://openai.com/index/new-chatgpt-ads-format-and-measurement
-
-3. Apple and a Hacker’s Future
-Ben Thompson 自述，常驻运行 Claude 与 Codex 的 Mac Mini 遭入侵后，Claude 在监测任务中发现异常、停止执行命令并协助定位恶意软件。事故令他重新审视 macOS 的权限机制：无显示器的 Agent 主机可能被不可见的图形授权弹窗卡住，人又必须远程进入桌面批准。他认为权限应该围绕 Agent 的授权范围设计，而不是每一个临时生成的程序，并已决定将新服务器改用 Linux。文章进一步把这种体验问题延伸到家庭设备和应用入口，主张 Agent 直接操作与用户定制软件可能削弱传统应用整合方式；这是作者的使用经验和战略判断。
-🔗 https://stratechery.com/2026/apple-and-a-hackers-future/
-
-4. Our approach to EU text provenance rules
-OpenAI 宣布全球 API 客户可为部分模型主动开启文本水印，API 默认仍关闭。未来几周，欧盟地区符合条件的 ChatGPT 与 Codex 文本输出将加入不可见水印。检测器首先接受研究人员和专业机构申请，暂未向所有公众开放。公司将其定位为有局限的文本来源识别技术，与已经公开的音频、图片验证工具区别处理。
-🔗 https://openai.com/index/eu-text-provenance
-
-5. Nvidia Is Rethinking Its Revenue-Sharing Deals with Cloud Firms
-Nvidia 据报重议以信贷支持换 GPU 租赁分成的合作机制，可能影响云商融资；仅读到公开导语，全文受限。
-🔗 https://www.theinformation.com/briefings/nvidia-rethinking-revenue-sharing-deals-cloud-firms
-
-🐦 Twitter 精选（5 / 30）
-
-1. @cursor_ai：Cursor SDK 支持运行中追加指令；下一轮接收新消息，正在执行的子代理转入后台继续工作。
-🔗 https://x.com/cursor_ai/status/2107141004482793827
-
-2. @cursor_ai：Cursor 称后台子代理会在同一次运行中向主代理回传结果，流式输出和等待机制持续到所有子代理完成。
-🔗 https://x.com/cursor_ai/status/2107141021947904430
-
-3. @cursor_ai：Cursor 自定义工具可携带 MCP 的只读与破坏性提示，帮助模型在调用前区分查询和删除操作。
-🔗 https://x.com/cursor_ai/status/2107141038427308473
-
-4. @cursor_ai：Cursor 逐步开放替换系统提示词，规则、Skills 和工具定义仍会加载；作者称按账号逐一启用。
-🔗 https://x.com/cursor_ai/status/2107141054071968154
-
-5. @shao__meng：转述 Uber 的 MCP 网关实践：已托管逾八百服务器、五千工具，以统一目录和代理层管理企业 API。
-🔗 https://x.com/shao__meng/status/2106958442380644497
-
-📱 公众号精选（3 / 3）
-
-1. 深度｜百亿美金AI法律Harvey联创：应用公司不必与大模型比拼资金和算力，但要借助开源建立研究能力
-Harvey 联创 Gabe Pereyra 认为，法律 AI 的研究优势可以来自真实任务评测和专业合成数据，无须复制基础模型公司的预算。由于客户法律材料高度敏感，团队先由律师设计应发现的问题和评分标准，再生成相互关联的虚拟资料室，由专业人员校正。新模型要依次经过通用评测、人工比较、产品流程测试与上线观察，简单任务可先换用开源模型，再扩展模型路由。面对通用助手，Harvey 正把重点移向多人、长周期法律项目的协调与资源管理，而不只帮助单个律师写作；文章为演讲编译。
-🔗 https://mp.weixin.qq.com/s/0JROOP8DEicV_iTdJbl4lw
-
-2. 刚刚，光遗传学获得今年首个诺奖！一家中国公司已将它推进临床
-文章以光遗传学诺奖报道串起中国眼科基因疗法进展；中眸等企业数据仍属早期小样本，疗效未定。
-🔗 https://mp.weixin.qq.com/s/rNlbc3nOqPTi4jEmmHG5xw
-
-3. 我卡住了 si 的脖子（bushi
-作者分享注册 si.bar、指向 agi.bar 并翻新首页，主要是个人站点推广；缺少产品与经营数据。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/vu6wq11IxwGio-UFXID6GQ
-
-📖 查看完整日报（43 篇）→ https://news.justin7974.dev/2026-10-06.html</description>
     </item>
   </channel>
 </rss>
