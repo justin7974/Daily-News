@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 26 Oct 2026 00:07:53 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 00:10:55 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #747 | 2026-10-27</title>
+      <link>https://news.justin7974.dev/2026-10-27.html</link>
+      <guid>https://news.justin7974.dev/2026-10-27.html</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 6 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. AI 安全压力让软件市场转向私人和小团队
+Ben Thompson 判断，AI 同时削弱公开互联网的内容收益和自建服务的安全性，软件机会将更多出现在个人及可信小团队。作者以 PHP 漏洞，以及 Node.js、GitLab、LiteLLM 等安全事件说明攻击成本下降，并认为长期也可用 AI 重写和持续防守软件。他在 Stratechery 已为播客制作、任务和日历开发内部应用，均不对外销售。开发成本下降使“一人或一队专用”的软件也能成立，这是作者的市场判断，尚非行业规模统计。
+🔗 https://stratechery.com/2026/the-end-of-the-internet/
+
+2. Claude Duet 评测：设计成熟，仍未成为每日必用工具
+Claire Vo 试用 Claude Duet 后，仍没有把它留在日常工作流程里。她肯定任务列表、artifacts、连接器和频道设计，但称多项并行任务经常超过十分钟，进度反馈与主动提醒不足。销售管线分析较顺畅，邮件和 Slack 分流会漏掉重点，演示稿也未完全符合品牌要求。缺少桌面及多人协作，让这款面向创业者和小企业的移动 Agent 与她的实际工作习惯脱节；这些结果来自个人试用。
+🔗 https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review
+
+3. Reddit 自建 AI 原型工具，真实数据和组件决定采用率
+Reddit 的内部原型平台 Proto 已覆盖全部 UX 与产品组织，运行超过 700 个原型，数据来自主讲人 Blair Metcalf 的披露。平台把设计系统经 MCP 映射到生产组件，用真实账号数据呈现体验，并把批注附上代码上下文交给 Cursor 修改。设计师不必操作 Git，即可分享接近真实产品的原型。配套介绍还展示从 Figma 生成带验收标准的 PRD，减少设计到工程交付时的信息损失。
+🔗 https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping
+
+4. Anthropic 公开 S-1，报道预计 11 月中旬推进 IPO
+公开导语称，Anthropic 披露业务与治理；预计 11 月 16 日当周上市。付费正文不可获取。
+🔗 https://www.theinformation.com/articles/anthropics-s-1-takeaways-giant-compute-commitments-complex-lock-ups
+
+5. GPT-6.1 Terra 发布，继续压低中档模型价格
+导语转述：GPT-6.1 Terra 每 token 成本最多降 50%。付费正文不可获取，实际任务成本未知。
+🔗 https://www.theinformation.com/briefings/openai-unveils-cheaper-terra-model-amid-anthropic-pricing-battle
+
+🐦 Twitter 精选（5 / 30）
+
+1. @cursor_ai：Cursor 接入 DeepSeek V4.1 Flash，称其每任务成本为 0.60—0.98 美元，处于自家评测前沿。
+🔗 https://x.com/cursor_ai/status/2114839997568405608
+
+2. @cursor_ai：Cursor 发布 Agent SDK：用代码定义工具，支持托管或自行运行，内置评测以衡量每次修改。
+🔗 https://x.com/cursor_ai/status/2114793714531102901
+
+3. @_akhaliq：分享 On-Policy Self-Training 论文，研究大模型无需额外数据的自我改进；未披露实验结果。
+🔗 https://x.com/_akhaliq/status/2114730501626015880
+
+4. @_akhaliq：分享 HiSTEVE 1.0，研究通过人机交互界面使用视觉、语言和动作 Agent 玩开放世界游戏；未附性能数据。
+🔗 https://x.com/_akhaliq/status/2114730217562665324
+
+5. @_akhaliq：分享用稀疏自编码器构建可审计 AI 文本检测器的论文；推文只给出研究题目与链接，没有准确率结论。
+🔗 https://x.com/_akhaliq/status/2114730846426890689
+
+📱 公众号精选（5 / 6）
+
+1. AI 芯片设计：先看工程反馈与数据，再看自我改进叙事
+芯片设计中可验证的工程反馈，让 Agent 工具和强化学习训练环境成为两类不同生意。海外独角兽将公司分为设计 Agent、RL 环境和 AI 原生芯片公司，称前两类更可能较早获得收入。文中披露 ChipAgents 已部署至 120 多家半导体企业，Phinity Labs 的 ARR 在短期内达到八位数，均来自相关公司口径。设计验证、布局布线的反馈可能耗时数天，真实项目的数据和 IP 又主要留在客户内部，不能把代码题上的提升直接外推至整芯片周期。
+🔗 https://mp.weixin.qq.com/s/n4UvY07D93RT9oVXzneXLQ
+
+2. Anthropic 招股书中文梳理：增长、账面损失与长期承诺
+赛博禅心转述 S-1：Anthropic 2026 年上半年收入为 162.9 亿美元，上年同期为 11.6 亿美元。文章称年付费超过 10 万美元的企业从九百多家增至 11,900 多家，并列出约 900% 的净收入留存率。文中将 807 亿美元净亏损主要归因于可转债等融资合约的公允价值变动，并另列算力支出和长期采购合同，二者不可混同。它还称上市后创始人共同持有的一股特殊股票将拥有 50.1% 投票权；以上为二手梳理，末尾自称“不保真”的估值与季度收入传闻不采纳。
+🔗 https://mp.weixin.qq.com/s/MZ-W_Z0gPuwXjFfri-AhHg
+
+3. Whop 融资报道：用交易数据给商家建议，并按效果收费
+报道称 Whop 完成 2 亿美元 D 轮融资，估值 51 亿美元，由 Sequoia 和 Shopify Ventures 领投；引用资料的融资日期为 10 月 21 日。平台将支付、交付、推广和财务工具放在一起，并称月交易额约 5.5 亿美元、平均抽成约 6%。Economic Intelligence 结合交易数据推荐经营动作，按相关动作带来的收入收取一部分费用。其 14,905 家商户样本使用一个月后销售额增加约 31.8%，但这是公司前后对比口径，没有对照组，不能直接视为 AI 带来的增量。
+🔗 https://mp.weixin.qq.com/s/jmKoSRHO3A2F1cDguG-iKQ
+
+4. EasyLink 宣布数千万元天使轮，主攻金融 Agent
+融资宣传稿：EasyLink 称服务十余家金融机构，自测 27B 模型优于通用旗舰；未独立验证。
+🔗 https://mp.weixin.qq.com/s/_8941YDFSeHbnvHgoVBr_A
+
+5. CyboPal 获 TCL 实业战投和深创投融资
+融资宣传稿称 CyboPal ONE 月预售逾千台、超千万元；尚非交付，未披露长期使用率。
+🔗 https://mp.weixin.qq.com/s/BYB_Pd-304JQdQBsdRtnJw
+
+📖 查看完整日报（46 篇）→ https://news.justin7974.dev/2026-10-27.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #746 | 2026-10-26</title>
       <link>https://news.justin7974.dev/2026-10-26.html</link>
@@ -1268,76 +1338,6 @@ Grok Bot 部分任务开始调用 Opus 5.5，用户不能主动选模型；Midjo
 🔗 https://mp.weixin.qq.com/s/mD-nxJIH9ZJ13NFwesZMpg
 
 📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-10-08.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #727 | 2026-10-07</title>
-      <link>https://news.justin7974.dev/2026-10-07.html</link>
-      <guid>https://news.justin7974.dev/2026-10-07.html</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 5 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Advancing computer use with Ironclad
-OpenAI 与 Ironclad 的合同工作流评测中，GPT-6 Astra 的平均评分为 55.0%，高于 GPT-5.6 Sol 的 41.6%，估算单次耗时由 37.0 分钟降至 19.2 分钟。双方把合同、采购和审批配置整理成 11 项研究任务，每项按 8—50 个条件评分，并提供可练习的软件环境。训练资料来自过滤后的公开 SEC 合同及合成任务，未使用非公开客户合同。结果只覆盖这些研究任务，耗时为模拟估算，不能当作客户实际节省时间。
-🔗 https://openai.com/index/advancing-computer-use-with-ironclad
-
-2. What is Codemode
-Pi 1.0 用 Codemode 接入 MCP，让模型以 JavaScript 组合工具调用，而无需把所有工具定义和中间结果塞进对话。Armin Ronacher 将它与 Bash 区分：Bash 操作执行环境，Codemode 则在 Agent 控制程序内的独立沙箱运行，能够协调子代理、图片和分类模型。按需发现工具、批量处理和保存中间状态，都是文章展示的实际用法。作者同时指出，MCP 返回结构不稳定、大型二进制数据支持不足和调用恢复，仍会限制这一方式。
-🔗 https://lucumr.pocoo.org/2026/10/6/codemode/
-
-3. [AINews] Reflection Beam - 501B-A23B American Open Model
-Reflection 预告首个模型 Beam：文本 MoE，总参数 5010 亿、激活参数 230 亿，面向编程、Agent 与科学任务，并计划本月以 Apache 2.0 发布权重。Latent Space 汇总的团队说法包括 23.8 万亿预训练 token，以及超过一亿次强化学习任务尝试。其能力大致对标 GLM-5.2，仍落后于文中列举的数款中国前沿开放模型。所谓三至四倍推理效率优势来自公司比较，权重、技术报告及实际服务成本仍待进一步检验。
-🔗 https://www.latent.space/p/ainews-reflection-beam-501b-a23b
-
-4. Credit Crunch
-Ed Zitron 把 AI 基建风险归结为信用条件：长期算力承诺很大，融资却可能越来越贵。文章以 Oracle 相关数据中心债券折价和部分银行收紧项目贷款为例，讨论融资成本如何传到云商与模型公司。作者进一步推演，持续亏损的模型公司即使上市，也未必能取得足够便宜的债务来履行承诺。其关于融资缺口、信用评级及行业崩溃的结论带有强烈看空立场，不能视为已经发生的事实。
-🔗 https://www.wheresyoured.at/credit-crunch/
-
-5. The Cyber Risk Discourse is Broken
-Nathan Lambert 认为，只禁开放权重模型未必降低网络风险，反而可能削弱防御方获得强模型的能力。文章以 Anthropic 对 GLM-5.3 的安全研究为起点，指出闭源 API 的保护也不完善，而隔离网络往往只能部署本地模型。他主张同时比较攻击能力、模型获取方式与防御扩散，讨论发布前安全评估应投入多少资源。对中国模型厂商风险取舍的解释，以及风险会渐进上升而非突变的判断，均属作者观点。
-🔗 https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken
-
-🐦 Twitter 精选（5 / 30）
-
-1. @AnthropicAI：Anthropic 扩大验证计划，让安全人员使用更强 Claude 模型，并新增授权渗透测试与红队工作层级。
-🔗 https://x.com/AnthropicAI/status/2107546569654636883
-
-2. @cursor_ai：Cursor 宣布可从 iOS 应用控制电脑上的 Agent，支持查看进展、回复消息和启动新任务。
-🔗 https://x.com/cursor_ai/status/2107618653701296162
-
-3. @godofprompt：介绍 Hindsight：读取 Git 历史和过去会话，为代码库维护记忆，并向多种编程 Agent 提供上下文。
-🔗 https://x.com/godofprompt/status/2107410820804350427
-
-4. @godofprompt：分享 Addy Osmani 的二十五个工程 Skills，覆盖需求访谈、API 设计、测试、发布和回滚。
-🔗 https://x.com/godofprompt/status/2107482267388104820
-
-5. @_akhaliq：分享 OmniReasoning 论文，研究音频与视觉的联合推理；推文只给题目和链接，未披露实验结果。
-🔗 https://x.com/_akhaliq/status/2107532766858694847
-
-📱 公众号精选（5 / 5）
-
-1. a16z 最新消费洞察：AI 的付费机会，藏在流量外
-a16z 新榜单中，消费者 AI 支出前五十名有二十九家公司没进网页或移动流量榜；数据来自美国个人消费样本，不能当作全球营收。文章进一步检查 n8n 的工作流计次、fal 的生成计费，以及 Suno、ElevenLabs、Plaud 如何围绕实际制作与处理任务收费。对于个人 Agent，文中引用 Instinct 创始人的年化交易额说法，并明确区分交易额与平台收入。报告当时 Instinct 和 Muse 尚未收取相关交易费用，流量、支付规模与已验证商业模式仍是三件不同的事。
-🔗 https://mp.weixin.qq.com/s/m_-fAAFswycC0EhEK87haw
-
-2. 喝点VC｜a16z合伙人谈AI与消费：好产品要让用户&quot;停止做某件事&quot;，信任是AI产品进入主流的分水岭
-Josh Elman 判断消费 AI 产品是否成立，首先问用户开始使用后，停止做了哪件旧事，而不是只问是否愿意尝试。访谈认为早期用户可以先接受实用性，但进入主流市场需要信任，个人 Agent 应先把少数任务做好，再扩展服务。推理带来持续变动成本，免费获取用户之后仍要找到合理收费方式。Elman 同时看好个人 Agent、互动娱乐和语音，但强调长期留存需要关系、历史信息或共同使用形成的价值；本文为访谈编译。
-🔗 https://mp.weixin.qq.com/s/BN4KhBVu5LGEXwcp0GzOfg
-
-3. 聊聊A16Z这两份AI报告，以及一些反常识的真相。
-解读 a16z 报告，强调付费集中、Agent 使用增长与实体基建压力；数据跨不同样本，不能直接比较。
-🔗 https://mp.weixin.qq.com/s/Me1AvtStUdcfmikAGjI4xg
-
-4. 美国开源的新希望，对标智谱的上一代模型
-解读 Reflection Beam 的融资、目标客户及效率主张；提醒权重未发布，算力估算不等于实测成本。
-🔗 https://mp.weixin.qq.com/s/8XWEWz0XeJzEZjZ3Ub4meA
-
-5. Nano Banana 2.1 发布，中文效果大幅改善！
-作者称 Nano Banana 2.1 改善中文文字与排版，支持 4K；属体验分享，未见系统测试。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/D45WfBlwPrXAUdrJz7_31Q
-
-📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-10-07.html</description>
     </item>
   </channel>
 </rss>
