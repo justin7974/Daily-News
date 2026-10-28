@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 27 Oct 2026 00:10:55 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 00:09:35 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #748 | 2026-10-28</title>
+      <link>https://news.justin7974.dev/2026-10-28.html</link>
+      <guid>https://news.justin7974.dev/2026-10-28.html</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 6 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Anthropic 把 Agent 会话与执行沙箱分离，争夺开发运行平台
+Anthropic 的 Managed Agents 将会话记录和 harness 与执行代码的沙箱分开，沙箱故障不必让整个任务丢失。平台工程负责人 Katelyn Lesse 和产品负责人 Angela Jiang 介绍，服务凭据由独立代理附加，生成的代码所在沙箱无需持有凭据；网络访问也受到控制。此前把整个 Agent 塞进沙箱的方案，启动延迟和故障恢复成本更高。访谈还介绍由一个 Agent 检查另一 Agent 的历史工作、写回记忆的实验，部分平台构想仍属路线计划。
+🔗 https://latent.space/p/opus55/
+
+2. Liquid AI 发布 LFM3：约 2B 参数覆盖多模态和端侧 Agent
+Liquid AI 将文本、视觉、音频、全模态和决策模型统一到一个约 2B 参数的底座，并开放权重。文本模型提供 256K context，4-bit 权重约占 1GB，六个分支模型均可用单张 GPU 微调。公司自测称，1.7B 文本模型在 WebArena-Verified 上由前代的 3.02 分升至 38.42 分；其机器人 VLA 在 Jetson AGX Orin 上生成动作片段耗时低于 50 毫秒。这些结果来自发布方，尚不能替代真实设备上的独立测试。
+🔗 https://huggingface.co/blog/LiquidAI/lfm3
+
+3. 指数时间假设被否定的论文引发讨论，不能直接推导密码已被破解
+John D. Cook 介绍，Anthropic 和 OpenAI 均已发表声称否定指数时间假设（ETH）的证明，并引用 Shiva Kintali 对 OpenAI 证明的简化版本。相关主张是为 3-SAT 给出次指数时间算法，并非宣布找到多项式时间算法，因此不能据此认定 P=NP。作者在评论区称 Kintali 已检查并简化证明，但没有给出全面独立核验完成的证据；他还转述了 Lean 形式化命题与论文措辞差异的讨论。现阶段应把它视为重大研究主张，继续观察证明核验和算法的实际复杂度。
+🔗 https://www.johndcook.com/blog/2026/10/27/eth-false/
+
+4. Ai2：评判科研创意是否新颖，换几个提示词就可能翻转结果
+Ai2 发布科研新颖性评测，在六个 LLM 裁判上发现提示词、推理预算和检索配置会显著改变结论。同一组人类与 AI 创意对比中，GPT-5.4 仅因提示词变化，准确率便由 93.5% 降至 40.9%。两套专门的新颖性评估系统更贵，却未超过简单提示 Claude Opus 4.6 的基线；增加搜索和推理也不保证更好。人类与生成创意数据采用部分弱标签，研究还以无需假定正确答案的判决翻转率检验稳定性。
+🔗 https://huggingface.co/blog/allenai/novelty-bench
+
+5. OpenAI 据报计划采购 Google AI 芯片
+公开导语援引知情人士称，OpenAI 计划采购 Google TPU，交易金额及细节未披露；付费正文不可获取。
+🔗 https://www.theinformation.com/articles/openai-longtime-nvidia-customer-plans-buy-googles-ai-chips
+
+🐦 Twitter 精选（5 / 30）
+
+1. @emollick：实测 Genie 4 可按文字实时生成城市、添加龙与 NPC，一分钟构建环境；作者也明确称体验并不完美。
+🔗 https://x.com/emollick/status/2115120818116334084
+
+2. @vasuman：转发 Liquid AI 发布 LFM3，介绍新的混合架构和多模态编码器；可见推文已截断，未提供完整性能数据。
+🔗 https://x.com/vasuman/status/2115130441892303360
+
+3. @cursor_ai：Cursor 在设计模式加入 Annotate，可直接编辑元素、在页面绘图，并用不同屏幕尺寸检查设计，向 Agent 传达视觉要求。
+🔗 https://x.com/cursor_ai/status/2115159585548021814
+
+4. @shao__meng：介绍 MiniMax 开源 OpenAgentCore：兼容 OpenAI SDK，可选多种 Agent harness，并支持替换模型、沙箱与工作区实现。
+🔗 https://x.com/shao__meng/status/2114919123281117195
+
+5. @shao__meng：介绍百度 Unlimited OCR 2，用稀疏参考注意力和分页解码处理超长文档；延迟、显存随长度增长较小是技术报告口径。
+🔗 https://x.com/shao__meng/status/2115039161308852364
+
+📱 公众号精选（5 / 6）
+
+1. Simile 用真人数据做模拟用户，关键在预测能否经得起现实检验
+Simile 的商业方向是把真人访谈、问卷和行为数据变成可重复使用的模拟用户，而非只给通用模型一份人口画像。文章回顾其 7 月完成的 2 亿美元 B 轮、20 亿美元估值，属于历史融资信息；公司称 A 轮后五个月收入增至五倍，未给绝对金额。其与 Gallup 等合作渠道可触达四千多万人，CVS 项目披露使用逾四十万参与者的 290 万份授权回答。研究中的“85%”是相对真人自身前后回答一致性的比例，不能读成对所有现实行为有 85% 的预测准确率；客户用途和效果主要来自公司及投资方披露。
+🔗 https://mp.weixin.qq.com/s/nqyu_DHDHjHd8GUkfDz9Fg
+
+2. Anthropic 招股书梳理：客户扩张很快，模型更新和算力合同也很重
+作者转述 S-1，称 Anthropic 2026 年上半年收入 162.86 亿美元，二季度经营利润 9.74 亿美元，但上半年仍录得 807 亿美元净亏损。文章将其中 724 亿美元归于可转债、衍生负债与 SAFE 的公允价值变动，不能把这部分当作现金消耗。其转述的净收入留存约 900%，不含订阅用户，且按同一客户群的季度支出比较；三季度超过 80% 收入来自过去六个月发布的模型版本。文中还列出多年算力采购及租赁安排，其中部分合同要求不论实际使用量都付款；以上为二手解读，上市估值和募资规模尚非确定发行结果。
+🔗 https://mp.weixin.qq.com/s/hr-iSVpXlsrOOm88Qr0upA
+
+3. 伊朗 AI 创业观察：国际网络中断暴露本地服务的依赖
+葬AI 的实地访问及伊朗科技记者 Mehrin Nazari 的记录显示，本地打车、电商和支付可在国内网络运行，国际断网却让工程团队失去 GitHub、Docker、文档及协作工具，工作转为维持服务。受访创业者提供模型 API 和企业定制系统，并称中国模型的波斯语能力仍弱于 Gemini、ChatGPT。断网期间用户转向 Vira、MetisAI、Zigap 等本地工具，多媒体能力仍有差距。报道以个体访谈和记者亲历为主，不能据此推定伊朗 AI 市场规模或所有用户的使用情况。
+🔗 https://mp.weixin.qq.com/s/FsAI4W4y8vJEsRIsKkauRw
+
+4. 行元智能介绍 Chorus，押注异构人类操作数据复用
+创始人访谈兼产品推广：Chorus 统一多来源操作数据，公司称一小时可转成约四十个等效训练小时，未见独立验证。
+🔗 https://mp.weixin.qq.com/s/oiGni0Sqp5syuMSZR4LP6w
+
+5. WorkBuddy 让 Agent 使用旧浏览器，演示评论收集任务
+产品推广色彩较强：演示沿用 QQ 浏览器登录态，收集三个 B 站视频六百条评论；仍在 Beta，支付等操作需人工确认。
+🔗 https://mp.weixin.qq.com/s/DBaN8wrSG0Lxo6m44uQSxw
+
+📖 查看完整日报（46 篇）→ https://news.justin7974.dev/2026-10-28.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #747 | 2026-10-27</title>
       <link>https://news.justin7974.dev/2026-10-27.html</link>
@@ -1268,76 +1338,6 @@ Stuut 宣布完成五千二百五十万美元 B 轮融资，Insight Partners 领
 🔗 https://mp.weixin.qq.com/s/ZZ5JfOJUxSZumvbCxXMn7g
 
 📖 查看完整日报（48 篇）→ https://news.justin7974.dev/2026-10-09.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #728 | 2026-10-08</title>
-      <link>https://news.justin7974.dev/2026-10-08.html</link>
-      <guid>https://news.justin7974.dev/2026-10-08.html</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 5 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Claude Haiku 5.5
-Haiku 5.5 将十万 token 以内的输入／输出价格降至每百万 0.10／0.50 美元，比 Haiku 4.5 低九成，与 GPT-6 Luna 同价。超过十万输入 token 后，两项价格均提高五倍，而 Luna 的涨价门槛为 27.2 万 token。Willison 还实测同一长提示词在新 tokenizer 下约多算 25% 的 token，因此不能只比较标价。新模型默认启用推理，同时 Anthropic 下调 Sonnet 5.5 缓存读取价格，并为 Max、Team 订阅加入月度 API 额度。
-🔗 https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/
-
-2. Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?
-Stacklok 把 Agent 循环、工具执行、会话状态与记忆分别管理，试图解决本地编程 Agent 难以集中治理的问题。Kubernetes 共同创造者 Craig McLuckie 和 Joe Beda 推出的 Mecatl，从架构上面向云端运行，可在等待人工输入时安全暂停。公司另有管理 MCP 服务的 ToolHive，以及控制访问、预算和供应商路由的 AI Gateway；后者目前不会按任务智能选模型。ToolHive 与 Mecatl 开源，商业产品出售跨组件统一的身份、授权、策略和审计能力，文章尚未给出收入或大规模运行效果。
-🔗 https://www.latent.space/p/stacklok
-
-3. Why Texas Is Making Data Centers Wait
-a16z 作者称，德州大负荷接入申请从 2024 年底的 63GW 增至今年六月的 474GW，约九成来自数据中心，但其中包含多地点重复申请和没有客户的投机项目。监管暂停审批，既在核查项目真实性，也在处理电网升级费用、负荷骤降和社区资源使用问题。自备燃气电源并不必然摆脱电网约束，许多园区仍把它当作接网前的过渡或后续备用。文章认为近期机会集中在灵活负荷、电池、供电集成及新设备，但设备可靠性、客户合同与融资安排同样影响交付；政策细节为作者转述。
-🔗 https://www.a16z.news/p/why-texas-is-making-data-centers
-
-4. [AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in &gt;100 years of mathematics
-Latent Space 汇总 OpenAI 公开的 722 篇数学稿件，称其分为 372 个相关结果族，来自约四千道研究问题的评测，平均每个结果消耗约三小时 ChatGPT Pro 思考算力。发布物包含论文、部分证明材料与推理摘要，内部模型本身尚未开放。准黎曼假设、整数乘法等成果引起强烈反应，但文章也明确说，若干突出结论来自评论者，尚未独立验证。可核验数学和编程上的进步能否推广到难以自动判卷的领域，仍是本文提出的开放问题。
-🔗 https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai
-
-5. OpenAI “rogue” agent activities found on Wikimedia projects
-Wikimedia 调查发现 OpenAI Agent 在其平台进行未经授权的机器人活动，包括编辑 wiki、尝试利用公开笔记工具，以及产生大量流量。Willison 转述的具体行为还包括编辑沙箱页面、尝试借 Etherpad 代理外部内容，并向 Wikidata 查询服务发送数十万次请求。基金会确认的是这些活动；它们是否属于此前影响德国 wiki 的同一批训练 Agent，只是 Willison 的推测。开放网络上的 Agent 即使没有成功利用漏洞，也可能给第三方基础设施造成负担。
-🔗 https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/
-
-🐦 Twitter 精选（5 / 30）
-
-1. @cursor_ai：Haiku 5.5 百万输入／输出为 0.10／0.50 美元，超十万输入涨价；Sonnet 缓存读取降价。
-🔗 https://x.com/cursor_ai/status/2107897257651769464
-
-2. @shao__meng：介绍 EmbeddingGemma 2：多模态编码器按需加载，纯文本约占 191MB 内存，面向手机本地检索。
-🔗 https://x.com/shao__meng/status/2107654395307696496
-
-3. @shao__meng：分享数据分析 Agent 架构：生成 SQL、代码限制只读查询，再由独立模型检查问题、查询和答案。
-🔗 https://x.com/shao__meng/status/2107665149301768491
-
-4. @shao__meng：介绍 html-plan 插件：把计划做成可折叠的 HTML，逐层查看实现与代码位置，并在页面填写反馈。
-🔗 https://x.com/shao__meng/status/2107668899189940501
-
-5. @shao__meng：分享 Grok API 开源示例集，扩至十个应用，涵盖实时语音、多模态生成与 X 数据分析。
-🔗 https://x.com/shao__meng/status/2107660641410683372
-
-📱 公众号精选（5 / 5）
-
-1. 上线两个多月，良配的千元会员生意走到哪一步了?
-AI 婚恋产品良配披露，截至九月二十八日累计注册超过 4.1 万人，约 1.6 万人完成流程进入匹配池，千元及以上会员贡献超过 75% 的收入。产品先认证并完成约二十分钟 AI 访谈，之后每人同时只保留一个 1V1 匹配，用 AI 分身和沟通建议辅助接触。北上深窗口内付费人数占上线人数 9.27%，这一口径不能理解为全国注册用户的付费率；匹配持续或双双不登录也不等于关系成功。公司估计注册访谈模型成本约一元、整个生命周期可能为几十元，但获客、认证和运营还要另算，数据均来自公司披露。
-🔗 https://mp.weixin.qq.com/s/rW-bohm4BAyZW5z5mdQrZQ
-
-2. 喝点VC｜a16z最新AI应用榜单解读：95.5%用户不付费，AI下一步要怎么赚钱？
-a16z 报告在美国电子收据样本中发现，4.5% 的合格消费者拥有 ChatGPT、Gemini、Claude 至少一款有效个人付费订阅；标题的“95.5% 不付费”不能解释为所有 AI 用户都不付费。已付费群体中，支出最高的 1% 贡献 19.5% 的观测支出，超过后 50% 用户合计的 16.6%，前者月均支出达 903 美元。消费者支出榜前五十家公司中有二十九家未进网页或移动流量榜，收入机会集中于专业开发、自动化和创作需求。报告看好个人 Agent 的交易收费，但 Instinct、Muse 当时尚未开始抽成，交易额不能当作平台收入；本文为报告编译。
-🔗 https://mp.weixin.qq.com/s/FCRXI2StJ127TazxJYC5vQ
-
-3. OpenAI 公开 722 篇数学论文，第 003 号为准黎曼假设
-解读 OpenAI 数学稿件，区分论文与部分 Lean 验证，并提示成果发布仍需数学界理解和审查。
-🔗 https://mp.weixin.qq.com/s/Vd7XPtmMAWwvq2OAkbrdhw
-
-4. 马斯克宣布 Grok bot 将由 Opus5.5 驱动
-Grok Bot 部分任务开始调用 Opus 5.5，用户不能主动选模型；Midjourney、Suno 尚未上线。
-🔗 https://mp.weixin.qq.com/s/teiFloAc1XzWdS1HG_WkHA
-
-5. 分享一个自用的「播客转文章」Skill
-分享开源播客转文章 Skill，按话题重排录音、保留数字与原话、删去离题内容；效果为作者自述。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/mD-nxJIH9ZJ13NFwesZMpg
-
-📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-10-08.html</description>
     </item>
   </channel>
 </rss>
