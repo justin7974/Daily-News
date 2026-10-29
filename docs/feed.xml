@@ -5,8 +5,56 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 28 Oct 2026 00:09:35 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 00:10:01 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #749 | 2026-10-29</title>
+      <link>https://news.justin7974.dev/2026-10-29.html</link>
+      <guid>https://news.justin7974.dev/2026-10-29.html</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 0 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. AA v5 拉大开闭源差距，Nathan Lambert 提醒别把总榜当市场
+Artificial Analysis v5 将知识工作、编程、科学和通用能力各赋予 25% 权重，榜上有八个闭源模型超过最强的待开放权重模型 Kimi K3.1 Pro。Nathan Lambert 认为，这部分反映了评测向前沿科学和通用 Agent 协作倾斜，不能据此判定开源模型的商业价值衰退。他把开放模型的机会归于降低高需求任务的推理价格，以及让企业拥有、定制并控制模型。他支持减少针对公开题目的过度优化，但担心私有题库削弱外部纠错；同时指出评测机构向模型公司收取验证费用带来的信任取舍。
+🔗 https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers
+
+2. Supabase 每月新建约五百万数据库，Agent 开始影响后端转化率
+Supabase 两位创始人称，平台目前每月新建约五百万个数据库，AI 驱动的使用增长还改善了激活和付费转化。他们认为，Agent 能把注册、配置到应用可运行连成一次流程，减少用户在配置阶段放弃。新发布包括无需 Docker 的本地运行环境、把目标数据库结构保存在 Git 中的声明式 schema，以及在数据库旁运行容器的 Compute，部分功能仍处于 alpha。产品同时推进 OrioleDB、Multigres 和 Turso 收购后的扩展能力，以兼顾大量小数据库与既有客户的大型负载；增长数据来自创始人口径。
+🔗 https://latent.space/p/supabase/
+
+3. a16z 调查：AI 安全预算在增长，采购仍先找既有平台
+a16z 调查了 100 位千人以上企业的 CISO，其中 87% 预计 2027 年安全支出增加，但只有 18% 已在生产环境使用 AI SOC 工具。未来十二个月，45% 计划采购或升级内部 Agent 安全产品，42% 指向进攻性安全。采购入口仍偏向老供应商：44% 会先找既有安全平台，21% 先找 AI 原生厂商；47% 表示，现有平台无法解决的能力缺口会促使他们选择创业公司。调查也显示，仅 7% 预计一年后会允许 Agent 在多数情况下自主行动。文章来自投资方，并推荐多家被投公司，预算意向和推广判断都不等于已确认收入。
+🔗 https://www.a16z.news/p/the-new-security-agenda
+
+4. NVIDIA 开放可提示的多语转写模型，把定制工具一并交给开发者
+NVIDIA Nemotron 3.5 Transcribe 将录音转写、说话人标注、翻译和音频问答放进同一开放权重模型，支持 40 种语言转写、31 种语言与英语互译，以及最长一小时、最多八位说话人的录音。模型约 30B 总参数、每 token 约 4B 激活参数，发布文称其位居多项开放模型语音榜单前列。配套 Granary v2 公共清单覆盖约 46.3 万小时、48 种语言，并开放清洗流程与微调配方。在发布方医疗案例中，对未参与调参的说话人，微调将词错误率从最佳提示词基线的 22.44% 降至 12.17%，相对下降 45.8%。该模型针对已录制音频，并非实时流式语音；量化和部分本地运行支持尚待发布。
+🔗 https://huggingface.co/blog/nvidia/nemotron-transcribe-granary
+
+5. Simon Willison 实测：Agent 已能改进游戏玩法，人工工时并非全部成本
+Simon Willison 用 Opus 5.5 制作了四款浏览器游戏，认为进步已从生成画面和代码延伸到设计更有趣的玩法。他的 Battle Drones 已支持多人对战、回放、地图生成和模型互相对战，并在开放源码后出现重新设计美术与音乐的分支作品。每个项目投入的人类工作不超过四小时，但南瓜农场游戏另用了数百万 token 和近两天 Agent 执行，作者仍不满意部分机制。RPG 项目也经过反复试玩，修复角色位置与任务冲突后才完成；这些是个人实测，并非系统评测或商业成功证明。
+🔗 https://simonwillison.net/2026/Oct/28/vibe-game-development/
+
+🐦 Twitter 精选（5 / 30）
+
+1. @Hesamation：转述 Gemini 4 Carbon 在多项榜单超过 Opus 5.5、登顶 AA v5，同时担心过度针对评测优化。
+🔗 https://x.com/Hesamation/status/2115491173100081322
+
+2. @emollick：实测 Genie 4 可实时改变场景、让角色长翅膀并自由走动；认为进步很大，也明确指出仍有故障。
+🔗 https://x.com/emollick/status/2115273222061015169
+
+3. @_akhaliq：分享 Hy-Nomas 论文与应用，研究自由交互式世界生成；推文未给实验指标或具体性能结论。
+🔗 https://x.com/_akhaliq/status/2115563792180588875
+
+4. @_akhaliq：分享 ThinkWorld 论文，研究以世界想象强化动态过程推理；可见推文只提供题目与论文链接。
+🔗 https://x.com/_akhaliq/status/2115463926184116648
+
+5. @_akhaliq：转发腾讯在 Hugging Face 发布实时中英同传模型的消息；原推文截断，未完整展示能力和部署细节。
+🔗 https://x.com/_akhaliq/status/2115276266299695119
+
+📖 查看完整日报（40 篇）→ https://news.justin7974.dev/2026-10-29.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #748 | 2026-10-28</title>
       <link>https://news.justin7974.dev/2026-10-28.html</link>
@@ -1268,76 +1316,6 @@ Firmus 撤回拟募资近50亿美元的澳洲IPO，估值曾逾300亿美元；�
 🔗 https://mp.weixin.qq.com/s/YGVvrn846F2ZsoYj5q3rCw
 
 📖 查看完整日报（47 篇）→ https://news.justin7974.dev/2026-10-10.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #729 | 2026-10-09</title>
-      <link>https://news.justin7974.dev/2026-10-09.html</link>
-      <guid>https://news.justin7974.dev/2026-10-09.html</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 8 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk
-Periodic Labs 把强化学习的反馈接到真实实验室，试图让模型通过预测、合成与材料表征的循环发现新材料。Liam Fedus 和 Ekin Doğuş Çubuk 强调，实验有测量噪声、设备差异与缺失信息，不能照搬数学和编程中容易判定对错的训练方式。模拟与密度泛函计算帮助筛选方向，但最终仍需高通量物理实验检验，样本效率也受设备吞吐约束。半导体、磁性材料与超导体属于团队讨论的目标，访谈没有证明室温超导等目标已经实现。
-🔗 https://www.latent.space/p/periodic
-
-2. You Need a New CFO
-a16z 观察到财务团队开始自己搭建 Agent，CFO 的稀缺能力逐渐转向设计数据、流程与控制系统。作者称 Anthropic 财务团队维护七十多个专用 AI Skills，其中一项可生成九成至九成五完整的月度财务审阅，将数小时工作压至约三十分钟。最精简团队把财务人员占比从传统约 5% 向 2% 的目标调整，文章并未证明这是普遍实现的结果。软件接近正式账簿后，数字溯源、凭证保留和入账审批成为产品核心；案例主要来自作者及其投资组合。
-🔗 https://www.a16z.news/p/you-need-a-new-cfo
-
-3. The model that didn&apos;t exist, so you made it yourself
-Hugging Face 作者用 ML Intern 将 9B 的图像提示词改写器蒸馏为可在 CPU 上运行的 0.8B 模型，项目计算费用约十六美元。作者报告输出格式有效率为 99.7%，这不等同于内容质量或任务准确率；另一个柑橘病害模型在 335 张测试照片上的识别准确率从 14.9% 提升至 52.8%。Agent 负责规划、试跑、训练、评测与发布，启动付费任务前需获得预算。六个项目合计约一百零三美元，仅计 GPU 和 CPU 作业费用，未包括人的时间等完整成本。
-🔗 https://huggingface.co/blog/building-with-ml-intern
-
-4. Disrupting AI-enabled “false front” operations
-OpenAI 称已封禁来自俄罗斯和伊朗的两组隐蔽影响行动，它们借假记者或假智库把地缘政治内容投向真实媒体。伊朗行动使用七个记者身份，俄罗斯行动则似乎让不知情的拉美人员为前台机构工作；AI 既参与内容生成，也被大量用于内部汇报。OpenAI 将两者的传播突破等级分别评为五级和四级，前者是其首次报告的五级案例。该等级反映潜在传播范围，不能当作受众意见已被改变的证明，也并非所有传播内容都由其模型生成。
-🔗 https://openai.com/index/disrupting-ai-enabled-false-front-operations
-
-5. Claude Code v2.1.295
-Claude Code v2.1.295 为命令与 HTTP hooks 加入失败时阻断动作的选项，覆盖启动失败、超时和异常退出，安全检查不再只能在成功运行后发挥作用。更新还修复了工具限制未覆盖后注册工具、以及护栏收到被截断输入却未报错等问题。企业网关新增上游首 token 超时控制、模型路由名单和请求编号，使故障切换与审计更可管理。以上是官方版本说明列出的行为变化，不能据此认定所有部署已经启用这些设置。
-🔗 https://github.com/anthropics/claude-code/releases/tag/v2.1.295
-
-🐦 Twitter 精选（5 / 30）
-
-1. @AnthropicAI：Anthropic 宣布 Cyber Mission，面向关键基础设施和开源软件的安全防护，计划结合前沿模型推进。
-🔗 https://x.com/AnthropicAI/status/2108302539498414208
-
-2. @AnthropicAI：Anthropic 推出 OSS Scanner，免费定期扫描自愿加入的开源项目，并提供漏洞概念验证、解释与修复建议。
-🔗 https://x.com/AnthropicAI/status/2108302543977906649
-
-3. @AnthropicAI：Anthropic 宣布关键基础设施防御计划，将 Claude、驻场工程师及研究支持带给电网、水务等运营商的供应商。
-🔗 https://x.com/AnthropicAI/status/2108302541385499103
-
-4. @AnthropicAI：官方称 Brice Ménard 用 Claude 整合数据并统计补全紫外全天图；填补区域属于推断，并非新观测。
-🔗 https://x.com/AnthropicAI/status/2108290395599667700
-
-5. @shao__meng：介绍腾讯云开源 Octop：面向家庭及小团队的本地多用户、多 Agent 平台，以单进程和 SQLite 保存运行状态。
-🔗 https://x.com/shao__meng/status/2108160838695788654
-
-📱 公众号精选（5 / 8）
-
-1. 微软和 a16z 投了一家 AI 催收公司
-Stuut 宣布完成五千二百五十万美元 B 轮融资，Insight Partners 领投，a16z、微软 M12 等参投，公司称已服务超过一百五十家企业。它从应收账款切入，把联系客户、处理争议、付款匹配与 ERP 核销串起来，订单管理和信用模块仍标为即将推出。供应商案例称 Bishop Lifting 七个月内逾期应收减少 35%、DSO 缩短两天，但缺少对照组，不能将全部改善归因于软件。官网宣传数天上线，而具体案例需五至六周，实施成本和权限配置仍决定实际回报。
-🔗 https://mp.weixin.qq.com/s/PbNLHG1_ZyaoCjmPzYfjkw
-
-2. Personal agent把用户当傻子
-葬AI 根据伊朗旅行和多款助理的体验，质疑 Personal Agent 的订酒店、发邮件等功能能否支撑独立产品。作者认为海外开放邮箱与服务接口提供了使用空间，国内主要生活信息和交易留在 App、小程序里，创业公司较难获得上下文。文章同时承认日程管理及商务场景有局部价值，并肯定 Today AI 的交互体验，但质疑其国内服务覆盖。大厂已有聊天产品能否统一吸收这些功能，是作者提出的竞争判断，单次旅行体验不能代表所有用户。
-🔗 https://mp.weixin.qq.com/s/ry24yiIidTMpKm9ABHWxLg
-
-3. 独家｜厘清智能连续完成两轮数亿元融资，加速建设Physical AI平台级底座
-报道称厘清智能两轮融资数亿元，蚂蚁连续加码；从手套、Ego 数采扩展物理智能平台，属融资宣传，未披露收入。
-🔗 https://mp.weixin.qq.com/s/1pXfIJ9Tf6qyDfHGVtmXKQ
-
-4. ChatGPT 上线【交互 UI】，让每个回答都能交互
-介绍 ChatGPT 交互 UI，以自行车拆解、分账和储蓄计算器展示答案变成工具的体验，付费与免费用户分批开放。
-🔗 https://mp.weixin.qq.com/s/huFcHuwg6mntXaRQAcZpdg
-
-5. Personal Agent 大战：Dots、Muse、Instinct 各自走到了哪一步
-播客比较 Dots、Muse、Instinct 的权限、上下文与硬件入口；交易额和佣金为嘉宾转述，不能据此推算营收。
-🔗 https://mp.weixin.qq.com/s/ZZ5JfOJUxSZumvbCxXMn7g
-
-📖 查看完整日报（48 篇）→ https://news.justin7974.dev/2026-10-09.html</description>
     </item>
   </channel>
 </rss>
