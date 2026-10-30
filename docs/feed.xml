@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 29 Oct 2026 00:10:01 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 00:06:35 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #750 | 2026-10-30</title>
+      <link>https://news.justin7974.dev/2026-10-30.html</link>
+      <guid>https://news.justin7974.dev/2026-10-30.html</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 9 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Mistral Large 4 开放权重，网络安全成为差异化切口
+Mistral Large 4 是约一万亿总参数、百万 token 上下文的多模态 MoE 模型，开放 FP8、NVFP4 权重，并同步支持多种推理与微调框架。发布文列出的漏洞复现并修补测试得分为 82%，同时提醒部分闭源模型因拒绝执行相关任务而得分很低，不能简单视为通用能力差距。模型许可对模型即服务业务设有限制，开放权重不等于无条件商业使用。部署示例中，512GB 统一内存的 Apple Silicon Ultra 可运行两比特量化版本，但长上下文仍会明显拖慢速度。
+🔗 https://huggingface.co/blog/mistral-large4
+
+2. ChatGPT 订阅附带等额 API 额度，模型预算开始跨入口流动
+Simon Willison 记录，OpenAI 已为符合条件的 100、200、500 美元订阅提供同额 API 额度，可用于用户的一个 API organization。此前 Anthropic 已为相应订阅提供类似权益，额度会过期。作者认为，既有订阅覆盖了实验所需的部分 API 成本，使他更愿意发布面向公众的演示。这是订阅权益扩展，不代表 API 调用变为无限量，也不能按现金返还理解。
+🔗 https://simonwillison.net/2026/Oct/29/api-credits/
+
+3. Spawn 自述每月花逾三百万美元 token，尝试由 Agent 持续开发游戏
+Spawn 创始人 Jacob Sansbury 自述，产品由 Fable 驱动的 Agent 群持续开发，每月 token 开支超过三百万美元，约为工资开支的三十倍。游戏内 Agent Savi 能根据玩家提示修改世界，并把遭遇的问题提交给开发 Agent；约六成开发工作由线上错误、日志或用户反馈触发。团队声称每小时发布，出现问题可在三十秒内局部回滚。Simon 亲自体验了生成城堡和骑龙，但提醒这种自治方式在高风险软件上未必适用；运营与成本数字仍是创始人口径。
+🔗 https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/
+
+4. Elorian 用诱饵计数暴露视觉推理短板，自报成绩仍刚过五成
+Elorian 与 Mercor 发布 DecoyCount，测试模型会不会把镜像、包装标识等视觉线索误当成实际物体数量；论文中最佳前沿模型准确率为 43.17%。CEO Andrew Dai 称，自家 Glimpse 在 1660 道题上达到 50.48%，评测图文未进入其训练数据，但这是内部单次结果，其他模型则取三次平均。Glimpse 的方法是把生成和编辑图像纳入推理过程，而非只输出图像或模拟可导航世界。公司今年四月披露五千五百万美元种子融资，并将机器人、工程与防务列为潜在应用。
+🔗 https://latent.space/p/elorian/
+
+5. Agent 提速的瓶颈常在工具与沙箱，不能只比较 token 吞吐
+Martin Alderson 根据过去一年的工程实践，把 Agent 延迟拆为首 token 时间、生成速度、工具调用以及环境挂起与恢复。短回合任务更受首 token 时间影响，长代码输出则更依赖吞吐；调整推理预算有时比购买更快的服务档位更有效。他建议查看工具轨迹，优先处理重复启动进程、输出过量、轮询等待和不合适的数据接口。文中的示意分解显示，即使推理耗时减半，若其他环节不变，总任务时间也可能只下降约两成；这不是跨产品实测结论。
+🔗 https://martinalderson.com/posts/making-agents-fast/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=feed
+
+🐦 Twitter 精选（5 / 30）
+
+1. @AnthropicAI：称 Claude 自六月起在回复后自评潜在滥用，发现了其他防护未覆盖的情况；效率与效果均为官方自述。
+🔗 https://x.com/AnthropicAI/status/2115871889549865429
+
+2. @karminski3：实测 Kimi K3.1 Pro 前端与目标推进较强，后端因过度保守超时选择而退步；建议先规划以减少信息差。
+🔗 https://x.com/karminski3/status/2115895561836720236
+
+3. @_akhaliq：分享 CausGround 论文，方向为因果交互 grounding 与具身自适应规划；可见推文未给实验指标。
+🔗 https://x.com/_akhaliq/status/2115844222729507001
+
+4. @_akhaliq：分享面向推理 LLM 的序贯实验设计摊销方法论文；可见内容仅有题目和链接，未披露实验增益。
+🔗 https://x.com/_akhaliq/status/2115843451078217750
+
+5. @_akhaliq：分享面向真实声学场景的流式音视频目标说话人提取研究；推文未提供延迟和准确率等指标。
+🔗 https://x.com/_akhaliq/status/2115842408302924162
+
+📱 公众号精选（5 / 9）
+
+1. 可能不喜欢，但无法忽视：Anthropic 招股书披露的 33 个事实丨晚点小数据
+标题称梳理 Anthropic 招股书的三十三个事实；摘要和正文不可获取，无法核对具体数据与统计口径。
+🔗 https://mp.weixin.qq.com/s/6qj9jKd9ElUISxk_nHKBGQ
+
+2. Buddy One正式上线，腾讯要用WorkBuddy打通自己的全家桶了。
+标题称 Buddy One 上线并借 WorkBuddy 串联腾讯应用；摘要和正文不可获取，功能与开放范围待核。
+🔗 https://mp.weixin.qq.com/s/_95CYxdidY3zUGfHnZXbMQ
+
+3. 融资 1750 万美金，a16z 说它是“创意领域的 Claude Code”
+标题称某创意工具融资 1750 万美元并获 a16z 类比 Claude Code；正文缺失，公司名与轮次未能核实。
+🔗 https://mp.weixin.qq.com/s/cv5D9tSiJpEY540A7aXB5w
+
+4. 独家｜蚂蚁领投矩侨工业亿元融资，柔性触觉切入构建Physical AI全模态人类数据感知底座
+标题称蚂蚁领投矩侨工业亿元融资，方向为柔性触觉与 Physical AI 数据；正文缺失，交易细节待核。
+🔗 https://mp.weixin.qq.com/s/d96KiGONuJV_sxEMZ0OjEw
+
+5. 冥想、扩散与大模型的另一条路丨对谈西湖心辰创始人蓝振忠
+标题为与西湖心辰创始人蓝振忠的对谈，涉及扩散与大模型路线；正文缺失，无法提炼其具体判断。
+🔗 https://mp.weixin.qq.com/s/nqOkI3cwBxc7t-4qvMVwxQ
+
+📖 查看完整日报（49 篇）→ https://news.justin7974.dev/2026-10-30.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #749 | 2026-10-29</title>
       <link>https://news.justin7974.dev/2026-10-29.html</link>
@@ -1246,76 +1316,6 @@ Cola 公告升级套餐，以 Auto 路由和月度积分分层定价，取消每
 🔗 https://mp.weixin.qq.com/s/JuJq2qByOHlR24Tyb70Q3A
 
 📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-10-11.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #730 | 2026-10-10</title>
-      <link>https://news.justin7974.dev/2026-10-10.html</link>
-      <guid>https://news.justin7974.dev/2026-10-10.html</guid>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 7 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Competing ARR Estimates &amp; Fuzzy Valuation Math in the Spotlight as Markets Get Edgy
-OpenAI 被广泛引用的年化收入规模相差约 200 亿美元，Newcomer 将争议指向总额与净额口径混用，而非直接认定业务下滑。文中指出，Anthropic 把云合作伙伴销售计入总额，OpenAI 此前使用净额，简单比较容易误判双方规模。作者同时质疑分批融资只披露单一估值，掩盖不同批次的成交价格。可读部分还讨论欧美开源模型的主权定位：除敏感数据场景外，受访投资人称应用创业者更看重性能和成本。
-🔗 https://www.newcomer.co/p/competing-arr-estimates-and-fuzzy
-
-2. Deno is joining Cloudflare
-Cloudflare 收购 Deno，重点转向 celld 与 Workers 编程模型的自托管支持。Deno runtime 将再维护一年，提供每月错误修复与安全更新，随后停止自身开发，代码继续开源。Ryan Dahl 解释，兼容 Node.js 让 Deno 越来越像重新实现 Node，性能、体验和安全的边际优势不足以解决大问题。他更看重 celld 以对象存储协调和持久化服务器应用的新抽象。
-🔗 https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/
-
-3. Impactful scheduling for GPU clusters
-Ai2 在 GPU 请求达到供给两至三倍的情况下，用时间预算、分层公平分配和可抢占合约替换原来的优先级调度。30 天观察中，各团队获得应分配 GPU 小时的 98%，集群占用率维持 98%，避免把机器长期锁给暂时没有任务的团队。小型调试任务实际 p90 排队时间从两小时降到三十秒，需要人工介入的维修减少 74%。这些是 Ai2 自报的运行结果，集群占用率并不等于 GPU 的有效计算利用率。
-🔗 https://huggingface.co/blog/allenai/impactful-scheduling
-
-4. I expect rapid progress but not towards general superintelligence
-Nathan Lambert 预计 AI 会快速提高研究工程效率，但不把这种进步直接等同于通用超级智能。公开可读部分认为，训练速度、每次回答成本等有明确反馈的指标，更适合 Agent 自动优化，未来数年推理效率可能继续大幅提高。他将近期路径概括为并行的 AI 辅助语言模型研究，预计预训练架构与数据选择的部分研究可能在两三年内自动化。文章后段受付费墙限制，上述均为作者预测。
-🔗 https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards
-
-5. Nvidia-Backed Firmus Scraps $5 Billion Australia IPO as Markets Wobble
-Firmus 撤回拟募资近50亿美元的澳洲IPO，估值曾逾300亿美元；拟转私募，仅据RSS及付费墙公开导读。
-🔗 https://www.theinformation.com/briefings/nvidia-backed-firmus-scraps-5-billion-australia-ipo-markets-wobble
-
-🐦 Twitter 精选（5 / 30）
-
-1. @AnthropicAI：Anthropic 将更频繁披露模型行为，报告四类 Claude 在真实系统中采取非预期行动的案例，称实际影响很小。
-🔗 https://x.com/AnthropicAI/status/2108680150556737819
-
-2. @shao__meng：Unsloth与Windows团队整合开源mxc沙箱，隔离Agent生成代码，并限制文件、网络与界面访问。
-🔗 https://x.com/shao__meng/status/2108388066486616235
-
-3. @godofprompt：建议用 Opus 处理主任务、Haiku 做低成本子任务；提醒内置 Explore 默认继承主模型，未必自动省钱。
-🔗 https://x.com/godofprompt/status/2108569433535045796
-
-4. @godofprompt：介绍腾讯把单图转成可漫游三维资产，可导入游戏引擎；强调输出是网格与高斯点，而非一次性的视频片段。
-🔗 https://x.com/godofprompt/status/2108498001698370016
-
-5. @shao__meng：分享TypeScript的Rust移植tsc-rs；项目称在M4 Pro上比Go版快约1.61倍。
-🔗 https://x.com/shao__meng/status/2108369624832356447
-
-📱 公众号精选（5 / 7）
-
-1. 《State of AI Report 2026》最新洞察：模型公司开始卖交付 AI，软件产业的分工正在被改写
-模型公司开始亲自承担企业部署，AI 软件的交付成本与客户关系正在重新分配。文章借《State of AI Report 2026》指出，Agent 要完成跨系统任务，还需处理权限、有效数据、人工审阅和失败恢复。其转述的实验中，同一 GLM-5.1 在不同运行框架下的 pass@1 从 52.5% 升至 65.5%，只适用于指定代码任务与实验条件。连接器、版本化流程与可重复评测有机会积累为产品，但驻场服务和人工补救不会因推理变便宜自动消失。
-🔗 https://mp.weixin.qq.com/s/wWgT1tzmQymg6J6KgK8GPQ
-
-2. 对话 8 位汽车工程师和学者：上世纪成熟的踏板，为何今天还会断裂？
-尊界 V800 刹车踏板支架在相同测试场景中三次断裂，受访工程师认为紧急踩踏应在设计验证范围内。报道区分了让车辆达到最大制动力的 500 N 要求与支架机械强度要求，避免把不同指标混为一谈。专家指出，玻纤增强塑料并非不能用于支架，但动态载荷、温度、制造批次和结构余量需要联合验证。仅凭视频与照片不能确定失效主因，仍需实物检验；车企则称已经按高于相关标准的要求完成开发验证。
-🔗 https://mp.weixin.qq.com/s/x32c_eaenl1VJKOijq4yfA
-
-3. Anthropic 联合天文学家，完成了第一张完整的全天紫外地图
-约三分之一从未被紫外望远镜覆盖的天空，由模型预测补齐，而非新增实测观测。文章转述 Anthropic 案例：Brice Ménard 使用 Claude Science 整理 GALEX 等公开巡天数据、统一定标并完成全天紫外图，输出区分实测与预测并附误差。流程还根据 Gaia 数据估算一亿多颗恒星的紫外亮度。官方称原需数周的工作缩短为数天，但中途仍由科学家发现并推动修复大气辉光残留。
-🔗 https://mp.weixin.qq.com/s/7-7lFomQ1xNAntlXWN52WA
-
-4. 游戏、软件、硬件，一切终将开源？
-播客讨论 Agent 降低游戏改编、软件复刻和硬件固件开发门槛，认为 IP 与分发更稀缺；其中法律判断仅为嘉宾观点。
-🔗 https://mp.weixin.qq.com/s/AF3k21nSQzowbUOKWz7x0A
-
-5. 深度｜RSI的早期产业形态，最可能出现在企业Agent
-围绕Pyromind介绍企业Agent持续学习，列举软件、工业和机器人案例；宣传倾向明显，指标未经独立核验。
-🔗 https://mp.weixin.qq.com/s/YGVvrn846F2ZsoYj5q3rCw
-
-📖 查看完整日报（47 篇）→ https://news.justin7974.dev/2026-10-10.html</description>
     </item>
   </channel>
 </rss>
