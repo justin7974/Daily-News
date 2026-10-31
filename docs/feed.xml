@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 30 Oct 2026 00:06:35 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 00:06:28 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #751 | 2026-10-31</title>
+      <link>https://news.justin7974.dev/2026-10-31.html</link>
+      <guid>https://news.justin7974.dev/2026-10-31.html</guid>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 6 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. 开源模型的网络安全风险：漏洞发现提速，修补能力成为约束
+Nathan Lambert 修正了自己此前把开放权重网络安全风险称为“还好”的措辞：他仍不认为风险已出现灾难性跃迁，但承认软件行业将被迫经历昂贵的升级。文中援引 Epoch AI 用 GLM-5.3 构造 Firefox 攻击的实例，指出发现漏洞与形成实际危害之间仍有部署、诱导访问等环节。作者认为，当前证据不足以把新增攻击主要归因于开源模型，闭源模型同样参与其中。他还提醒，大型开放模型短期内受服务成本和算力供给限制，防守方能否及时采用、修补才是关键变量。
+🔗 https://www.interconnects.ai/p/was-i-wrong-about-open-models-and
+
+2. a16z 重审创始人画像：AI 降低开发门槛，也抬高种子轮交付标准
+Andrew Chen 认为，AI 将扩大单人、非技术背景、行业专家、年轻人和内容创作者的创业机会，但逐一列出了这些画像的短板。单人能做更多事，合伙团队也会同步提效；能做原型，距离可靠、可扩展产品仍有技术判断的差距。行业经验可能帮助发现问题，也可能限制颠覆性思考；自带粉丝能带来首发流量，却不能替代长期增长。文章进一步指出，热门创始人画像既来自技术与分发优势，也会因投资人共同偏好而获得自我强化的融资优势。
+🔗 https://www.a16z.news/p/new-founder-archetypes-in-the-ai
+
+3. 17 位 AI 100 创业骨干转入隐身项目，人才流动提供早期寻源线索
+CB Insights 从历届 AI 100 公司中识别出 17 位正在隐身创业的创始人及早期团队成员，并结合履历、论文和公开发言推测新方向。Jina AI 联合创始人 Bing He 自述探索 Agent 与硬件；Chai Discovery 前创始科学家 Zhuoran Qiao 透露建设覆盖分子设计到制造的化学基础 AI。Ema 前创始工程师 Amitha Gopidi 所在医疗科技项目自述已在两家诊所试点。名单也覆盖空间智能、身份验证和 Agent 安全，但部分方向仍是研究机构推断，不能视作已发布产品或已确认融资。
+🔗 https://www.cbinsights.com/research/seventeen-ai-100-alumni-stealth/
+
+4. Claude Code 加强目录写入边界，企业控制进入执行与网关层
+Claude Code v2.1.314 新增 permissions.blockWritesOutsideWorkingDirectories，使 Write、Edit 和 NotebookEdit 在所有权限模式下拒绝写入工作目录外路径。Claude apps gateway 可按 IdP 用户组限制上游路由，故障切换同样遵循该限制；Bedrock 上游可记录触发的 guardrail 类型而不记录匹配文本。更新还修复了恢复到 worktree 后沙箱未生效，以及部分被拦截调用看起来像已执行的问题。另有无头启动失败错误退出、管理策略刷新和超大上下文压缩等修复，均为官方发布说明。
+🔗 https://github.com/anthropics/claude-code/releases/tag/v2.1.314
+
+5. OpenAI 将支持统一 AI 训练偏好信号，网站无需逐个维护厂商规则
+OpenAI 宣布将尊重 robots.txt 中供多家参与厂商共同识别的 AI 训练偏好信号，减少网站运营者逐个配置爬虫规则的负担。公司计划未来数月实施，并在落地时另行披露细节，当前仍是承诺。既有爬虫控制继续适用，新的共同信号不会替代原有规则。方案参考 IETF AI Preferences 工作组的讨论，属于自愿参与机制，公告未声称已覆盖所有模型厂商。
+🔗 https://openai.com/index/helping-websites-express-ai-training-preferences
+
+🐦 Twitter 精选（5 / 30）
+
+1. @cursor_ai：Cursor 称其扩展市场出现非 Anthropic 开发的恶意 Claude Code 扩展，最多影响五千名用户，并已下线扩展市场。
+🔗 https://x.com/cursor_ai/status/2116074289053175808
+
+2. @karminski3：分享低延迟语音方案：预录常用语、缓存合成结果，并让模型只输出简短决策码，以减少生成耗时与调用成本。
+🔗 https://x.com/karminski3/status/2116058953763406133
+
+3. @_akhaliq：转发微软在 Hugging Face 发布 4B 混合式电脑操作 Agent 的消息；转发文本截断，具体动作机制未完整展示。
+🔗 https://x.com/_akhaliq/status/2116224050871894415
+
+4. @_akhaliq：分享 A-RSI 论文，方向是通过自适应任务刷新实现零数据多模态自我改进；推文未提供评测指标。
+🔗 https://x.com/_akhaliq/status/2116226251941642405
+
+5. @_akhaliq：分享 Look Only When Needed，以证书引导的视觉路由提高扩散式 VLM 效率；推文未披露具体加速结果。
+🔗 https://x.com/_akhaliq/status/2116165005129507300
+
+📱 公众号精选（5 / 6）
+
+1. AI 如何改写企业安全预算？自动攻防、Agent 权限，与代码安全
+海外独角兽编译的 a16z 调研覆盖 100 位 CISO，所在企业员工均超过一千人；87% 预计安全支出增加，但只有 18% 已在生产中使用 AI SOC 工具。未来十二个月，45% 计划采购或升级内部 Agent 安全产品，63% 表示安全要求已推迟或限制部分 AI 使用。采购渠道仍偏向既有厂商：44% 优先看现有平台，21% 优先找 AI 原生厂商，25% 表示不向创业公司采购。文章讨论的 Armadin、Neo 等包含 a16z 投资项目，需把采购意向、真实成交与投资方推广区分开。
+🔗 https://mp.weixin.qq.com/s/6Gm-gu5itI4EDB2h-Tkv8w
+
+2. 开源模型亟需另开一桌
+作者批评用单一综合榜单评价开源模型，认为增加推理时长换分数，可能损害真实任务体验。他以 DeepSeek 的效率路线、K3 的前端训练取舍为例，主张按工作领域和速度成本分别比较。文章宣布筹建来自真实任务、真实环境的开源 Benchmark 社区，合作评测将陆续发布。关于厂商“刷榜”及能力优劣的归因属于作者观点，文中未提供完整、可复现的横向实验。
+🔗 https://mp.weixin.qq.com/s/pZseOK4E6pNviDxKdSop6g
+
+3. DeepSeek的尽头，居然是一条会喊你爸爸的蓝色大肥鱼。
+作者观察到用户把 DeepSeek 拟人角色接入桌宠、QQ 与 B 站互动，形成陪伴和二创；未披露留存或付费数据。
+🔗 https://mp.weixin.qq.com/s/1Q02NRZBrf_NAE0W4VBvNw
+
+4. AGI Bar 全面 Agent 化：API 向所有人开放
+运营方自述开放活动报名、订单和门店管理接口，API 继承个人权限，员工可选细分权限；供应商协同仍在推进，属产品推广。
+🔗 https://mp.weixin.qq.com/s/ar7_xEIUb_4eRcbhcumZeA
+
+5. 喝点VC｜a16z投资复盘：86%的VC交易涌向AI，万亿美元盛宴才刚刚开始
+整理九月三十日 a16z 播客，讨论算力、应用采用与退出；86% 指其美国 VC 活动快照，非当天新增统计。
+🔗 https://mp.weixin.qq.com/s/UESp3wf-JdmzeXTwi12log
+
+📖 查看完整日报（46 篇）→ https://news.justin7974.dev/2026-10-31.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #750 | 2026-10-30</title>
       <link>https://news.justin7974.dev/2026-10-30.html</link>
@@ -1246,76 +1316,6 @@ Science 创始人、Neuralink 联合创始人 Max Hodak 把恢复感官功能视
 🔗 https://mp.weixin.qq.com/s/ggfc6WKSG-sM1OvwwmajqQ
 
 📖 查看完整日报（42 篇）→ https://news.justin7974.dev/2026-10-12.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #731 | 2026-10-11</title>
-      <link>https://news.justin7974.dev/2026-10-11.html</link>
-      <guid>https://news.justin7974.dev/2026-10-11.html</guid>
-      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 5 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Building AI for Reliable Execution: Lessons From Industrial Robotics
-Standard Bots 将 AI 限定在可验收的工业任务中，而非追求全能机器人：模型识别零件，传统程序处理运动与工作单元逻辑。公司称完成 2 亿美元 C 轮融资、估值 10 亿美元，客户包括 NASA、Amazon 和 Lockheed Martin。其基础模型由客户示范和微调适配，训练在云端、推理在工厂本地，生产中的失败与人工纠正用于修复边缘情况。短周期任务优先满足节拍和可靠性要求，涉及液体、吸附或柔性材料切割的任务则仍难靠模拟器重现。
-🔗 https://www.latent.space/p/standard-bots
-
-2. [AINews] TypeSafe/Jev at &gt;$100M ARR, $7.5B valuation 3 weeks after launch
-TypeSafe/Jev 发布仅三周便被报道达到逾 1 亿美元 ARR、75 亿美元估值，但这些口径来自新闻汇编与公司相关披露，尚无独立核验。创始人称已有 29.4% 的 Fortune 500 企业使用，不能直接等同于付费客户或长期合同。更实质的变化是“决策模型”迅速成为品类：以一次前向计算返回概率、分类或评分，省去生成长文本的成本。汇编列出 OpenAI、Microsoft、Perplexity、Cloudflare 等竞品，同时提醒部分早期评测仍发现复杂决策的一致性不足。
-🔗 https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b
-
-3. Why AlphaFold Didn&apos;t Solve Protein Folding — Pushmeet Kohli, Google DeepMind &amp; Sal Candido, Biohub
-AlphaFold 预测出数据库中的蛋白结构，并不意味着蛋白动态、功能与设计问题已经解决。DeepMind 的 Pushmeet Kohli 指出，原来的目标是复现 PDB 收录的结构，真实蛋白却会随环境改变形态，静态结构不能覆盖其分布。Biohub 的 Sal Candido 强调，扩大模型前先要找到能持续改善结果的数据与 scaling law，虚拟细胞尤其需要新数据。两人认为 AI 已进入药物研发流程，但整体提速十倍或百倍仍取决于具体环节和更好的生物系统模型，不能给出统一兑现时间。
-🔗 https://www.latent.space/p/biohub-deepmind
-
-4. Zuckerberg’s Big Biotech Moment
-Biohub 宣布与美国 NIH、DOE 合作，投入 18 亿美元建设 AI 生物学所需的新技术与科研基础设施。The Information 的公开可读部分还称，Meta、Google DeepMind 与 Isomorphic Labs 同意投入 3 亿美元，Biohub 此前于 4 月承诺 5 亿美元启动 Virtual Biology Initiative。报道将其视为大型科技公司、政府与科研机构进一步联合组织生物研究的信号。上述金额对应不同公告，文章未提供足够信息判断是否相互包含，不宜简单相加；此处仅依据公开可读内容。
-🔗 https://www.theinformation.com/articles/zuckerbergs-big-biotech-moment
-
-5. Software&apos;s centaur age may last decades
-Sean Goedecke 认为，人类工程师与 AI 的组合仍优于各自单独工作，这种阶段可能延续十年甚至更久，属于作者推断。当前 Agent 已能独立生成代码，但输出仍需人审，问题越来越涉及组织技术取舍、过度设计和投入分配。作者指出，全面自动化软件工程可能同时扩大软件需求，即使人类占比下降，总工作量也未必减少。他以国际象棋约二十年的协作阶段作类比，并承认资本投入、技术速度和经济冲击使时间预测高度不确定。
-🔗 https://seangoedecke.com/softwares-centaur-age-may-last-decades/
-
-🐦 Twitter 精选（5 / 30）
-
-1. @shao__meng：转述 Uber 法务 Agent 案例：审核时间降逾20%、决策准确率91%；采用 Word 插件，律师保留决定权。
-🔗 https://x.com/shao__meng/status/2108835904534290445
-
-2. @shao__meng：解释推理的两类瓶颈：Prefill 偏重算力，单请求 Decode 偏重内存带宽，优化方法要分别选择。
-🔗 https://x.com/shao__meng/status/2108839032939819268
-
-3. @shao__meng：分享小米 MiMo-V2.6 技术报告，称以260万美元 RL 算力及三维扩展，把万亿 MoE 推向前沿。
-🔗 https://x.com/shao__meng/status/2108829340704162034
-
-4. @Hesamation：称 Opus 5.5 用量高效，ultracode 能找出内存泄漏根因；但不推荐用它实施代码。
-🔗 https://x.com/Hesamation/status/2109070439666327856
-
-5. @bcherny：建议给 Claude 明确目标、可测量反馈和持续尝试要求，例如把 CI 的 p95 时间降到十分钟以内。
-🔗 https://x.com/bcherny/status/2109027327569203687
-
-📱 公众号精选（5 / 5）
-
-1. 我花了5天时间，对公司进行了一场AI化改造。
-一家三十多人的传媒公司用五天自建 AI 协作中台，真正要解决的是员工写出应用之后的部署、权限和共享问题。卡兹克称，中台复用飞书的数据与权限，把应用发布和 Skill 分发包装为 MCP，让 Claude、Codex 直接接入。内部商务应用可从 Excel 生成邮件草稿并录入项目底表，先由同事测试，再把十五分钟会议的反馈交给模型修订。品牌组件、PPT 模板与 Skill 统一管理，同时支持每人定制首页；作者承认系统仍早期，维护问题尚待验证。
-🔗 https://mp.weixin.qq.com/s/GFKEw4vjTJZUUR8SCddIKQ
-
-2. Z Tech｜专访34岁UCSD正教授商静波：从ACM世界第二到MIT TR35，下一站押注超级智能
-UCSD 教授商静波认为，资源有限时应先在重要且可验证的领域追求超人能力，而非与大厂竞逐通用巨型模型。其 FrontierCS 工作希望让 AI 提出假设、设计实验并发现可复用算法，目标可以是特定问题分布下更短的运行时间，并非宣称改变 NP-hard 的理论复杂度。他提出把确定性逻辑保存为可检查、可修改的程序或决策树，让模型负责其中不确定的判断。高质量反馈与验证能否自动、低成本扩展，是他判断方向的关键；“主流 LLM 路线趋于收敛”等判断均为受访者观点。
-🔗 https://mp.weixin.qq.com/s/Dq6HV0MgP-bGBoyCrrpmMQ
-
-3. 当懂球的 NBA，遇上懂 AI 的阿里
-NBA 与阿里将 AI 用于个性化观赛、篮球助手和赛事消费，体现版权场景与流量入口优势；合作宣传色彩较强。
-🔗 https://mp.weixin.qq.com/s/DjiFrJcTP-9t9Z-pfTEFhA
-
-4. 旅行成为个人 Agent 的高频场景，「豆包工作」把几十小时攻略浓缩成 PPT
-实测豆包工作把北京旅行资料汇入表格和20页 PPT，未展示完成预订；含会员推广，按产品体验降权。
-🔗 https://mp.weixin.qq.com/s/2FW2XkdE5An58jPR0d32HA
-
-5. Cola 新套餐升级方案解读
-Cola 公告升级套餐，以 Auto 路由和月度积分分层定价，取消每日额度限制；性价比说法为服务商自述。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/JuJq2qByOHlR24Tyb70Q3A
-
-📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-10-11.html</description>
     </item>
   </channel>
 </rss>
