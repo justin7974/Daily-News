@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 31 Oct 2026 00:06:28 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 00:06:19 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #752 | 2026-11-01</title>
+      <link>https://news.justin7974.dev/2026-11-01.html</link>
+      <guid>https://news.justin7974.dev/2026-11-01.html</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 5 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. AI Mode 变现较低，Google 搜索面临替代收入的难题
+Latent Space 引用 Google 商务负责人 Philipp Schindler 的表述，称 AI Mode 查询增长因变现水平较低而影响搜索收入。作者把它视为搜索摘要模式的商业矛盾：回答越完整，用户越不需要继续访问被摘要的页面。正文同时承认，Google 对 AI Mode 的单独披露不足，尚无法严谨测算其收入影响。报道还把科技股下跌、OpenAI 融资估值预期下调放在一起讨论，但这些市场变化不能全部归因于 AI 搜索。
+🔗 https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/
+
+2. Arca 用 Agent 管理最长十天的金融任务，把交易决定留给人
+Arca 的 AI 任务可横跨十天，难点在等待、多人交接与决策节点，而非模型连续运行。AI 负责人 Aman Singh 介绍，公司为每个客户维护持久记忆，记录待办、责任人及长期事项，并用自建运行框架按内部评测选择模型。Agent 负责分析和提出方案，交易及资金移动由人类顾问执行，权限限制使用确定性规则。团队还结合顾问反馈与 Agent 执行记录，借助另一层 Agent 提出框架改进建议。公司近期宣布完成 4,850 万美元融资，由 General Catalyst 领投。
+🔗 https://latent.space/p/arca/
+
+3. ChatGPT HTML 预览漏洞暴露跨组件隔离风险，披露称已修复
+Simon Willison 转述 Parameter Labs 的披露：攻击者可构造 ChatGPT 分享链接，使已登录访问者的私人数据被读取，或被代为执行操作。漏洞链从 HTML 预览与图表组件间的消息处理开始，串联多个组件后突破页面隔离及脚本限制。问题出在不可信内容与高权限应用页面之间的连接，并非仅靠模型拒答能解决。据这篇解读，OpenAI 已关闭漏洞，并支付五千美元赏金。
+🔗 https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/
+
+4. Doctorow：AI 混合创作需要记录人工贡献，版权管理成本会上升
+Cory Doctorow 认为，AI 与人工混合创作会迫使公司更细致地记录哪些内容来自人、哪些来自模型。他以图片、动画和文字为例，说明人工修改与选择可能涉及不同程度的权利，而单纯投入大量时间或资金并不能代替原创贡献。作者据此推演，企业若要维护作品的商业独占性，将需要保存创作过程与修改记录。文章是作者对版权制度及其产业影响的评论，并非当天发布的新规或法院裁决。
+🔗 https://pluralistic.net/2026/10/31/burn-berne/
+
+5. Claude Code 增加共享预算与叠加策略，企业治理继续下沉到网关
+Claude Code v2.1.316 为 Claude apps gateway 增加组内共享月度预算，在成员个人额度之外约束总体支出。新的 layered 策略模式让所有匹配开发者的策略参与叠加，而不只采用第一条。更新还修复受限会话在特定 Read 允许规则下上传工作目录外文件，以及网关未完整检查请求中所有模型字段的问题。官方同时宣布 Opus 4.8 fast mode 已弃用，将于十一月三十日移除，届时相关请求会报错。
+🔗 https://github.com/anthropics/claude-code/releases/tag/v2.1.316
+
+🐦 Twitter 精选（5 / 30）
+
+1. @AnthropicAI：Anthropic 称让数千个 Claude Agent 绕过训练数据监测，生成表面无害、却能教出失准行为的数据。
+🔗 https://x.com/AnthropicAI/status/2116349211549843666
+
+2. @godofprompt：转述 Cursor 市场恶意扩展事件，涉及两个 Claude Code 版本及持久化攻击；官方分发渠道据称未受影响。
+🔗 https://x.com/godofprompt/status/2116666582294560956
+
+3. @Hesamation：转述 NVIDIA OpenShell 负责人访谈：Agent 从零权限开始，按需授权，密钥与执行环境分离；后文截断。
+🔗 https://x.com/Hesamation/status/2116615587736510835
+
+4. @steipete：在技术回复中建议使用服务端上下文压缩，称其更快、效果更好，并表示 OC 已在两种运行框架中采用。
+🔗 https://x.com/steipete/status/2116469732971098319
+
+5. @shao__meng：转发 Qwenputer：在 Qwen3.5-4B 权重中实现 RISC-V CPU，以 GDN 状态充当 RAM。
+🔗 https://x.com/shao__meng/status/2116670517105050096
+
+📱 公众号精选（5 / 5）
+
+1. AI 泡沫破裂的前夜：代码产量增长，企业收入为何没有同步增长？
+作者把“生产效率提升”与“企业获取新增收入”分开，认为 AI 降低开发成本，也让更多竞争者进入，供给增加可能压低价格。他以身边开发者、Token 转售和内容平台为例，质疑更多代码与调用量是否已转化为增量商业价值。文章还讨论 AI 基础设施投入推高硬件需求，以及生成式回答减少网站回流的分配问题。作者承认无法判断泡沫何时破裂；其“尚未看到增量价值”的结论来自个人观察，文中市场及财务数字未在本日报独立核验。
+🔗 https://mp.weixin.qq.com/s/3609l8zUcjLSrGuNslCHpA
+
+2. Claude Ultra 解开五小时窗口，作者实测新增月度 API 额度
+作者展示账号页面，称原 Max 20x 改名 Ultra 后，自己的五小时限制已取消，用量继续受每周额度约束。调整分批开放，多数老账号先受益，新账号需等待验证。文中还展示关联 API 组织后领取月度额度的界面：Max 一百美元、Ultra 二百美元，Team 按席位计算但团队每月最多五百美元。按作者说明，这笔额度与 App、Claude Code 订阅用量分开，每个账单周期清零；这些权益以其当次展示为据。
+🔗 https://mp.weixin.qq.com/s/o8DJoIDswlg1b1wu29CQJw
+
+3. 深度丨苹果 AI 入华，为什么最终选择了阿里千问？
+文中称千问将进入 Siri、写作与视觉智能，并讨论端云服务能力；推广色彩较强，测试与上线安排未另行核实。
+🔗 https://mp.weixin.qq.com/s/6Vzu-wxdjPzKowCZUsDBaw
+
+4. 如何蒸馏一个短视频博主，以我的采访 Skill 为例
+以自身素材演示按片型提取剪辑节奏、字幕和响度，再把反馈写入 Skill；兼有自家产品、会员与课程推广。
+🔗 https://mp.weixin.qq.com/s/-C1Ho3ujga3ilIfykvkcBg
+
+5. AI末世论是纯粹的骗局
+作者质疑灾难叙事被用于商业竞争与监管诉求，也表明并非反对重视安全；属立场评论，动机指控未经证实。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/UFifB1B158qYE0Ev203Jmg
+
+📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-11-01.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #751 | 2026-10-31</title>
       <link>https://news.justin7974.dev/2026-10-31.html</link>
@@ -1258,64 +1328,6 @@ Meta 发布 Muse Wonder 与 Muse Wonder Full，把长期记忆和遇到障碍后
 🔗 https://mp.weixin.qq.com/s/jBm4Jw-ES2k-IJ6wl8O0Qg
 
 📖 查看完整日报（47 篇）→ https://news.justin7974.dev/2026-10-13.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #732 | 2026-10-12</title>
-      <link>https://news.justin7974.dev/2026-10-12.html</link>
-      <guid>https://news.justin7974.dev/2026-10-12.html</guid>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 2 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Amazon’s Bargains Include Its Stock
-Amazon 的 AI 投入正在压低市场对其估值的容忍度，Martin Peers 则认为折价过大。公开导读称，公司今年资本支出达 2,200 亿美元，回报取决于企业 AI 服务需求能否增长。按文中引用的 Koyfin 数据，Amazon 前瞻市盈率约 29 倍，Walmart 约 37 倍；后者预计收入增速 5.6%，约为 Amazon 的三分之一。作者据此提出 Amazon 被低估的观点，但完整论证受付费墙限制，此处仅依据公开导读。
-🔗 https://www.theinformation.com/articles/amazons-bargains-include-stock
-
-2. Why every company now needs to think and operate like a lab team | Josh Woodward (Google Labs, Gemini, AI Studio)
-Google Labs 负责人 Josh Woodward 把持续实验和及时停止项目，放在 AI 产品组织的核心位置。他同时负责 Gemini 应用和 AI Studio，公开节目说明列出的产品包括 NotebookLM、Project Genie 和 Flow。访谈议题包括用“几乎可行”框架寻找机会、识别早期 PMF，以及何时放弃一个想法；节目也讨论为何不同岗位并未变成一种万能开发者。当前抓取内容只有节目介绍和参考资料，付费部分的具体案例与完整访谈不可获取。
-🔗 https://www.lennysnewsletter.com/p/why-every-company-now-needs-to-think
-
-3. I paid people to try and follow my README
-ActivityBot 作者花约 150 欧元请真实用户照着 README 安装软件，发现了自己反复检查也没看到的问题。他给每位参与者每小时 25 欧元，请对方共享屏幕并边操作边说出困惑。反馈包括演示链接错误、隐藏文件不会改名、术语没解释，以及文档根本没讲清软件能做什么。每次测试后他都修改文档，再让下一位用户重试；他选择真人反馈，而非让 LLM 模拟用户，最终确认安装说明更容易使用。
-🔗 https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/
-
-4. Just say no to OpenAI and Anthropic
-安全工程师 Micah Lee 正尝试用开放权重模型替代自己对 ChatGPT 和 Claude 的依赖，主要诉求是数据隐私、供应商可切换及安全研究的使用限制。他主观认为 GLM-5.3 的软件工程表现接近 Opus 5.5，但没有在文中提供系统对比实验。其做法是用 OpenCode 作为开发工具，公开项目交给 OpenCode Go，其他工作使用提供安全隔离环境推理的 Tinfoil；面向消费者的 Maple AI 也使用 Tinfoil 的推理服务。他区分了“不用于训练”的服务承诺和技术上的数据隔离，并承认安全隔离环境也非绝对可靠。
-🔗 https://micahflee.com/just-say-no-to-openai-and-anthropic/
-
-5. ★ X Once Again Marks the Spot
-John Gruber 认为 X 重新成为技术讨论和产品发现的重要场所，这是他的个人使用观察。文章举例称，Apple 高管在 X 发布产品与公司动态，而不少技术账号在其他社交平台的活跃度明显更低。他更正了 Merriam-Webster 只用 X 的说法：其十月至今在 X 有 34 条原创和 11 条转发，Bluesky 有 10 条原创。Gruber 还称自己的推荐流已不再反复推送 Musk，AI 工具讨论也比其他平台顺畅，但这些体验不代表全平台用户数据。
-🔗 https://daringfireball.net/2026/10/x_once_again_marks_the_spot
-
-🐦 Twitter 精选（5 / 30）
-
-1. @Hesamation：转述 Meta 用七个月验收 Muse 的逾百项 Agent 行为，每项设发布门槛；原型只花一至两周。
-🔗 https://x.com/Hesamation/status/2109395478865723479
-
-2. @godofprompt：称 NVIDIA 开源 Lyra 2.0，可把图片变成可探索的三维场景，并提供界面；强调长距离一致性。
-🔗 https://x.com/godofprompt/status/2109294222994288830
-
-3. @shao__meng：分享密歇根大学五个 AI 编程 Skills，强调遗留代码说明应自底向上生成，并由人审核。
-🔗 https://x.com/shao__meng/status/2109305199357784357
-
-4. @shao__meng：分享华为开源 JiuwenSwarm，多智能体可通过聊天工具协作；框架不内置模型，支持外接模型。
-🔗 https://x.com/shao__meng/status/2109083154682351988
-
-5. @rileybrown：演示用 Claude Code 调用 GrokBot 研究 X 内容，再接收结果继续任务，并分享相关 skill。
-🔗 https://x.com/rileybrown/status/2109352621081309215
-
-📱 公众号精选（2 / 2）
-
-1. 深度｜Neuralink联创：AI没有触及天花板，脑机接口的终局远不止连接计算机
-Science 创始人、Neuralink 联合创始人 Max Hodak 把恢复感官功能视为脑机接口的优先商业方向，而非提高向电脑输入想法的速度。Z Potentials 编译的 No Priors 访谈称，PRIMA 视网膜假体于今年七月获欧洲商业销售批准，尚未在中国获批，首批销售预计数周内启动。该设备通过眼镜和视网膜下芯片帮助部分患者恢复有限视觉，已有患者能识字、做数独，但画面仍狭窄且只有黑白。Hodak 表示价格尚未确定，并将更远期的生物混合神经接口、意识和载体独立性与当前医疗器械业务区分；相关 AI 与脑表征理论仍存在争议。
-🔗 https://mp.weixin.qq.com/s/TMYD9Qvhzm0kHpJA9-kCFg
-
-2. 灵光开始内测 Personal Agent
-蚂蚁灵光内测个人 Agent，作者实测连接米家、打印文件和定时查价；称本月开放，属主观体验。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/ggfc6WKSG-sM1OvwwmajqQ
-
-📖 查看完整日报（42 篇）→ https://news.justin7974.dev/2026-10-12.html</description>
     </item>
   </channel>
 </rss>
