@@ -5,8 +5,70 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 01 Nov 2026 00:06:19 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 00:05:54 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #753 | 2026-11-02</title>
+      <link>https://news.justin7974.dev/2026-11-02.html</link>
+      <guid>https://news.justin7974.dev/2026-11-02.html</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 3 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Wispr Flow 用创作者分成搭建增长体系，访谈称收入一年增长 30 倍
+访谈公开说明称，Wispr Flow 的 50 位创作者每月产出 500—600 条付费 UGC 广告，报酬按广告投放额分成，头部创作者月收入超过 1.3 万美元。内容负责人 Hector Serrano 在 19 岁、产品尚未找到 PMF 时加入，如今公司被介绍为收入一年增长 30 倍、融资估值 20 亿美元。其方法把消费品牌常用的创作者营销机制迁入 SaaS，也强调内容人才选择和 YouTube 渠道。以上基于已获取的公开节目说明，完整付费访谈转录未开放，不能据此认定收入增长全部来自 UGC。
+🔗 https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the
+
+2. 红旗连锁终止机器人售货研发，门店走访揭示替代人工仍有缺口
+量子位走访发现，部分机器人零售仓仍需人员持续值守、补货和报修，商品摆歪或缺货也会让机器人停住。报道回溯红旗连锁在 2026 年 7 月终止无人售货研发、转向云值守业务的决定，并非今天新发生的停项。密集货架、异形包装、冷饮瓶表面凝水和顾客穿行，都会放大实验室与真实门店的差距。记者观察的一个点位取货约需二十多秒，部分项目更依靠展示与引流获得采购，而非节省店员。报道用公司全年研发费估算单项目投入，该估算不能当作项目实际支出。
+🔗 https://www.qbitai.com/2026/11/506990.html
+
+3. Google 能源负责人称太空数据中心成本可达地面的百倍
+据 RSS 摘要，Google 数据中心能源负责人建议先开发地面方案；公司自身也在测试轨道 AI 芯片，成本比较仍是其判断。
+🔗 https://www.theinformation.com/articles/google-energy-chief-space-data-centers-cost-100-times-earth
+
+4. 清华团队以代数世界模型连接探索、建模与形式化证明
+报道介绍 AWM 用 Python 假设、实验修正和 Lean 4 证明判断游戏可解性；证明受所学规则限制，成绩未另行复核。
+🔗 https://www.qbitai.com/2026/11/507031.html
+
+5. Kyle Kingsbury：LLM 让成熟软件的可信信号更容易被伪造
+Simon Willison 摘录其对软件与文档可信度的担忧，追问维护者如何证明质量；这是一则观点摘引，并非新的测评结果。
+🔗 https://simonwillison.net/2026/Nov/1/kyle-kingsbury/
+
+🐦 Twitter 精选（5 / 30）
+
+1. @Hesamation：转述 Cisco 发现的窃密恶意软件：调用模型估算受害者资产价值，遭拒后切换模型；推文后段截断。
+🔗 https://x.com/Hesamation/status/2117021499722699210
+
+2. @godofprompt：转述 LlamaIndex 的文档解析协议草案，含 140 条规则；强调文字齐全仍可能因表格结构错误而误导 Agent。
+🔗 https://x.com/godofprompt/status/2116869472007205024
+
+3. @shao__meng：转述 Grok Bot 管意图和验收、Coding Agent 执行的分工，强调代码结构、CI 与规则共同支撑自动化。
+🔗 https://x.com/shao__meng/status/2116888552411746697
+
+4. @shao__meng：转述 Anthropic 每日合并约三万次的分享，强调测试、截图和日志证据支撑验收；数字为二手转述。
+🔗 https://x.com/shao__meng/status/2116887381001248970
+
+5. @shao__meng：转发 LangChain 创始人观点：工具循环逐渐收敛，常驻 Agent 的新难点转向记忆、异步执行与目标管理。
+🔗 https://x.com/shao__meng/status/2117041813731291543
+
+📱 公众号精选（3 / 3）
+
+1. 交接与验收成为瓶颈，LobeHub 分享常驻 Agent 的组织实验
+作者访谈 LobeHub 创始人后，把协作瓶颈归为任务交接、决策材料准备和主动发现遗漏。其架构将 Agent 循环、会话状态与工具执行环境拆开，以队列和 Redis 推进步骤，并用个人、项目主管、执行 Agent 三层过滤信息。Acceptance 把需求拆成检查项，在真实产品中执行并提交截图、录屏与日志；人的打回意见再沉淀为标准。文中称团队开发速度提高三至五倍，属于内部体验，所列基准成绩也未在本日报独立复测。
+🔗 https://mp.weixin.qq.com/s/QVu2luIrRTtNvsH-U65A8g
+
+2. Figure CEO 谈数据与资本扩张，也承认家庭泛化仍限三项评估任务
+这篇 9 月访谈的编译中，Brett Adcock 承认当前住宅实验只选择收玩具、铺床、叠毛巾三项任务，尚未达到任意家庭的长时程自主工作目标。他称 Index 在百余国家采集人类行为视频，速度达每秒约五十分钟，并表示外购数据质量不理想后改为自建体系。他还称与 Nscale 合作计划部署最多十万颗 GPU，承诺约三十五亿美元投入，并称累计制造机器人已达一千台。Figure 4 的“初代 iPhone 时刻”属于其预期，算力计划、产量和能力均为受访者口径。
+🔗 https://mp.weixin.qq.com/s/NTrZkzllm6yPFdlrXQ0Gow
+
+3. ChatGPT和Codex要共用额度了，无限聊天的时代结束了。
+作者称十二月起聊天与 Codex 合并额度；与上文推文“聊天除外”口径冲突，未完成官方核验，不据此认定权益已变更。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/f62kn1x8aS1PUVcvg2a6kA
+
+📖 查看完整日报（43 篇）→ https://news.justin7974.dev/2026-11-02.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #752 | 2026-11-01</title>
       <link>https://news.justin7974.dev/2026-11-01.html</link>
@@ -1258,76 +1320,6 @@ Melius 公司公告称融资2500万美元，隐身状态结束后两个月的年
 🔗 https://mp.weixin.qq.com/s/GiaNbdZLQJSbleEDKcyhSg
 
 📖 查看完整日报（48 篇）→ https://news.justin7974.dev/2026-10-14.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #733 | 2026-10-13</title>
-      <link>https://news.justin7974.dev/2026-10-13.html</link>
-      <guid>https://news.justin7974.dev/2026-10-13.html</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 7 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. How Anthropic’s Dynamic Workflows Coordinate Claude Agents
-Anthropic 的 dynamic workflows 让 Claude 自己编写调度程序，拆分任务、启动子 Agent 并汇总结果，开发者不再必须预先配置完整队伍。AI Engineer 纽约工作坊以股票观察名单演示分阶段扫描与复核，也展示了 Console 中可追查的任务关系。讲者承认示例中的多 Agent 方案成本明显更高，运行中的模型并不知道剩余预算，开发者需在会话层设限。记忆整理功能 dreaming 可辅助复用经验，但自动识别扫描缺陷并修改下一次任务，并不是内置能力。
-🔗 https://www.latent.space/p/claude-dynamic-workflows
-
-2. Andreessen Horowitz, General Catalyst Race to Secure the Chips Their Startups Need
-VC 正把算力供给纳入对创业公司的支持：The Information 公开导读称，a16z 在两年前建立两万张 GPU 的集群后，正洽谈扩大服务，可能借助两家已投资的数据中心公司。报道同时援引知情人士称 General Catalyst 正建设数据中心，为组合公司供应算力。其他基金也通过经纪商寻找紧缺芯片。完整报道受付费墙限制，这些计划的规模、定价和具体条款不可获取。
-🔗 https://www.theinformation.com/articles/andreessen-horowitz-general-catalyst-race-secure-chips-startups-need
-
-3. OpenAI’s Plan To Revive Sora
-Sora 可能通过面向电影制作人的创业公司恢复商业使用，而非直接重启原来的消费应用。The Information 公开导读称，一家由 Jeffrey Katzenberg、前 Sora 研究负责人 Bill Peebles 和前 Dropbox CFO Sujay Jaswa 创办的公司，正与 OpenAI 洽谈获取 Sora、修改模型并销售相关软件或服务。导读回顾，OpenAI 此前削减高耗算力项目时停掉了 Sora 模型和类 TikTok 应用。公司名称、授权条款及最终能否达成协议尚不明确，完整报道不可获取。
-🔗 https://www.theinformation.com/articles/openais-plan-revive-sora
-
-4. How Meta designed Muse: an AI agent people actually want to talk to | Alex Cornell (Design Director)
-Meta Muse 的设计重点，是让普通用户和工程师能用同一个聊天界面完成任务。公开节目介绍称，它用三层状态展示提供不同深度的过程信息，并通过角色形象、个性化建议和生成式信息流呈现结果。Alex Cornell 的演示包括把 Instagram 收藏变成购物目录、记录高尔夫表现，以及把旧博客做成晨间播客。节目也讨论主聊天与侧边聊天的使用分工；本次获取的是节目介绍和演示目录，未获取完整访谈逐字稿。
-🔗 https://www.lennysnewsletter.com/p/how-meta-designed-muse-an-ai-agent
-
-5. Software engineers don&apos;t get to be Luddites about AI
-Sean Goedecke 认为，软件工程师长期以自动化其他行业的劳动创造价值，如今自己的技能被自动化时也应面对同样的变化。他用 VisiCalc 对记账工作的影响，以及纺织机械制造者后来也被更低成本劳动替代的历史作对照。作者支持认真讨论技术的社会后果，但认为仅在本行业受影响后反对自动化，立场并不一致。这是一篇职业与技术观念评论，没有提供工程师就业或 AI 编程生产率的新统计。
-🔗 https://seangoedecke.com/software-engineers-dont-get-to-be-luddites-about-ai/
-
-🐦 Twitter 精选（5 / 30）
-
-1. @AnthropicAI：Anthropic 称近几个月显著降低了针对 Claude 的蒸馏攻击效果，并发布方法说明；推文未给具体指标。
-🔗 https://x.com/AnthropicAI/status/2109795898909950247
-
-2. @Hesamation：转述微软拟让 Maia 300 成为主要推理芯片，减少对 NVIDIA 的依赖；百万颗部署说法尚未核验。
-🔗 https://x.com/Hesamation/status/2109642828435337377
-
-3. @Hesamation：称 Muse Wonder 在智能评分上追平 Sonnet 5.5，认为模型竞争格局改变；排名说法未核验。
-🔗 https://x.com/Hesamation/status/2109699558116585876
-
-4. @emollick：有限试用后认为 Muse Wonder 表现不错，并用自己的着色器测试展示 Meta 的进步；属个人体验。
-🔗 https://x.com/emollick/status/2109714218014667039
-
-5. @_akhaliq：分享 BudgetPix 论文，研究按计算预算调整像素空间图像扩散的 token 化；未给效果数据。
-🔗 https://x.com/_akhaliq/status/2109711696944300535
-
-📱 公众号精选（5 / 7）
-
-1. 3000万美金种子轮，红杉美国领投，让普通人也能像对冲基金一样交易
-Catalyst 据报道获得 Sequoia 领投的三千万美元种子轮融资，想把用户的自然语言投资判断变成可回测、可执行的交易流程。深思SenseAI 综合投资方文章、Fortune 和官网材料称，涉及资金的执行需要用户确认，产品目前仍处于研究预览及候补名单阶段。公司自述重度交易用户试点约两周产生数亿美元交易量，但没有披露用户数量和收入，官网演示也不代表真实业绩。产品当前免费，收费方式、普通用户表现，以及法币提现的完整支持情况仍待后续验证。
-🔗 https://mp.weixin.qq.com/s/zoZ-xxGYL0V4YFj2zdgS6g
-
-2. Muse Wonder 发布：Llama4 之后，Meta 再回舞台
-Meta 发布 Muse Wonder 与 Muse Wonder Full，把长期记忆和遇到障碍后持续尝试列为重点能力。赛博禅心转述官方材料称，Wonder 提供 API，Full 仅供 Muse Code 的两档订阅使用，基准成绩主要来自厂商披露。文章列出的 Wonder API 标价为每百万 token 输入4美元、输出20美元，与文中列出的 Claude Opus 5.5 标价相同，虽引用 Wang 称会显著低于头部模型价格。跨对话记忆、长期编程和生活任务演示已被重点展示，独立真实任务测试仍不足。
-🔗 https://mp.weixin.qq.com/s/GvxfRjOxKKftTs7sNUXEag
-
-3. 对话丘成桐：数学家与一个功利时代
-丘成桐把基础研究的长期环境放在人才、奖项和短期回报之前，主张让年轻学者真正追求问题本身。晚点访谈中，他区分“给出证明”与“形成数学理解”，认为 AI 尚不能原创有意义的问题和新概念，这属于他的判断。与此同时，他承认 AI 会提升数学学科，并担忧国内研究者使用先进工具的差距与获取限制。对海外人才回流，他强调要提供可继续研究的环境，还需处理家庭、医疗和子女教育等实际问题。
-🔗 https://mp.weixin.qq.com/s/b6equutaj9hcsXffQJ5UEA
-
-4. 独家｜半图科技完成新一轮超千万美元融资，以人类行为模型切入3D AI互动
-报道半图科技融资逾千万美元，并称《代号Live》测试次日留存72%；样本与收入未披露，含公司宣传。
-🔗 https://mp.weixin.qq.com/s/oAjMOFboSz4PNMs-9jMRhg
-
-5. AI开始逆向一切，你电脑里的每个软件都要被迫开源了。
-用 ArtCraft、REA 等案例讨论 AI 降低软件重写成本；“被迫开源”是作者夸张表达，功能等价未证实。
-🔗 https://mp.weixin.qq.com/s/jBm4Jw-ES2k-IJ6wl8O0Qg
-
-📖 查看完整日报（47 篇）→ https://news.justin7974.dev/2026-10-13.html</description>
     </item>
   </channel>
 </rss>
