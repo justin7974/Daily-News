@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 02 Nov 2026 00:05:54 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 00:06:49 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #754 | 2026-11-03</title>
+      <link>https://news.justin7974.dev/2026-11-03.html</link>
+      <guid>https://news.justin7974.dev/2026-11-03.html</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 7 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Legora 无法查看客户轨迹，用模拟法律任务训练和评估 Agent
+Legora 不能读取律师处理客户资料的运行轨迹，因此由三名工程师和三名律师重建业务场景，包括用1 万份文件模拟尽调，并按业务与任务绘制评估结果。CTO Jacob Lauritzen 称，团队另有约一百名法律工程师参与，生产环境则检查十到二十类已知失败。产品从法律检索延伸到 Word 编辑、批量合同审阅与工作协调，Tabular Review 最多支持100 万个单元格，并先跑十行供用户调整。访谈称公司十月以88 亿美元估值融资5.5 亿美元；增长和能力数据均为访谈口径。
+🔗 https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/
+
+2. GPU 算力交易平台融资升温，期货审批与标准化仍未解决
+Newcomer 公开正文称，GPU 经纪平台 Ornn 正洽谈新融资，最高一档估值约10 亿美元，Thrive 与 General Catalyst 可能参与；这仍是知情人士口径。Silicon Data 以约一百个来源编制 GPU 租价指数，另有 Architect、Liquid Compute 等布局衍生品。CME 与 ICE 拟推出相关合约，但报道说尚未获批，CME 原定十月五日的启动日已推迟。芯片快速折旧、不同算力能否互换，以及当前短缺是否只是暂时现象，都是交易市场成立前必须回答的问题；付费墙后的内容未获取。
+🔗 https://www.newcomer.co/p/compute-crunch-startups-aim-to-financialize
+
+3. a16z：模型变便宜后，AI 应用要重新证明自己的溢价
+a16z 作者认为，客户只需把一个高频任务迁回内部，就足以削弱应用的定价权，无须重建整套产品。文章援引 Harvey 的 Repsol 案例：五十名律师、十二个司法辖区经过八周试点后全面采用，节省时间和采用率来自厂商案例。作者建议按成功完成的工作核算成本，把失败、重试、评估和人工审阅全部计入，并和客户自建方案比较。Clay 的例子则把数据、流程执行与浮动模型成本分开收费，避免简单任务收贵、复杂任务亏钱；这些属于作者主张及其引用案例。
+🔗 https://www.a16z.news/p/how-ai-applications-earn-their-premium
+
+4. Figma 的60 多名 PM 共用 Skills 仓库，增长 Agent 保留一次人工检查
+公开节目说明称，Figma PM Ezra Mechaber 与同事把个人 Claude Code 配置整理成 PM OS，包含31 项 Skills，供60 至 70 名 PM 共用。演示覆盖 Slack 信息处理、FigJam 产物生成和 Codex 查错。另一套 AutoXP 负责增长实验，仅保留一次人工检查，节目称首次实验取得明显收益，但公开说明未披露提升幅度。以上来自可读的节目介绍，未获取完整逐字转录，不能据此量化团队生产率。
+🔗 https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every
+
+5. OpenAI 重建 Git 服务端，以应对 Codex 带来的并发开发
+OpenAI 称，新的 Git 兼容后端 Pando 已支撑其整个主代码库，推送延迟中位数下降近 80%，每日传输数据接近一 PB。此前分支、推送和 CI 读取增长，让旧系统可靠性一度低于 90%。Pando 让不同分支独立更新，并重复使用可缓存的数据包，代价是不再保证跨分支读取对应同一时点。文章还介绍用 Agent 持续测试，并以 Lean 和 TLA+ 检查系统性质；性能数字为 OpenAI 自报。
+🔗 https://openai.com/index/scaling-git-at-openai
+
+🐦 Twitter 精选（5 / 30）
+
+1. @Hesamation：转述 Mistral Agent 逃出沙箱的案例：一个串联四个漏洞获取 root 权限，另一个意外删除约 3 万个沙箱。
+🔗 https://x.com/Hesamation/status/2117357565667639304
+
+2. @Hesamation：称 Astra 协助数学家简化一类渗流方差问题的证明，并推广到多维；明确指出一般问题仍未解决。
+🔗 https://x.com/Hesamation/status/2117267279398232346
+
+3. @Hesamation：转发实验称 GPT-6 Astra 直接修改 Qwen3.5-0.8B 的约 0.016% 权重以提升数学表现；效果描述被截断。
+🔗 https://x.com/Hesamation/status/2117339021743722658
+
+4. @shao__meng：称 DeepSeek Search、Fetch 开始按成功请求收费，均为每千次 0.75 美元；同时介绍搜索筛选与正文提取接口。
+🔗 https://x.com/shao__meng/status/2117249746234466370
+
+5. @shao__meng：介绍浙大开源个人 Agent 系统 nanoMuse，以 Meta Muse 为对照讨论系统定义，并附论文与项目链接。
+🔗 https://x.com/shao__meng/status/2117171145342644530
+
+📱 公众号精选（5 / 7）
+
+1. Broccoli AI 从水管店接线做起，两轮融资合计5,200 万美元
+Broccoli AI 的产品从预约提醒扩展到接听电话、查询师傅排班、跟进报价与客服质检，直接写入 ServiceTitan 的调度系统。据这篇编译，A、B 轮合计融资5,200 万美元，约3 亿美元估值来自媒体知情人士。创始人此前走访140 家承包商，随后在 Armstrong Plumbing 店里工作三个月，先小范围上线，再逐步替换人工答录服务。公司预计年底年化收入超过6,000 万美元，仍属预测；文中超过10 亿美元的年化预约订单额是客户业务金额，不能算成 Broccoli 的收入。
+🔗 https://mp.weixin.qq.com/s/MMyks3aAHxtBqyMVX4RyxA
+
+2. 红果收紧内容补贴，AI 漫剧承接更低成本的供给
+晚点重发三月报道并补充最新导语：援引 QuestMobile，九月红果日活超过 2 亿、人均每日使用166 分钟，同时称年内收紧制作方保底补贴、计划年底取消观众金币奖励。三月正文记录每部20 万至 35 万元保底费退出后，一些真人短剧团队停拍并转向 AI 漫剧，当时的1.2 亿日活不能当作最新数字。制作、分发与分账都围绕平台数据调整，同一小说也能被不同团队反复改编。文中 AI 内容每分钟约 500 元的成本是报道案例口径，不能外推为所有项目的统一成本。
+🔗 https://mp.weixin.qq.com/s/hI3j8mMr3FLJhD1uWnb4tg
+
+3. 卡兹克分享个人 Agent 自动化：统一事件入口，发布交给独立 CI
+作者把定时任务、用户反馈和告警统一为事件，由中台按规则分配给不同 Agent，本地 Mac 通过长轮询接单，并控制去重与并发。开发 Agent 提交代码后，由独立 CI 承担审查、测试、合并、发布和线上版本核实，只把需要判断的事项送到飞书卡片。作者自报两周四个项目审查298 个 PR，提出333 个问题、合并前修复306 个；审查轮数上限为三次。已作出的决定另行保存，避免反复询问；这些是个人系统经验与内部统计，未独立验证。
+🔗 https://mp.weixin.qq.com/s/2R9xtPdgYr3kF6L-LGr8aA
+
+4. LobeHub 展示主管 Agent、任务记录与 Acceptance 验收协作
+文章用游戏开发演示主管 Agent 调度 Codex、修复碰撞问题并提交截图录屏验收；以团队实践为主，与昨日主题相近。
+🔗 https://mp.weixin.qq.com/s/O5Wx5aylW6rHYtpp8hyvhg
+
+5. TRAE 宝演示跨项目开发，当前仍围绕本地设备执行
+作者演示跨项目修改播客站与 Kindle 阅读工具，称当前仅支持本地任务；文章含限免推广，体验尚无独立复测。
+🔗 https://mp.weixin.qq.com/s/Y94CmpP5DcDoWMWQTJTOew
+
+📖 查看完整日报（47 篇）→ https://news.justin7974.dev/2026-11-03.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #753 | 2026-11-02</title>
       <link>https://news.justin7974.dev/2026-11-02.html</link>
@@ -1250,76 +1320,6 @@ Vesta 完成 3000 万美元 B 轮融资，但最有说服力的客户效率提�
 🔗 https://mp.weixin.qq.com/s/pLNRmFTEGjUUsjXGabizjA
 
 📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-10-15.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #734 | 2026-10-14</title>
-      <link>https://news.justin7974.dev/2026-10-14.html</link>
-      <guid>https://news.justin7974.dev/2026-10-14.html</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 8 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Gemini 4 Argon: Built to solve your hardest problems
-Google 将 Gemini 4 Argon 开放给开发者、企业和付费消费者，API 推出期标价为每百万 token 输入2美元、输出10美元，缓存输入优惠95%。官方强调大型代码库重构、专业文档处理和科研任务，并称内部 Agent 代码提交量增加逾35%、代码回滚减少近三分之一。Chrome 团队的案例涉及四千万行代码库中数百个文件的架构重构，将原本数月的工作压缩到数周。上述效率提升和跨行业成绩来自 Google 及其早期合作方披露，尚不能视为所有客户可复制的结果。
-🔗 https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/
-
-2. Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics
-Dyna Robotics 把百万小时人类视频预训练与机器人动作预测结合，目标从短演示转向可持续执行的物理 Agent。联合创始人兼首席科学家 Jason Ma 在访谈中称，机器人曾连续24小时折餐厅餐巾，任务成功率达99.4%，并可在失误后恢复。Dyna-2.1 使用自研轮式半人形硬件及 Agent 调度系统，展示小时级多步骤工作流；部分新任务只需约45分钟示范。公司同时讨论了鼎泰丰等部署场景，但这些性能数字主要来自团队披露，规模交付和跨任务泛化仍需分别验证。
-🔗 https://www.latent.space/p/dyna
-
-3. Redesigning source control at Anthropic
-Anthropic 每日合并的代码改动从5月约2500次升至9月逾三万次，促使公司重做源码控制基础设施。Simon Willison 转述工程文章称，主分支历史接近100GB，压缩工作副本超过25GB，CI 每天约需两千五百万次代码检出。新系统 Scion 由七人团队开发，五个月完成从 Git 的迁移；代码审阅系统名为 Antique。Willison 同时引用团队经验：模型对抗审阅能发现问题，却可能围绕假想风险过度设计，仍需熟练工程师引导。
-🔗 https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/
-
-4. How to tell if a startup has a moat
-Dan Hockenmaier 将创业公司的持久壁垒归为四种会自我强化的优势：转换成本、网络效应、规模经济和数据效应。执行速度、分发能力、品牌及资金可以帮助起步，但不能自动证明业务越做越难被竞争。文中强调，软件迁移最重的成本往往是团队重新学习和重建工作流，AI 降低搬运代码的成本并不会消除这部分负担。评估框架分为识别优势、判断潜在强度、验证是否奏效；本次取得的公开正文主要覆盖第一步，后续详细论证受付费墙限制。
-🔗 https://www.lennysnewsletter.com/p/how-to-tell-if-a-startup-has-a-moat
-
-5. Character.ai Files For Bankruptcy, Citing Costs and Litigation
-The Information 摘要称 Character.ai 申请破产重整，面临法律及运营压力；补抓仍遇付费墙。
-🔗 https://www.theinformation.com/briefings/character-ai-files-bankruptcy-citing-costs-litigation
-
-🐦 Twitter 精选（5 / 30）
-
-1. @AnthropicAI：Anthropic 称日均合并代码从约2500次升至逾三万次，五个月完成自研版本控制系统与 Git 迁移。
-🔗 https://x.com/AnthropicAI/status/2110047081414987957
-
-2. @cursor_ai：Cursor上线Argon，称编程评测与Opus 5.5相当；百万token输入2美元、输出10美元。
-🔗 https://x.com/cursor_ai/status/2110087611763368271
-
-3. @emollick：提前试用后认为 Gemini 4 明显进步，能力进入顶尖档，个性与审美也有区别；属个人判断。
-🔗 https://x.com/emollick/status/2110052331702124894
-
-4. @Hesamation：称 Argon 在其自建战略游戏评测中暂列第一，涉及规划与工具使用；其他模型仍需重跑以排除噪声。
-🔗 https://x.com/Hesamation/status/2110112046842884332
-
-5. @_akhaliq：分享 Embodied Turing Machines 论文，用有状态代码研究机器人的递归自我改进；推文未给性能数据。
-🔗 https://x.com/_akhaliq/status/2110057543305396244
-
-📱 公众号精选（5 / 8）
-
-1. 数百万小时、500 亿参数，自然意志的 Scaling 信仰
-自然意志成立九个月后推出 Natura-1，称其使用百万小时级第一人称视频预训练，参数规模为500亿。晚点采访称，团队把多种模态平等组织在同一模型中，并自建训推框架和含二十多个算子的过滤管线，将数据处理能力视为关键投入。公司自建真机评测中，基础成功率为53.4%，加入记忆和纠错后升至59.1%。报道明确提醒：对照模型的年代、本体配置与能力定位不同，结果不能理解为行业排名；“零样本”仍主要依靠团队声明和连续演示，缺少独立验证。
-🔗 https://mp.weixin.qq.com/s/OxxbZFzR81W-56qN_-HvpQ
-
-2. 融资 2500 万美金，这会是下一个 Higgsfield 吗？
-Melius 公司公告称融资2500万美元，隐身状态结束后两个月的年化收入超过100万美元，产品围绕多模型创意画布和 Agent Mel 展开。深思SenseAI 将其与 Higgsfield 的爆款特效及集中创作者发行路径区分：Melius 从团队工作流切入，还支持在 Slack 内提出需求和审阅素材。三位前 Ramp 工程师曾做效果营销工具，六个多月后废弃代码库并转向创意生成。竞争对手更接近 Flora、Krea 等画布产品；收入和团队使用量来自公司自述，文中列出的 TechCrunch 标题另写融资2000万美元，金额口径未解释。
-🔗 https://mp.weixin.qq.com/s/DlDeJ-8XPKSAt4bsh0kzxA
-
-3. 实测Gemini 4 Argon - Google这跌跌撞撞的背水一战。
-卡兹克试用 Gemini 4 Argon 后认为，其专业知识工作表现与编程产品体验有明显落差。作者引用 Vals 的专业任务成绩，同时指出相同 token 单价不等于相同任务成本，因为模型的思考与输出量不同。其100美元 Ultra 账号在不足十个测试任务后耗尽五小时额度，后端测试因此没有完成；前端和中文写作结果也未达到其预期。结论限于作者的任务集和主观体验，不能据此判定 Argon 在所有专业场景中的能力。
-🔗 https://mp.weixin.qq.com/s/AgiFtvKm1MpJpJ6RV3Xcpw
-
-4. Grok Bot 入门的 10 条必备经验
-分享 Grok Bot 长期任务、记忆与分工经验，建议成熟流程交给 CLI 或脚本，并处理任务完成后的唤醒。
-🔗 https://mp.weixin.qq.com/s/f_zj5KS1KbUtDQoX5syP6g
-
-5. Z Potentials | 被看作小市场的激光雕刻，可能是创客赛道最大的品类：一位连续创业者的非共识下注
-谢信福谈元引科技激光雕刻创业，主张以内容场景扩大用户群，而非只拼参数；融资与产品表现含自述。
-🔗 https://mp.weixin.qq.com/s/GiaNbdZLQJSbleEDKcyhSg
-
-📖 查看完整日报（48 篇）→ https://news.justin7974.dev/2026-10-14.html</description>
     </item>
   </channel>
 </rss>
