@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 04 Nov 2026 00:27:29 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 00:10:26 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #756 | 2026-11-05</title>
+      <link>https://news.justin7974.dev/2026-11-05.html</link>
+      <guid>https://news.justin7974.dev/2026-11-05.html</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 6 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Linux 安全研究走向批量验证：948 个本地提权漏洞，API 开销约 121 万美元
+OpenAI 披露，10 月中旬的一轮研究以尚未发布的 Cyber 模型扫描 Linux 内核：2,308 个候选发现中，动态复现 1,724 个漏洞，完成变体分析后按 948 份不同补丁计数本地提权漏洞。整轮 API 开销为 1,213,430 美元，平均每个约 1,279 美元，尚不含全部人工与基础设施费用。流程覆盖发现、复现、利用验证和候选补丁，最后仍由人审查并向维护者报告。这是厂商自报的受控研究，涉及已有低权限账户的本地提权，不能理解成远程直接攻破 948 个系统，也不表示补丁均已合入。
+🔗 https://openai.com/index/a-thousand-fewer-paths-to-root
+
+2. OpenAI 拟收购 Pierre，把 Git 存储、代码浏览与审查接入 Codex
+OpenAI 宣布将收购 Pierre Computer Company，后者提供 Code Storage，以及 Trees、Diffs、Highlights 等开发工具。Trees 与 Diffs 已用于 Codex 应用的文件浏览和变更审查；Code Storage 支持应用通过 Git 存代码与历史。公告把收购与内部 Git 后端 Pando 的并行开发需求联系起来，计划将相关能力带入 Codex。交易金额未披露，仍待常规交割条件和监管批准，双方在交割前保持独立；开源项目将继续开源，Code Storage 客户在交割后仍可使用服务。
+🔗 https://openai.com/index/openai-to-acquire-pierre
+
+3. 小银行为 Agent 开设受限账户：支付基础设施开始出现交易量
+据 The Information 页面公开内容，Lead Bank 允许合作方为 Agent 配置专用账户号码，并设置交易、支出限制及即时停用控制；Increase Bank 计划提供与客户其他资金隔离的账户，通过 API 验证 Agent 授权。报道还介绍 Natural 与 Column Bank 的钱包安排，以及酒店运营 Agent Conduit 的收付款用途。Cross River Bank 自报，近三个月其支持的 Agent 卡支付超过 4,000 万美元、20 万笔交易，航空是主要消费者支出类别。上述是报道与银行口径，本期未独立核验；误付后的赔付责任仍未解决。
+🔗 https://www.theinformation.com/articles/smaller-banks-giving-agents-access-accounts
+
+4. Stratechery：数据中心的下一道约束可能是地方许可与选民反对
+Ben Thompson 结合美国中期选举报道与地方投票，提出 AI 算力扩张的瓶颈可能从芯片、内存和电力进一步转向政治许可。其推演是：已有获批站点的价值上升，新建项目较多的 Neocloud 承压，能改造既有设施的 Hyperscaler 更有优势；固定电力下的 token 产出效率、端侧推理与小模型也更重要。文章同时承认，限制能否长期持续尚不确定。这是一篇情景分析，文中选举报道、政策承诺与尚未落地的监管不能混作既成法律。
+🔗 https://stratechery.com/2026/ai-on-the-ballot/
+
+5. Dharma 用 2B 模型做文档字段提取，成本优势取决于部署口径
+Dharma-AI 发布面向文档图像的字段提取模型，支持自行识别字段或按指定 schema 输出 JSON，缺失值返回 null。团队以 43,384 个样本训练 LoRA，在 546 份文档、1,638 个测试案例中报告综合得分 0.834，高于所测 Claude Opus 5 的 0.816。团队称成本比所测 API 低约 6—147 倍，但一边按单张 L40S 的 GPU 时间、每小时 2.24 美元计价，另一边按 API 标价；通用模型主要采用低推理配置。结果是发布团队自测，不代表所有文档、最新模型或实际服务报价。
+🔗 https://huggingface.co/blog/Dharma-AI/dharma-field-extractor
+
+🐦 Twitter 精选（5 / 30）
+
+1. @AnthropicAI：Anthropic 称生物团队与 Claude 合作解析了细菌 vault 粒子的首个三维结构；这可能帮助研究长期未明的功能，尚不是功能已被解开。原始文本后段截断。
+🔗 https://x.com/AnthropicAI/status/2118073665296228863
+
+2. @shao__meng：介绍腾讯 Hy4 新增视觉与 Computer Use，总参数约 770B、上下文 1M；目前经 API 和产品提供，权重为计划开源。性能比较为转述，不能写成已经开放权重。
+🔗 https://x.com/shao__meng/status/2117934508985196730
+
+3. @_akhaliq：转发微软 4B 模型 Mage-VL-Cowork，主打端侧 Computer Use；“新 SOTA”为原发布者声称，输入未提供完整评测和对照条件。
+🔗 https://x.com/_akhaliq/status/2118052711816184025
+
+4. @_akhaliq：转发 Kimi-K3.1-Pro 权重上线 Hugging Face 的消息并附链接；可见内容未给出许可证、硬件需求或部署成本。
+🔗 https://x.com/_akhaliq/status/2118026651800113166
+
+5. @Hesamation：称 webAI 的 8.8B 开放权重模型达到前沿编码表现的 93%、竞赛数学的 90%，可在本地运行；未附具体基准口径，暂作厂商能力线索。
+🔗 https://x.com/Hesamation/status/2118063278140133622
+
+📱 公众号精选（5 / 6）
+
+1. 无涯智远探索参数内学习：超网络写入知识，长期稳定性仍待突破
+Z Potentials 访谈北大张牧涵，介绍无涯智远的 In-Parameter Learning：训练超网络，通过一次前向传播生成基座参数更新，避免每次写入都做在线反向传播。受访者称超网络规模约为基座的 20%，内部新版在数万 token 测试上可匹配上下文学习，并探索个性化模型 API、Personal Agent 和企业服务。但他也明确承认，更大规模写入尚不能精确召回，从几百次更新走向几千次乃至持续学习仍是研究问题，稳定、遗忘、回滚都是当前重点。属于经受访者确认的公司访谈，内部表现未独立核验。
+🔗 https://mp.weixin.qq.com/s/g20sPfSKB58Cts2uBusKKA
+
+2. Dream 获 1,700 万美元种子轮：施工图生成与签字责任要一起看
+深思SenseAI 回顾 Dream Technologies 10 月 29 日披露的融资，由 a16z 领投，并非今日新融资。两位 Palantir 前高管以建筑许可档案训练模型，尝试联合生成布局、结构与机电系统，图纸用可检查的数据结构存储。文章汇总 Dream 自称参与十个项目、项目合计价值 2,000 万美元，并担任部分项目的 architect of record；同时指出不同报道对“卖软件”还是“交付并负责施工图”的描述不一致。训练数据规模、工程效果和项目进展均主要来自公司，项目价值不是公司收入。
+🔗 https://mp.weixin.qq.com/s/DOu4dXIlgWWWfOgpwJ4X8A
+
+3. Agent-Autoloop 开源：用事件账本、挂起与审批串起日常自动化
+卡兹克开源 Agent-Autoloop，以确定性内核收事件、派任务和记录状态，把事件来源、Agent、通知渠道与交付流程拆成插件。文章重点介绍等待用户时存档退出、事件溯源与去重、外部资料和本地指令分离，以及超过八层触发即停的循环保护。作者自述公司工作台已接收八十多条意见、Agent 自主处理近七十条；这些是个人实践数据，尚无独立稳定性与安全测评，也不能仅凭指令分离认定已防住 Prompt Injection。
+🔗 https://mp.weixin.qq.com/s/T9_acg247gxzUNL4j5zrCw
+
+4. 微信个人小程序虚拟支付：独立开发者变现入口的政策线索
+作者称认证备案、含工具类目的个人主体可接虚拟支付，并列出平台费率、结算、限额及赞赏和流量主变化，附官方接入指引。本期未核验最新官方规则，具体适用范围与收费以平台为准。
+🔗 https://mp.weixin.qq.com/s/XFG0rXh5vBDmy2RJinM0Zw
+
+5. LibTV／Lovart 算力盗用报道：案件与注册量口径待核
+作者转述绕过注册及签名校验、转售生成服务的案件，称获刑三年、缓刑三年。原文混用四百多万与三十万注册用户口径，未附判决原文，品牌和责任归属也未独立核验；其中对公司研发与模型质量的讽刺不能当事实。
+🔗 https://mp.weixin.qq.com/s/_r67VIuHXBYxsh8B48IBKA
+
+📖 查看完整日报（46 篇）→ https://news.justin7974.dev/2026-11-05.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #755 | 2026-11-04</title>
       <link>https://news.justin7974.dev/2026-11-04.html</link>
@@ -1250,76 +1320,6 @@ a16z 领投 Conway Research 首轮融资，金额和估值未披露；其 Underd
 🔗 https://mp.weixin.qq.com/s/gyxUPfiGzVOiQY2GSNxk-Q
 
 📖 查看完整日报（44 篇）→ https://news.justin7974.dev/2026-10-17.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #736 | 2026-10-16</title>
-      <link>https://news.justin7974.dev/2026-10-16.html</link>
-      <guid>https://news.justin7974.dev/2026-10-16.html</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 5 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. [AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr
-Modal 宣布年化收入运行率超过 10 亿美元，完成 Accel 领投的 7.5 亿美元 D 轮融资，估值 157.5 亿美元。公司称自 C 轮以来用量增长至三倍，同比超过 15 倍；这里的年化运行率不是已经实现的全年收入。更值得拆开看的是沙箱业务：据创始人披露，其自身年化运行率已达 3 亿美元，累计启动接近 30 亿个沙箱，可支持百万级并发。需求从代码生成扩展到后台 Agent 和强化学习，说明收入来源不只是在云上租 GPU；以上经营数据仍属公司披露口径。
-🔗 https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d
-
-2. Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO
-Simon Willison 转述《金融时报》报道称，Anthropic 向投资者披露第三季度收入 168 亿美元，较第二季度的 115 亿美元增长约 46%；这是季度收入，不是年化流水。其第三季度调整后经营利润率为 11%，但剔除了股权薪酬，不能直接当作 GAAP 盈利。报道还称，每支出 1 美元算力费用可获得约 1.70 美元收入，这也不是公司整体利润率。蒸馏需求曾占收入的 5%—7%，公司称第三季度已明显削减；上述数字来自投资者沟通的媒体转述，并非已公开的审计报表。
-🔗 https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/
-
-3. Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta
-Meta 发布开放权重的 Muse Spark Open，将文本、图像、音频和视频输入纳入同一个模型，输出仍是文本。模型总参数约 816B、每 token 激活约 42B，支持最长 100 万 token 上下文，重点覆盖长程编程和工具调用。部署门槛不能按激活参数估算：所有专家权重都需驻留内存，BF16 检查点约 1.5TB，文中 NVFP4 示例也使用单个 B200 节点而非单张显卡。Hugging Face 同时给出多种推理后端、量化及微调路径，但这些部署说明不等于独立验证了企业任务成功率。
-🔗 https://huggingface.co/blog/meta-muse-spark-open
-
-4. Wallet Wars
-Agent 能替用户付款，不代表它保留了用户原本与商户、发卡行之间的关系。VGS 首席战略官 Terry Angelos 在 a16z 撰文指出，钱包用虚拟卡代付可以扩大商户覆盖，却可能让里程、会员权益和原卡优惠无法随交易传递。更完整的方案需要受限支付凭证和支付策略，同时处理预算、商户范围、卡片偏好及授权。授权有效、任务执行正确和出错后谁赔偿是三个不同问题；作者主张开放标准，但这仍是支付从业者的路线判断，而非市场胜负已定。
-🔗 https://www.a16z.news/p/wallet-wars
-
-5. How to Train Your Robot
-机器人训练数据的关键约束不是摄像头录了多少小时，而是这些记录能否对应机器人可执行、可泛化的动作。Brian Potter 对比遥操作、仿真、人类第一视角视频和 UMI：遥操作贴近机器本体却昂贵，仿真擅长运动控制但难准确处理柔性物体，人类采集更便宜却存在动作映射误差。真实部署也未必立即形成高质量数据飞轮，因为同一工位的重复动作缺少多样性。把机器人小时数换算成语言模型 token 只能得到粗略估计，不能据此认定数据缺口或未来采购规模已经确定。
-🔗 https://www.construction-physics.com/p/how-to-train-your-robot
-
-🐦 Twitter 精选（5 / 30）
-
-1. @karminski3：认为 Muse Spark Open 偏多步 Agent 而非编程榜单，大激活量或提高稳定性，但更耗算力。
-🔗 https://x.com/karminski3/status/2110849142490865909
-
-2. @cursor_ai：Muse Wonder 上线，CursorBench 得分46.1%；百万输入/输出token各4/20美元。
-🔗 https://x.com/cursor_ai/status/2110867556693430293
-
-3. @AnthropicAI：宣布给予 METR 评估团队类似员工的内部访问权限，让第三方评估安全实践；不是仅在外部测试模型输出。
-🔗 https://x.com/AnthropicAI/status/2110784662071398807
-
-4. @bcherny：称 Claude 提示注入防御已有进展，但 Agent 扩权让风险更迫切；将与 Gray Swan 合作举办竞赛。
-🔗 https://x.com/bcherny/status/2110791698611855624
-
-5. @shao__meng：总结 LangChain 评测流程：从真实 trace 建立小规模基线，把失败持续回流为样本，并区分离线与在线评估。
-🔗 https://x.com/shao__meng/status/2110585984564039900
-
-📱 公众号精选（5 / 5）
-
-1. 融资 3400 万美金，这会是下一个 Slack 吗？
-Scuba 宣布累计融资 3400 万美元，试图用人主动保存的资料，为团队和 Agent 建立共享上下文。联合创始人分别来自 Slack 产品团队和 Arc 工程团队，产品支持保存文章、文档、截图与语音，再通过共享合集和 MCP 让同事及 Agent 读取。它不是自动抓取一切信息，而是希望留下客户电话后的一句判断等原本没有进入系统的内容。产品仍在限量测试、没有公开定价，付费客户、收入与留存均未披露；主要证据来自公司资料和一篇独立采访，不能把融资当成需求验证。
-🔗 https://mp.weixin.qq.com/s/MDVKCs_3QjPQC7QfnQ2klw
-
-2. 外卖大战一年后，留下了什么?丨晚点小数据
-据晚点统计，外卖补贴战退潮后，美团和阿里合计日单量仍接近 1.4 亿，比大战前的约 9000 万高出五成。阿里的份额较战前提升，但与美团的单量比从高峰约 4:5 回落至约 4:6，平台销售费用回落后经营利润恢复。代价并未消失：商家继续承担降价和配送费用，茶饮、咖啡上市公司多数每店收入与利润下降，骑手供给增加也压低单均收入。海底捞上半年收入增加 16 亿元、其中 10 亿元来自外卖，但净利润仅增加 940 万元，说明订单增长不等于供给方收益增长。
-🔗 https://mp.weixin.qq.com/s/P_eI5qs9nKC00SMkIkKYWg
-
-3. 企业微信 × WorkBuddy 彻底打通，接管了我的整个门店（附：大量可落地实践）
-演示宣传倾向较强：WorkBuddy 接入企业微信，按授权调用消息、文档等办公数据；门店案例不能证明规模化收益。
-🔗 https://mp.weixin.qq.com/s/QcAZYkZK2baE4hYp40g4Vg
-
-4. 分享一个最近很惊艳的开源Skill，一句话让AI搓出任何原理的科普视频。
-作者用 Anatomy Skill 制作机械原理动画，再加讲解和配音生成科普视频；质量与额度消耗均为个人测试口径。
-🔗 https://mp.weixin.qq.com/s/VuJsVTvyNIK8GRTL95n-Qw
-
-5. Z Research｜全球脑机接口图谱：千亿资本押注，人脑成为AI巨头的下一个战场
-梳理脑机接口三类技术路线及科研、康复、植入医疗的变现差异；可作赛道索引，融资与技术进展仍需逐项核实。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/C3v_bvYJ7oAQz04Xzs4QwQ
-
-📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-10-16.html</description>
     </item>
   </channel>
 </rss>
