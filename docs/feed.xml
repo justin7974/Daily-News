@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 05 Nov 2026 00:10:26 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 00:10:45 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #757 | 2026-11-06</title>
+      <link>https://news.justin7974.dev/2026-11-06.html</link>
+      <guid>https://news.justin7974.dev/2026-11-06.html</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 5 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. GPT-6 Cyber 发布：安全模型开始同时竞争漏洞利用能力与授权约束
+OpenAI 发布 GPT-6 Cyber，最初仅向通过审核的部分 Daybreak Red 客户开放 API 与 Codex 访问。厂商测试中，ExploitGym 得分从上一代的 32.1% 升至 48.5%；另一项越界测试中，无部署提示时守住任务范围的比例为 99.93%，加入提示后为 100%。公司披露，该模型为 948 个 Linux 内核漏洞开发了可用利用程序，并发现 81 个经 Mozilla 认定为高危的 Firefox 新漏洞。上述是厂商评测与合作研究结果，不能视为所有真实环境下的成功率；Firefox 的部分修复已经发布，Linux 仍在推进修复。
+🔗 https://openai.com/index/introducing-gpt-6-cyber
+
+2. a16z：漏洞利用变便宜，补丁部署速度却没有跟上
+漏洞武器化的成本下降，正在扩大攻击与修复之间的时间差，这是 a16z 这篇分析的主要判断。作者援引 2026 年 Verizon DBIR，已被利用漏洞的完整修复时间中位数为 43 天，较上一年的 32 天更长。文章指出，披露前就遭攻击的现象早于 Agent 出现，AI 改变的是更多攻击者能否低成本进入这个窗口，不能把历史变化全部归因于 AI。作者预计损害会更多落到学校、中小企业和难以快速更新的设备，同时明确不认为这等于电网或互联网即将整体瘫痪。
+🔗 https://www.a16z.news/p/the-exploit-was-the-bottleneck
+
+3. Intuit CEO 承认分散 Agent 体验不佳，转向财务业务的整体交付
+Intuit CEO Sasan Goodarzi 在访谈中承认，早期支付、工资和会计 Agent 各自能完成局部工作，却没有为客户提供良好的完整体验，问题包括设计方式与上下文。其目标是让 Intuit 成为消费者、企业和会计师的财务智能服务层，既提供判断，也执行付款、记账和报税等工作。他称 Credit Karma 约有 4,500 万月活用户，每月使用超过五次，并拥有每位消费者超过 6 万个数据点。访谈同时追问：当用户先向聊天机器人提问，Intuit 是否会失去入口与客户关系；CEO 的回应是通过与这些平台整合，承接实际金融操作。
+🔗 https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/
+
+4. NVIDIA 开放四个 Cosmos 3 模型，把世界模型接入驾驶与机器人交互
+NVIDIA 为 Cosmos 3 新增四个开放权重检查点，分别用于驾驶数据生成、流式驾驶仿真、仿真画面转换和双臂机器人动作预测，均为具有 160 亿可训练参数的后训练模型。驾驶数据模型支持最多 11 个相机视角，并可联合生成 RGB 与 LiDAR；流式版本根据控制输入和生成历史逐段产生观测。Sim-Transfer 的物理状态仍由仿真器计算，Sim-Bimanual 则直接从场景与动作预测下一段观测，两者不能混为同一种物理仿真。模型按 OpenMDW1.1 条款开放商业与非商业使用，发布方也强调仍需验证其对策略训练和评估的真实性。
+🔗 https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation
+
+5. Google Omni 1.2 Flash 支持 15 秒视频与多轮修改，720p 降至每秒 0.07 美元
+Google 宣布 Gemini Omni 1.2 Flash 正式提供服务，720p 视频定价为每秒 0.07 美元，称比 Omni 1.1 降低 30%。原生片长从最多 10 秒提高到 15 秒，支持在 3—15 秒间按一秒增量设置时长。用户可以通过多轮对话修改同一片段的背景、产品或画幅，也可组合角色、商品、风格图片以及短动作片段等参考。角色一致性、参考遵循和口型改善均为发布方展示，尚不能据此推断批量广告制作的实际成片率。
+🔗 https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/
+
+🐦 Twitter 精选（5 / 30）
+
+1. @shao__meng：百度开放 ERNIE 5.5 Flash Base，参数为 280B/A14B；作者提醒对比表未用各家最新模型。
+🔗 https://x.com/shao__meng/status/2118278665369006294
+
+2. @shao__meng：介绍机器人 Agent 框架：同一模型的 RoboDojo 分数从 1.90 升至 31.39，强调工具和反馈。
+🔗 https://x.com/shao__meng/status/2118161321720156347
+
+3. @shao__meng：分享协作智力基准：18 个模型最高仅得 82.2 分，冲突中只有 14% 达成团队最优方案，解题能力不等于协作能力。
+🔗 https://x.com/shao__meng/status/2118354048554598668
+
+4. @shao__meng：介绍 Stanford Agent 评测课程：分数取决于任务和运行规则，基准需要兼顾真实性、可复现性，并随模型进步更新。
+🔗 https://x.com/shao__meng/status/2118173161787396397
+
+5. @shao__meng：分享 Agent 数据筛选课程：小规模时精选更有用，规模扩大后数量与多样性更重要，任务环境和示范轨迹要分别筛选。
+🔗 https://x.com/shao__meng/status/2118171796310720746
+
+📱 公众号精选（5 / 5）
+
+1. Collective 的 1 亿美元融资中，6,000 万是客户获取授信
+Collective 10 月 29 日宣布的 1 亿美元新资金，由 4,000 万美元 B 轮股权融资与 6,000 万美元客户获取授信组成，不能全部计为股权融资。它面向没有财务部门的一人公司，以 AI 加真人提供设立公司、记账、工资和税务等服务。报道援引公司口径称，已服务超过 1.6 万家企业，ARR 同比增长 120%，每名记账人员每月关账能力由传统约 40 家提高到约 300 家。600 家仍是努力方向；公司未披露具体利润率，文中的效率、节税与增长数据均非独立审计结果。
+🔗 https://mp.weixin.qq.com/s/9QrNVfGo2Xp7bbp8nveMTA
+
+2. Efflora 从软件逆向转向可运行的安全训练环境
+Efflora 创始人王泉称，团队复刻的软件环境超过 1,000 个，并于 2026 年初把相关能力用于模型训练环境。其安全任务需要让数据库、后台、前端和业务流程一起运行，既检查漏洞能否触发，也验证修复后正常业务是否继续工作。团队还展示过根据 128 张截图及页面关系图构建应用的实验，验收要求关注、评论等操作真实保存，而不止界面相似。报道提供了训练环境供应链的具体样本，但客户名单、合同金额、收入和续约情况未披露，能力主要来自团队自述。
+🔗 https://mp.weixin.qq.com/s/jIIzPC2Pk0t_j8PUkqAOzQ
+
+3. Sand.ai 据报完成 2 亿美元 A+ 轮，继续押注开放视频模型
+报道援引公司公告称，Sand.ai 完成 2 亿美元 A+ 轮，年内累计融资 3 亿美元；MAGI-2 Preview 为 114B 总参数、约 6B 激活。全文宣传倾向明显，开源商业化与未来赶超闭源模型仍是待验证主张。
+🔗 https://mp.weixin.qq.com/s/pLHC9Eqs_ZQ0PvzudPMz2g
+
+4. GPT-6 Cyber 的“允许写攻击程序”以受审核授权为前提
+梳理 GPT-6 Cyber 与通用模型的安全测试差异，强调漏洞利用能力及 Critical 评级。其首批开放对象是审核通过的 Daybreak Red 客户，标题中的“允许”不能理解为向所有人无条件开放。
+🔗 https://mp.weixin.qq.com/s/ZIcQs3d9OhcQNCT2xtACJw
+
+5. AI 编程可能让创始人沉迷做功能，延后真实用户验证
+借开发者持续付费改产品、却迟迟不找用户的故事，批评把 token 消耗当成价值，主张用用户数、收入与差异化检验创业进展。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/vHaaUvRw0e9wBHYtBNSKEg
+
+📖 查看完整日报（45 篇）→ https://news.justin7974.dev/2026-11-06.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #756 | 2026-11-05</title>
       <link>https://news.justin7974.dev/2026-11-05.html</link>
@@ -1254,72 +1324,6 @@ The Information 的公开节选称，一名前 OpenAI 工程师因涉嫌在会�
 🔗 https://x.com/rileybrown/status/2111285052617445438
 
 📖 查看完整日报（40 篇）→ https://news.justin7974.dev/2026-10-18.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #737 | 2026-10-17</title>
-      <link>https://news.justin7974.dev/2026-10-17.html</link>
-      <guid>https://news.justin7974.dev/2026-10-17.html</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 4 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Investors Turn on Data Center Builders as Rising Interest Rates Dampen the AI Trade
-CoreWeave 债券收益率升至约 15%，AI 算力扩建正在遭遇融资成本检验。Newcomer 报道，Firmus 原计划以 300 亿美元估值上市，但其 2026 财年收入仅 5900 万美元、912MW 项目储备中只有 46MW 交付，最终撤回 IPO。报道同时援引 Ramp 数据称，企业 AI token 支出增长连续两个月基本持平，但降价和效率提升可能解释一部分变化，不能直接等同于用量停滞。作者据此看空高负债扩建模式；这是媒体的风险判断，并不证明所有算力供应商都会遭遇同样结果。
-🔗 https://www.newcomer.co/p/investors-turn-on-data-center-builders
-
-2. Welcome Beam: a 501B open model you can own, customize, and scale
-Reflection 首个模型 Beam 以 Apache 2.0 许可证开放，提供 501B 总参数、23B 激活参数和 100 万 token 上下文，主要面向编程与 Agent。Hugging Face 给出的部署说明显示，BF16 权重约 1TB，NVFP4 量化后仍约 280GB，实际服务建议配置四张 B200，以留出长上下文和并发空间。模型同步提供专用 Rust Agent 框架，以及推理、微调和强化学习配方；开放的不只是权重。文中的标准测试分数主要由 Reflection 提供，Hugging Face 自测则只有五类任务、每种推理强度各一次，尚不足以证明企业生产任务的可靠性。
-🔗 https://huggingface.co/blog/reflection-beam
-
-3. AI is driving a boom in modestly successful software projects
-AI 可能已经增加了有用户的软件供给，但增量主要集中在小项目。Sean Goedecke 比较约二十类插件市场、软件商店和模组平台，发现多个平台中等规模成功项目约增至两倍，Steam 获得百条以上评论的新游戏约增加六成，极大成功项目则没有相同变化。Google Play、WordPress 等平台也不符合这一规律，作者没有逐个确认项目是否使用 AI，部分平台规则变化还会影响比较。数据支持“小众工具变多”的观察，不能据此证明 AI 已带来同幅度的收入增长或独立因果关系。
-🔗 https://seangoedecke.com/ai-is-driving-a-boom-in-modestly-successful-software/
-
-4. This Week in Charts: Agents Denied
-Agent 能推荐商品，离获得购物授权仍有明显距离。a16z 汇总 Cloudflare 数据称，Agent 和机器人收到 403 拒绝响应的比例自夏季明显上升、约为此前两倍，但不能确认全部来自电商封锁。文中调查约四分之一受访者愿让 AI 代购多数品类，42% 完全不信任 AI 替其购买；Similarweb 点击流则显示 AI 更多出现在商品研究阶段，且该数据截至六月。作者把平台广告利益、退货、欺诈及消费者授权列为阻力，这些证据说明代购需求仍需验证，而非市场已经全面转向自动购买。
-🔗 https://www.a16z.news/p/this-week-in-charts-agents-denied
-
-5. [AINews] Agents disprove Polysemanticity; greatly improve Interpretability &amp; Alignment
-Goodfire 的 Nick Cammarata 提出，过去被视为混杂难懂的许多神经元，可能可以借助更强的 Agent 分析得到清晰解释。Latent Space 汇总其观点及讨论，相关传播举出 Qwen-32B 约九成神经元有单一功能的说法，但文中也指出正式论文尚未公布。Neel Nanda、Leo Gao 等研究者对低激活区域、解释验证标准及表征叠加是否仍存在提出异议。“多义性已被推翻”是标题的强表述，目前更适合把它看作待复现的研究主张，不能等同于模型对齐问题已解决。
-🔗 https://www.latent.space/p/ainews-agents-disprove-polysemanticity
-
-🐦 Twitter 精选（5 / 30）
-
-1. @AnthropicAI：Anthropic 称 Mythos 5 能按自然语言指令设计更高效的量子电路，部分优于已发表方案一个数量级以上。
-🔗 https://x.com/AnthropicAI/status/2111152183240511640
-
-2. @emollick：推荐 Gemini 4 多 Agent 通关 Minecraft 的论文，关注复杂目标下自发协调及其与人类协作的差异。
-🔗 https://x.com/emollick/status/2111171225418408236
-
-3. @Hesamation：推荐斯坦福发布的 SpaceX 讲座，介绍 Grok Bot 常驻 Agent 架构、运行框架与长任务上下文管理。
-🔗 https://x.com/Hesamation/status/2111013795858374743
-
-4. @_akhaliq：分享通过数据空间迭代实现少步生成的研究论文，提供阅读入口；推文本身没有列出速度或质量数据。
-🔗 https://x.com/_akhaliq/status/2111146269855146487
-
-5. @_akhaliq：分享 OmniCompass 全模态视频定位与理解基准，提供论文入口；推文本身未披露模型排名或测试结果。
-🔗 https://x.com/_akhaliq/status/2111145194511012301
-
-📱 公众号精选（4 / 4）
-
-1. a16z 领投 22 岁的 Sigil Wen：他想让你的 AI 助理，住在你自己的电脑里
-a16z 领投 Conway Research 首轮融资，金额和估值未披露；其 Underdog 正在 Mac、Windows 上邀请测试，把模型和个人数据留在用户设备。文章介绍其27B主模型、4B轻量模型与 Husky 推理引擎，商业计划是不收订阅费、在代购交易中收取佣金。所谓超过 Opus 4.6、最高比 MLX 快4.5倍，均来自公司自测，后者限定芯片、模型和任务，不能推成普遍性能。文中对照同获 a16z 支持的 Ghost 专用硬件路线，但没有提供 Conway 的用户、收入或留存数据。
-🔗 https://mp.weixin.qq.com/s/_HniNCVwPREfKV4Rz0bEhQ
-
-2. 刚刚，可灵4.0深夜上线，支持30秒一镜到底，熟悉的可灵回来了。
-可灵4.0已支持最长30秒视频直出，作者重点测试长镜头、复杂动作和参考控制，属于个人使用体验。按其会员积分换算，1080P的30秒视频450积分、约16元，720P约9元，实际成本还要计入反复生成的废片。作者建议先用较便宜的 Flash 版本验证构思，再用正式版生成；这反映出视频创作者已经开始在不同模型间分配制作环节。文中提到的10-bit 4K HDR仍未上线，不能当作当前已交付能力。
-🔗 https://mp.weixin.qq.com/s/Z-1TBebb8KmjjMCfXLda1g
-
-3. 独家｜实现多项基准领先！Xspark AI发布原生触觉多模态模型Spark-0，再获新一轮融资
-融资宣传倾向较强：Xspark AI称完成新融资、发布触觉模型Spark-0；领先结论来自自建评测，待独立验证。
-🔗 https://mp.weixin.qq.com/s/ozhcl7cMQ9kImguvzI3m5g
-
-4. 我们现在可能处于一个未变将变的时代。
-作者担忧AI复刻软件压低独立产品定价，并追问创作者收入来源；属于趋势感慨，没有经营数据支撑。 &lt;!-- ai-daily:complete --&gt;
-🔗 https://mp.weixin.qq.com/s/gyxUPfiGzVOiQY2GSNxk-Q
-
-📖 查看完整日报（44 篇）→ https://news.justin7974.dev/2026-10-17.html</description>
     </item>
   </channel>
 </rss>
