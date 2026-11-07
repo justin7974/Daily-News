@@ -5,8 +5,78 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 06 Nov 2026 00:10:45 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 00:10:10 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #758 | 2026-11-07</title>
+      <link>https://news.justin7974.dev/2026-11-07.html</link>
+      <guid>https://news.justin7974.dev/2026-11-07.html</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 6 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Shield AI 拟以最高 53 亿美元收购 Echodyne，向整套国防系统扩张
+Shield AI 同意以最高 53 亿美元收购雷达公司 Echodyne，同时宣布获得 25 亿美元新融资，其中 10 亿美元 H 轮对应估值为 288 亿美元。交易对价包括交割时的 48 亿美元，以及最多 5 亿美元的业绩挂钩付款，目前尚未完成。Echodyne 的华盛顿州新厂年产能约 3 万部雷达，可补充 Shield AI 的自主飞行软件与飞机产品；CB Insights 估计 Shield AI 2025 年收入为 4 亿美元。报道提出的另外六家收购候选，是研究机构的建议名单，并非已经启动的交易。
+🔗 https://www.cbinsights.com/research/shield-ai-shopping-list/
+
+2. Inkling 2 Small 把可定制性作为卖点，开放权重仍待兑现
+Thinking Machines 发布 Inkling 2 Small，采用 594B 总参数、17B 激活参数的多模态 MoE，现可在 Tinker 上推理和微调。报道汇总的团队披露显示，主要预训练阶段以 NVFP4 处理 8.4T tokens，耗时 68 小时，后训练另用了 9 天；标题中的约 12T 不能直接当成该主要阶段的训练量。团队承诺在外部安全测试完成后，于下周按 Apache 2.0 释出权重，目前尚未开放。Artificial Analysis 智能指数为 31，但其评测每任务输出约 15 万 tokens，约为上一代的四倍；Vals 同样指出耗时与技术型 Agent 任务仍有短板。
+🔗 https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/
+
+3. Ai2 ToyBlocks：能解规划题，不代表机器人能认对字母和姿态
+Ai2 开放 ToyBlocks，以机械臂和桌面方块构成可控仿真环境，自动生成任务与示范数据，单 GPU 数据生成最高达到实时速度的 24 倍。其 Claude Opus 5.5 Agent 在一组经典堆叠规划任务上完成了 30/30，但在需要寻找字母、拼出三字母词或判断无解的任务上，成功或正确判定无解的比例为 63%。主要失误包括认错相似字母，以及把字母朝向放错；这些结果来自特定受控实验，不能当作真实工厂成功率。另一项实验让 Agent 自行试验并重写技能说明，成功率由默认说明下的 24% 提升至 63%，高于人工专家说明的 36%。
+🔗 https://huggingface.co/blog/allenai/toyblocks
+
+4. BioBasicsBench 测真实实验原始数据，最高得分仍只有约三分之二
+OpenAI 与酶设计公司 Ligo 推出 BioBasicsBench，包含 100 项日常湿实验分析任务，输入包括凝胶图、显微影像、测序文件和仪器原始读数。在 xhigh 推理设置下，GPT-6 Astra 获得可得分数的平均 66.7%，GPT-5.6 Sol 为 43.8%；这是按评分细则计算的平均得分，不能理解为完整任务成功率。任务强调检查对照、识别实验错误，以及在证据不足时拒绝下结论。Astra 仍会让先入假设压过实验对照，并在一个菌落计数例子中比参考值多算约 12%，发布方也明确表示分数提高尚不等于可靠的实验室判断。
+🔗 https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science
+
+5. a16z：攻击按小时推进，安全产品要先保护仍未打补丁的系统
+a16z 判断，漏洞利用变便宜后，仅靠加快补丁流程，难以消除攻击与修复的时间差。文章引用 Verizon 的完整修复时间中位数 43 天，并以工业控制、医疗设备和老旧联网设备说明，不少系统无法频繁升级。它提出六类机会：运行时防护与代码修复、检测与响应、逐请求身份判断、可验证恢复、安装入口控制，以及面向长尾设备的托管安全平台。作者强调，自动拦截和热修复也可能造成停机，因此分阶段启用、兼容性测试和自动回退应当成为产品本身的一部分；这些是投资机构的判断，并非已经验证的市场结论。
+🔗 https://www.a16z.news/p/defense-in-depth-rebuilt-for-machine
+
+🐦 Twitter 精选（5 / 30）
+
+1. @AnthropicAI：Anthropic 介绍“做梦”式记忆整理：回顾经验、纠正错误，让 Claude 下次更容易找到所需信息。
+🔗 https://x.com/AnthropicAI/status/2118814753154064501
+
+2. @Hesamation：认为模型与 Harness 将更紧密共同设计：双方相互适配，并根据真实用户会话持续改进。
+🔗 https://x.com/Hesamation/status/2118770531164213443
+
+3. @shao__meng：分享 Hugging Face 的 MoE 训练手册；强调减少的是激活计算，参数存储和跨卡通信仍需处理。
+🔗 https://x.com/shao__meng/status/2118680242797883876
+
+4. @_akhaliq：分享 Muir 线性注意力研究，关注敏感度分配门控与匹配滤波读出；推文未给出性能结果。
+🔗 https://x.com/_akhaliq/status/2118788621310611911
+
+5. @_akhaliq：转发 Harness-S 训练方法，用互补 Harness 帮助挽救失败尝试；可见文本未包含完整结果。
+🔗 https://x.com/_akhaliq/status/2118722703758962965
+
+📱 公众号精选（5 / 6）
+
+1. 千问负责人：Personal Agent 留存靠任务下限，服务接口比演示更难补
+千问 AI 算法负责人蒋冠军称，团队从 30 多个行业的真实需求整理出 8,000 多项原子能力，用后训练逐项提升任务稳定性。其判断是，模型已经能规划不少生活任务，失败常发生在需求理解、工具选择、外部服务接入与执行路径上，阿里的电商和生活服务资源因此成为实际优势。团队称，通过模型路由、缓存、工具组织和上下文筛选，相关任务的上下文规模下降约 40%；过去三个月单任务平均 token 消耗仍升至此前约 1.6 倍，反映用户尝试更复杂任务，并非已证明单位任务成本同比例下降。访谈还强调，支付、订单修改等关键操作需用户确认，个人记忆应随状态变化更新，避免过度调用；以上业务数据来自公司自述。
+🔗 https://mp.weixin.qq.com/s/_6bf_JA7M1rZpG8yfbxoMw
+
+2. 机器人研究员分歧：LLM 能输出动作，实时控制仍需专门方案
+一场 Robotic × LLM 研究讨论记录称，Astra 等通用模型开始直接输出机器人动作，正在挑战“大模型只规划、小模型负责执行”的分工。文中引用的 RoboDojo 零样本测试中，Astra 得分为 28.97/100、完整成功率为 22.48%，不能据此判断机器人已具备生产可用性。研究者对大小脑是否融合仍有分歧，精细接触操作需要高频反馈、低时延和本地执行，而加入历史与反思文字也未必能让 VLA 真正纠错。讨论还区分了用 LLM 快速搭建仿真环境与提高物理精度：画面更逼真，不代表接触力、柔性形变和真实执行结果更准确。
+🔗 https://mp.weixin.qq.com/s/6Q5M09lk8g9m2a6Q8HRrQg
+
+3. 千觉马道林：触觉生意的门槛是量产一致性与可验证的数据质量
+千觉创始人马道林称，公司已有接近 400 家真实订单客户，视触觉产品具备每月数万片级量产能力，并有重复采购，但访谈未披露收入、订单金额或客户结构。他把触觉竞争重点放在接触力、形变、滑移等物理量的准确测量，以及跨设备的一致标定，而不只是传感器分辨率。其方案以指尖视触觉搭配手掌等区域的电子皮肤，再通过采集、质检、训练与真机验证检查数据是否有效。团队称第二代触觉仿真效率提升两个数量级，但现阶段仍以真实数据为主体，仿真主要用于评测和补充；这些产能与性能信息均为创始人口径。
+🔗 https://mp.weixin.qq.com/s/293ThrI_Iavpg-G5W0-MVg
+
+4. 混元 Hy4 加入视觉与电脑操作，权重尚未开放
+报道实测 Hy4 游戏与三维建模，援引单任务中位成本 0.55 美元；包含厂商口径，不能外推所有业务。
+🔗 https://mp.weixin.qq.com/s/aJnvLVWZdelxnMIMPX-X3Q
+
+5. 《梁圣做空 Anthropic》质疑高价模型需求与算力承诺
+作者认为大量任务可由低价模型满足，高端需求不足以支撑支出；属强观点评论，标题并非梁文锋实际做空的证据。
+🔗 https://mp.weixin.qq.com/s/Dx144Ip1O-4Laku_Z26t2Q
+
+📖 查看完整日报（46 篇）→ https://news.justin7974.dev/2026-11-07.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #757 | 2026-11-06</title>
       <link>https://news.justin7974.dev/2026-11-06.html</link>
@@ -1276,54 +1346,6 @@ LLM 可以生成一份详细报告，却不要求提交者真正理解其中内�
 🔗 https://x.com/emollick/status/2111700285814940159
 
 📖 查看完整日报（40 篇）→ https://news.justin7974.dev/2026-10-19.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #738 | 2026-10-18</title>
-      <link>https://news.justin7974.dev/2026-10-18.html</link>
-      <guid>https://news.justin7974.dev/2026-10-18.html</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 0 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. Meta 重返开放模型前列，商用限制仍影响采用
-美国开放权重模型重新接近前沿，但尚未超过最强的中国开放模型。Nathan Lambert 将 Meta 的 Muse Spark Open 与 Reflection Beam 视为这轮变化的关键，前者为 816B 总参数、42B 激活参数，支持百万 token 上下文。按文中比较，Muse Spark Open 接近 DeepSeek V4.1 Flash，但仍落后于 GLM-5.3 和 Kimi K3。作者同时指出，其自定义许可证包含品牌标识、大型商用及衍生使用限制，不能把开放权重等同于宽松开源。
-🔗 https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open
-
-2. 依赖修复评测：通用编程 Agent 与专用产品仍有差距
-Snyk 提出的 VulnBump 在 307 项依赖升级任务中报告：Claude Code 单独完成的通过率为 59.6%，其专用修复 Agent 为 90.2%。任务涉及 43 个仓库、六类包管理器和 2066 个可修复漏洞，要求依赖解析、复扫、构建及原有测试全部通过。同期综述还汇总一项针对 25 种包管理器的测试：默认设置、无锁文件时，只有 Go 和 vcpkg 验证每次下载。上述修复成绩来自安全厂商自己的评测，不能直接外推到任意企业代码库。
-🔗 https://nesbitt.io/2026/10/17/this-week-in-package-management.html
-
-3. Apple HomeView：家庭 AI 终端仍要证明新增使用价值
-John Gruber 对 HomeView 的主要质疑是：家庭为什么需要再添一块常驻屏幕。按其观察，日历、食谱和音乐等演示场景，大多已有手机或 HomePod 可完成；小尺寸方形屏幕也要求用户靠近阅读。桌面版本的电源线与厨房摆放存在冲突，壁挂版本另需付费支架，还缺少底座低音单元。文章是现场观察与个人判断，没有提供销量或长期使用数据。
-🔗 https://daringfireball.net/2026/10/homeview_thoughts_and_observations
-
-4. 广告投放链被用于分发间谍软件，供应商认证暴露缺口
-Cory Doctorow 援引 Citizen Lab 的 AdFection 调查称，Discover-Tech 借助程序化广告系统定位目标并投放无需点击的恶意代码。文中列出的受影响投放基础设施涉及 Google、Facebook 等平台，半岛电视台员工也被列为攻击目标。Discover-Tech 曾取得多家广告平台或行业组织的供应商认证，说明认证与实际攻击防护之间存在差距。作者据此主张限制监控式广告；这一政策主张需与调查所揭示的攻击事实分开理解。
-🔗 https://pluralistic.net/2026/10/17/mercenary-spyware/
-
-5. OpenAI 办公室窃听案提醒：人才争夺也带来内部安全成本
-The Information 的公开节选称，一名前 OpenAI 工程师因涉嫌在会议室安装录音设备被 FBI 逮捕。受访安全顾问认为，企业在高强度招聘时容易压缩背景调查，而低于 100 美元的设备就可能伪装成充电器等日常物件。报道还介绍 Strider Technologies 已累计融资 1.1 亿美元，以 AI 分析邮件等内部通信中的可疑行为。节选并未确认嫌疑人的动机，不能依据国籍推断其受谁指使。
-🔗 https://www.theinformation.com/articles/office-spy-proof
-
-🐦 Twitter 精选（5 / 30）
-
-1. @shao__meng：他介绍 DeepSeek V4.1-Flash-1017 同时改进性能、速度与输出长度，并将搜索和正文抓取接口商业化。
-🔗 https://x.com/shao__meng/status/2111436190612349384
-
-2. @shao__meng：他转述 Claude Code 的评审改造：合并 PR 翻倍、回退率降逾四成，把人工注意力留给风险判断。
-🔗 https://x.com/shao__meng/status/2111274173192638932
-
-3. @shao__meng：他转述 Agent 可靠性框架，优先改代码结构和静态检查，认为单靠规则文件难以强制约束行为。
-🔗 https://x.com/shao__meng/status/2111261981735067819
-
-4. @MengTo：他用 Pika 插件调取图像、视频及编辑工具，在 Codex 内为汽车页面做美术指导，再计划用 Three.js 重建。
-🔗 https://x.com/MengTo/status/2111294425959923839
-
-5. @rileybrown：他展示用 Opus 5.5 单次提示生成的 Blender 视频，说明是在做压力测试，暂不考虑配音和文字质量。
-🔗 https://x.com/rileybrown/status/2111285052617445438
-
-📖 查看完整日报（40 篇）→ https://news.justin7974.dev/2026-10-18.html</description>
     </item>
   </channel>
 </rss>
