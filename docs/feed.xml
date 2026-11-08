@@ -5,8 +5,74 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 07 Nov 2026 00:10:10 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 00:06:57 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #759 | 2026-11-08</title>
+      <link>https://news.justin7974.dev/2026-11-08.html</link>
+      <guid>https://news.justin7974.dev/2026-11-08.html</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 4 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. Anthropic IPO 估值遭质疑，收入增长与资本市场定价开始分化
+Latent Space 援引报道称，Anthropic 10 月年化收入运行率已超过 800 亿美元，但投资者仍质疑其寻求的 1.5 万亿美元 IPO 估值，有人提出应接近 1 万亿美元。通讯称公司年末目标为 1,000 亿美元运行率；这些数字是按当期收入年化的口径，并非已实现的全年收入。同一期汇总还提到，Thinking Machines 的 Inkling 2 Small 预计下周开放权重，独立评测在 ARC-AGI-2 上达到 81.7%、每任务成本 0.27 美元，竞争压力仍在增加。估值意见和开放权重时间均来自报道与团队披露，不能理解为发行定价或权重发布已经完成。
+🔗 https://latent.space/p/ainews-anthropic-ipo-whither-now/
+
+2. 软件供应链开始把短期身份、来源证明与人工发布批准做进默认流程
+Hex 将 Workload Identity 和分阶段发布开放给全部包与组织：CI 可用 OIDC 换取有效期 15 分钟、只能发布指定包的令牌，发布还可等待人工以新的双因素验证码批准。新包默认开启分阶段发布，已有包需要自行启用，待批准版本七天后过期。PyPI 的新版项目页增加 Security 页签，逐文件展示来源证明，并提示证明缺失、变化与延迟上传。周报同时列出 APT、OpenVox、Docker 等漏洞，说明发布身份保护之外，下载、构建和运行链条仍各有攻击面。
+🔗 https://nesbitt.io/2026/11/07/this-week-in-package-management.html
+
+3. Meta 战略负责人 Dave Wehner 据报将出任 Fireworks CFO
+报道摘要称 Wehner 已在 X 确认转投推理服务商 Fireworks；可见内容未提供融资或上市计划，正文受限。
+🔗 https://www.theinformation.com/briefings/exclusive-meta-strategy-chief-dave-wehner-become-fireworks-cfo
+
+4. SpaceX 得州数据中心计划面临新州政府审查与工期风险
+可见导语援引公示、招聘与施工迹象，称 SpaceX 正建多吉瓦级超级计算中心；可能延误，尚非停建，全文受限。
+🔗 https://www.theinformation.com/articles/blue-wave-may-stop-musks-texas-data-center-ambitions
+
+5. The Information：反数据中心竞选言论未必转化为全面停建
+可见导语认为民主党执政后可能留出建设空间，并举谷歌马来西亚扩建为例；属于评论判断，完整正文受限。
+🔗 https://www.theinformation.com/articles/will-democrats-crush-data-centers
+
+🐦 Twitter 精选（5 / 30）
+
+1. @shao__meng：介绍 Google Research 的 SLEEP：通过新增低秩专家和蒸馏巩固短期知识，涉及权重更新，再生成练习强化所学。
+🔗 https://x.com/shao__meng/status/2119051833872466407
+
+2. @shao__meng：介绍 Anthropic Dreaming：在任务之外重查记录、修正错误笔记并组织知识；学习发生在外部记忆，不更新权重。
+🔗 https://x.com/shao__meng/status/2118977740690841862
+
+3. @shao__meng：介绍 Craft Anything：先研究目标外观与行为再交给 Agent 构建，提供三种屏宽检查及命令行、MCP 工具。
+🔗 https://x.com/shao__meng/status/2119056100565946630
+
+4. @rileybrown：指出常驻 Agent 拥有自己的电脑，还能控制用户电脑上的 Claude Code；认为两层执行环境结合潜力很大。
+🔗 https://x.com/rileybrown/status/2118869902660686220
+
+5. @kloss_xyz：认为 Agent 常把 token 花在不必要的文件和上下文上，建议先列出所需文件及理由，再进行最小范围修改。
+🔗 https://x.com/kloss_xyz/status/2119202949234897134
+
+📱 公众号精选（4 / 4）
+
+1. Phaze 获 875 万美元种子轮，先做远程工作站，再等 Agent 使用量增长
+Parsec 两位联合创始人 Benjy Boxer 和 Chris Dickson 再创业，Phaze 宣布获得 a16z 领投的 875 万美元种子轮，估值未披露。产品把高性能工作站共享、企业权限管理与人和 Agent 接力控制放在一起，按使用小时收费，每人每月封顶 20 美元。文章指出，机器借还流程仍需客户通过 API 自行搭建，Linux 被连接端尚属承诺，MCP 也标注为实验性。公司未披露收入、用户规模或具名企业客户，目前能够看到的是融资、早期产品和企业安全准备，尚不能证明 Agent 已成为主要付费需求。
+🔗 https://mp.weixin.qq.com/s/vYkXUtR8_-p66aO2_dI4Qg
+
+2. Dario 人物报道：高度一致的创始班底，也是治理决策的重要变量
+赛博禅心编译《纽约时报》11 月 5 日人物特稿，称记者采访二十多位 Dario Amodei 的同学、朋友、老师和同事，Dario 本人未接受采访。报道追溯其理性主义与有效利他主义背景，以及用技术加速科学研究的动机。Anthropic 七位联合创始人中有四位曾住在同一栋合租房，其余成员也与相关思想社群有交集。文中还转述他在 OpenAI 时围绕项目控制权发生的冲突，提供了理解团队决策方式的线索；这些细节来自第三方报道，不能据此直接判断当前内部治理。
+🔗 https://mp.weixin.qq.com/s/0XZYoeNmulGD3iFAtV3b_w
+
+3. SandBaseAI 宣布数百万美元种子轮，整合数据 API 与 Agent Runtime
+公司称覆盖 100 多个平台、2,000 多个模型与 API；稿件宣传倾向明显，未披露投资方名称、收入或留存。
+🔗 https://mp.weixin.qq.com/s/Jb0ui187EcDWz94qLLboLA
+
+4. AGENT橘：AI 成本与收益分配失衡，可能放大社会反弹
+作者讨论电费、硬件涨价与就业焦虑；文中禁令仍属草案讨论，算力需求估算和 IPO 传闻未经独立核实。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/seMu6RG16WaGDZ2a8yLEXg
+
+📖 查看完整日报（44 篇）→ https://news.justin7974.dev/2026-11-08.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #758 | 2026-11-07</title>
       <link>https://news.justin7974.dev/2026-11-07.html</link>
@@ -1298,54 +1364,6 @@ The Information 公开节选援引知情人士称，华为将 DeepSeek 对计算
 🔗 https://mp.weixin.qq.com/s/_nwBIUF4I1rSHpr7akVANg
 
 📖 查看完整日报（50 篇）→ https://news.justin7974.dev/2026-10-20.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #739 | 2026-10-19</title>
-      <link>https://news.justin7974.dev/2026-10-19.html</link>
-      <guid>https://news.justin7974.dev/2026-10-19.html</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 0 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. AI 热潮可能因利润缩水收场，使用量仍继续增长
-AI 创造价值，并不保证投入最多资本的人拿到回报。Martin Alderson 将五种风险分成两组：模型进步停滞、对齐事故和数据中心禁令，以及开放权重竞争压低利润、效率突破造成算力供给过剩。他认为后两种路径更容易被低估，模型降价可能让用户受益，同时削弱前沿实验室的利润和估值。为区分降价来自效率提升还是供过于求，他建议观察各类 GPU 现货租价是否普遍下跌。以上属于作者的情景推演，并非已经发生的行业结局。
-🔗 https://martinalderson.com/posts/how-the-ai-boom-might-really-end/
-
-2. AI 让文档不再足以证明工作、理解或合规
-LLM 可以生成一份详细报告，却不要求提交者真正理解其中内容，组织过去用写作证明工作的做法因此失效。Sean Goedecke 区分了三类用途：证明履行流程、证明投入劳动，以及证明掌握信息；风险评估模板、咨询长报告和层层汇总的周报都在其中。他认为，低成本生成文本削弱了这些文档原本承担的筛选作用。现场汇报、禁止 AI 代写或改用其他工作评估方式都有成本，作者没有给出一个成熟替代方案。
-🔗 https://seangoedecke.com/writing-is-no-longer-proof-of-work/
-
-3. 微软退出 Nscale 英国数据中心项目，电力交付拖期成为风险
-据 RSS，接电延迟后微软退出 Nscale 英国数据中心项目，给拟议 IPO 增添交付风险。正文未取得。
-🔗 https://www.theinformation.com/briefings/microsoft-pulls-nscale-u-k-data-center-following-delays
-
-4. Neocloud 面临融资考验，Firmus 撤回上市计划
-据 RSS，Firmus 撤回 IPO，报道同时关注 CoreWeave 的债务与 Nscale 运营记录。付费正文未取得。
-🔗 https://www.theinformation.com/articles/neocloud-shakeout-looms-nvidia-lot-lose
-
-5. Anthropic 拟以至少 5% 股份支持公共利益基金
-据 RSS，Anthropic 新设基金将获至少 5% 股份，用于应对 AI 就业影响等问题。报道正文未取得。
-🔗 https://www.theinformation.com/briefings/anthropic-commits-least-5-shares-new-public-benefit-fund
-
-🐦 Twitter 精选（5 / 30）
-
-1. @shao__meng：据其介绍，Harness² 尝试递归优化 Agent 框架，处理陌生任务缺少标准答案、改进难以泛化的问题。
-🔗 https://x.com/shao__meng/status/2111730826308452600
-
-2. @shao__meng：转述播客澄清：GLM 5.3 稀疏注意力缓解的是带宽压力，并不等于大幅减少 KV cache 容量。
-🔗 https://x.com/shao__meng/status/2111815442528669921
-
-3. @shao__meng：分享斯坦福 CS336 推理课程：从低算术强度与内存瓶颈出发，串起压缩参数及 KV cache、投机采样等优化方法。
-🔗 https://x.com/shao__meng/status/2111804476671795223
-
-4. @rileybrown：他称用 Opus 5.5 一条提示完成视频编辑，包括转写分析、获取补充视频、删除口误及构建场景。
-🔗 https://x.com/rileybrown/status/2111925755215040779
-
-5. @emollick：他用 Fable 5.1 把博尔赫斯短篇做成可交互的 3D 体验，希望帮助理解故事，并分享试玩入口。
-🔗 https://x.com/emollick/status/2111700285814940159
-
-📖 查看完整日报（40 篇）→ https://news.justin7974.dev/2026-10-19.html</description>
     </item>
   </channel>
 </rss>
