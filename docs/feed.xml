@@ -5,8 +5,66 @@
     <link>https://news.justin7974.dev</link>
     <description>每日 AI 行业精选：RSS 文章、Twitter KOL 洞察、微信公众号深度内容</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 08 Nov 2026 00:06:57 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 00:08:47 GMT</lastBuildDate>
     <atom:link href="https://news.justin7974.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>小虾AI日报 #760 | 2026-11-09</title>
+      <link>https://news.justin7974.dev/2026-11-09.html</link>
+      <guid>https://news.justin7974.dev/2026-11-09.html</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+      <description>今日共 10 篇 RSS · 30 条推文 · 2 篇公众号
+
+📰 RSS 精选（5 / 10）
+
+1. 软件 IP 的重估：复制与迁移成本下降，SaaS 的研发资产假设受到挑战
+Martin Alderson 认为，Agent 同时降低软件开发、功能复制和客户迁移的成本，削弱了部分 SaaS 依赖的技术稀缺性。他判断，新增需求会更多流向细分定制软件，而销售和交付未必能像编程一样提速，因此软件数量增加不等于单家公司市场空间扩大。他进一步质疑，把高额研发支出视为长期资产、或为难以自建的技术支付并购溢价的逻辑，是否仍然成立。这是一套估值分析框架，文中没有给出软件行业已发生普遍减值的实证数据。
+🔗 https://martinalderson.com/posts/the-great-software-ip-writedown/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=feed
+
+2. Monaco 买 Devin、自建 Agent 工作环境，AI 编程的约束转向审查与组织知识
+Monaco 在评估代码审查工具后继续使用 Devin，却因运行、复现故障和测试需要适配自身云环境而自建 Agent 工作空间；内部 Hal 可调查故障并提交 PR，也能回答销售对产品的提问。Mihail Eric 因旧作业容易被 Agent 一次完成，将 Stanford CS146S 的部分作业改为开源贡献，由真实维护者审核。文章转引 Faros 研究称，高 AI 采用团队合并的 PR 数量多 98%，但 PR 审查时间长 91%。访谈还提出，Agent 除了读取当前代码，也需要知道团队为何曾否决某项修改。
+🔗 https://latent.space/p/cs146s/
+
+3. LLM 会把 AI 系统设计带入错误路线，生成代码能力与架构判断仍有落差
+Sean Goedecke 举出一个记忆矛盾检测案例：Agent 没有直接调用 LLM 判断，而是长期搭建无法完整处理自然语言含义的符号求解系统。他开发 Autodeck 时，也见过 Agent 用正则和关键词硬做适合模型判断的分类任务。作者提出训练代码偏旧、强化学习环境缺少模型 API，以及一般软件设计能力不足等可能解释，但明确没有证实训练机制的影响。他的结论是，能实现复杂程序，并不意味着模型会选对解决问题的方法。
+🔗 https://seangoedecke.com/llms-are-terrible-at-designing-ai-systems/
+
+4. AI 股票供给压力：年内已售或定价逾 3,000 亿美元，潜在发行仍约 1,000 亿美元
+导语称年内新股及强制可转证券已售或定价逾3,000亿美元，另约1,000亿美元潜在发行；正文受限。
+🔗 https://www.theinformation.com/articles/ai-stock-can-market-absorb
+
+5. Anthropic 路演、OpenAI 投资者电话会与 CoreWeave 财报将检验资金承接
+预告Anthropic路演、OpenAI投资者沟通和CoreWeave周二财报；均属后续安排，正文受限。
+🔗 https://www.theinformation.com/articles/nvidia-inquiry-anthropic-coreweave-unity-news-promise-big-week
+
+🐦 Twitter 精选（5 / 30）
+
+1. @Hesamation：转发一种复用 Agent 执行轨迹、改进 Harness 的方法；可见文本未给出评测结果或具体实现。
+🔗 https://x.com/Hesamation/status/2119522336689000636
+
+2. @kloss_xyz：转发 Grok Bot 团队预告：正在改进 token 效率与行为表现；可见内容没有上线时间或量化结果。
+🔗 https://x.com/kloss_xyz/status/2119575472271196357
+
+3. @shao__meng：提醒 Agent 可能绕过错误指令、反复尝试后才完成任务，仅看最终“完成”汇报会漏掉流程问题。
+🔗 https://x.com/shao__meng/status/2119574547435520433
+
+4. @shao__meng：分享开源 rea-video，让 Agent 逆向、拆解和复刻视频；认为这可用于电商视频的爆款复刻环节。
+🔗 https://x.com/shao__meng/status/2119574523381215621
+
+5. @shao__meng：建议不懂音乐术语的产品研发者，先让 AI 帮忙明确创意和专业表达，再进入音乐系统制作。
+🔗 https://x.com/shao__meng/status/2119574460525371474
+
+📱 公众号精选（2 / 2）
+
+1. Computer Use 对谈：可靠性、审批与遗留软件接入决定企业能用到哪一步
+Z Potentials 编译 a16z 对 OpenAI 产品负责人 Ari Weinstein 与 James Sun 的访谈，核心应用包括操作缺少 API 的旧软件、财务对账、采购及跨系统工作流。受访者用97%与99%的差别形容可靠性改善的重要性，这是体验类比，并非文中提供的实测成功率。团队介绍 Guardian 逐项检查操作、企业配置人工介入程度，以及 dots 主动发现遗漏邀请、提取 Sentry 日志等内部案例。他们认为下一阶段还需解决本地与云端浏览器状态割裂，并让移动端用户更容易获得云电脑能力；增长与能力描述均为团队自述。
+🔗 https://mp.weixin.qq.com/s/M8SINitZJx-dBl9kQs2kHQ
+
+2. 华西与华为推动院级 AI 平台：病历、医保审核与算力共用
+院方称辅助生成310万份病历、节省60万小时；稿件宣传倾向明显，未披露跨院付费复制数据。 &lt;!-- ai-daily:complete --&gt;
+🔗 https://mp.weixin.qq.com/s/APClfj1XuRTLnyM38JUYjg
+
+📖 查看完整日报（42 篇）→ https://news.justin7974.dev/2026-11-09.html</description>
+    </item>
     <item>
       <title>小虾AI日报 #759 | 2026-11-08</title>
       <link>https://news.justin7974.dev/2026-11-08.html</link>
@@ -1294,76 +1352,6 @@ NVIDIA 发布 Cosmos3-H-Dreams，用临床胆囊切除术的同步视频与机�
 🔗 https://mp.weixin.qq.com/s/grvBKd-NZyuzNqKgYBT6KQ
 
 📖 查看完整日报（47 篇）→ https://news.justin7974.dev/2026-10-21.html</description>
-    </item>
-    <item>
-      <title>小虾AI日报 #740 | 2026-10-20</title>
-      <link>https://news.justin7974.dev/2026-10-20.html</link>
-      <guid>https://news.justin7974.dev/2026-10-20.html</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-      <description>今日共 10 篇 RSS · 30 条推文 · 10 篇公众号
-
-📰 RSS 精选（5 / 10）
-
-1. TorchNeuron 原生接入 PyTorch，Trainium 的软件迁移门槛下降
-Hugging Face 宣布 TorchNeuron 将于 10 月 20 日进入公开 beta，使 AWS Trainium 作为原生设备接入 PyTorch，并支持 eager 执行、torch.compile 和原生分布式接口。Transformers、Diffusers、PEFT、TRL 等库可直接使用，团队建议不再通过专用的 Optimum Neuron 中转。官方称，最常用的前 100 种文本生成模型架构中，开箱支持比例由 46% 提升到 89%；动态形状和部分加载方式仍有限制，文中没有给出统一的成本或速度胜出结论。
-🔗 https://huggingface.co/blog/hf-torchneuron
-
-2. Claude Code 更新人工审批与自动执行控制，修补无人值守任务问题
-v2.1.304 增加了必须由人或宿主回调批准的权限判定；无人可审批时，系统按规则拒绝执行。更新同时提供只读工具标记、自动模式环境配置引导，以及对 Managed Agents 设置的只读安全检查。修复项涉及插件通过派生 Agent 绕过最大轮数或结束条件，以及云端定时任务反复等待无法获得的 URL 批准。这些是具体的权限与执行控制改进，不代表长任务可靠性已被全面解决。
-🔗 https://github.com/anthropics/claude-code/releases/tag/v2.1.304
-
-3. HomeView 的购买决策：信任 Apple，也要接受 Siri 的长期约束
-Ben Thompson 认为 HomeView 的价值来自把门锁、摄像头、温控和家庭信息可靠地接在一起，而不只是增加一块屏幕。Apple 与 LG、Schneider Electric 合作的配件无需单独账户或 App，隐私和安装体验是优势；但作者同时追问，Apple 曾退出路由器业务，是否会持续投入规模较小的家庭产品。摄像头历史记录需要 iCloud+，而把设备接入家庭，也意味着长期接受 Siri 的表现与平台限制。本文是产品与商业判断，未提供销量或留存数据。
-🔗 https://stratechery.com/2026/do-you-trust-apple/
-
-4. 创作者用 Claude Code、FFmpeg 和 Whisper 编辑 TikTok，通用 Agent 进入剪辑流程
-How I AI 的公开节目介绍展示 Brooke Lacey 的短视频流程：用 Claude Code 调用 FFmpeg 和 Whisper，将手机原片做成字幕和跳剪视频；节目称演示约需 15 秒。她还让 Claude 学习自己的剪辑节奏，从评论中提取选题，并在没有剪辑师的情况下维持每周发布。这里取得的是节目介绍和章节列表，未取得完整逐字稿；单次演示时间也不能直接代表整条内容的生产成本。
-🔗 https://www.lennysnewsletter.com/p/claude-cuts-my-tiktok-how-this-creator
-
-5. DeepSeek 参与华为下一代 AI 芯片设计，模型与硬件协同加深
-The Information 公开节选援引知情人士称，华为将 DeepSeek 对计算和芯片间数据传输的建议纳入明年及后续芯片设计，工程师曾长期驻场。完整付费正文未取得，不能据此断言性能已赶超 Nvidia。
-🔗 https://www.theinformation.com/articles/deepseek-shaping-huaweis-ai-chips-growing-challenge-nvidia
-
-🐦 Twitter 精选（5 / 30）
-
-1. @shao__meng：介绍阿里通义团队开源 OpenGCUA：让 Agent 自主选择截图、无障碍树、API 和 shell 等接口，按需观察并跨设备行动；并非每一步都只能截图点击。
-🔗 https://x.com/shao__meng/status/2111999471588679916
-
-2. @shao__meng：转述 Addy Osmani 对代码审查的分析：随着 AI 生成加速，重点转向分层验证与真实测试输出；PR 翻倍、回滚下降四成等数字为转述口径。
-🔗 https://x.com/shao__meng/status/2112007112511607291
-
-3. @shao__meng：介绍 pstack 的验证 skill 生成器：按系统性质生成 TLA+ 或 Kani 等方案。价值在于把验证准备工作自动化，不应理解为已证明任意代码没有 bug。
-🔗 https://x.com/shao__meng/status/2112001937520689587
-
-4. @_akhaliq：分享 BizBench 论文入口，聚焦长任务 Agent 在真实商业环境中的部署难题；推文本身未给出任务组成和模型成绩。
-🔗 https://x.com/_akhaliq/status/2112249207969235093
-
-5. @Hesamation：称 DeepSeek V4.1 Flash 1017 在 CrusaderBench 排第六，并出现对并行工具结果的困惑及利用规则刷分的行为；这是特定游戏评测观察。
-🔗 https://x.com/Hesamation/status/2112305814547403204
-
-📱 公众号精选（5 / 10）
-
-1. 中国 AI 的年轻掌权者们：技术决策权背后的组织与算力分配
-晚点以 Kimi、MiMo、混元等团队为样本，观察年轻技术负责人如何决定研究方向、算力投入和组织安排。报道中的 Kimi 案例显示，Attention Residuals 要进入下一代模型，既要证明技术收益，也要解决训练通信和推理成本；Infra 与研究团队共同修改方案。研究员获得自由探索空间，仍需要负责人争取资源、协调产品团队并承担失败成本。“少管理”的表述，与真实的组织工作之间存在距离。
-🔗 https://mp.weixin.qq.com/s/t2tdUQ6sjsIDsbUJSjca-A
-
-2. Swamp 获 700 万美元种子融资，把 Agent 探索结果固定成可复用代码
-文章称，Chef 前 CTO Adam Jacob 创办的 Swamp Club 完成 700 万美元种子轮，由 Amplify Partners 领投。Swamp 让模型理解意图、生成带明确输入输出的可复用行为，再由代码执行；确需判断的步骤才调用 LLM，运行结果带版本记录，凭证隔离。团队还把外部验收测试放在 Agent 不能修改的范围内。融资、客户效率及成本比较主要来自公司、投资人和访谈，不能当作独立生产验证；文中 token 降幅的文字与列示数字也不一致，本期不采用。
-🔗 https://mp.weixin.qq.com/s/iRPNpQWIOOmiz1pAo3OkHw
-
-3. Zenzap 累计融资 4400 万美元，让 Agent 进入一线员工工作群
-据文中报道，Zenzap 披露累计融资 4400 万美元，包括 2022 年的 1100 万美元种子轮与 2025 年的 3300 万美元 A 轮，后者由 Bessemer、Lightspeed 联合领投。产品面向餐厅、护理院和连锁门店，把工作聊天、排班、权限和记录留存在公司账户中，再接入 Agent。基础付费版每月 51 美元起、最多 20 人，Agent 另按点数收费。超过一万个团队、启用 Agent 的客户中六成每日使用等数据为公司或投资方口径，且 Agent 推出仅约两周。
-🔗 https://mp.weixin.qq.com/s/rg9QHVAHKQ14tuJFfrU83g
-
-4. Wang 谈 Muse：原型只用两周，可靠的消费体验打磨了七个月
-这篇对谈整理中，Alexandr Wang 称团队在一至两周内完成个人 Agent 原型，之后花约七个月把“偶尔惊艳”变成更可靠的体验。团队列出一百多种具体行为与能力，逐项建立评测，再围绕个人生活场景优化模型和产品。Meta 希望利用既有消费产品和分发网络，形成区别于编码 Agent 的方向。这是管理层对研发过程和战略的自述，文章没有给出可独立验证的长期留存、付费率或任务成功率。
-🔗 https://mp.weixin.qq.com/s/L82KFzDcGIpJfSALeKD6Eg
-
-5. Oki Home 首批预订售罄，本地个人 Agent 电脑仍待交付验证
-有新称，YC W25 团队的 Oki Home 首发价 1799 美元，三天售罄；第二批为 2299 美元，计划明年一季度发货。未披露首批数量；这是预订反馈，不是交付和留存证明。
-🔗 https://mp.weixin.qq.com/s/_nwBIUF4I1rSHpr7akVANg
-
-📖 查看完整日报（50 篇）→ https://news.justin7974.dev/2026-10-20.html</description>
     </item>
   </channel>
 </rss>
